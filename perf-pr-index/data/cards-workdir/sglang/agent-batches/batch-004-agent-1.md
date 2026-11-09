@@ -1,0 +1,17 @@
+PR #22574 | [Diffusion] Add FLUX.1-dev ModelOpt NVFP4 support | pack=data/cards-workdir/sglang/packs/pr-22574.pack.md | out=index/sglang/cards/pr-22574-diffusion-add-flux-1-dev-modelopt-nvfp4.md
+PR #26045 | Apply apply_group_norm_silu to LTX-2 latent upsampler | pack=data/cards-workdir/sglang/packs/pr-26045.pack.md | out=index/sglang/cards/pr-26045-apply-apply-group-norm-silu-to-ltx-2-lat.md
+PR #11133 | [Feature] Qwen3-Next & FLA: Support MTP topk>1; Up to 6% faster | pack=data/cards-workdir/sglang/packs/pr-11133.pack.md | out=index/sglang/cards/pr-11133-feature-qwen3-next-fla-support-mtp-topk.md
+PR #32556 | Autotune flashinfer extend buckets at warmup | pack=data/cards-workdir/sglang/packs/pr-32556.pack.md | out=index/sglang/cards/pr-32556-autotune-flashinfer-extend-buckets-at-wa.md
+PR #45828 | [Perf] fp8: Hopper small-M GEMV, fused KDA output quant, CUDA grouped top-k, partial-block tails | pack=data/cards-workdir/sglang/packs/pr-45828.pack.md | out=index/sglang/cards/pr-45828-perf-fp8-hopper-small-m-gemv-fused-kda-o.md
+PR #18858 | [Perf] ~9.5x faster Blackwell MXFP4 MoE weight loading | pack=data/cards-workdir/sglang/packs/pr-18858.pack.md | out=index/sglang/cards/pr-18858-perf-9-5x-faster-blackwell-mxfp4-moe-wei.md
+PR #17613 | [Perf] refactor piecewise cuda graph support of Qwen3-Next | pack=data/cards-workdir/sglang/packs/pr-17613.pack.md | out=index/sglang/cards/pr-17613-perf-refactor-piecewise-cuda-graph-suppo.md
+PR #23675 | perf: add --prefill-only-disable-kv-cache to skip KV pool allocation | pack=data/cards-workdir/sglang/packs/pr-23675.pack.md | out=index/sglang/cards/pr-23675-perf-add-prefill-only-disable-kv-cache-t.md
+PR #1401 | Support cuda graph in the triton attention backend | pack=data/cards-workdir/sglang/packs/pr-1401.pack.md | out=index/sglang/cards/pr-1401-support-cuda-graph-in-the-triton-attenti.md
+PR #18856 | [VLM] Optimize Ernie4.5-VL rotary embedding with fused triton kernel | pack=data/cards-workdir/sglang/packs/pr-18856.pack.md | out=index/sglang/cards/pr-18856-vlm-optimize-ernie4-5-vl-rotary-embeddin.md
+PR #36094 | [AMD][DSV4] perf: retune decode split-K heuristic for MI355X | pack=data/cards-workdir/sglang/packs/pr-36094.pack.md | out=index/sglang/cards/pr-36094-amd-dsv4-perf-retune-decode-split-k-heur.md
+PR #16725 | support smem in per_token_quant_fp8 kernel | pack=data/cards-workdir/sglang/packs/pr-16725.pack.md | out=index/sglang/cards/pr-16725-support-smem-in-per-token-quant-fp8-kern.md
+PR #18782 | [VLM][LLM] Optimize fused_moe triton kernel tma | pack=data/cards-workdir/sglang/packs/pr-18782.pack.md | out=index/sglang/cards/pr-18782-vlm-llm-optimize-fused-moe-triton-kernel.md
+PR #30775 | Pipeline parallelism x speculative decoding (EAGLE/MTP) compatibility | pack=data/cards-workdir/sglang/packs/pr-30775.pack.md | out=index/sglang/cards/pr-30775-pipeline-parallelism-x-speculative-decod.md
+PR #31961 | Change the FP8 per-tensor GEMM backend on SM120 to cuBLAS | pack=data/cards-workdir/sglang/packs/pr-31961.pack.md | out=index/sglang/cards/pr-31961-change-the-fp8-per-tensor-gemm-backend-o.md
+PR #29664 | [Diffusion] Reuse shared AlignedVector and tidy jit_kernel/diffusion | pack=data/cards-workdir/sglang/packs/pr-29664.pack.md | out=index/sglang/cards/pr-29664-diffusion-reuse-shared-alignedvector-and.md
+PR #36521 | [diffusion][kernel] avoid 4D scale-shift autotuning | pack=data/cards-workdir/sglang/packs/pr-36521.pack.md | out=index/sglang/cards/pr-36521-diffusion-kernel-avoid-4d-scale-shift-au.md

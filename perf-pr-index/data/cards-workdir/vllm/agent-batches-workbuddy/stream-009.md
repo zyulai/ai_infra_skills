@@ -1,0 +1,12 @@
+PR #25763 | [ROCm][Perf] New design on ROCm AITER MHA backend Implementation | pack=data/cards-workdir/vllm/packs/pr-25763.pack.md | out=index/vllm/cards/pr-25763-rocm-perf-new-design-on-rocm-aiter-mha-b.md
+PR #20562 | [Feature] use --eplb_config to set eplb param | pack=data/cards-workdir/vllm/packs/pr-20562.pack.md | out=index/vllm/cards/pr-20562-feature-use-eplb-config-to-set-eplb-para.md
+PR #5975 | [Kernel] Expand FP8 support to Ampere GPUs using FP8 Marlin | pack=data/cards-workdir/vllm/packs/pr-5975.pack.md | out=index/vllm/cards/pr-5975-kernel-expand-fp8-support-to-ampere-gpus.md
+PR #15428 | [Core] [Bugfix] Add Input Embeddings | pack=data/cards-workdir/vllm/packs/pr-15428.pack.md | out=index/vllm/cards/pr-15428-core-bugfix-add-input-embeddings.md
+PR #32425 | [LoRA] Update LoRA expand kernel heuristic | pack=data/cards-workdir/vllm/packs/pr-32425.pack.md | out=index/vllm/cards/pr-32425-lora-update-lora-expand-kernel-heuristic.md
+PR #42755 | [Model][Hardware][AMD][Kernel] Part 2/2 -> Enable e2e QK Norm + RoPE + KV Cache runtime fusion for Qwen3-30B-A3B on ROCM_ATTN | pack=data/cards-workdir/vllm/packs/pr-42755.pack.md | out=index/vllm/cards/pr-42755-model-hardware-amd-kernel-part-2-2-enabl.md
+PR #46514 | [Attention][MLA] FlashMLA sparse: DCP on the fp8_ds_mla mixed-batch path + MTP | pack=data/cards-workdir/vllm/packs/pr-46514.pack.md | out=index/vllm/cards/pr-46514-attention-mla-flashmla-sparse-dcp-on-the.md
+PR #49381 | [ModelOpt] Redesign the LinearMethod classes using the generic QuantKey-driven method | pack=data/cards-workdir/vllm/packs/pr-49381.pack.md | out=index/vllm/cards/pr-49381-modelopt-redesign-the-linearmethod-class.md
+PR #51488 | [Core] Reject new requests while generation is paused | pack=data/cards-workdir/vllm/packs/pr-51488.pack.md | out=index/vllm/cards/pr-51488-core-reject-new-requests-while-generatio.md
+PR #52928 | [Mamba] Add FlashInfer ReplaySSM support for MTP | pack=data/cards-workdir/vllm/packs/pr-52928.pack.md | out=index/vllm/cards/pr-52928-mamba-add-flashinfer-replayssm-support-f.md
+PR #4237 | [Speculative decoding] Add ngram prompt lookup decoding | pack=data/cards-workdir/vllm/packs/pr-4237.pack.md | out=index/vllm/cards/pr-4237-speculative-decoding-add-ngram-prompt-lo.md
+PR #24794 | [Attention] Refactor CUDA attention backend selection logic | pack=data/cards-workdir/vllm/packs/pr-24794.pack.md | out=index/vllm/cards/pr-24794-attention-refactor-cuda-attention-backen.md

@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "Speculative Decoding",
+  "count": 40,
+  "prs": [
+    {
+      "number": 34457,
+      "title": "[Bugfix][MTP][Sparse MLA] Allow sparse MLA with MTP to run with FULL cudagraphs",
+      "pack": "data/cards-workdir/vllm/packs/pr-34457.pack.md",
+      "card_out": "index/vllm/cards/pr-34457-<slug>.md"
+    },
+    {
+      "number": 34974,
+      "title": "[Kernel] Optimize sample_recovered_tokens_kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-34974.pack.md",
+      "card_out": "index/vllm/cards/pr-34974-<slug>.md"
+    },
+    {
+      "number": 35777,
+      "title": "[Kernel] Add fused_sigmoid_gating_delta_rule_update kernel for Qwen3 Next",
+      "pack": "data/cards-workdir/vllm/packs/pr-35777.pack.md",
+      "card_out": "index/vllm/cards/pr-35777-<slug>.md"
+    },
+    {
+      "number": 36723,
+      "title": "[DSV3.2][MTP] Optimize Indexer MTP handling",
+      "pack": "data/cards-workdir/vllm/packs/pr-36723.pack.md",
+      "card_out": "index/vllm/cards/pr-36723-<slug>.md"
+    },
+    {
+      "number": 36847,
+      "title": "[Feat][Spec Decode] DFlash",
+      "pack": "data/cards-workdir/vllm/packs/pr-36847.pack.md",
+      "card_out": "index/vllm/cards/pr-36847-<slug>.md"
+    },
+    {
+      "number": 38047,
+      "title": "[Models][GDN] Remove GPU/CPU syncs in `GDNAttentionMetadata.build` during speculative decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-38047.pack.md",
+      "card_out": "index/vllm/cards/pr-38047-<slug>.md"
+    },
+    {
+      "number": 38174,
+      "title": "[Feature] Universal speculative decoding for heterogeneous vocabularies (TLI)",
+      "pack": "data/cards-workdir/vllm/packs/pr-38174.pack.md",
+      "card_out": "index/vllm/cards/pr-38174-<slug>.md"
+    },
+    {
+      "number": 38938,
+      "title": "Bug/test eagle dp v0",
+      "pack": "data/cards-workdir/vllm/packs/pr-38938.pack.md",
+      "card_out": "index/vllm/cards/pr-38938-<slug>.md"
+    },
+    {
+      "number": 39419,
+      "title": "[SpecDecode] Reduce TP communication for large-vocab draft models speculative decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-39419.pack.md",
+      "card_out": "index/vllm/cards/pr-39419-<slug>.md"
+    },
+    {
+      "number": 39616,
+      "title": "[ROCm][Feature] Enable AITER MLA attention backend to work with Eagle3 speculative decoding on ROCm",
+      "pack": "data/cards-workdir/vllm/packs/pr-39616.pack.md",
+      "card_out": "index/vllm/cards/pr-39616-<slug>.md"
+    },
+    {
+      "number": 40172,
+      "title": "[Perf] [Hybrid] Fused Triton kernel for GPU-side Mamba state postprocessing",
+      "pack": "data/cards-workdir/vllm/packs/pr-40172.pack.md",
+      "card_out": "index/vllm/cards/pr-40172-<slug>.md"
+    },
+    {
+      "number": 40687,
+      "title": "[ROCm][Perf] Support N=5 in wvSplitK skinny GEMM kernels for speculative decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-40687.pack.md",
+      "card_out": "index/vllm/cards/pr-40687-<slug>.md"
+    },
+    {
+      "number": 40704,
+      "title": "[ModelRunner V2] Speculative Decoding NGram GPU Implementations",
+      "pack": "data/cards-workdir/vllm/packs/pr-40704.pack.md",
+      "card_out": "index/vllm/cards/pr-40704-<slug>.md"
+    },
+    {
+      "number": 41932,
+      "title": "[CPU] Fix spec decode kernel signatures for synthetic mode compatibility",
+      "pack": "data/cards-workdir/vllm/packs/pr-41932.pack.md",
+      "card_out": "index/vllm/cards/pr-41932-<slug>.md"
+    },
+    {
+      "number": 42143,
+      "title": "fix(eagle3): read norm_before_fc from eagle_config for NVIDIA checkpoint",
+      "pack": "data/cards-workdir/vllm/packs/pr-42143.pack.md",
+      "card_out": "index/vllm/cards/pr-42143-<slug>.md"
+    },
+    {
+      "number": 43091,
+      "title": "[Model Runner V2][Spec Decode] Support spec decode with draft model",
+      "pack": "data/cards-workdir/vllm/packs/pr-43091.pack.md",
+      "card_out": "index/vllm/cards/pr-43091-<slug>.md"
+    },
+    {
+      "number": 43310,
+      "title": "[Frontend] Expose per-request spec decode metrics in generate API",
+      "pack": "data/cards-workdir/vllm/packs/pr-43310.pack.md",
+      "card_out": "index/vllm/cards/pr-43310-<slug>.md"
+    },
+    {
+      "number": 43477,
+      "title": "Enable DeepSeek V4 and GLM-5.1 on SM120",
+      "pack": "data/cards-workdir/vllm/packs/pr-43477.pack.md",
+      "card_out": "index/vllm/cards/pr-43477-<slug>.md"
+    },
+    {
+      "number": 44297,
+      "title": "[Bugfix][Structured Output][Spec Decode] Constrain bitmask and trim grammar advance at the reasoning boundary",
+      "pack": "data/cards-workdir/vllm/packs/pr-44297.pack.md",
+      "card_out": "index/vllm/cards/pr-44297-<slug>.md"
+    },
+    {
+      "number": 44313,
+      "title": "[ROCm][Perf] Add Fused Shared Expert (FSE) support for GLM-4.5/6/7",
+      "pack": "data/cards-workdir/vllm/packs/pr-44313.pack.md",
+      "card_out": "index/vllm/cards/pr-44313-<slug>.md"
+    },
+    {
+      "number": 44419,
+      "title": "[CPU][Spec Decode] Warn about throughput loss when libiomp5 is not preloaded",
+      "pack": "data/cards-workdir/vllm/packs/pr-44419.pack.md",
+      "card_out": "index/vllm/cards/pr-44419-<slug>.md"
+    },
+    {
+      "number": 44784,
+      "title": "[Bugfix] Prevent cuMemcpyBatchAsync segfault with MTP and KV offloading",
+      "pack": "data/cards-workdir/vllm/packs/pr-44784.pack.md",
+      "card_out": "index/vllm/cards/pr-44784-<slug>.md"
+    },
+    {
+      "number": 44993,
+      "title": "[Bugfix][Structured Output][Spec Decode] Advance grammar across reasoning boundary",
+      "pack": "data/cards-workdir/vllm/packs/pr-44993.pack.md",
+      "card_out": "index/vllm/cards/pr-44993-<slug>.md"
+    },
+    {
+      "number": 45227,
+      "title": "[Bugfix][ROCm] AITER MLA: size MTP verification decode metadata for real qlen/dtype",
+      "pack": "data/cards-workdir/vllm/packs/pr-45227.pack.md",
+      "card_out": "index/vllm/cards/pr-45227-<slug>.md"
+    },
+    {
+      "number": 45635,
+      "title": "[AuxOutput] Add block-keyed storage for routed-expert outputs",
+      "pack": "data/cards-workdir/vllm/packs/pr-45635.pack.md",
+      "card_out": "index/vllm/cards/pr-45635-<slug>.md"
+    },
+    {
+      "number": 46514,
+      "title": "[Attention][MLA] FlashMLA sparse: DCP on the fp8_ds_mla mixed-batch path + MTP",
+      "pack": "data/cards-workdir/vllm/packs/pr-46514.pack.md",
+      "card_out": "index/vllm/cards/pr-46514-<slug>.md"
+    },
+    {
+      "number": 46701,
+      "title": "[Core][V1] Support trace_decode_token_ids for deterministic decode replay",
+      "pack": "data/cards-workdir/vllm/packs/pr-46701.pack.md",
+      "card_out": "index/vllm/cards/pr-46701-<slug>.md"
+    },
+    {
+      "number": 46725,
+      "title": "Runtime Draft Weight Update for Speculative Decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-46725.pack.md",
+      "card_out": "index/vllm/cards/pr-46725-<slug>.md"
+    },
+    {
+      "number": 46994,
+      "title": "[Spec][V2] Support MTP speculative decoding under pipeline parallelism",
+      "pack": "data/cards-workdir/vllm/packs/pr-46994.pack.md",
+      "card_out": "index/vllm/cards/pr-46994-<slug>.md"
+    },
+    {
+      "number": 46995,
+      "title": "[Spec Decode] DSpark",
+      "pack": "data/cards-workdir/vllm/packs/pr-46995.pack.md",
+      "card_out": "index/vllm/cards/pr-46995-<slug>.md"
+    },
+    {
+      "number": 47419,
+      "title": "[ROCm] Enable DeepSeek-V4 DSpark speculative decoding on AMD (MI350X / MI355X, gfx950)",
+      "pack": "data/cards-workdir/vllm/packs/pr-47419.pack.md",
+      "card_out": "index/vllm/cards/pr-47419-<slug>.md"
+    },
+    {
+      "number": 47808,
+      "title": "[Spec Decode] DSpark confidence-scheduled verification",
+      "pack": "data/cards-workdir/vllm/packs/pr-47808.pack.md",
+      "card_out": "index/vllm/cards/pr-47808-<slug>.md"
+    },
+    {
+      "number": 48110,
+      "title": "[Perf][Hybrid] Vectorize _copy_mamba_state_block to uint64 for temporal",
+      "pack": "data/cards-workdir/vllm/packs/pr-48110.pack.md",
+      "card_out": "index/vllm/cards/pr-48110-<slug>.md"
+    },
+    {
+      "number": 48484,
+      "title": "Replicated embedding and norm fusion for DSV3 flat model",
+      "pack": "data/cards-workdir/vllm/packs/pr-48484.pack.md",
+      "card_out": "index/vllm/cards/pr-48484-<slug>.md"
+    },
+    {
+      "number": 48666,
+      "title": "[Kernel] Gemma-4 FA4 FP8 Kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-48666.pack.md",
+      "card_out": "index/vllm/cards/pr-48666-<slug>.md"
+    },
+    {
+      "number": 48841,
+      "title": "[ROCm] [Model] Enable TML inkling",
+      "pack": "data/cards-workdir/vllm/packs/pr-48841.pack.md",
+      "card_out": "index/vllm/cards/pr-48841-<slug>.md"
+    },
+    {
+      "number": 48915,
+      "title": "[Frontend][Core][Spec Decode] Per-request acceptance stats in OpenAI API responses",
+      "pack": "data/cards-workdir/vllm/packs/pr-48915.pack.md",
+      "card_out": "index/vllm/cards/pr-48915-<slug>.md"
+    },
+    {
+      "number": 49436,
+      "title": "[Perf][Hybrid] 3D-grid tiling of the state-copy Triton kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-49436.pack.md",
+      "card_out": "index/vllm/cards/pr-49436-<slug>.md"
+    },
+    {
+      "number": 49793,
+      "title": "[Spec Decode][Perf] Fuse the MTP trailing all-reduce; local-argmax draft tokens",
+      "pack": "data/cards-workdir/vllm/packs/pr-49793.pack.md",
+      "card_out": "index/vllm/cards/pr-49793-<slug>.md"
+    },
+    {
+      "number": 49969,
+      "title": "[Spec Decode] Add top-k DSpark Markov projection",
+      "pack": "data/cards-workdir/vllm/packs/pr-49969.pack.md",
+      "card_out": "index/vllm/cards/pr-49969-<slug>.md"
+    }
+  ]
+}

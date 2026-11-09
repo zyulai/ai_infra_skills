@@ -1,0 +1,17 @@
+PR #20501 | [Kernel] Fuse temperature + softmax in sampling for decode speedup | pack=data/cards-workdir/sglang/packs/pr-20501.pack.md | out=index/sglang/cards/pr-20501-kernel-fuse-temperature-softmax-in-sampl.md
+PR #3709 | Fix allgather ops inside cuda graphs | pack=data/cards-workdir/sglang/packs/pr-3709.pack.md | out=index/sglang/cards/pr-3709-fix-allgather-ops-inside-cuda-graphs.md
+PR #6919 | [sgl-kernel] Add cuda kernel for moe_ep_silu_and_mul | pack=data/cards-workdir/sglang/packs/pr-6919.pack.md | out=index/sglang/cards/pr-6919-sgl-kernel-add-cuda-kernel-for-moe-ep-si.md
+PR #32370 | Optimize FP32 LM head for bf16/fp16 | pack=data/cards-workdir/sglang/packs/pr-32370.pack.md | out=index/sglang/cards/pr-32370-optimize-fp32-lm-head-for-bf16-fp16.md
+PR #33484 | perf(hisparse): fuse the DSv4 value and scale swap-in copy on ROCm | pack=data/cards-workdir/sglang/packs/pr-33484.pack.md | out=index/sglang/cards/pr-33484-perf-hisparse-fuse-the-dsv4-value-and-sc.md
+PR #39881 | [NPU] Fuse MXFP4 W4A8 MoE gmm1 + swiglu + requant into one kernel | pack=data/cards-workdir/sglang/packs/pr-39881.pack.md | out=index/sglang/cards/pr-39881-npu-fuse-mxfp4-w4a8-moe-gmm1-swiglu-requ.md
+PR #32818 | [Fix] Route asymmetric-KV models to fa4 on SM100 and pin MiMoV2 FP8 MoE to flashinfer_trtllm | pack=data/cards-workdir/sglang/packs/pr-32818.pack.md | out=index/sglang/cards/pr-32818-fix-route-asymmetric-kv-models-to-fa4-on.md
+PR #33838 | [AMD] Perf Kimi-K3 MoE optimization | pack=data/cards-workdir/sglang/packs/pr-33838.pack.md | out=index/sglang/cards/pr-33838-amd-perf-kimi-k3-moe-optimization.md
+PR #35995 | [diffusion] Fuse LongCat-Image QKNorm and interleaved RoPE | pack=data/cards-workdir/sglang/packs/pr-35995.pack.md | out=index/sglang/cards/pr-35995-diffusion-fuse-longcat-image-qknorm-and.md
+PR #31888 | [DSA] Q8KV8 FP8 Sparse Prefill on GLM-5.2 & DeepSeek-V3.2: Q8-Path & Shared-Path Optimizations | pack=data/cards-workdir/sglang/packs/pr-31888.pack.md | out=index/sglang/cards/pr-31888-dsa-q8kv8-fp8-sparse-prefill-on-glm-5-2.md
+PR #23860 | [perf] cherry-pick #22911: support return_routed_experts with overlap scheduling | pack=data/cards-workdir/sglang/packs/pr-23860.pack.md | out=index/sglang/cards/pr-23860-perf-cherry-pick-22911-support-return-ro.md
+PR #8364 | [1/2] sgl-kernel: Fuse routed scaling factor into select_experts | pack=data/cards-workdir/sglang/packs/pr-8364.pack.md | out=index/sglang/cards/pr-8364-1-2-sgl-kernel-fuse-routed-scaling-facto.md
+PR #22180 | [Spec][Ngram] Followup fixes for `MatchState` incremental advance | pack=data/cards-workdir/sglang/packs/pr-22180.pack.md | out=index/sglang/cards/pr-22180-spec-ngram-followup-fixes-for-matchstate.md
+PR #41880 | [Perf] [AMD] Qwen3.8: AITER FlyDSL hc_mix for Qwen3.8 hyper-connections on gfx950 | pack=data/cards-workdir/sglang/packs/pr-41880.pack.md | out=index/sglang/cards/pr-41880-perf-amd-qwen3-8-aiter-flydsl-hc-mix-for.md
+PR #23827 | [NPU] Support shared expert dual stream optimization | pack=data/cards-workdir/sglang/packs/pr-23827.pack.md | out=index/sglang/cards/pr-23827-npu-support-shared-expert-dual-stream-op.md
+PR #15464 | Optimize MiMo-V2-Flash by flashinfer fused allreduce | pack=data/cards-workdir/sglang/packs/pr-15464.pack.md | out=index/sglang/cards/pr-15464-optimize-mimo-v2-flash-by-flashinfer-fus.md
+PR #35374 | [Kernel] Add H200 MoE configs for Qwen3.5 and Qwen3.6 | pack=data/cards-workdir/sglang/packs/pr-35374.pack.md | out=index/sglang/cards/pr-35374-kernel-add-h200-moe-configs-for-qwen3-5.md

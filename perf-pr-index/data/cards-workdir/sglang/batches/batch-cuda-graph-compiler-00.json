@@ -1,0 +1,247 @@
+{
+  "repo": "sglang",
+  "category": "CUDA Graph / Compiler",
+  "count": 40,
+  "prs": [
+    {
+      "number": 1401,
+      "title": "Support cuda graph in the triton attention backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-1401.pack.md",
+      "card_out": "index/sglang/cards/pr-1401-<slug>.md"
+    },
+    {
+      "number": 3709,
+      "title": "Fix allgather ops inside cuda graphs",
+      "pack": "data/cards-workdir/sglang/packs/pr-3709.pack.md",
+      "card_out": "index/sglang/cards/pr-3709-<slug>.md"
+    },
+    {
+      "number": 8577,
+      "title": "[Optimization][Perf] Disable the GC during CUDA graph capture to speed up by up to 3x",
+      "pack": "data/cards-workdir/sglang/packs/pr-8577.pack.md",
+      "card_out": "index/sglang/cards/pr-8577-<slug>.md"
+    },
+    {
+      "number": 10062,
+      "title": "Piecewise CUDA Graph Support & Torch Compile Backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-10062.pack.md",
+      "card_out": "index/sglang/cards/pr-10062-<slug>.md"
+    },
+    {
+      "number": 12112,
+      "title": "Optimize triton_mrope with torch compile",
+      "pack": "data/cards-workdir/sglang/packs/pr-12112.pack.md",
+      "card_out": "index/sglang/cards/pr-12112-<slug>.md"
+    },
+    {
+      "number": 12996,
+      "title": "Support piecewise cuda graph for deepseek v3",
+      "pack": "data/cards-workdir/sglang/packs/pr-12996.pack.md",
+      "card_out": "index/sglang/cards/pr-12996-<slug>.md"
+    },
+    {
+      "number": 13055,
+      "title": "[VLM] Support Piecewise CUDA Graph for Qwen2.5-VL ",
+      "pack": "data/cards-workdir/sglang/packs/pr-13055.pack.md",
+      "card_out": "index/sglang/cards/pr-13055-<slug>.md"
+    },
+    {
+      "number": 13640,
+      "title": "[VLM] Support Piecewise CUDA Graph for InternVL",
+      "pack": "data/cards-workdir/sglang/packs/pr-13640.pack.md",
+      "card_out": "index/sglang/cards/pr-13640-<slug>.md"
+    },
+    {
+      "number": 15320,
+      "title": "[VLM] Support ViT Piecewise CUDA Graph for Qwen3-VL",
+      "pack": "data/cards-workdir/sglang/packs/pr-15320.pack.md",
+      "card_out": "index/sglang/cards/pr-15320-<slug>.md"
+    },
+    {
+      "number": 15631,
+      "title": "[jit-kernel] Add CuTe DSL GDN Decode Kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-15631.pack.md",
+      "card_out": "index/sglang/cards/pr-15631-<slug>.md"
+    },
+    {
+      "number": 16732,
+      "title": "[VLM] Support ViT CUDA Graph for InternVL",
+      "pack": "data/cards-workdir/sglang/packs/pr-16732.pack.md",
+      "card_out": "index/sglang/cards/pr-16732-<slug>.md"
+    },
+    {
+      "number": 17255,
+      "title": "fix tp capture in vit cuda graph",
+      "pack": "data/cards-workdir/sglang/packs/pr-17255.pack.md",
+      "card_out": "index/sglang/cards/pr-17255-<slug>.md"
+    },
+    {
+      "number": 17613,
+      "title": "[Perf] refactor piecewise cuda graph support of Qwen3-Next",
+      "pack": "data/cards-workdir/sglang/packs/pr-17613.pack.md",
+      "card_out": "index/sglang/cards/pr-17613-<slug>.md"
+    },
+    {
+      "number": 17934,
+      "title": "[Kernel] Add JIT rotary_embedding_kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-17934.pack.md",
+      "card_out": "index/sglang/cards/pr-17934-<slug>.md"
+    },
+    {
+      "number": 18336,
+      "title": "[diffusion][hot fix] fix torch.compile graph break caused by torch._dynamo.disable",
+      "pack": "data/cards-workdir/sglang/packs/pr-18336.pack.md",
+      "card_out": "index/sglang/cards/pr-18336-<slug>.md"
+    },
+    {
+      "number": 18871,
+      "title": "Migrate norm kernels to FlashInfer JIT implementation",
+      "pack": "data/cards-workdir/sglang/packs/pr-18871.pack.md",
+      "card_out": "index/sglang/cards/pr-18871-<slug>.md"
+    },
+    {
+      "number": 19818,
+      "title": "Fix torch.compile/dynamo crash with Qwen3 QK-norm in piecewise CUDA g…",
+      "pack": "data/cards-workdir/sglang/packs/pr-19818.pack.md",
+      "card_out": "index/sglang/cards/pr-19818-<slug>.md"
+    },
+    {
+      "number": 19880,
+      "title": "[JIT Kernel][Feature] Support JIT custom all reduce (rewrite as v2)",
+      "pack": "data/cards-workdir/sglang/packs/pr-19880.pack.md",
+      "card_out": "index/sglang/cards/pr-19880-<slug>.md"
+    },
+    {
+      "number": 20976,
+      "title": "Replace _resolve_future_token_ids with JIT kernel + platform dispatch",
+      "pack": "data/cards-workdir/sglang/packs/pr-20976.pack.md",
+      "card_out": "index/sglang/cards/pr-20976-<slug>.md"
+    },
+    {
+      "number": 20999,
+      "title": "Replace clamp_position with JIT kernel + platform dispatch",
+      "pack": "data/cards-workdir/sglang/packs/pr-20999.pack.md",
+      "card_out": "index/sglang/cards/pr-20999-<slug>.md"
+    },
+    {
+      "number": 21190,
+      "title": "[Whisper] Enable CUDA graph support and timestamp for whisper model",
+      "pack": "data/cards-workdir/sglang/packs/pr-21190.pack.md",
+      "card_out": "index/sglang/cards/pr-21190-<slug>.md"
+    },
+    {
+      "number": 21977,
+      "title": "perf: enable inductor combo_kernels for horizontal fusion",
+      "pack": "data/cards-workdir/sglang/packs/pr-21977.pack.md",
+      "card_out": "index/sglang/cards/pr-21977-<slug>.md"
+    },
+    {
+      "number": 23906,
+      "title": "[Refactor] Cuda Graph Runner/Backend Refactor",
+      "pack": "data/cards-workdir/sglang/packs/pr-23906.pack.md",
+      "card_out": "index/sglang/cards/pr-23906-<slug>.md"
+    },
+    {
+      "number": 24584,
+      "title": "amd/deepseek_v4 integration 13/N Attn kernel early exit with cuda-graph 0507",
+      "pack": "data/cards-workdir/sglang/packs/pr-24584.pack.md",
+      "card_out": "index/sglang/cards/pr-24584-<slug>.md"
+    },
+    {
+      "number": 26788,
+      "title": "[JIT Kernel] DeepSeek-V4 DSA indexer: faster top-k + page-table transform (runtime k <= 2048)",
+      "pack": "data/cards-workdir/sglang/packs/pr-26788.pack.md",
+      "card_out": "index/sglang/cards/pr-26788-<slug>.md"
+    },
+    {
+      "number": 27988,
+      "title": "[Experimental] Full Cuda Graph Support for Prefill",
+      "pack": "data/cards-workdir/sglang/packs/pr-27988.pack.md",
+      "card_out": "index/sglang/cards/pr-27988-<slug>.md"
+    },
+    {
+      "number": 28173,
+      "title": "[AMD] Make breakable CUDA graph run on ROCm/HIP",
+      "pack": "data/cards-workdir/sglang/packs/pr-28173.pack.md",
+      "card_out": "index/sglang/cards/pr-28173-<slug>.md"
+    },
+    {
+      "number": 28304,
+      "title": "[perf] Use default torch compile mode for Wan2.2 T2V A14B",
+      "pack": "data/cards-workdir/sglang/packs/pr-28304.pack.md",
+      "card_out": "index/sglang/cards/pr-28304-<slug>.md"
+    },
+    {
+      "number": 28534,
+      "title": "[AMD] Enable JIT staged HiCache write-back and fix CPU-index crash",
+      "pack": "data/cards-workdir/sglang/packs/pr-28534.pack.md",
+      "card_out": "index/sglang/cards/pr-28534-<slug>.md"
+    },
+    {
+      "number": 29458,
+      "title": "Enable Breakable Cuda Graph as Default",
+      "pack": "data/cards-workdir/sglang/packs/pr-29458.pack.md",
+      "card_out": "index/sglang/cards/pr-29458-<slug>.md"
+    },
+    {
+      "number": 30206,
+      "title": "fix(server): capture legal multi-request prefill CUDA graph batches",
+      "pack": "data/cards-workdir/sglang/packs/pr-30206.pack.md",
+      "card_out": "index/sglang/cards/pr-30206-<slug>.md"
+    },
+    {
+      "number": 31430,
+      "title": "Remove unused draft-extend CUDA graph top-k",
+      "pack": "data/cards-workdir/sglang/packs/pr-31430.pack.md",
+      "card_out": "index/sglang/cards/pr-31430-<slug>.md"
+    },
+    {
+      "number": 32017,
+      "title": "[Model Loading] Overlap checkpoint staging with CUDA graph capture during startup",
+      "pack": "data/cards-workdir/sglang/packs/pr-32017.pack.md",
+      "card_out": "index/sglang/cards/pr-32017-<slug>.md"
+    },
+    {
+      "number": 35724,
+      "title": "[diffusion] Enable LongCat breakable CUDA graphs",
+      "pack": "data/cards-workdir/sglang/packs/pr-35724.pack.md",
+      "card_out": "index/sglang/cards/pr-35724-<slug>.md"
+    },
+    {
+      "number": 36560,
+      "title": "MiniMax-M3: wave64 histogram-select decode top-k, and raise kMaxNumBlocks for CUDA graphs",
+      "pack": "data/cards-workdir/sglang/packs/pr-36560.pack.md",
+      "card_out": "index/sglang/cards/pr-36560-<slug>.md"
+    },
+    {
+      "number": 40543,
+      "title": "fix(cuda-graph): remove unnecessary CP batch alignment",
+      "pack": "data/cards-workdir/sglang/packs/pr-40543.pack.md",
+      "card_out": "index/sglang/cards/pr-40543-<slug>.md"
+    },
+    {
+      "number": 40556,
+      "title": "[DeepSeek V4.1] Add DeepSelect JIT kernel.",
+      "pack": "data/cards-workdir/sglang/packs/pr-40556.pack.md",
+      "card_out": "index/sglang/cards/pr-40556-<slug>.md"
+    },
+    {
+      "number": 41223,
+      "title": "[Perf] Mamba2 selective_state_update up to 2x faster on B200 via 8x1 launch config for dstate 128 (+7.5% Nemotron-3-Super serving)",
+      "pack": "data/cards-workdir/sglang/packs/pr-41223.pack.md",
+      "card_out": "index/sglang/cards/pr-41223-<slug>.md"
+    },
+    {
+      "number": 43563,
+      "title": "[Fix] Account for captured inputs in DeepGEMM masked workspace budget",
+      "pack": "data/cards-workdir/sglang/packs/pr-43563.pack.md",
+      "card_out": "index/sglang/cards/pr-43563-<slug>.md"
+    },
+    {
+      "number": 43736,
+      "title": "[DeepSeek-V4.1] Run decoder SWA bounded replay inside the breakable prefill CUDA graph",
+      "pack": "data/cards-workdir/sglang/packs/pr-43736.pack.md",
+      "card_out": "index/sglang/cards/pr-43736-<slug>.md"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "Other",
+  "count": 40,
+  "prs": [
+    {
+      "number": 15428,
+      "title": "[Core] [Bugfix] Add Input Embeddings",
+      "pack": "data/cards-workdir/vllm/packs/pr-15428.pack.md",
+      "card_out": "index/vllm/cards/pr-15428-<slug>.md"
+    },
+    {
+      "number": 18465,
+      "title": "[V1] Support `LLM.apply_model`",
+      "pack": "data/cards-workdir/vllm/packs/pr-18465.pack.md",
+      "card_out": "index/vllm/cards/pr-18465-<slug>.md"
+    },
+    {
+      "number": 19330,
+      "title": "[V1] [P/D] Add Support for KV Load Failure Recovery",
+      "pack": "data/cards-workdir/vllm/packs/pr-19330.pack.md",
+      "card_out": "index/vllm/cards/pr-19330-<slug>.md"
+    },
+    {
+      "number": 20358,
+      "title": "Update PyTorch to 2.8.0",
+      "pack": "data/cards-workdir/vllm/packs/pr-20358.pack.md",
+      "card_out": "index/vllm/cards/pr-20358-<slug>.md"
+    },
+    {
+      "number": 20412,
+      "title": "[V0 deprecation] Remove V0 CPU/XPU/TPU backends",
+      "pack": "data/cards-workdir/vllm/packs/pr-20412.pack.md",
+      "card_out": "index/vllm/cards/pr-20412-<slug>.md"
+    },
+    {
+      "number": 20562,
+      "title": "[Feature] use --eplb_config to set eplb param",
+      "pack": "data/cards-workdir/vllm/packs/pr-20562.pack.md",
+      "card_out": "index/vllm/cards/pr-20562-<slug>.md"
+    },
+    {
+      "number": 20859,
+      "title": "[Feature] limit thinking tokens (hard limit)",
+      "pack": "data/cards-workdir/vllm/packs/pr-20859.pack.md",
+      "card_out": "index/vllm/cards/pr-20859-<slug>.md"
+    },
+    {
+      "number": 28454,
+      "title": "[Core] Parse vLLM engine required fields from hf_config to model_arch_config",
+      "pack": "data/cards-workdir/vllm/packs/pr-28454.pack.md",
+      "card_out": "index/vllm/cards/pr-28454-<slug>.md"
+    },
+    {
+      "number": 29060,
+      "title": "[Docker] Optimize Dockerfile: consolidate apt-get and reduce image size by ~200MB",
+      "pack": "data/cards-workdir/vllm/packs/pr-29060.pack.md",
+      "card_out": "index/vllm/cards/pr-29060-<slug>.md"
+    },
+    {
+      "number": 34644,
+      "title": "[release 2.11] Update to torch 2.11",
+      "pack": "data/cards-workdir/vllm/packs/pr-34644.pack.md",
+      "card_out": "index/vllm/cards/pr-34644-<slug>.md"
+    },
+    {
+      "number": 34936,
+      "title": "[UX] Add `--performance-mode {balanced,interactivity,throughput}`",
+      "pack": "data/cards-workdir/vllm/packs/pr-34936.pack.md",
+      "card_out": "index/vllm/cards/pr-34936-<slug>.md"
+    },
+    {
+      "number": 35182,
+      "title": "[Misc] Reorganize inputs",
+      "pack": "data/cards-workdir/vllm/packs/pr-35182.pack.md",
+      "card_out": "index/vllm/cards/pr-35182-<slug>.md"
+    },
+    {
+      "number": 37469,
+      "title": "[perf][cpu] Accelerate BF16 GELU with LUT impl on Arm CPUs",
+      "pack": "data/cards-workdir/vllm/packs/pr-37469.pack.md",
+      "card_out": "index/vllm/cards/pr-37469-<slug>.md"
+    },
+    {
+      "number": 38112,
+      "title": "[CPU] Added faster exp routine for lower precision data types.",
+      "pack": "data/cards-workdir/vllm/packs/pr-38112.pack.md",
+      "card_out": "index/vllm/cards/pr-38112-<slug>.md"
+    },
+    {
+      "number": 40784,
+      "title": "[ROCm][Perf] Tune wvSplitK on gfx1151",
+      "pack": "data/cards-workdir/vllm/packs/pr-40784.pack.md",
+      "card_out": "index/vllm/cards/pr-40784-<slug>.md"
+    },
+    {
+      "number": 43107,
+      "title": "[Core] Check for GPU<->CPU syncs during CI",
+      "pack": "data/cards-workdir/vllm/packs/pr-43107.pack.md",
+      "card_out": "index/vllm/cards/pr-43107-<slug>.md"
+    },
+    {
+      "number": 44124,
+      "title": "feat: support to OpenMOSS-Team",
+      "pack": "data/cards-workdir/vllm/packs/pr-44124.pack.md",
+      "card_out": "index/vllm/cards/pr-44124-<slug>.md"
+    },
+    {
+      "number": 44639,
+      "title": "[CPU][Perf]Added tanh AOR for faster gelu activations.",
+      "pack": "data/cards-workdir/vllm/packs/pr-44639.pack.md",
+      "card_out": "index/vllm/cards/pr-44639-<slug>.md"
+    },
+    {
+      "number": 45022,
+      "title": "[Bugfix][Model] Voxtral realtime: fix boot OOM and engine crash at max_model_len",
+      "pack": "data/cards-workdir/vllm/packs/pr-45022.pack.md",
+      "card_out": "index/vllm/cards/pr-45022-<slug>.md"
+    },
+    {
+      "number": 46370,
+      "title": "[Feature] Initial support for fault tolerant ep using scale-down",
+      "pack": "data/cards-workdir/vllm/packs/pr-46370.pack.md",
+      "card_out": "index/vllm/cards/pr-46370-<slug>.md"
+    },
+    {
+      "number": 49571,
+      "title": "[Hardware][Power] Add FAST_EXP for Power",
+      "pack": "data/cards-workdir/vllm/packs/pr-49571.pack.md",
+      "card_out": "index/vllm/cards/pr-49571-<slug>.md"
+    },
+    {
+      "number": 51210,
+      "title": "[ModelRunner V2] Minor indexing optimizations",
+      "pack": "data/cards-workdir/vllm/packs/pr-51210.pack.md",
+      "card_out": "index/vllm/cards/pr-51210-<slug>.md"
+    },
+    {
+      "number": 51488,
+      "title": "[Core] Reject new requests while generation is paused",
+      "pack": "data/cards-workdir/vllm/packs/pr-51488.pack.md",
+      "card_out": "index/vllm/cards/pr-51488-<slug>.md"
+    },
+    {
+      "number": 52372,
+      "title": "[Bugfix][Mooncake] Reference GPU blocks for in-flight store jobs and key the store ledger by store_job_id",
+      "pack": "data/cards-workdir/vllm/packs/pr-52372.pack.md",
+      "card_out": "index/vllm/cards/pr-52372-<slug>.md"
+    },
+    {
+      "number": 52436,
+      "title": "[Bugfix][Spec Decode][Structured Output] DSpark: fix the grammar bitmask mapping when the draft budget is zero",
+      "pack": "data/cards-workdir/vllm/packs/pr-52436.pack.md",
+      "card_out": "index/vllm/cards/pr-52436-<slug>.md"
+    },
+    {
+      "number": 53183,
+      "title": "[Model Runner V2] Use MRV2 for all models by default",
+      "pack": "data/cards-workdir/vllm/packs/pr-53183.pack.md",
+      "card_out": "index/vllm/cards/pr-53183-<slug>.md"
+    },
+    {
+      "number": 54053,
+      "title": "[feature] Watermarked generation and detection (Gumbel-max algorithm)",
+      "pack": "data/cards-workdir/vllm/packs/pr-54053.pack.md",
+      "card_out": "index/vllm/cards/pr-54053-<slug>.md"
+    },
+    {
+      "number": 54320,
+      "title": "[Mypy] Fix mypy typing for Transformers models",
+      "pack": "data/cards-workdir/vllm/packs/pr-54320.pack.md",
+      "card_out": "index/vllm/cards/pr-54320-<slug>.md"
+    },
+    {
+      "number": 54335,
+      "title": "[Feature] Add fixed-token prefill scoring",
+      "pack": "data/cards-workdir/vllm/packs/pr-54335.pack.md",
+      "card_out": "index/vllm/cards/pr-54335-<slug>.md"
+    },
+    {
+      "number": 54442,
+      "title": "[Bugfix] Don't let a structured-output request sample from an unmasked row",
+      "pack": "data/cards-workdir/vllm/packs/pr-54442.pack.md",
+      "card_out": "index/vllm/cards/pr-54442-<slug>.md"
+    },
+    {
+      "number": 54736,
+      "title": "[Feature][SimpleCPU] Load fine-grained hybrid prefix hits",
+      "pack": "data/cards-workdir/vllm/packs/pr-54736.pack.md",
+      "card_out": "index/vllm/cards/pr-54736-<slug>.md"
+    },
+    {
+      "number": 54988,
+      "title": "[ROCm] Give turboquant boundary layers a layout-compatible backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-54988.pack.md",
+      "card_out": "index/vllm/cards/pr-54988-<slug>.md"
+    },
+    {
+      "number": 55072,
+      "title": "[Perf][Distributed] Add low-SM multimem reduce-scatter for SM100/SM103",
+      "pack": "data/cards-workdir/vllm/packs/pr-55072.pack.md",
+      "card_out": "index/vllm/cards/pr-55072-<slug>.md"
+    },
+    {
+      "number": 56301,
+      "title": "[ROCm][Perf] W4A16: pad gfx11 weight and activation strides",
+      "pack": "data/cards-workdir/vllm/packs/pr-56301.pack.md",
+      "card_out": "index/vllm/cards/pr-56301-<slug>.md"
+    },
+    {
+      "number": 56801,
+      "title": "[watermark] compatibility validation",
+      "pack": "data/cards-workdir/vllm/packs/pr-56801.pack.md",
+      "card_out": "index/vllm/cards/pr-56801-<slug>.md"
+    },
+    {
+      "number": 57205,
+      "title": "[Core] Model console logging as CLI configuration",
+      "pack": "data/cards-workdir/vllm/packs/pr-57205.pack.md",
+      "card_out": "index/vllm/cards/pr-57205-<slug>.md"
+    },
+    {
+      "number": 58761,
+      "title": "[ROCm][CI] Make ROCm 10.0 the default image; keep ROCm 7.2 as -rocm72",
+      "pack": "data/cards-workdir/vllm/packs/pr-58761.pack.md",
+      "card_out": "index/vllm/cards/pr-58761-<slug>.md"
+    },
+    {
+      "number": 60500,
+      "title": "[Perf][Nemotron-Parse] Do image rescale/normalize on the device",
+      "pack": "data/cards-workdir/vllm/packs/pr-60500.pack.md",
+      "card_out": "index/vllm/cards/pr-60500-<slug>.md"
+    },
+    {
+      "number": 61458,
+      "title": "[Perf][Model] Batch PaddleOCR-VL vision encoder and projector",
+      "pack": "data/cards-workdir/vllm/packs/pr-61458.pack.md",
+      "card_out": "index/vllm/cards/pr-61458-<slug>.md"
+    },
+    {
+      "number": 61727,
+      "title": "Add Step-5 Preview support",
+      "pack": "data/cards-workdir/vllm/packs/pr-61727.pack.md",
+      "card_out": "index/vllm/cards/pr-61727-<slug>.md"
+    }
+  ]
+}

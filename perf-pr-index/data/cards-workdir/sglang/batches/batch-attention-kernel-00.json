@@ -1,0 +1,247 @@
+{
+  "repo": "sglang",
+  "category": "Attention / Kernel",
+  "count": 40,
+  "prs": [
+    {
+      "number": 1138,
+      "title": "Optimize MLA/GQA/MQA Triton decoding",
+      "pack": "data/cards-workdir/sglang/packs/pr-1138.pack.md",
+      "card_out": "index/sglang/cards/pr-1138-<slug>.md"
+    },
+    {
+      "number": 1845,
+      "title": "[Performance, Triton Kernel Args] _decode_grouped_softmax_reducev_fwd…",
+      "pack": "data/cards-workdir/sglang/packs/pr-1845.pack.md",
+      "card_out": "index/sglang/cards/pr-1845-<slug>.md"
+    },
+    {
+      "number": 1941,
+      "title": "[Performance, Triton Kernel Args] extend_attention, optimize kern args to _fwd_kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-1941.pack.md",
+      "card_out": "index/sglang/cards/pr-1941-<slug>.md"
+    },
+    {
+      "number": 1980,
+      "title": "[Performance, Triton] Optimize over mask compute to tl.load in fused_moe_kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-1980.pack.md",
+      "card_out": "index/sglang/cards/pr-1980-<slug>.md"
+    },
+    {
+      "number": 2610,
+      "title": "Change extend attention kernel launch parameter for ROCm platform to …",
+      "pack": "data/cards-workdir/sglang/packs/pr-2610.pack.md",
+      "card_out": "index/sglang/cards/pr-2610-<slug>.md"
+    },
+    {
+      "number": 2966,
+      "title": "optimize MiniMax-Text-01 lightning_attn_decode triton",
+      "pack": "data/cards-workdir/sglang/packs/pr-2966.pack.md",
+      "card_out": "index/sglang/cards/pr-2966-<slug>.md"
+    },
+    {
+      "number": 3550,
+      "title": "feat: support flashinfer mla attention for deepseek v3",
+      "pack": "data/cards-workdir/sglang/packs/pr-3550.pack.md",
+      "card_out": "index/sglang/cards/pr-3550-<slug>.md"
+    },
+    {
+      "number": 3987,
+      "title": "Add fast decode plan for flashinfer mla",
+      "pack": "data/cards-workdir/sglang/packs/pr-3987.pack.md",
+      "card_out": "index/sglang/cards/pr-3987-<slug>.md"
+    },
+    {
+      "number": 4553,
+      "title": " Optimize Triton decoding kernel for dynamic workload",
+      "pack": "data/cards-workdir/sglang/packs/pr-4553.pack.md",
+      "card_out": "index/sglang/cards/pr-4553-<slug>.md"
+    },
+    {
+      "number": 5262,
+      "title": "Optimize GPU memory usage in FlashAttentionBackend's strided indexing",
+      "pack": "data/cards-workdir/sglang/packs/pr-5262.pack.md",
+      "card_out": "index/sglang/cards/pr-5262-<slug>.md"
+    },
+    {
+      "number": 5381,
+      "title": "kernel: support slightly faster merge_state_v2 cuda kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-5381.pack.md",
+      "card_out": "index/sglang/cards/pr-5381-<slug>.md"
+    },
+    {
+      "number": 5432,
+      "title": "[perf] introduce deep gemm group_gemm_masked as bmm",
+      "pack": "data/cards-workdir/sglang/packs/pr-5432.pack.md",
+      "card_out": "index/sglang/cards/pr-5432-<slug>.md"
+    },
+    {
+      "number": 5716,
+      "title": "perf: update H20 fused_moe_triton kernel config to get higher throughput during prefilling",
+      "pack": "data/cards-workdir/sglang/packs/pr-5716.pack.md",
+      "card_out": "index/sglang/cards/pr-5716-<slug>.md"
+    },
+    {
+      "number": 6699,
+      "title": "[EP] Add cuda kernel for moe_ep_pre_reorder",
+      "pack": "data/cards-workdir/sglang/packs/pr-6699.pack.md",
+      "card_out": "index/sglang/cards/pr-6699-<slug>.md"
+    },
+    {
+      "number": 6890,
+      "title": "Use deepgemm instead of triton for fused_qkv_a_proj_with_mqa",
+      "pack": "data/cards-workdir/sglang/packs/pr-6890.pack.md",
+      "card_out": "index/sglang/cards/pr-6890-<slug>.md"
+    },
+    {
+      "number": 6919,
+      "title": "[sgl-kernel] Add cuda kernel for moe_ep_silu_and_mul",
+      "pack": "data/cards-workdir/sglang/packs/pr-6919.pack.md",
+      "card_out": "index/sglang/cards/pr-6919-<slug>.md"
+    },
+    {
+      "number": 7635,
+      "title": "Apply dsv3_fused_a_gemm kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-7635.pack.md",
+      "card_out": "index/sglang/cards/pr-7635-<slug>.md"
+    },
+    {
+      "number": 8364,
+      "title": "[1/2] sgl-kernel: Fuse routed scaling factor into select_experts",
+      "pack": "data/cards-workdir/sglang/packs/pr-8364.pack.md",
+      "card_out": "index/sglang/cards/pr-8364-<slug>.md"
+    },
+    {
+      "number": 8770,
+      "title": "[1/2][resubmit] sgl-kernel: Fuse routed scaling factor into moe_fused_gate (select_experts)",
+      "pack": "data/cards-workdir/sglang/packs/pr-8770.pack.md",
+      "card_out": "index/sglang/cards/pr-8770-<slug>.md"
+    },
+    {
+      "number": 8884,
+      "title": "[Feature] Support custom set kv buffer kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-8884.pack.md",
+      "card_out": "index/sglang/cards/pr-8884-<slug>.md"
+    },
+    {
+      "number": 8940,
+      "title": "Improve LoRA Perf by Deprecating FlashInfer and Eliminating Redundant Tensor Ops",
+      "pack": "data/cards-workdir/sglang/packs/pr-8940.pack.md",
+      "card_out": "index/sglang/cards/pr-8940-<slug>.md"
+    },
+    {
+      "number": 9477,
+      "title": "Optimize moe_sum_reduce_kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-9477.pack.md",
+      "card_out": "index/sglang/cards/pr-9477-<slug>.md"
+    },
+    {
+      "number": 9748,
+      "title": "[Generative Score API] Scoring(Prefill-only) optimizations.",
+      "pack": "data/cards-workdir/sglang/packs/pr-9748.pack.md",
+      "card_out": "index/sglang/cards/pr-9748-<slug>.md"
+    },
+    {
+      "number": 10321,
+      "title": "[1/2][sgl-kernel] Support moe_sum_reduce cuda kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-10321.pack.md",
+      "card_out": "index/sglang/cards/pr-10321-<slug>.md"
+    },
+    {
+      "number": 10543,
+      "title": "[sgl-kernel] Optimize concat_mla_k kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-10543.pack.md",
+      "card_out": "index/sglang/cards/pr-10543-<slug>.md"
+    },
+    {
+      "number": 10680,
+      "title": "[Performance] Qwen3-Next: optimize causal_conv1d_fn triton kernel - up to 9% faster",
+      "pack": "data/cards-workdir/sglang/packs/pr-10680.pack.md",
+      "card_out": "index/sglang/cards/pr-10680-<slug>.md"
+    },
+    {
+      "number": 10709,
+      "title": "[4/4] Introduce CachedKernel to reduce CSGMV kernel launch overheads by 60%",
+      "pack": "data/cards-workdir/sglang/packs/pr-10709.pack.md",
+      "card_out": "index/sglang/cards/pr-10709-<slug>.md"
+    },
+    {
+      "number": 11722,
+      "title": "Support mrope triton kernel and add unit test",
+      "pack": "data/cards-workdir/sglang/packs/pr-11722.pack.md",
+      "card_out": "index/sglang/cards/pr-11722-<slug>.md"
+    },
+    {
+      "number": 12306,
+      "title": "feat: support flashinfer kernel autotune",
+      "pack": "data/cards-workdir/sglang/packs/pr-12306.pack.md",
+      "card_out": "index/sglang/cards/pr-12306-<slug>.md"
+    },
+    {
+      "number": 12995,
+      "title": "[Diffusion] kernel: timestep embedding kernel implementation",
+      "pack": "data/cards-workdir/sglang/packs/pr-12995.pack.md",
+      "card_out": "index/sglang/cards/pr-12995-<slug>.md"
+    },
+    {
+      "number": 13102,
+      "title": "[AMD] Add AITER Custom All-Reduce",
+      "pack": "data/cards-workdir/sglang/packs/pr-13102.pack.md",
+      "card_out": "index/sglang/cards/pr-13102-<slug>.md"
+    },
+    {
+      "number": 14717,
+      "title": "[diffusion] kernel fusion: gated residual layernorm scale shift and layernorm scale shift kernel fusion for Qwen-Image, WAN and HunyuanVideo",
+      "pack": "data/cards-workdir/sglang/packs/pr-14717.pack.md",
+      "card_out": "index/sglang/cards/pr-14717-<slug>.md"
+    },
+    {
+      "number": 15347,
+      "title": "Use dsv3 optimized routing `fused_topk_deepseek` instead of `moe_fused_gate`",
+      "pack": "data/cards-workdir/sglang/packs/pr-15347.pack.md",
+      "card_out": "index/sglang/cards/pr-15347-<slug>.md"
+    },
+    {
+      "number": 15464,
+      "title": "Optimize MiMo-V2-Flash by flashinfer fused allreduce",
+      "pack": "data/cards-workdir/sglang/packs/pr-15464.pack.md",
+      "card_out": "index/sglang/cards/pr-15464-<slug>.md"
+    },
+    {
+      "number": 16397,
+      "title": "Optimize layernorm_gated for Qwen3-Next",
+      "pack": "data/cards-workdir/sglang/packs/pr-16397.pack.md",
+      "card_out": "index/sglang/cards/pr-16397-<slug>.md"
+    },
+    {
+      "number": 16766,
+      "title": "[AMD][Diffusion] support timestep embedding kernel for AMD GPUs",
+      "pack": "data/cards-workdir/sglang/packs/pr-16766.pack.md",
+      "card_out": "index/sglang/cards/pr-16766-<slug>.md"
+    },
+    {
+      "number": 17241,
+      "title": "[Perf] fuse q, k norm for Flux2Attention",
+      "pack": "data/cards-workdir/sglang/packs/pr-17241.pack.md",
+      "card_out": "index/sglang/cards/pr-17241-<slug>.md"
+    },
+    {
+      "number": 17706,
+      "title": "[bugfix] avoid attention padding tokens computation in pcg",
+      "pack": "data/cards-workdir/sglang/packs/pr-17706.pack.md",
+      "card_out": "index/sglang/cards/pr-17706-<slug>.md"
+    },
+    {
+      "number": 18782,
+      "title": "[VLM][LLM] Optimize fused_moe triton kernel tma",
+      "pack": "data/cards-workdir/sglang/packs/pr-18782.pack.md",
+      "card_out": "index/sglang/cards/pr-18782-<slug>.md"
+    },
+    {
+      "number": 18856,
+      "title": "[VLM] Optimize Ernie4.5-VL rotary embedding with fused triton kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-18856.pack.md",
+      "card_out": "index/sglang/cards/pr-18856-<slug>.md"
+    }
+  ]
+}

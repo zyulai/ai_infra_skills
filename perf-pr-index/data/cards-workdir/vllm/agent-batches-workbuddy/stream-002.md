@@ -1,0 +1,12 @@
+PR #29060 | [Docker] Optimize Dockerfile: consolidate apt-get and reduce image size by ~200MB | pack=data/cards-workdir/vllm/packs/pr-29060.pack.md | out=index/vllm/cards/pr-29060-docker-optimize-dockerfile-consolidate-a.md
+PR #58621 | [Perf][DSv4] Fuse inverse RoPE + FP8 quant into FlashInfer sparse MLA | pack=data/cards-workdir/vllm/packs/pr-58621.pack.md | out=index/vllm/cards/pr-58621-perf-dsv4-fuse-inverse-rope-fp8-quant-in.md
+PR #62027 | [Perf][Parser] Stream Qwen3 tool argument values incrementally (12 KB call: 2.1 s to 11 ms) | pack=data/cards-workdir/vllm/packs/pr-62027.pack.md | out=index/vllm/cards/pr-62027-perf-parser-stream-qwen3-tool-argument-v.md
+PR #57168 | [MM][Mistral] Add compile support for Pixtral vision encoders | pack=data/cards-workdir/vllm/packs/pr-57168.pack.md | out=index/vllm/cards/pr-57168-mm-mistral-add-compile-support-for-pixtr.md
+PR #56853 | [ROCm][Perf] Enable HCA dual-stream overlap for DeepSeek-V4 | pack=data/cards-workdir/vllm/packs/pr-56853.pack.md | out=index/vllm/cards/pr-56853-rocm-perf-enable-hca-dual-stream-overlap.md
+PR #52277 | [Perf][Frontend] Vectorize Cohere binary embedding bit-packing | pack=data/cards-workdir/vllm/packs/pr-52277.pack.md | out=index/vllm/cards/pr-52277-perf-frontend-vectorize-cohere-binary-em.md
+PR #54560 | [Kernel][Qwen] Add Hopper LL-GEMM tuning table for Qwen4Exp | pack=data/cards-workdir/vllm/packs/pr-54560.pack.md | out=index/vllm/cards/pr-54560-kernel-qwen-add-hopper-ll-gemm-tuning-ta.md
+PR #4978 | [Speculative Decoding] Medusa Implementation with Top-1 proposer | pack=data/cards-workdir/vllm/packs/pr-4978.pack.md | out=index/vllm/cards/pr-4978-speculative-decoding-medusa-implementati.md
+PR #22428 | [Kernel] [Quantization] Add MXFP4 and bias support for marlin kernel | pack=data/cards-workdir/vllm/packs/pr-22428.pack.md | out=index/vllm/cards/pr-22428-kernel-quantization-add-mxfp4-and-bias-s.md
+PR #30647 | [Perf] Eliminate padding and slicing op for GPT-OSS with Flashinfer MXFP4 MXFP8 MoE | pack=data/cards-workdir/vllm/packs/pr-30647.pack.md | out=index/vllm/cards/pr-30647-perf-eliminate-padding-and-slicing-op-fo.md
+PR #36162 | [Mamba] Flashinfer selective_state_update | pack=data/cards-workdir/vllm/packs/pr-36162.pack.md | out=index/vllm/cards/pr-36162-mamba-flashinfer-selective-state-update.md
+PR #43273 | [GDN] GDN Prefill kernel for SM100 | pack=data/cards-workdir/vllm/packs/pr-43273.pack.md | out=index/vllm/cards/pr-43273-gdn-gdn-prefill-kernel-for-sm100.md

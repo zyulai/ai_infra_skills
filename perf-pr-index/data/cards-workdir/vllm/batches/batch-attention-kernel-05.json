@@ -1,0 +1,175 @@
+{
+  "repo": "vllm",
+  "category": "Attention / Kernel",
+  "count": 28,
+  "prs": [
+    {
+      "number": 58737,
+      "title": "[Perf] Fuse the mamba align block-table gather into one Triton kernel, 7 kernels -> 1, 6x speedup on all shapes for this kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-58737.pack.md",
+      "card_out": "index/vllm/cards/pr-58737-<slug>.md"
+    },
+    {
+      "number": 58769,
+      "title": "[ROCm][Triton] Migrate Kimi-K3 kernels from make_block_ptr to tensor …",
+      "pack": "data/cards-workdir/vllm/packs/pr-58769.pack.md",
+      "card_out": "index/vllm/cards/pr-58769-<slug>.md"
+    },
+    {
+      "number": 58846,
+      "title": "[Kernel] Bump FlashKDA to keep the recurrent state in fp32",
+      "pack": "data/cards-workdir/vllm/packs/pr-58846.pack.md",
+      "card_out": "index/vllm/cards/pr-58846-<slug>.md"
+    },
+    {
+      "number": 59533,
+      "title": "[Perf][Qwen4Exp] Merge QSA QKVG and indexer QK projections",
+      "pack": "data/cards-workdir/vllm/packs/pr-59533.pack.md",
+      "card_out": "index/vllm/cards/pr-59533-<slug>.md"
+    },
+    {
+      "number": 59938,
+      "title": "[XPU] use multimodal_rotary_embedding xpu kernel for mrope",
+      "pack": "data/cards-workdir/vllm/packs/pr-59938.pack.md",
+      "card_out": "index/vllm/cards/pr-59938-<slug>.md"
+    },
+    {
+      "number": 60102,
+      "title": "[ROCm][DSv4.1][Perf] Route gfx942 sparse MLA prefill to AITER pa_prefill_sparse",
+      "pack": "data/cards-workdir/vllm/packs/pr-60102.pack.md",
+      "card_out": "index/vllm/cards/pr-60102-<slug>.md"
+    },
+    {
+      "number": 60159,
+      "title": "[ROCm][Perf] Use native merge_attn_states kernel on gfx942/gfx950",
+      "pack": "data/cards-workdir/vllm/packs/pr-60159.pack.md",
+      "card_out": "index/vllm/cards/pr-60159-<slug>.md"
+    },
+    {
+      "number": 60345,
+      "title": "[Perf] Support minimum KV splits configuration for TokenSpeed MLA decode ",
+      "pack": "data/cards-workdir/vllm/packs/pr-60345.pack.md",
+      "card_out": "index/vllm/cards/pr-60345-<slug>.md"
+    },
+    {
+      "number": 60618,
+      "title": "[Perf][Kernel] Single-launch fused scoring+top-k kernel for sparse-indexer prefill, without materializing logits",
+      "pack": "data/cards-workdir/vllm/packs/pr-60618.pack.md",
+      "card_out": "index/vllm/cards/pr-60618-<slug>.md"
+    },
+    {
+      "number": 60753,
+      "title": "[Perf][ROCm][GLM-5.3-Flash] AITER prefill indexer topk",
+      "pack": "data/cards-workdir/vllm/packs/pr-60753.pack.md",
+      "card_out": "index/vllm/cards/pr-60753-<slug>.md"
+    },
+    {
+      "number": 60762,
+      "title": "[Bugfix][DSv4.1] Declare 64-token kernel blocks for SM120 sparse backends",
+      "pack": "data/cards-workdir/vllm/packs/pr-60762.pack.md",
+      "card_out": "index/vllm/cards/pr-60762-<slug>.md"
+    },
+    {
+      "number": 60948,
+      "title": "[Dependency] Upgrade FlashInfer to 0.7.1",
+      "pack": "data/cards-workdir/vllm/packs/pr-60948.pack.md",
+      "card_out": "index/vllm/cards/pr-60948-<slug>.md"
+    },
+    {
+      "number": 61448,
+      "title": "[ROCm][Model] Add fusions for Muse Glimmer for AMD backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-61448.pack.md",
+      "card_out": "index/vllm/cards/pr-61448-<slug>.md"
+    },
+    {
+      "number": 61903,
+      "title": "[Perf][Kernel] Add a CuteDSL BF16x3 router GEMM for fp32 router weights on Hopper",
+      "pack": "data/cards-workdir/vllm/packs/pr-61903.pack.md",
+      "card_out": "index/vllm/cards/pr-61903-<slug>.md"
+    },
+    {
+      "number": 62029,
+      "title": "[Attention] Use trtllm-gen for the FlashInfer DCP prefill context pass",
+      "pack": "data/cards-workdir/vllm/packs/pr-62029.pack.md",
+      "card_out": "index/vllm/cards/pr-62029-<slug>.md"
+    },
+    {
+      "number": 62132,
+      "title": "[Kernel]Add norm fused kernel for Step-5 Preview and Muse Spark Open",
+      "pack": "data/cards-workdir/vllm/packs/pr-62132.pack.md",
+      "card_out": "index/vllm/cards/pr-62132-<slug>.md"
+    },
+    {
+      "number": 62219,
+      "title": "[Kernel][Perf] Add H100 tuned configs for Llama-3.1-8B and Qwen3-8B to the batch-invariant matmul table",
+      "pack": "data/cards-workdir/vllm/packs/pr-62219.pack.md",
+      "card_out": "index/vllm/cards/pr-62219-<slug>.md"
+    },
+    {
+      "number": 62475,
+      "title": "[ROCm][Build] Compile paged attention kernels in parallel (7.6x faster attention build)",
+      "pack": "data/cards-workdir/vllm/packs/pr-62475.pack.md",
+      "card_out": "index/vllm/cards/pr-62475-<slug>.md"
+    },
+    {
+      "number": 62632,
+      "title": "[Perf][Kernel][DSv4.1] Copy-based Q zero-pad for large eager mega-attention steps",
+      "pack": "data/cards-workdir/vllm/packs/pr-62632.pack.md",
+      "card_out": "index/vllm/cards/pr-62632-<slug>.md"
+    },
+    {
+      "number": 62633,
+      "title": "[Perf][Kernel][DSv4.1] Swap-AB CuTe DSL decode attention for small TP2/TP4 steps",
+      "pack": "data/cards-workdir/vllm/packs/pr-62633.pack.md",
+      "card_out": "index/vllm/cards/pr-62633-<slug>.md"
+    },
+    {
+      "number": 63864,
+      "title": "[Perf] Tune the Triton packed GDN decode tile on SM90",
+      "pack": "data/cards-workdir/vllm/packs/pr-63864.pack.md",
+      "card_out": "index/vllm/cards/pr-63864-<slug>.md"
+    },
+    {
+      "number": 63891,
+      "title": "[ROCm][Perf][DSv4.1] Run DSpark's fused Markov sampling on gfx950 with --monokernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-63891.pack.md",
+      "card_out": "index/vllm/cards/pr-63891-<slug>.md"
+    },
+    {
+      "number": 63956,
+      "title": "[Perf][DSA] Token-sharded sparse-MLA prefill under TP; remove indexer row sharding",
+      "pack": "data/cards-workdir/vllm/packs/pr-63956.pack.md",
+      "card_out": "index/vllm/cards/pr-63956-<slug>.md"
+    },
+    {
+      "number": 64481,
+      "title": "[Perf][GLM-5.3] Enable GLM low-latency BF16 GEMM on SM100",
+      "pack": "data/cards-workdir/vllm/packs/pr-64481.pack.md",
+      "card_out": "index/vllm/cards/pr-64481-<slug>.md"
+    },
+    {
+      "number": 64580,
+      "title": "[Kernel][DSA] Restore FP32 indexer MQA logits for non-DeepSeek models and add `indexer_logits_dtype`",
+      "pack": "data/cards-workdir/vllm/packs/pr-64580.pack.md",
+      "card_out": "index/vllm/cards/pr-64580-<slug>.md"
+    },
+    {
+      "number": 65201,
+      "title": "[Bugfix][HiSparse] Avoid the MNNVL FlashInfer all-reduce with HiSparse",
+      "pack": "data/cards-workdir/vllm/packs/pr-65201.pack.md",
+      "card_out": "index/vllm/cards/pr-65201-<slug>.md"
+    },
+    {
+      "number": 65214,
+      "title": "[HiSparse] Support the extensible KV cache",
+      "pack": "data/cards-workdir/vllm/packs/pr-65214.pack.md",
+      "card_out": "index/vllm/cards/pr-65214-<slug>.md"
+    },
+    {
+      "number": 65778,
+      "title": "[Bugfix][Multimodal] Fix FlashInfer ViT attention for GLM-4.1V, GLM-OCR and GLM-5.3-Flash",
+      "pack": "data/cards-workdir/vllm/packs/pr-65778.pack.md",
+      "card_out": "index/vllm/cards/pr-65778-<slug>.md"
+    }
+  ]
+}

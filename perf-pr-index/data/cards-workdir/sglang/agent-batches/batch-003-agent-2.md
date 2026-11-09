@@ -1,0 +1,17 @@
+PR #17387 | [model-gateway] Optimize special token search using Aho-Corasick | pack=data/cards-workdir/sglang/packs/pr-17387.pack.md | out=index/sglang/cards/pr-17387-model-gateway-optimize-special-token-sea.md
+PR #21314 | CUTLASS NVFP4 GEMM improvement of SM120 | pack=data/cards-workdir/sglang/packs/pr-21314.pack.md | out=index/sglang/cards/pr-21314-cutlass-nvfp4-gemm-improvement-of-sm120.md
+PR #29382 | [CPU] use faster exp in silu_and_mul | pack=data/cards-workdir/sglang/packs/pr-29382.pack.md | out=index/sglang/cards/pr-29382-cpu-use-faster-exp-in-silu-and-mul.md
+PR #35882 | [diffusion] optimization: transfer mapped layers through a courier thread | pack=data/cards-workdir/sglang/packs/pr-35882.pack.md | out=index/sglang/cards/pr-35882-diffusion-optimization-transfer-mapped-l.md
+PR #29202 | [AMD] Enable draft-extend CUDA graph and reduce bubble for MTP | pack=data/cards-workdir/sglang/packs/pr-29202.pack.md | out=index/sglang/cards/pr-29202-amd-enable-draft-extend-cuda-graph-and-r.md
+PR #16732 | [VLM] Support ViT CUDA Graph for InternVL | pack=data/cards-workdir/sglang/packs/pr-16732.pack.md | out=index/sglang/cards/pr-16732-vlm-support-vit-cuda-graph-for-internvl.md
+PR #30575 | [AMD] Enable Fast Triton Sparse MLA backend | pack=data/cards-workdir/sglang/packs/pr-30575.pack.md | out=index/sglang/cards/pr-30575-amd-enable-fast-triton-sparse-mla-backen.md
+PR #9477 | Optimize moe_sum_reduce_kernel | pack=data/cards-workdir/sglang/packs/pr-9477.pack.md | out=index/sglang/cards/pr-9477-optimize-moe-sum-reduce-kernel.md
+PR #30247 | Optimize LongCat-Flash router GEMM with the HPC-Ops bf16xfp32 kernel | pack=data/cards-workdir/sglang/packs/pr-30247.pack.md | out=index/sglang/cards/pr-30247-optimize-longcat-flash-router-gemm-with.md
+PR #37577 | [Feature] Add Aaronson-Gumbel text watermarking | pack=data/cards-workdir/sglang/packs/pr-37577.pack.md | out=index/sglang/cards/pr-37577-feature-add-aaronson-gumbel-text-waterma.md
+PR #36507 | GLM-5.3-Flash support | pack=data/cards-workdir/sglang/packs/pr-36507.pack.md | out=index/sglang/cards/pr-36507-glm-5-3-flash-support.md
+PR #44394 | [Feat] [CPU] cpu-graph: Add prefill torch compile graph and dynamic graph support | pack=data/cards-workdir/sglang/packs/pr-44394.pack.md | out=index/sglang/cards/pr-44394-feat-cpu-cpu-graph-add-prefill-torch-com.md
+PR #46690 | [Feat] [AMD] minimax: gfx950 sparse attention, NVFP4 KV and DSpark verify kernels | pack=data/cards-workdir/sglang/packs/pr-46690.pack.md | out=index/sglang/cards/pr-46690-feat-amd-minimax-gfx950-sparse-attention.md
+PR #47062 | [Perf] [AMD] attention: Use the AITER FAv3 varlen kernel on gfx942 as well | pack=data/cards-workdir/sglang/packs/pr-47062.pack.md | out=index/sglang/cards/pr-47062-perf-amd-attention-use-the-aiter-fav3-va.md
+PR #13049 | Support moe topk sigmoid kernel | pack=data/cards-workdir/sglang/packs/pr-13049.pack.md | out=index/sglang/cards/pr-13049-support-moe-topk-sigmoid-kernel.md
+PR #18185 | [Omni] Optimize AudioEncoder for Qwen3_Omni_Thinker | pack=data/cards-workdir/sglang/packs/pr-18185.pack.md | out=index/sglang/cards/pr-18185-omni-optimize-audioencoder-for-qwen3-omn.md
+PR #25663 | [MoE Refactor] [NPU] Refactor Ascend MoE implementation to reduce code duplication and align with community design | pack=data/cards-workdir/sglang/packs/pr-25663.pack.md | out=index/sglang/cards/pr-25663-moe-refactor-npu-refactor-ascend-moe-imp.md

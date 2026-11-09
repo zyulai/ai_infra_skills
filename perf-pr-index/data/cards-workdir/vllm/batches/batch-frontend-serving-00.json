@@ -1,0 +1,67 @@
+{
+  "repo": "vllm",
+  "category": "Frontend / Serving",
+  "count": 10,
+  "prs": [
+    {
+      "number": 7957,
+      "title": "[Frontend] Minor optimizations to zmq decoupled front-end",
+      "pack": "data/cards-workdir/vllm/packs/pr-7957.pack.md",
+      "card_out": "index/vllm/cards/pr-7957-<slug>.md"
+    },
+    {
+      "number": 19946,
+      "title": "[Perf][Frontend]: eliminate api_key and x_request_id headers middleware overhead",
+      "pack": "data/cards-workdir/vllm/packs/pr-19946.pack.md",
+      "card_out": "index/vllm/cards/pr-19946-<slug>.md"
+    },
+    {
+      "number": 24078,
+      "title": "[Core] Remove tokenizer group in vLLM",
+      "pack": "data/cards-workdir/vllm/packs/pr-24078.pack.md",
+      "card_out": "index/vllm/cards/pr-24078-<slug>.md"
+    },
+    {
+      "number": 27987,
+      "title": "[Core] Add a random suffix to frontend-provided request IDs",
+      "pack": "data/cards-workdir/vllm/packs/pr-27987.pack.md",
+      "card_out": "index/vllm/cards/pr-27987-<slug>.md"
+    },
+    {
+      "number": 30200,
+      "title": "[Frontend] Introduce Renderer for processing chat messages (using `ModelConfig`)",
+      "pack": "data/cards-workdir/vllm/packs/pr-30200.pack.md",
+      "card_out": "index/vllm/cards/pr-30200-<slug>.md"
+    },
+    {
+      "number": 44890,
+      "title": "[Frontend][Core] Add release_kv_cache_memory() API",
+      "pack": "data/cards-workdir/vllm/packs/pr-44890.pack.md",
+      "card_out": "index/vllm/cards/pr-44890-<slug>.md"
+    },
+    {
+      "number": 46051,
+      "title": "[Rust Frontend][Perf] Use dedicated runtime for HTTP/request-processing/ZMQ",
+      "pack": "data/cards-workdir/vllm/packs/pr-46051.pack.md",
+      "card_out": "index/vllm/cards/pr-46051-<slug>.md"
+    },
+    {
+      "number": 51360,
+      "title": "[Frontend] Add reusable TP1 initialized-engine snapshots",
+      "pack": "data/cards-workdir/vllm/packs/pr-51360.pack.md",
+      "card_out": "index/vllm/cards/pr-51360-<slug>.md"
+    },
+    {
+      "number": 55700,
+      "title": "[Feat][Frontend] Add Watchdog for Engine and Worker Monitoring",
+      "pack": "data/cards-workdir/vllm/packs/pr-55700.pack.md",
+      "card_out": "index/vllm/cards/pr-55700-<slug>.md"
+    },
+    {
+      "number": 55781,
+      "title": "[Frontend][RL] Track HTTP weight operation outcomes and concurrency",
+      "pack": "data/cards-workdir/vllm/packs/pr-55781.pack.md",
+      "card_out": "index/vllm/cards/pr-55781-<slug>.md"
+    }
+  ]
+}

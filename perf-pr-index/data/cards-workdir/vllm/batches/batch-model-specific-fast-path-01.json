@@ -1,0 +1,169 @@
+{
+  "repo": "vllm",
+  "category": "Model-specific Fast Path",
+  "count": 27,
+  "prs": [
+    {
+      "number": 55331,
+      "title": "[Perf] Read VidCom2 frame budgets once",
+      "pack": "data/cards-workdir/vllm/packs/pr-55331.pack.md",
+      "card_out": "index/vllm/cards/pr-55331-<slug>.md"
+    },
+    {
+      "number": 55422,
+      "title": "[Docker] Compile Python bytecode at image build time",
+      "pack": "data/cards-workdir/vllm/packs/pr-55422.pack.md",
+      "card_out": "index/vllm/cards/pr-55422-<slug>.md"
+    },
+    {
+      "number": 56214,
+      "title": "[Model] Support DeepSeek-V4.1-Flash",
+      "pack": "data/cards-workdir/vllm/packs/pr-56214.pack.md",
+      "card_out": "index/vllm/cards/pr-56214-<slug>.md"
+    },
+    {
+      "number": 56277,
+      "title": "[MM] Mistral vision Encoder CG support ",
+      "pack": "data/cards-workdir/vllm/packs/pr-56277.pack.md",
+      "card_out": "index/vllm/cards/pr-56277-<slug>.md"
+    },
+    {
+      "number": 57101,
+      "title": "[Perf] Optimize Molmo2 pooling preparation",
+      "pack": "data/cards-workdir/vllm/packs/pr-57101.pack.md",
+      "card_out": "index/vllm/cards/pr-57101-<slug>.md"
+    },
+    {
+      "number": 57168,
+      "title": "[MM][Mistral] Add compile support for Pixtral vision encoders",
+      "pack": "data/cards-workdir/vllm/packs/pr-57168.pack.md",
+      "card_out": "index/vllm/cards/pr-57168-<slug>.md"
+    },
+    {
+      "number": 57250,
+      "title": "[Core] structured generation mode for DiffusionGemma model (Jev-like)",
+      "pack": "data/cards-workdir/vllm/packs/pr-57250.pack.md",
+      "card_out": "index/vllm/cards/pr-57250-<slug>.md"
+    },
+    {
+      "number": 57273,
+      "title": "[Perf][Model] Qwen4Exp QSA: sm_90 tuning table for _select_config",
+      "pack": "data/cards-workdir/vllm/packs/pr-57273.pack.md",
+      "card_out": "index/vllm/cards/pr-57273-<slug>.md"
+    },
+    {
+      "number": 57387,
+      "title": "[Model] Use upstream GLM-5.3 and Qwen4-Exp configs and processor",
+      "pack": "data/cards-workdir/vllm/packs/pr-57387.pack.md",
+      "card_out": "index/vllm/cards/pr-57387-<slug>.md"
+    },
+    {
+      "number": 57443,
+      "title": "[GLM 5.3 Perf] Enable fused multi-step decode, 13.3% E2E throughput improvement for concurrency 1",
+      "pack": "data/cards-workdir/vllm/packs/pr-57443.pack.md",
+      "card_out": "index/vllm/cards/pr-57443-<slug>.md"
+    },
+    {
+      "number": 58046,
+      "title": "[Mypy] Fix mypy typing for Qwen and Qianfan models",
+      "pack": "data/cards-workdir/vllm/packs/pr-58046.pack.md",
+      "card_out": "index/vllm/cards/pr-58046-<slug>.md"
+    },
+    {
+      "number": 58216,
+      "title": "[Perf] DiffusionGemma: constrained reads over the request's logprob_token_ids",
+      "pack": "data/cards-workdir/vllm/packs/pr-58216.pack.md",
+      "card_out": "index/vllm/cards/pr-58216-<slug>.md"
+    },
+    {
+      "number": 58800,
+      "title": "[ROCm] gfx1250 optimizations and model enablement",
+      "pack": "data/cards-workdir/vllm/packs/pr-58800.pack.md",
+      "card_out": "index/vllm/cards/pr-58800-<slug>.md"
+    },
+    {
+      "number": 58984,
+      "title": "[Perf][Spec Decode] Avoid target request padding in DP drafter",
+      "pack": "data/cards-workdir/vllm/packs/pr-58984.pack.md",
+      "card_out": "index/vllm/cards/pr-58984-<slug>.md"
+    },
+    {
+      "number": 59327,
+      "title": "[Perf][DSv4.1] Faster Engram host lookups: sorted rows, inline big lookups",
+      "pack": "data/cards-workdir/vllm/packs/pr-59327.pack.md",
+      "card_out": "index/vllm/cards/pr-59327-<slug>.md"
+    },
+    {
+      "number": 60103,
+      "title": "[Perf][HiSparse] Fuse per-layer slot invalidation and shorten the all-resident resolver path",
+      "pack": "data/cards-workdir/vllm/packs/pr-60103.pack.md",
+      "card_out": "index/vllm/cards/pr-60103-<slug>.md"
+    },
+    {
+      "number": 60229,
+      "title": "[Spec Decode][GLM-5.3-Flash] Support adaptive verification",
+      "pack": "data/cards-workdir/vllm/packs/pr-60229.pack.md",
+      "card_out": "index/vllm/cards/pr-60229-<slug>.md"
+    },
+    {
+      "number": 60339,
+      "title": "[Spec Decode][MRV2] Suffix decoding speculator for Model Runner V2",
+      "pack": "data/cards-workdir/vllm/packs/pr-60339.pack.md",
+      "card_out": "index/vllm/cards/pr-60339-<slug>.md"
+    },
+    {
+      "number": 60643,
+      "title": "[Perf][Gemma4][Multimodal] Fuse Gemma4Unified 2D posemb and batch image/video embedder",
+      "pack": "data/cards-workdir/vllm/packs/pr-60643.pack.md",
+      "card_out": "index/vllm/cards/pr-60643-<slug>.md"
+    },
+    {
+      "number": 60644,
+      "title": "[ROCm][RDNA][Perf] W4A16: packed fp16 prefill dequant and tiles for gfx1151",
+      "pack": "data/cards-workdir/vllm/packs/pr-60644.pack.md",
+      "card_out": "index/vllm/cards/pr-60644-<slug>.md"
+    },
+    {
+      "number": 60731,
+      "title": "[ROCm][Perf][DSv4.1] Mono decode on MI300X and MI325X (gfx942)",
+      "pack": "data/cards-workdir/vllm/packs/pr-60731.pack.md",
+      "card_out": "index/vllm/cards/pr-60731-<slug>.md"
+    },
+    {
+      "number": 62027,
+      "title": "[Perf][Parser] Stream Qwen3 tool argument values incrementally (12 KB call: 2.1 s to 11 ms)",
+      "pack": "data/cards-workdir/vllm/packs/pr-62027.pack.md",
+      "card_out": "index/vllm/cards/pr-62027-<slug>.md"
+    },
+    {
+      "number": 62392,
+      "title": "[Perf][AuxOutput] Do not rescan referenced keys in the routed-experts store",
+      "pack": "data/cards-workdir/vllm/packs/pr-62392.pack.md",
+      "card_out": "index/vllm/cards/pr-62392-<slug>.md"
+    },
+    {
+      "number": 62592,
+      "title": "[Feature][HiSparse] Add a platform backend for device operations",
+      "pack": "data/cards-workdir/vllm/packs/pr-62592.pack.md",
+      "card_out": "index/vllm/cards/pr-62592-<slug>.md"
+    },
+    {
+      "number": 62698,
+      "title": "[Perf][MRV2] Parallelize staged writes across 1024-element chunks",
+      "pack": "data/cards-workdir/vllm/packs/pr-62698.pack.md",
+      "card_out": "index/vllm/cards/pr-62698-<slug>.md"
+    },
+    {
+      "number": 64357,
+      "title": "[Model Loader] Run the model-level post-load hook once at the end of every load and reload",
+      "pack": "data/cards-workdir/vllm/packs/pr-64357.pack.md",
+      "card_out": "index/vllm/cards/pr-64357-<slug>.md"
+    },
+    {
+      "number": 65041,
+      "title": "[Bugfix][MRV2][Spec Decode] Keep P/D prompt tails on FULL graphs with adaptive verification",
+      "pack": "data/cards-workdir/vllm/packs/pr-65041.pack.md",
+      "card_out": "index/vllm/cards/pr-65041-<slug>.md"
+    }
+  ]
+}

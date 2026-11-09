@@ -1,0 +1,17 @@
+PR #42122 | [XPU] Use the shared fused decode-metadata kernel in the intel_xpu ba… | pack=data/cards-workdir/sglang/packs/pr-42122.pack.md | out=index/sglang/cards/pr-42122-xpu-use-the-shared-fused-decode-metadata.md
+PR #37591 | [ROCm] Make DSA indexer top-k exact with cooperative selection | pack=data/cards-workdir/sglang/packs/pr-37591.pack.md | out=index/sglang/cards/pr-37591-rocm-make-dsa-indexer-top-k-exact-with-c.md
+PR #44489 | [Perf] [AMD] deterministic: Allow AITER decode attention on gfx950 | pack=data/cards-workdir/sglang/packs/pr-44489.pack.md | out=index/sglang/cards/pr-44489-perf-amd-deterministic-allow-aiter-decod.md
+PR #29654 | [spec] Fix index_share_for_mtp_iteration being a no-op in EAGLE MTP draft | pack=data/cards-workdir/sglang/packs/pr-29654.pack.md | out=index/sglang/cards/pr-29654-spec-fix-index-share-for-mtp-iteration-b.md
+PR #40996 | [AMD] Add tuned dsv4 shape | pack=data/cards-workdir/sglang/packs/pr-40996.pack.md | out=index/sglang/cards/pr-40996-amd-add-tuned-dsv4-shape.md
+PR #27431 | [diffusion] Run LTX-2 VAE decode in channels_last_3d (faster decode, lower peak memory) | pack=data/cards-workdir/sglang/packs/pr-27431.pack.md | out=index/sglang/cards/pr-27431-diffusion-run-ltx-2-vae-decode-in-channe.md
+PR #43390 | [Perf] [NVIDIA] fp8_fa_sm120: Use the block-scaled MMA encoding | pack=data/cards-workdir/sglang/packs/pr-43390.pack.md | out=index/sglang/cards/pr-43390-perf-nvidia-fp8-fa-sm120-use-the-block-s.md
+PR #24260 | Enable trtllm-gen BF16 MoE for MTP | pack=data/cards-workdir/sglang/packs/pr-24260.pack.md | out=index/sglang/cards/pr-24260-enable-trtllm-gen-bf16-moe-for-mtp.md
+PR #34620 | [Diffusion][ERNIE] Fuse QKNorm with full-width RoPE | pack=data/cards-workdir/sglang/packs/pr-34620.pack.md | out=index/sglang/cards/pr-34620-diffusion-ernie-fuse-qknorm-with-full-wi.md
+PR #24256 | [core/loader] Add presharded load format | pack=data/cards-workdir/sglang/packs/pr-24256.pack.md | out=index/sglang/cards/pr-24256-core-loader-add-presharded-load-format.md
+PR #28441 | [EPD] Optimize multimodal global cache with paged embedding pool | pack=data/cards-workdir/sglang/packs/pr-28441.pack.md | out=index/sglang/cards/pr-28441-epd-optimize-multimodal-global-cache-wit.md
+PR #37158 | [Kernel] Add tuned LFM2.5 Triton MoE configs on B300 | pack=data/cards-workdir/sglang/packs/pr-37158.pack.md | out=index/sglang/cards/pr-37158-kernel-add-tuned-lfm2-5-triton-moe-confi.md
+PR #25976 | [DeepSeek-V4] Add mhc_fused_post_pre kernel | pack=data/cards-workdir/sglang/packs/pr-25976.pack.md | out=index/sglang/cards/pr-25976-deepseek-v4-add-mhc-fused-post-pre-kerne.md
+PR #38461 | [Perf] [NPU] attn: add not needs_cpu_seq_lens for dsa modules | pack=data/cards-workdir/sglang/packs/pr-38461.pack.md | out=index/sglang/cards/pr-38461-perf-npu-attn-add-not-needs-cpu-seq-lens.md
+PR #36322 | [diffusion] perf: fuse tanh-GELU into the LongCat-Image DiT FFN up-proj | pack=data/cards-workdir/sglang/packs/pr-36322.pack.md | out=index/sglang/cards/pr-36322-diffusion-perf-fuse-tanh-gelu-into-the-l.md
+PR #45339 | [Perf] [AMD] dsv41: Skip unneeded layer 20 computation under decoder-bounded-replay | pack=data/cards-workdir/sglang/packs/pr-45339.pack.md | out=index/sglang/cards/pr-45339-perf-amd-dsv41-skip-unneeded-layer-20-co.md
+PR #3493 | use sgl_per_token_group_quant_fp8 kernel | pack=data/cards-workdir/sglang/packs/pr-3493.pack.md | out=index/sglang/cards/pr-3493-use-sgl-per-token-group-quant-fp8-kernel.md

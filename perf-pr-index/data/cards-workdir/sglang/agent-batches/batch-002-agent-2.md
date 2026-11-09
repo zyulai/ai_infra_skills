@@ -1,0 +1,14 @@
+PR #8133 | [Performance][PD Disaggregation] optimize TokenToKVPoolAllocator by sorting free pages | pack=data/cards-workdir/sglang/packs/pr-8133.pack.md | out=index/sglang/cards/pr-8133-performance-pd-disaggregation-optimize-t.md
+PR #22734 | MSCCL++ Integration | pack=data/cards-workdir/sglang/packs/pr-22734.pack.md | out=index/sglang/cards/pr-22734-msccl-integration.md
+PR #46043 | [Perf] diffusion/registry: Reduce model discovery work at startup | pack=data/cards-workdir/sglang/packs/pr-46043.pack.md | out=index/sglang/cards/pr-46043-perf-diffusion-registry-reduce-model-dis.md
+PR #8577 | [Optimization][Perf] Disable the GC during CUDA graph capture to speed up by up to 3x | pack=data/cards-workdir/sglang/packs/pr-8577.pack.md | out=index/sglang/cards/pr-8577-optimization-perf-disable-the-gc-during.md
+PR #45202 | [Perf] [AMD] Kimi-K3: prepare the attention interface for mono fusion | pack=data/cards-workdir/sglang/packs/pr-45202.pack.md | out=index/sglang/cards/pr-45202-perf-amd-kimi-k3-prepare-the-attention-i.md
+PR #24692 | feat: SM120 (Blackwell Desktop) support for DeepSeek-V4 inference | pack=data/cards-workdir/sglang/packs/pr-24692.pack.md | out=index/sglang/cards/pr-24692-feat-sm120-blackwell-desktop-support-for.md
+PR #14194 | [feature] implement dcp for deepseek_v2 | pack=data/cards-workdir/sglang/packs/pr-14194.pack.md | out=index/sglang/cards/pr-14194-feature-implement-dcp-for-deepseek-v2.md
+PR #36624 | [Cohere Command-A-Plus] Optimize decode and BCG capture on SM10X | pack=data/cards-workdir/sglang/packs/pr-36624.pack.md | out=index/sglang/cards/pr-36624-cohere-command-a-plus-optimize-decode-an.md
+PR #42557 | [Feat] paged-experts: Serve MoE models whose weights do not fit VRAM | pack=data/cards-workdir/sglang/packs/pr-42557.pack.md | out=index/sglang/cards/pr-42557-feat-paged-experts-serve-moe-models-whos.md
+PR #45304 | [Fix] [AMD] diffusion: Enable `--quantization fp8` on gfx1250 (torch.compile lowering + per-channel weight scales) | pack=data/cards-workdir/sglang/packs/pr-45304.pack.md | out=index/sglang/cards/pr-45304-fix-amd-diffusion-enable-quantization-fp.md
+PR #27277 | Deepseek v4: support mixed dtype compression states | pack=data/cards-workdir/sglang/packs/pr-27277.pack.md | out=index/sglang/cards/pr-27277-deepseek-v4-support-mixed-dtype-compress.md
+PR #17575 | [model-gateway] Optimize HashRing construction to reduce heap allocations | pack=data/cards-workdir/sglang/packs/pr-17575.pack.md | out=index/sglang/cards/pr-17575-model-gateway-optimize-hashring-construc.md
+PR #29472 | [KDA] Add FlashKDA prefill backend for safe-gate KDA linear attention | pack=data/cards-workdir/sglang/packs/pr-29472.pack.md | out=index/sglang/cards/pr-29472-kda-add-flashkda-prefill-backend-for-saf.md
+PR #30169 | [GDN/KDA] Fuse SM100 CuteDSL prefill state I/O into the chunk h kernel | pack=data/cards-workdir/sglang/packs/pr-30169.pack.md | out=index/sglang/cards/pr-30169-gdn-kda-fuse-sm100-cutedsl-prefill-state.md

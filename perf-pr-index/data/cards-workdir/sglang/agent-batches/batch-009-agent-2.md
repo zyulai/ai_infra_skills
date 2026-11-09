@@ -1,0 +1,17 @@
+PR #44288 | [Perf] detokenizer: Group return IPC sends by tokenizer worker | pack=data/cards-workdir/sglang/packs/pr-44288.pack.md | out=index/sglang/cards/pr-44288-perf-detokenizer-group-return-ipc-sends.md
+PR #20887 | CUTLASS FP8 Blockwise GEMM improvement of SM120 | pack=data/cards-workdir/sglang/packs/pr-20887.pack.md | out=index/sglang/cards/pr-20887-cutlass-fp8-blockwise-gemm-improvement-o.md
+PR #24879 | [AMD] support fp8 blockwise quantization combine for mori ep | pack=data/cards-workdir/sglang/packs/pr-24879.pack.md | out=index/sglang/cards/pr-24879-amd-support-fp8-blockwise-quantization-c.md
+PR #38381 | Revert "[kernel] add fused silu mul quant fp8" | pack=data/cards-workdir/sglang/packs/pr-38381.pack.md | out=index/sglang/cards/pr-38381-revert-kernel-add-fused-silu-mul-quant-f.md
+PR #43062 | [Diffusion] Add ModelOpt FP8 checkpoint quantization for Pi0.5 | pack=data/cards-workdir/sglang/packs/pr-43062.pack.md | out=index/sglang/cards/pr-43062-diffusion-add-modelopt-fp8-checkpoint-qu.md
+PR #44657 | [Perf] [AMD] dsv4: Add a separate MegaMoE decode instance | pack=data/cards-workdir/sglang/packs/pr-44657.pack.md | out=index/sglang/cards/pr-44657-perf-amd-dsv4-add-a-separate-megamoe-dec.md
+PR #37075 | [Diffusion][Kernel] Fuse Wan2.2 NVFP4 bias + GELU on Blackwell | pack=data/cards-workdir/sglang/packs/pr-37075.pack.md | out=index/sglang/cards/pr-37075-diffusion-kernel-fuse-wan2-2-nvfp4-bias.md
+PR #37018 | [Kernel] Fix SM90 FP8 decode regression with benchmarked M/K/N routing | pack=data/cards-workdir/sglang/packs/pr-37018.pack.md | out=index/sglang/cards/pr-37018-kernel-fix-sm90-fp8-decode-regression-wi.md
+PR #34509 | [JIT Kernel] Migrate moe_topk_softmax from AOT to JIT | pack=data/cards-workdir/sglang/packs/pr-34509.pack.md | out=index/sglang/cards/pr-34509-jit-kernel-migrate-moe-topk-softmax-from.md
+PR #45579 | [Perf] dsv4: Compute request-window history rows once per batch | pack=data/cards-workdir/sglang/packs/pr-45579.pack.md | out=index/sglang/cards/pr-45579-perf-dsv4-compute-request-window-history.md
+PR #26272 | amd/deepseek_v4 33/N remove BF16-to-FP32 elementwise cast from compressor GEMM on HIP | pack=data/cards-workdir/sglang/packs/pr-26272.pack.md | out=index/sglang/cards/pr-26272-amd-deepseek-v4-33-n-remove-bf16-to-fp32.md
+PR #17344 | [model-gateway] Optimize WASM cache lookups using SHA-256 | pack=data/cards-workdir/sglang/packs/pr-17344.pack.md | out=index/sglang/cards/pr-17344-model-gateway-optimize-wasm-cache-lookup.md
+PR #47976 | [Perf] [NVIDIA] moe: Localize DeepGEMM Mega MoE weights across locality domains | pack=data/cards-workdir/sglang/packs/pr-47976.pack.md | out=index/sglang/cards/pr-47976-perf-nvidia-moe-localize-deepgemm-mega-m.md
+PR #37620 | [Perf] diffusion: Accumulate chunked LoRA merges with addmm | pack=data/cards-workdir/sglang/packs/pr-37620.pack.md | out=index/sglang/cards/pr-37620-perf-diffusion-accumulate-chunked-lora-m.md
+PR #41488 | [AMD] Add opt-in MiniMax-M3 TP4 indexer context partitioning | pack=data/cards-workdir/sglang/packs/pr-41488.pack.md | out=index/sglang/cards/pr-41488-amd-add-opt-in-minimax-m3-tp4-indexer-co.md
+PR #43570 | [Perf] Compact GDN causal-conv grids for skewed prefill batches | pack=data/cards-workdir/sglang/packs/pr-43570.pack.md | out=index/sglang/cards/pr-43570-perf-compact-gdn-causal-conv-grids-for-s.md
+PR #44251 | [Perf] distributed: Skip the DLPack re-wrap of custom all-reduce results | pack=data/cards-workdir/sglang/packs/pr-44251.pack.md | out=index/sglang/cards/pr-44251-perf-distributed-skip-the-dlpack-re-wrap.md

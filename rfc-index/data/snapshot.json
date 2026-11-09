@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-11-07T13:53:26+00:00",
+  "repos": {
+    "vllm": {
+      "repo_full": "vllm-project/vllm",
+      "fetch_window_utc": [
+        "2026-11-07T12:33:17+00:00",
+        "2026-11-07T12:33:17+00:00"
+      ],
+      "raw_rfc_issues": 917,
+      "classified_rfc_issues": 917,
+      "major_rfc_issues": 222,
+      "summary_cards": 222,
+      "head_sha": "1ecc9cc4ce6626352df39e4364579ec376c10761",
+      "head_date": "2026-11-07T12:54:41Z",
+      "head_message": "[Perf][DCP] Up-project the MLA decode output before the A2A merge (#64994)"
+    },
+    "sglang": {
+      "repo_full": "sgl-project/sglang",
+      "fetch_window_utc": [
+        "2026-11-07T12:33:17+00:00",
+        "2026-11-07T12:33:17+00:00"
+      ],
+      "raw_rfc_issues": 202,
+      "classified_rfc_issues": 202,
+      "major_rfc_issues": 42,
+      "summary_cards": 42,
+      "head_sha": "ba5906471c62e82c0594a617b4d07d9b2c0fd2b3",
+      "head_date": "2026-11-07T12:27:07Z",
+      "head_message": "[Fix] VLM: Preserve empty media in parallel sampling (#43886)"
+    }
+  }
+}

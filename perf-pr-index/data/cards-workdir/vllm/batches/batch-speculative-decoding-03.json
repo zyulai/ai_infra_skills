@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "Speculative Decoding",
+  "count": 40,
+  "prs": [
+    {
+      "number": 56807,
+      "title": "[watermarking] add context deduplication support to speculative decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-56807.pack.md",
+      "card_out": "index/vllm/cards/pr-56807-<slug>.md"
+    },
+    {
+      "number": 57169,
+      "title": "[KV Cache] GLM-5.3-Flash: use the generic packed KV layout; CircularBufferSpec tail with speculative ring slots",
+      "pack": "data/cards-workdir/vllm/packs/pr-57169.pack.md",
+      "card_out": "index/vllm/cards/pr-57169-<slug>.md"
+    },
+    {
+      "number": 57549,
+      "title": "[EPLB] Add EPLB support to dspark draft models (DeepSeekV4)",
+      "pack": "data/cards-workdir/vllm/packs/pr-57549.pack.md",
+      "card_out": "index/vllm/cards/pr-57549-<slug>.md"
+    },
+    {
+      "number": 57632,
+      "title": "[DFlash] Capture the context K/V precompute in the draft CUDA graph",
+      "pack": "data/cards-workdir/vllm/packs/pr-57632.pack.md",
+      "card_out": "index/vllm/cards/pr-57632-<slug>.md"
+    },
+    {
+      "number": 58454,
+      "title": "[Bugfix][GLM-5.3-Flash] kpool corruption with speculative decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-58454.pack.md",
+      "card_out": "index/vllm/cards/pr-58454-<slug>.md"
+    },
+    {
+      "number": 58510,
+      "title": "[ROCm][Perf] MXFP8 GEMM on native 32x32 block scales for gfx950",
+      "pack": "data/cards-workdir/vllm/packs/pr-58510.pack.md",
+      "card_out": "index/vllm/cards/pr-58510-<slug>.md"
+    },
+    {
+      "number": 58621,
+      "title": "[Perf][DSv4] Fuse inverse RoPE + FP8 quant into FlashInfer sparse MLA",
+      "pack": "data/cards-workdir/vllm/packs/pr-58621.pack.md",
+      "card_out": "index/vllm/cards/pr-58621-<slug>.md"
+    },
+    {
+      "number": 58684,
+      "title": "[Perf][Attention] Remove D2H sync from FlashInfer SM90 sparse MLA plan under async scheduling",
+      "pack": "data/cards-workdir/vllm/packs/pr-58684.pack.md",
+      "card_out": "index/vllm/cards/pr-58684-<slug>.md"
+    },
+    {
+      "number": 59082,
+      "title": "[CPU] Improve long-context MTP attention scheduling on AMX",
+      "pack": "data/cards-workdir/vllm/packs/pr-59082.pack.md",
+      "card_out": "index/vllm/cards/pr-59082-<slug>.md"
+    },
+    {
+      "number": 59221,
+      "title": "[ROCm][Perf][GLM-5.3-Flash] Enable AITER fused shared experts on gfx950",
+      "pack": "data/cards-workdir/vllm/packs/pr-59221.pack.md",
+      "card_out": "index/vllm/cards/pr-59221-<slug>.md"
+    },
+    {
+      "number": 59511,
+      "title": "[Perf][DFlash] Capture context combine and anchor in the draft CUDA graph",
+      "pack": "data/cards-workdir/vllm/packs/pr-59511.pack.md",
+      "card_out": "index/vllm/cards/pr-59511-<slug>.md"
+    },
+    {
+      "number": 59655,
+      "title": "[Bugfix] [Spec Decode]   DeepSeek V4/V4.1 NVFP4: keep ignored MTP/DSpark experts on MXFP4",
+      "pack": "data/cards-workdir/vllm/packs/pr-59655.pack.md",
+      "card_out": "index/vllm/cards/pr-59655-<slug>.md"
+    },
+    {
+      "number": 59668,
+      "title": "[ROCm][DSV4.1][Perf] Single-launch DSA decode candidate mask",
+      "pack": "data/cards-workdir/vllm/packs/pr-59668.pack.md",
+      "card_out": "index/vllm/cards/pr-59668-<slug>.md"
+    },
+    {
+      "number": 59735,
+      "title": "[Perf] Keep non-speculative GDN decode on the standard path",
+      "pack": "data/cards-workdir/vllm/packs/pr-59735.pack.md",
+      "card_out": "index/vllm/cards/pr-59735-<slug>.md"
+    },
+    {
+      "number": 59753,
+      "title": "[Perf][Qwen4Exp] Add SM121 TP=1 skinny-GEMM plans",
+      "pack": "data/cards-workdir/vllm/packs/pr-59753.pack.md",
+      "card_out": "index/vllm/cards/pr-59753-<slug>.md"
+    },
+    {
+      "number": 59779,
+      "title": "[Bugfix][Watermarking] Keep draft prompt lengths valid under CUDA graphs",
+      "pack": "data/cards-workdir/vllm/packs/pr-59779.pack.md",
+      "card_out": "index/vllm/cards/pr-59779-<slug>.md"
+    },
+    {
+      "number": 59857,
+      "title": "[Feature][PCP] Add DeepSeek-V4.1-Flash support",
+      "pack": "data/cards-workdir/vllm/packs/pr-59857.pack.md",
+      "card_out": "index/vllm/cards/pr-59857-<slug>.md"
+    },
+    {
+      "number": 59923,
+      "title": "[Perf][DSv4.1] Exchange packed FP8 Engram rows across DP and feed wkv MXFP8",
+      "pack": "data/cards-workdir/vllm/packs/pr-59923.pack.md",
+      "card_out": "index/vllm/cards/pr-59923-<slug>.md"
+    },
+    {
+      "number": 59973,
+      "title": "[MRV2][Spec Decode] Quantized draft lm_head for drafters that share the target head",
+      "pack": "data/cards-workdir/vllm/packs/pr-59973.pack.md",
+      "card_out": "index/vllm/cards/pr-59973-<slug>.md"
+    },
+    {
+      "number": 60372,
+      "title": "[Kernel] Integrate FA4 SM90 FP8 MMA for Gemma-4 full attention",
+      "pack": "data/cards-workdir/vllm/packs/pr-60372.pack.md",
+      "card_out": "index/vllm/cards/pr-60372-<slug>.md"
+    },
+    {
+      "number": 60692,
+      "title": "[Spec Decode] Skip metadata build for dflash/dspark when all model backends support it",
+      "pack": "data/cards-workdir/vllm/packs/pr-60692.pack.md",
+      "card_out": "index/vllm/cards/pr-60692-<slug>.md"
+    },
+    {
+      "number": 60695,
+      "title": "[Bugfix][Mooncake] Save the EAGLE attention proof with hybrid Mamba partial tails",
+      "pack": "data/cards-workdir/vllm/packs/pr-60695.pack.md",
+      "card_out": "index/vllm/cards/pr-60695-<slug>.md"
+    },
+    {
+      "number": 61019,
+      "title": "[Bugfix][KV Connector] Serve and store OffloadingConnector partial tails with EAGLE/MTP groups",
+      "pack": "data/cards-workdir/vllm/packs/pr-61019.pack.md",
+      "card_out": "index/vllm/cards/pr-61019-<slug>.md"
+    },
+    {
+      "number": 61355,
+      "title": "[Perf] Tune Triton GDN decode tiles on SM100-family GPUs",
+      "pack": "data/cards-workdir/vllm/packs/pr-61355.pack.md",
+      "card_out": "index/vllm/cards/pr-61355-<slug>.md"
+    },
+    {
+      "number": 61640,
+      "title": "[Perf][MRV2] Skip empty draft-token resets on request admission",
+      "pack": "data/cards-workdir/vllm/packs/pr-61640.pack.md",
+      "card_out": "index/vllm/cards/pr-61640-<slug>.md"
+    },
+    {
+      "number": 61837,
+      "title": "[ROCm][Model] Step-5-Preview support on ROCm",
+      "pack": "data/cards-workdir/vllm/packs/pr-61837.pack.md",
+      "card_out": "index/vllm/cards/pr-61837-<slug>.md"
+    },
+    {
+      "number": 61855,
+      "title": "[ROCm][Perf] Triton port of the fused GDN MTP decode kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-61855.pack.md",
+      "card_out": "index/vllm/cards/pr-61855-<slug>.md"
+    },
+    {
+      "number": 61867,
+      "title": "[Perf] Kimi K3 Specialized Decode: CuTeDSL Optimized GB300 (1.5-2x)",
+      "pack": "data/cards-workdir/vllm/packs/pr-61867.pack.md",
+      "card_out": "index/vllm/cards/pr-61867-<slug>.md"
+    },
+    {
+      "number": 61868,
+      "title": "[Perf][DSv4.1] DeepSeek-V4.1-Flash specialized decode on GB300",
+      "pack": "data/cards-workdir/vllm/packs/pr-61868.pack.md",
+      "card_out": "index/vllm/cards/pr-61868-<slug>.md"
+    },
+    {
+      "number": 62057,
+      "title": "[ROCm][Model] Add Beam 1.0 support on ROCm ",
+      "pack": "data/cards-workdir/vllm/packs/pr-62057.pack.md",
+      "card_out": "index/vllm/cards/pr-62057-<slug>.md"
+    },
+    {
+      "number": 62101,
+      "title": "[Perf][Model] Cohere2MoE: attention/MoE dual stream, single TP all-reduce per layer, fused add + RMSNorm",
+      "pack": "data/cards-workdir/vllm/packs/pr-62101.pack.md",
+      "card_out": "index/vllm/cards/pr-62101-<slug>.md"
+    },
+    {
+      "number": 62131,
+      "title": "[ROCm][Perf][DSv4.1] Mono decode for the DSpark draft layers",
+      "pack": "data/cards-workdir/vllm/packs/pr-62131.pack.md",
+      "card_out": "index/vllm/cards/pr-62131-<slug>.md"
+    },
+    {
+      "number": 62171,
+      "title": "[Perf][Kernel] Size cooperative_topk's single pass by row length, not stride",
+      "pack": "data/cards-workdir/vllm/packs/pr-62171.pack.md",
+      "card_out": "index/vllm/cards/pr-62171-<slug>.md"
+    },
+    {
+      "number": 62172,
+      "title": "[Perf][Kernel] Let cooperative_topk read the BF16 indexer logits",
+      "pack": "data/cards-workdir/vllm/packs/pr-62172.pack.md",
+      "card_out": "index/vllm/cards/pr-62172-<slug>.md"
+    },
+    {
+      "number": 62234,
+      "title": "[Bugfix][Spec Decode] Align speculator hidden norm in GLM-4.5/4.6 MoE and GLM-OCR MTP with GLM5Next to recycle post-final-hidden.",
+      "pack": "data/cards-workdir/vllm/packs/pr-62234.pack.md",
+      "card_out": "index/vllm/cards/pr-62234-<slug>.md"
+    },
+    {
+      "number": 62240,
+      "title": "[Perf][DSA] Rank the prefill indexer logits with DeepSelect in BF16",
+      "pack": "data/cards-workdir/vllm/packs/pr-62240.pack.md",
+      "card_out": "index/vllm/cards/pr-62240-<slug>.md"
+    },
+    {
+      "number": 62784,
+      "title": "[Spec Decode][MRV2] Skip drafting in steps where no request can use the drafts",
+      "pack": "data/cards-workdir/vllm/packs/pr-62784.pack.md",
+      "card_out": "index/vllm/cards/pr-62784-<slug>.md"
+    },
+    {
+      "number": 62843,
+      "title": "[Perf][GLM-5.3] Enable GLM low-latency BF16 GEMM on SM107",
+      "pack": "data/cards-workdir/vllm/packs/pr-62843.pack.md",
+      "card_out": "index/vllm/cards/pr-62843-<slug>.md"
+    },
+    {
+      "number": 62956,
+      "title": "[Perf][glm5next] Add SM121 TP=2 skinny-GEMM plans for GLM-5.3-Flash",
+      "pack": "data/cards-workdir/vllm/packs/pr-62956.pack.md",
+      "card_out": "index/vllm/cards/pr-62956-<slug>.md"
+    },
+    {
+      "number": 63027,
+      "title": "[ROCm][Perf][DSv4.1] Mono: tuned K1/K2 for the TP2 compress-ratio-2 layers on MI355X",
+      "pack": "data/cards-workdir/vllm/packs/pr-63027.pack.md",
+      "card_out": "index/vllm/cards/pr-63027-<slug>.md"
+    }
+  ]
+}

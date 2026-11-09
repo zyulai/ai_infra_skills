@@ -1,0 +1,121 @@
+{
+  "repo": "sglang",
+  "category": "Model-specific Fast Path",
+  "count": 19,
+  "prs": [
+    {
+      "number": 36507,
+      "title": "GLM-5.3-Flash support",
+      "pack": "data/cards-workdir/sglang/packs/pr-36507.pack.md",
+      "card_out": "index/sglang/cards/pr-36507-<slug>.md"
+    },
+    {
+      "number": 36576,
+      "title": "MiniMax-M3: allow shared-experts fusion on ROCm gfx942 and newer",
+      "pack": "data/cards-workdir/sglang/packs/pr-36576.pack.md",
+      "card_out": "index/sglang/cards/pr-36576-<slug>.md"
+    },
+    {
+      "number": 38461,
+      "title": "[Perf] [NPU] attn: add not needs_cpu_seq_lens for dsa modules",
+      "pack": "data/cards-workdir/sglang/packs/pr-38461.pack.md",
+      "card_out": "index/sglang/cards/pr-38461-<slug>.md"
+    },
+    {
+      "number": 40405,
+      "title": "[Diffusion] Fuse lossless Wan VAE post-ops for LongLive 2 I2V",
+      "pack": "data/cards-workdir/sglang/packs/pr-40405.pack.md",
+      "card_out": "index/sglang/cards/pr-40405-<slug>.md"
+    },
+    {
+      "number": 40703,
+      "title": "[PD] Add opt-in prefill-complete decode KV allocation",
+      "pack": "data/cards-workdir/sglang/packs/pr-40703.pack.md",
+      "card_out": "index/sglang/cards/pr-40703-<slug>.md"
+    },
+    {
+      "number": 41445,
+      "title": "[KDA] Enable the ptx_kda prefill backend on SM100 (B200 / GB200)",
+      "pack": "data/cards-workdir/sglang/packs/pr-41445.pack.md",
+      "card_out": "index/sglang/cards/pr-41445-<slug>.md"
+    },
+    {
+      "number": 42017,
+      "title": "[AMD][V4.1][*/N] OPUS sparse prefill on gfx950 through layout conversion",
+      "pack": "data/cards-workdir/sglang/packs/pr-42017.pack.md",
+      "card_out": "index/sglang/cards/pr-42017-<slug>.md"
+    },
+    {
+      "number": 42495,
+      "title": "[diffusion] CI: fix qwen cache-dit step 10/49 perf baselines",
+      "pack": "data/cards-workdir/sglang/packs/pr-42495.pack.md",
+      "card_out": "index/sglang/cards/pr-42495-<slug>.md"
+    },
+    {
+      "number": 42753,
+      "title": "[Refactor] Translate each KV loc once per iteration",
+      "pack": "data/cards-workdir/sglang/packs/pr-42753.pack.md",
+      "card_out": "index/sglang/cards/pr-42753-<slug>.md"
+    },
+    {
+      "number": 43373,
+      "title": "[diffusion] perf: pipeline MiniMax-H3's Ulysses exchange against cuDNN SDPA on Blackwell",
+      "pack": "data/cards-workdir/sglang/packs/pr-43373.pack.md",
+      "card_out": "index/sglang/cards/pr-43373-<slug>.md"
+    },
+    {
+      "number": 43570,
+      "title": "[Perf] Compact GDN causal-conv grids for skewed prefill batches",
+      "pack": "data/cards-workdir/sglang/packs/pr-43570.pack.md",
+      "card_out": "index/sglang/cards/pr-43570-<slug>.md"
+    },
+    {
+      "number": 43621,
+      "title": "[DSpark] Add `MarkovSampleStep`, one op for a markov draft step's add and token pick",
+      "pack": "data/cards-workdir/sglang/packs/pr-43621.pack.md",
+      "card_out": "index/sglang/cards/pr-43621-<slug>.md"
+    },
+    {
+      "number": 43838,
+      "title": "[Perf] DeepSeek-V4.1: Run the small-batch decode fusions at TP2",
+      "pack": "data/cards-workdir/sglang/packs/pr-43838.pack.md",
+      "card_out": "index/sglang/cards/pr-43838-<slug>.md"
+    },
+    {
+      "number": 44045,
+      "title": "[Perf] [AMD] batch-invariant: Tune the bf16 matmul for gfx950",
+      "pack": "data/cards-workdir/sglang/packs/pr-44045.pack.md",
+      "card_out": "index/sglang/cards/pr-44045-<slug>.md"
+    },
+    {
+      "number": 44657,
+      "title": "[Perf] [AMD] dsv4: Add a separate MegaMoE decode instance",
+      "pack": "data/cards-workdir/sglang/packs/pr-44657.pack.md",
+      "card_out": "index/sglang/cards/pr-44657-<slug>.md"
+    },
+    {
+      "number": 45214,
+      "title": "[Perf] qknorm: run head_dim-128 rows two per warp with 16B lanes, bit-identical",
+      "pack": "data/cards-workdir/sglang/packs/pr-45214.pack.md",
+      "card_out": "index/sglang/cards/pr-45214-<slug>.md"
+    },
+    {
+      "number": 46722,
+      "title": "[Perf] [AMD] diffusion: Optimize the Wan VAE decode for gfx1250",
+      "pack": "data/cards-workdir/sglang/packs/pr-46722.pack.md",
+      "card_out": "index/sglang/cards/pr-46722-<slug>.md"
+    },
+    {
+      "number": 46738,
+      "title": "[Perf] kda: Write convolution output directly into contiguous QKV planes",
+      "pack": "data/cards-workdir/sglang/packs/pr-46738.pack.md",
+      "card_out": "index/sglang/cards/pr-46738-<slug>.md"
+    },
+    {
+      "number": 48399,
+      "title": "[Refactor] env: Dispatch on the GPU architecture instead of env vars that restate it",
+      "pack": "data/cards-workdir/sglang/packs/pr-48399.pack.md",
+      "card_out": "index/sglang/cards/pr-48399-<slug>.md"
+    }
+  ]
+}

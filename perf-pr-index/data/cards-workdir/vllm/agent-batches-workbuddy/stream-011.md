@@ -1,0 +1,12 @@
+PR #51392 | [Quantization] Support online quantization with partially pre-quantized checkpoints | pack=data/cards-workdir/vllm/packs/pr-51392.pack.md | out=index/vllm/cards/pr-51392-quantization-support-online-quantization.md
+PR #56907 | [NIXL] Bump NIXL version to 1.5.0 | pack=data/cards-workdir/vllm/packs/pr-56907.pack.md | out=index/vllm/cards/pr-56907-nixl-bump-nixl-version-to-1-5-0.md
+PR #14568 | permute/unpermute kernel for moe optimization | pack=data/cards-workdir/vllm/packs/pr-14568.pack.md | out=index/vllm/cards/pr-14568-permute-unpermute-kernel-for-moe-optimiz.md
+PR #56273 | [Quantization] Support packed NVFP4 Qwen4Exp PLE embeddings | pack=data/cards-workdir/vllm/packs/pr-56273.pack.md | out=index/vllm/cards/pr-56273-quantization-support-packed-nvfp4-qwen4e.md
+PR #63219 | [Bugfix][Spec Decode] Per-request draft retention for structured output under PP | pack=data/cards-workdir/vllm/packs/pr-63219.pack.md | out=index/vllm/cards/pr-63219-bugfix-spec-decode-per-request-draft-ret.md
+PR #18465 | [V1] Support `LLM.apply_model` | pack=data/cards-workdir/vllm/packs/pr-18465.pack.md | out=index/vllm/cards/pr-18465-v1-support-llm-apply-model.md
+PR #24281 | [torch.compile] CUDAGraph Inductor partition integration | pack=data/cards-workdir/vllm/packs/pr-24281.pack.md | out=index/vllm/cards/pr-24281-torch-compile-cudagraph-inductor-partiti.md
+PR #43310 | [Frontend] Expose per-request spec decode metrics in generate API | pack=data/cards-workdir/vllm/packs/pr-43310.pack.md | out=index/vllm/cards/pr-43310-frontend-expose-per-request-spec-decode.md
+PR #50501 | [XPU][INC] Add int4 w4a8 (dynamic int8 activation) backend for INC linear layers | pack=data/cards-workdir/vllm/packs/pr-50501.pack.md | out=index/vllm/cards/pr-50501-xpu-inc-add-int4-w4a8-dynamic-int8-activ.md
+PR #54313 | [Flashinfer] Upgrade Flashinfer version to 0.6.18 | pack=data/cards-workdir/vllm/packs/pr-54313.pack.md | out=index/vllm/cards/pr-54313-flashinfer-upgrade-flashinfer-version-to.md
+PR #8434 | [Feature][kernel] tensor parallelism with bitsandbytes quantization | pack=data/cards-workdir/vllm/packs/pr-8434.pack.md | out=index/vllm/cards/pr-8434-feature-kernel-tensor-parallelism-with-b.md
+PR #14310 | [Hardware][TPU]Enable ragged paged attention kernel and resolve recompilation issue | pack=data/cards-workdir/vllm/packs/pr-14310.pack.md | out=index/vllm/cards/pr-14310-hardware-tpu-enable-ragged-paged-attenti.md

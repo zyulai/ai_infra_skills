@@ -1,0 +1,17 @@
+PR #30113 | [KDA] Add FlashInfer SM100 KDA decode + MTP (target_verify) backend | pack=data/cards-workdir/sglang/packs/pr-30113.pack.md | out=index/sglang/cards/pr-30113-kda-add-flashinfer-sm100-kda-decode-mtp.md
+PR #30238 | [AMD] Support two batch overlap with MTP on DeepSeekV4 | pack=data/cards-workdir/sglang/packs/pr-30238.pack.md | out=index/sglang/cards/pr-30238-amd-support-two-batch-overlap-with-mtp-o.md
+PR #43735 | [DCP] Decode context parallelism for DSA (GLM-5.2 / GLM-5.3) with MTP | pack=data/cards-workdir/sglang/packs/pr-43735.pack.md | out=index/sglang/cards/pr-43735-dcp-decode-context-parallelism-for-dsa-g.md
+PR #26888 | [KDA] Add target_verify support for speculative decoding | pack=data/cards-workdir/sglang/packs/pr-26888.pack.md | out=index/sglang/cards/pr-26888-kda-add-target-verify-support-for-specul.md
+PR #27988 | [Experimental] Full Cuda Graph Support for Prefill | pack=data/cards-workdir/sglang/packs/pr-27988.pack.md | out=index/sglang/cards/pr-27988-experimental-full-cuda-graph-support-for.md
+PR #30206 | fix(server): capture legal multi-request prefill CUDA graph batches | pack=data/cards-workdir/sglang/packs/pr-30206.pack.md | out=index/sglang/cards/pr-30206-fix-server-capture-legal-multi-request-p.md
+PR #3790 | [QUANT] Add GPTQModel Dynamic Quantization + `lm_head` Quantization | pack=data/cards-workdir/sglang/packs/pr-3790.pack.md | out=index/sglang/cards/pr-3790-quant-add-gptqmodel-dynamic-quantization.md
+PR #11712 | enable ut test for xpu devices | pack=data/cards-workdir/sglang/packs/pr-11712.pack.md | out=index/sglang/cards/pr-11712-enable-ut-test-for-xpu-devices.md
+PR #20343 | HiSparse for Sparse Attention | pack=data/cards-workdir/sglang/packs/pr-20343.pack.md | out=index/sglang/cards/pr-20343-hisparse-for-sparse-attention.md
+PR #29458 | Enable Breakable Cuda Graph as Default | pack=data/cards-workdir/sglang/packs/pr-29458.pack.md | out=index/sglang/cards/pr-29458-enable-breakable-cuda-graph-as-default.md
+PR #33395 | [Feat] speculative: Seed rejection-sampling draft proposals for deterministic inference | pack=data/cards-workdir/sglang/packs/pr-33395.pack.md | out=index/sglang/cards/pr-33395-feat-speculative-seed-rejection-sampling.md
+PR #33722 | [KDA] Fused-accept state advance for FlashInfer KDA MTP verify | pack=data/cards-workdir/sglang/packs/pr-33722.pack.md | out=index/sglang/cards/pr-33722-kda-fused-accept-state-advance-for-flash.md
+PR #33932 | Install DeepEP from release wheels | pack=data/cards-workdir/sglang/packs/pr-33932.pack.md | out=index/sglang/cards/pr-33932-install-deepep-from-release-wheels.md
+PR #40709 | [Deps] Bump FlashInfer to 0.7.0.post1 | pack=data/cards-workdir/sglang/packs/pr-40709.pack.md | out=index/sglang/cards/pr-40709-deps-bump-flashinfer-to-0-7-0-post1.md
+PR #29432 | Fix bookkeeping fields not encapsulated with real allocations in normal alloc, PD pre-alloc, DFlash and EAGLE | pack=data/cards-workdir/sglang/packs/pr-29432.pack.md | out=index/sglang/cards/pr-29432-fix-bookkeeping-fields-not-encapsulated.md
+PR #33723 | [3/N] elastic-ep: Recapture decode CUDA graphs after scale-up | pack=data/cards-workdir/sglang/packs/pr-33723.pack.md | out=index/sglang/cards/pr-33723-3-n-elastic-ep-recapture-decode-cuda-gra.md
+PR #41916 | [Fix] sampling: Make top-k/top-p filtering consistent across sampling paths | pack=data/cards-workdir/sglang/packs/pr-41916.pack.md | out=index/sglang/cards/pr-41916-fix-sampling-make-top-k-top-p-filtering.md

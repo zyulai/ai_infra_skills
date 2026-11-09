@@ -1,0 +1,19 @@
+{
+  "repo": "vllm",
+  "category": "Other",
+  "count": 2,
+  "prs": [
+    {
+      "number": 61879,
+      "title": "[Model] Add Muse Spark Open support",
+      "pack": "data/cards-workdir/vllm/packs/pr-61879.pack.md",
+      "card_out": "index/vllm/cards/pr-61879-<slug>.md"
+    },
+    {
+      "number": 63827,
+      "title": "[Bugfix][Core] Defer async KV loads on HiSparse decoders until in-flight steps finish",
+      "pack": "data/cards-workdir/vllm/packs/pr-63827.pack.md",
+      "card_out": "index/vllm/cards/pr-63827-<slug>.md"
+    }
+  ]
+}

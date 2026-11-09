@@ -1,0 +1,9 @@
+PR #62132 | [Kernel]Add norm fused kernel for Step-5 Preview and Muse Spark Open | pack=data/cards-workdir/vllm/packs/pr-62132.pack.md | out=index/vllm/cards/pr-62132-kernel-add-norm-fused-kernel-for-step-5.md
+PR #20841 | [Perf] Use Triton instead of Torch for DeepGEMM Per Token Group Quant | pack=data/cards-workdir/vllm/packs/pr-20841.pack.md | out=index/vllm/cards/pr-20841-perf-use-triton-instead-of-torch-for-dee.md
+PR #29929 | [Kernels] Remove BatchedTritonOrDeepGemmExperts and default fallback to Triton | pack=data/cards-workdir/vllm/packs/pr-29929.pack.md | out=index/vllm/cards/pr-29929-kernels-remove-batchedtritonordeepgemmex.md
+PR #32683 | [Quantization][Deprecation] Remove BitBlas | pack=data/cards-workdir/vllm/packs/pr-32683.pack.md | out=index/vllm/cards/pr-32683-quantization-deprecation-remove-bitblas.md
+PR #33173 | [Quantization][ROCm] Fix MoE weight loading to be robust (Qwen3_MoE/Qwen3_next as example models) | pack=data/cards-workdir/vllm/packs/pr-33173.pack.md | out=index/vllm/cards/pr-33173-quantization-rocm-fix-moe-weight-loading.md
+PR #35088 | Fix fallback to default tactic (flashinfer autotuner) with trtllm_fp4_block_scale_moe | pack=data/cards-workdir/vllm/packs/pr-35088.pack.md | out=index/vllm/cards/pr-35088-fix-fallback-to-default-tactic-flashinfe.md
+PR #23939 | Tuned H100/H200 triton fp8 block configs for fused_qkv_a_proj | pack=data/cards-workdir/vllm/packs/pr-23939.pack.md | out=index/vllm/cards/pr-23939-tuned-h100-h200-triton-fp8-block-configs.md
+PR #25495 | [Perf] Increase default max splits for FA3 full cudagraphs | pack=data/cards-workdir/vllm/packs/pr-25495.pack.md | out=index/vllm/cards/pr-25495-perf-increase-default-max-splits-for-fa3.md
+PR #63915 | [ROCm][Perf] Fuse MXFP8 activation quant into the 1x32 dot_scaled linear for M <= 16 | pack=data/cards-workdir/vllm/packs/pr-63915.pack.md | out=index/vllm/cards/pr-63915-rocm-perf-fuse-mxfp8-activation-quant-in.md

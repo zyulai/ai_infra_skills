@@ -1,0 +1,10 @@
+PR #12996 | Support piecewise cuda graph for deepseek v3 | pack=data/cards-workdir/sglang/packs/pr-12996.pack.md | out=index/sglang/cards/pr-12996-support-piecewise-cuda-graph-for-deepsee.md
+PR #26722 | amd/deepseek_v4 35/N refactor Triton sparse MLA decode dispatch kernel to always run in a fused kernel | pack=data/cards-workdir/sglang/packs/pr-26722.pack.md | out=index/sglang/cards/pr-26722-amd-deepseek-v4-35-n-refactor-triton-spa.md
+PR #3148 | Apply sgl w8a8 fp8 kernel | pack=data/cards-workdir/sglang/packs/pr-3148.pack.md | out=index/sglang/cards/pr-3148-apply-sgl-w8a8-fp8-kernel.md
+PR #11722 | Support mrope triton kernel and add unit test | pack=data/cards-workdir/sglang/packs/pr-11722.pack.md | out=index/sglang/cards/pr-11722-support-mrope-triton-kernel-and-add-unit.md
+PR #17554 | Kernel: optimize decoding metadata in NSA multi-spec backend with fused kernels | pack=data/cards-workdir/sglang/packs/pr-17554.pack.md | out=index/sglang/cards/pr-17554-kernel-optimize-decoding-metadata-in-nsa.md
+PR #19003 | [VLM] Introduce FlashInfer CUDNN Prefill as ViT Backend | pack=data/cards-workdir/sglang/packs/pr-19003.pack.md | out=index/sglang/cards/pr-19003-vlm-introduce-flashinfer-cudnn-prefill-a.md
+PR #27063 | [AMD] Optimize gpt-oss-120B performance | pack=data/cards-workdir/sglang/packs/pr-27063.pack.md | out=index/sglang/cards/pr-27063-amd-optimize-gpt-oss-120b-performance.md
+PR #28662 | [Fix] compressed-tensors block FP8: requantize weight scales to UE8M0 for DeepGEMM on Blackwell | pack=data/cards-workdir/sglang/packs/pr-28662.pack.md | out=index/sglang/cards/pr-28662-fix-compressed-tensors-block-fp8-requant.md
+PR #17420 | [VLM] Optimize get_rope_index for GLM4v | pack=data/cards-workdir/sglang/packs/pr-17420.pack.md | out=index/sglang/cards/pr-17420-vlm-optimize-get-rope-index-for-glm4v.md
+PR #14781 | [Performance] optimize NSA backend metadata computation for multi-step speculative decoding | pack=data/cards-workdir/sglang/packs/pr-14781.pack.md | out=index/sglang/cards/pr-14781-performance-optimize-nsa-backend-metadat.md

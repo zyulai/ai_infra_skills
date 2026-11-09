@@ -1,0 +1,9 @@
+[submodule "vllm"]
+	path = vllm
+	url = https://github.com/vllm-project/vllm.git
+[submodule "sglang"]
+	path = sglang
+	url = https://github.com/sgl-project/sglang.git
+[submodule "AI-Infra-Auto-Driven-SKILLS"]
+	path = AI-Infra-Auto-Driven-SKILLS
+	url = https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS.git

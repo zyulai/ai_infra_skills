@@ -1,0 +1,11 @@
+PR #21961 | [Feature] Non-contiguous Support for FP8 Quantization | pack=data/cards-workdir/vllm/packs/pr-21961.pack.md | out=index/vllm/cards/pr-21961-feature-non-contiguous-support-for-fp8-q.md
+PR #27967 | [Model] add optimal triton fused moe configs for NemotronH MoE | pack=data/cards-workdir/vllm/packs/pr-27967.pack.md | out=index/vllm/cards/pr-27967-model-add-optimal-triton-fused-moe-confi.md
+PR #31097 | [FIX] FP4 quantization kernel padding initialization bug | pack=data/cards-workdir/vllm/packs/pr-31097.pack.md | out=index/vllm/cards/pr-31097-fix-fp4-quantization-kernel-padding-init.md
+PR #32688 | [Quantization][Deprecation] Remove Marlin 24 | pack=data/cards-workdir/vllm/packs/pr-32688.pack.md | out=index/vllm/cards/pr-32688-quantization-deprecation-remove-marlin-2.md
+PR #37340 | [Perf] Add tuned triton moe config for Qwen3.5 H200, 9.9% E2E throughput improvement | pack=data/cards-workdir/vllm/packs/pr-37340.pack.md | out=index/vllm/cards/pr-37340-perf-add-tuned-triton-moe-config-for-qwe.md
+PR #55629 | [Perf] Fuse DeepEncoder relative bias in Triton attention | pack=data/cards-workdir/vllm/packs/pr-55629.pack.md | out=index/vllm/cards/pr-55629-perf-fuse-deepencoder-relative-bias-in-t.md
+PR #65230 | [Quantization] Remove QuTLASS and fp_quant, run QuIP NVFP4 on Humming | pack=data/cards-workdir/vllm/packs/pr-65230.pack.md | out=index/vllm/cards/pr-65230-quantization-remove-qutlass-and-fp-quant.md
+PR #14384 | [Perf] Reduce MLA CPU overheads in V1 | pack=data/cards-workdir/vllm/packs/pr-14384.pack.md | out=index/vllm/cards/pr-14384-perf-reduce-mla-cpu-overheads-in-v1.md
+PR #23214 | [Core] Always use tensor cores for Flashinfer Decode Wrapper | pack=data/cards-workdir/vllm/packs/pr-23214.pack.md | out=index/vllm/cards/pr-23214-core-always-use-tensor-cores-for-flashin.md
+PR #32092 | [cpu][bench] Add Fused MoE Micro Benchmark for CPU Backend | pack=data/cards-workdir/vllm/packs/pr-32092.pack.md | out=index/vllm/cards/pr-32092-cpu-bench-add-fused-moe-micro-benchmark.md
+PR #34718 | [torch.compile] Turn on silu+fp4 quant fusion by default for O1+ | pack=data/cards-workdir/vllm/packs/pr-34718.pack.md | out=index/vllm/cards/pr-34718-torch-compile-turn-on-silu-fp4-quant-fus.md

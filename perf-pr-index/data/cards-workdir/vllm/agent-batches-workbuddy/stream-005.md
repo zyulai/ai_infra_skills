@@ -1,0 +1,12 @@
+PR #29304 | [ROCm][PD] add moriio kv connector. | pack=data/cards-workdir/vllm/packs/pr-29304.pack.md | out=index/vllm/cards/pr-29304-rocm-pd-add-moriio-kv-connector.md
+PR #38112 | [CPU] Added faster exp routine for lower precision data types. | pack=data/cards-workdir/vllm/packs/pr-38112.pack.md | out=index/vllm/cards/pr-38112-cpu-added-faster-exp-routine-for-lower-p.md
+PR #64479 | [XPU][Perf] Reuse GDN metadata across KV cache groups on XPU | pack=data/cards-workdir/vllm/packs/pr-64479.pack.md | out=index/vllm/cards/pr-64479-xpu-perf-reuse-gdn-metadata-across-kv-ca.md
+PR #6677 | [Kernel] Tuned FP8 Kernels for Ada Lovelace | pack=data/cards-workdir/vllm/packs/pr-6677.pack.md | out=index/vllm/cards/pr-6677-kernel-tuned-fp8-kernels-for-ada-lovelac.md
+PR #35758 | [Core][KVConnector] Support HMA+NixlConnector | pack=data/cards-workdir/vllm/packs/pr-35758.pack.md | out=index/vllm/cards/pr-35758-core-kvconnector-support-hma-nixlconnect.md
+PR #46701 | [Core][V1] Support trace_decode_token_ids for deterministic decode replay | pack=data/cards-workdir/vllm/packs/pr-46701.pack.md | out=index/vllm/cards/pr-46701-core-v1-support-trace-decode-token-ids-f.md
+PR #22464 | Optimize MiniCPMO mask creation with vectorized implementation | pack=data/cards-workdir/vllm/packs/pr-22464.pack.md | out=index/vllm/cards/pr-22464-optimize-minicpmo-mask-creation-with-vec.md
+PR #62219 | [Kernel][Perf] Add H100 tuned configs for Llama-3.1-8B and Qwen3-8B to the batch-invariant matmul table | pack=data/cards-workdir/vllm/packs/pr-62219.pack.md | out=index/vllm/cards/pr-62219-kernel-perf-add-h100-tuned-configs-for-l.md
+PR #65030 | [Perf][Model] DeepSeek V4/V4.1 Vision: encode a call's images in packed passes | pack=data/cards-workdir/vllm/packs/pr-65030.pack.md | out=index/vllm/cards/pr-65030-perf-model-deepseek-v4-v4-1-vision-encod.md
+PR #41932 | [CPU] Fix spec decode kernel signatures for synthetic mode compatibility | pack=data/cards-workdir/vllm/packs/pr-41932.pack.md | out=index/vllm/cards/pr-41932-cpu-fix-spec-decode-kernel-signatures-fo.md
+PR #55062 | [Perf] Accumulate Conformer attention scores with baddbmm | pack=data/cards-workdir/vllm/packs/pr-55062.pack.md | out=index/vllm/cards/pr-55062-perf-accumulate-conformer-attention-scor.md
+PR #20412 | [V0 deprecation] Remove V0 CPU/XPU/TPU backends | pack=data/cards-workdir/vllm/packs/pr-20412.pack.md | out=index/vllm/cards/pr-20412-v0-deprecation-remove-v0-cpu-xpu-tpu-bac.md

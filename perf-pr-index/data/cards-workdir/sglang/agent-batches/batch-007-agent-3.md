@@ -1,0 +1,17 @@
+PR #17934 | [Kernel] Add JIT rotary_embedding_kernel | pack=data/cards-workdir/sglang/packs/pr-17934.pack.md | out=index/sglang/cards/pr-17934-kernel-add-jit-rotary-embedding-kernel.md
+PR #43236 | [Perf] Enable fast-math for JIT activations on Blackwell | pack=data/cards-workdir/sglang/packs/pr-43236.pack.md | out=index/sglang/cards/pr-43236-perf-enable-fast-math-for-jit-activation.md
+PR #36560 | MiniMax-M3: wave64 histogram-select decode top-k, and raise kMaxNumBlocks for CUDA graphs | pack=data/cards-workdir/sglang/packs/pr-36560.pack.md | out=index/sglang/cards/pr-36560-minimax-m3-wave64-histogram-select-decod.md
+PR #7635 | Apply dsv3_fused_a_gemm kernel | pack=data/cards-workdir/sglang/packs/pr-7635.pack.md | out=index/sglang/cards/pr-7635-apply-dsv3-fused-a-gemm-kernel.md
+PR #11816 | use flashinfer_trtllm moe runner backend to gain around 10% perf on b200 fp8 dpsk | pack=data/cards-workdir/sglang/packs/pr-11816.pack.md | out=index/sglang/cards/pr-11816-use-flashinfer-trtllm-moe-runner-backend.md
+PR #12307 | feat: support trtllm_mha FP8 query attention kernel | pack=data/cards-workdir/sglang/packs/pr-12307.pack.md | out=index/sglang/cards/pr-12307-feat-support-trtllm-mha-fp8-query-attent.md
+PR #13681 | [perf] Add two stream norm for `Olmo3` speedup 5% | pack=data/cards-workdir/sglang/packs/pr-13681.pack.md | out=index/sglang/cards/pr-13681-perf-add-two-stream-norm-for-olmo3-speed.md
+PR #14717 | [diffusion] kernel fusion: gated residual layernorm scale shift and layernorm scale shift kernel fusion for Qwen-Image, WAN and HunyuanVideo | pack=data/cards-workdir/sglang/packs/pr-14717.pack.md | out=index/sglang/cards/pr-14717-diffusion-kernel-fusion-gated-residual-l.md
+PR #21932 | [HiSparse] Optimize the scheduling of decode backup. | pack=data/cards-workdir/sglang/packs/pr-21932.pack.md | out=index/sglang/cards/pr-21932-hisparse-optimize-the-scheduling-of-deco.md
+PR #34973 | [AMD] DSv4: fuse the qk-norm-rope pair on the MTP target-verify path | pack=data/cards-workdir/sglang/packs/pr-34973.pack.md | out=index/sglang/cards/pr-34973-amd-dsv4-fuse-the-qk-norm-rope-pair-on-t.md
+PR #41309 | [diffusion] Run an all-valid attention mask on the backend's unmasked kernel | pack=data/cards-workdir/sglang/packs/pr-41309.pack.md | out=index/sglang/cards/pr-41309-diffusion-run-an-all-valid-attention-mas.md
+PR #46149 | [Perf] diffusion: Speed up Wan's spatial-parallel VAE decode | pack=data/cards-workdir/sglang/packs/pr-46149.pack.md | out=index/sglang/cards/pr-46149-perf-diffusion-speed-up-wan-s-spatial-pa.md
+PR #11381 | perf: optimize qwen-vl with symm mem allreduce | pack=data/cards-workdir/sglang/packs/pr-11381.pack.md | out=index/sglang/cards/pr-11381-perf-optimize-qwen-vl-with-symm-mem-allr.md
+PR #28304 | [perf] Use default torch compile mode for Wan2.2 T2V A14B | pack=data/cards-workdir/sglang/packs/pr-28304.pack.md | out=index/sglang/cards/pr-28304-perf-use-default-torch-compile-mode-for.md
+PR #44632 | [Perf] DeepSeek-V4.1: Raise the SM100 swap-AB decode cap to 40 rows | pack=data/cards-workdir/sglang/packs/pr-44632.pack.md | out=index/sglang/cards/pr-44632-perf-deepseek-v4-1-raise-the-sm100-swap.md
+PR #48784 | [Perf] eplb: Vectorize the static per-rank dispatch map | pack=data/cards-workdir/sglang/packs/pr-48784.pack.md | out=index/sglang/cards/pr-48784-perf-eplb-vectorize-the-static-per-rank.md
+PR #18871 | Migrate norm kernels to FlashInfer JIT implementation | pack=data/cards-workdir/sglang/packs/pr-18871.pack.md | out=index/sglang/cards/pr-18871-migrate-norm-kernels-to-flashinfer-jit-i.md

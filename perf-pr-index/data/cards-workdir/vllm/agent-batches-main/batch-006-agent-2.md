@@ -1,0 +1,17 @@
+PR #58454 | [Bugfix][GLM-5.3-Flash] kpool corruption with speculative decoding | pack=data/cards-workdir/vllm/packs/pr-58454.pack.md | out=index/vllm/cards/pr-58454-bugfix-glm-5-3-flash-kpool-corruption-wi.md
+PR #59070 | [ROCm][MLA] Keep DCP prefill context in FP8 through AllGather | pack=data/cards-workdir/vllm/packs/pr-59070.pack.md | out=index/vllm/cards/pr-59070-rocm-mla-keep-dcp-prefill-context-in-fp8.md
+PR #41083 | [Quantization] add humming mxfp4 moe backend | pack=data/cards-workdir/vllm/packs/pr-41083.pack.md | out=index/vllm/cards/pr-41083-quantization-add-humming-mxfp4-moe-backe.md
+PR #53166 | [Perf][ROCm][Attention] Fuse Kimi-K3 MLA chunked-context gather on AITER | pack=data/cards-workdir/vllm/packs/pr-53166.pack.md | out=index/vllm/cards/pr-53166-perf-rocm-attention-fuse-kimi-k3-mla-chu.md
+PR #57205 | [Core] Model console logging as CLI configuration | pack=data/cards-workdir/vllm/packs/pr-57205.pack.md | out=index/vllm/cards/pr-57205-core-model-console-logging-as-cli-config.md
+PR #10467 | [Misc] Add multipstep chunked-prefill support for FlashInfer | pack=data/cards-workdir/vllm/packs/pr-10467.pack.md | out=index/vllm/cards/pr-10467-misc-add-multipstep-chunked-prefill-supp.md
+PR #24498 | OffloadingConnector: Add cpu_bytes_to_use configuration | pack=data/cards-workdir/vllm/packs/pr-24498.pack.md | out=index/vllm/cards/pr-24498-offloadingconnector-add-cpu-bytes-to-use.md
+PR #39505 |  [compile] Add FlashInfer FP8 async TP fusion and preserve allreduce fusion ordering #27893   | pack=data/cards-workdir/vllm/packs/pr-39505.pack.md | out=index/vllm/cards/pr-39505-compile-add-flashinfer-fp8-async-tp-fusi.md
+PR #52301 | [Perf][Nemotron] Skip redundant latent-MoE all-reduce at TP>1 (~13% decode win) | pack=data/cards-workdir/vllm/packs/pr-52301.pack.md | out=index/vllm/cards/pr-52301-perf-nemotron-skip-redundant-latent-moe.md
+PR #53568 | [Perf][Kernel] Initialize NVFP4 padding in quant kernel | pack=data/cards-workdir/vllm/packs/pr-53568.pack.md | out=index/vllm/cards/pr-53568-perf-kernel-initialize-nvfp4-padding-in.md
+PR #55368 | [ROCm][MoE] Pad the AITER MoE intermediate size at allocation time, and round the expert-group count to a kernel that exists | pack=data/cards-workdir/vllm/packs/pr-55368.pack.md | out=index/vllm/cards/pr-55368-rocm-moe-pad-the-aiter-moe-intermediate.md
+PR #61727 | Add Step-5 Preview support | pack=data/cards-workdir/vllm/packs/pr-61727.pack.md | out=index/vllm/cards/pr-61727-add-step-5-preview-support.md
+PR #24440 | [Transform] [Quantization] Add QuTLASS support to vLLM | pack=data/cards-workdir/vllm/packs/pr-24440.pack.md | out=index/vllm/cards/pr-24440-transform-quantization-add-qutlass-suppo.md
+PR #33538 | [Kernel] Triton-based Top-k and Top-p sampler kernels | pack=data/cards-workdir/vllm/packs/pr-33538.pack.md | out=index/vllm/cards/pr-33538-kernel-triton-based-top-k-and-top-p-samp.md
+PR #44109 | [Kernel] Add weightless RMSNorm CUDA kernels for has_weight=False (#41430) | pack=data/cards-workdir/vllm/packs/pr-44109.pack.md | out=index/vllm/cards/pr-44109-kernel-add-weightless-rmsnorm-cuda-kerne.md
+PR #55684 | [Quantization] Layer re-quantization for linear layers through online quantization API (MXFP8 -> FP8 PTPC showcase) | pack=data/cards-workdir/vllm/packs/pr-55684.pack.md | out=index/vllm/cards/pr-55684-quantization-layer-re-quantization-for-l.md
+PR #60229 | [Spec Decode][GLM-5.3-Flash] Support adaptive verification | pack=data/cards-workdir/vllm/packs/pr-60229.pack.md | out=index/vllm/cards/pr-60229-spec-decode-glm-5-3-flash-support-adapti.md

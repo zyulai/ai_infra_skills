@@ -1,0 +1,17 @@
+PR #63842 | [Perf][Frontend] Compute prompt block hashes in the Rust frontend | pack=data/cards-workdir/vllm/packs/pr-63842.pack.md | out=index/vllm/cards/pr-63842-perf-frontend-compute-prompt-block-hashe.md
+PR #57947 | [ROCm][Perf] Reach the fused QSA pre-indexer from the AMD path | pack=data/cards-workdir/vllm/packs/pr-57947.pack.md | out=index/vllm/cards/pr-57947-rocm-perf-reach-the-fused-qsa-pre-indexe.md
+PR #20331 | [Perf] Optimize Vectorization Utils for Int 8 Quantization Kernels | pack=data/cards-workdir/vllm/packs/pr-20331.pack.md | out=index/vllm/cards/pr-20331-perf-optimize-vectorization-utils-for-in.md
+PR #25233 | [Core] Encoder separation for Encode-Prefill-Decode Disaggregation | pack=data/cards-workdir/vllm/packs/pr-25233.pack.md | out=index/vllm/cards/pr-25233-core-encoder-separation-for-encode-prefi.md
+PR #31781 | [Kernel] Support bias type in grouped_topk kernel | pack=data/cards-workdir/vllm/packs/pr-31781.pack.md | out=index/vllm/cards/pr-31781-kernel-support-bias-type-in-grouped-topk.md
+PR #37695 | [Perf] Use torch compile to fuse pack topk in trtllm moe | pack=data/cards-workdir/vllm/packs/pr-37695.pack.md | out=index/vllm/cards/pr-37695-perf-use-torch-compile-to-fuse-pack-topk.md
+PR #54674 | [Perf][DSpark] Stack DeepSeek V4 context WKV projections | pack=data/cards-workdir/vllm/packs/pr-54674.pack.md | out=index/vllm/cards/pr-54674-perf-dspark-stack-deepseek-v4-context-wk.md
+PR #59668 | [ROCm][DSV4.1][Perf] Single-launch DSA decode candidate mask | pack=data/cards-workdir/vllm/packs/pr-59668.pack.md | out=index/vllm/cards/pr-59668-rocm-dsv4-1-perf-single-launch-dsa-decod.md
+PR #59533 | [Perf][Qwen4Exp] Merge QSA QKVG and indexer QK projections | pack=data/cards-workdir/vllm/packs/pr-59533.pack.md | out=index/vllm/cards/pr-59533-perf-qwen4exp-merge-qsa-qkvg-and-indexer.md
+PR #2979 | Optimized fused MoE Kernel, take 2 | pack=data/cards-workdir/vllm/packs/pr-2979.pack.md | out=index/vllm/cards/pr-2979-optimized-fused-moe-kernel-take-2.md
+PR #40977 | [ROCm][Kernel] Add HybridW4A16LinearKernel: Triton prefill + HIP skinny decode | pack=data/cards-workdir/vllm/packs/pr-40977.pack.md | out=index/vllm/cards/pr-40977-rocm-kernel-add-hybridw4a16linearkernel.md
+PR #62011 | [Perf] Enable DeepGEMM sparse MQA logits on the FP8 indexer cache, DSv4.1 | pack=data/cards-workdir/vllm/packs/pr-62011.pack.md | out=index/vllm/cards/pr-62011-perf-enable-deepgemm-sparse-mqa-logits-o.md
+PR #47419 | [ROCm] Enable DeepSeek-V4 DSpark speculative decoding on AMD (MI350X / MI355X, gfx950) | pack=data/cards-workdir/vllm/packs/pr-47419.pack.md | out=index/vllm/cards/pr-47419-rocm-enable-deepseek-v4-dspark-speculati.md
+PR #36596 | [Perf] add packed recurrent fast path for decode | pack=data/cards-workdir/vllm/packs/pr-36596.pack.md | out=index/vllm/cards/pr-36596-perf-add-packed-recurrent-fast-path-for.md
+PR #19946 | [Perf][Frontend]: eliminate api_key and x_request_id headers middleware overhead | pack=data/cards-workdir/vllm/packs/pr-19946.pack.md | out=index/vllm/cards/pr-19946-perf-frontend-eliminate-api-key-and-x-re.md
+PR #29184 | [Core] NGram GPU Implementation compatible with Async Scheduler | pack=data/cards-workdir/vllm/packs/pr-29184.pack.md | out=index/vllm/cards/pr-29184-core-ngram-gpu-implementation-compatible.md
+PR #32374 | [V1][Spec Decode] Add Dynamic SD | pack=data/cards-workdir/vllm/packs/pr-32374.pack.md | out=index/vllm/cards/pr-32374-v1-spec-decode-add-dynamic-sd.md

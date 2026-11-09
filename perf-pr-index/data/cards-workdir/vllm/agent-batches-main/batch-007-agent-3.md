@@ -1,0 +1,17 @@
+PR #45703 | [Kernel] Extend Marlin thread-tile padding to MoE (WNA16 + FP8/MXFP8) | pack=data/cards-workdir/vllm/packs/pr-45703.pack.md | out=index/vllm/cards/pr-45703-kernel-extend-marlin-thread-tile-padding.md
+PR #59082 | [CPU] Improve long-context MTP attention scheduling on AMX | pack=data/cards-workdir/vllm/packs/pr-59082.pack.md | out=index/vllm/cards/pr-59082-cpu-improve-long-context-mtp-attention-s.md
+PR #34457 | [Bugfix][MTP][Sparse MLA] Allow sparse MLA with MTP to run with FULL cudagraphs | pack=data/cards-workdir/vllm/packs/pr-34457.pack.md | out=index/vllm/cards/pr-34457-bugfix-mtp-sparse-mla-allow-sparse-mla-w.md
+PR #46518 | [Kernel][MoE] Allow FlashInfer MXINT4 MoE for gated SiLU | pack=data/cards-workdir/vllm/packs/pr-46518.pack.md | out=index/vllm/cards/pr-46518-kernel-moe-allow-flashinfer-mxint4-moe-f.md
+PR #14068 | [core] moe fp8 block quant tuning support | pack=data/cards-workdir/vllm/packs/pr-14068.pack.md | out=index/vllm/cards/pr-14068-core-moe-fp8-block-quant-tuning-support.md
+PR #21325 | Fix Flashinfer Allreduce+Norm enable disable calculation based on `fi_allreduce_fusion_max_token_num` | pack=data/cards-workdir/vllm/packs/pr-21325.pack.md | out=index/vllm/cards/pr-21325-fix-flashinfer-allreduce-norm-enable-dis.md
+PR #23748 | [Perf] Tune configs for triton block fp8 gemm H100/H200 | pack=data/cards-workdir/vllm/packs/pr-23748.pack.md | out=index/vllm/cards/pr-23748-perf-tune-configs-for-triton-block-fp8-g.md
+PR #28345 | [Performance][gpt-oss] Revert gpt-oss max cudagraph size to 1024 | pack=data/cards-workdir/vllm/packs/pr-28345.pack.md | out=index/vllm/cards/pr-28345-performance-gpt-oss-revert-gpt-oss-max-c.md
+PR #32542 | Enable Eagle3 speculative decoding for Pixtral (LlavaForConditionalGeneration) | pack=data/cards-workdir/vllm/packs/pr-32542.pack.md | out=index/vllm/cards/pr-32542-enable-eagle3-speculative-decoding-for-p.md
+PR #33506 | [Kernel] Support Flashinfer trtllm fused MoE non gated FP8 & NVFP4 | pack=data/cards-workdir/vllm/packs/pr-33506.pack.md | out=index/vllm/cards/pr-33506-kernel-support-flashinfer-trtllm-fused-m.md
+PR #42555 | [Attention] Remove deprecated MLA prefill arguments | pack=data/cards-workdir/vllm/packs/pr-42555.pack.md | out=index/vllm/cards/pr-42555-attention-remove-deprecated-mla-prefill.md
+PR #63873 | [Bugfix][Bench] Handle packed hybrid KV and speculative recurrent state | pack=data/cards-workdir/vllm/packs/pr-63873.pack.md | out=index/vllm/cards/pr-63873-bugfix-bench-handle-packed-hybrid-kv-and.md
+PR #65542 | [Kernel] Marlin: remove 8-bit (INT8/FP8) activation support, rely on Humming | pack=data/cards-workdir/vllm/packs/pr-65542.pack.md | out=index/vllm/cards/pr-65542-kernel-marlin-remove-8-bit-int8-fp8-acti.md
+PR #19205 | Add H20-3e fused MoE kernel tuning configs for DeepSeek-R1/V3 | pack=data/cards-workdir/vllm/packs/pr-19205.pack.md | out=index/vllm/cards/pr-19205-add-h20-3e-fused-moe-kernel-tuning-confi.md
+PR #25132 | [Kernel] Support DCP for Triton backend  | pack=data/cards-workdir/vllm/packs/pr-25132.pack.md | out=index/vllm/cards/pr-25132-kernel-support-dcp-for-triton-backend.md
+PR #33985 | [Kernel] FlashInfer: switch allreduce fusion to unified API | pack=data/cards-workdir/vllm/packs/pr-33985.pack.md | out=index/vllm/cards/pr-33985-kernel-flashinfer-switch-allreduce-fusio.md
+PR #39904 | Add tuned triton fused_moe configs on H100 for gpt-oss | pack=data/cards-workdir/vllm/packs/pr-39904.pack.md | out=index/vllm/cards/pr-39904-add-tuned-triton-fused-moe-configs-on-h1.md

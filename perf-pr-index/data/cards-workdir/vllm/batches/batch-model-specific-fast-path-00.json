@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "Model-specific Fast Path",
+  "count": 40,
+  "prs": [
+    {
+      "number": 6695,
+      "title": "PP comm optimization: replace send with partial send + allgather",
+      "pack": "data/cards-workdir/vllm/packs/pr-6695.pack.md",
+      "card_out": "index/vllm/cards/pr-6695-<slug>.md"
+    },
+    {
+      "number": 7109,
+      "title": "[Core] Optimize SPMD architecture with delta + serialization optimization",
+      "pack": "data/cards-workdir/vllm/packs/pr-7109.pack.md",
+      "card_out": "index/vllm/cards/pr-7109-<slug>.md"
+    },
+    {
+      "number": 7162,
+      "title": "[Performance] Optimize e2e overheads: Reduce python allocations",
+      "pack": "data/cards-workdir/vllm/packs/pr-7162.pack.md",
+      "card_out": "index/vllm/cards/pr-7162-<slug>.md"
+    },
+    {
+      "number": 8050,
+      "title": "[Core] Optimize Async + Multi-step",
+      "pack": "data/cards-workdir/vllm/packs/pr-8050.pack.md",
+      "card_out": "index/vllm/cards/pr-8050-<slug>.md"
+    },
+    {
+      "number": 10785,
+      "title": "[Core][Performance] Add XGrammar support for guided decoding and set it as default",
+      "pack": "data/cards-workdir/vllm/packs/pr-10785.pack.md",
+      "card_out": "index/vllm/cards/pr-10785-<slug>.md"
+    },
+    {
+      "number": 13454,
+      "title": "[Model][MiniMaxText01] Support MiniMaxText01 model inference",
+      "pack": "data/cards-workdir/vllm/packs/pr-13454.pack.md",
+      "card_out": "index/vllm/cards/pr-13454-<slug>.md"
+    },
+    {
+      "number": 19939,
+      "title": "[PERF] Speedup of MRoPE prepare inputs",
+      "pack": "data/cards-workdir/vllm/packs/pr-19939.pack.md",
+      "card_out": "index/vllm/cards/pr-19939-<slug>.md"
+    },
+    {
+      "number": 20413,
+      "title": "[Optimization] Speed up function `_convert_tokens_to_string_with_added_encoders` by 13.7x",
+      "pack": "data/cards-workdir/vllm/packs/pr-20413.pack.md",
+      "card_out": "index/vllm/cards/pr-20413-<slug>.md"
+    },
+    {
+      "number": 20736,
+      "title": "GLM-4.5 Model Support",
+      "pack": "data/cards-workdir/vllm/packs/pr-20736.pack.md",
+      "card_out": "index/vllm/cards/pr-20736-<slug>.md"
+    },
+    {
+      "number": 21703,
+      "title": "[XPU] IPEX-optimized Punica Wrapper on XPU",
+      "pack": "data/cards-workdir/vllm/packs/pr-21703.pack.md",
+      "card_out": "index/vllm/cards/pr-21703-<slug>.md"
+    },
+    {
+      "number": 22179,
+      "title": "[EPLB] Optimize EPLB for Async Rearrange Experts ",
+      "pack": "data/cards-workdir/vllm/packs/pr-22179.pack.md",
+      "card_out": "index/vllm/cards/pr-22179-<slug>.md"
+    },
+    {
+      "number": 22742,
+      "title": "[FEAT] [Performance] Enable DP for ViT in Qwen2.5VL",
+      "pack": "data/cards-workdir/vllm/packs/pr-22742.pack.md",
+      "card_out": "index/vllm/cards/pr-22742-<slug>.md"
+    },
+    {
+      "number": 23777,
+      "title": "[LoRA] Much faster startup when LoRA is enabled",
+      "pack": "data/cards-workdir/vllm/packs/pr-23777.pack.md",
+      "card_out": "index/vllm/cards/pr-23777-<slug>.md"
+    },
+    {
+      "number": 24511,
+      "title": "[Multi Modal][Performance] Fused Q,K's apply_rope into one",
+      "pack": "data/cards-workdir/vllm/packs/pr-24511.pack.md",
+      "card_out": "index/vllm/cards/pr-24511-<slug>.md"
+    },
+    {
+      "number": 26647,
+      "title": "[Models][Qwen3VL] Speedup `fast_pos_embed_interpolate`",
+      "pack": "data/cards-workdir/vllm/packs/pr-26647.pack.md",
+      "card_out": "index/vllm/cards/pr-26647-<slug>.md"
+    },
+    {
+      "number": 28369,
+      "title": "[EPLB] Refactor balance_packing to use numpy and optimize GPU-CPU transfers in EPLB",
+      "pack": "data/cards-workdir/vllm/packs/pr-28369.pack.md",
+      "card_out": "index/vllm/cards/pr-28369-<slug>.md"
+    },
+    {
+      "number": 28694,
+      "title": "[Performance][DeepGEMM] Estimate expected_m",
+      "pack": "data/cards-workdir/vllm/packs/pr-28694.pack.md",
+      "card_out": "index/vllm/cards/pr-28694-<slug>.md"
+    },
+    {
+      "number": 28841,
+      "title": "[Bugfix] Fix GPT-OSS AR+NORM fusion",
+      "pack": "data/cards-workdir/vllm/packs/pr-28841.pack.md",
+      "card_out": "index/vllm/cards/pr-28841-<slug>.md"
+    },
+    {
+      "number": 29499,
+      "title": "[EPLB] Optimize EPLB with numpy",
+      "pack": "data/cards-workdir/vllm/packs/pr-29499.pack.md",
+      "card_out": "index/vllm/cards/pr-29499-<slug>.md"
+    },
+    {
+      "number": 29757,
+      "title": "Add Mistral Large 3 and Ministral 3",
+      "pack": "data/cards-workdir/vllm/packs/pr-29757.pack.md",
+      "card_out": "index/vllm/cards/pr-29757-<slug>.md"
+    },
+    {
+      "number": 32019,
+      "title": "[LoRA][Perf] Improve FusedMoE LoRA performance for small rank",
+      "pack": "data/cards-workdir/vllm/packs/pr-32019.pack.md",
+      "card_out": "index/vllm/cards/pr-32019-<slug>.md"
+    },
+    {
+      "number": 33825,
+      "title": "[vLLM IR] 1/N Implement IR skeleton and rms_norm op",
+      "pack": "data/cards-workdir/vllm/packs/pr-33825.pack.md",
+      "card_out": "index/vllm/cards/pr-33825-<slug>.md"
+    },
+    {
+      "number": 34110,
+      "title": "[MODEL] Adding Support for Qwen3.5 Models",
+      "pack": "data/cards-workdir/vllm/packs/pr-34110.pack.md",
+      "card_out": "index/vllm/cards/pr-34110-<slug>.md"
+    },
+    {
+      "number": 34984,
+      "title": "[Misc][LoRA] Add --lora-target-modules to restrict LoRA to specific modules",
+      "pack": "data/cards-workdir/vllm/packs/pr-34984.pack.md",
+      "card_out": "index/vllm/cards/pr-34984-<slug>.md"
+    },
+    {
+      "number": 36596,
+      "title": "[Perf] add packed recurrent fast path for decode",
+      "pack": "data/cards-workdir/vllm/packs/pr-36596.pack.md",
+      "card_out": "index/vllm/cards/pr-36596-<slug>.md"
+    },
+    {
+      "number": 37374,
+      "title": "[Perf] Optimize hidden state extraction logic",
+      "pack": "data/cards-workdir/vllm/packs/pr-37374.pack.md",
+      "card_out": "index/vllm/cards/pr-37374-<slug>.md"
+    },
+    {
+      "number": 40860,
+      "title": "[Feat] DeepSeek V4 Rebased ",
+      "pack": "data/cards-workdir/vllm/packs/pr-40860.pack.md",
+      "card_out": "index/vllm/cards/pr-40860-<slug>.md"
+    },
+    {
+      "number": 40871,
+      "title": "[New Model][ROCm] Add AMD support for DeepSeek V4",
+      "pack": "data/cards-workdir/vllm/packs/pr-40871.pack.md",
+      "card_out": "index/vllm/cards/pr-40871-<slug>.md"
+    },
+    {
+      "number": 42311,
+      "title": "[Model] [Perf] Use flatten for Qwen3.5's GDN output projection",
+      "pack": "data/cards-workdir/vllm/packs/pr-42311.pack.md",
+      "card_out": "index/vllm/cards/pr-42311-<slug>.md"
+    },
+    {
+      "number": 45163,
+      "title": "[Model] Add DiffusionGemma Support",
+      "pack": "data/cards-workdir/vllm/packs/pr-45163.pack.md",
+      "card_out": "index/vllm/cards/pr-45163-<slug>.md"
+    },
+    {
+      "number": 45381,
+      "title": "[Model] Add MiniMax M3 support",
+      "pack": "data/cards-workdir/vllm/packs/pr-45381.pack.md",
+      "card_out": "index/vllm/cards/pr-45381-<slug>.md"
+    },
+    {
+      "number": 50000,
+      "title": "[New model] Kimi K3",
+      "pack": "data/cards-workdir/vllm/packs/pr-50000.pack.md",
+      "card_out": "index/vllm/cards/pr-50000-<slug>.md"
+    },
+    {
+      "number": 50411,
+      "title": "[Model] Fused mm preprocess normalisation on the Device",
+      "pack": "data/cards-workdir/vllm/packs/pr-50411.pack.md",
+      "card_out": "index/vllm/cards/pr-50411-<slug>.md"
+    },
+    {
+      "number": 51725,
+      "title": "[Perf] Adaptive budget for spec scheduled token, 55%~65% E2E TTFT Improvement",
+      "pack": "data/cards-workdir/vllm/packs/pr-51725.pack.md",
+      "card_out": "index/vllm/cards/pr-51725-<slug>.md"
+    },
+    {
+      "number": 52162,
+      "title": "[Perf][PCP] Shard decode requests across PCP ranks",
+      "pack": "data/cards-workdir/vllm/packs/pr-52162.pack.md",
+      "card_out": "index/vllm/cards/pr-52162-<slug>.md"
+    },
+    {
+      "number": 52458,
+      "title": "[Kimi-K3][Perf] Update FlashKDA for automatic K2 V-split",
+      "pack": "data/cards-workdir/vllm/packs/pr-52458.pack.md",
+      "card_out": "index/vllm/cards/pr-52458-<slug>.md"
+    },
+    {
+      "number": 53712,
+      "title": "[Hardware][AMD][Perf][Bugfix] Update ROCr and clr in base image",
+      "pack": "data/cards-workdir/vllm/packs/pr-53712.pack.md",
+      "card_out": "index/vllm/cards/pr-53712-<slug>.md"
+    },
+    {
+      "number": 53896,
+      "title": "[Model] Support Qwen3.8-Flash-Next",
+      "pack": "data/cards-workdir/vllm/packs/pr-53896.pack.md",
+      "card_out": "index/vllm/cards/pr-53896-<slug>.md"
+    },
+    {
+      "number": 53906,
+      "title": "[Model] add GLM-5.3-Flash support",
+      "pack": "data/cards-workdir/vllm/packs/pr-53906.pack.md",
+      "card_out": "index/vllm/cards/pr-53906-<slug>.md"
+    },
+    {
+      "number": 54261,
+      "title": "[Kimi-K3][Perf] Make native CUDA AttnRes the SM100 default",
+      "pack": "data/cards-workdir/vllm/packs/pr-54261.pack.md",
+      "card_out": "index/vllm/cards/pr-54261-<slug>.md"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+PR #33561 | [Model] Support Ling-3.0-flash (BailingMoeV3)  | pack=data/cards-workdir/sglang/packs/pr-33561.pack.md | out=index/sglang/cards/pr-33561-model-support-ling-3-0-flash-bailingmoev.md
+PR #33997 | Bump FlashInfer to 0.6.17 and remove Kimi K3 workarounds | pack=data/cards-workdir/sglang/packs/pr-33997.pack.md | out=index/sglang/cards/pr-33997-bump-flashinfer-to-0-6-17-and-remove-kim.md
+PR #4247 | [Feature] Support EAGLE 3 | pack=data/cards-workdir/sglang/packs/pr-4247.pack.md | out=index/sglang/cards/pr-4247-feature-support-eagle-3.md
+PR #14105 | [LoRA][III] Add LoRA support for MoE layers and enable TP | pack=data/cards-workdir/sglang/packs/pr-14105.pack.md | out=index/sglang/cards/pr-14105-lora-iii-add-lora-support-for-moe-layers.md
+PR #19652 | [Feature] NVFP4 Marlin fallback for non-Blackwell GPUs (SM75+) | pack=data/cards-workdir/sglang/packs/pr-19652.pack.md | out=index/sglang/cards/pr-19652-feature-nvfp4-marlin-fallback-for-non-bl.md
+PR #21971 | perf: skip KV cache in FA backend for embedding mode | pack=data/cards-workdir/sglang/packs/pr-21971.pack.md | out=index/sglang/cards/pr-21971-perf-skip-kv-cache-in-fa-backend-for-emb.md
+PR #23906 | [Refactor] Cuda Graph Runner/Backend Refactor | pack=data/cards-workdir/sglang/packs/pr-23906.pack.md | out=index/sglang/cards/pr-23906-refactor-cuda-graph-runner-backend-refac.md
+PR #24756 | Optimize ngram decode token table update | pack=data/cards-workdir/sglang/packs/pr-24756.pack.md | out=index/sglang/cards/pr-24756-optimize-ngram-decode-token-table-update.md
+PR #24757 | Optimize ngram decode id computation | pack=data/cards-workdir/sglang/packs/pr-24757.pack.md | out=index/sglang/cards/pr-24757-optimize-ngram-decode-id-computation.md
+PR #26000 | [codex] Centralize Triton utility kernels | pack=data/cards-workdir/sglang/packs/pr-26000.pack.md | out=index/sglang/cards/pr-26000-codex-centralize-triton-utility-kernels.md
+PR #26588 | Optimize Gemma4 H200 MoE and extend attention | pack=data/cards-workdir/sglang/packs/pr-26588.pack.md | out=index/sglang/cards/pr-26588-optimize-gemma4-h200-moe-and-extend-atte.md
+PR #28291 | [AMD][MXFP4] Reland "Online MXFP4 quantization 2/N - FP8 to MXFP4 requantization on AMD GPUs" | pack=data/cards-workdir/sglang/packs/pr-28291.pack.md | out=index/sglang/cards/pr-28291-amd-mxfp4-reland-online-mxfp4-quantizati.md
+PR #28354 | [FlashInfer v0.6.16] Support FlashInfer CuTe DSL NVFP4 MoE quantization | pack=data/cards-workdir/sglang/packs/pr-28354.pack.md | out=index/sglang/cards/pr-28354-flashinfer-v0-6-16-support-flashinfer-cu.md
+PR #30719 | [Perf] [Intel] diffusion: Adding AMX optimizations on CPU platform | pack=data/cards-workdir/sglang/packs/pr-30719.pack.md | out=index/sglang/cards/pr-30719-perf-intel-diffusion-adding-amx-optimiza.md
+PR #33115 | [ModelOpt FP4] Support online MoE weight quantization | pack=data/cards-workdir/sglang/packs/pr-33115.pack.md | out=index/sglang/cards/pr-33115-modelopt-fp4-support-online-moe-weight-q.md
+PR #40825 | [Feat] [NPU] kimi-k3: Support DCP with shared compact communication | pack=data/cards-workdir/sglang/packs/pr-40825.pack.md | out=index/sglang/cards/pr-40825-feat-npu-kimi-k3-support-dcp-with-shared.md
+PR #22851 | [FlashInfer v0.6.10] [RL] [DSv32] [GLM-5] Add `--dsa-topk-backend` and integrate FlashInfer and pytorch topk | pack=data/cards-workdir/sglang/packs/pr-22851.pack.md | out=index/sglang/cards/pr-22851-flashinfer-v0-6-10-rl-dsv32-glm-5-add-ds.md

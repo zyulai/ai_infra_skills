@@ -1,0 +1,12 @@
+PR #46392 | [Perf] Enable + tune FlashInfer fused allreduce at world_size=16 on SM 10.3 (GB300) | pack=data/cards-workdir/vllm/packs/pr-46392.pack.md | out=index/vllm/cards/pr-46392-perf-enable-tune-flashinfer-fused-allred.md
+PR #48064 | [Distributed][Perf] Enable FlashInfer MNNVL allreduce RMS quant fusion | pack=data/cards-workdir/vllm/packs/pr-48064.pack.md | out=index/vllm/cards/pr-48064-distributed-perf-enable-flashinfer-mnnvl.md
+PR #19830 | [Perf][fp8] Use CustomOp abstraction for fp8 quant for better perf | pack=data/cards-workdir/vllm/packs/pr-19830.pack.md | out=index/vllm/cards/pr-19830-perf-fp8-use-customop-abstraction-for-fp.md
+PR #21961 | [Feature] Non-contiguous Support for FP8 Quantization | pack=data/cards-workdir/vllm/packs/pr-21961.pack.md | out=index/vllm/cards/pr-21961-feature-non-contiguous-support-for-fp8-q.md
+PR #27967 | [Model] add optimal triton fused moe configs for NemotronH MoE | pack=data/cards-workdir/vllm/packs/pr-27967.pack.md | out=index/vllm/cards/pr-27967-model-add-optimal-triton-fused-moe-confi.md
+PR #31097 | [FIX] FP4 quantization kernel padding initialization bug | pack=data/cards-workdir/vllm/packs/pr-31097.pack.md | out=index/vllm/cards/pr-31097-fix-fp4-quantization-kernel-padding-init.md
+PR #32688 | [Quantization][Deprecation] Remove Marlin 24 | pack=data/cards-workdir/vllm/packs/pr-32688.pack.md | out=index/vllm/cards/pr-32688-quantization-deprecation-remove-marlin-2.md
+PR #37340 | [Perf] Add tuned triton moe config for Qwen3.5 H200, 9.9% E2E throughput improvement | pack=data/cards-workdir/vllm/packs/pr-37340.pack.md | out=index/vllm/cards/pr-37340-perf-add-tuned-triton-moe-config-for-qwe.md
+PR #55629 | [Perf] Fuse DeepEncoder relative bias in Triton attention | pack=data/cards-workdir/vllm/packs/pr-55629.pack.md | out=index/vllm/cards/pr-55629-perf-fuse-deepencoder-relative-bias-in-t.md
+PR #65230 | [Quantization] Remove QuTLASS and fp_quant, run QuIP NVFP4 on Humming | pack=data/cards-workdir/vllm/packs/pr-65230.pack.md | out=index/vllm/cards/pr-65230-quantization-remove-qutlass-and-fp-quant.md
+PR #14384 | [Perf] Reduce MLA CPU overheads in V1 | pack=data/cards-workdir/vllm/packs/pr-14384.pack.md | out=index/vllm/cards/pr-14384-perf-reduce-mla-cpu-overheads-in-v1.md
+PR #23214 | [Core] Always use tensor cores for Flashinfer Decode Wrapper | pack=data/cards-workdir/vllm/packs/pr-23214.pack.md | out=index/vllm/cards/pr-23214-core-always-use-tensor-cores-for-flashin.md

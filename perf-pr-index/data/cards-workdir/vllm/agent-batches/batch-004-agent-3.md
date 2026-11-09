@@ -1,0 +1,17 @@
+PR #5218 | Support W4A8 quantization for vllm | pack=data/cards-workdir/vllm/packs/pr-5218.pack.md | out=index/vllm/cards/pr-5218-support-w4a8-quantization-for-vllm.md
+PR #20358 | Update PyTorch to 2.8.0 | pack=data/cards-workdir/vllm/packs/pr-20358.pack.md | out=index/vllm/cards/pr-20358-update-pytorch-to-2-8-0.md
+PR #50654 | [ROCm][Perf] Kimi-K3 Fused kernel for KDA decode | pack=data/cards-workdir/vllm/packs/pr-50654.pack.md | out=index/vllm/cards/pr-50654-rocm-perf-kimi-k3-fused-kernel-for-kda-d.md
+PR #51655 | Add Muse Glimmer model support | pack=data/cards-workdir/vllm/packs/pr-51655.pack.md | out=index/vllm/cards/pr-51655-add-muse-glimmer-model-support.md
+PR #40033 | [NVFP4][Hopper/AMD Instinct] Add Triton kernels for NVFP4 dequantization and QDQ emulation | pack=data/cards-workdir/vllm/packs/pr-40033.pack.md | out=index/vllm/cards/pr-40033-nvfp4-hopper-amd-instinct-add-triton-ker.md
+PR #34302 | [ModelBash][DSV3] Add TRTLLM DSV3 Router GEMM kernel (6% B1 Speedup) | pack=data/cards-workdir/vllm/packs/pr-34302.pack.md | out=index/vllm/cards/pr-34302-modelbash-dsv3-add-trtllm-dsv3-router-ge.md
+PR #59044 | [Perf][MoE] Skip padded work in SM100 FP4 DeepGEMM experts | pack=data/cards-workdir/vllm/packs/pr-59044.pack.md | out=index/vllm/cards/pr-59044-perf-moe-skip-padded-work-in-sm100-fp4-d.md
+PR #53987 | [Spec Decode][ROCm] Add FLy: entropy-gated deferred verification for draft-model speculative decoding | pack=data/cards-workdir/vllm/packs/pr-53987.pack.md | out=index/vllm/cards/pr-53987-spec-decode-rocm-add-fly-entropy-gated-d.md
+PR #6455 | [Distributed][Model] Rank-based Component Creation for Pipeline Parallelism Memory Optimization | pack=data/cards-workdir/vllm/packs/pr-6455.pack.md | out=index/vllm/cards/pr-6455-distributed-model-rank-based-component-c.md
+PR #16457 | [Perf]Optimize rotary_emb implementation to use Triton operator for improved inference performance | pack=data/cards-workdir/vllm/packs/pr-16457.pack.md | out=index/vllm/cards/pr-16457-perf-optimize-rotary-emb-implementation.md
+PR #31246 | [Kernel] Add topk_sigmoid kernel | pack=data/cards-workdir/vllm/packs/pr-31246.pack.md | out=index/vllm/cards/pr-31246-kernel-add-topk-sigmoid-kernel.md
+PR #55090 | [ROCm][Perf] Pad fp16/bf16 GEMM weight row stride for L2 cache | pack=data/cards-workdir/vllm/packs/pr-55090.pack.md | out=index/vllm/cards/pr-55090-rocm-perf-pad-fp16-bf16-gemm-weight-row.md
+PR #60397 | [ROCm][Perf][DSv4.1] Mono decode layer for DeepSeek-V4.1-Flash on MI355X | pack=data/cards-workdir/vllm/packs/pr-60397.pack.md | out=index/vllm/cards/pr-60397-rocm-perf-dsv4-1-mono-decode-layer-for-d.md
+PR #55170 | [Perf][Quant][NVFP4] Prefer W4A4 linear kernels over weight-only ones on SM120/121 | pack=data/cards-workdir/vllm/packs/pr-55170.pack.md | out=index/vllm/cards/pr-55170-perf-quant-nvfp4-prefer-w4a4-linear-kern.md
+PR #57407 | [ROCm][Perf] Enable layer-aware CSA2 multi-stream overlap for DeepSeek-V4.1-Flash | pack=data/cards-workdir/vllm/packs/pr-57407.pack.md | out=index/vllm/cards/pr-57407-rocm-perf-enable-layer-aware-csa2-multi.md
+PR #57273 | [Perf][Model] Qwen4Exp QSA: sm_90 tuning table for _select_config | pack=data/cards-workdir/vllm/packs/pr-57273.pack.md | out=index/vllm/cards/pr-57273-perf-model-qwen4exp-qsa-sm-90-tuning-tab.md
+PR #59973 | [MRV2][Spec Decode] Quantized draft lm_head for drafters that share the target head | pack=data/cards-workdir/vllm/packs/pr-59973.pack.md | out=index/vllm/cards/pr-59973-mrv2-spec-decode-quantized-draft-lm-head.md

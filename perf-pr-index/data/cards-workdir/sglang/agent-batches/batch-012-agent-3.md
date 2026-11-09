@@ -1,0 +1,17 @@
+PR #32196 | [PD] Keep EAGLE DP graph and token metadata consistent | pack=data/cards-workdir/sglang/packs/pr-32196.pack.md | out=index/sglang/cards/pr-32196-pd-keep-eagle-dp-graph-and-token-metadat.md
+PR #32994 | Add flashinfer rmsnorm + quant fusion support SM90, SM100, SM120 | pack=data/cards-workdir/sglang/packs/pr-32994.pack.md | out=index/sglang/cards/pr-32994-add-flashinfer-rmsnorm-quant-fusion-supp.md
+PR #43786 | [Perf] DeepSeek-V4: Fuse inverse RoPE into wo_a FP8 quantization | pack=data/cards-workdir/sglang/packs/pr-43786.pack.md | out=index/sglang/cards/pr-43786-perf-deepseek-v4-fuse-inverse-rope-into.md
+PR #24651 | [AMD] Add fused all-reduce RMSNorm per-group quant for Qwen3.5 FP8 | pack=data/cards-workdir/sglang/packs/pr-24651.pack.md | out=index/sglang/cards/pr-24651-amd-add-fused-all-reduce-rmsnorm-per-gro.md
+PR #26852 | [AMD]Reuse fused FP8 KV cache write on standard aiter prefill/decode | pack=data/cards-workdir/sglang/packs/pr-26852.pack.md | out=index/sglang/cards/pr-26852-amd-reuse-fused-fp8-kv-cache-write-on-st.md
+PR #38565 | [Fix] sampling: deterministic top-p / top-k renorm when tp_size > 1 (TP rank divergence in DFlash/DSpark) | pack=data/cards-workdir/sglang/packs/pr-38565.pack.md | out=index/sglang/cards/pr-38565-fix-sampling-deterministic-top-p-top-k-r.md
+PR #12921 | [perf]optimize w4afp8 kernel on deepseek-v3-0324 | pack=data/cards-workdir/sglang/packs/pr-12921.pack.md | out=index/sglang/cards/pr-12921-perf-optimize-w4afp8-kernel-on-deepseek.md
+PR #17255 | fix tp capture in vit cuda graph | pack=data/cards-workdir/sglang/packs/pr-17255.pack.md | out=index/sglang/cards/pr-17255-fix-tp-capture-in-vit-cuda-graph.md
+PR #32207 | 【NPU】Support EAGLE when PP enabled in prefill nodes | pack=data/cards-workdir/sglang/packs/pr-32207.pack.md | out=index/sglang/cards/pr-32207-npu-support-eagle-when-pp-enabled-in-pre.md
+PR #39947 | [Feat] [NPU] DSpark: Support dsv4 dspark on ascend 950 | pack=data/cards-workdir/sglang/packs/pr-39947.pack.md | out=index/sglang/cards/pr-39947-feat-npu-dspark-support-dsv4-dspark-on-a.md
+PR #43838 | [Perf] DeepSeek-V4.1: Run the small-batch decode fusions at TP2 | pack=data/cards-workdir/sglang/packs/pr-43838.pack.md | out=index/sglang/cards/pr-43838-perf-deepseek-v4-1-run-the-small-batch-d.md
+PR #13797 | [1/N] Optimize All Reduce - Benchmark different AR operations | pack=data/cards-workdir/sglang/packs/pr-13797.pack.md | out=index/sglang/cards/pr-13797-1-n-optimize-all-reduce-benchmark-differ.md
+PR #18905 | [jit kernel] Support per_token_group_quant_8bit jit kernel | pack=data/cards-workdir/sglang/packs/pr-18905.pack.md | out=index/sglang/cards/pr-18905-jit-kernel-support-per-token-group-quant.md
+PR #33569 | [NPU] [Diffusion] Support MiniMax H3 on Ascend NPU's | pack=data/cards-workdir/sglang/packs/pr-33569.pack.md | out=index/sglang/cards/pr-33569-npu-diffusion-support-minimax-h3-on-asce.md
+PR #14422 | [VLM] Support VLM ViT Piecewise CUDA Graph | pack=data/cards-workdir/sglang/packs/pr-14422.pack.md | out=index/sglang/cards/pr-14422-vlm-support-vlm-vit-piecewise-cuda-graph.md
+PR #19749 | [Feature] Optimizations for JPEG input on NVIDIA GPU | pack=data/cards-workdir/sglang/packs/pr-19749.pack.md | out=index/sglang/cards/pr-19749-feature-optimizations-for-jpeg-input-on.md
+PR #28609 | Facade DSA index-cache: MTP topk-reuse state + index-K storage | pack=data/cards-workdir/sglang/packs/pr-28609.pack.md | out=index/sglang/cards/pr-28609-facade-dsa-index-cache-mtp-topk-reuse-st.md

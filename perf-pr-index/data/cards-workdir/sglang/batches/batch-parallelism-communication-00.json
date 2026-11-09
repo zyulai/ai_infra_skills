@@ -1,0 +1,61 @@
+{
+  "repo": "sglang",
+  "category": "Parallelism / Communication",
+  "count": 9,
+  "prs": [
+    {
+      "number": 11381,
+      "title": "perf: optimize qwen-vl with symm mem allreduce",
+      "pack": "data/cards-workdir/sglang/packs/pr-11381.pack.md",
+      "card_out": "index/sglang/cards/pr-11381-<slug>.md"
+    },
+    {
+      "number": 11917,
+      "title": "[FEAT]  Shared mem pool based cuda ipc for multi-modal data transport",
+      "pack": "data/cards-workdir/sglang/packs/pr-11917.pack.md",
+      "card_out": "index/sglang/cards/pr-11917-<slug>.md"
+    },
+    {
+      "number": 13797,
+      "title": "[1/N] Optimize All Reduce - Benchmark different AR operations",
+      "pack": "data/cards-workdir/sglang/packs/pr-13797.pack.md",
+      "card_out": "index/sglang/cards/pr-13797-<slug>.md"
+    },
+    {
+      "number": 13925,
+      "title": "[VLM] Support InternVL Vision Encoder Data Parallelism",
+      "pack": "data/cards-workdir/sglang/packs/pr-13925.pack.md",
+      "card_out": "index/sglang/cards/pr-13925-<slug>.md"
+    },
+    {
+      "number": 20520,
+      "title": "[NPU]TP Communications compression For Qwen3 models for NPU",
+      "pack": "data/cards-workdir/sglang/packs/pr-20520.pack.md",
+      "card_out": "index/sglang/cards/pr-20520-<slug>.md"
+    },
+    {
+      "number": 26970,
+      "title": "[perf] Replicate embed_tokens to drop the post-embed all-reduce",
+      "pack": "data/cards-workdir/sglang/packs/pr-26970.pack.md",
+      "card_out": "index/sglang/cards/pr-26970-<slug>.md"
+    },
+    {
+      "number": 44251,
+      "title": "[Perf] distributed: Skip the DLPack re-wrap of custom all-reduce results",
+      "pack": "data/cards-workdir/sglang/packs/pr-44251.pack.md",
+      "card_out": "index/sglang/cards/pr-44251-<slug>.md"
+    },
+    {
+      "number": 44288,
+      "title": "[Perf] detokenizer: Group return IPC sends by tokenizer worker",
+      "pack": "data/cards-workdir/sglang/packs/pr-44288.pack.md",
+      "card_out": "index/sglang/cards/pr-44288-<slug>.md"
+    },
+    {
+      "number": 46325,
+      "title": "[Perf] [AMD] deterministic: Use a fixed-order two-stage all-reduce for large inputs",
+      "pack": "data/cards-workdir/sglang/packs/pr-46325.pack.md",
+      "card_out": "index/sglang/cards/pr-46325-<slug>.md"
+    }
+  ]
+}

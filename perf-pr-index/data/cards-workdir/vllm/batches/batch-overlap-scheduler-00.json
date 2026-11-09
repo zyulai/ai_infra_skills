@@ -1,0 +1,157 @@
+{
+  "repo": "vllm",
+  "category": "Overlap / Scheduler",
+  "count": 25,
+  "prs": [
+    {
+      "number": 12094,
+      "title": "[V1][Perf] Reduce scheduling overhead in model runner after cuda sync",
+      "pack": "data/cards-workdir/vllm/packs/pr-12094.pack.md",
+      "card_out": "index/vllm/cards/pr-12094-<slug>.md"
+    },
+    {
+      "number": 21917,
+      "title": "[Core] Optimize scheduler request removal for single completions",
+      "pack": "data/cards-workdir/vllm/packs/pr-21917.pack.md",
+      "card_out": "index/vllm/cards/pr-21917-<slug>.md"
+    },
+    {
+      "number": 23693,
+      "title": "[Core/DBO][1/N] Add Dual-Batch Overlap mechanism to VLLM",
+      "pack": "data/cards-workdir/vllm/packs/pr-23693.pack.md",
+      "card_out": "index/vllm/cards/pr-23693-<slug>.md"
+    },
+    {
+      "number": 25233,
+      "title": "[Core] Encoder separation for Encode-Prefill-Decode Disaggregation",
+      "pack": "data/cards-workdir/vllm/packs/pr-25233.pack.md",
+      "card_out": "index/vllm/cards/pr-25233-<slug>.md"
+    },
+    {
+      "number": 27614,
+      "title": "[Core] Enable async scheduling by default",
+      "pack": "data/cards-workdir/vllm/packs/pr-27614.pack.md",
+      "card_out": "index/vllm/cards/pr-27614-<slug>.md"
+    },
+    {
+      "number": 28164,
+      "title": "[Feature] Enable TP + EP `shared_experts` overlap with router, 3.7% E2E performance improvement",
+      "pack": "data/cards-workdir/vllm/packs/pr-28164.pack.md",
+      "card_out": "index/vllm/cards/pr-28164-<slug>.md"
+    },
+    {
+      "number": 35264,
+      "title": "[KV Connector]: Support KV push from Prefill to Decode node using Nixl KV Connector",
+      "pack": "data/cards-workdir/vllm/packs/pr-35264.pack.md",
+      "card_out": "index/vllm/cards/pr-35264-<slug>.md"
+    },
+    {
+      "number": 35270,
+      "title": "[XPU][NIXL] Add GPUDirect RDMA support for XPU",
+      "pack": "data/cards-workdir/vllm/packs/pr-35270.pack.md",
+      "card_out": "index/vllm/cards/pr-35270-<slug>.md"
+    },
+    {
+      "number": 35758,
+      "title": "[Core][KVConnector] Support HMA+NixlConnector",
+      "pack": "data/cards-workdir/vllm/packs/pr-35758.pack.md",
+      "card_out": "index/vllm/cards/pr-35758-<slug>.md"
+    },
+    {
+      "number": 44612,
+      "title": "[ASR] Optimize CPU preproc to get 2.5x RTFx via multi-threading",
+      "pack": "data/cards-workdir/vllm/packs/pr-44612.pack.md",
+      "card_out": "index/vllm/cards/pr-44612-<slug>.md"
+    },
+    {
+      "number": 47941,
+      "title": "[EC Connector] P2P NIXL + CPU EC Connector",
+      "pack": "data/cards-workdir/vllm/packs/pr-47941.pack.md",
+      "card_out": "index/vllm/cards/pr-47941-<slug>.md"
+    },
+    {
+      "number": 48989,
+      "title": "[ROCm] DeepSeek-V4-Pro PD Disaggregation through MORI IO KV Connector on AMD GPUs",
+      "pack": "data/cards-workdir/vllm/packs/pr-48989.pack.md",
+      "card_out": "index/vllm/cards/pr-48989-<slug>.md"
+    },
+    {
+      "number": 50611,
+      "title": "[Nixl][PD] DCP support for MLA models  ",
+      "pack": "data/cards-workdir/vllm/packs/pr-50611.pack.md",
+      "card_out": "index/vllm/cards/pr-50611-<slug>.md"
+    },
+    {
+      "number": 51794,
+      "title": "[ROCm][Perf] Enable CSA multi-stream overlap for DeepSeek-V4",
+      "pack": "data/cards-workdir/vllm/packs/pr-51794.pack.md",
+      "card_out": "index/vllm/cards/pr-51794-<slug>.md"
+    },
+    {
+      "number": 54689,
+      "title": "[Bugfix][NIXL] Don't evict a remote engine a transfer is still reading from",
+      "pack": "data/cards-workdir/vllm/packs/pr-54689.pack.md",
+      "card_out": "index/vllm/cards/pr-54689-<slug>.md"
+    },
+    {
+      "number": 54697,
+      "title": "[Kimi-K3] Overlap low-M TP8 KDA projections",
+      "pack": "data/cards-workdir/vllm/packs/pr-54697.pack.md",
+      "card_out": "index/vllm/cards/pr-54697-<slug>.md"
+    },
+    {
+      "number": 55471,
+      "title": "[Bugfix][NIXL] Recover locally invalidated pull peer metadata",
+      "pack": "data/cards-workdir/vllm/packs/pr-55471.pack.md",
+      "card_out": "index/vllm/cards/pr-55471-<slug>.md"
+    },
+    {
+      "number": 56090,
+      "title": "[Frontend][EPD] Use JSON arrays for multimodal metadata",
+      "pack": "data/cards-workdir/vllm/packs/pr-56090.pack.md",
+      "card_out": "index/vllm/cards/pr-56090-<slug>.md"
+    },
+    {
+      "number": 56640,
+      "title": "[Bugfix][NIXL] Report a full prefix cache hit as finished",
+      "pack": "data/cards-workdir/vllm/packs/pr-56640.pack.md",
+      "card_out": "index/vllm/cards/pr-56640-<slug>.md"
+    },
+    {
+      "number": 56853,
+      "title": "[ROCm][Perf] Enable HCA dual-stream overlap for DeepSeek-V4",
+      "pack": "data/cards-workdir/vllm/packs/pr-56853.pack.md",
+      "card_out": "index/vllm/cards/pr-56853-<slug>.md"
+    },
+    {
+      "number": 56907,
+      "title": "[NIXL] Bump NIXL version to 1.5.0",
+      "pack": "data/cards-workdir/vllm/packs/pr-56907.pack.md",
+      "card_out": "index/vllm/cards/pr-56907-<slug>.md"
+    },
+    {
+      "number": 57407,
+      "title": "[ROCm][Perf] Enable layer-aware CSA2 multi-stream overlap for DeepSeek-V4.1-Flash",
+      "pack": "data/cards-workdir/vllm/packs/pr-57407.pack.md",
+      "card_out": "index/vllm/cards/pr-57407-<slug>.md"
+    },
+    {
+      "number": 59802,
+      "title": "[ROCm][DSv4.1][Perf] Overlap the mHC gate projection with attention and FFN",
+      "pack": "data/cards-workdir/vllm/packs/pr-59802.pack.md",
+      "card_out": "index/vllm/cards/pr-59802-<slug>.md"
+    },
+    {
+      "number": 59875,
+      "title": "[Bugfix][EC Connector] Release shared memory on NIXL setup failure",
+      "pack": "data/cards-workdir/vllm/packs/pr-59875.pack.md",
+      "card_out": "index/vllm/cards/pr-59875-<slug>.md"
+    },
+    {
+      "number": 60161,
+      "title": "[KV Connector][NIXL] Register HiSparse host pool under single TP Rank",
+      "pack": "data/cards-workdir/vllm/packs/pr-60161.pack.md",
+      "card_out": "index/vllm/cards/pr-60161-<slug>.md"
+    }
+  ]
+}

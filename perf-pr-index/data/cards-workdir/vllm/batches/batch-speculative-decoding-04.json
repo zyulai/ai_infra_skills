@@ -1,0 +1,139 @@
+{
+  "repo": "vllm",
+  "category": "Speculative Decoding",
+  "count": 22,
+  "prs": [
+    {
+      "number": 63219,
+      "title": "[Bugfix][Spec Decode] Per-request draft retention for structured output under PP",
+      "pack": "data/cards-workdir/vllm/packs/pr-63219.pack.md",
+      "card_out": "index/vllm/cards/pr-63219-<slug>.md"
+    },
+    {
+      "number": 63275,
+      "title": "[Spec Decode] Support trace replay with speculative decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-63275.pack.md",
+      "card_out": "index/vllm/cards/pr-63275-<slug>.md"
+    },
+    {
+      "number": 63638,
+      "title": "[Perf][Kimi K3] Opt-in KV-balanced FP8 MLA decode for agentic workloads",
+      "pack": "data/cards-workdir/vllm/packs/pr-63638.pack.md",
+      "card_out": "index/vllm/cards/pr-63638-<slug>.md"
+    },
+    {
+      "number": 63801,
+      "title": "[Perf][HiSparse] Prefetch speculative groups with bounded copy workers",
+      "pack": "data/cards-workdir/vllm/packs/pr-63801.pack.md",
+      "card_out": "index/vllm/cards/pr-63801-<slug>.md"
+    },
+    {
+      "number": 63873,
+      "title": "[Bugfix][Bench] Handle packed hybrid KV and speculative recurrent state",
+      "pack": "data/cards-workdir/vllm/packs/pr-63873.pack.md",
+      "card_out": "index/vllm/cards/pr-63873-<slug>.md"
+    },
+    {
+      "number": 63885,
+      "title": "[ROCm][Perf][DSv4.1] Build the SWA decode metadata in one launch ",
+      "pack": "data/cards-workdir/vllm/packs/pr-63885.pack.md",
+      "card_out": "index/vllm/cards/pr-63885-<slug>.md"
+    },
+    {
+      "number": 63890,
+      "title": "[ROCm][Perf] Use AITER's all-gather for small TP all-gathers",
+      "pack": "data/cards-workdir/vllm/packs/pr-63890.pack.md",
+      "card_out": "index/vllm/cards/pr-63890-<slug>.md"
+    },
+    {
+      "number": 63921,
+      "title": "[Perf][DSv4.1] Extend the latency_specialized decode on NVIDIA",
+      "pack": "data/cards-workdir/vllm/packs/pr-63921.pack.md",
+      "card_out": "index/vllm/cards/pr-63921-<slug>.md"
+    },
+    {
+      "number": 64064,
+      "title": "[ROCm][Model] Enable ROCm AITER unified attention for MiMo-V2.6",
+      "pack": "data/cards-workdir/vllm/packs/pr-64064.pack.md",
+      "card_out": "index/vllm/cards/pr-64064-<slug>.md"
+    },
+    {
+      "number": 64101,
+      "title": "[ROCm][Perf][DSv4.1] Mono decode at TP8 on MI355X",
+      "pack": "data/cards-workdir/vllm/packs/pr-64101.pack.md",
+      "card_out": "index/vllm/cards/pr-64101-<slug>.md"
+    },
+    {
+      "number": 64111,
+      "title": "[New Model] Add MiniMax-M3.1-Flash Model and Kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-64111.pack.md",
+      "card_out": "index/vllm/cards/pr-64111-<slug>.md"
+    },
+    {
+      "number": 64368,
+      "title": "[Spec Decode][ROCm] draft_lm_head_quantization for DSpark drafters",
+      "pack": "data/cards-workdir/vllm/packs/pr-64368.pack.md",
+      "card_out": "index/vllm/cards/pr-64368-<slug>.md"
+    },
+    {
+      "number": 64467,
+      "title": "[Perf][MoE] Use 32-row tiles in prepare_megamoe_inputs from 1024 tokens",
+      "pack": "data/cards-workdir/vllm/packs/pr-64467.pack.md",
+      "card_out": "index/vllm/cards/pr-64467-<slug>.md"
+    },
+    {
+      "number": 64659,
+      "title": "[Perf][MiniMax-M3] Sequence parallelism and GEMM-RS for TP + MegaMoE",
+      "pack": "data/cards-workdir/vllm/packs/pr-64659.pack.md",
+      "card_out": "index/vllm/cards/pr-64659-<slug>.md"
+    },
+    {
+      "number": 64692,
+      "title": "[Model Loader] Refill weight-derived tensors in place on every post-load rerun",
+      "pack": "data/cards-workdir/vllm/packs/pr-64692.pack.md",
+      "card_out": "index/vllm/cards/pr-64692-<slug>.md"
+    },
+    {
+      "number": 64829,
+      "title": "[CPU][Perf] Speed up GDN speculative-decode recurrent update",
+      "pack": "data/cards-workdir/vllm/packs/pr-64829.pack.md",
+      "card_out": "index/vllm/cards/pr-64829-<slug>.md"
+    },
+    {
+      "number": 64852,
+      "title": "[Perf][MiniMax-M3] (NVIDIA-only) Fused norm+quant MXFP8",
+      "pack": "data/cards-workdir/vllm/packs/pr-64852.pack.md",
+      "card_out": "index/vllm/cards/pr-64852-<slug>.md"
+    },
+    {
+      "number": 65030,
+      "title": "[Perf][Model] DeepSeek V4/V4.1 Vision: encode a call's images in packed passes",
+      "pack": "data/cards-workdir/vllm/packs/pr-65030.pack.md",
+      "card_out": "index/vllm/cards/pr-65030-<slug>.md"
+    },
+    {
+      "number": 65059,
+      "title": "[Bugfix][Kernel] Only set PDL launch attr for MoE top-k gating on SM90+",
+      "pack": "data/cards-workdir/vllm/packs/pr-65059.pack.md",
+      "card_out": "index/vllm/cards/pr-65059-<slug>.md"
+    },
+    {
+      "number": 65087,
+      "title": "[ROCm][Perf][MiniMax-M3.1] Four-wave decode top-k for the NVFP4 indexer",
+      "pack": "data/cards-workdir/vllm/packs/pr-65087.pack.md",
+      "card_out": "index/vllm/cards/pr-65087-<slug>.md"
+    },
+    {
+      "number": 65175,
+      "title": "[Spec Decode] Support XPress + Acceptance Estimator",
+      "pack": "data/cards-workdir/vllm/packs/pr-65175.pack.md",
+      "card_out": "index/vllm/cards/pr-65175-<slug>.md"
+    },
+    {
+      "number": 65874,
+      "title": "[Kernel][Perf] Fused GDN MTP: Support DSpark K=8 and use idle SMs at small batch sizes",
+      "pack": "data/cards-workdir/vllm/packs/pr-65874.pack.md",
+      "card_out": "index/vllm/cards/pr-65874-<slug>.md"
+    }
+  ]
+}

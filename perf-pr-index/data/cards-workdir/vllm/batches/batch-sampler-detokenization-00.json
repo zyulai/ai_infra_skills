@@ -1,0 +1,43 @@
+{
+  "repo": "vllm",
+  "category": "Sampler / Detokenization",
+  "count": 6,
+  "prs": [
+    {
+      "number": 28124,
+      "title": "[Perf][DeepSeek] Add sigmoid+bias fusion to fused_grouped_topk from TRTLLM",
+      "pack": "data/cards-workdir/vllm/packs/pr-28124.pack.md",
+      "card_out": "index/vllm/cards/pr-28124-<slug>.md"
+    },
+    {
+      "number": 29826,
+      "title": "[Perf] Avoid pageable HtoD transfer in MinTokensLogitsProcessor",
+      "pack": "data/cards-workdir/vllm/packs/pr-29826.pack.md",
+      "card_out": "index/vllm/cards/pr-29826-<slug>.md"
+    },
+    {
+      "number": 37225,
+      "title": "[Perf] Optimize top-k search in apply_top_k_top_p_triton sampler",
+      "pack": "data/cards-workdir/vllm/packs/pr-37225.pack.md",
+      "card_out": "index/vllm/cards/pr-37225-<slug>.md"
+    },
+    {
+      "number": 61557,
+      "title": "[Bugfix][Spec Decode] Preserve grammar-invalid drafts for rejection sampling",
+      "pack": "data/cards-workdir/vllm/packs/pr-61557.pack.md",
+      "card_out": "index/vllm/cards/pr-61557-<slug>.md"
+    },
+    {
+      "number": 61996,
+      "title": "[Perf][Sampler] Speed up the small-batch split top-p pipeline",
+      "pack": "data/cards-workdir/vllm/packs/pr-61996.pack.md",
+      "card_out": "index/vllm/cards/pr-61996-<slug>.md"
+    },
+    {
+      "number": 64138,
+      "title": "[Perf][DSA] Read BF16 logits directly in persistent top-k",
+      "pack": "data/cards-workdir/vllm/packs/pr-64138.pack.md",
+      "card_out": "index/vllm/cards/pr-64138-<slug>.md"
+    }
+  ]
+}

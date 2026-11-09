@@ -1,0 +1,17 @@
+PR #48249 | [Perf][ROCm] Enable AITER QuickReduce + RMSNorm fusion | pack=data/cards-workdir/vllm/packs/pr-48249.pack.md | out=index/vllm/cards/pr-48249-perf-rocm-enable-aiter-quickreduce-rmsno.md
+PR #56151 | [Perf][MiniMax-M3] Triton indexer: decode grid retune + SM12.0 split-K | pack=data/cards-workdir/vllm/packs/pr-56151.pack.md | out=index/vllm/cards/pr-56151-perf-minimax-m3-triton-indexer-decode-gr.md
+PR #5091 | [Core][Optimization] remove vllm-nccl | pack=data/cards-workdir/vllm/packs/pr-5091.pack.md | out=index/vllm/cards/pr-5091-core-optimization-remove-vllm-nccl.md
+PR #25982 | [Model] MTP fallback to eager for DeepSeek v32 | pack=data/cards-workdir/vllm/packs/pr-25982.pack.md | out=index/vllm/cards/pr-25982-model-mtp-fallback-to-eager-for-deepseek.md
+PR #28164 | [Feature] Enable TP + EP `shared_experts` overlap with router, 3.7% E2E performance improvement | pack=data/cards-workdir/vllm/packs/pr-28164.pack.md | out=index/vllm/cards/pr-28164-feature-enable-tp-ep-shared-experts-over.md
+PR #61996 | [Perf][Sampler] Speed up the small-batch split top-p pipeline | pack=data/cards-workdir/vllm/packs/pr-61996.pack.md | out=index/vllm/cards/pr-61996-perf-sampler-speed-up-the-small-batch-sp.md
+PR #53065 | [XPU][MoE] Tune Triton fused MoE for Intel XPU | pack=data/cards-workdir/vllm/packs/pr-53065.pack.md | out=index/vllm/cards/pr-53065-xpu-moe-tune-triton-fused-moe-for-intel.md
+PR #11394 | [V1] Use FlashInfer Sampling Kernel for Top-P & Top-K Sampling | pack=data/cards-workdir/vllm/packs/pr-11394.pack.md | out=index/vllm/cards/pr-11394-v1-use-flashinfer-sampling-kernel-for-to.md
+PR #43477 | Enable DeepSeek V4 and GLM-5.1 on SM120 | pack=data/cards-workdir/vllm/packs/pr-43477.pack.md | out=index/vllm/cards/pr-43477-enable-deepseek-v4-and-glm-5-1-on-sm120.md
+PR #60618 | [Perf][Kernel] Single-launch fused scoring+top-k kernel for sparse-indexer prefill, without materializing logits | pack=data/cards-workdir/vllm/packs/pr-60618.pack.md | out=index/vllm/cards/pr-60618-perf-kernel-single-launch-fused-scoring.md
+PR #25205 | [AOT compilation] support torch.compile inductor artifacts in VllmCompiledFunction | pack=data/cards-workdir/vllm/packs/pr-25205.pack.md | out=index/vllm/cards/pr-25205-aot-compilation-support-torch-compile-in.md
+PR #54985 | [Elastic EP] Reuse CUDA graphs across reconfiguration | pack=data/cards-workdir/vllm/packs/pr-54985.pack.md | out=index/vllm/cards/pr-54985-elastic-ep-reuse-cuda-graphs-across-reco.md
+PR #16937 | [V1][Spec Decode] EAGLE-3 Support | pack=data/cards-workdir/vllm/packs/pr-16937.pack.md | out=index/vllm/cards/pr-16937-v1-spec-decode-eagle-3-support.md
+PR #31167 | [Perf] Remove blocking copy in GDN Attention | pack=data/cards-workdir/vllm/packs/pr-31167.pack.md | out=index/vllm/cards/pr-31167-perf-remove-blocking-copy-in-gdn-attenti.md
+PR #34924 | [Perf] Enable FlashInfer DeepGEMM swapAB on SM90 by default | pack=data/cards-workdir/vllm/packs/pr-34924.pack.md | out=index/vllm/cards/pr-34924-perf-enable-flashinfer-deepgemm-swapab-o.md
+PR #40784 | [ROCm][Perf] Tune wvSplitK on gfx1151 | pack=data/cards-workdir/vllm/packs/pr-40784.pack.md | out=index/vllm/cards/pr-40784-rocm-perf-tune-wvsplitk-on-gfx1151.md
+PR #49793 | [Spec Decode][Perf] Fuse the MTP trailing all-reduce; local-argmax draft tokens | pack=data/cards-workdir/vllm/packs/pr-49793.pack.md | out=index/vllm/cards/pr-49793-spec-decode-perf-fuse-the-mtp-trailing-a.md

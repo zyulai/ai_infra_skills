@@ -1,0 +1,282 @@
+[
+ {
+  "number": 34647,
+  "title": "[AMD] Enable 12-head MLA aiter fp8 Gluon decode (batched bh16bn128).",
+  "category": "Quantization",
+  "pack": "data/cards-workdir/sglang/packs/pr-34647.pack.md",
+  "out": "index/sglang/cards/pr-34647-amd-enable-12-head-mla-aiter-fp8-gluon-d.md"
+ },
+ {
+  "number": 33474,
+  "title": "Select DeepGEMM standard layouts by memory budget",
+  "category": "Other",
+  "pack": "data/cards-workdir/sglang/packs/pr-33474.pack.md",
+  "out": "index/sglang/cards/pr-33474-select-deepgemm-standard-layouts-by-memo.md"
+ },
+ {
+  "number": 32541,
+  "title": "[Kimi] Support kimi-k3",
+  "category": "Model-specific Fast Path",
+  "pack": "data/cards-workdir/sglang/packs/pr-32541.pack.md",
+  "out": "index/sglang/cards/pr-32541-kimi-support-kimi-k3.md"
+ },
+ {
+  "number": 43363,
+  "title": "[Perf] moe: Extend FlashInfer CUTLASS MoE autotune coverage to prefill chunks",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-43363.pack.md",
+  "out": "index/sglang/cards/pr-43363-perf-moe-extend-flashinfer-cutlass-moe-a.md"
+ },
+ {
+  "number": 13731,
+  "title": "[sgl-kernel][Feat][B200][1/N]Support MXFP8 Grouped GEMM in Blackwell",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-13731.pack.md",
+  "out": "index/sglang/cards/pr-13731-sgl-kernel-feat-b200-1-n-support-mxfp8-g.md"
+ },
+ {
+  "number": 3888,
+  "title": "[Feature] DeepSeek V3/R1 INT8 Quantization (channel-wise) ",
+  "category": "Quantization",
+  "pack": "data/cards-workdir/sglang/packs/pr-3888.pack.md",
+  "out": "index/sglang/cards/pr-3888-feature-deepseek-v3-r1-int8-quantization.md"
+ },
+ {
+  "number": 44322,
+  "title": "[Feat] [AMD] dsa: Enable DCP on the triton sparse-MLA backend",
+  "category": "Speculative Decoding",
+  "pack": "data/cards-workdir/sglang/packs/pr-44322.pack.md",
+  "out": "index/sglang/cards/pr-44322-feat-amd-dsa-enable-dcp-on-the-triton-sp.md"
+ },
+ {
+  "number": 37778,
+  "title": "[AMD][DSV4] Enable hicache on deepseek-v4 fp8 unified attn",
+  "category": "Quantization",
+  "pack": "data/cards-workdir/sglang/packs/pr-37778.pack.md",
+  "out": "index/sglang/cards/pr-37778-amd-dsv4-enable-hicache-on-deepseek-v4-f.md"
+ },
+ {
+  "number": 12240,
+  "title": "[VLM] Optimize qwen_vl preprocess_video",
+  "category": "Model-specific Fast Path",
+  "pack": "data/cards-workdir/sglang/packs/pr-12240.pack.md",
+  "out": "index/sglang/cards/pr-12240-vlm-optimize-qwen-vl-preprocess-video.md"
+ },
+ {
+  "number": 41533,
+  "title": "[ROCm] Use the fused MLA absorb + RoPE + KV-write kernel for decode-sized forward modes only",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-41533.pack.md",
+  "out": "index/sglang/cards/pr-41533-rocm-use-the-fused-mla-absorb-rope-kv-wr.md"
+ },
+ {
+  "number": 14640,
+  "title": "[sgl-kernel][Feat][B200][2/N] Support MXFP8 Grouped GEMM in Blackwell",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-14640.pack.md",
+  "out": "index/sglang/cards/pr-14640-sgl-kernel-feat-b200-2-n-support-mxfp8-g.md"
+ },
+ {
+  "number": 14133,
+  "title": "Opt moe align block size kernel",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-14133.pack.md",
+  "out": "index/sglang/cards/pr-14133-opt-moe-align-block-size-kernel.md"
+ },
+ {
+  "number": 41830,
+  "title": "[diffusion] kernels: take the Wan VAE decoder's remaining first-decode work off the request path",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-41830.pack.md",
+  "out": "index/sglang/cards/pr-41830-diffusion-kernels-take-the-wan-vae-decod.md"
+ },
+ {
+  "number": 9873,
+  "title": "[Feature] Speculative decoding support lookahead",
+  "category": "Speculative Decoding",
+  "pack": "data/cards-workdir/sglang/packs/pr-9873.pack.md",
+  "out": "index/sglang/cards/pr-9873-feature-speculative-decoding-support-loo.md"
+ },
+ {
+  "number": 34580,
+  "title": "[AMD] Optimize KIMI-K3 with Triton MLA decode kernel by tuning the stage-1 geometry for gfx950",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-34580.pack.md",
+  "out": "index/sglang/cards/pr-34580-amd-optimize-kimi-k3-with-triton-mla-dec.md"
+ },
+ {
+  "number": 32813,
+  "title": "[Kernel] Fuse KV-cache writes for asymmetric K/V (head_dim != v_head_dim)",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-32813.pack.md",
+  "out": "index/sglang/cards/pr-32813-kernel-fuse-kv-cache-writes-for-asymmetr.md"
+ },
+ {
+  "number": 47180,
+  "title": "[Perf] [AMD] dsa: Replicate the DCP query projection on the owned route",
+  "category": "Speculative Decoding",
+  "pack": "data/cards-workdir/sglang/packs/pr-47180.pack.md",
+  "out": "index/sglang/cards/pr-47180-perf-amd-dsa-replicate-the-dcp-query-pro.md"
+ },
+ {
+  "number": 35981,
+  "title": "[diffusion] Flatten Wan VAE RMSNorm row addressing",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-35981.pack.md",
+  "out": "index/sglang/cards/pr-35981-diffusion-flatten-wan-vae-rmsnorm-row-ad.md"
+ },
+ {
+  "number": 30261,
+  "title": "[Spec] Add DSpark: confidence-scheduled speculative decoding",
+  "category": "Speculative Decoding",
+  "pack": "data/cards-workdir/sglang/packs/pr-30261.pack.md",
+  "out": "index/sglang/cards/pr-30261-spec-add-dspark-confidence-scheduled-spe.md"
+ },
+ {
+  "number": 30971,
+  "title": "[minimax-m3] fp8 attention GEMMs on SM100 (fp8_e4m3 KV + trtllm_mha)",
+  "category": "Quantization",
+  "pack": "data/cards-workdir/sglang/packs/pr-30971.pack.md",
+  "out": "index/sglang/cards/pr-30971-minimax-m3-fp8-attention-gemms-on-sm100.md"
+ },
+ {
+  "number": 34619,
+  "title": "[Diffusion][GLM-Image] Retune QK head LayerNorm for SM103",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-34619.pack.md",
+  "out": "index/sglang/cards/pr-34619-diffusion-glm-image-retune-qk-head-layer.md"
+ },
+ {
+  "number": 36607,
+  "title": "[AMD] Enable GLM-5.3-Flash on gfx942 and gfx950",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-36607.pack.md",
+  "out": "index/sglang/cards/pr-36607-amd-enable-glm-5-3-flash-on-gfx942-and-g.md"
+ },
+ {
+  "number": 29016,
+  "title": "Add SM90 FP8 MegaMoE support for DeepSeek-V4",
+  "category": "Quantization",
+  "pack": "data/cards-workdir/sglang/packs/pr-29016.pack.md",
+  "out": "index/sglang/cards/pr-29016-add-sm90-fp8-megamoe-support-for-deepsee.md"
+ },
+ {
+  "number": 13055,
+  "title": "[VLM] Support Piecewise CUDA Graph for Qwen2.5-VL ",
+  "category": "CUDA Graph / Compiler",
+  "pack": "data/cards-workdir/sglang/packs/pr-13055.pack.md",
+  "out": "index/sglang/cards/pr-13055-vlm-support-piecewise-cuda-graph-for-qwe.md"
+ },
+ {
+  "number": 46159,
+  "title": "[Perf] batch-invariant: Fused residual add + RMSNorm kernel",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-46159.pack.md",
+  "out": "index/sglang/cards/pr-46159-perf-batch-invariant-fused-residual-add.md"
+ },
+ {
+  "number": 46325,
+  "title": "[Perf] [AMD] deterministic: Use a fixed-order two-stage all-reduce for large inputs",
+  "category": "Parallelism / Communication",
+  "pack": "data/cards-workdir/sglang/packs/pr-46325.pack.md",
+  "out": "index/sglang/cards/pr-46325-perf-amd-deterministic-use-a-fixed-order.md"
+ },
+ {
+  "number": 18124,
+  "title": "[Perf] Use safetensors `load_file` in multithread loader",
+  "category": "Model-specific Fast Path",
+  "pack": "data/cards-workdir/sglang/packs/pr-18124.pack.md",
+  "out": "index/sglang/cards/pr-18124-perf-use-safetensors-load-file-in-multit.md"
+ },
+ {
+  "number": 3582,
+  "title": "Support NextN (MTP) speculative decoding for DeepSeek-V3/R1",
+  "category": "Speculative Decoding",
+  "pack": "data/cards-workdir/sglang/packs/pr-3582.pack.md",
+  "out": "index/sglang/cards/pr-3582-support-nextn-mtp-speculative-decoding-f.md"
+ },
+ {
+  "number": 10321,
+  "title": "[1/2][sgl-kernel] Support moe_sum_reduce cuda kernel",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-10321.pack.md",
+  "out": "index/sglang/cards/pr-10321-1-2-sgl-kernel-support-moe-sum-reduce-cu.md"
+ },
+ {
+  "number": 47964,
+  "title": "[Feat] [AMD] custom-all-reduce: Run the JIT custom all-reduce v2 on ROCm",
+  "category": "CUDA Graph / Compiler",
+  "pack": "data/cards-workdir/sglang/packs/pr-47964.pack.md",
+  "out": "index/sglang/cards/pr-47964-feat-amd-custom-all-reduce-run-the-jit-c.md"
+ },
+ {
+  "number": 30805,
+  "title": "[DSv4] Integrate TRT-LLM DSv4 Attention for SM100/103",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-30805.pack.md",
+  "out": "index/sglang/cards/pr-30805-dsv4-integrate-trt-llm-dsv4-attention-fo.md"
+ },
+ {
+  "number": 22299,
+  "title": "[AMD] Enable Piecewise CUDA Graph for AMD GPUs",
+  "category": "Speculative Decoding",
+  "pack": "data/cards-workdir/sglang/packs/pr-22299.pack.md",
+  "out": "index/sglang/cards/pr-22299-amd-enable-piecewise-cuda-graph-for-amd.md"
+ },
+ {
+  "number": 2966,
+  "title": "optimize MiniMax-Text-01 lightning_attn_decode triton",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-2966.pack.md",
+  "out": "index/sglang/cards/pr-2966-optimize-minimax-text-01-lightning-attn.md"
+ },
+ {
+  "number": 32779,
+  "title": "[SM120&90] Add CUDA fused Triton sparse-MLA prefill backend for DSA",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-32779.pack.md",
+  "out": "index/sglang/cards/pr-32779-sm120-90-add-cuda-fused-triton-sparse-ml.md"
+ },
+ {
+  "number": 28265,
+  "title": "[AMD] refactor sparse MLA decode kernel for Deepseek V4 triton backend",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-28265.pack.md",
+  "out": "index/sglang/cards/pr-28265-amd-refactor-sparse-mla-decode-kernel-fo.md"
+ },
+ {
+  "number": 30768,
+  "title": ":sparkles: [llm][npu][quant] Add W8A8 MXFP8 quantization for Qwen3 MoE on Ascend NPU",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-30768.pack.md",
+  "out": "index/sglang/cards/pr-30768-sparkles-llm-npu-quant-add-w8a8-mxfp8-qu.md"
+ },
+ {
+  "number": 31470,
+  "title": "[NVIDIA] Support flashinfer Mega Moe",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-31470.pack.md",
+  "out": "index/sglang/cards/pr-31470-nvidia-support-flashinfer-mega-moe.md"
+ },
+ {
+  "number": 10078,
+  "title": "feat: Add FP4 (E2M1) KV Cache Support with Quantization Utilities for MLA",
+  "category": "Quantization",
+  "pack": "data/cards-workdir/sglang/packs/pr-10078.pack.md",
+  "out": "index/sglang/cards/pr-10078-feat-add-fp4-e2m1-kv-cache-support-with.md"
+ },
+ {
+  "number": 28185,
+  "title": "[GDN][KDA][mem_cache] int8 checkpoint pool for the linear-attn prefix cache",
+  "category": "Quantization",
+  "pack": "data/cards-workdir/sglang/packs/pr-28185.pack.md",
+  "out": "index/sglang/cards/pr-28185-gdn-kda-mem-cache-int8-checkpoint-pool-f.md"
+ },
+ {
+  "number": 44268,
+  "title": "[Fix] moe: Fix --enable-fused-moe-sum-all-reduce outside CUDA and with LoRA hooks",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-44268.pack.md",
+  "out": "index/sglang/cards/pr-44268-fix-moe-fix-enable-fused-moe-sum-all-red.md"
+ }
+]

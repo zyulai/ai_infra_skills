@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "MoE",
+  "count": 40,
+  "prs": [
+    {
+      "number": 46404,
+      "title": "[DeepEP V2] Bound num_max_tokens_per_rank in do_expand=False",
+      "pack": "data/cards-workdir/vllm/packs/pr-46404.pack.md",
+      "card_out": "index/vllm/cards/pr-46404-<slug>.md"
+    },
+    {
+      "number": 46518,
+      "title": "[Kernel][MoE] Allow FlashInfer MXINT4 MoE for gated SiLU",
+      "pack": "data/cards-workdir/vllm/packs/pr-46518.pack.md",
+      "card_out": "index/vllm/cards/pr-46518-<slug>.md"
+    },
+    {
+      "number": 46642,
+      "title": "[Kernel][MoE] Tune block-FP8 fused MoE for low-batch decode",
+      "pack": "data/cards-workdir/vllm/packs/pr-46642.pack.md",
+      "card_out": "index/vllm/cards/pr-46642-<slug>.md"
+    },
+    {
+      "number": 47124,
+      "title": "[Quantization][Autoround][XPU] Add W4A16(moe) / MXFP4(linear/moe) Support",
+      "pack": "data/cards-workdir/vllm/packs/pr-47124.pack.md",
+      "card_out": "index/vllm/cards/pr-47124-<slug>.md"
+    },
+    {
+      "number": 47463,
+      "title": "[Perf] Optimize `fused_topk_bias` for DSv4, 1.5~2x kernel performance improvement",
+      "pack": "data/cards-workdir/vllm/packs/pr-47463.pack.md",
+      "card_out": "index/vllm/cards/pr-47463-<slug>.md"
+    },
+    {
+      "number": 48637,
+      "title": "[CPU][Perf] INT8 Fused MoE Kernel for Arm CPUs",
+      "pack": "data/cards-workdir/vllm/packs/pr-48637.pack.md",
+      "card_out": "index/vllm/cards/pr-48637-<slug>.md"
+    },
+    {
+      "number": 49636,
+      "title": "[Model][MoE] DeepSeek-V4: add opt-in FlashInfer moe_ep expert backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-49636.pack.md",
+      "card_out": "index/vllm/cards/pr-49636-<slug>.md"
+    },
+    {
+      "number": 50569,
+      "title": "feat: allow shared expert overlapping for FlashInfer one-sided all-to-all",
+      "pack": "data/cards-workdir/vllm/packs/pr-50569.pack.md",
+      "card_out": "index/vllm/cards/pr-50569-<slug>.md"
+    },
+    {
+      "number": 51274,
+      "title": "[ROCm][Kimi-K3] Add opt-in gfx942 MXFP4-to-int4 conversion",
+      "pack": "data/cards-workdir/vllm/packs/pr-51274.pack.md",
+      "card_out": "index/vllm/cards/pr-51274-<slug>.md"
+    },
+    {
+      "number": 51808,
+      "title": "[Online quantization] Support activation quant key override for online MXFP4 linear/MOE quant methods",
+      "pack": "data/cards-workdir/vllm/packs/pr-51808.pack.md",
+      "card_out": "index/vllm/cards/pr-51808-<slug>.md"
+    },
+    {
+      "number": 52033,
+      "title": "[Perf][ROCm] Dual-stream decode with hipgraphs",
+      "pack": "data/cards-workdir/vllm/packs/pr-52033.pack.md",
+      "card_out": "index/vllm/cards/pr-52033-<slug>.md"
+    },
+    {
+      "number": 52301,
+      "title": "[Perf][Nemotron] Skip redundant latent-MoE all-reduce at TP>1 (~13% decode win)",
+      "pack": "data/cards-workdir/vllm/packs/pr-52301.pack.md",
+      "card_out": "index/vllm/cards/pr-52301-<slug>.md"
+    },
+    {
+      "number": 52798,
+      "title": "[Quant] Use canonical N-first weight format for CT WNA16 MoE",
+      "pack": "data/cards-workdir/vllm/packs/pr-52798.pack.md",
+      "card_out": "index/vllm/cards/pr-52798-<slug>.md"
+    },
+    {
+      "number": 53065,
+      "title": "[XPU][MoE] Tune Triton fused MoE for Intel XPU",
+      "pack": "data/cards-workdir/vllm/packs/pr-53065.pack.md",
+      "card_out": "index/vllm/cards/pr-53065-<slug>.md"
+    },
+    {
+      "number": 53280,
+      "title": "[Kernel][MoE] Optimize batched_moe_align_block_size with cooperative writes",
+      "pack": "data/cards-workdir/vllm/packs/pr-53280.pack.md",
+      "card_out": "index/vllm/cards/pr-53280-<slug>.md"
+    },
+    {
+      "number": 53283,
+      "title": "[ROCm][Perf] Use wvSplitK for single-output GEMMs",
+      "pack": "data/cards-workdir/vllm/packs/pr-53283.pack.md",
+      "card_out": "index/vllm/cards/pr-53283-<slug>.md"
+    },
+    {
+      "number": 53911,
+      "title": "[Kernel] Fuse DeepEP-v2 decode globalize+align into one launch",
+      "pack": "data/cards-workdir/vllm/packs/pr-53911.pack.md",
+      "card_out": "index/vllm/cards/pr-53911-<slug>.md"
+    },
+    {
+      "number": 53940,
+      "title": "[ROCm][Kimi-K3] Enable a4w4 flydsl kernels for KimiK3",
+      "pack": "data/cards-workdir/vllm/packs/pr-53940.pack.md",
+      "card_out": "index/vllm/cards/pr-53940-<slug>.md"
+    },
+    {
+      "number": 54109,
+      "title": "[MoE][DeepEPV2] Add PaddedStandard activation format",
+      "pack": "data/cards-workdir/vllm/packs/pr-54109.pack.md",
+      "card_out": "index/vllm/cards/pr-54109-<slug>.md"
+    },
+    {
+      "number": 54985,
+      "title": "[Elastic EP] Reuse CUDA graphs across reconfiguration",
+      "pack": "data/cards-workdir/vllm/packs/pr-54985.pack.md",
+      "card_out": "index/vllm/cards/pr-54985-<slug>.md"
+    },
+    {
+      "number": 55368,
+      "title": "[ROCm][MoE] Pad the AITER MoE intermediate size at allocation time, and round the expert-group count to a kernel that exists",
+      "pack": "data/cards-workdir/vllm/packs/pr-55368.pack.md",
+      "card_out": "index/vllm/cards/pr-55368-<slug>.md"
+    },
+    {
+      "number": 55511,
+      "title": "[Kernel] Add fused MoE tuned config for E=256,N=512 on NVIDIA A100 80GB PCIe",
+      "pack": "data/cards-workdir/vllm/packs/pr-55511.pack.md",
+      "card_out": "index/vllm/cards/pr-55511-<slug>.md"
+    },
+    {
+      "number": 55934,
+      "title": "[ROCm] triton+triton_kernels 3.8 mxfp4 MoE support (gpt-oss + DeepSeek-V4)",
+      "pack": "data/cards-workdir/vllm/packs/pr-55934.pack.md",
+      "card_out": "index/vllm/cards/pr-55934-<slug>.md"
+    },
+    {
+      "number": 56226,
+      "title": "[ROCm][Perf] Route softmax MoE top-k, including fused shared-expert sigmoid, through AITER topk_gating",
+      "pack": "data/cards-workdir/vllm/packs/pr-56226.pack.md",
+      "card_out": "index/vllm/cards/pr-56226-<slug>.md"
+    },
+    {
+      "number": 56740,
+      "title": "[quantization] Add per-token NVFP4 quantization MoE support for ReLU2",
+      "pack": "data/cards-workdir/vllm/packs/pr-56740.pack.md",
+      "card_out": "index/vllm/cards/pr-56740-<slug>.md"
+    },
+    {
+      "number": 57092,
+      "title": "[Bugfix] Make online FP8 MoE experts batch-invariant under VLLM_BATCH_INVARIANT",
+      "pack": "data/cards-workdir/vllm/packs/pr-57092.pack.md",
+      "card_out": "index/vllm/cards/pr-57092-<slug>.md"
+    },
+    {
+      "number": 57773,
+      "title": "[ROCm][Perf] Enable DPA+ETP prefill compute/comm dual-batch-overlap for DeepSeek-V4",
+      "pack": "data/cards-workdir/vllm/packs/pr-57773.pack.md",
+      "card_out": "index/vllm/cards/pr-57773-<slug>.md"
+    },
+    {
+      "number": 57995,
+      "title": "[Perf][MoE] Support fp8 combine in FlashInfer one-sided MoE all2all",
+      "pack": "data/cards-workdir/vllm/packs/pr-57995.pack.md",
+      "card_out": "index/vllm/cards/pr-57995-<slug>.md"
+    },
+    {
+      "number": 58194,
+      "title": "[Perf][Kernel] Vectorized flat abs-max for dynamic per-tensor FP8 quantization",
+      "pack": "data/cards-workdir/vllm/packs/pr-58194.pack.md",
+      "card_out": "index/vllm/cards/pr-58194-<slug>.md"
+    },
+    {
+      "number": 58586,
+      "title": "[Kernel][DSV4.1] Fuse MoE finalize into the TP all-reduce + mHC boundary",
+      "pack": "data/cards-workdir/vllm/packs/pr-58586.pack.md",
+      "card_out": "index/vllm/cards/pr-58586-<slug>.md"
+    },
+    {
+      "number": 58868,
+      "title": "[Perf][Model Loader] Fault in mmap'd weight pages before host-to-device copies on integrated GPUs",
+      "pack": "data/cards-workdir/vllm/packs/pr-58868.pack.md",
+      "card_out": "index/vllm/cards/pr-58868-<slug>.md"
+    },
+    {
+      "number": 59044,
+      "title": "[Perf][MoE] Skip padded work in SM100 FP4 DeepGEMM experts",
+      "pack": "data/cards-workdir/vllm/packs/pr-59044.pack.md",
+      "card_out": "index/vllm/cards/pr-59044-<slug>.md"
+    },
+    {
+      "number": 59815,
+      "title": "[Quantization] Support compressed-tensors MXFP4 MoE with FP8 activations via Mxfp4MoEMethod",
+      "pack": "data/cards-workdir/vllm/packs/pr-59815.pack.md",
+      "card_out": "index/vllm/cards/pr-59815-<slug>.md"
+    },
+    {
+      "number": 60096,
+      "title": "[Model][MoE] Load MegaMoE experts directly into the DeepGEMM layout",
+      "pack": "data/cards-workdir/vllm/packs/pr-60096.pack.md",
+      "card_out": "index/vllm/cards/pr-60096-<slug>.md"
+    },
+    {
+      "number": 60397,
+      "title": "[ROCm][Perf][DSv4.1] Mono decode layer for DeepSeek-V4.1-Flash on MI355X",
+      "pack": "data/cards-workdir/vllm/packs/pr-60397.pack.md",
+      "card_out": "index/vllm/cards/pr-60397-<slug>.md"
+    },
+    {
+      "number": 60895,
+      "title": "[Perf][GLM-5.3-Flash] DeepGEMM FP8 MegaMoE with fused shared experts",
+      "pack": "data/cards-workdir/vllm/packs/pr-60895.pack.md",
+      "card_out": "index/vllm/cards/pr-60895-<slug>.md"
+    },
+    {
+      "number": 61293,
+      "title": "[MoE] Shape-based padding for FlashInfer TRT-LLM MXFP8 experts (gated and non-gated)",
+      "pack": "data/cards-workdir/vllm/packs/pr-61293.pack.md",
+      "card_out": "index/vllm/cards/pr-61293-<slug>.md"
+    },
+    {
+      "number": 61773,
+      "title": "[Perf][MoE] Skip the TRTLLM fp8-block activation-scale transpose copy",
+      "pack": "data/cards-workdir/vllm/packs/pr-61773.pack.md",
+      "card_out": "index/vllm/cards/pr-61773-<slug>.md"
+    },
+    {
+      "number": 61895,
+      "title": "[ROCm][Perf] Any-shape low-latency MoE router GEMM on MI355",
+      "pack": "data/cards-workdir/vllm/packs/pr-61895.pack.md",
+      "card_out": "index/vllm/cards/pr-61895-<slug>.md"
+    },
+    {
+      "number": 62054,
+      "title": "[MoE] Use the sorted fused-MoE path for host-resident expert weights",
+      "pack": "data/cards-workdir/vllm/packs/pr-62054.pack.md",
+      "card_out": "index/vllm/cards/pr-62054-<slug>.md"
+    }
+  ]
+}

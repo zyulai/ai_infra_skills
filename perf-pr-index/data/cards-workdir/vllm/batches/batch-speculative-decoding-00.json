@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "Speculative Decoding",
+  "count": 40,
+  "prs": [
+    {
+      "number": 4237,
+      "title": "[Speculative decoding] Add ngram prompt lookup decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-4237.pack.md",
+      "card_out": "index/vllm/cards/pr-4237-<slug>.md"
+    },
+    {
+      "number": 4947,
+      "title": "[Model] MLPSpeculator speculative decoding support",
+      "pack": "data/cards-workdir/vllm/packs/pr-4947.pack.md",
+      "card_out": "index/vllm/cards/pr-4947-<slug>.md"
+    },
+    {
+      "number": 4978,
+      "title": "[Speculative Decoding] Medusa Implementation with Top-1 proposer",
+      "pack": "data/cards-workdir/vllm/packs/pr-4978.pack.md",
+      "card_out": "index/vllm/cards/pr-4978-<slug>.md"
+    },
+    {
+      "number": 5131,
+      "title": "[Speculative Decoding 1/2 ] Add typical acceptance sampling as one of the sampling techniques in the verifier",
+      "pack": "data/cards-workdir/vllm/packs/pr-5131.pack.md",
+      "card_out": "index/vllm/cards/pr-5131-<slug>.md"
+    },
+    {
+      "number": 5414,
+      "title": " [Speculative Decoding] Support draft model on different tensor-parallel size than target model",
+      "pack": "data/cards-workdir/vllm/packs/pr-5414.pack.md",
+      "card_out": "index/vllm/cards/pr-5414-<slug>.md"
+    },
+    {
+      "number": 5765,
+      "title": "[Speculative Decoding] Enabling bonus token in speculative decoding for KV cache based models",
+      "pack": "data/cards-workdir/vllm/packs/pr-5765.pack.md",
+      "card_out": "index/vllm/cards/pr-5765-<slug>.md"
+    },
+    {
+      "number": 6830,
+      "title": "[Speculative Decoding] EAGLE Implementation with Top-1 proposer",
+      "pack": "data/cards-workdir/vllm/packs/pr-6830.pack.md",
+      "card_out": "index/vllm/cards/pr-6830-<slug>.md"
+    },
+    {
+      "number": 12755,
+      "title": "[Model][Speculative Decoding] DeepSeek MTP spec decode",
+      "pack": "data/cards-workdir/vllm/packs/pr-12755.pack.md",
+      "card_out": "index/vllm/cards/pr-12755-<slug>.md"
+    },
+    {
+      "number": 13365,
+      "title": "[V1][Spec Decode] Optimize N-gram matching with Numba",
+      "pack": "data/cards-workdir/vllm/packs/pr-13365.pack.md",
+      "card_out": "index/vllm/cards/pr-13365-<slug>.md"
+    },
+    {
+      "number": 14702,
+      "title": "[V1][Feature] Enable Speculative Decoding with Structured Outputs",
+      "pack": "data/cards-workdir/vllm/packs/pr-14702.pack.md",
+      "card_out": "index/vllm/cards/pr-14702-<slug>.md"
+    },
+    {
+      "number": 16937,
+      "title": "[V1][Spec Decode] EAGLE-3 Support",
+      "pack": "data/cards-workdir/vllm/packs/pr-16937.pack.md",
+      "card_out": "index/vllm/cards/pr-16937-<slug>.md"
+    },
+    {
+      "number": 17211,
+      "title": "[V1][Spec Decode] Apply torch.compile & cudagraph to EAGLE",
+      "pack": "data/cards-workdir/vllm/packs/pr-17211.pack.md",
+      "card_out": "index/vllm/cards/pr-17211-<slug>.md"
+    },
+    {
+      "number": 20059,
+      "title": "[Core] Allow full cudagraph with separate attention routines and orthogonal to compilation, add support for FA2 and FlashInfer",
+      "pack": "data/cards-workdir/vllm/packs/pr-20059.pack.md",
+      "card_out": "index/vllm/cards/pr-20059-<slug>.md"
+    },
+    {
+      "number": 20401,
+      "title": "Add tree attention backend for v1 (part 1)",
+      "pack": "data/cards-workdir/vllm/packs/pr-20401.pack.md",
+      "card_out": "index/vllm/cards/pr-20401-<slug>.md"
+    },
+    {
+      "number": 22169,
+      "title": "[Model][V1] Support Ernie MTP",
+      "pack": "data/cards-workdir/vllm/packs/pr-22169.pack.md",
+      "card_out": "index/vllm/cards/pr-22169-<slug>.md"
+    },
+    {
+      "number": 22872,
+      "title": "[Multimodal][Speculative Decoding]Eagle Eagle3 mm support, enablement on qwen2.5vl",
+      "pack": "data/cards-workdir/vllm/packs/pr-22872.pack.md",
+      "card_out": "index/vllm/cards/pr-22872-<slug>.md"
+    },
+    {
+      "number": 23569,
+      "title": "[Perf][V1] Fully overlap model execution",
+      "pack": "data/cards-workdir/vllm/packs/pr-23569.pack.md",
+      "card_out": "index/vllm/cards/pr-23569-<slug>.md"
+    },
+    {
+      "number": 24322,
+      "title": "feat: spec decode with draft models",
+      "pack": "data/cards-workdir/vllm/packs/pr-24322.pack.md",
+      "card_out": "index/vllm/cards/pr-24322-<slug>.md"
+    },
+    {
+      "number": 24505,
+      "title": "[Bug] [Spec Dec]: Fix kv_cache dtype mismatch for Eagle3 drafter on FP8 target",
+      "pack": "data/cards-workdir/vllm/packs/pr-24505.pack.md",
+      "card_out": "index/vllm/cards/pr-24505-<slug>.md"
+    },
+    {
+      "number": 24539,
+      "title": "[Spec Decode] Efficient padded speculation",
+      "pack": "data/cards-workdir/vllm/packs/pr-24539.pack.md",
+      "card_out": "index/vllm/cards/pr-24539-<slug>.md"
+    },
+    {
+      "number": 24799,
+      "title": "[Core] Async Scheduling X Spec Decoding Compatibility",
+      "pack": "data/cards-workdir/vllm/packs/pr-24799.pack.md",
+      "card_out": "index/vllm/cards/pr-24799-<slug>.md"
+    },
+    {
+      "number": 24904,
+      "title": "Move `SpeculativeConfig` from `config/__init__.py` to `config/speculative.py`",
+      "pack": "data/cards-workdir/vllm/packs/pr-24904.pack.md",
+      "card_out": "index/vllm/cards/pr-24904-<slug>.md"
+    },
+    {
+      "number": 25196,
+      "title": "[Spec Decode] Enable FlashInfer Spec Decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-25196.pack.md",
+      "card_out": "index/vllm/cards/pr-25196-<slug>.md"
+    },
+    {
+      "number": 25784,
+      "title": "[Spec Decode] Integrate Suffix Decoding from Arctic Inference",
+      "pack": "data/cards-workdir/vllm/packs/pr-25784.pack.md",
+      "card_out": "index/vllm/cards/pr-25784-<slug>.md"
+    },
+    {
+      "number": 25916,
+      "title": "EAGLE 3: Fix preamble so that measured speedup over Eagle 1 becomes 32% instead of 5% on MTBench",
+      "pack": "data/cards-workdir/vllm/packs/pr-25916.pack.md",
+      "card_out": "index/vllm/cards/pr-25916-<slug>.md"
+    },
+    {
+      "number": 25982,
+      "title": "[Model] MTP fallback to eager for DeepSeek v32",
+      "pack": "data/cards-workdir/vllm/packs/pr-25982.pack.md",
+      "card_out": "index/vllm/cards/pr-25982-<slug>.md"
+    },
+    {
+      "number": 29184,
+      "title": "[Core] NGram GPU Implementation compatible with Async Scheduler",
+      "pack": "data/cards-workdir/vllm/packs/pr-29184.pack.md",
+      "card_out": "index/vllm/cards/pr-29184-<slug>.md"
+    },
+    {
+      "number": 29594,
+      "title": "[Multimodal][Speculative Decoding]Eagle3 mm support, enablement on qwen3vl",
+      "pack": "data/cards-workdir/vllm/packs/pr-29594.pack.md",
+      "card_out": "index/vllm/cards/pr-29594-<slug>.md"
+    },
+    {
+      "number": 29723,
+      "title": "[V1][Spec Decode] Optimize Medusa proposer to avoid GPU-CPU sync",
+      "pack": "data/cards-workdir/vllm/packs/pr-29723.pack.md",
+      "card_out": "index/vllm/cards/pr-29723-<slug>.md"
+    },
+    {
+      "number": 30156,
+      "title": "feat: add TxtSlicesDataset to allow sampling slices from txt file for benchmarking",
+      "pack": "data/cards-workdir/vllm/packs/pr-30156.pack.md",
+      "card_out": "index/vllm/cards/pr-30156-<slug>.md"
+    },
+    {
+      "number": 32374,
+      "title": "[V1][Spec Decode] Add Dynamic SD",
+      "pack": "data/cards-workdir/vllm/packs/pr-32374.pack.md",
+      "card_out": "index/vllm/cards/pr-32374-<slug>.md"
+    },
+    {
+      "number": 32542,
+      "title": "Enable Eagle3 speculative decoding for Pixtral (LlavaForConditionalGeneration)",
+      "pack": "data/cards-workdir/vllm/packs/pr-32542.pack.md",
+      "card_out": "index/vllm/cards/pr-32542-<slug>.md"
+    },
+    {
+      "number": 32642,
+      "title": "[Core] Support `min_tokens` with speculative decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-32642.pack.md",
+      "card_out": "index/vllm/cards/pr-32642-<slug>.md"
+    },
+    {
+      "number": 32662,
+      "title": "feat(cpu): add CPU support for draft model speculative decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-32662.pack.md",
+      "card_out": "index/vllm/cards/pr-32662-<slug>.md"
+    },
+    {
+      "number": 32852,
+      "title": "[perf] v1/spec_decode: skip softmax for all-greedy rejection sampling",
+      "pack": "data/cards-workdir/vllm/packs/pr-32852.pack.md",
+      "card_out": "index/vllm/cards/pr-32852-<slug>.md"
+    },
+    {
+      "number": 32887,
+      "title": "[Spec Decode] Unified Parallel Drafting",
+      "pack": "data/cards-workdir/vllm/packs/pr-32887.pack.md",
+      "card_out": "index/vllm/cards/pr-32887-<slug>.md"
+    },
+    {
+      "number": 32951,
+      "title": "[Async][Spec Decoding] Zero-bubble async scheduling + spec decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-32951.pack.md",
+      "card_out": "index/vllm/cards/pr-32951-<slug>.md"
+    },
+    {
+      "number": 33174,
+      "title": "Add support for Mistral Large 3 inference with Flashinfer MoE",
+      "pack": "data/cards-workdir/vllm/packs/pr-33174.pack.md",
+      "card_out": "index/vllm/cards/pr-33174-<slug>.md"
+    },
+    {
+      "number": 33568,
+      "title": "[Perf] Disable clean_logits in deepgemm fp8_mqa_logits kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-33568.pack.md",
+      "card_out": "index/vllm/cards/pr-33568-<slug>.md"
+    },
+    {
+      "number": 33771,
+      "title": "[Revert] Fix performance regression for GLM-4.7-GPTQ decode and MTP acceptance rate",
+      "pack": "data/cards-workdir/vllm/packs/pr-33771.pack.md",
+      "card_out": "index/vllm/cards/pr-33771-<slug>.md"
+    }
+  ]
+}

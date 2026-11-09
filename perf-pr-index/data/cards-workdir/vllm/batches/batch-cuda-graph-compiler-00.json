@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "CUDA Graph / Compiler",
+  "count": 40,
+  "prs": [
+    {
+      "number": 1926,
+      "title": "Optimize model execution with CUDA graph",
+      "pack": "data/cards-workdir/vllm/packs/pr-1926.pack.md",
+      "card_out": "index/vllm/cards/pr-1926-<slug>.md"
+    },
+    {
+      "number": 12637,
+      "title": "Apply torch.compile to fused_moe/grouped_topk",
+      "pack": "data/cards-workdir/vllm/packs/pr-12637.pack.md",
+      "card_out": "index/vllm/cards/pr-12637-<slug>.md"
+    },
+    {
+      "number": 16072,
+      "title": "[Core] Support full cuda graph in v1",
+      "pack": "data/cards-workdir/vllm/packs/pr-16072.pack.md",
+      "card_out": "index/vllm/cards/pr-16072-<slug>.md"
+    },
+    {
+      "number": 21146,
+      "title": "[Core] Freeze gc during cuda graph capture to speed up init",
+      "pack": "data/cards-workdir/vllm/packs/pr-21146.pack.md",
+      "card_out": "index/vllm/cards/pr-21146-<slug>.md"
+    },
+    {
+      "number": 22763,
+      "title": "[Feature] Full Cuda Graph Support for Cutlass MLA and 6% E2E Throughput Improvement",
+      "pack": "data/cards-workdir/vllm/packs/pr-22763.pack.md",
+      "card_out": "index/vllm/cards/pr-22763-<slug>.md"
+    },
+    {
+      "number": 23207,
+      "title": "[Misc][qwen2_5_vl][torch.compile] Enable `supports_torch_compile` on generic nn.Module and demonstrate speedup on Qwen Vision model",
+      "pack": "data/cards-workdir/vllm/packs/pr-23207.pack.md",
+      "card_out": "index/vllm/cards/pr-23207-<slug>.md"
+    },
+    {
+      "number": 23998,
+      "title": "[V1] v1 engine + full CUDA graph support for PLaMo2",
+      "pack": "data/cards-workdir/vllm/packs/pr-23998.pack.md",
+      "card_out": "index/vllm/cards/pr-23998-<slug>.md"
+    },
+    {
+      "number": 24123,
+      "title": "[Compilation][WideEP] Enable Piecewise CUDAGraph for DeepEPHT",
+      "pack": "data/cards-workdir/vllm/packs/pr-24123.pack.md",
+      "card_out": "index/vllm/cards/pr-24123-<slug>.md"
+    },
+    {
+      "number": 24128,
+      "title": "[Core] Run garbage collector after CUDA graph capture to fix throughput regression",
+      "pack": "data/cards-workdir/vllm/packs/pr-24128.pack.md",
+      "card_out": "index/vllm/cards/pr-24128-<slug>.md"
+    },
+    {
+      "number": 24252,
+      "title": "[Compile] Conditional compilation. Introduce compile_ranges",
+      "pack": "data/cards-workdir/vllm/packs/pr-24252.pack.md",
+      "card_out": "index/vllm/cards/pr-24252-<slug>.md"
+    },
+    {
+      "number": 24281,
+      "title": "[torch.compile] CUDAGraph Inductor partition integration",
+      "pack": "data/cards-workdir/vllm/packs/pr-24281.pack.md",
+      "card_out": "index/vllm/cards/pr-24281-<slug>.md"
+    },
+    {
+      "number": 25205,
+      "title": "[AOT compilation] support torch.compile inductor artifacts in VllmCompiledFunction",
+      "pack": "data/cards-workdir/vllm/packs/pr-25205.pack.md",
+      "card_out": "index/vllm/cards/pr-25205-<slug>.md"
+    },
+    {
+      "number": 25444,
+      "title": "[Perf] Change default CUDAGraphMode from PIECEWISE to FULL_AND_PIECEWISE",
+      "pack": "data/cards-workdir/vllm/packs/pr-25444.pack.md",
+      "card_out": "index/vllm/cards/pr-25444-<slug>.md"
+    },
+    {
+      "number": 25495,
+      "title": "[Perf] Increase default max splits for FA3 full cudagraphs",
+      "pack": "data/cards-workdir/vllm/packs/pr-25495.pack.md",
+      "card_out": "index/vllm/cards/pr-25495-<slug>.md"
+    },
+    {
+      "number": 28345,
+      "title": "[Performance][gpt-oss] Revert gpt-oss max cudagraph size to 1024",
+      "pack": "data/cards-workdir/vllm/packs/pr-28345.pack.md",
+      "card_out": "index/vllm/cards/pr-28345-<slug>.md"
+    },
+    {
+      "number": 28492,
+      "title": "[Performance][Hopper] Avoid M dim padding to 4x for most cases (due to cuda graphs paddings)",
+      "pack": "data/cards-workdir/vllm/packs/pr-28492.pack.md",
+      "card_out": "index/vllm/cards/pr-28492-<slug>.md"
+    },
+    {
+      "number": 28587,
+      "title": "[Hybrid][torch.compile] Refactor mamba2 forward to avoid obscuring linear projections under custom op",
+      "pack": "data/cards-workdir/vllm/packs/pr-28587.pack.md",
+      "card_out": "index/vllm/cards/pr-28587-<slug>.md"
+    },
+    {
+      "number": 29207,
+      "title": "use the same stream for cuda graph catpure and replay for NCCL",
+      "pack": "data/cards-workdir/vllm/packs/pr-29207.pack.md",
+      "card_out": "index/vllm/cards/pr-29207-<slug>.md"
+    },
+    {
+      "number": 30515,
+      "title": "[UX][Startup] Account for CUDA graphs during memory profiling",
+      "pack": "data/cards-workdir/vllm/packs/pr-30515.pack.md",
+      "card_out": "index/vllm/cards/pr-30515-<slug>.md"
+    },
+    {
+      "number": 34299,
+      "title": "[torch.compile] Enable AR+rms fusion by default available for `-O2`",
+      "pack": "data/cards-workdir/vllm/packs/pr-34299.pack.md",
+      "card_out": "index/vllm/cards/pr-34299-<slug>.md"
+    },
+    {
+      "number": 35963,
+      "title": "[Feature] ViT Full CUDA Graph",
+      "pack": "data/cards-workdir/vllm/packs/pr-35963.pack.md",
+      "card_out": "index/vllm/cards/pr-35963-<slug>.md"
+    },
+    {
+      "number": 37421,
+      "title": "[Perf][Kernel] Persistent TopK scheduler: unified CUDAGraph-safe kernel with dynamic per-row dispatch - DeepSeek-V3.2 DSA decode",
+      "pack": "data/cards-workdir/vllm/packs/pr-37421.pack.md",
+      "card_out": "index/vllm/cards/pr-37421-<slug>.md"
+    },
+    {
+      "number": 38040,
+      "title": "[Fix] Misc Fixes in ViT CUDA Graph",
+      "pack": "data/cards-workdir/vllm/packs/pr-38040.pack.md",
+      "card_out": "index/vllm/cards/pr-38040-<slug>.md"
+    },
+    {
+      "number": 38061,
+      "title": "[MM][Perf][CG] Support ViT full CUDA graph for Qwen3-VL video inference",
+      "pack": "data/cards-workdir/vllm/packs/pr-38061.pack.md",
+      "card_out": "index/vllm/cards/pr-38061-<slug>.md"
+    },
+    {
+      "number": 40711,
+      "title": "[Aiter][ROCm] gdn_linear_attn kernel fusion",
+      "pack": "data/cards-workdir/vllm/packs/pr-40711.pack.md",
+      "card_out": "index/vllm/cards/pr-40711-<slug>.md"
+    },
+    {
+      "number": 40734,
+      "title": "[Bugfix] Fix max_num_batched_token not captured in cuda graph ",
+      "pack": "data/cards-workdir/vllm/packs/pr-40734.pack.md",
+      "card_out": "index/vllm/cards/pr-40734-<slug>.md"
+    },
+    {
+      "number": 42785,
+      "title": "[MM][CG] Enable encoder CUDA Graph for MiniCPM-V",
+      "pack": "data/cards-workdir/vllm/packs/pr-42785.pack.md",
+      "card_out": "index/vllm/cards/pr-42785-<slug>.md"
+    },
+    {
+      "number": 49390,
+      "title": "[Perf] Raise Blackwell CUDA graph capture default to 1024",
+      "pack": "data/cards-workdir/vllm/packs/pr-49390.pack.md",
+      "card_out": "index/vllm/cards/pr-49390-<slug>.md"
+    },
+    {
+      "number": 50294,
+      "title": "[Kernel][Model] Optimize FA4 mm_prefix range lookup",
+      "pack": "data/cards-workdir/vllm/packs/pr-50294.pack.md",
+      "card_out": "index/vllm/cards/pr-50294-<slug>.md"
+    },
+    {
+      "number": 51012,
+      "title": "[Models] Deprecate `torch.compile` for Qwen3.5 models",
+      "pack": "data/cards-workdir/vllm/packs/pr-51012.pack.md",
+      "card_out": "index/vllm/cards/pr-51012-<slug>.md"
+    },
+    {
+      "number": 51084,
+      "title": "[Profiler] Add Proton CUDA graph attribution for MRV2",
+      "pack": "data/cards-workdir/vllm/packs/pr-51084.pack.md",
+      "card_out": "index/vllm/cards/pr-51084-<slug>.md"
+    },
+    {
+      "number": 51425,
+      "title": "[Perf] Narrow DeepSeek V3.2 eager CUDA graph region",
+      "pack": "data/cards-workdir/vllm/packs/pr-51425.pack.md",
+      "card_out": "index/vllm/cards/pr-51425-<slug>.md"
+    },
+    {
+      "number": 53011,
+      "title": "[Bugfix] Avoid eager torch.compile in Kimi K2.5 vision helper",
+      "pack": "data/cards-workdir/vllm/packs/pr-53011.pack.md",
+      "card_out": "index/vllm/cards/pr-53011-<slug>.md"
+    },
+    {
+      "number": 53867,
+      "title": "[Feature][PCP] Support decode-only FULL CUDA graphs",
+      "pack": "data/cards-workdir/vllm/packs/pr-53867.pack.md",
+      "card_out": "index/vllm/cards/pr-53867-<slug>.md"
+    },
+    {
+      "number": 55061,
+      "title": "[Performance][DSv4] Size dequant gather launch grid by rows",
+      "pack": "data/cards-workdir/vllm/packs/pr-55061.pack.md",
+      "card_out": "index/vllm/cards/pr-55061-<slug>.md"
+    },
+    {
+      "number": 56683,
+      "title": "[Perf] Parallelize mHC pre-norm JIT warmup",
+      "pack": "data/cards-workdir/vllm/packs/pr-56683.pack.md",
+      "card_out": "index/vllm/cards/pr-56683-<slug>.md"
+    },
+    {
+      "number": 57299,
+      "title": "[torch.compile] Canonicalize functionalized split slices for fusion pa…",
+      "pack": "data/cards-workdir/vllm/packs/pr-57299.pack.md",
+      "card_out": "index/vllm/cards/pr-57299-<slug>.md"
+    },
+    {
+      "number": 58064,
+      "title": "[Bugfix][Transformers backend] Fix CUDA graph capture for dynamic-rope models",
+      "pack": "data/cards-workdir/vllm/packs/pr-58064.pack.md",
+      "card_out": "index/vllm/cards/pr-58064-<slug>.md"
+    },
+    {
+      "number": 58685,
+      "title": "[Perf] JIT monitor: hook TileLang JITImpl.compile instead of __call__",
+      "pack": "data/cards-workdir/vllm/packs/pr-58685.pack.md",
+      "card_out": "index/vllm/cards/pr-58685-<slug>.md"
+    },
+    {
+      "number": 59732,
+      "title": "[ROCm][Perf] Fuse main QK-norm/RoPE/gate and KV-cache write into the AMD QSA prepare launch",
+      "pack": "data/cards-workdir/vllm/packs/pr-59732.pack.md",
+      "card_out": "index/vllm/cards/pr-59732-<slug>.md"
+    }
+  ]
+}

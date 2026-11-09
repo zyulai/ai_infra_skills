@@ -1,0 +1,10 @@
+PR #56562 | [Perf] Fuse DSV4.1 input metadata preparation with Triton | pack=data/cards-workdir/vllm/packs/pr-56562.pack.md | out=index/vllm/cards/pr-56562-perf-fuse-dsv4-1-input-metadata-preparat.md
+PR #20516 | [Benchmark] Add support for multiple batch size benchmark through CLI in `benchmark_moe.py` + Add Triton Fused MoE kernel config for FP8 E=16 on B200 | pack=data/cards-workdir/vllm/packs/pr-20516.pack.md | out=index/vllm/cards/pr-20516-benchmark-add-support-for-multiple-batch.md
+PR #23504 | [Perf] Add Triton config for DeepSeek V3 FP8 EP32 H200 | pack=data/cards-workdir/vllm/packs/pr-23504.pack.md | out=index/vllm/cards/pr-23504-perf-add-triton-config-for-deepseek-v3-f.md
+PR #32183 | [MM Encoder] Add Triton ViT attention backend | pack=data/cards-workdir/vllm/packs/pr-32183.pack.md | out=index/vllm/cards/pr-32183-mm-encoder-add-triton-vit-attention-back.md
+PR #32952 | [Refactor] Rename `gptq_marlin` to `marlin` to match MoE | pack=data/cards-workdir/vllm/packs/pr-32952.pack.md | out=index/vllm/cards/pr-32952-refactor-rename-gptq-marlin-to-marlin-to.md
+PR #33255 | [Bugfix] Fix quant RMS norm fusion for quantization with TMA-aligned scales | pack=data/cards-workdir/vllm/packs/pr-33255.pack.md | out=index/vllm/cards/pr-33255-bugfix-fix-quant-rms-norm-fusion-for-qua.md
+PR #36412 | Fix/resupport nongated fused moe triton | pack=data/cards-workdir/vllm/packs/pr-36412.pack.md | out=index/vllm/cards/pr-36412-fix-resupport-nongated-fused-moe-triton.md
+PR #24904 | Move `SpeculativeConfig` from `config/__init__.py` to `config/speculative.py` | pack=data/cards-workdir/vllm/packs/pr-24904.pack.md | out=index/vllm/cards/pr-24904-move-speculativeconfig-from-config-init.md
+PR #58634 | [Perf][DSv4.1] Fuse small-batch WO-A with inverse RoPE and MXFP8 quant on SM100/SM103 | pack=data/cards-workdir/vllm/packs/pr-58634.pack.md | out=index/vllm/cards/pr-58634-perf-dsv4-1-fuse-small-batch-wo-a-with-i.md
+PR #64368 | [Spec Decode][ROCm] draft_lm_head_quantization for DSpark drafters | pack=data/cards-workdir/vllm/packs/pr-64368.pack.md | out=index/vllm/cards/pr-64368-spec-decode-rocm-draft-lm-head-quantizat.md

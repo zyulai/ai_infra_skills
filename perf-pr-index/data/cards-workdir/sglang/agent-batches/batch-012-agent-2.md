@@ -1,0 +1,17 @@
+PR #44036 | [Feat] FlashInfer: Add NVFP4 W4A16 and SiTU support to MegaMoE | pack=data/cards-workdir/sglang/packs/pr-44036.pack.md | out=index/sglang/cards/pr-44036-feat-flashinfer-add-nvfp4-w4a16-and-situ.md
+PR #44591 | [Chore] deps: Bump FlashInfer to 0.7.2 | pack=data/cards-workdir/sglang/packs/pr-44591.pack.md | out=index/sglang/cards/pr-44591-chore-deps-bump-flashinfer-to-0-7-2.md
+PR #47201 | [Perf] [NVIDIA] speculative-decoding: Bind generic provider strategies | pack=data/cards-workdir/sglang/packs/pr-47201.pack.md | out=index/sglang/cards/pr-47201-perf-nvidia-speculative-decoding-bind-ge.md
+PR #20922 | :sparkles: [diffusion][npu][quant] Add MXFP8 quantization support for Wan2.2 Diffusion on Ascend NPU | pack=data/cards-workdir/sglang/packs/pr-20922.pack.md | out=index/sglang/cards/pr-20922-sparkles-diffusion-npu-quant-add-mxfp8-q.md
+PR #21977 | perf: enable inductor combo_kernels for horizontal fusion | pack=data/cards-workdir/sglang/packs/pr-21977.pack.md | out=index/sglang/cards/pr-21977-perf-enable-inductor-combo-kernels-for-h.md
+PR #20303 | bump fa4 to official released fa4 pkg | pack=data/cards-workdir/sglang/packs/pr-20303.pack.md | out=index/sglang/cards/pr-20303-bump-fa4-to-official-released-fa4-pkg.md
+PR #26471 | DeepSeek-V4 Online Compress support MTP | pack=data/cards-workdir/sglang/packs/pr-26471.pack.md | out=index/sglang/cards/pr-26471-deepseek-v4-online-compress-support-mtp.md
+PR #32755 |  [Perf] Occupancy tuning for DSA indexer fp8-quant Q kernel | pack=data/cards-workdir/sglang/packs/pr-32755.pack.md | out=index/sglang/cards/pr-32755-perf-occupancy-tuning-for-dsa-indexer-fp.md
+PR #33829 | [Model] Complete dots.note.omni support with native encoders, video preprocessing, and MTP decoding | pack=data/cards-workdir/sglang/packs/pr-33829.pack.md | out=index/sglang/cards/pr-33829-model-complete-dots-note-omni-support-wi.md
+PR #36954 | [Deps] Bump FlashInfer to 0.6.18 | pack=data/cards-workdir/sglang/packs/pr-36954.pack.md | out=index/sglang/cards/pr-36954-deps-bump-flashinfer-to-0-6-18.md
+PR #43494 | [Deps] Bump FlashInfer to 0.7.1 | pack=data/cards-workdir/sglang/packs/pr-43494.pack.md | out=index/sglang/cards/pr-43494-deps-bump-flashinfer-to-0-7-1.md
+PR #17706 | [bugfix] avoid attention padding tokens computation in pcg | pack=data/cards-workdir/sglang/packs/pr-17706.pack.md | out=index/sglang/cards/pr-17706-bugfix-avoid-attention-padding-tokens-co.md
+PR #24934 | DeepSeek V4 MTP Support CP | pack=data/cards-workdir/sglang/packs/pr-24934.pack.md | out=index/sglang/cards/pr-24934-deepseek-v4-mtp-support-cp.md
+PR #19818 | Fix torch.compile/dynamo crash with Qwen3 QK-norm in piecewise CUDA g… | pack=data/cards-workdir/sglang/packs/pr-19818.pack.md | out=index/sglang/cards/pr-19818-fix-torch-compile-dynamo-crash-with-qwen.md
+PR #27689 | [Perf] FlashInfer MLA: remove blocking D2H in spec-decode plan | pack=data/cards-workdir/sglang/packs/pr-27689.pack.md | out=index/sglang/cards/pr-27689-perf-flashinfer-mla-remove-blocking-d2h.md
+PR #27926 | [DSV4] perf: Make FP8 quant output tensor contiguous | pack=data/cards-workdir/sglang/packs/pr-27926.pack.md | out=index/sglang/cards/pr-27926-dsv4-perf-make-fp8-quant-output-tensor-c.md
+PR #28666 | [AMD] Fuse shared_expert_gate GEMV into the MoE append kernel (HIP/aiter) | pack=data/cards-workdir/sglang/packs/pr-28666.pack.md | out=index/sglang/cards/pr-28666-amd-fuse-shared-expert-gate-gemv-into-th.md

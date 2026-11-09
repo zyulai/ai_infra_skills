@@ -1,0 +1,247 @@
+{
+  "repo": "sglang",
+  "category": "Speculative Decoding",
+  "count": 40,
+  "prs": [
+    {
+      "number": 37413,
+      "title": "[AMD][DSV4] feat: enable fp8 two-pool unified_kv on gfx950",
+      "pack": "data/cards-workdir/sglang/packs/pr-37413.pack.md",
+      "card_out": "index/sglang/cards/pr-37413-<slug>.md"
+    },
+    {
+      "number": 37577,
+      "title": "[Feature] Add Aaronson-Gumbel text watermarking",
+      "pack": "data/cards-workdir/sglang/packs/pr-37577.pack.md",
+      "card_out": "index/sglang/cards/pr-37577-<slug>.md"
+    },
+    {
+      "number": 37764,
+      "title": "[AMD][DSv4] Fuse the DSv4 FP4 indexer prefill-schedule preamble into one kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-37764.pack.md",
+      "card_out": "index/sglang/cards/pr-37764-<slug>.md"
+    },
+    {
+      "number": 37771,
+      "title": "[HiSparse] Add speculative decoding support with multi-step KV cache swapping",
+      "pack": "data/cards-workdir/sglang/packs/pr-37771.pack.md",
+      "card_out": "index/sglang/cards/pr-37771-<slug>.md"
+    },
+    {
+      "number": 37810,
+      "title": "[ROCm][DSV4] Enable breakable CUDA graph prefill",
+      "pack": "data/cards-workdir/sglang/packs/pr-37810.pack.md",
+      "card_out": "index/sglang/cards/pr-37810-<slug>.md"
+    },
+    {
+      "number": 38381,
+      "title": "Revert \"[kernel] add fused silu mul quant fp8\"",
+      "pack": "data/cards-workdir/sglang/packs/pr-38381.pack.md",
+      "card_out": "index/sglang/cards/pr-38381-<slug>.md"
+    },
+    {
+      "number": 38440,
+      "title": "[Feat] [NPU] DSpark: DeepSeek-V4 support DSpark compact mode",
+      "pack": "data/cards-workdir/sglang/packs/pr-38440.pack.md",
+      "card_out": "index/sglang/cards/pr-38440-<slug>.md"
+    },
+    {
+      "number": 38565,
+      "title": "[Fix] sampling: deterministic top-p / top-k renorm when tp_size > 1 (TP rank divergence in DFlash/DSpark)",
+      "pack": "data/cards-workdir/sglang/packs/pr-38565.pack.md",
+      "card_out": "index/sglang/cards/pr-38565-<slug>.md"
+    },
+    {
+      "number": 38878,
+      "title": "[AMD] Load fused shared experts for Qwen4-Exp and Qwen3.5 MTP",
+      "pack": "data/cards-workdir/sglang/packs/pr-38878.pack.md",
+      "card_out": "index/sglang/cards/pr-38878-<slug>.md"
+    },
+    {
+      "number": 38943,
+      "title": "[Feat] dcp: Support breakable prefill CUDA graphs under decode context parallelism",
+      "pack": "data/cards-workdir/sglang/packs/pr-38943.pack.md",
+      "card_out": "index/sglang/cards/pr-38943-<slug>.md"
+    },
+    {
+      "number": 39947,
+      "title": "[Feat] [NPU] DSpark: Support dsv4 dspark on ascend 950",
+      "pack": "data/cards-workdir/sglang/packs/pr-39947.pack.md",
+      "card_out": "index/sglang/cards/pr-39947-<slug>.md"
+    },
+    {
+      "number": 40640,
+      "title": "[Kimi K3] Fix CUDA graph stream explosion",
+      "pack": "data/cards-workdir/sglang/packs/pr-40640.pack.md",
+      "card_out": "index/sglang/cards/pr-40640-<slug>.md"
+    },
+    {
+      "number": 40708,
+      "title": "[Perf] [AMD] qwen3.5: Route 512-expert softmax MoE routing through aiter topk_gating",
+      "pack": "data/cards-workdir/sglang/packs/pr-40708.pack.md",
+      "card_out": "index/sglang/cards/pr-40708-<slug>.md"
+    },
+    {
+      "number": 40785,
+      "title": "[JIT] Fuse FP8 KV-cache quantization into the prefix-valid commit kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-40785.pack.md",
+      "card_out": "index/sglang/cards/pr-40785-<slug>.md"
+    },
+    {
+      "number": 40825,
+      "title": "[Feat] [NPU] kimi-k3: Support DCP with shared compact communication",
+      "pack": "data/cards-workdir/sglang/packs/pr-40825.pack.md",
+      "card_out": "index/sglang/cards/pr-40825-<slug>.md"
+    },
+    {
+      "number": 41725,
+      "title": "[ROCm] GLM-5.2 decode path: decode-shaped MoE/MLA tiles, split speculative softmax, and bf16 GEMM routing",
+      "pack": "data/cards-workdir/sglang/packs/pr-41725.pack.md",
+      "card_out": "index/sglang/cards/pr-41725-<slug>.md"
+    },
+    {
+      "number": 41916,
+      "title": "[Fix] sampling: Make top-k/top-p filtering consistent across sampling paths",
+      "pack": "data/cards-workdir/sglang/packs/pr-41916.pack.md",
+      "card_out": "index/sglang/cards/pr-41916-<slug>.md"
+    },
+    {
+      "number": 42175,
+      "title": "[Performance] Optimize Qwen3.8-Flash-Next BF16 decode on Blackwell",
+      "pack": "data/cards-workdir/sglang/packs/pr-42175.pack.md",
+      "card_out": "index/sglang/cards/pr-42175-<slug>.md"
+    },
+    {
+      "number": 42297,
+      "title": "[Speculative] Add opt-in block verification",
+      "pack": "data/cards-workdir/sglang/packs/pr-42297.pack.md",
+      "card_out": "index/sglang/cards/pr-42297-<slug>.md"
+    },
+    {
+      "number": 42614,
+      "title": "[AMD] MiniMax-M3 indexer CP: packed scoring for EAGLE verify rows",
+      "pack": "data/cards-workdir/sglang/packs/pr-42614.pack.md",
+      "card_out": "index/sglang/cards/pr-42614-<slug>.md"
+    },
+    {
+      "number": 42901,
+      "title": "[Perf] deepseek-v4.1: Skip wasted layer 20 work on earlier prompt tokens under decoder bounded replay",
+      "pack": "data/cards-workdir/sglang/packs/pr-42901.pack.md",
+      "card_out": "index/sglang/cards/pr-42901-<slug>.md"
+    },
+    {
+      "number": 42957,
+      "title": "[DSA] Support TileLang FP8 KV cache on CUDA",
+      "pack": "data/cards-workdir/sglang/packs/pr-42957.pack.md",
+      "card_out": "index/sglang/cards/pr-42957-<slug>.md"
+    },
+    {
+      "number": 43012,
+      "title": "[Speculative] Support block verification for the DFlash family",
+      "pack": "data/cards-workdir/sglang/packs/pr-43012.pack.md",
+      "card_out": "index/sglang/cards/pr-43012-<slug>.md"
+    },
+    {
+      "number": 43171,
+      "title": "[Perf] gdn: Select FlashInfer prefill for page-major pools",
+      "pack": "data/cards-workdir/sglang/packs/pr-43171.pack.md",
+      "card_out": "index/sglang/cards/pr-43171-<slug>.md"
+    },
+    {
+      "number": 43236,
+      "title": "[Perf] Enable fast-math for JIT activations on Blackwell",
+      "pack": "data/cards-workdir/sglang/packs/pr-43236.pack.md",
+      "card_out": "index/sglang/cards/pr-43236-<slug>.md"
+    },
+    {
+      "number": 43735,
+      "title": "[DCP] Decode context parallelism for DSA (GLM-5.2 / GLM-5.3) with MTP",
+      "pack": "data/cards-workdir/sglang/packs/pr-43735.pack.md",
+      "card_out": "index/sglang/cards/pr-43735-<slug>.md"
+    },
+    {
+      "number": 43839,
+      "title": "[Perf] [AMD] qwen3_5: Quantize the BF16 GDN projections to MXFP4 online",
+      "pack": "data/cards-workdir/sglang/packs/pr-43839.pack.md",
+      "card_out": "index/sglang/cards/pr-43839-<slug>.md"
+    },
+    {
+      "number": 44036,
+      "title": "[Feat] FlashInfer: Add NVFP4 W4A16 and SiTU support to MegaMoE",
+      "pack": "data/cards-workdir/sglang/packs/pr-44036.pack.md",
+      "card_out": "index/sglang/cards/pr-44036-<slug>.md"
+    },
+    {
+      "number": 44200,
+      "title": "[Feat] watermark: Add DSPARK speculative decoding support",
+      "pack": "data/cards-workdir/sglang/packs/pr-44200.pack.md",
+      "card_out": "index/sglang/cards/pr-44200-<slug>.md"
+    },
+    {
+      "number": 44322,
+      "title": "[Feat] [AMD] dsa: Enable DCP on the triton sparse-MLA backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-44322.pack.md",
+      "card_out": "index/sglang/cards/pr-44322-<slug>.md"
+    },
+    {
+      "number": 44489,
+      "title": "[Perf] [AMD] deterministic: Allow AITER decode attention on gfx950",
+      "pack": "data/cards-workdir/sglang/packs/pr-44489.pack.md",
+      "card_out": "index/sglang/cards/pr-44489-<slug>.md"
+    },
+    {
+      "number": 44632,
+      "title": "[Perf] DeepSeek-V4.1: Raise the SM100 swap-AB decode cap to 40 rows",
+      "pack": "data/cards-workdir/sglang/packs/pr-44632.pack.md",
+      "card_out": "index/sglang/cards/pr-44632-<slug>.md"
+    },
+    {
+      "number": 45339,
+      "title": "[Perf] [AMD] dsv41: Skip unneeded layer 20 computation under decoder-bounded-replay",
+      "pack": "data/cards-workdir/sglang/packs/pr-45339.pack.md",
+      "card_out": "index/sglang/cards/pr-45339-<slug>.md"
+    },
+    {
+      "number": 45876,
+      "title": "[Perf] DFLASH: route draft bf16 GEMMs through tuned dispatch on GB300",
+      "pack": "data/cards-workdir/sglang/packs/pr-45876.pack.md",
+      "card_out": "index/sglang/cards/pr-45876-<slug>.md"
+    },
+    {
+      "number": 46024,
+      "title": "[Perf] mhc: Split hc_combine_norm_mxfp8 rows by batch size and zero padding scales in the kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-46024.pack.md",
+      "card_out": "index/sglang/cards/pr-46024-<slug>.md"
+    },
+    {
+      "number": 46184,
+      "title": "[Perf] mamba: write the deduplicated conv verify window as one tile",
+      "pack": "data/cards-workdir/sglang/packs/pr-46184.pack.md",
+      "card_out": "index/sglang/cards/pr-46184-<slug>.md"
+    },
+    {
+      "number": 46263,
+      "title": "[Perf] [NVIDIA] deepseek-v4.1: Default aggregated servers to MegaAttention only when each rank holds 64 query heads",
+      "pack": "data/cards-workdir/sglang/packs/pr-46263.pack.md",
+      "card_out": "index/sglang/cards/pr-46263-<slug>.md"
+    },
+    {
+      "number": 46404,
+      "title": "[Fix] dspark: Draw the simulated-acceptance bonus at the simulated row",
+      "pack": "data/cards-workdir/sglang/packs/pr-46404.pack.md",
+      "card_out": "index/sglang/cards/pr-46404-<slug>.md"
+    },
+    {
+      "number": 46724,
+      "title": "[Perf] [NVIDIA] muse-spark-open: Fuse MoE finalize with the 2shot_push all-reduce",
+      "pack": "data/cards-workdir/sglang/packs/pr-46724.pack.md",
+      "card_out": "index/sglang/cards/pr-46724-<slug>.md"
+    },
+    {
+      "number": 47180,
+      "title": "[Perf] [AMD] dsa: Replicate the DCP query projection on the owned route",
+      "pack": "data/cards-workdir/sglang/packs/pr-47180.pack.md",
+      "card_out": "index/sglang/cards/pr-47180-<slug>.md"
+    }
+  ]
+}

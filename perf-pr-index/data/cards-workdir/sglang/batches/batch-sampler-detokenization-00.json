@@ -1,0 +1,37 @@
+{
+  "repo": "sglang",
+  "category": "Sampler / Detokenization",
+  "count": 5,
+  "prs": [
+    {
+      "number": 7058,
+      "title": "Minor speedup topk postprocessing",
+      "pack": "data/cards-workdir/sglang/packs/pr-7058.pack.md",
+      "card_out": "index/sglang/cards/pr-7058-<slug>.md"
+    },
+    {
+      "number": 34167,
+      "title": "[DSA] Fix top-k v2 dropping non-primary ranks' output on CUDA 13.1+ (root cause for #33835)",
+      "pack": "data/cards-workdir/sglang/packs/pr-34167.pack.md",
+      "card_out": "index/sglang/cards/pr-34167-<slug>.md"
+    },
+    {
+      "number": 37941,
+      "title": "[Fix] dsa: Make the fused top-k exact on an overflowing threshold bin",
+      "pack": "data/cards-workdir/sglang/packs/pr-37941.pack.md",
+      "card_out": "index/sglang/cards/pr-37941-<slug>.md"
+    },
+    {
+      "number": 39305,
+      "title": "[dsv4.1] Exact bf16 consumer top-k adapted from DeepSelect",
+      "pack": "data/cards-workdir/sglang/packs/pr-39305.pack.md",
+      "card_out": "index/sglang/cards/pr-39305-<slug>.md"
+    },
+    {
+      "number": 39931,
+      "title": "[ROCm] topk v2: split one long row across blocks, the CDNA cluster-path equivalent",
+      "pack": "data/cards-workdir/sglang/packs/pr-39931.pack.md",
+      "card_out": "index/sglang/cards/pr-39931-<slug>.md"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "repo": "sglang",
+  "category": "MoE",
+  "count": 9,
+  "prs": [
+    {
+      "number": 45828,
+      "title": "[Perf] fp8: Hopper small-M GEMV, fused KDA output quant, CUDA grouped top-k, partial-block tails",
+      "pack": "data/cards-workdir/sglang/packs/pr-45828.pack.md",
+      "card_out": "index/sglang/cards/pr-45828-<slug>.md"
+    },
+    {
+      "number": 46454,
+      "title": "[Perf] diffusion: HunyuanImage-3 prefix K/V cache, opt-in FA3 attention and think-prompt support",
+      "pack": "data/cards-workdir/sglang/packs/pr-46454.pack.md",
+      "card_out": "index/sglang/cards/pr-46454-<slug>.md"
+    },
+    {
+      "number": 46955,
+      "title": "[Perf] dsv41: Use the Engram all-to-all lookup for decode and CUDA graphs",
+      "pack": "data/cards-workdir/sglang/packs/pr-46955.pack.md",
+      "card_out": "index/sglang/cards/pr-46955-<slug>.md"
+    },
+    {
+      "number": 47653,
+      "title": "[Perf] kimi-k3: Seed a validated FlashInfer prefill MoE tactic",
+      "pack": "data/cards-workdir/sglang/packs/pr-47653.pack.md",
+      "card_out": "index/sglang/cards/pr-47653-<slug>.md"
+    },
+    {
+      "number": 47853,
+      "title": "[Feat] halops: Add HALOps as an opt-in MXFP8 GEMM backend for Blackwell and support mxfp8 megamoe",
+      "pack": "data/cards-workdir/sglang/packs/pr-47853.pack.md",
+      "card_out": "index/sglang/cards/pr-47853-<slug>.md"
+    },
+    {
+      "number": 47976,
+      "title": "[Perf] [NVIDIA] moe: Localize DeepGEMM Mega MoE weights across locality domains",
+      "pack": "data/cards-workdir/sglang/packs/pr-47976.pack.md",
+      "card_out": "index/sglang/cards/pr-47976-<slug>.md"
+    },
+    {
+      "number": 48174,
+      "title": "[Perf] [NVIDIA] moe: Re-land the JIT moe_finalize_fuse_shared with the shared row read after the PDL wait",
+      "pack": "data/cards-workdir/sglang/packs/pr-48174.pack.md",
+      "card_out": "index/sglang/cards/pr-48174-<slug>.md"
+    },
+    {
+      "number": 48440,
+      "title": "[Perf] [AMD] moe: Run the small-batch sort + stage-1 quant up to 1024 pairs on Kimi-K3",
+      "pack": "data/cards-workdir/sglang/packs/pr-48440.pack.md",
+      "card_out": "index/sglang/cards/pr-48440-<slug>.md"
+    },
+    {
+      "number": 48468,
+      "title": "[Chore] [NVIDIA] deps: Bump FlashInfer to 0.7.3 and migrate the NVLink one-sided all-to-all to flashinfer.moe_ep",
+      "pack": "data/cards-workdir/sglang/packs/pr-48468.pack.md",
+      "card_out": "index/sglang/cards/pr-48468-<slug>.md"
+    }
+  ]
+}

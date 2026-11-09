@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "Quantization",
+  "count": 40,
+  "prs": [
+    {
+      "number": 22943,
+      "title": "[Kernel/Quant] Remove AQLM",
+      "pack": "data/cards-workdir/vllm/packs/pr-22943.pack.md",
+      "card_out": "index/vllm/cards/pr-22943-<slug>.md"
+    },
+    {
+      "number": 23036,
+      "title": "[Core] Support weight_loader_v2 for `UnquantizedLinearMethod`",
+      "pack": "data/cards-workdir/vllm/packs/pr-23036.pack.md",
+      "card_out": "index/vllm/cards/pr-23036-<slug>.md"
+    },
+    {
+      "number": 23198,
+      "title": "[kernel] Support W4A8 on Hopper",
+      "pack": "data/cards-workdir/vllm/packs/pr-23198.pack.md",
+      "card_out": "index/vllm/cards/pr-23198-<slug>.md"
+    },
+    {
+      "number": 23204,
+      "title": "[Kernel/Quant] Remove the original marlin format and qqq",
+      "pack": "data/cards-workdir/vllm/packs/pr-23204.pack.md",
+      "card_out": "index/vllm/cards/pr-23204-<slug>.md"
+    },
+    {
+      "number": 23504,
+      "title": "[Perf] Add Triton config for DeepSeek V3 FP8 EP32 H200",
+      "pack": "data/cards-workdir/vllm/packs/pr-23504.pack.md",
+      "card_out": "index/vllm/cards/pr-23504-<slug>.md"
+    },
+    {
+      "number": 23647,
+      "title": "[Flashinfer] Support Flashinfer TRTLLM FP8-qkv BF16/FP16-out Attention Kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-23647.pack.md",
+      "card_out": "index/vllm/cards/pr-23647-<slug>.md"
+    },
+    {
+      "number": 23748,
+      "title": "[Perf] Tune configs for triton block fp8 gemm H100/H200",
+      "pack": "data/cards-workdir/vllm/packs/pr-23748.pack.md",
+      "card_out": "index/vllm/cards/pr-23748-<slug>.md"
+    },
+    {
+      "number": 23939,
+      "title": "Tuned H100/H200 triton fp8 block configs for fused_qkv_a_proj",
+      "pack": "data/cards-workdir/vllm/packs/pr-23939.pack.md",
+      "card_out": "index/vllm/cards/pr-23939-<slug>.md"
+    },
+    {
+      "number": 24197,
+      "title": "[flashinfer] [kernel] support for fp8 kv cache for trtllm prefill attention",
+      "pack": "data/cards-workdir/vllm/packs/pr-24197.pack.md",
+      "card_out": "index/vllm/cards/pr-24197-<slug>.md"
+    },
+    {
+      "number": 24239,
+      "title": "[ROCm][Quantization] extend AMD Quark to support mixed-precision quantized model",
+      "pack": "data/cards-workdir/vllm/packs/pr-24239.pack.md",
+      "card_out": "index/vllm/cards/pr-24239-<slug>.md"
+    },
+    {
+      "number": 24342,
+      "title": "[FP8] Extend per-token-group quantization support to QuantFP8",
+      "pack": "data/cards-workdir/vllm/packs/pr-24342.pack.md",
+      "card_out": "index/vllm/cards/pr-24342-<slug>.md"
+    },
+    {
+      "number": 24440,
+      "title": "[Transform] [Quantization] Add QuTLASS support to vLLM",
+      "pack": "data/cards-workdir/vllm/packs/pr-24440.pack.md",
+      "card_out": "index/vllm/cards/pr-24440-<slug>.md"
+    },
+    {
+      "number": 24722,
+      "title": "[Kernel][Quantization] add w4a8 support for marlin kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-24722.pack.md",
+      "card_out": "index/vllm/cards/pr-24722-<slug>.md"
+    },
+    {
+      "number": 24757,
+      "title": "[Perf] Use NVIDIA hardware-accelerated instruction for float to fp8_e4m3 quantization",
+      "pack": "data/cards-workdir/vllm/packs/pr-24757.pack.md",
+      "card_out": "index/vllm/cards/pr-24757-<slug>.md"
+    },
+    {
+      "number": 25609,
+      "title": "Enable Fbgemm NVFP4 on Dense models",
+      "pack": "data/cards-workdir/vllm/packs/pr-25609.pack.md",
+      "card_out": "index/vllm/cards/pr-25609-<slug>.md"
+    },
+    {
+      "number": 25948,
+      "title": "[cpu][perf] Accelerate unquantized-linear for AArch64 through oneDNN/ACL and weight prepack",
+      "pack": "data/cards-workdir/vllm/packs/pr-25948.pack.md",
+      "card_out": "index/vllm/cards/pr-25948-<slug>.md"
+    },
+    {
+      "number": 26107,
+      "title": "[NVIDIA] Add support for cudnn fp4 gemm via flashinfer",
+      "pack": "data/cards-workdir/vllm/packs/pr-26107.pack.md",
+      "card_out": "index/vllm/cards/pr-26107-<slug>.md"
+    },
+    {
+      "number": 27284,
+      "title": "[Perf] SM100 - add swap AB optimization to CUTLASS FP8 GEMM",
+      "pack": "data/cards-workdir/vllm/packs/pr-27284.pack.md",
+      "card_out": "index/vllm/cards/pr-27284-<slug>.md"
+    },
+    {
+      "number": 27532,
+      "title": "[Attention] Use sparse prefill kernel for fp8 kv-cache in DeepSeek-v3.2",
+      "pack": "data/cards-workdir/vllm/packs/pr-27532.pack.md",
+      "card_out": "index/vllm/cards/pr-27532-<slug>.md"
+    },
+    {
+      "number": 27814,
+      "title": "[Refactor] Make FP8 Linear Ops use kernel abstraction",
+      "pack": "data/cards-workdir/vllm/packs/pr-27814.pack.md",
+      "card_out": "index/vllm/cards/pr-27814-<slug>.md"
+    },
+    {
+      "number": 27883,
+      "title": "[Performance] Fused blockwise quant RMS norm",
+      "pack": "data/cards-workdir/vllm/packs/pr-27883.pack.md",
+      "card_out": "index/vllm/cards/pr-27883-<slug>.md"
+    },
+    {
+      "number": 29008,
+      "title": "[ROCm][Quantization] GPT_OSS in amd-quark format model loading and emulations ",
+      "pack": "data/cards-workdir/vllm/packs/pr-29008.pack.md",
+      "card_out": "index/vllm/cards/pr-29008-<slug>.md"
+    },
+    {
+      "number": 29213,
+      "title": "[Perf][Kernels] Enable FlashInfer DeepGEMM swapAB on SM90 (for W8A8 Linear Op)",
+      "pack": "data/cards-workdir/vllm/packs/pr-29213.pack.md",
+      "card_out": "index/vllm/cards/pr-29213-<slug>.md"
+    },
+    {
+      "number": 29795,
+      "title": "[Perf] Improve fp8 quant in mla; replace ReduceSum with ReduceScatterSum",
+      "pack": "data/cards-workdir/vllm/packs/pr-29795.pack.md",
+      "card_out": "index/vllm/cards/pr-29795-<slug>.md"
+    },
+    {
+      "number": 30885,
+      "title": "[Kernel][Performance] Enable smaller Scaling Factor tiling for NVFP4 small-batch decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-30885.pack.md",
+      "card_out": "index/vllm/cards/pr-30885-<slug>.md"
+    },
+    {
+      "number": 30897,
+      "title": "[NVFP4][Perf] Tune NVFP4 input quant kernel for small batch size",
+      "pack": "data/cards-workdir/vllm/packs/pr-30897.pack.md",
+      "card_out": "index/vllm/cards/pr-30897-<slug>.md"
+    },
+    {
+      "number": 31097,
+      "title": "[FIX] FP4 quantization kernel padding initialization bug",
+      "pack": "data/cards-workdir/vllm/packs/pr-31097.pack.md",
+      "card_out": "index/vllm/cards/pr-31097-<slug>.md"
+    },
+    {
+      "number": 31832,
+      "title": "[Perf][Kernel] Fused SiLU+Mul+Quant kernel for NVFP4 cutlass_moe",
+      "pack": "data/cards-workdir/vllm/packs/pr-31832.pack.md",
+      "card_out": "index/vllm/cards/pr-31832-<slug>.md"
+    },
+    {
+      "number": 32520,
+      "title": "[Perf][Kernel] Optimize FP4 quantization kernels (SM100F)",
+      "pack": "data/cards-workdir/vllm/packs/pr-32520.pack.md",
+      "card_out": "index/vllm/cards/pr-32520-<slug>.md"
+    },
+    {
+      "number": 32683,
+      "title": "[Quantization][Deprecation] Remove BitBlas",
+      "pack": "data/cards-workdir/vllm/packs/pr-32683.pack.md",
+      "card_out": "index/vllm/cards/pr-32683-<slug>.md"
+    },
+    {
+      "number": 32688,
+      "title": "[Quantization][Deprecation] Remove Marlin 24",
+      "pack": "data/cards-workdir/vllm/packs/pr-32688.pack.md",
+      "card_out": "index/vllm/cards/pr-32688-<slug>.md"
+    },
+    {
+      "number": 32950,
+      "title": "[MLA] Fuse cat and qaunt for fp8 kv-cache",
+      "pack": "data/cards-workdir/vllm/packs/pr-32950.pack.md",
+      "card_out": "index/vllm/cards/pr-32950-<slug>.md"
+    },
+    {
+      "number": 32996,
+      "title": "Feature/silu block quant fusion v1",
+      "pack": "data/cards-workdir/vllm/packs/pr-32996.pack.md",
+      "card_out": "index/vllm/cards/pr-32996-<slug>.md"
+    },
+    {
+      "number": 33255,
+      "title": "[Bugfix] Fix quant RMS norm fusion for quantization with TMA-aligned scales",
+      "pack": "data/cards-workdir/vllm/packs/pr-33255.pack.md",
+      "card_out": "index/vllm/cards/pr-33255-<slug>.md"
+    },
+    {
+      "number": 34130,
+      "title": "[Perf] fused_moe: add int4_w4a16 benchmark support and tuning config",
+      "pack": "data/cards-workdir/vllm/packs/pr-34130.pack.md",
+      "card_out": "index/vllm/cards/pr-34130-<slug>.md"
+    },
+    {
+      "number": 34556,
+      "title": "[Quantization] add humming quantization kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-34556.pack.md",
+      "card_out": "index/vllm/cards/pr-34556-<slug>.md"
+    },
+    {
+      "number": 34597,
+      "title": "[Kernel] Add FP8 KV cache support to Triton MLA decode attention",
+      "pack": "data/cards-workdir/vllm/packs/pr-34597.pack.md",
+      "card_out": "index/vllm/cards/pr-34597-<slug>.md"
+    },
+    {
+      "number": 34718,
+      "title": "[torch.compile] Turn on silu+fp4 quant fusion by default for O1+",
+      "pack": "data/cards-workdir/vllm/packs/pr-34718.pack.md",
+      "card_out": "index/vllm/cards/pr-34718-<slug>.md"
+    },
+    {
+      "number": 35088,
+      "title": "Fix fallback to default tactic (flashinfer autotuner) with trtllm_fp4_block_scale_moe",
+      "pack": "data/cards-workdir/vllm/packs/pr-35088.pack.md",
+      "card_out": "index/vllm/cards/pr-35088-<slug>.md"
+    },
+    {
+      "number": 35290,
+      "title": "[Attention][Perf] Optimize cp_gather_and_upconvert_fp8_kv_cache - DeepSeek-v3.2",
+      "pack": "data/cards-workdir/vllm/packs/pr-35290.pack.md",
+      "card_out": "index/vllm/cards/pr-35290-<slug>.md"
+    }
+  ]
+}

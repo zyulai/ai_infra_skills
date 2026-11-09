@@ -1,0 +1,17 @@
+PR #64378 | [ROCm][Quantization] NVFP4 MoE re-quantization and fused shared experts through online quantization | pack=data/cards-workdir/vllm/packs/pr-64378.pack.md | out=index/vllm/cards/pr-64378-rocm-quantization-nvfp4-moe-re-quantizat.md
+PR #33451 | [Attention] Add FlashInfer Sparse MLA backend | pack=data/cards-workdir/vllm/packs/pr-33451.pack.md | out=index/vllm/cards/pr-33451-attention-add-flashinfer-sparse-mla-back.md
+PR #49390 | [Perf] Raise Blackwell CUDA graph capture default to 1024 | pack=data/cards-workdir/vllm/packs/pr-49390.pack.md | out=index/vllm/cards/pr-49390-perf-raise-blackwell-cuda-graph-capture.md
+PR #57299 | [torch.compile] Canonicalize functionalized split slices for fusion pa… | pack=data/cards-workdir/vllm/packs/pr-57299.pack.md | out=index/vllm/cards/pr-57299-torch-compile-canonicalize-functionalize.md
+PR #14138 | [Kernel] optimize performance of gptq marlin kernel when n is small | pack=data/cards-workdir/vllm/packs/pr-14138.pack.md | out=index/vllm/cards/pr-14138-kernel-optimize-performance-of-gptq-marl.md
+PR #24342 | [FP8] Extend per-token-group quantization support to QuantFP8 | pack=data/cards-workdir/vllm/packs/pr-24342.pack.md | out=index/vllm/cards/pr-24342-fp8-extend-per-token-group-quantization.md
+PR #34692 | [ROCm] Enable DeepEP ROCm as all2allbackend for AMD GPUs.  | pack=data/cards-workdir/vllm/packs/pr-34692.pack.md | out=index/vllm/cards/pr-34692-rocm-enable-deepep-rocm-as-all2allbacken.md
+PR #48770 | [2/N][Attention] Enable masked MHA for sparse MLA prefills | pack=data/cards-workdir/vllm/packs/pr-48770.pack.md | out=index/vllm/cards/pr-48770-2-n-attention-enable-masked-mha-for-spar.md
+PR #57560 | [ROCm][Perf] Add AITER FlyDSL GDN prefill backend | pack=data/cards-workdir/vllm/packs/pr-57560.pack.md | out=index/vllm/cards/pr-57560-rocm-perf-add-aiter-flydsl-gdn-prefill-b.md
+PR #61465 | [Bugfix] Require cudnn-frontend >=1.31.0: cuDNN could replay an unloaded kernel from a CUDA graph | pack=data/cards-workdir/vllm/packs/pr-61465.pack.md | out=index/vllm/cards/pr-61465-bugfix-require-cudnn-frontend-1-31-0-cud.md
+PR #24248 | [PERF] Allreduce fusion. Support torch native matching. Tuning of the thresholds | pack=data/cards-workdir/vllm/packs/pr-24248.pack.md | out=index/vllm/cards/pr-24248-perf-allreduce-fusion-support-torch-nati.md
+PR #38065 | [Perf] FP8 FlashInfer Attn for ViT | pack=data/cards-workdir/vllm/packs/pr-38065.pack.md | out=index/vllm/cards/pr-38065-perf-fp8-flashinfer-attn-for-vit.md
+PR #52212 | [ROCm][DSV4][Perf] Optimize Triton sparse-MLA decode on gfx950 | pack=data/cards-workdir/vllm/packs/pr-52212.pack.md | out=index/vllm/cards/pr-52212-rocm-dsv4-perf-optimize-triton-sparse-ml.md
+PR #56640 | [Bugfix][NIXL] Report a full prefix cache hit as finished | pack=data/cards-workdir/vllm/packs/pr-56640.pack.md | out=index/vllm/cards/pr-56640-bugfix-nixl-report-a-full-prefix-cache-h.md
+PR #58868 | [Perf][Model Loader] Fault in mmap'd weight pages before host-to-device copies on integrated GPUs | pack=data/cards-workdir/vllm/packs/pr-58868.pack.md | out=index/vllm/cards/pr-58868-perf-model-loader-fault-in-mmap-d-weight.md
+PR #62057 | [ROCm][Model] Add Beam 1.0 support on ROCm  | pack=data/cards-workdir/vllm/packs/pr-62057.pack.md | out=index/vllm/cards/pr-62057-rocm-model-add-beam-1-0-support-on-rocm.md
+PR #25503 | feat: BF16 FlashInfer Fused Cutlass MOE for Hopper and Blackwell Expert Parallel | pack=data/cards-workdir/vllm/packs/pr-25503.pack.md | out=index/vllm/cards/pr-25503-feat-bf16-flashinfer-fused-cutlass-moe-f.md

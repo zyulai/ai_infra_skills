@@ -1,0 +1,17 @@
+PR #51967 | [Perf][DSV4] Optimize global top-k index kernel with compile-time constants | pack=data/cards-workdir/vllm/packs/pr-51967.pack.md | out=index/vllm/cards/pr-51967-perf-dsv4-optimize-global-top-k-index-ke.md
+PR #25784 | [Spec Decode] Integrate Suffix Decoding from Arctic Inference | pack=data/cards-workdir/vllm/packs/pr-25784.pack.md | out=index/vllm/cards/pr-25784-spec-decode-integrate-suffix-decoding-fr.md
+PR #29826 | [Perf] Avoid pageable HtoD transfer in MinTokensLogitsProcessor | pack=data/cards-workdir/vllm/packs/pr-29826.pack.md | out=index/vllm/cards/pr-29826-perf-avoid-pageable-htod-transfer-in-min.md
+PR #42849 | [Perf] Add do_not_specialize in fused FP8 RoPE kernel | pack=data/cards-workdir/vllm/packs/pr-42849.pack.md | out=index/vllm/cards/pr-42849-perf-add-do-not-specialize-in-fused-fp8.md
+PR #64101 | [ROCm][Perf][DSv4.1] Mono decode at TP8 on MI355X | pack=data/cards-workdir/vllm/packs/pr-64101.pack.md | out=index/vllm/cards/pr-64101-rocm-perf-dsv4-1-mono-decode-at-tp8-on-m.md
+PR #31722 | [PERF] Speed-up of GDN attention decode part (Qwen3-Next) | pack=data/cards-workdir/vllm/packs/pr-31722.pack.md | out=index/vllm/cards/pr-31722-perf-speed-up-of-gdn-attention-decode-pa.md
+PR #39510 | [Kernel] Support TRTLLM GEN NVFP4 MoE for non-512-aligned hidden dims via weight padding | pack=data/cards-workdir/vllm/packs/pr-39510.pack.md | out=index/vllm/cards/pr-39510-kernel-support-trtllm-gen-nvfp4-moe-for.md
+PR #49209 | [Hardware][XPU] Register matmul and linear batch-invariant kernels for XPU | pack=data/cards-workdir/vllm/packs/pr-49209.pack.md | out=index/vllm/cards/pr-49209-hardware-xpu-register-matmul-and-linear.md
+PR #60372 | [Kernel] Integrate FA4 SM90 FP8 MMA for Gemma-4 full attention | pack=data/cards-workdir/vllm/packs/pr-60372.pack.md | out=index/vllm/cards/pr-60372-kernel-integrate-fa4-sm90-fp8-mma-for-ge.md
+PR #57214 | [Perf][Pooling] Avoid blocking seq_lens GPU-to-CPU copy for pooling in FlashInfer metadata builder | pack=data/cards-workdir/vllm/packs/pr-57214.pack.md | out=index/vllm/cards/pr-57214-perf-pooling-avoid-blocking-seq-lens-gpu.md
+PR #63890 | [ROCm][Perf] Use AITER's all-gather for small TP all-gathers | pack=data/cards-workdir/vllm/packs/pr-63890.pack.md | out=index/vllm/cards/pr-63890-rocm-perf-use-aiter-s-all-gather-for-sma.md
+PR #24330 | QWEN3 Thinking Fused MoE kernels Optimization configs | pack=data/cards-workdir/vllm/packs/pr-24330.pack.md | out=index/vllm/cards/pr-24330-qwen3-thinking-fused-moe-kernels-optimiz.md
+PR #38460 | [Perf] Batch KV cache swap copies via cuMemcpyBatchAsync | pack=data/cards-workdir/vllm/packs/pr-38460.pack.md | out=index/vllm/cards/pr-38460-perf-batch-kv-cache-swap-copies-via-cume.md
+PR #54261 | [Kimi-K3][Perf] Make native CUDA AttnRes the SM100 default | pack=data/cards-workdir/vllm/packs/pr-54261.pack.md | out=index/vllm/cards/pr-54261-kimi-k3-perf-make-native-cuda-attnres-th.md
+PR #35891 | [Perf] Support FP8 KV cache for Flashinfer MLA Sparse | pack=data/cards-workdir/vllm/packs/pr-35891.pack.md | out=index/vllm/cards/pr-35891-perf-support-fp8-kv-cache-for-flashinfer.md
+PR #56254 | [DSA] Wire DeepGEMM sparse MQA logits into the DeepSeek V4.1 indexer | pack=data/cards-workdir/vllm/packs/pr-56254.pack.md | out=index/vllm/cards/pr-56254-dsa-wire-deepgemm-sparse-mqa-logits-into.md
+PR #61019 | [Bugfix][KV Connector] Serve and store OffloadingConnector partial tails with EAGLE/MTP groups | pack=data/cards-workdir/vllm/packs/pr-61019.pack.md | out=index/vllm/cards/pr-61019-bugfix-kv-connector-serve-and-store-offl.md

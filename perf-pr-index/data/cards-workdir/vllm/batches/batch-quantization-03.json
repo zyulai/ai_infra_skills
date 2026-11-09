@@ -1,0 +1,241 @@
+{
+  "repo": "vllm",
+  "category": "Quantization",
+  "count": 39,
+  "prs": [
+    {
+      "number": 54809,
+      "title": "[Quant][Kernel] Remove GPTQ Group/Dynamic Activation Ordering",
+      "pack": "data/cards-workdir/vllm/packs/pr-54809.pack.md",
+      "card_out": "index/vllm/cards/pr-54809-<slug>.md"
+    },
+    {
+      "number": 54849,
+      "title": "[ROCm][CI][The Rock 10] Fix (MI355) Quantized Models failure on The Rock 10 with Triton 3.8.x",
+      "pack": "data/cards-workdir/vllm/packs/pr-54849.pack.md",
+      "card_out": "index/vllm/cards/pr-54849-<slug>.md"
+    },
+    {
+      "number": 54894,
+      "title": "[ROCm][DSV4][Perf] Use FP8 WO_A output projection",
+      "pack": "data/cards-workdir/vllm/packs/pr-54894.pack.md",
+      "card_out": "index/vllm/cards/pr-54894-<slug>.md"
+    },
+    {
+      "number": 55170,
+      "title": "[Perf][Quant][NVFP4] Prefer W4A4 linear kernels over weight-only ones on SM120/121",
+      "pack": "data/cards-workdir/vllm/packs/pr-55170.pack.md",
+      "card_out": "index/vllm/cards/pr-55170-<slug>.md"
+    },
+    {
+      "number": 55330,
+      "title": "[Kernel][Perf] Register-resident path for per-token-group 8-bit quant",
+      "pack": "data/cards-workdir/vllm/packs/pr-55330.pack.md",
+      "card_out": "index/vllm/cards/pr-55330-<slug>.md"
+    },
+    {
+      "number": 55684,
+      "title": "[Quantization] Layer re-quantization for linear layers through online quantization API (MXFP8 -> FP8 PTPC showcase)",
+      "pack": "data/cards-workdir/vllm/packs/pr-55684.pack.md",
+      "card_out": "index/vllm/cards/pr-55684-<slug>.md"
+    },
+    {
+      "number": 55686,
+      "title": "[Quantization] Enable shared expert fusion compatibility with online `shared_expert` quantization (showcase: along Quark MXFP4 routed experts)",
+      "pack": "data/cards-workdir/vllm/packs/pr-55686.pack.md",
+      "card_out": "index/vllm/cards/pr-55686-<slug>.md"
+    },
+    {
+      "number": 56063,
+      "title": "[XPU][Kernel] Tune Triton W8A8 block-FP8 GEMM for Intel B70",
+      "pack": "data/cards-workdir/vllm/packs/pr-56063.pack.md",
+      "card_out": "index/vllm/cards/pr-56063-<slug>.md"
+    },
+    {
+      "number": 56478,
+      "title": "[Kernel][Perf][Quantization] Fix odd-row performance cliff in per-token-group quantization",
+      "pack": "data/cards-workdir/vllm/packs/pr-56478.pack.md",
+      "card_out": "index/vllm/cards/pr-56478-<slug>.md"
+    },
+    {
+      "number": 56685,
+      "title": "[Feature][Humming] Humming feature integration",
+      "pack": "data/cards-workdir/vllm/packs/pr-56685.pack.md",
+      "card_out": "index/vllm/cards/pr-56685-<slug>.md"
+    },
+    {
+      "number": 56935,
+      "title": "[Model][DSv4.1] FlashMLA mega attention and the NVFP4 compressed KV cache",
+      "pack": "data/cards-workdir/vllm/packs/pr-56935.pack.md",
+      "card_out": "index/vllm/cards/pr-56935-<slug>.md"
+    },
+    {
+      "number": 56997,
+      "title": "[Quantization] Prefer Humming before Marlin backends on SM90",
+      "pack": "data/cards-workdir/vllm/packs/pr-56997.pack.md",
+      "card_out": "index/vllm/cards/pr-56997-<slug>.md"
+    },
+    {
+      "number": 57421,
+      "title": "[Core][Kernel] Share persistent workspaces for Marlin and Humming",
+      "pack": "data/cards-workdir/vllm/packs/pr-57421.pack.md",
+      "card_out": "index/vllm/cards/pr-57421-<slug>.md"
+    },
+    {
+      "number": 58472,
+      "title": "[KV Connector] Fix DecodeBench fp8 fill values and add a startup fill mode",
+      "pack": "data/cards-workdir/vllm/packs/pr-58472.pack.md",
+      "card_out": "index/vllm/cards/pr-58472-<slug>.md"
+    },
+    {
+      "number": 58634,
+      "title": "[Perf][DSv4.1] Fuse small-batch WO-A with inverse RoPE and MXFP8 quant on SM100/SM103",
+      "pack": "data/cards-workdir/vllm/packs/pr-58634.pack.md",
+      "card_out": "index/vllm/cards/pr-58634-<slug>.md"
+    },
+    {
+      "number": 59069,
+      "title": "[ROCm][Kimi-K3] Fuse AttnRes output with per-token FP8 input quantization",
+      "pack": "data/cards-workdir/vllm/packs/pr-59069.pack.md",
+      "card_out": "index/vllm/cards/pr-59069-<slug>.md"
+    },
+    {
+      "number": 59070,
+      "title": "[ROCm][MLA] Keep DCP prefill context in FP8 through AllGather",
+      "pack": "data/cards-workdir/vllm/packs/pr-59070.pack.md",
+      "card_out": "index/vllm/cards/pr-59070-<slug>.md"
+    },
+    {
+      "number": 59478,
+      "title": "[ROCm][Perf] Use AITER FlyDSL INT4 QuickReduce when INT4 QuickReduce is selected",
+      "pack": "data/cards-workdir/vllm/packs/pr-59478.pack.md",
+      "card_out": "index/vllm/cards/pr-59478-<slug>.md"
+    },
+    {
+      "number": 59612,
+      "title": "[Fusion] Support 3D activation quantization fusion and enable it for Pixtral",
+      "pack": "data/cards-workdir/vllm/packs/pr-59612.pack.md",
+      "card_out": "index/vllm/cards/pr-59612-<slug>.md"
+    },
+    {
+      "number": 60413,
+      "title": "[Perf][ROCm][Kernel] Add W4A8 int8-dot MXFP4 GEMV for RDNA3/RDNA3.5 d…",
+      "pack": "data/cards-workdir/vllm/packs/pr-60413.pack.md",
+      "card_out": "index/vllm/cards/pr-60413-<slug>.md"
+    },
+    {
+      "number": 60684,
+      "title": "[Perf][MiniMax-M3] MSA prefill attends with the E4M3 query; bump fmha_sm100 to 968061a",
+      "pack": "data/cards-workdir/vllm/packs/pr-60684.pack.md",
+      "card_out": "index/vllm/cards/pr-60684-<slug>.md"
+    },
+    {
+      "number": 60834,
+      "title": "[ROCm][Perf] Apply opt-in paged MXFP4 sparse indexer dense path for DeepSeek-V4",
+      "pack": "data/cards-workdir/vllm/packs/pr-60834.pack.md",
+      "card_out": "index/vllm/cards/pr-60834-<slug>.md"
+    },
+    {
+      "number": 61343,
+      "title": "[Perf] per_token_group_quant_8bit: multiply by reciprocal instead of dividing per element",
+      "pack": "data/cards-workdir/vllm/packs/pr-61343.pack.md",
+      "card_out": "index/vllm/cards/pr-61343-<slug>.md"
+    },
+    {
+      "number": 61457,
+      "title": "[Quantization] Enable per-layer fused shared expert selection",
+      "pack": "data/cards-workdir/vllm/packs/pr-61457.pack.md",
+      "card_out": "index/vllm/cards/pr-61457-<slug>.md"
+    },
+    {
+      "number": 61527,
+      "title": "[Kimi-K3] Route the fp8 chunked-context K/V pack through FlashInfer where it has a fused kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-61527.pack.md",
+      "card_out": "index/vllm/cards/pr-61527-<slug>.md"
+    },
+    {
+      "number": 61641,
+      "title": "[Perf][Kernel] Convert two FP8 values per cvt in the FP8 quant kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-61641.pack.md",
+      "card_out": "index/vllm/cards/pr-61641-<slug>.md"
+    },
+    {
+      "number": 62011,
+      "title": "[Perf] Enable DeepGEMM sparse MQA logits on the FP8 indexer cache, DSv4.1",
+      "pack": "data/cards-workdir/vllm/packs/pr-62011.pack.md",
+      "card_out": "index/vllm/cards/pr-62011-<slug>.md"
+    },
+    {
+      "number": 62270,
+      "title": "[ROCm][Perf][MiniMax-M3] Enable the fp8 indexer cache on gfx942",
+      "pack": "data/cards-workdir/vllm/packs/pr-62270.pack.md",
+      "card_out": "index/vllm/cards/pr-62270-<slug>.md"
+    },
+    {
+      "number": 62712,
+      "title": "[ROCm][Perf][MiniMax-M3] MonoKernel decode for M3 MXFP4 on MI355X",
+      "pack": "data/cards-workdir/vllm/packs/pr-62712.pack.md",
+      "card_out": "index/vllm/cards/pr-62712-<slug>.md"
+    },
+    {
+      "number": 63101,
+      "title": "[Perf][MXFP4] Optimize activation quant for mxfp4. 3x kernel speedup, 5% throughput improvement",
+      "pack": "data/cards-workdir/vllm/packs/pr-63101.pack.md",
+      "card_out": "index/vllm/cards/pr-63101-<slug>.md"
+    },
+    {
+      "number": 63179,
+      "title": "[ROCm] Fuse tiny-M MXFP8 quant into the block32 GEMM; guard lm_head skinny-GEMM by weight size",
+      "pack": "data/cards-workdir/vllm/packs/pr-63179.pack.md",
+      "card_out": "index/vllm/cards/pr-63179-<slug>.md"
+    },
+    {
+      "number": 63669,
+      "title": "[ROCm][Perf] Make MXFP4 the default indexer K cache dtype for DeepSeek-V4",
+      "pack": "data/cards-workdir/vllm/packs/pr-63669.pack.md",
+      "card_out": "index/vllm/cards/pr-63669-<slug>.md"
+    },
+    {
+      "number": 63915,
+      "title": "[ROCm][Perf] Fuse MXFP8 activation quant into the 1x32 dot_scaled linear for M <= 16",
+      "pack": "data/cards-workdir/vllm/packs/pr-63915.pack.md",
+      "card_out": "index/vllm/cards/pr-63915-<slug>.md"
+    },
+    {
+      "number": 64509,
+      "title": "[Perf][Qwen3.5] (NVIDIA-only) Fused norm+quant and gate+quant",
+      "pack": "data/cards-workdir/vllm/packs/pr-64509.pack.md",
+      "card_out": "index/vllm/cards/pr-64509-<slug>.md"
+    },
+    {
+      "number": 64815,
+      "title": "[Perf][MXFP8] Keep DeepSeek-V4.1 fusions on the torch._scaled_mm kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-64815.pack.md",
+      "card_out": "index/vllm/cards/pr-64815-<slug>.md"
+    },
+    {
+      "number": 65230,
+      "title": "[Quantization] Remove QuTLASS and fp_quant, run QuIP NVFP4 on Humming",
+      "pack": "data/cards-workdir/vllm/packs/pr-65230.pack.md",
+      "card_out": "index/vllm/cards/pr-65230-<slug>.md"
+    },
+    {
+      "number": 65542,
+      "title": "[Kernel] Marlin: remove 8-bit (INT8/FP8) activation support, rely on Humming",
+      "pack": "data/cards-workdir/vllm/packs/pr-65542.pack.md",
+      "card_out": "index/vllm/cards/pr-65542-<slug>.md"
+    },
+    {
+      "number": 65791,
+      "title": "[Perf] Vectorize silu_and_mul_per_block_quant for large inputs",
+      "pack": "data/cards-workdir/vllm/packs/pr-65791.pack.md",
+      "card_out": "index/vllm/cards/pr-65791-<slug>.md"
+    },
+    {
+      "number": 65831,
+      "title": "[Perf][Core] Reduce per-block CPU cost of KV block allocation and caching",
+      "pack": "data/cards-workdir/vllm/packs/pr-65831.pack.md",
+      "card_out": "index/vllm/cards/pr-65831-<slug>.md"
+    }
+  ]
+}

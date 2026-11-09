@@ -1,0 +1,12 @@
+PR #61527 | [Kimi-K3] Route the fp8 chunked-context K/V pack through FlashInfer where it has a fused kernel | pack=data/cards-workdir/vllm/packs/pr-61527.pack.md | out=index/vllm/cards/pr-61527-kimi-k3-route-the-fp8-chunked-context-k.md
+PR #65498 | [Perf][MoE] Skip the combine staging copy in flashinfer_nvlink_one_sided | pack=data/cards-workdir/vllm/packs/pr-65498.pack.md | out=index/vllm/cards/pr-65498-perf-moe-skip-the-combine-staging-copy-i.md
+PR #45589 | [Bugfix] Fix MoE model load OOM in FlashInfer_TRTLLM  backend with sleep mode | pack=data/cards-workdir/vllm/packs/pr-45589.pack.md | out=index/vllm/cards/pr-45589-bugfix-fix-moe-model-load-oom-in-flashin.md
+PR #19939 | [PERF] Speedup of MRoPE prepare inputs | pack=data/cards-workdir/vllm/packs/pr-19939.pack.md | out=index/vllm/cards/pr-19939-perf-speedup-of-mrope-prepare-inputs.md
+PR #62131 | [ROCm][Perf][DSv4.1] Mono decode for the DSpark draft layers | pack=data/cards-workdir/vllm/packs/pr-62131.pack.md | out=index/vllm/cards/pr-62131-rocm-perf-dsv4-1-mono-decode-for-the-dsp.md
+PR #55331 | [Perf] Read VidCom2 frame budgets once | pack=data/cards-workdir/vllm/packs/pr-55331.pack.md | out=index/vllm/cards/pr-55331-perf-read-vidcom2-frame-budgets-once.md
+PR #20308 | [Kernel] Optimize Prefill Attention in Unified Triton Attention Kernel | pack=data/cards-workdir/vllm/packs/pr-20308.pack.md | out=index/vllm/cards/pr-20308-kernel-optimize-prefill-attention-in-uni.md
+PR #40704 | [ModelRunner V2] Speculative Decoding NGram GPU Implementations | pack=data/cards-workdir/vllm/packs/pr-40704.pack.md | out=index/vllm/cards/pr-40704-modelrunner-v2-speculative-decoding-ngra.md
+PR #48606 | [Quantization] Support native Quark W4A16 INT4/UINT4 exports in vLLM | pack=data/cards-workdir/vllm/packs/pr-48606.pack.md | out=index/vllm/cards/pr-48606-quantization-support-native-quark-w4a16.md
+PR #56801 | [watermark] compatibility validation | pack=data/cards-workdir/vllm/packs/pr-56801.pack.md | out=index/vllm/cards/pr-56801-watermark-compatibility-validation.md
+PR #64852 | [Perf][MiniMax-M3] (NVIDIA-only) Fused norm+quant MXFP8 | pack=data/cards-workdir/vllm/packs/pr-64852.pack.md | out=index/vllm/cards/pr-64852-perf-minimax-m3-nvidia-only-fused-norm-q.md
+PR #21703 | [XPU] IPEX-optimized Punica Wrapper on XPU | pack=data/cards-workdir/vllm/packs/pr-21703.pack.md | out=index/vllm/cards/pr-21703-xpu-ipex-optimized-punica-wrapper-on-xpu.md

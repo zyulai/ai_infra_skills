@@ -1,0 +1,17 @@
+PR #56277 | [MM] Mistral vision Encoder CG support  | pack=data/cards-workdir/vllm/packs/pr-56277.pack.md | out=index/vllm/cards/pr-56277-mm-mistral-vision-encoder-cg-support.md
+PR #53524 | [Kimi-K3][Perf] Prefetch ll_bf16 router weights for M=1 | pack=data/cards-workdir/vllm/packs/pr-53524.pack.md | out=index/vllm/cards/pr-53524-kimi-k3-perf-prefetch-ll-bf16-router-wei.md
+PR #5036 | [Kernel][RFC] Refactor the punica kernel based on Triton | pack=data/cards-workdir/vllm/packs/pr-5036.pack.md | out=index/vllm/cards/pr-5036-kernel-rfc-refactor-the-punica-kernel-ba.md
+PR #20034 | [Attention] MLA - Flashinfer Ragged Prefill | pack=data/cards-workdir/vllm/packs/pr-20034.pack.md | out=index/vllm/cards/pr-20034-attention-mla-flashinfer-ragged-prefill.md
+PR #28587 | [Hybrid][torch.compile] Refactor mamba2 forward to avoid obscuring linear projections under custom op | pack=data/cards-workdir/vllm/packs/pr-28587.pack.md | out=index/vllm/cards/pr-28587-hybrid-torch-compile-refactor-mamba2-for.md
+PR #43018 | [ROCm] Cpu offload for ROCm 7.13+ to align the hipMemcpyBatchAsync params and perf in 7.14x | pack=data/cards-workdir/vllm/packs/pr-43018.pack.md | out=index/vllm/cards/pr-43018-rocm-cpu-offload-for-rocm-7-13-to-align.md
+PR #53896 | [Model] Support Qwen3.8-Flash-Next | pack=data/cards-workdir/vllm/packs/pr-53896.pack.md | out=index/vllm/cards/pr-53896-model-support-qwen3-8-flash-next.md
+PR #59327 | [Perf][DSv4.1] Faster Engram host lookups: sorted rows, inline big lookups | pack=data/cards-workdir/vllm/packs/pr-59327.pack.md | out=index/vllm/cards/pr-59327-perf-dsv4-1-faster-engram-host-lookups-s.md
+PR #59774 | [ROCm] Octave KV (`ROCM_OCTAVE`): native 3-bit KV cache backend for AMD GPUs | pack=data/cards-workdir/vllm/packs/pr-59774.pack.md | out=index/vllm/cards/pr-59774-rocm-octave-kv-rocm-octave-native-3-bit.md
+PR #60684 | [Perf][MiniMax-M3] MSA prefill attends with the E4M3 query; bump fmha_sm100 to 968061a | pack=data/cards-workdir/vllm/packs/pr-60684.pack.md | out=index/vllm/cards/pr-60684-perf-minimax-m3-msa-prefill-attends-with.md
+PR #60753 | [Perf][ROCm][GLM-5.3-Flash] AITER prefill indexer topk | pack=data/cards-workdir/vllm/packs/pr-60753.pack.md | out=index/vllm/cards/pr-60753-perf-rocm-glm-5-3-flash-aiter-prefill-in.md
+PR #63921 | [Perf][DSv4.1] Extend the latency_specialized decode on NVIDIA | pack=data/cards-workdir/vllm/packs/pr-63921.pack.md | out=index/vllm/cards/pr-63921-perf-dsv4-1-extend-the-latency-specializ.md
+PR #56441 | [Perf][DSpark] Add KV-only context insertion across V4.1 cache formats | pack=data/cards-workdir/vllm/packs/pr-56441.pack.md | out=index/vllm/cards/pr-56441-perf-dspark-add-kv-only-context-insertio.md
+PR #60731 | [ROCm][Perf][DSv4.1] Mono decode on MI300X and MI325X (gfx942) | pack=data/cards-workdir/vllm/packs/pr-60731.pack.md | out=index/vllm/cards/pr-60731-rocm-perf-dsv4-1-mono-decode-on-mi300x-a.md
+PR #63179 | [ROCm] Fuse tiny-M MXFP8 quant into the block32 GEMM; guard lm_head skinny-GEMM by weight size | pack=data/cards-workdir/vllm/packs/pr-63179.pack.md | out=index/vllm/cards/pr-63179-rocm-fuse-tiny-m-mxfp8-quant-into-the-bl.md
+PR #20691 | Integration SM100 FlashInfer fused allreduce RMSNorm | pack=data/cards-workdir/vllm/packs/pr-20691.pack.md | out=index/vllm/cards/pr-20691-integration-sm100-flashinfer-fused-allre.md
+PR #37374 | [Perf] Optimize hidden state extraction logic | pack=data/cards-workdir/vllm/packs/pr-37374.pack.md | out=index/vllm/cards/pr-37374-perf-optimize-hidden-state-extraction-lo.md

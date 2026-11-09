@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "MoE",
+  "count": 40,
+  "prs": [
+    {
+      "number": 2453,
+      "title": "DeepseekMoE support with Fused MoE kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-2453.pack.md",
+      "card_out": "index/vllm/cards/pr-2453-<slug>.md"
+    },
+    {
+      "number": 2542,
+      "title": "Fused MOE for Mixtral",
+      "pack": "data/cards-workdir/vllm/packs/pr-2542.pack.md",
+      "card_out": "index/vllm/cards/pr-2542-<slug>.md"
+    },
+    {
+      "number": 2979,
+      "title": "Optimized fused MoE Kernel, take 2",
+      "pack": "data/cards-workdir/vllm/packs/pr-2979.pack.md",
+      "card_out": "index/vllm/cards/pr-2979-<slug>.md"
+    },
+    {
+      "number": 4002,
+      "title": "[Kernel] Fused MoE Config for Mixtral 8x22",
+      "pack": "data/cards-workdir/vllm/packs/pr-4002.pack.md",
+      "card_out": "index/vllm/cards/pr-4002-<slug>.md"
+    },
+    {
+      "number": 7415,
+      "title": "[Kernel] W8A16 Int8 inside FusedMoE ",
+      "pack": "data/cards-workdir/vllm/packs/pr-7415.pack.md",
+      "card_out": "index/vllm/cards/pr-7415-<slug>.md"
+    },
+    {
+      "number": 9245,
+      "title": "[Kernel] adding fused moe kernel config for L40S TP4",
+      "pack": "data/cards-workdir/vllm/packs/pr-9245.pack.md",
+      "card_out": "index/vllm/cards/pr-9245-<slug>.md"
+    },
+    {
+      "number": 14068,
+      "title": "[core] moe fp8 block quant tuning support",
+      "pack": "data/cards-workdir/vllm/packs/pr-14068.pack.md",
+      "card_out": "index/vllm/cards/pr-14068-<slug>.md"
+    },
+    {
+      "number": 14447,
+      "title": "[Kernel] moe wna16 marlin kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-14447.pack.md",
+      "card_out": "index/vllm/cards/pr-14447-<slug>.md"
+    },
+    {
+      "number": 14454,
+      "title": "[ROCm][Kernel] MoE weights padding",
+      "pack": "data/cards-workdir/vllm/packs/pr-14454.pack.md",
+      "card_out": "index/vllm/cards/pr-14454-<slug>.md"
+    },
+    {
+      "number": 14568,
+      "title": "permute/unpermute kernel for moe optimization",
+      "pack": "data/cards-workdir/vllm/packs/pr-14568.pack.md",
+      "card_out": "index/vllm/cards/pr-14568-<slug>.md"
+    },
+    {
+      "number": 16488,
+      "title": "[Kernel] Add tuned FusedMoE kernel config for Llama4 Scout, TP=8 on H100 ",
+      "pack": "data/cards-workdir/vllm/packs/pr-16488.pack.md",
+      "card_out": "index/vllm/cards/pr-16488-<slug>.md"
+    },
+    {
+      "number": 16850,
+      "title": "[Kernel] some optimizations for dense marlin and moe marlin",
+      "pack": "data/cards-workdir/vllm/packs/pr-16850.pack.md",
+      "card_out": "index/vllm/cards/pr-16850-<slug>.md"
+    },
+    {
+      "number": 17934,
+      "title": "Fix CUDA permute/unpermute for use with DeepGemm Moe",
+      "pack": "data/cards-workdir/vllm/packs/pr-17934.pack.md",
+      "card_out": "index/vllm/cards/pr-17934-<slug>.md"
+    },
+    {
+      "number": 18343,
+      "title": "[Feature] Expert Parallelism Load Balancer (EPLB)",
+      "pack": "data/cards-workdir/vllm/packs/pr-18343.pack.md",
+      "card_out": "index/vllm/cards/pr-18343-<slug>.md"
+    },
+    {
+      "number": 19205,
+      "title": "Add H20-3e fused MoE kernel tuning configs for DeepSeek-R1/V3",
+      "pack": "data/cards-workdir/vllm/packs/pr-19205.pack.md",
+      "card_out": "index/vllm/cards/pr-19205-<slug>.md"
+    },
+    {
+      "number": 19500,
+      "title": "[Hardware][NVIDIA][kernel] Fp4 MOE quant kernel optimization",
+      "pack": "data/cards-workdir/vllm/packs/pr-19500.pack.md",
+      "card_out": "index/vllm/cards/pr-19500-<slug>.md"
+    },
+    {
+      "number": 19885,
+      "title": "[EP+DP] Optimize the little operations in the DeepGEMM + DeepEP low latency case",
+      "pack": "data/cards-workdir/vllm/packs/pr-19885.pack.md",
+      "card_out": "index/vllm/cards/pr-19885-<slug>.md"
+    },
+    {
+      "number": 20037,
+      "title": "[Core] FlashInfer CUTLASS fused MoE backend (NVFP4)",
+      "pack": "data/cards-workdir/vllm/packs/pr-20037.pack.md",
+      "card_out": "index/vllm/cards/pr-20037-<slug>.md"
+    },
+    {
+      "number": 20516,
+      "title": "[Benchmark] Add support for multiple batch size benchmark through CLI in `benchmark_moe.py` + Add Triton Fused MoE kernel config for FP8 E=16 on B200",
+      "pack": "data/cards-workdir/vllm/packs/pr-20516.pack.md",
+      "card_out": "index/vllm/cards/pr-20516-<slug>.md"
+    },
+    {
+      "number": 20645,
+      "title": "[NVIDIA] Add SM100 Flashinfer MoE blockscale fp8 backend for low latency",
+      "pack": "data/cards-workdir/vllm/packs/pr-20645.pack.md",
+      "card_out": "index/vllm/cards/pr-20645-<slug>.md"
+    },
+    {
+      "number": 22211,
+      "title": "[Perf] Support topk softmax fused kernel for broader num_experts",
+      "pack": "data/cards-workdir/vllm/packs/pr-22211.pack.md",
+      "card_out": "index/vllm/cards/pr-22211-<slug>.md"
+    },
+    {
+      "number": 22357,
+      "title": "[NVIDIA] Add SM100 Flashinfer Cutlass MoE fp8 backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-22357.pack.md",
+      "card_out": "index/vllm/cards/pr-22357-<slug>.md"
+    },
+    {
+      "number": 23274,
+      "title": "[Kernel] Add fused grouped_topk kernel for MoE",
+      "pack": "data/cards-workdir/vllm/packs/pr-23274.pack.md",
+      "card_out": "index/vllm/cards/pr-23274-<slug>.md"
+    },
+    {
+      "number": 23696,
+      "title": "[Kernel][B200] `mxfp4` fused cutlass moe",
+      "pack": "data/cards-workdir/vllm/packs/pr-23696.pack.md",
+      "card_out": "index/vllm/cards/pr-23696-<slug>.md"
+    },
+    {
+      "number": 23745,
+      "title": "[Feat][EPLB] A novel static EPLB placement strategy for MoE models.",
+      "pack": "data/cards-workdir/vllm/packs/pr-23745.pack.md",
+      "card_out": "index/vllm/cards/pr-23745-<slug>.md"
+    },
+    {
+      "number": 23809,
+      "title": "[fix]: add Arm 4bit fused moe support",
+      "pack": "data/cards-workdir/vllm/packs/pr-23809.pack.md",
+      "card_out": "index/vllm/cards/pr-23809-<slug>.md"
+    },
+    {
+      "number": 24266,
+      "title": "QWEN3 Coder Fused MoE kernels Optimization configs",
+      "pack": "data/cards-workdir/vllm/packs/pr-24266.pack.md",
+      "card_out": "index/vllm/cards/pr-24266-<slug>.md"
+    },
+    {
+      "number": 24330,
+      "title": "QWEN3 Thinking Fused MoE kernels Optimization configs",
+      "pack": "data/cards-workdir/vllm/packs/pr-24330.pack.md",
+      "card_out": "index/vllm/cards/pr-24330-<slug>.md"
+    },
+    {
+      "number": 24597,
+      "title": "Kimi K2 Fused MoE kernels Optimization configs",
+      "pack": "data/cards-workdir/vllm/packs/pr-24597.pack.md",
+      "card_out": "index/vllm/cards/pr-24597-<slug>.md"
+    },
+    {
+      "number": 25398,
+      "title": "[Perf]  Add H100 fused MoE config",
+      "pack": "data/cards-workdir/vllm/packs/pr-25398.pack.md",
+      "card_out": "index/vllm/cards/pr-25398-<slug>.md"
+    },
+    {
+      "number": 25503,
+      "title": "feat: BF16 FlashInfer Fused Cutlass MOE for Hopper and Blackwell Expert Parallel",
+      "pack": "data/cards-workdir/vllm/packs/pr-25503.pack.md",
+      "card_out": "index/vllm/cards/pr-25503-<slug>.md"
+    },
+    {
+      "number": 27244,
+      "title": "[CPU]Improve cpu fused moe perf",
+      "pack": "data/cards-workdir/vllm/packs/pr-27244.pack.md",
+      "card_out": "index/vllm/cards/pr-27244-<slug>.md"
+    },
+    {
+      "number": 27967,
+      "title": "[Model] add optimal triton fused moe configs for NemotronH MoE",
+      "pack": "data/cards-workdir/vllm/packs/pr-27967.pack.md",
+      "card_out": "index/vllm/cards/pr-27967-<slug>.md"
+    },
+    {
+      "number": 28284,
+      "title": "[Feature] Support recording expert indices for rollout router replay",
+      "pack": "data/cards-workdir/vllm/packs/pr-28284.pack.md",
+      "card_out": "index/vllm/cards/pr-28284-<slug>.md"
+    },
+    {
+      "number": 28373,
+      "title": "[Hardware][AMD][Model] Add Triton MoE tuning support and optimized configs for Qwen3 omni for MI308X",
+      "pack": "data/cards-workdir/vllm/packs/pr-28373.pack.md",
+      "card_out": "index/vllm/cards/pr-28373-<slug>.md"
+    },
+    {
+      "number": 28449,
+      "title": "[Feat][Perf] Enable deepep-low-latency with round-robin expert placement.",
+      "pack": "data/cards-workdir/vllm/packs/pr-28449.pack.md",
+      "card_out": "index/vllm/cards/pr-28449-<slug>.md"
+    },
+    {
+      "number": 28879,
+      "title": "[Feature] Shared Experts Overlap with FI deepgemm swap kernel, 2.2% throughput improvement and 3.6% TTFT improvement",
+      "pack": "data/cards-workdir/vllm/packs/pr-28879.pack.md",
+      "card_out": "index/vllm/cards/pr-28879-<slug>.md"
+    },
+    {
+      "number": 28892,
+      "title": "Add TRTLLM MoE NVFP4 kernel to CompressedTensorsW4A4MoeMethod",
+      "pack": "data/cards-workdir/vllm/packs/pr-28892.pack.md",
+      "card_out": "index/vllm/cards/pr-28892-<slug>.md"
+    },
+    {
+      "number": 29354,
+      "title": "Add unpermute-aware fused MoE path and small-batch fallback",
+      "pack": "data/cards-workdir/vllm/packs/pr-29354.pack.md",
+      "card_out": "index/vllm/cards/pr-29354-<slug>.md"
+    },
+    {
+      "number": 30014,
+      "title": "[Perf] Do FP4 quant before All gather on flashinfer trtllmgen MOE ",
+      "pack": "data/cards-workdir/vllm/packs/pr-30014.pack.md",
+      "card_out": "index/vllm/cards/pr-30014-<slug>.md"
+    }
+  ]
+}

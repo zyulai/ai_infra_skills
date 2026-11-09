@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "Attention / Kernel",
+  "count": 40,
+  "prs": [
+    {
+      "number": 29,
+      "title": "Memcpy kernel for flash attention",
+      "pack": "data/cards-workdir/vllm/packs/pr-29.pack.md",
+      "card_out": "index/vllm/cards/pr-29-<slug>.md"
+    },
+    {
+      "number": 2192,
+      "title": "Custom all reduce kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-2192.pack.md",
+      "card_out": "index/vllm/cards/pr-2192-<slug>.md"
+    },
+    {
+      "number": 2760,
+      "title": "Some fixes for custom allreduce kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-2760.pack.md",
+      "card_out": "index/vllm/cards/pr-2760-<slug>.md"
+    },
+    {
+      "number": 2978,
+      "title": "Add document for vllm paged attention kernel.",
+      "pack": "data/cards-workdir/vllm/packs/pr-2978.pack.md",
+      "card_out": "index/vllm/cards/pr-2978-<slug>.md"
+    },
+    {
+      "number": 4353,
+      "title": "[Kernel] Use flashinfer for decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-4353.pack.md",
+      "card_out": "index/vllm/cards/pr-4353-<slug>.md"
+    },
+    {
+      "number": 4799,
+      "title": "[Kernel][Backend][Model] Blocksparse flash attention kernel and Phi-3-Small model",
+      "pack": "data/cards-workdir/vllm/packs/pr-4799.pack.md",
+      "card_out": "index/vllm/cards/pr-4799-<slug>.md"
+    },
+    {
+      "number": 5036,
+      "title": "[Kernel][RFC] Refactor the punica kernel based on Triton",
+      "pack": "data/cards-workdir/vllm/packs/pr-5036.pack.md",
+      "card_out": "index/vllm/cards/pr-5036-<slug>.md"
+    },
+    {
+      "number": 6036,
+      "title": "[Kernel] Support Microsoft Runtime Kernel Lib for our Low Precision Computation - BitBLAS",
+      "pack": "data/cards-workdir/vllm/packs/pr-6036.pack.md",
+      "card_out": "index/vllm/cards/pr-6036-<slug>.md"
+    },
+    {
+      "number": 6210,
+      "title": "[Kernel] reloading fused_moe config on the last chunk",
+      "pack": "data/cards-workdir/vllm/packs/pr-6210.pack.md",
+      "card_out": "index/vllm/cards/pr-6210-<slug>.md"
+    },
+    {
+      "number": 7137,
+      "title": "[Core] Use flashinfer sampling kernel when available",
+      "pack": "data/cards-workdir/vllm/packs/pr-7137.pack.md",
+      "card_out": "index/vllm/cards/pr-7137-<slug>.md"
+    },
+    {
+      "number": 7636,
+      "title": "[TPU] Optimize RoPE forward_native2",
+      "pack": "data/cards-workdir/vllm/packs/pr-7636.pack.md",
+      "card_out": "index/vllm/cards/pr-7636-<slug>.md"
+    },
+    {
+      "number": 10467,
+      "title": "[Misc] Add multipstep chunked-prefill support for FlashInfer",
+      "pack": "data/cards-workdir/vllm/packs/pr-10467.pack.md",
+      "card_out": "index/vllm/cards/pr-10467-<slug>.md"
+    },
+    {
+      "number": 11394,
+      "title": "[V1] Use FlashInfer Sampling Kernel for Top-P & Top-K Sampling",
+      "pack": "data/cards-workdir/vllm/packs/pr-11394.pack.md",
+      "card_out": "index/vllm/cards/pr-11394-<slug>.md"
+    },
+    {
+      "number": 12093,
+      "title": "[Kernel] Flash Attention 3 Support",
+      "pack": "data/cards-workdir/vllm/packs/pr-12093.pack.md",
+      "card_out": "index/vllm/cards/pr-12093-<slug>.md"
+    },
+    {
+      "number": 12348,
+      "title": "[ROCm] Faster Custom Paged Attention kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-12348.pack.md",
+      "card_out": "index/vllm/cards/pr-12348-<slug>.md"
+    },
+    {
+      "number": 12528,
+      "title": "[Attention] MLA decode optimizations",
+      "pack": "data/cards-workdir/vllm/packs/pr-12528.pack.md",
+      "card_out": "index/vllm/cards/pr-12528-<slug>.md"
+    },
+    {
+      "number": 13305,
+      "title": "[Kernel][ROCM] Upstream prefix prefill speed up for vLLM V1",
+      "pack": "data/cards-workdir/vllm/packs/pr-13305.pack.md",
+      "card_out": "index/vllm/cards/pr-13305-<slug>.md"
+    },
+    {
+      "number": 13747,
+      "title": "[Kernel] FlashMLA integration",
+      "pack": "data/cards-workdir/vllm/packs/pr-13747.pack.md",
+      "card_out": "index/vllm/cards/pr-13747-<slug>.md"
+    },
+    {
+      "number": 14152,
+      "title": "[Kernel] [V1] Improved performance for V1 Triton (ROCm) backend ",
+      "pack": "data/cards-workdir/vllm/packs/pr-14152.pack.md",
+      "card_out": "index/vllm/cards/pr-14152-<slug>.md"
+    },
+    {
+      "number": 14310,
+      "title": "[Hardware][TPU]Enable ragged paged attention kernel and resolve recompilation issue",
+      "pack": "data/cards-workdir/vllm/packs/pr-14310.pack.md",
+      "card_out": "index/vllm/cards/pr-14310-<slug>.md"
+    },
+    {
+      "number": 14384,
+      "title": "[Perf] Reduce MLA CPU overheads in V1",
+      "pack": "data/cards-workdir/vllm/packs/pr-14384.pack.md",
+      "card_out": "index/vllm/cards/pr-14384-<slug>.md"
+    },
+    {
+      "number": 14431,
+      "title": "[Kernel] [V1] Further optimizations to ROCm (Triton) Backend to better handle GQA.",
+      "pack": "data/cards-workdir/vllm/packs/pr-14431.pack.md",
+      "card_out": "index/vllm/cards/pr-14431-<slug>.md"
+    },
+    {
+      "number": 14930,
+      "title": "[V1][Spec Decode] Optimize Rejection Sampler with Triton Kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-14930.pack.md",
+      "card_out": "index/vllm/cards/pr-14930-<slug>.md"
+    },
+    {
+      "number": 15777,
+      "title": "[Sampler] Adapt to FlashInfer 0.2.3 sampler API",
+      "pack": "data/cards-workdir/vllm/packs/pr-15777.pack.md",
+      "card_out": "index/vllm/cards/pr-15777-<slug>.md"
+    },
+    {
+      "number": 16173,
+      "title": "[Kernel] support merge_attn_states CUDA kernel, 3x speedup",
+      "pack": "data/cards-workdir/vllm/packs/pr-16173.pack.md",
+      "card_out": "index/vllm/cards/pr-16173-<slug>.md"
+    },
+    {
+      "number": 16457,
+      "title": "[Perf]Optimize rotary_emb implementation to use Triton operator for improved inference performance",
+      "pack": "data/cards-workdir/vllm/packs/pr-16457.pack.md",
+      "card_out": "index/vllm/cards/pr-16457-<slug>.md"
+    },
+    {
+      "number": 18218,
+      "title": "[Kernel] Triton implementation of causal-conv1d for Mamba-based models",
+      "pack": "data/cards-workdir/vllm/packs/pr-18218.pack.md",
+      "card_out": "index/vllm/cards/pr-18218-<slug>.md"
+    },
+    {
+      "number": 18437,
+      "title": "[KERNEL] Sampler. CUDA kernel for applying repetition penalty",
+      "pack": "data/cards-workdir/vllm/packs/pr-18437.pack.md",
+      "card_out": "index/vllm/cards/pr-18437-<slug>.md"
+    },
+    {
+      "number": 18608,
+      "title": "[V1][Sampler] Improve performance of FlashInfer sampling by sampling logits instead of probs",
+      "pack": "data/cards-workdir/vllm/packs/pr-18608.pack.md",
+      "card_out": "index/vllm/cards/pr-18608-<slug>.md"
+    },
+    {
+      "number": 19118,
+      "title": "[V1] Use FlashInfer by default on Blackwell GPUs",
+      "pack": "data/cards-workdir/vllm/packs/pr-19118.pack.md",
+      "card_out": "index/vllm/cards/pr-19118-<slug>.md"
+    },
+    {
+      "number": 19825,
+      "title": "[Core] Add Flashinfer TRTLLM Backend for Flashinfer decode path (SM100). ",
+      "pack": "data/cards-workdir/vllm/packs/pr-19825.pack.md",
+      "card_out": "index/vllm/cards/pr-19825-<slug>.md"
+    },
+    {
+      "number": 20034,
+      "title": "[Attention] MLA - Flashinfer Ragged Prefill",
+      "pack": "data/cards-workdir/vllm/packs/pr-20034.pack.md",
+      "card_out": "index/vllm/cards/pr-20034-<slug>.md"
+    },
+    {
+      "number": 20235,
+      "title": "[TPU] kv cache update kernel supports dynamic grid",
+      "pack": "data/cards-workdir/vllm/packs/pr-20235.pack.md",
+      "card_out": "index/vllm/cards/pr-20235-<slug>.md"
+    },
+    {
+      "number": 20308,
+      "title": "[Kernel] Optimize Prefill Attention in Unified Triton Attention Kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-20308.pack.md",
+      "card_out": "index/vllm/cards/pr-20308-<slug>.md"
+    },
+    {
+      "number": 20411,
+      "title": "[Nvidia] Integrate SM100 cudnn prefill API to MLA prefill",
+      "pack": "data/cards-workdir/vllm/packs/pr-20411.pack.md",
+      "card_out": "index/vllm/cards/pr-20411-<slug>.md"
+    },
+    {
+      "number": 20691,
+      "title": "Integration SM100 FlashInfer fused allreduce RMSNorm",
+      "pack": "data/cards-workdir/vllm/packs/pr-20691.pack.md",
+      "card_out": "index/vllm/cards/pr-20691-<slug>.md"
+    },
+    {
+      "number": 20769,
+      "title": "SM100 Cutlass MLA decode with unrestricted num_heads (< 128) for DeepSeek TP",
+      "pack": "data/cards-workdir/vllm/packs/pr-20769.pack.md",
+      "card_out": "index/vllm/cards/pr-20769-<slug>.md"
+    },
+    {
+      "number": 20839,
+      "title": "[Model] Replace Mamba2 RMSNorm Gated with Fused Triton Kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-20839.pack.md",
+      "card_out": "index/vllm/cards/pr-20839-<slug>.md"
+    },
+    {
+      "number": 21078,
+      "title": "[Kernel] Flashinfer MLA (trtllm-gen) decode kernel integration",
+      "pack": "data/cards-workdir/vllm/packs/pr-21078.pack.md",
+      "card_out": "index/vllm/cards/pr-21078-<slug>.md"
+    },
+    {
+      "number": 21126,
+      "title": "[Perf] Use FlashInfer RoPE for RotaryEmbedding.forward_cuda when available",
+      "pack": "data/cards-workdir/vllm/packs/pr-21126.pack.md",
+      "card_out": "index/vllm/cards/pr-21126-<slug>.md"
+    }
+  ]
+}

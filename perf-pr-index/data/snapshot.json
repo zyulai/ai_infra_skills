@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-11-07T12:17:51+00:00",
+  "repos": {
+    "vllm": {
+      "repo_full": "vllm-project/vllm",
+      "fetch_window_utc": [
+        "2026-11-07T02:54:22+00:00",
+        "2026-11-07T03:15:12+00:00"
+      ],
+      "raw_prs": 6849,
+      "classified_prs": 6849,
+      "major_prs": 936,
+      "evidence_cards": 936,
+      "head_sha": "c9e4cb2b793b5fa6672071675ef5aa49f7926f7f",
+      "head_date": "2026-11-07T10:57:46Z",
+      "head_message": "[Model] Migrate Aria to the Transformers modeling backend (#59767)"
+    },
+    "sglang": {
+      "repo_full": "sgl-project/sglang",
+      "fetch_window_utc": [
+        "2026-11-07T02:50:25+00:00",
+        "2026-11-07T03:28:51+00:00"
+      ],
+      "raw_prs": 6059,
+      "classified_prs": 6059,
+      "major_prs": 645,
+      "evidence_cards": 645,
+      "head_sha": "8920463c90c81127d9413f093240aeba17983f3a",
+      "head_date": "2026-11-07T11:08:03Z",
+      "head_message": "[Perf] deepseek-v4.1: Use reduce-scatter for CP MoE output (#47247)"
+    }
+  }
+}

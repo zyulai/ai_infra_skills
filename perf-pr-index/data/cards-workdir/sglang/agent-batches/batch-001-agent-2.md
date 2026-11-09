@@ -1,0 +1,10 @@
+PR #36576 | MiniMax-M3: allow shared-experts fusion on ROCm gfx942 and newer | pack=data/cards-workdir/sglang/packs/pr-36576.pack.md | out=index/sglang/cards/pr-36576-minimax-m3-allow-shared-experts-fusion-o.md
+PR #5694 | [2/2] Add python wrapper for CUTLASS FP8 Blockscale MoE Kernel.  | pack=data/cards-workdir/sglang/packs/pr-5694.pack.md | out=index/sglang/cards/pr-5694-2-2-add-python-wrapper-for-cutlass-fp8-b.md
+PR #8499 | [sgl-kernel performace] fix fp8 quant kernels dispatch __nv_fp8_e4m3 bug to improve performance 10%-20% | pack=data/cards-workdir/sglang/packs/pr-8499.pack.md | out=index/sglang/cards/pr-8499-sgl-kernel-performace-fix-fp8-quant-kern.md
+PR #24930 | amd/deepseek_v4 integration 16/N Triton sparse MLA kernel 0508 | pack=data/cards-workdir/sglang/packs/pr-24930.pack.md | out=index/sglang/cards/pr-24930-amd-deepseek-v4-integration-16-n-triton.md
+PR #3922 | Tuning Script for Feature DeepSeek V3/R1 INT8 Quantization (block-wise) | pack=data/cards-workdir/sglang/packs/pr-3922.pack.md | out=index/sglang/cards/pr-3922-tuning-script-for-feature-deepseek-v3-r1.md
+PR #27053 | [BCG][GLM5] perf: BCG support and prefill enhancements | pack=data/cards-workdir/sglang/packs/pr-27053.pack.md | out=index/sglang/cards/pr-27053-bcg-glm5-perf-bcg-support-and-prefill-en.md
+PR #22627 | [Bugfix] Fix flashinfer_cutlass MoE crash when intermediate_size_per_partition is not 16-aligned | pack=data/cards-workdir/sglang/packs/pr-22627.pack.md | out=index/sglang/cards/pr-22627-bugfix-fix-flashinfer-cutlass-moe-crash.md
+PR #4068 | Support overlapping two batches | pack=data/cards-workdir/sglang/packs/pr-4068.pack.md | out=index/sglang/cards/pr-4068-support-overlapping-two-batches.md
+PR #6081 | feat: mtp support dp-attention | pack=data/cards-workdir/sglang/packs/pr-6081.pack.md | out=index/sglang/cards/pr-6081-feat-mtp-support-dp-attention.md
+PR #21190 | [Whisper] Enable CUDA graph support and timestamp for whisper model | pack=data/cards-workdir/sglang/packs/pr-21190.pack.md | out=index/sglang/cards/pr-21190-whisper-enable-cuda-graph-support-and-ti.md

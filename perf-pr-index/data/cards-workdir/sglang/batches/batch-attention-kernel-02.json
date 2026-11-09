@@ -1,0 +1,247 @@
+{
+  "repo": "sglang",
+  "category": "Attention / Kernel",
+  "count": 40,
+  "prs": [
+    {
+      "number": 29735,
+      "title": "[GDN] Support FlashInfer GDN prefill with extra-buffer radix cache",
+      "pack": "data/cards-workdir/sglang/packs/pr-29735.pack.md",
+      "card_out": "index/sglang/cards/pr-29735-<slug>.md"
+    },
+    {
+      "number": 29910,
+      "title": "[Dep] Upgrade flashinfer to 0.6.14",
+      "pack": "data/cards-workdir/sglang/packs/pr-29910.pack.md",
+      "card_out": "index/sglang/cards/pr-29910-<slug>.md"
+    },
+    {
+      "number": 30107,
+      "title": "[diffusion] perf: add unified SP shard helpers and zero-copy tail-pad attention",
+      "pack": "data/cards-workdir/sglang/packs/pr-30107.pack.md",
+      "card_out": "index/sglang/cards/pr-30107-<slug>.md"
+    },
+    {
+      "number": 30169,
+      "title": "[GDN/KDA] Fuse SM100 CuteDSL prefill state I/O into the chunk h kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-30169.pack.md",
+      "card_out": "index/sglang/cards/pr-30169-<slug>.md"
+    },
+    {
+      "number": 30216,
+      "title": "[CPU] add fused_qk_gemma_norm and refactor norm kernel implementation",
+      "pack": "data/cards-workdir/sglang/packs/pr-30216.pack.md",
+      "card_out": "index/sglang/cards/pr-30216-<slug>.md"
+    },
+    {
+      "number": 30247,
+      "title": "Optimize LongCat-Flash router GEMM with the HPC-Ops bf16xfp32 kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-30247.pack.md",
+      "card_out": "index/sglang/cards/pr-30247-<slug>.md"
+    },
+    {
+      "number": 30535,
+      "title": "[hicache]: add  mamba_io_kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-30535.pack.md",
+      "card_out": "index/sglang/cards/pr-30535-<slug>.md"
+    },
+    {
+      "number": 30575,
+      "title": "[AMD] Enable Fast Triton Sparse MLA backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-30575.pack.md",
+      "card_out": "index/sglang/cards/pr-30575-<slug>.md"
+    },
+    {
+      "number": 30700,
+      "title": "[NVIDIA] Add flashinfer MNNVL backend for allreduce only",
+      "pack": "data/cards-workdir/sglang/packs/pr-30700.pack.md",
+      "card_out": "index/sglang/cards/pr-30700-<slug>.md"
+    },
+    {
+      "number": 30805,
+      "title": "[DSv4] Integrate TRT-LLM DSv4 Attention for SM100/103",
+      "pack": "data/cards-workdir/sglang/packs/pr-30805.pack.md",
+      "card_out": "index/sglang/cards/pr-30805-<slug>.md"
+    },
+    {
+      "number": 31927,
+      "title": "Bump FlashInfer to 0.6.15.post1",
+      "pack": "data/cards-workdir/sglang/packs/pr-31927.pack.md",
+      "card_out": "index/sglang/cards/pr-31927-<slug>.md"
+    },
+    {
+      "number": 32556,
+      "title": "Autotune flashinfer extend buckets at warmup",
+      "pack": "data/cards-workdir/sglang/packs/pr-32556.pack.md",
+      "card_out": "index/sglang/cards/pr-32556-<slug>.md"
+    },
+    {
+      "number": 32577,
+      "title": "[AMD] DeepSeek-V4: add aiter fused mHC post+pre with cross-layer boundary dispatch",
+      "pack": "data/cards-workdir/sglang/packs/pr-32577.pack.md",
+      "card_out": "index/sglang/cards/pr-32577-<slug>.md"
+    },
+    {
+      "number": 32593,
+      "title": "[Kernel] Enable Helion backend for Kimi Delta-Attention",
+      "pack": "data/cards-workdir/sglang/packs/pr-32593.pack.md",
+      "card_out": "index/sglang/cards/pr-32593-<slug>.md"
+    },
+    {
+      "number": 32813,
+      "title": "[Kernel] Fuse KV-cache writes for asymmetric K/V (head_dim != v_head_dim)",
+      "pack": "data/cards-workdir/sglang/packs/pr-32813.pack.md",
+      "card_out": "index/sglang/cards/pr-32813-<slug>.md"
+    },
+    {
+      "number": 33576,
+      "title": " [AMD] Add Work-Centric (Lean) Attention: a persistent-CTA decode kernel for long-context serving",
+      "pack": "data/cards-workdir/sglang/packs/pr-33576.pack.md",
+      "card_out": "index/sglang/cards/pr-33576-<slug>.md"
+    },
+    {
+      "number": 33997,
+      "title": "Bump FlashInfer to 0.6.17 and remove Kimi K3 workarounds",
+      "pack": "data/cards-workdir/sglang/packs/pr-33997.pack.md",
+      "card_out": "index/sglang/cards/pr-33997-<slug>.md"
+    },
+    {
+      "number": 34580,
+      "title": "[AMD] Optimize KIMI-K3 with Triton MLA decode kernel by tuning the stage-1 geometry for gfx950",
+      "pack": "data/cards-workdir/sglang/packs/pr-34580.pack.md",
+      "card_out": "index/sglang/cards/pr-34580-<slug>.md"
+    },
+    {
+      "number": 34619,
+      "title": "[Diffusion][GLM-Image] Retune QK head LayerNorm for SM103",
+      "pack": "data/cards-workdir/sglang/packs/pr-34619.pack.md",
+      "card_out": "index/sglang/cards/pr-34619-<slug>.md"
+    },
+    {
+      "number": 34620,
+      "title": "[Diffusion][ERNIE] Fuse QKNorm with full-width RoPE",
+      "pack": "data/cards-workdir/sglang/packs/pr-34620.pack.md",
+      "card_out": "index/sglang/cards/pr-34620-<slug>.md"
+    },
+    {
+      "number": 34837,
+      "title": "[AMD] Add concat_and_cast_mha_k_pad_kernel to support 12-head and enable K3 aiter prefill kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-34837.pack.md",
+      "card_out": "index/sglang/cards/pr-34837-<slug>.md"
+    },
+    {
+      "number": 35499,
+      "title": "[AMD] Improve K3 dspark draft attn kernel perf",
+      "pack": "data/cards-workdir/sglang/packs/pr-35499.pack.md",
+      "card_out": "index/sglang/cards/pr-35499-<slug>.md"
+    },
+    {
+      "number": 35573,
+      "title": "[ROCm][diffusion] Enable fused qk norm and rope on ROCm",
+      "pack": "data/cards-workdir/sglang/packs/pr-35573.pack.md",
+      "card_out": "index/sglang/cards/pr-35573-<slug>.md"
+    },
+    {
+      "number": 35695,
+      "title": "[diffusion] Fuse SANA-Video interleaved RoPE",
+      "pack": "data/cards-workdir/sglang/packs/pr-35695.pack.md",
+      "card_out": "index/sglang/cards/pr-35695-<slug>.md"
+    },
+    {
+      "number": 35698,
+      "title": "[diffusion] Fuse LTX-2.5 decoder 3D RoPE",
+      "pack": "data/cards-workdir/sglang/packs/pr-35698.pack.md",
+      "card_out": "index/sglang/cards/pr-35698-<slug>.md"
+    },
+    {
+      "number": 35735,
+      "title": "[kernel] Split the custom all-reduce communicator into push/pull planes",
+      "pack": "data/cards-workdir/sglang/packs/pr-35735.pack.md",
+      "card_out": "index/sglang/cards/pr-35735-<slug>.md"
+    },
+    {
+      "number": 35770,
+      "title": "[AMD] Optimize Kimi-K3 Triton MLA prefill on gfx950",
+      "pack": "data/cards-workdir/sglang/packs/pr-35770.pack.md",
+      "card_out": "index/sglang/cards/pr-35770-<slug>.md"
+    },
+    {
+      "number": 35981,
+      "title": "[diffusion] Flatten Wan VAE RMSNorm row addressing",
+      "pack": "data/cards-workdir/sglang/packs/pr-35981.pack.md",
+      "card_out": "index/sglang/cards/pr-35981-<slug>.md"
+    },
+    {
+      "number": 35995,
+      "title": "[diffusion] Fuse LongCat-Image QKNorm and interleaved RoPE",
+      "pack": "data/cards-workdir/sglang/packs/pr-35995.pack.md",
+      "card_out": "index/sglang/cards/pr-35995-<slug>.md"
+    },
+    {
+      "number": 36059,
+      "title": "[Perf] dsv4: Add native H16 CuTe sparse prefill backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-36059.pack.md",
+      "card_out": "index/sglang/cards/pr-36059-<slug>.md"
+    },
+    {
+      "number": 36521,
+      "title": "[diffusion][kernel] avoid 4D scale-shift autotuning",
+      "pack": "data/cards-workdir/sglang/packs/pr-36521.pack.md",
+      "card_out": "index/sglang/cards/pr-36521-<slug>.md"
+    },
+    {
+      "number": 36527,
+      "title": "MiniMax-M3: share the sparse index top-k across layers and reuse the decode top-k buffer",
+      "pack": "data/cards-workdir/sglang/packs/pr-36527.pack.md",
+      "card_out": "index/sglang/cards/pr-36527-<slug>.md"
+    },
+    {
+      "number": 36546,
+      "title": "MiniMax-M3: run the sparse prefill main attention through AITER Gluon paged attention",
+      "pack": "data/cards-workdir/sglang/packs/pr-36546.pack.md",
+      "card_out": "index/sglang/cards/pr-36546-<slug>.md"
+    },
+    {
+      "number": 36592,
+      "title": "[Diffusion][Kernel] Fuse Wan FFN GELU epilogue",
+      "pack": "data/cards-workdir/sglang/packs/pr-36592.pack.md",
+      "card_out": "index/sglang/cards/pr-36592-<slug>.md"
+    },
+    {
+      "number": 36680,
+      "title": "[Diffusion] Optimize Qwen-Image TP collectives and attention",
+      "pack": "data/cards-workdir/sglang/packs/pr-36680.pack.md",
+      "card_out": "index/sglang/cards/pr-36680-<slug>.md"
+    },
+    {
+      "number": 36845,
+      "title": "fix(qsa): restore SM121 correctness with Humanize and Kernel Design Agent",
+      "pack": "data/cards-workdir/sglang/packs/pr-36845.pack.md",
+      "card_out": "index/sglang/cards/pr-36845-<slug>.md"
+    },
+    {
+      "number": 36954,
+      "title": "[Deps] Bump FlashInfer to 0.6.18",
+      "pack": "data/cards-workdir/sglang/packs/pr-36954.pack.md",
+      "card_out": "index/sglang/cards/pr-36954-<slug>.md"
+    },
+    {
+      "number": 37591,
+      "title": "[ROCm] Make DSA indexer top-k exact with cooperative selection",
+      "pack": "data/cards-workdir/sglang/packs/pr-37591.pack.md",
+      "card_out": "index/sglang/cards/pr-37591-<slug>.md"
+    },
+    {
+      "number": 37620,
+      "title": "[Perf] diffusion: Accumulate chunked LoRA merges with addmm",
+      "pack": "data/cards-workdir/sglang/packs/pr-37620.pack.md",
+      "card_out": "index/sglang/cards/pr-37620-<slug>.md"
+    },
+    {
+      "number": 37889,
+      "title": "[AMD] Enable GLM DSA prefill top-k to the v2 kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-37889.pack.md",
+      "card_out": "index/sglang/cards/pr-37889-<slug>.md"
+    }
+  ]
+}

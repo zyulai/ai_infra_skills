@@ -1,0 +1,247 @@
+{
+  "repo": "sglang",
+  "category": "Quantization",
+  "count": 40,
+  "prs": [
+    {
+      "number": 1204,
+      "title": "[Feature] Support fp8 e5m2 kv cache with flashinfer",
+      "pack": "data/cards-workdir/sglang/packs/pr-1204.pack.md",
+      "card_out": "index/sglang/cards/pr-1204-<slug>.md"
+    },
+    {
+      "number": 2881,
+      "title": "Support w8a8 int8 quantization config",
+      "pack": "data/cards-workdir/sglang/packs/pr-2881.pack.md",
+      "card_out": "index/sglang/cards/pr-2881-<slug>.md"
+    },
+    {
+      "number": 3148,
+      "title": "Apply sgl w8a8 fp8 kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-3148.pack.md",
+      "card_out": "index/sglang/cards/pr-3148-<slug>.md"
+    },
+    {
+      "number": 3493,
+      "title": "use sgl_per_token_group_quant_fp8 kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-3493.pack.md",
+      "card_out": "index/sglang/cards/pr-3493-<slug>.md"
+    },
+    {
+      "number": 3730,
+      "title": "Feature DeepSeek V3/R1 INT8 Quantization (block-wise)",
+      "pack": "data/cards-workdir/sglang/packs/pr-3730.pack.md",
+      "card_out": "index/sglang/cards/pr-3730-<slug>.md"
+    },
+    {
+      "number": 3790,
+      "title": "[QUANT] Add GPTQModel Dynamic Quantization + `lm_head` Quantization",
+      "pack": "data/cards-workdir/sglang/packs/pr-3790.pack.md",
+      "card_out": "index/sglang/cards/pr-3790-<slug>.md"
+    },
+    {
+      "number": 3888,
+      "title": "[Feature] DeepSeek V3/R1 INT8 Quantization (channel-wise) ",
+      "pack": "data/cards-workdir/sglang/packs/pr-3888.pack.md",
+      "card_out": "index/sglang/cards/pr-3888-<slug>.md"
+    },
+    {
+      "number": 3922,
+      "title": "Tuning Script for Feature DeepSeek V3/R1 INT8 Quantization (block-wise)",
+      "pack": "data/cards-workdir/sglang/packs/pr-3922.pack.md",
+      "card_out": "index/sglang/cards/pr-3922-<slug>.md"
+    },
+    {
+      "number": 4104,
+      "title": "Add awq dequantize kernel to sgl with 1x to 3x speedup",
+      "pack": "data/cards-workdir/sglang/packs/pr-4104.pack.md",
+      "card_out": "index/sglang/cards/pr-4104-<slug>.md"
+    },
+    {
+      "number": 4215,
+      "title": "Accelerate FP8 CUDA Kernel by 20-28%",
+      "pack": "data/cards-workdir/sglang/packs/pr-4215.pack.md",
+      "card_out": "index/sglang/cards/pr-4215-<slug>.md"
+    },
+    {
+      "number": 5194,
+      "title": "Support Llama4 fp8 inference",
+      "pack": "data/cards-workdir/sglang/packs/pr-5194.pack.md",
+      "card_out": "index/sglang/cards/pr-5194-<slug>.md"
+    },
+    {
+      "number": 5473,
+      "title": "use sglang_per_token_group_quant_fp8 from sgl-kernel instead of trion kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-5473.pack.md",
+      "card_out": "index/sglang/cards/pr-5473-<slug>.md"
+    },
+    {
+      "number": 6226,
+      "title": "enable auto-round quantization model",
+      "pack": "data/cards-workdir/sglang/packs/pr-6226.pack.md",
+      "card_out": "index/sglang/cards/pr-6226-<slug>.md"
+    },
+    {
+      "number": 7677,
+      "title": "Apply dsv3 router gemm kernel for deepseek-r1 fp4",
+      "pack": "data/cards-workdir/sglang/packs/pr-7677.pack.md",
+      "card_out": "index/sglang/cards/pr-7677-<slug>.md"
+    },
+    {
+      "number": 8130,
+      "title": "[sgl-kernel] Opt per_token_quant_fp8 with warp reduce",
+      "pack": "data/cards-workdir/sglang/packs/pr-8130.pack.md",
+      "card_out": "index/sglang/cards/pr-8130-<slug>.md"
+    },
+    {
+      "number": 8499,
+      "title": "[sgl-kernel performace] fix fp8 quant kernels dispatch __nv_fp8_e4m3 bug to improve performance 10%-20%",
+      "pack": "data/cards-workdir/sglang/packs/pr-8499.pack.md",
+      "card_out": "index/sglang/cards/pr-8499-<slug>.md"
+    },
+    {
+      "number": 9671,
+      "title": "Optimized deepseek-v3/r1 model performance on mxfp4 run",
+      "pack": "data/cards-workdir/sglang/packs/pr-9671.pack.md",
+      "card_out": "index/sglang/cards/pr-9671-<slug>.md"
+    },
+    {
+      "number": 10008,
+      "title": "Optimized deepseek-v3/r1 model performance on mxfp4 run",
+      "pack": "data/cards-workdir/sglang/packs/pr-10008.pack.md",
+      "card_out": "index/sglang/cards/pr-10008-<slug>.md"
+    },
+    {
+      "number": 10078,
+      "title": "feat: Add FP4 (E2M1) KV Cache Support with Quantization Utilities for MLA",
+      "pack": "data/cards-workdir/sglang/packs/pr-10078.pack.md",
+      "card_out": "index/sglang/cards/pr-10078-<slug>.md"
+    },
+    {
+      "number": 12307,
+      "title": "feat: support trtllm_mha FP8 query attention kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-12307.pack.md",
+      "card_out": "index/sglang/cards/pr-12307-<slug>.md"
+    },
+    {
+      "number": 12316,
+      "title": "use faster covnersion from float8_e4m3fn to bfloat16",
+      "pack": "data/cards-workdir/sglang/packs/pr-12316.pack.md",
+      "card_out": "index/sglang/cards/pr-12316-<slug>.md"
+    },
+    {
+      "number": 12376,
+      "title": "Replace [silu_and_mul_]scaled_fp4_group_quant by Flashinfer equivalent",
+      "pack": "data/cards-workdir/sglang/packs/pr-12376.pack.md",
+      "card_out": "index/sglang/cards/pr-12376-<slug>.md"
+    },
+    {
+      "number": 12921,
+      "title": "[perf]optimize w4afp8 kernel on deepseek-v3-0324",
+      "pack": "data/cards-workdir/sglang/packs/pr-12921.pack.md",
+      "card_out": "index/sglang/cards/pr-12921-<slug>.md"
+    },
+    {
+      "number": 13617,
+      "title": "[ROCM] Optimized deepseek-r1 fp8 model with + triton_gemm_a8w8 + batch_gemm_a8w8 + fused set_mla_kv_buffer kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-13617.pack.md",
+      "card_out": "index/sglang/cards/pr-13617-<slug>.md"
+    },
+    {
+      "number": 14423,
+      "title": "[NPU] perf update with kvcache nz & w4a8 quant",
+      "pack": "data/cards-workdir/sglang/packs/pr-14423.pack.md",
+      "card_out": "index/sglang/cards/pr-14423-<slug>.md"
+    },
+    {
+      "number": 15242,
+      "title": "[sgl-kernel] Update flashmla to include fp8 sparse_mla optimizations",
+      "pack": "data/cards-workdir/sglang/packs/pr-15242.pack.md",
+      "card_out": "index/sglang/cards/pr-15242-<slug>.md"
+    },
+    {
+      "number": 16725,
+      "title": "support smem in per_token_quant_fp8 kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-16725.pack.md",
+      "card_out": "index/sglang/cards/pr-16725-<slug>.md"
+    },
+    {
+      "number": 18905,
+      "title": "[jit kernel] Support per_token_group_quant_8bit jit kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-18905.pack.md",
+      "card_out": "index/sglang/cards/pr-18905-<slug>.md"
+    },
+    {
+      "number": 19103,
+      "title": "KV Cache FP8 Downcast: JIT Migration and Optimization to Near-HBM-Limited Performance on H200",
+      "pack": "data/cards-workdir/sglang/packs/pr-19103.pack.md",
+      "card_out": "index/sglang/cards/pr-19103-<slug>.md"
+    },
+    {
+      "number": 19422,
+      "title": "[AMD] Use fused GEMM with FP8 cast for FP8 prefill",
+      "pack": "data/cards-workdir/sglang/packs/pr-19422.pack.md",
+      "card_out": "index/sglang/cards/pr-19422-<slug>.md"
+    },
+    {
+      "number": 19652,
+      "title": "[Feature] NVFP4 Marlin fallback for non-Blackwell GPUs (SM75+)",
+      "pack": "data/cards-workdir/sglang/packs/pr-19652.pack.md",
+      "card_out": "index/sglang/cards/pr-19652-<slug>.md"
+    },
+    {
+      "number": 20887,
+      "title": "CUTLASS FP8 Blockwise GEMM improvement of SM120",
+      "pack": "data/cards-workdir/sglang/packs/pr-20887.pack.md",
+      "card_out": "index/sglang/cards/pr-20887-<slug>.md"
+    },
+    {
+      "number": 20922,
+      "title": ":sparkles: [diffusion][npu][quant] Add MXFP8 quantization support for Wan2.2 Diffusion on Ascend NPU",
+      "pack": "data/cards-workdir/sglang/packs/pr-20922.pack.md",
+      "card_out": "index/sglang/cards/pr-20922-<slug>.md"
+    },
+    {
+      "number": 21314,
+      "title": "CUTLASS NVFP4 GEMM improvement of SM120",
+      "pack": "data/cards-workdir/sglang/packs/pr-21314.pack.md",
+      "card_out": "index/sglang/cards/pr-21314-<slug>.md"
+    },
+    {
+      "number": 21511,
+      "title": "[AMD] Enable FP8 KV cache and FP8 attention kernel for NSA on MI300/MI355 with TileLang backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-21511.pack.md",
+      "card_out": "index/sglang/cards/pr-21511-<slug>.md"
+    },
+    {
+      "number": 21601,
+      "title": "[Feature] Add FP4 KV Cache Design and support SM120 GPUs",
+      "pack": "data/cards-workdir/sglang/packs/pr-21601.pack.md",
+      "card_out": "index/sglang/cards/pr-21601-<slug>.md"
+    },
+    {
+      "number": 21734,
+      "title": "perf: optimize PCG inductor path for FP8 models",
+      "pack": "data/cards-workdir/sglang/packs/pr-21734.pack.md",
+      "card_out": "index/sglang/cards/pr-21734-<slug>.md"
+    },
+    {
+      "number": 22574,
+      "title": "[Diffusion] Add FLUX.1-dev ModelOpt NVFP4 support",
+      "pack": "data/cards-workdir/sglang/packs/pr-22574.pack.md",
+      "card_out": "index/sglang/cards/pr-22574-<slug>.md"
+    },
+    {
+      "number": 22672,
+      "title": "reland [Diffusion] Add FLUX.1-dev ModelOpt NVFP4 support",
+      "pack": "data/cards-workdir/sglang/packs/pr-22672.pack.md",
+      "card_out": "index/sglang/cards/pr-22672-<slug>.md"
+    },
+    {
+      "number": 23155,
+      "title": "[Diffusion] Add Qwen Image ModelOpt FP8 support",
+      "pack": "data/cards-workdir/sglang/packs/pr-23155.pack.md",
+      "card_out": "index/sglang/cards/pr-23155-<slug>.md"
+    }
+  ]
+}

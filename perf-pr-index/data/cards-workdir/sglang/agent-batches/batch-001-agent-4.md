@@ -1,0 +1,10 @@
+PR #9660 | Single Batch Overlap for MoE Models | pack=data/cards-workdir/sglang/packs/pr-9660.pack.md | out=index/sglang/cards/pr-9660-single-batch-overlap-for-moe-models.md
+PR #46024 | [Perf] mhc: Split hc_combine_norm_mxfp8 rows by batch size and zero padding scales in the kernel | pack=data/cards-workdir/sglang/packs/pr-46024.pack.md | out=index/sglang/cards/pr-46024-perf-mhc-split-hc-combine-norm-mxfp8-row.md
+PR #46955 | [Perf] dsv41: Use the Engram all-to-all lookup for decode and CUDA graphs | pack=data/cards-workdir/sglang/packs/pr-46955.pack.md | out=index/sglang/cards/pr-46955-perf-dsv41-use-the-engram-all-to-all-loo.md
+PR #34967 | [MoE] Add FlashInfer SM90 MXFP4 W4A8 CUTLASS MoE | pack=data/cards-workdir/sglang/packs/pr-34967.pack.md | out=index/sglang/cards/pr-34967-moe-add-flashinfer-sm90-mxfp4-w4a8-cutla.md
+PR #4918 | Add DeepSeek V3/R1 shared experts fusion | pack=data/cards-workdir/sglang/packs/pr-4918.pack.md | out=index/sglang/cards/pr-4918-add-deepseek-v3-r1-shared-experts-fusion.md
+PR #47503 | [Perf] rmsnorm: One SM100-tuned JIT template for plain, fused residual-add and fp8 per-tensor quant | pack=data/cards-workdir/sglang/packs/pr-47503.pack.md | out=index/sglang/cards/pr-47503-perf-rmsnorm-one-sm100-tuned-jit-templat.md
+PR #12112 | Optimize triton_mrope with torch compile | pack=data/cards-workdir/sglang/packs/pr-12112.pack.md | out=index/sglang/cards/pr-12112-optimize-triton-mrope-with-torch-compile.md
+PR #26788 | [JIT Kernel] DeepSeek-V4 DSA indexer: faster top-k + page-table transform (runtime k <= 2048) | pack=data/cards-workdir/sglang/packs/pr-26788.pack.md | out=index/sglang/cards/pr-26788-jit-kernel-deepseek-v4-dsa-indexer-faste.md
+PR #10062 | Piecewise CUDA Graph Support & Torch Compile Backend | pack=data/cards-workdir/sglang/packs/pr-10062.pack.md | out=index/sglang/cards/pr-10062-piecewise-cuda-graph-support-torch-compi.md
+PR #12306 | feat: support flashinfer kernel autotune | pack=data/cards-workdir/sglang/packs/pr-12306.pack.md | out=index/sglang/cards/pr-12306-feat-support-flashinfer-kernel-autotune.md

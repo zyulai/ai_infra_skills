@@ -1,0 +1,211 @@
+{
+  "repo": "sglang",
+  "category": "Other",
+  "count": 34,
+  "prs": [
+    {
+      "number": 11712,
+      "title": "enable ut test for xpu devices",
+      "pack": "data/cards-workdir/sglang/packs/pr-11712.pack.md",
+      "card_out": "index/sglang/cards/pr-11712-<slug>.md"
+    },
+    {
+      "number": 12001,
+      "title": "perf: optimize TypeBasedDispatcher using dict for O(1) lookup",
+      "pack": "data/cards-workdir/sglang/packs/pr-12001.pack.md",
+      "card_out": "index/sglang/cards/pr-12001-<slug>.md"
+    },
+    {
+      "number": 14894,
+      "title": "[model-gateway] optimize worker selection",
+      "pack": "data/cards-workdir/sglang/packs/pr-14894.pack.md",
+      "card_out": "index/sglang/cards/pr-14894-<slug>.md"
+    },
+    {
+      "number": 16097,
+      "title": "[model-gateway] Optimize INSERT with leaf-only timestamp updates",
+      "pack": "data/cards-workdir/sglang/packs/pr-16097.pack.md",
+      "card_out": "index/sglang/cards/pr-16097-<slug>.md"
+    },
+    {
+      "number": 16099,
+      "title": "[model-gateway]: optimize prefix_match with zero-copy tenant and deferred char count",
+      "pack": "data/cards-workdir/sglang/packs/pr-16099.pack.md",
+      "card_out": "index/sglang/cards/pr-16099-<slug>.md"
+    },
+    {
+      "number": 16259,
+      "title": "[model-gateway] Optimize L1 cache insertion with incremental hashing and tokenization",
+      "pack": "data/cards-workdir/sglang/packs/pr-16259.pack.md",
+      "card_out": "index/sglang/cards/pr-16259-<slug>.md"
+    },
+    {
+      "number": 17228,
+      "title": "[NPU] make torch_native lora backend a little bit faster",
+      "pack": "data/cards-workdir/sglang/packs/pr-17228.pack.md",
+      "card_out": "index/sglang/cards/pr-17228-<slug>.md"
+    },
+    {
+      "number": 17387,
+      "title": "[model-gateway] Optimize special token search using Aho-Corasick",
+      "pack": "data/cards-workdir/sglang/packs/pr-17387.pack.md",
+      "card_out": "index/sglang/cards/pr-17387-<slug>.md"
+    },
+    {
+      "number": 17420,
+      "title": "[VLM] Optimize get_rope_index for GLM4v",
+      "pack": "data/cards-workdir/sglang/packs/pr-17420.pack.md",
+      "card_out": "index/sglang/cards/pr-17420-<slug>.md"
+    },
+    {
+      "number": 17467,
+      "title": "[model-gateway] Optimize consistent hashing hot path to eliminate allocations",
+      "pack": "data/cards-workdir/sglang/packs/pr-17467.pack.md",
+      "card_out": "index/sglang/cards/pr-17467-<slug>.md"
+    },
+    {
+      "number": 17575,
+      "title": "[model-gateway] Optimize HashRing construction to reduce heap allocations",
+      "pack": "data/cards-workdir/sglang/packs/pr-17575.pack.md",
+      "card_out": "index/sglang/cards/pr-17575-<slug>.md"
+    },
+    {
+      "number": 17784,
+      "title": "Upgrade transformers==5.3.0",
+      "pack": "data/cards-workdir/sglang/packs/pr-17784.pack.md",
+      "card_out": "index/sglang/cards/pr-17784-<slug>.md"
+    },
+    {
+      "number": 21247,
+      "title": "[Dependency] Upgrade to Torch 2.11.0",
+      "pack": "data/cards-workdir/sglang/packs/pr-21247.pack.md",
+      "card_out": "index/sglang/cards/pr-21247-<slug>.md"
+    },
+    {
+      "number": 22734,
+      "title": "MSCCL++ Integration",
+      "pack": "data/cards-workdir/sglang/packs/pr-22734.pack.md",
+      "card_out": "index/sglang/cards/pr-22734-<slug>.md"
+    },
+    {
+      "number": 25510,
+      "title": "[diffusion] tighten selected perf baselines",
+      "pack": "data/cards-workdir/sglang/packs/pr-25510.pack.md",
+      "card_out": "index/sglang/cards/pr-25510-<slug>.md"
+    },
+    {
+      "number": 26355,
+      "title": "API Perf: Replace pydantic per-element validation with C loop validation",
+      "pack": "data/cards-workdir/sglang/packs/pr-26355.pack.md",
+      "card_out": "index/sglang/cards/pr-26355-<slug>.md"
+    },
+    {
+      "number": 27053,
+      "title": "[BCG][GLM5] perf: BCG support and prefill enhancements",
+      "pack": "data/cards-workdir/sglang/packs/pr-27053.pack.md",
+      "card_out": "index/sglang/cards/pr-27053-<slug>.md"
+    },
+    {
+      "number": 27297,
+      "title": "[diffusion] Optimize LingBot realtime transport and camera conditioning",
+      "pack": "data/cards-workdir/sglang/packs/pr-27297.pack.md",
+      "card_out": "index/sglang/cards/pr-27297-<slug>.md"
+    },
+    {
+      "number": 28527,
+      "title": "[Diffusion][CPU] Adding AMX optimizations for CPU platform",
+      "pack": "data/cards-workdir/sglang/packs/pr-28527.pack.md",
+      "card_out": "index/sglang/cards/pr-28527-<slug>.md"
+    },
+    {
+      "number": 29117,
+      "title": "[CPU] optimize GDN prefill performance",
+      "pack": "data/cards-workdir/sglang/packs/pr-29117.pack.md",
+      "card_out": "index/sglang/cards/pr-29117-<slug>.md"
+    },
+    {
+      "number": 29281,
+      "title": "[KDA-Pilot] Add diffusion causal Conv3D cat-pad CUDA fast path for Cosmos3",
+      "pack": "data/cards-workdir/sglang/packs/pr-29281.pack.md",
+      "card_out": "index/sglang/cards/pr-29281-<slug>.md"
+    },
+    {
+      "number": 29382,
+      "title": "[CPU] use faster exp in silu_and_mul",
+      "pack": "data/cards-workdir/sglang/packs/pr-29382.pack.md",
+      "card_out": "index/sglang/cards/pr-29382-<slug>.md"
+    },
+    {
+      "number": 30719,
+      "title": "[Perf] [Intel] diffusion: Adding AMX optimizations on CPU platform",
+      "pack": "data/cards-workdir/sglang/packs/pr-30719.pack.md",
+      "card_out": "index/sglang/cards/pr-30719-<slug>.md"
+    },
+    {
+      "number": 32370,
+      "title": "Optimize FP32 LM head for bf16/fp16",
+      "pack": "data/cards-workdir/sglang/packs/pr-32370.pack.md",
+      "card_out": "index/sglang/cards/pr-32370-<slug>.md"
+    },
+    {
+      "number": 32784,
+      "title": "[diffusion] optimization: accelerate CUDA video output finalization",
+      "pack": "data/cards-workdir/sglang/packs/pr-32784.pack.md",
+      "card_out": "index/sglang/cards/pr-32784-<slug>.md"
+    },
+    {
+      "number": 33474,
+      "title": "Select DeepGEMM standard layouts by memory budget",
+      "pack": "data/cards-workdir/sglang/packs/pr-33474.pack.md",
+      "card_out": "index/sglang/cards/pr-33474-<slug>.md"
+    },
+    {
+      "number": 36228,
+      "title": "[CP V1 Deprecation 3/5] Remove generic prefill CP v1 runtime",
+      "pack": "data/cards-workdir/sglang/packs/pr-36228.pack.md",
+      "card_out": "index/sglang/cards/pr-36228-<slug>.md"
+    },
+    {
+      "number": 36624,
+      "title": "[Cohere Command-A-Plus] Optimize decode and BCG capture on SM10X",
+      "pack": "data/cards-workdir/sglang/packs/pr-36624.pack.md",
+      "card_out": "index/sglang/cards/pr-36624-<slug>.md"
+    },
+    {
+      "number": 38798,
+      "title": "dsv4.1: remaining model and runtime integration",
+      "pack": "data/cards-workdir/sglang/packs/pr-38798.pack.md",
+      "card_out": "index/sglang/cards/pr-38798-<slug>.md"
+    },
+    {
+      "number": 40386,
+      "title": "[Diffusion] Accelerate Cosmos3 Edge on Hopper with lossless fusions",
+      "pack": "data/cards-workdir/sglang/packs/pr-40386.pack.md",
+      "card_out": "index/sglang/cards/pr-40386-<slug>.md"
+    },
+    {
+      "number": 41951,
+      "title": "[perf] [multi-lora] remove empty CTAs from fused LoRA expand and add split-K to shrink",
+      "pack": "data/cards-workdir/sglang/packs/pr-41951.pack.md",
+      "card_out": "index/sglang/cards/pr-41951-<slug>.md"
+    },
+    {
+      "number": 44606,
+      "title": "[Perf] diffusion: Defer full GC collections while importing the runtime",
+      "pack": "data/cards-workdir/sglang/packs/pr-44606.pack.md",
+      "card_out": "index/sglang/cards/pr-44606-<slug>.md"
+    },
+    {
+      "number": 45579,
+      "title": "[Perf] dsv4: Compute request-window history rows once per batch",
+      "pack": "data/cards-workdir/sglang/packs/pr-45579.pack.md",
+      "card_out": "index/sglang/cards/pr-45579-<slug>.md"
+    },
+    {
+      "number": 46043,
+      "title": "[Perf] diffusion/registry: Reduce model discovery work at startup",
+      "pack": "data/cards-workdir/sglang/packs/pr-46043.pack.md",
+      "card_out": "index/sglang/cards/pr-46043-<slug>.md"
+    }
+  ]
+}

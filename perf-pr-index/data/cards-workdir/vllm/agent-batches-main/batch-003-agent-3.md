@@ -1,0 +1,17 @@
+PR #48789 | [Profiler] Add minimal Triton Proton profiling backend | pack=data/cards-workdir/vllm/packs/pr-48789.pack.md | out=index/vllm/cards/pr-48789-profiler-add-minimal-triton-proton-profi.md
+PR #58984 | [Perf][Spec Decode] Avoid target request padding in DP drafter | pack=data/cards-workdir/vllm/packs/pr-58984.pack.md | out=index/vllm/cards/pr-58984-perf-spec-decode-avoid-target-request-pa.md
+PR #64509 | [Perf][Qwen3.5] (NVIDIA-only) Fused norm+quant and gate+quant | pack=data/cards-workdir/vllm/packs/pr-64509.pack.md | out=index/vllm/cards/pr-64509-perf-qwen3-5-nvidia-only-fused-norm-quan.md
+PR #49932 | [Linear] [Kernel] add block-wise scaled_mm | pack=data/cards-workdir/vllm/packs/pr-49932.pack.md | out=index/vllm/cards/pr-49932-linear-kernel-add-block-wise-scaled-mm.md
+PR #7636 | [TPU] Optimize RoPE forward_native2 | pack=data/cards-workdir/vllm/packs/pr-7636.pack.md | out=index/vllm/cards/pr-7636-tpu-optimize-rope-forward-native2.md
+PR #20839 | [Model] Replace Mamba2 RMSNorm Gated with Fused Triton Kernel | pack=data/cards-workdir/vllm/packs/pr-20839.pack.md | out=index/vllm/cards/pr-20839-model-replace-mamba2-rmsnorm-gated-with.md
+PR #40734 | [Bugfix] Fix max_num_batched_token not captured in cuda graph  | pack=data/cards-workdir/vllm/packs/pr-40734.pack.md | out=index/vllm/cards/pr-40734-bugfix-fix-max-num-batched-token-not-cap.md
+PR #62171 | [Perf][Kernel] Size cooperative_topk's single pass by row length, not stride | pack=data/cards-workdir/vllm/packs/pr-62171.pack.md | out=index/vllm/cards/pr-62171-perf-kernel-size-cooperative-topk-s-sing.md
+PR #59815 | [Quantization] Support compressed-tensors MXFP4 MoE with FP8 activations via Mxfp4MoEMethod | pack=data/cards-workdir/vllm/packs/pr-59815.pack.md | out=index/vllm/cards/pr-59815-quantization-support-compressed-tensors.md
+PR #35270 | [XPU][NIXL] Add GPUDirect RDMA support for XPU | pack=data/cards-workdir/vllm/packs/pr-35270.pack.md | out=index/vllm/cards/pr-35270-xpu-nixl-add-gpudirect-rdma-support-for.md
+PR #57528 | [Perf][Frontend] Offload streaming derender detokenization | pack=data/cards-workdir/vllm/packs/pr-57528.pack.md | out=index/vllm/cards/pr-57528-perf-frontend-offload-streaming-derender.md
+PR #59655 | [Bugfix] [Spec Decode]   DeepSeek V4/V4.1 NVFP4: keep ignored MTP/DSpark experts on MXFP4 | pack=data/cards-workdir/vllm/packs/pr-59655.pack.md | out=index/vllm/cards/pr-59655-bugfix-spec-decode-deepseek-v4-v4-1-nvfp.md
+PR #62632 | [Perf][Kernel][DSv4.1] Copy-based Q zero-pad for large eager mega-attention steps | pack=data/cards-workdir/vllm/packs/pr-62632.pack.md | out=index/vllm/cards/pr-62632-perf-kernel-dsv4-1-copy-based-q-zero-pad.md
+PR #19330 | [V1] [P/D] Add Support for KV Load Failure Recovery | pack=data/cards-workdir/vllm/packs/pr-19330.pack.md | out=index/vllm/cards/pr-19330-v1-p-d-add-support-for-kv-load-failure-r.md
+PR #27614 | [Core] Enable async scheduling by default | pack=data/cards-workdir/vllm/packs/pr-27614.pack.md | out=index/vllm/cards/pr-27614-core-enable-async-scheduling-by-default.md
+PR #37338 | [Perf] [Bugfix] Fix Triton autotuning in inference for Qwen3.5 | pack=data/cards-workdir/vllm/packs/pr-37338.pack.md | out=index/vllm/cards/pr-37338-perf-bugfix-fix-triton-autotuning-in-inf.md
+PR #48247 | [Perf][ROCm] Add AITER custom AG/RS (DP only) | pack=data/cards-workdir/vllm/packs/pr-48247.pack.md | out=index/vllm/cards/pr-48247-perf-rocm-add-aiter-custom-ag-rs-dp-only.md

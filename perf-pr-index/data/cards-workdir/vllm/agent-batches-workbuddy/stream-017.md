@@ -1,0 +1,12 @@
+PR #27987 | [Core] Add a random suffix to frontend-provided request IDs | pack=data/cards-workdir/vllm/packs/pr-27987.pack.md | out=index/vllm/cards/pr-27987-core-add-a-random-suffix-to-frontend-pro.md
+PR #43050 | feat: MLA prefill enable FA4 fp8 output | pack=data/cards-workdir/vllm/packs/pr-43050.pack.md | out=index/vllm/cards/pr-43050-feat-mla-prefill-enable-fa4-fp8-output.md
+PR #57443 | [GLM 5.3 Perf] Enable fused multi-step decode, 13.3% E2E throughput improvement for concurrency 1 | pack=data/cards-workdir/vllm/packs/pr-57443.pack.md | out=index/vllm/cards/pr-57443-glm-5-3-perf-enable-fused-multi-step-dec.md
+PR #57705 | [Bugfix][KVConnector] Fix MoRI-IO WRITE-mode requests stranded in WAITING_FOR_REMOTE_KVS | pack=data/cards-workdir/vllm/packs/pr-57705.pack.md | out=index/vllm/cards/pr-57705-bugfix-kvconnector-fix-mori-io-write-mod.md
+PR #22943 | [Kernel/Quant] Remove AQLM | pack=data/cards-workdir/vllm/packs/pr-22943.pack.md | out=index/vllm/cards/pr-22943-kernel-quant-remove-aqlm.md
+PR #30515 | [UX][Startup] Account for CUDA graphs during memory profiling | pack=data/cards-workdir/vllm/packs/pr-30515.pack.md | out=index/vllm/cards/pr-30515-ux-startup-account-for-cuda-graphs-durin.md
+PR #44120 | [MoE Refactor] Migrate MoeWNA16Method quantization method over to using the new MK oracle scheme. | pack=data/cards-workdir/vllm/packs/pr-44120.pack.md | out=index/vllm/cards/pr-44120-moe-refactor-migrate-moewna16method-quan.md
+PR #56318 | [Metrics] Expose cached prompt tokens by cache tier | pack=data/cards-workdir/vllm/packs/pr-56318.pack.md | out=index/vllm/cards/pr-56318-metrics-expose-cached-prompt-tokens-by-c.md
+PR #58769 | [ROCm][Triton] Migrate Kimi-K3 kernels from make_block_ptr to tensor … | pack=data/cards-workdir/vllm/packs/pr-58769.pack.md | out=index/vllm/cards/pr-58769-rocm-triton-migrate-kimi-k3-kernels-from.md
+PR #59875 | [Bugfix][EC Connector] Release shared memory on NIXL setup failure | pack=data/cards-workdir/vllm/packs/pr-59875.pack.md | out=index/vllm/cards/pr-59875-bugfix-ec-connector-release-shared-memor.md
+PR #24532 | [core] add nccl symmetric memory for all reduce | pack=data/cards-workdir/vllm/packs/pr-24532.pack.md | out=index/vllm/cards/pr-24532-core-add-nccl-symmetric-memory-for-all-r.md
+PR #33174 | Add support for Mistral Large 3 inference with Flashinfer MoE | pack=data/cards-workdir/vllm/packs/pr-33174.pack.md | out=index/vllm/cards/pr-33174-add-support-for-mistral-large-3-inferenc.md

@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "Attention / Kernel",
+  "count": 40,
+  "prs": [
+    {
+      "number": 21325,
+      "title": "Fix Flashinfer Allreduce+Norm enable disable calculation based on `fi_allreduce_fusion_max_token_num`",
+      "pack": "data/cards-workdir/vllm/packs/pr-21325.pack.md",
+      "card_out": "index/vllm/cards/pr-21325-<slug>.md"
+    },
+    {
+      "number": 21525,
+      "title": "[Bugfix] Fix workspace buffer None issue for Flashinfer TRTLLM Backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-21525.pack.md",
+      "card_out": "index/vllm/cards/pr-21525-<slug>.md"
+    },
+    {
+      "number": 22095,
+      "title": "[NVIDIA] Support Flashinfer TRT-LLM Prefill Attention Kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-22095.pack.md",
+      "card_out": "index/vllm/cards/pr-22095-<slug>.md"
+    },
+    {
+      "number": 22375,
+      "title": "[FEAT] [Performance] Add triton mrope to replace the torch code path",
+      "pack": "data/cards-workdir/vllm/packs/pr-22375.pack.md",
+      "card_out": "index/vllm/cards/pr-22375-<slug>.md"
+    },
+    {
+      "number": 22464,
+      "title": "Optimize MiniCPMO mask creation with vectorized implementation",
+      "pack": "data/cards-workdir/vllm/packs/pr-22464.pack.md",
+      "card_out": "index/vllm/cards/pr-22464-<slug>.md"
+    },
+    {
+      "number": 22675,
+      "title": "add an env var for path to pre-downloaded flashinfer cubin files",
+      "pack": "data/cards-workdir/vllm/packs/pr-22675.pack.md",
+      "card_out": "index/vllm/cards/pr-22675-<slug>.md"
+    },
+    {
+      "number": 22683,
+      "title": "[Kernel][AMD] Avoid D2H copy and cumsum kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-22683.pack.md",
+      "card_out": "index/vllm/cards/pr-22683-<slug>.md"
+    },
+    {
+      "number": 23214,
+      "title": "[Core] Always use tensor cores for Flashinfer Decode Wrapper",
+      "pack": "data/cards-workdir/vllm/packs/pr-23214.pack.md",
+      "card_out": "index/vllm/cards/pr-23214-<slug>.md"
+    },
+    {
+      "number": 24111,
+      "title": "[Kernels] Enable Torch Symmetric Memory All-Reduce By Default",
+      "pack": "data/cards-workdir/vllm/packs/pr-24111.pack.md",
+      "card_out": "index/vllm/cards/pr-24111-<slug>.md"
+    },
+    {
+      "number": 24390,
+      "title": "Optimize triton unified attention performance for sliding window attention",
+      "pack": "data/cards-workdir/vllm/packs/pr-24390.pack.md",
+      "card_out": "index/vllm/cards/pr-24390-<slug>.md"
+    },
+    {
+      "number": 24503,
+      "title": "[V1][Kernel] Add triton implementation for `reshape_and_cache_flash`",
+      "pack": "data/cards-workdir/vllm/packs/pr-24503.pack.md",
+      "card_out": "index/vllm/cards/pr-24503-<slug>.md"
+    },
+    {
+      "number": 24526,
+      "title": "Add the support for the qwen3 next model (a hybrid attention model).",
+      "pack": "data/cards-workdir/vllm/packs/pr-24526.pack.md",
+      "card_out": "index/vllm/cards/pr-24526-<slug>.md"
+    },
+    {
+      "number": 24701,
+      "title": "[Kernel] [CPU] refactor `cpu_attn.py:_run_sdpa_forward` for better memory access",
+      "pack": "data/cards-workdir/vllm/packs/pr-24701.pack.md",
+      "card_out": "index/vllm/cards/pr-24701-<slug>.md"
+    },
+    {
+      "number": 24794,
+      "title": "[Attention] Refactor CUDA attention backend selection logic",
+      "pack": "data/cards-workdir/vllm/packs/pr-24794.pack.md",
+      "card_out": "index/vllm/cards/pr-24794-<slug>.md"
+    },
+    {
+      "number": 25132,
+      "title": "[Kernel] Support DCP for Triton backend ",
+      "pack": "data/cards-workdir/vllm/packs/pr-25132.pack.md",
+      "card_out": "index/vllm/cards/pr-25132-<slug>.md"
+    },
+    {
+      "number": 25447,
+      "title": "[Bugfix] Optimize CpuGpuBuffer initialization",
+      "pack": "data/cards-workdir/vllm/packs/pr-25447.pack.md",
+      "card_out": "index/vllm/cards/pr-25447-<slug>.md"
+    },
+    {
+      "number": 25763,
+      "title": "[ROCm][Perf] New design on ROCm AITER MHA backend Implementation",
+      "pack": "data/cards-workdir/vllm/packs/pr-25763.pack.md",
+      "card_out": "index/vllm/cards/pr-25763-<slug>.md"
+    },
+    {
+      "number": 25954,
+      "title": "[Performance] Split FlashAttn attention and cache update",
+      "pack": "data/cards-workdir/vllm/packs/pr-25954.pack.md",
+      "card_out": "index/vllm/cards/pr-25954-<slug>.md"
+    },
+    {
+      "number": 26132,
+      "title": "[DeepSeek] Improve performance of DS MLA cache kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-26132.pack.md",
+      "card_out": "index/vllm/cards/pr-26132-<slug>.md"
+    },
+    {
+      "number": 28200,
+      "title": "[Kernel][Model] Tune fused_moe Triton configs for MiniMax-M2 on H100",
+      "pack": "data/cards-workdir/vllm/packs/pr-28200.pack.md",
+      "card_out": "index/vllm/cards/pr-28200-<slug>.md"
+    },
+    {
+      "number": 28603,
+      "title": "[BugFix] Fix type error when assign a trition kernel tensor to a torch.nn.Parameter",
+      "pack": "data/cards-workdir/vllm/packs/pr-28603.pack.md",
+      "card_out": "index/vllm/cards/pr-28603-<slug>.md"
+    },
+    {
+      "number": 28687,
+      "title": "[Performance] Reduce DeepGEMM N dim restriction from 128 to 64 multiplier ",
+      "pack": "data/cards-workdir/vllm/packs/pr-28687.pack.md",
+      "card_out": "index/vllm/cards/pr-28687-<slug>.md"
+    },
+    {
+      "number": 29193,
+      "title": "[perf][cpu] Accelerate paged attention GEMMs (QK, PV) on Arm CPUs with NEON",
+      "pack": "data/cards-workdir/vllm/packs/pr-29193.pack.md",
+      "card_out": "index/vllm/cards/pr-29193-<slug>.md"
+    },
+    {
+      "number": 29710,
+      "title": "[perf] Use direct copy (broadcast) instead of cat for k_nope/k_pe in MLA prefill",
+      "pack": "data/cards-workdir/vllm/packs/pr-29710.pack.md",
+      "card_out": "index/vllm/cards/pr-29710-<slug>.md"
+    },
+    {
+      "number": 29887,
+      "title": "[ROCm][Perf] Enable shuffle kv cache layout and assembly paged attention kernel for `AiterFlashAttentionBackend`",
+      "pack": "data/cards-workdir/vllm/packs/pr-29887.pack.md",
+      "card_out": "index/vllm/cards/pr-29887-<slug>.md"
+    },
+    {
+      "number": 29929,
+      "title": "[Kernels] Remove BatchedTritonOrDeepGemmExperts and default fallback to Triton",
+      "pack": "data/cards-workdir/vllm/packs/pr-29929.pack.md",
+      "card_out": "index/vllm/cards/pr-29929-<slug>.md"
+    },
+    {
+      "number": 30528,
+      "title": "[Perf] Set split_k to 1 for triton_kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-30528.pack.md",
+      "card_out": "index/vllm/cards/pr-30528-<slug>.md"
+    },
+    {
+      "number": 31167,
+      "title": "[Perf] Remove blocking copy in GDN Attention",
+      "pack": "data/cards-workdir/vllm/packs/pr-31167.pack.md",
+      "card_out": "index/vllm/cards/pr-31167-<slug>.md"
+    },
+    {
+      "number": 31246,
+      "title": "[Kernel] Add topk_sigmoid kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-31246.pack.md",
+      "card_out": "index/vllm/cards/pr-31246-<slug>.md"
+    },
+    {
+      "number": 31722,
+      "title": "[PERF] Speed-up of GDN attention decode part (Qwen3-Next)",
+      "pack": "data/cards-workdir/vllm/packs/pr-31722.pack.md",
+      "card_out": "index/vllm/cards/pr-31722-<slug>.md"
+    },
+    {
+      "number": 31781,
+      "title": "[Kernel] Support bias type in grouped_topk kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-31781.pack.md",
+      "card_out": "index/vllm/cards/pr-31781-<slug>.md"
+    },
+    {
+      "number": 32183,
+      "title": "[MM Encoder] Add Triton ViT attention backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-32183.pack.md",
+      "card_out": "index/vllm/cards/pr-32183-<slug>.md"
+    },
+    {
+      "number": 32425,
+      "title": "[LoRA] Update LoRA expand kernel heuristic",
+      "pack": "data/cards-workdir/vllm/packs/pr-32425.pack.md",
+      "card_out": "index/vllm/cards/pr-32425-<slug>.md"
+    },
+    {
+      "number": 32619,
+      "title": "[Perf] Create TMA-aligned input scale tensor for DeepGemm on Hopper",
+      "pack": "data/cards-workdir/vllm/packs/pr-32619.pack.md",
+      "card_out": "index/vllm/cards/pr-32619-<slug>.md"
+    },
+    {
+      "number": 32846,
+      "title": "[Kernel] use flashinfer for gdn prefill",
+      "pack": "data/cards-workdir/vllm/packs/pr-32846.pack.md",
+      "card_out": "index/vllm/cards/pr-32846-<slug>.md"
+    },
+    {
+      "number": 33451,
+      "title": "[Attention] Add FlashInfer Sparse MLA backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-33451.pack.md",
+      "card_out": "index/vllm/cards/pr-33451-<slug>.md"
+    },
+    {
+      "number": 33529,
+      "title": "Triton MLA perf fixes",
+      "pack": "data/cards-workdir/vllm/packs/pr-33529.pack.md",
+      "card_out": "index/vllm/cards/pr-33529-<slug>.md"
+    },
+    {
+      "number": 33538,
+      "title": "[Kernel] Triton-based Top-k and Top-p sampler kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-33538.pack.md",
+      "card_out": "index/vllm/cards/pr-33538-<slug>.md"
+    },
+    {
+      "number": 33839,
+      "title": "[Kernel][perf] optimize NCCL symm_mem vs custom_AR selection thresholds",
+      "pack": "data/cards-workdir/vllm/packs/pr-33839.pack.md",
+      "card_out": "index/vllm/cards/pr-33839-<slug>.md"
+    },
+    {
+      "number": 33985,
+      "title": "[Kernel] FlashInfer: switch allreduce fusion to unified API",
+      "pack": "data/cards-workdir/vllm/packs/pr-33985.pack.md",
+      "card_out": "index/vllm/cards/pr-33985-<slug>.md"
+    }
+  ]
+}

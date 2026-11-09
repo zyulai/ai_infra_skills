@@ -1,0 +1,17 @@
+PR #16488 | [Kernel] Add tuned FusedMoE kernel config for Llama4 Scout, TP=8 on H100  | pack=data/cards-workdir/vllm/packs/pr-16488.pack.md | out=index/vllm/cards/pr-16488-kernel-add-tuned-fusedmoe-kernel-config.md
+PR #62633 | [Perf][Kernel][DSv4.1] Swap-AB CuTe DSL decode attention for small TP2/TP4 steps | pack=data/cards-workdir/vllm/packs/pr-62633.pack.md | out=index/vllm/cards/pr-62633-perf-kernel-dsv4-1-swap-ab-cute-dsl-deco.md
+PR #5183 | [Kernel] Switch fp8 layers to use the CUTLASS kernels | pack=data/cards-workdir/vllm/packs/pr-5183.pack.md | out=index/vllm/cards/pr-5183-kernel-switch-fp8-layers-to-use-the-cutl.md
+PR #26647 | [Models][Qwen3VL] Speedup `fast_pos_embed_interpolate` | pack=data/cards-workdir/vllm/packs/pr-26647.pack.md | out=index/vllm/cards/pr-26647-models-qwen3vl-speedup-fast-pos-embed-in.md
+PR #53712 | [Hardware][AMD][Perf][Bugfix] Update ROCr and clr in base image | pack=data/cards-workdir/vllm/packs/pr-53712.pack.md | out=index/vllm/cards/pr-53712-hardware-amd-perf-bugfix-update-rocr-and.md
+PR #65214 | [HiSparse] Support the extensible KV cache | pack=data/cards-workdir/vllm/packs/pr-65214.pack.md | out=index/vllm/cards/pr-65214-hisparse-support-the-extensible-kv-cache.md
+PR #44612 | [ASR] Optimize CPU preproc to get 2.5x RTFx via multi-threading | pack=data/cards-workdir/vllm/packs/pr-44612.pack.md | out=index/vllm/cards/pr-44612-asr-optimize-cpu-preproc-to-get-2-5x-rtf.md
+PR #39752 | add warning when FP8 KV cache misses prefill query quantization | pack=data/cards-workdir/vllm/packs/pr-39752.pack.md | out=index/vllm/cards/pr-39752-add-warning-when-fp8-kv-cache-misses-pre.md
+PR #18778 | [Perf] Tunings for SM100 FP8 CUTLASS kernel | pack=data/cards-workdir/vllm/packs/pr-18778.pack.md | out=index/vllm/cards/pr-18778-perf-tunings-for-sm100-fp8-cutlass-kerne.md
+PR #39419 | [SpecDecode] Reduce TP communication for large-vocab draft models speculative decoding | pack=data/cards-workdir/vllm/packs/pr-39419.pack.md | out=index/vllm/cards/pr-39419-specdecode-reduce-tp-communication-for-l.md
+PR #33839 | [Kernel][perf] optimize NCCL symm_mem vs custom_AR selection thresholds | pack=data/cards-workdir/vllm/packs/pr-33839.pack.md | out=index/vllm/cards/pr-33839-kernel-perf-optimize-nccl-symm-mem-vs-cu.md
+PR #6996 | [Kernel] Tuned int8 Cutlass Kernels for SM75 (T4) | pack=data/cards-workdir/vllm/packs/pr-6996.pack.md | out=index/vllm/cards/pr-6996-kernel-tuned-int8-cutlass-kernels-for-sm.md
+PR #21476 | [Perf] Cuda Kernel for Int8 Per Token Group Quant, 15x faster compared with triton | pack=data/cards-workdir/vllm/packs/pr-21476.pack.md | out=index/vllm/cards/pr-21476-perf-cuda-kernel-for-int8-per-token-grou.md
+PR #32619 | [Perf] Create TMA-aligned input scale tensor for DeepGemm on Hopper | pack=data/cards-workdir/vllm/packs/pr-32619.pack.md | out=index/vllm/cards/pr-32619-perf-create-tma-aligned-input-scale-tens.md
+PR #63638 | [Perf][Kimi K3] Opt-in KV-balanced FP8 MLA decode for agentic workloads | pack=data/cards-workdir/vllm/packs/pr-63638.pack.md | out=index/vllm/cards/pr-63638-perf-kimi-k3-opt-in-kv-balanced-fp8-mla.md
+PR #56568 | [Perf][DSV4.1] Pad shared experts for native MegaMoE fusion | pack=data/cards-workdir/vllm/packs/pr-56568.pack.md | out=index/vllm/cards/pr-56568-perf-dsv4-1-pad-shared-experts-for-nativ.md
+PR #64064 | [ROCm][Model] Enable ROCm AITER unified attention for MiMo-V2.6 | pack=data/cards-workdir/vllm/packs/pr-64064.pack.md | out=index/vllm/cards/pr-64064-rocm-model-enable-rocm-aiter-unified-att.md

@@ -1,0 +1,43 @@
+{
+  "repo": "vllm",
+  "category": "MoE",
+  "count": 6,
+  "prs": [
+    {
+      "number": 62366,
+      "title": "[Model][Perf] Fuse Beam's TP all-reduce with its sandwich norms and MoE finalize",
+      "pack": "data/cards-workdir/vllm/packs/pr-62366.pack.md",
+      "card_out": "index/vllm/cards/pr-62366-<slug>.md"
+    },
+    {
+      "number": 62763,
+      "title": "[Perf][MoE] Add H200 FP8 fused MoE config for Beam-1.0 TP8",
+      "pack": "data/cards-workdir/vllm/packs/pr-62763.pack.md",
+      "card_out": "index/vllm/cards/pr-62763-<slug>.md"
+    },
+    {
+      "number": 63076,
+      "title": "[ROCm][Perf] Triton sigmoid+bias top-k when MoE grouping eliminates nothing",
+      "pack": "data/cards-workdir/vllm/packs/pr-63076.pack.md",
+      "card_out": "index/vllm/cards/pr-63076-<slug>.md"
+    },
+    {
+      "number": 64352,
+      "title": "[Model Loader] Direct reload: reset MoE expert padding at begin",
+      "pack": "data/cards-workdir/vllm/packs/pr-64352.pack.md",
+      "card_out": "index/vllm/cards/pr-64352-<slug>.md"
+    },
+    {
+      "number": 64378,
+      "title": "[ROCm][Quantization] NVFP4 MoE re-quantization and fused shared experts through online quantization",
+      "pack": "data/cards-workdir/vllm/packs/pr-64378.pack.md",
+      "card_out": "index/vllm/cards/pr-64378-<slug>.md"
+    },
+    {
+      "number": 65498,
+      "title": "[Perf][MoE] Skip the combine staging copy in flashinfer_nvlink_one_sided",
+      "pack": "data/cards-workdir/vllm/packs/pr-65498.pack.md",
+      "card_out": "index/vllm/cards/pr-65498-<slug>.md"
+    }
+  ]
+}

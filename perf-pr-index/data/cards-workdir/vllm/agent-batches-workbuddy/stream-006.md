@@ -1,0 +1,12 @@
+PR #39315 | [Bugfix] FlashInfer MXINT4 MoE crashes, missing do_finalize | pack=data/cards-workdir/vllm/packs/pr-39315.pack.md | out=index/vllm/cards/pr-39315-bugfix-flashinfer-mxint4-moe-crashes-mis.md
+PR #50904 | [GLM Perf] DSv32/glm use skip topk for MTP case, 2.0x kernel performance improvement | pack=data/cards-workdir/vllm/packs/pr-50904.pack.md | out=index/vllm/cards/pr-50904-glm-perf-dsv32-glm-use-skip-topk-for-mtp.md
+PR #58586 | [Kernel][DSV4.1] Fuse MoE finalize into the TP all-reduce + mHC boundary | pack=data/cards-workdir/vllm/packs/pr-58586.pack.md | out=index/vllm/cards/pr-58586-kernel-dsv4-1-fuse-moe-finalize-into-the.md
+PR #64111 | [New Model] Add MiniMax-M3.1-Flash Model and Kernels | pack=data/cards-workdir/vllm/packs/pr-64111.pack.md | out=index/vllm/cards/pr-64111-new-model-add-minimax-m3-1-flash-model-a.md
+PR #50298 | [DSv4 Perf] Remove redundant full kernel for dsv4, 1.88x kernel performance improvement | pack=data/cards-workdir/vllm/packs/pr-50298.pack.md | out=index/vllm/cards/pr-50298-dsv4-perf-remove-redundant-full-kernel-f.md
+PR #61293 | [MoE] Shape-based padding for FlashInfer TRT-LLM MXFP8 experts (gated and non-gated) | pack=data/cards-workdir/vllm/packs/pr-61293.pack.md | out=index/vllm/cards/pr-61293-moe-shape-based-padding-for-flashinfer-t.md
+PR #60692 | [Spec Decode] Skip metadata build for dflash/dspark when all model backends support it | pack=data/cards-workdir/vllm/packs/pr-60692.pack.md | out=index/vllm/cards/pr-60692-spec-decode-skip-metadata-build-for-dfla.md
+PR #50019 | Enable ModelOpt FP8 emulation on SM80 | pack=data/cards-workdir/vllm/packs/pr-50019.pack.md | out=index/vllm/cards/pr-50019-enable-modelopt-fp8-emulation-on-sm80.md
+PR #12637 | Apply torch.compile to fused_moe/grouped_topk | pack=data/cards-workdir/vllm/packs/pr-12637.pack.md | out=index/vllm/cards/pr-12637-apply-torch-compile-to-fused-moe-grouped.md
+PR #23198 | [kernel] Support W4A8 on Hopper | pack=data/cards-workdir/vllm/packs/pr-23198.pack.md | out=index/vllm/cards/pr-23198-kernel-support-w4a8-on-hopper.md
+PR #24722 | [Kernel][Quantization] add w4a8 support for marlin kernel | pack=data/cards-workdir/vllm/packs/pr-24722.pack.md | out=index/vllm/cards/pr-24722-kernel-quantization-add-w4a8-support-for.md
+PR #34644 | [release 2.11] Update to torch 2.11 | pack=data/cards-workdir/vllm/packs/pr-34644.pack.md | out=index/vllm/cards/pr-34644-release-2-11-update-to-torch-2-11.md

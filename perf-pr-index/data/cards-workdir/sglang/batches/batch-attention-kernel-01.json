@@ -1,0 +1,247 @@
+{
+  "repo": "sglang",
+  "category": "Attention / Kernel",
+  "count": 40,
+  "prs": [
+    {
+      "number": 19775,
+      "title": "[GDN][Qwen3-Next][Qwen3.5] Fuse fused_gdn_gating and fused_recurrent_gated_delta_rule_update in verify_target",
+      "pack": "data/cards-workdir/sglang/packs/pr-19775.pack.md",
+      "card_out": "index/sglang/cards/pr-19775-<slug>.md"
+    },
+    {
+      "number": 20303,
+      "title": "bump fa4 to official released fa4 pkg",
+      "pack": "data/cards-workdir/sglang/packs/pr-20303.pack.md",
+      "card_out": "index/sglang/cards/pr-20303-<slug>.md"
+    },
+    {
+      "number": 20343,
+      "title": "HiSparse for Sparse Attention",
+      "pack": "data/cards-workdir/sglang/packs/pr-20343.pack.md",
+      "card_out": "index/sglang/cards/pr-20343-<slug>.md"
+    },
+    {
+      "number": 20391,
+      "title": "Add offline auto-tuning for LoRA CSGMV kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-20391.pack.md",
+      "card_out": "index/sglang/cards/pr-20391-<slug>.md"
+    },
+    {
+      "number": 20395,
+      "title": "[Diffusion] Opt qwen-image-edit with fuse_residual_layernorm_scale_shift_gate_select01_kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-20395.pack.md",
+      "card_out": "index/sglang/cards/pr-20395-<slug>.md"
+    },
+    {
+      "number": 20501,
+      "title": "[Kernel] Fuse temperature + softmax in sampling for decode speedup",
+      "pack": "data/cards-workdir/sglang/packs/pr-20501.pack.md",
+      "card_out": "index/sglang/cards/pr-20501-<slug>.md"
+    },
+    {
+      "number": 20778,
+      "title": "[FlashAttn] Add fused triton kernel for normal_decode_set_metadata",
+      "pack": "data/cards-workdir/sglang/packs/pr-20778.pack.md",
+      "card_out": "index/sglang/cards/pr-20778-<slug>.md"
+    },
+    {
+      "number": 21019,
+      "title": "[Qwen3.5] Fuse split/reshape/cat ops in GDN projection with Triton kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-21019.pack.md",
+      "card_out": "index/sglang/cards/pr-21019-<slug>.md"
+    },
+    {
+      "number": 21440,
+      "title": "[Diffusion] Add qknorm rope fuse kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-21440.pack.md",
+      "card_out": "index/sglang/cards/pr-21440-<slug>.md"
+    },
+    {
+      "number": 21986,
+      "title": "[AMD] Simplify fused allreduce + RMSNorm and remove hidden_dim allowlist",
+      "pack": "data/cards-workdir/sglang/packs/pr-21986.pack.md",
+      "card_out": "index/sglang/cards/pr-21986-<slug>.md"
+    },
+    {
+      "number": 22424,
+      "title": "[AMD] Use aiter CK layernorm2d for LayerNorm to reduce NSA indexer kernel launches",
+      "pack": "data/cards-workdir/sglang/packs/pr-22424.pack.md",
+      "card_out": "index/sglang/cards/pr-22424-<slug>.md"
+    },
+    {
+      "number": 22850,
+      "title": "[AMD] Reduce NSA indexer kernels (weights_proj,  k-cache store kernel fusion)",
+      "pack": "data/cards-workdir/sglang/packs/pr-22850.pack.md",
+      "card_out": "index/sglang/cards/pr-22850-<slug>.md"
+    },
+    {
+      "number": 22851,
+      "title": "[FlashInfer v0.6.10] [RL] [DSv32] [GLM-5] Add `--dsa-topk-backend` and integrate FlashInfer and pytorch topk",
+      "pack": "data/cards-workdir/sglang/packs/pr-22851.pack.md",
+      "card_out": "index/sglang/cards/pr-22851-<slug>.md"
+    },
+    {
+      "number": 22868,
+      "title": "[Apple Silicon] Add custom Metal RoPE kernel with fused KV cache store",
+      "pack": "data/cards-workdir/sglang/packs/pr-22868.pack.md",
+      "card_out": "index/sglang/cards/pr-22868-<slug>.md"
+    },
+    {
+      "number": 23402,
+      "title": "Reenable MNNVL backend for FlashInfer allreduce fusion",
+      "pack": "data/cards-workdir/sglang/packs/pr-23402.pack.md",
+      "card_out": "index/sglang/cards/pr-23402-<slug>.md"
+    },
+    {
+      "number": 24271,
+      "title": "[KDA] Optimize prefill kernels with diagonal and recompute fuse",
+      "pack": "data/cards-workdir/sglang/packs/pr-24271.pack.md",
+      "card_out": "index/sglang/cards/pr-24271-<slug>.md"
+    },
+    {
+      "number": 24930,
+      "title": "amd/deepseek_v4 integration 16/N Triton sparse MLA kernel 0508",
+      "pack": "data/cards-workdir/sglang/packs/pr-24930.pack.md",
+      "card_out": "index/sglang/cards/pr-24930-<slug>.md"
+    },
+    {
+      "number": 25090,
+      "title": "[AMD] Support triton backend decode context parallel for Qwen3.5",
+      "pack": "data/cards-workdir/sglang/packs/pr-25090.pack.md",
+      "card_out": "index/sglang/cards/pr-25090-<slug>.md"
+    },
+    {
+      "number": 25418,
+      "title": "integrate flash_mla_sparse_fwd",
+      "pack": "data/cards-workdir/sglang/packs/pr-25418.pack.md",
+      "card_out": "index/sglang/cards/pr-25418-<slug>.md"
+    },
+    {
+      "number": 25702,
+      "title": "Use pack topk ids triton kernel for flashinfer_trtllm_routed",
+      "pack": "data/cards-workdir/sglang/packs/pr-25702.pack.md",
+      "card_out": "index/sglang/cards/pr-25702-<slug>.md"
+    },
+    {
+      "number": 25860,
+      "title": "add git gemm warpper for dispatch_bf16_fp32_backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-25860.pack.md",
+      "card_out": "index/sglang/cards/pr-25860-<slug>.md"
+    },
+    {
+      "number": 25976,
+      "title": "[DeepSeek-V4] Add mhc_fused_post_pre kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-25976.pack.md",
+      "card_out": "index/sglang/cards/pr-25976-<slug>.md"
+    },
+    {
+      "number": 26045,
+      "title": "Apply apply_group_norm_silu to LTX-2 latent upsampler",
+      "pack": "data/cards-workdir/sglang/packs/pr-26045.pack.md",
+      "card_out": "index/sglang/cards/pr-26045-<slug>.md"
+    },
+    {
+      "number": 26200,
+      "title": "[GDN] Support SM100 CuTeDSL GDN Prefill Kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-26200.pack.md",
+      "card_out": "index/sglang/cards/pr-26200-<slug>.md"
+    },
+    {
+      "number": 26206,
+      "title": "[GDN] Optimize prefill QKV split dispatch",
+      "pack": "data/cards-workdir/sglang/packs/pr-26206.pack.md",
+      "card_out": "index/sglang/cards/pr-26206-<slug>.md"
+    },
+    {
+      "number": 26272,
+      "title": "amd/deepseek_v4 33/N remove BF16-to-FP32 elementwise cast from compressor GEMM on HIP",
+      "pack": "data/cards-workdir/sglang/packs/pr-26272.pack.md",
+      "card_out": "index/sglang/cards/pr-26272-<slug>.md"
+    },
+    {
+      "number": 26722,
+      "title": "amd/deepseek_v4 35/N refactor Triton sparse MLA decode dispatch kernel to always run in a fused kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-26722.pack.md",
+      "card_out": "index/sglang/cards/pr-26722-<slug>.md"
+    },
+    {
+      "number": 26894,
+      "title": "[AMD] Fuse compress norm+rope+hadamard into single Triton kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-26894.pack.md",
+      "card_out": "index/sglang/cards/pr-26894-<slug>.md"
+    },
+    {
+      "number": 27096,
+      "title": "[diffusion] Cosmos3 fused qknorm rope",
+      "pack": "data/cards-workdir/sglang/packs/pr-27096.pack.md",
+      "card_out": "index/sglang/cards/pr-27096-<slug>.md"
+    },
+    {
+      "number": 27455,
+      "title": "[SM120] Add FlashInfer sparse MLA decode for DSv4-Flash",
+      "pack": "data/cards-workdir/sglang/packs/pr-27455.pack.md",
+      "card_out": "index/sglang/cards/pr-27455-<slug>.md"
+    },
+    {
+      "number": 27705,
+      "title": "Fuse the DSA (V3.2, GLM-5.x) indexer Q/K paths into single kernels",
+      "pack": "data/cards-workdir/sglang/packs/pr-27705.pack.md",
+      "card_out": "index/sglang/cards/pr-27705-<slug>.md"
+    },
+    {
+      "number": 27928,
+      "title": "[AMD] Feat: Add prefill context parallel support for deepseek v4 unified kv attention",
+      "pack": "data/cards-workdir/sglang/packs/pr-27928.pack.md",
+      "card_out": "index/sglang/cards/pr-27928-<slug>.md"
+    },
+    {
+      "number": 27954,
+      "title": "[dsv4] Pad MLA decode q-heads to 64 (not full n_heads) for FlashMLA head64 kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-27954.pack.md",
+      "card_out": "index/sglang/cards/pr-27954-<slug>.md"
+    },
+    {
+      "number": 28265,
+      "title": "[AMD] refactor sparse MLA decode kernel for Deepseek V4 triton backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-28265.pack.md",
+      "card_out": "index/sglang/cards/pr-28265-<slug>.md"
+    },
+    {
+      "number": 28451,
+      "title": "[GDN][KDA] ReplaySSM buffered output-only decode for Linear Attention",
+      "pack": "data/cards-workdir/sglang/packs/pr-28451.pack.md",
+      "card_out": "index/sglang/cards/pr-28451-<slug>.md"
+    },
+    {
+      "number": 29472,
+      "title": "[KDA] Add FlashKDA prefill backend for safe-gate KDA linear attention",
+      "pack": "data/cards-workdir/sglang/packs/pr-29472.pack.md",
+      "card_out": "index/sglang/cards/pr-29472-<slug>.md"
+    },
+    {
+      "number": 29664,
+      "title": "[Diffusion] Reuse shared AlignedVector and tidy jit_kernel/diffusion",
+      "pack": "data/cards-workdir/sglang/packs/pr-29664.pack.md",
+      "card_out": "index/sglang/cards/pr-29664-<slug>.md"
+    },
+    {
+      "number": 29677,
+      "title": "[AMD] perf: compact Triton extend-attention for ragged prefill (AMD/HIP-only)",
+      "pack": "data/cards-workdir/sglang/packs/pr-29677.pack.md",
+      "card_out": "index/sglang/cards/pr-29677-<slug>.md"
+    },
+    {
+      "number": 29702,
+      "title": "Fix wrong RMSNorm fallback to old Flashinfer CUDA kernel when in PCG",
+      "pack": "data/cards-workdir/sglang/packs/pr-29702.pack.md",
+      "card_out": "index/sglang/cards/pr-29702-<slug>.md"
+    },
+    {
+      "number": 29708,
+      "title": "[KDA-Pilot] Add LTX2 QKNorm split-RoPE CUDA fast path",
+      "pack": "data/cards-workdir/sglang/packs/pr-29708.pack.md",
+      "card_out": "index/sglang/cards/pr-29708-<slug>.md"
+    }
+  ]
+}

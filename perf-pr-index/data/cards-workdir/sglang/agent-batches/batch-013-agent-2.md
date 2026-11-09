@@ -1,0 +1,5 @@
+PR #13102 | [AMD] Add AITER Custom All-Reduce | pack=data/cards-workdir/sglang/packs/pr-13102.pack.md | out=index/sglang/cards/pr-13102-amd-add-aiter-custom-all-reduce.md
+PR #33471 | runtime: Add flashinfer rmsnorm + quant fusion support SM90, SM100, SM120- #32994 | pack=data/cards-workdir/sglang/packs/pr-33471.pack.md | out=index/sglang/cards/pr-33471-runtime-add-flashinfer-rmsnorm-quant-fus.md
+PR #8940 | Improve LoRA Perf by Deprecating FlashInfer and Eliminating Redundant Tensor Ops | pack=data/cards-workdir/sglang/packs/pr-8940.pack.md | out=index/sglang/cards/pr-8940-improve-lora-perf-by-deprecating-flashin.md
+PR #13640 | [VLM] Support Piecewise CUDA Graph for InternVL | pack=data/cards-workdir/sglang/packs/pr-13640.pack.md | out=index/sglang/cards/pr-13640-vlm-support-piecewise-cuda-graph-for-int.md
+PR #32616 | [JIT] Restore the previous division behavior in per-token group quantization | pack=data/cards-workdir/sglang/packs/pr-32616.pack.md | out=index/sglang/cards/pr-32616-jit-restore-the-previous-division-behavi.md

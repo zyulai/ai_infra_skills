@@ -1,0 +1,17 @@
+PR #45978 | [Perf] diffusion: Keep every component resident in auto mode when memory allows | pack=data/cards-workdir/sglang/packs/pr-45978.pack.md | out=index/sglang/cards/pr-45978-perf-diffusion-keep-every-component-resi.md
+PR #46184 | [Perf] mamba: write the deduplicated conv verify window as one tile | pack=data/cards-workdir/sglang/packs/pr-46184.pack.md | out=index/sglang/cards/pr-46184-perf-mamba-write-the-deduplicated-conv-v.md
+PR #46263 | [Perf] [NVIDIA] deepseek-v4.1: Default aggregated servers to MegaAttention only when each rank holds 64 query heads | pack=data/cards-workdir/sglang/packs/pr-46263.pack.md | out=index/sglang/cards/pr-46263-perf-nvidia-deepseek-v4-1-default-aggreg.md
+PR #35314 | Support deepseek v4 and kimi k3 on ssd | pack=data/cards-workdir/sglang/packs/pr-35314.pack.md | out=index/sglang/cards/pr-35314-support-deepseek-v4-and-kimi-k3-on-ssd.md
+PR #40556 | [DeepSeek V4.1] Add DeepSelect JIT kernel. | pack=data/cards-workdir/sglang/packs/pr-40556.pack.md | out=index/sglang/cards/pr-40556-deepseek-v4-1-add-deepselect-jit-kernel.md
+PR #9748 | [Generative Score API] Scoring(Prefill-only) optimizations. | pack=data/cards-workdir/sglang/packs/pr-9748.pack.md | out=index/sglang/cards/pr-9748-generative-score-api-scoring-prefill-onl.md
+PR #40708 | [Perf] [AMD] qwen3.5: Route 512-expert softmax MoE routing through aiter topk_gating | pack=data/cards-workdir/sglang/packs/pr-40708.pack.md | out=index/sglang/cards/pr-40708-perf-amd-qwen3-5-route-512-expert-softma.md
+PR #37413 | [AMD][DSV4] feat: enable fp8 two-pool unified_kv on gfx950 | pack=data/cards-workdir/sglang/packs/pr-37413.pack.md | out=index/sglang/cards/pr-37413-amd-dsv4-feat-enable-fp8-two-pool-unifie.md
+PR #39931 | [ROCm] topk v2: split one long row across blocks, the CDNA cluster-path equivalent | pack=data/cards-workdir/sglang/packs/pr-39931.pack.md | out=index/sglang/cards/pr-39931-rocm-topk-v2-split-one-long-row-across-b.md
+PR #25702 | Use pack topk ids triton kernel for flashinfer_trtllm_routed | pack=data/cards-workdir/sglang/packs/pr-25702.pack.md | out=index/sglang/cards/pr-25702-use-pack-topk-ids-triton-kernel-for-flas.md
+PR #43563 | [Fix] Account for captured inputs in DeepGEMM masked workspace budget | pack=data/cards-workdir/sglang/packs/pr-43563.pack.md | out=index/sglang/cards/pr-43563-fix-account-for-captured-inputs-in-deepg.md
+PR #9671 | Optimized deepseek-v3/r1 model performance on mxfp4 run | pack=data/cards-workdir/sglang/packs/pr-9671.pack.md | out=index/sglang/cards/pr-9671-optimized-deepseek-v3-r1-model-performan.md
+PR #11398 | Beta spec-overlap for EAGLE | pack=data/cards-workdir/sglang/packs/pr-11398.pack.md | out=index/sglang/cards/pr-11398-beta-spec-overlap-for-eagle.md
+PR #15526 | Optimize Bailing-MoE with FlashInfer Fused All-Reduce | pack=data/cards-workdir/sglang/packs/pr-15526.pack.md | out=index/sglang/cards/pr-15526-optimize-bailing-moe-with-flashinfer-fus.md
+PR #15904 | [NPU] NZ for non-quantized MOE, Qwen3 MOE double memory consumption fix | pack=data/cards-workdir/sglang/packs/pr-15904.pack.md | out=index/sglang/cards/pr-15904-npu-nz-for-non-quantized-moe-qwen3-moe-d.md
+PR #22077 | [Feature] Add DFLASH speculative decoding support | pack=data/cards-workdir/sglang/packs/pr-22077.pack.md | out=index/sglang/cards/pr-22077-feature-add-dflash-speculative-decoding.md
+PR #33824 | [Simulator] Add high-fidelity CPU-based inference simulator | pack=data/cards-workdir/sglang/packs/pr-33824.pack.md | out=index/sglang/cards/pr-33824-simulator-add-high-fidelity-cpu-based-in.md

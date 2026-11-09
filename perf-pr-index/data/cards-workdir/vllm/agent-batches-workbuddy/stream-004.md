@@ -1,0 +1,12 @@
+PR #56633 | [Perf][DSv4.1] Fold the mHC post block into the delayed pre projection | pack=data/cards-workdir/vllm/packs/pr-56633.pack.md | out=index/vllm/cards/pr-56633-perf-dsv4-1-fold-the-mhc-post-block-into.md
+PR #6210 | [Kernel] reloading fused_moe config on the last chunk | pack=data/cards-workdir/vllm/packs/pr-6210.pack.md | out=index/vllm/cards/pr-6210-kernel-reloading-fused-moe-config-on-the.md
+PR #9245 | [Kernel] adding fused moe kernel config for L40S TP4 | pack=data/cards-workdir/vllm/packs/pr-9245.pack.md | out=index/vllm/cards/pr-9245-kernel-adding-fused-moe-kernel-config-fo.md
+PR #35777 | [Kernel] Add fused_sigmoid_gating_delta_rule_update kernel for Qwen3 Next | pack=data/cards-workdir/vllm/packs/pr-35777.pack.md | out=index/vllm/cards/pr-35777-kernel-add-fused-sigmoid-gating-delta-ru.md
+PR #57640 | [ROCm][Kimi-K3][Perf] Fuse MLA decode KV-cache write and Q-prep via AITER | pack=data/cards-workdir/vllm/packs/pr-57640.pack.md | out=index/vllm/cards/pr-57640-rocm-kimi-k3-perf-fuse-mla-decode-kv-cac.md
+PR #63864 | [Perf] Tune the Triton packed GDN decode tile on SM90 | pack=data/cards-workdir/vllm/packs/pr-63864.pack.md | out=index/vllm/cards/pr-63864-perf-tune-the-triton-packed-gdn-decode-t.md
+PR #62956 | [Perf][glm5next] Add SM121 TP=2 skinny-GEMM plans for GLM-5.3-Flash | pack=data/cards-workdir/vllm/packs/pr-62956.pack.md | out=index/vllm/cards/pr-62956-perf-glm5next-add-sm121-tp-2-skinny-gemm.md
+PR #50268 |  [Hardware][AMD] Enable fused bf16→fp32 router GEMM on ROCm | pack=data/cards-workdir/vllm/packs/pr-50268.pack.md | out=index/vllm/cards/pr-50268-hardware-amd-enable-fused-bf16-fp32-rout.md
+PR #58510 | [ROCm][Perf] MXFP8 GEMM on native 32x32 block scales for gfx950 | pack=data/cards-workdir/vllm/packs/pr-58510.pack.md | out=index/vllm/cards/pr-58510-rocm-perf-mxfp8-gemm-on-native-32x32-blo.md
+PR #18608 | [V1][Sampler] Improve performance of FlashInfer sampling by sampling logits instead of probs | pack=data/cards-workdir/vllm/packs/pr-18608.pack.md | out=index/vllm/cards/pr-18608-v1-sampler-improve-performance-of-flashi.md
+PR #10785 | [Core][Performance] Add XGrammar support for guided decoding and set it as default | pack=data/cards-workdir/vllm/packs/pr-10785.pack.md | out=index/vllm/cards/pr-10785-core-performance-add-xgrammar-support-fo.md
+PR #24799 | [Core] Async Scheduling X Spec Decoding Compatibility | pack=data/cards-workdir/vllm/packs/pr-24799.pack.md | out=index/vllm/cards/pr-24799-core-async-scheduling-x-spec-decoding-co.md

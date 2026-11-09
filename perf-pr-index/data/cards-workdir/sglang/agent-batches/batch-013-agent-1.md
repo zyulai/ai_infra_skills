@@ -1,0 +1,5 @@
+PR #29735 | [GDN] Support FlashInfer GDN prefill with extra-buffer radix cache | pack=data/cards-workdir/sglang/packs/pr-29735.pack.md | out=index/sglang/cards/pr-29735-gdn-support-flashinfer-gdn-prefill-with.md
+PR #48174 | [Perf] [NVIDIA] moe: Re-land the JIT moe_finalize_fuse_shared with the shared row read after the PDL wait | pack=data/cards-workdir/sglang/packs/pr-48174.pack.md | out=index/sglang/cards/pr-48174-perf-nvidia-moe-re-land-the-jit-moe-fina.md
+PR #39130 | Add triton autotune on the Mamba2 SSD kernels | pack=data/cards-workdir/sglang/packs/pr-39130.pack.md | out=index/sglang/cards/pr-39130-add-triton-autotune-on-the-mamba2-ssd-ke.md
+PR #31430 | Remove unused draft-extend CUDA graph top-k | pack=data/cards-workdir/sglang/packs/pr-31430.pack.md | out=index/sglang/cards/pr-31430-remove-unused-draft-extend-cuda-graph-to.md
+PR #31041 | [Spec] Add LFM2 and LFM2-MoE DSpark speculative decoding support | pack=data/cards-workdir/sglang/packs/pr-31041.pack.md | out=index/sglang/cards/pr-31041-spec-add-lfm2-and-lfm2-moe-dspark-specul.md

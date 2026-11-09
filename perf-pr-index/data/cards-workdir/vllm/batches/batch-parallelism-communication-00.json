@@ -1,0 +1,49 @@
+{
+  "repo": "vllm",
+  "category": "Parallelism / Communication",
+  "count": 7,
+  "prs": [
+    {
+      "number": 5091,
+      "title": "[Core][Optimization] remove vllm-nccl",
+      "pack": "data/cards-workdir/vllm/packs/pr-5091.pack.md",
+      "card_out": "index/vllm/cards/pr-5091-<slug>.md"
+    },
+    {
+      "number": 20759,
+      "title": "[PERF] PyTorch Symmetric Memory All-Reduce",
+      "pack": "data/cards-workdir/vllm/packs/pr-20759.pack.md",
+      "card_out": "index/vllm/cards/pr-20759-<slug>.md"
+    },
+    {
+      "number": 24248,
+      "title": "[PERF] Allreduce fusion. Support torch native matching. Tuning of the thresholds",
+      "pack": "data/cards-workdir/vllm/packs/pr-24248.pack.md",
+      "card_out": "index/vllm/cards/pr-24248-<slug>.md"
+    },
+    {
+      "number": 24532,
+      "title": "[core] add nccl symmetric memory for all reduce",
+      "pack": "data/cards-workdir/vllm/packs/pr-24532.pack.md",
+      "card_out": "index/vllm/cards/pr-24532-<slug>.md"
+    },
+    {
+      "number": 32104,
+      "title": "Add tensor IPC transfer mechanism for multimodal data",
+      "pack": "data/cards-workdir/vllm/packs/pr-32104.pack.md",
+      "card_out": "index/vllm/cards/pr-32104-<slug>.md"
+    },
+    {
+      "number": 32792,
+      "title": "[CPU Backend] [Perf] Accelerate tensor-parallel inference across NUMA domains on Arm",
+      "pack": "data/cards-workdir/vllm/packs/pr-32792.pack.md",
+      "card_out": "index/vllm/cards/pr-32792-<slug>.md"
+    },
+    {
+      "number": 47631,
+      "title": "[Perf] Minimax M3 - Support cross-layer allreduce-norm fusion",
+      "pack": "data/cards-workdir/vllm/packs/pr-47631.pack.md",
+      "card_out": "index/vllm/cards/pr-47631-<slug>.md"
+    }
+  ]
+}

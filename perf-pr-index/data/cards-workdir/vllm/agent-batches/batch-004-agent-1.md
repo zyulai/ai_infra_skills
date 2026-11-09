@@ -1,0 +1,17 @@
+PR #51012 | [Models] Deprecate `torch.compile` for Qwen3.5 models | pack=data/cards-workdir/vllm/packs/pr-51012.pack.md | out=index/vllm/cards/pr-51012-models-deprecate-torch-compile-for-qwen3.md
+PR #55330 | [Kernel][Perf] Register-resident path for per-token-group 8-bit quant | pack=data/cards-workdir/vllm/packs/pr-55330.pack.md | out=index/vllm/cards/pr-55330-kernel-perf-register-resident-path-for-p.md
+PR #64815 | [Perf][MXFP8] Keep DeepSeek-V4.1 fusions on the torch._scaled_mm kernel | pack=data/cards-workdir/vllm/packs/pr-64815.pack.md | out=index/vllm/cards/pr-64815-perf-mxfp8-keep-deepseek-v4-1-fusions-on.md
+PR #49571 | [Hardware][Power] Add FAST_EXP for Power | pack=data/cards-workdir/vllm/packs/pr-49571.pack.md | out=index/vllm/cards/pr-49571-hardware-power-add-fast-exp-for-power.md
+PR #14431 | [Kernel] [V1] Further optimizations to ROCm (Triton) Backend to better handle GQA. | pack=data/cards-workdir/vllm/packs/pr-14431.pack.md | out=index/vllm/cards/pr-14431-kernel-v1-further-optimizations-to-rocm.md
+PR #14930 | [V1][Spec Decode] Optimize Rejection Sampler with Triton Kernels | pack=data/cards-workdir/vllm/packs/pr-14930.pack.md | out=index/vllm/cards/pr-14930-v1-spec-decode-optimize-rejection-sample.md
+PR #16173 | [Kernel] support merge_attn_states CUDA kernel, 3x speedup | pack=data/cards-workdir/vllm/packs/pr-16173.pack.md | out=index/vllm/cards/pr-16173-kernel-support-merge-attn-states-cuda-ke.md
+PR #36723 | [DSV3.2][MTP] Optimize Indexer MTP handling | pack=data/cards-workdir/vllm/packs/pr-36723.pack.md | out=index/vllm/cards/pr-36723-dsv3-2-mtp-optimize-indexer-mtp-handling.md
+PR #42143 | fix(eagle3): read norm_before_fc from eagle_config for NVIDIA checkpoint | pack=data/cards-workdir/vllm/packs/pr-42143.pack.md | out=index/vllm/cards/pr-42143-fix-eagle3-read-norm-before-fc-from-eagl.md
+PR #53183 | [Model Runner V2] Use MRV2 for all models by default | pack=data/cards-workdir/vllm/packs/pr-53183.pack.md | out=index/vllm/cards/pr-53183-model-runner-v2-use-mrv2-for-all-models.md
+PR #53280 | [Kernel][MoE] Optimize batched_moe_align_block_size with cooperative writes | pack=data/cards-workdir/vllm/packs/pr-53280.pack.md | out=index/vllm/cards/pr-53280-kernel-moe-optimize-batched-moe-align-bl.md
+PR #57995 | [Perf][MoE] Support fp8 combine in FlashInfer one-sided MoE all2all | pack=data/cards-workdir/vllm/packs/pr-57995.pack.md | out=index/vllm/cards/pr-57995-perf-moe-support-fp8-combine-in-flashinf.md
+PR #60644 | [ROCm][RDNA][Perf] W4A16: packed fp16 prefill dequant and tiles for gfx1151 | pack=data/cards-workdir/vllm/packs/pr-60644.pack.md | out=index/vllm/cards/pr-60644-rocm-rdna-perf-w4a16-packed-fp16-prefill.md
+PR #62784 | [Spec Decode][MRV2] Skip drafting in steps where no request can use the drafts | pack=data/cards-workdir/vllm/packs/pr-62784.pack.md | out=index/vllm/cards/pr-62784-spec-decode-mrv2-skip-drafting-in-steps.md
+PR #61867 | [Perf] Kimi K3 Specialized Decode: CuTeDSL Optimized GB300 (1.5-2x) | pack=data/cards-workdir/vllm/packs/pr-61867.pack.md | out=index/vllm/cards/pr-61867-perf-kimi-k3-specialized-decode-cutedsl.md
+PR #7798 | [Core][Kernels] Use FlashInfer backend for FP8 KV Cache when available. | pack=data/cards-workdir/vllm/packs/pr-7798.pack.md | out=index/vllm/cards/pr-7798-core-kernels-use-flashinfer-backend-for.md
+PR #16850 | [Kernel] some optimizations for dense marlin and moe marlin | pack=data/cards-workdir/vllm/packs/pr-16850.pack.md | out=index/vllm/cards/pr-16850-kernel-some-optimizations-for-dense-marl.md

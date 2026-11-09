@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "Attention / Kernel",
+  "count": 40,
+  "prs": [
+    {
+      "number": 34109,
+      "title": "[Kernel] Refactor FlashInfer allreduce for mnnvl backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-34109.pack.md",
+      "card_out": "index/vllm/cards/pr-34109-<slug>.md"
+    },
+    {
+      "number": 34302,
+      "title": "[ModelBash][DSV3] Add TRTLLM DSV3 Router GEMM kernel (6% B1 Speedup)",
+      "pack": "data/cards-workdir/vllm/packs/pr-34302.pack.md",
+      "card_out": "index/vllm/cards/pr-34302-<slug>.md"
+    },
+    {
+      "number": 34580,
+      "title": "Flashinfer cuDNN backend for Qwen3 VL ViT attention",
+      "pack": "data/cards-workdir/vllm/packs/pr-34580.pack.md",
+      "card_out": "index/vllm/cards/pr-34580-<slug>.md"
+    },
+    {
+      "number": 34709,
+      "title": "[ROCm] Enable wvSplitK skinny GEMM kernel for RDNA4/gfx1x decode",
+      "pack": "data/cards-workdir/vllm/packs/pr-34709.pack.md",
+      "card_out": "index/vllm/cards/pr-34709-<slug>.md"
+    },
+    {
+      "number": 34732,
+      "title": "[Attention] Use FA4 for MLA prefill",
+      "pack": "data/cards-workdir/vllm/packs/pr-34732.pack.md",
+      "card_out": "index/vllm/cards/pr-34732-<slug>.md"
+    },
+    {
+      "number": 34917,
+      "title": "[Attention][Perf][Kernel] Replace torch.cat with vectorized CUDA kernel MLA query concat - DeepSeek-V3.2",
+      "pack": "data/cards-workdir/vllm/packs/pr-34917.pack.md",
+      "card_out": "index/vllm/cards/pr-34917-<slug>.md"
+    },
+    {
+      "number": 34924,
+      "title": "[Perf] Enable FlashInfer DeepGEMM swapAB on SM90 by default",
+      "pack": "data/cards-workdir/vllm/packs/pr-34924.pack.md",
+      "card_out": "index/vllm/cards/pr-34924-<slug>.md"
+    },
+    {
+      "number": 36162,
+      "title": "[Mamba] Flashinfer selective_state_update",
+      "pack": "data/cards-workdir/vllm/packs/pr-36162.pack.md",
+      "card_out": "index/vllm/cards/pr-36162-<slug>.md"
+    },
+    {
+      "number": 36559,
+      "title": "[Kernel] Add swap AB optimization to fused_moe_kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-36559.pack.md",
+      "card_out": "index/vllm/cards/pr-36559-<slug>.md"
+    },
+    {
+      "number": 36716,
+      "title": "[ROCm]: Update rope+kvcache fusion conditions and disable custom op by default",
+      "pack": "data/cards-workdir/vllm/packs/pr-36716.pack.md",
+      "card_out": "index/vllm/cards/pr-36716-<slug>.md"
+    },
+    {
+      "number": 37188,
+      "title": "[Performance] Enable Triton autotuning disk cache by default",
+      "pack": "data/cards-workdir/vllm/packs/pr-37188.pack.md",
+      "card_out": "index/vllm/cards/pr-37188-<slug>.md"
+    },
+    {
+      "number": 37205,
+      "title": "[Kernel] Add gpt-oss Router GEMM kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-37205.pack.md",
+      "card_out": "index/vllm/cards/pr-37205-<slug>.md"
+    },
+    {
+      "number": 37376,
+      "title": " fused qknorm+rope kernel optimization for SM9.0",
+      "pack": "data/cards-workdir/vllm/packs/pr-37376.pack.md",
+      "card_out": "index/vllm/cards/pr-37376-<slug>.md"
+    },
+    {
+      "number": 37683,
+      "title": "[Perf] Eliminate redundant SparseMatrix creation in gpt_oss_triton_kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-37683.pack.md",
+      "card_out": "index/vllm/cards/pr-37683-<slug>.md"
+    },
+    {
+      "number": 37948,
+      "title": "[Perf] triton bilinear_pos_embed kernel for ViT",
+      "pack": "data/cards-workdir/vllm/packs/pr-37948.pack.md",
+      "card_out": "index/vllm/cards/pr-37948-<slug>.md"
+    },
+    {
+      "number": 38445,
+      "title": "[PERF]MiniMax-M2 gate kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-38445.pack.md",
+      "card_out": "index/vllm/cards/pr-38445-<slug>.md"
+    },
+    {
+      "number": 38479,
+      "title": "[Attention Backend] TurboQuant: 2-bit KV cache compression with 4x capacity",
+      "pack": "data/cards-workdir/vllm/packs/pr-38479.pack.md",
+      "card_out": "index/vllm/cards/pr-38479-<slug>.md"
+    },
+    {
+      "number": 38928,
+      "title": "[Bugfix][Perf] Indexer upcast WK to BF16 for fusion",
+      "pack": "data/cards-workdir/vllm/packs/pr-38928.pack.md",
+      "card_out": "index/vllm/cards/pr-38928-<slug>.md"
+    },
+    {
+      "number": 39058,
+      "title": "[Kernel] Implement CUDA kernel for ReLUSquaredActivation (relu^2)",
+      "pack": "data/cards-workdir/vllm/packs/pr-39058.pack.md",
+      "card_out": "index/vllm/cards/pr-39058-<slug>.md"
+    },
+    {
+      "number": 39822,
+      "title": "[Hybrid] Warmup Mamba2 SSD kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-39822.pack.md",
+      "card_out": "index/vllm/cards/pr-39822-<slug>.md"
+    },
+    {
+      "number": 39904,
+      "title": "Add tuned triton fused_moe configs on H100 for gpt-oss",
+      "pack": "data/cards-workdir/vllm/packs/pr-39904.pack.md",
+      "card_out": "index/vllm/cards/pr-39904-<slug>.md"
+    },
+    {
+      "number": 40167,
+      "title": "[vLLM IR] Add IR op testing and benchmarking infrastructure",
+      "pack": "data/cards-workdir/vllm/packs/pr-40167.pack.md",
+      "card_out": "index/vllm/cards/pr-40167-<slug>.md"
+    },
+    {
+      "number": 40194,
+      "title": "[Attention] TurboQuant: remove redundant random signs, add prior art attribution",
+      "pack": "data/cards-workdir/vllm/packs/pr-40194.pack.md",
+      "card_out": "index/vllm/cards/pr-40194-<slug>.md"
+    },
+    {
+      "number": 40289,
+      "title": "[ROCm][ViT] Detect Triton-AMD kernels at their new aiter location",
+      "pack": "data/cards-workdir/vllm/packs/pr-40289.pack.md",
+      "card_out": "index/vllm/cards/pr-40289-<slug>.md"
+    },
+    {
+      "number": 40337,
+      "title": "[Perf] Integrate flash-maxsim Triton kernels for late-interaction scoring",
+      "pack": "data/cards-workdir/vllm/packs/pr-40337.pack.md",
+      "card_out": "index/vllm/cards/pr-40337-<slug>.md"
+    },
+    {
+      "number": 41394,
+      "title": "[Kernel][ROCm] Native W4A16 kernel for AMD RDNA3 (gfx1100) — fp16 + bf16",
+      "pack": "data/cards-workdir/vllm/packs/pr-41394.pack.md",
+      "card_out": "index/vllm/cards/pr-41394-<slug>.md"
+    },
+    {
+      "number": 41711,
+      "title": "[CI/Build] Bump flashinfer to v0.6.11.post2",
+      "pack": "data/cards-workdir/vllm/packs/pr-41711.pack.md",
+      "card_out": "index/vllm/cards/pr-41711-<slug>.md"
+    },
+    {
+      "number": 41751,
+      "title": "[ROCm] mori: add InterNodeV1LL inter-node kernel selection via VLLM_MORI_INTERNODE_KERNEL",
+      "pack": "data/cards-workdir/vllm/packs/pr-41751.pack.md",
+      "card_out": "index/vllm/cards/pr-41751-<slug>.md"
+    },
+    {
+      "number": 41778,
+      "title": "[MLA Attention Backend] Add TOKENSPEED_MLA backend for DSR1/Kimi K25 prefill + decode on Blackwell",
+      "pack": "data/cards-workdir/vllm/packs/pr-41778.pack.md",
+      "card_out": "index/vllm/cards/pr-41778-<slug>.md"
+    },
+    {
+      "number": 42175,
+      "title": "[Core][Model] Gemma4: Unified FA4 for all layers + FlashAttention mm_prefix support",
+      "pack": "data/cards-workdir/vllm/packs/pr-42175.pack.md",
+      "card_out": "index/vllm/cards/pr-42175-<slug>.md"
+    },
+    {
+      "number": 42191,
+      "title": "[Perf] Apply single-pass min_larger finding and binary search in Triton Top-p path.",
+      "pack": "data/cards-workdir/vllm/packs/pr-42191.pack.md",
+      "card_out": "index/vllm/cards/pr-42191-<slug>.md"
+    },
+    {
+      "number": 42555,
+      "title": "[Attention] Remove deprecated MLA prefill arguments",
+      "pack": "data/cards-workdir/vllm/packs/pr-42555.pack.md",
+      "card_out": "index/vllm/cards/pr-42555-<slug>.md"
+    },
+    {
+      "number": 42755,
+      "title": "[Model][Hardware][AMD][Kernel] Part 2/2 -> Enable e2e QK Norm + RoPE + KV Cache runtime fusion for Qwen3-30B-A3B on ROCM_ATTN",
+      "pack": "data/cards-workdir/vllm/packs/pr-42755.pack.md",
+      "card_out": "index/vllm/cards/pr-42755-<slug>.md"
+    },
+    {
+      "number": 43008,
+      "title": "[Perf][DSv4/DSv3.2] Add cluster-cooperative topK kernel for low-latency scenarios",
+      "pack": "data/cards-workdir/vllm/packs/pr-43008.pack.md",
+      "card_out": "index/vllm/cards/pr-43008-<slug>.md"
+    },
+    {
+      "number": 43083,
+      "title": "Tuning script and configs for Triton Mamba SSU kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-43083.pack.md",
+      "card_out": "index/vllm/cards/pr-43083-<slug>.md"
+    },
+    {
+      "number": 43273,
+      "title": "[GDN] GDN Prefill kernel for SM100",
+      "pack": "data/cards-workdir/vllm/packs/pr-43273.pack.md",
+      "card_out": "index/vllm/cards/pr-43273-<slug>.md"
+    },
+    {
+      "number": 43534,
+      "title": "[CPU][Perf] Enable fused kernels for GDN's gated delta rules",
+      "pack": "data/cards-workdir/vllm/packs/pr-43534.pack.md",
+      "card_out": "index/vllm/cards/pr-43534-<slug>.md"
+    },
+    {
+      "number": 44109,
+      "title": "[Kernel] Add weightless RMSNorm CUDA kernels for has_weight=False (#41430)",
+      "pack": "data/cards-workdir/vllm/packs/pr-44109.pack.md",
+      "card_out": "index/vllm/cards/pr-44109-<slug>.md"
+    },
+    {
+      "number": 44700,
+      "title": "[PERF] [Qwen3.5] Split mixed prefill+decode batches: route decodes to the recurrent kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-44700.pack.md",
+      "card_out": "index/vllm/cards/pr-44700-<slug>.md"
+    },
+    {
+      "number": 46076,
+      "title": "[Attention][DSA] support dcp for FLASHINFER_MLA_SPARSE",
+      "pack": "data/cards-workdir/vllm/packs/pr-46076.pack.md",
+      "card_out": "index/vllm/cards/pr-46076-<slug>.md"
+    }
+  ]
+}

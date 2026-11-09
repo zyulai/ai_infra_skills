@@ -1,0 +1,247 @@
+{
+  "repo": "sglang",
+  "category": "Speculative Decoding",
+  "count": 40,
+  "prs": [
+    {
+      "number": 2150,
+      "title": "Eagle speculative decoding part 4: Add EAGLE2 worker",
+      "pack": "data/cards-workdir/sglang/packs/pr-2150.pack.md",
+      "card_out": "index/sglang/cards/pr-2150-<slug>.md"
+    },
+    {
+      "number": 3582,
+      "title": "Support NextN (MTP) speculative decoding for DeepSeek-V3/R1",
+      "pack": "data/cards-workdir/sglang/packs/pr-3582.pack.md",
+      "card_out": "index/sglang/cards/pr-3582-<slug>.md"
+    },
+    {
+      "number": 3822,
+      "title": "[feat] add small vocab table for eagle's draft model[1].",
+      "pack": "data/cards-workdir/sglang/packs/pr-3822.pack.md",
+      "card_out": "index/sglang/cards/pr-3822-<slug>.md"
+    },
+    {
+      "number": 4218,
+      "title": "Support nextn for flashinfer mla attention backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-4218.pack.md",
+      "card_out": "index/sglang/cards/pr-4218-<slug>.md"
+    },
+    {
+      "number": 4247,
+      "title": "[Feature] Support EAGLE 3",
+      "pack": "data/cards-workdir/sglang/packs/pr-4247.pack.md",
+      "card_out": "index/sglang/cards/pr-4247-<slug>.md"
+    },
+    {
+      "number": 4680,
+      "title": "Support FA3 as Attention backend by using `--attention-backend fa3`",
+      "pack": "data/cards-workdir/sglang/packs/pr-4680.pack.md",
+      "card_out": "index/sglang/cards/pr-4680-<slug>.md"
+    },
+    {
+      "number": 6059,
+      "title": "Support XiaomiMiMo inference with mtp",
+      "pack": "data/cards-workdir/sglang/packs/pr-6059.pack.md",
+      "card_out": "index/sglang/cards/pr-6059-<slug>.md"
+    },
+    {
+      "number": 6081,
+      "title": "feat: mtp support dp-attention",
+      "pack": "data/cards-workdir/sglang/packs/pr-6081.pack.md",
+      "card_out": "index/sglang/cards/pr-6081-<slug>.md"
+    },
+    {
+      "number": 6109,
+      "title": "[Feat] Support FlashMLA backend with MTP and FP8 KV cache",
+      "pack": "data/cards-workdir/sglang/packs/pr-6109.pack.md",
+      "card_out": "index/sglang/cards/pr-6109-<slug>.md"
+    },
+    {
+      "number": 6606,
+      "title": "Support EAGLE draft extend CUDA graph ",
+      "pack": "data/cards-workdir/sglang/packs/pr-6606.pack.md",
+      "card_out": "index/sglang/cards/pr-6606-<slug>.md"
+    },
+    {
+      "number": 9873,
+      "title": "[Feature] Speculative decoding support lookahead",
+      "pack": "data/cards-workdir/sglang/packs/pr-9873.pack.md",
+      "card_out": "index/sglang/cards/pr-9873-<slug>.md"
+    },
+    {
+      "number": 10090,
+      "title": "Standalone speculative decoding",
+      "pack": "data/cards-workdir/sglang/packs/pr-10090.pack.md",
+      "card_out": "index/sglang/cards/pr-10090-<slug>.md"
+    },
+    {
+      "number": 10846,
+      "title": "Fix eagle radix cache",
+      "pack": "data/cards-workdir/sglang/packs/pr-10846.pack.md",
+      "card_out": "index/sglang/cards/pr-10846-<slug>.md"
+    },
+    {
+      "number": 11133,
+      "title": "[Feature] Qwen3-Next & FLA: Support MTP topk>1; Up to 6% faster",
+      "pack": "data/cards-workdir/sglang/packs/pr-11133.pack.md",
+      "card_out": "index/sglang/cards/pr-11133-<slug>.md"
+    },
+    {
+      "number": 11398,
+      "title": "Beta spec-overlap for EAGLE",
+      "pack": "data/cards-workdir/sglang/packs/pr-11398.pack.md",
+      "card_out": "index/sglang/cards/pr-11398-<slug>.md"
+    },
+    {
+      "number": 11730,
+      "title": "add tuned fuse moe kernel for qwen3 235b fp8 on h200",
+      "pack": "data/cards-workdir/sglang/packs/pr-11730.pack.md",
+      "card_out": "index/sglang/cards/pr-11730-<slug>.md"
+    },
+    {
+      "number": 12435,
+      "title": "perf: trtllm mla performance minor improvements",
+      "pack": "data/cards-workdir/sglang/packs/pr-12435.pack.md",
+      "card_out": "index/sglang/cards/pr-12435-<slug>.md"
+    },
+    {
+      "number": 14781,
+      "title": "[Performance] optimize NSA backend metadata computation for multi-step speculative decoding",
+      "pack": "data/cards-workdir/sglang/packs/pr-14781.pack.md",
+      "card_out": "index/sglang/cards/pr-14781-<slug>.md"
+    },
+    {
+      "number": 17554,
+      "title": "Kernel: optimize decoding metadata in NSA multi-spec backend with fused kernels",
+      "pack": "data/cards-workdir/sglang/packs/pr-17554.pack.md",
+      "card_out": "index/sglang/cards/pr-17554-<slug>.md"
+    },
+    {
+      "number": 17946,
+      "title": "[MUSA][8/N] Port CUDA kernels that are compatible with MUSA",
+      "pack": "data/cards-workdir/sglang/packs/pr-17946.pack.md",
+      "card_out": "index/sglang/cards/pr-17946-<slug>.md"
+    },
+    {
+      "number": 19434,
+      "title": "[Qwen3-Next] Support gdn fused_rms_norm_gated",
+      "pack": "data/cards-workdir/sglang/packs/pr-19434.pack.md",
+      "card_out": "index/sglang/cards/pr-19434-<slug>.md"
+    },
+    {
+      "number": 21861,
+      "title": "  [GDN] Remove FlashInfer GDN decode + no_buffer guard and default to FlashInfer on SM100+  ",
+      "pack": "data/cards-workdir/sglang/packs/pr-21861.pack.md",
+      "card_out": "index/sglang/cards/pr-21861-<slug>.md"
+    },
+    {
+      "number": 22077,
+      "title": "[Feature] Add DFLASH speculative decoding support",
+      "pack": "data/cards-workdir/sglang/packs/pr-22077.pack.md",
+      "card_out": "index/sglang/cards/pr-22077-<slug>.md"
+    },
+    {
+      "number": 22128,
+      "title": "Allow piecewise CUDA graph with speculative decoding",
+      "pack": "data/cards-workdir/sglang/packs/pr-22128.pack.md",
+      "card_out": "index/sglang/cards/pr-22128-<slug>.md"
+    },
+    {
+      "number": 22180,
+      "title": "[Spec][Ngram] Followup fixes for `MatchState` incremental advance",
+      "pack": "data/cards-workdir/sglang/packs/pr-22180.pack.md",
+      "card_out": "index/sglang/cards/pr-22180-<slug>.md"
+    },
+    {
+      "number": 22299,
+      "title": "[AMD] Enable Piecewise CUDA Graph for AMD GPUs",
+      "pack": "data/cards-workdir/sglang/packs/pr-22299.pack.md",
+      "card_out": "index/sglang/cards/pr-22299-<slug>.md"
+    },
+    {
+      "number": 23958,
+      "title": "support asymmetric pd-mtp via mock spec hidden",
+      "pack": "data/cards-workdir/sglang/packs/pr-23958.pack.md",
+      "card_out": "index/sglang/cards/pr-23958-<slug>.md"
+    },
+    {
+      "number": 24260,
+      "title": "Enable trtllm-gen BF16 MoE for MTP",
+      "pack": "data/cards-workdir/sglang/packs/pr-24260.pack.md",
+      "card_out": "index/sglang/cards/pr-24260-<slug>.md"
+    },
+    {
+      "number": 24663,
+      "title": "Feat: Support newer EAGLE-3 drafters",
+      "pack": "data/cards-workdir/sglang/packs/pr-24663.pack.md",
+      "card_out": "index/sglang/cards/pr-24663-<slug>.md"
+    },
+    {
+      "number": 24756,
+      "title": "Optimize ngram decode token table update",
+      "pack": "data/cards-workdir/sglang/packs/pr-24756.pack.md",
+      "card_out": "index/sglang/cards/pr-24756-<slug>.md"
+    },
+    {
+      "number": 24757,
+      "title": "Optimize ngram decode id computation",
+      "pack": "data/cards-workdir/sglang/packs/pr-24757.pack.md",
+      "card_out": "index/sglang/cards/pr-24757-<slug>.md"
+    },
+    {
+      "number": 24934,
+      "title": "DeepSeek V4 MTP Support CP",
+      "pack": "data/cards-workdir/sglang/packs/pr-24934.pack.md",
+      "card_out": "index/sglang/cards/pr-24934-<slug>.md"
+    },
+    {
+      "number": 24955,
+      "title": "Support Nemotron DP attention and MTP",
+      "pack": "data/cards-workdir/sglang/packs/pr-24955.pack.md",
+      "card_out": "index/sglang/cards/pr-24955-<slug>.md"
+    },
+    {
+      "number": 25748,
+      "title": "loader: yield filtered MTP weights lazily to avoid OOM hang on multi-layer EAGLE",
+      "pack": "data/cards-workdir/sglang/packs/pr-25748.pack.md",
+      "card_out": "index/sglang/cards/pr-25748-<slug>.md"
+    },
+    {
+      "number": 26000,
+      "title": "[codex] Centralize Triton utility kernels",
+      "pack": "data/cards-workdir/sglang/packs/pr-26000.pack.md",
+      "card_out": "index/sglang/cards/pr-26000-<slug>.md"
+    },
+    {
+      "number": 26312,
+      "title": "[mtp] add rejection sampling for speculative decoding",
+      "pack": "data/cards-workdir/sglang/packs/pr-26312.pack.md",
+      "card_out": "index/sglang/cards/pr-26312-<slug>.md"
+    },
+    {
+      "number": 26471,
+      "title": "DeepSeek-V4 Online Compress support MTP",
+      "pack": "data/cards-workdir/sglang/packs/pr-26471.pack.md",
+      "card_out": "index/sglang/cards/pr-26471-<slug>.md"
+    },
+    {
+      "number": 26588,
+      "title": "Optimize Gemma4 H200 MoE and extend attention",
+      "pack": "data/cards-workdir/sglang/packs/pr-26588.pack.md",
+      "card_out": "index/sglang/cards/pr-26588-<slug>.md"
+    },
+    {
+      "number": 26766,
+      "title": "[DeepSeek-V4] Fuse UE8M0 scale rounding into FP8 group quantization",
+      "pack": "data/cards-workdir/sglang/packs/pr-26766.pack.md",
+      "card_out": "index/sglang/cards/pr-26766-<slug>.md"
+    },
+    {
+      "number": 26888,
+      "title": "[KDA] Add target_verify support for speculative decoding",
+      "pack": "data/cards-workdir/sglang/packs/pr-26888.pack.md",
+      "card_out": "index/sglang/cards/pr-26888-<slug>.md"
+    }
+  ]
+}

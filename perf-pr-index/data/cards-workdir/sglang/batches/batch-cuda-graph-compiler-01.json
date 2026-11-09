@@ -1,0 +1,25 @@
+{
+  "repo": "sglang",
+  "category": "CUDA Graph / Compiler",
+  "count": 3,
+  "prs": [
+    {
+      "number": 44394,
+      "title": "[Feat] [CPU] cpu-graph: Add prefill torch compile graph and dynamic graph support",
+      "pack": "data/cards-workdir/sglang/packs/pr-44394.pack.md",
+      "card_out": "index/sglang/cards/pr-44394-<slug>.md"
+    },
+    {
+      "number": 45977,
+      "title": "[Perf] diffusion: Turn on breakable CUDA graphs by default for LTX-2/LTX-2.3 two-stage serving",
+      "pack": "data/cards-workdir/sglang/packs/pr-45977.pack.md",
+      "card_out": "index/sglang/cards/pr-45977-<slug>.md"
+    },
+    {
+      "number": 47964,
+      "title": "[Feat] [AMD] custom-all-reduce: Run the JIT custom all-reduce v2 on ROCm",
+      "pack": "data/cards-workdir/sglang/packs/pr-47964.pack.md",
+      "card_out": "index/sglang/cards/pr-47964-<slug>.md"
+    }
+  ]
+}

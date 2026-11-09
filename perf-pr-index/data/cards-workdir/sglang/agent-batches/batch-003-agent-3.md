@@ -1,0 +1,17 @@
+PR #41400 | feat(kda): integrate FlashInfer prefill checkpoints | pack=data/cards-workdir/sglang/packs/pr-41400.pack.md | out=index/sglang/cards/pr-41400-feat-kda-integrate-flashinfer-prefill-ch.md
+PR #1204 | [Feature] Support fp8 e5m2 kv cache with flashinfer | pack=data/cards-workdir/sglang/packs/pr-1204.pack.md | out=index/sglang/cards/pr-1204-feature-support-fp8-e5m2-kv-cache-with-f.md
+PR #8144 | [Feature] improve TBO: two chunk overlap | pack=data/cards-workdir/sglang/packs/pr-8144.pack.md | out=index/sglang/cards/pr-8144-feature-improve-tbo-two-chunk-overlap.md
+PR #37941 | [Fix] dsa: Make the fused top-k exact on an overflowing threshold bin | pack=data/cards-workdir/sglang/packs/pr-37941.pack.md | out=index/sglang/cards/pr-37941-fix-dsa-make-the-fused-top-k-exact-on-an.md
+PR #23155 | [Diffusion] Add Qwen Image ModelOpt FP8 support | pack=data/cards-workdir/sglang/packs/pr-23155.pack.md | out=index/sglang/cards/pr-23155-diffusion-add-qwen-image-modelopt-fp8-su.md
+PR #6699 | [EP] Add cuda kernel for moe_ep_pre_reorder | pack=data/cards-workdir/sglang/packs/pr-6699.pack.md | out=index/sglang/cards/pr-6699-ep-add-cuda-kernel-for-moe-ep-pre-reorde.md
+PR #13925 | [VLM] Support InternVL Vision Encoder Data Parallelism | pack=data/cards-workdir/sglang/packs/pr-13925.pack.md | out=index/sglang/cards/pr-13925-vlm-support-internvl-vision-encoder-data.md
+PR #38040 | [diffusion] quantization: ConvRot INT8 online W8A8 for DiTs (sgl-kernel + `convrot_int8_customkernel`) | pack=data/cards-workdir/sglang/packs/pr-38040.pack.md | out=index/sglang/cards/pr-38040-diffusion-quantization-convrot-int8-onli.md
+PR #40543 | fix(cuda-graph): remove unnecessary CP batch alignment | pack=data/cards-workdir/sglang/packs/pr-40543.pack.md | out=index/sglang/cards/pr-40543-fix-cuda-graph-remove-unnecessary-cp-bat.md
+PR #41639 | [Feat] [AMD] moe: Add native GLM MXFP4 Triton Gluon backend | pack=data/cards-workdir/sglang/packs/pr-41639.pack.md | out=index/sglang/cards/pr-41639-feat-amd-moe-add-native-glm-mxfp4-triton.md
+PR #47935 | [Perf] dsv41: Keep MXFP4 Engram tables packed and decode E2M1 in the gather | pack=data/cards-workdir/sglang/packs/pr-47935.pack.md | out=index/sglang/cards/pr-47935-perf-dsv41-keep-mxfp4-engram-tables-pack.md
+PR #16259 | [model-gateway] Optimize L1 cache insertion with incremental hashing and tokenization | pack=data/cards-workdir/sglang/packs/pr-16259.pack.md | out=index/sglang/cards/pr-16259-model-gateway-optimize-l1-cache-insertio.md
+PR #25532 | [fp8] SM90 swap-AB scaled_mm dispatch (~1.16x kernel geomean, +5.8-18.5% end-to-end) | pack=data/cards-workdir/sglang/packs/pr-25532.pack.md | out=index/sglang/cards/pr-25532-fp8-sm90-swap-ab-scaled-mm-dispatch-1-16.md
+PR #36680 | [Diffusion] Optimize Qwen-Image TP collectives and attention | pack=data/cards-workdir/sglang/packs/pr-36680.pack.md | out=index/sglang/cards/pr-36680-diffusion-optimize-qwen-image-tp-collect.md
+PR #4232 | [Feature] Integrate DeepEP into SGLang | pack=data/cards-workdir/sglang/packs/pr-4232.pack.md | out=index/sglang/cards/pr-4232-feature-integrate-deepep-into-sglang.md
+PR #26646 | [core] Make overlap-schedule WAR barrier CUDA-only | pack=data/cards-workdir/sglang/packs/pr-26646.pack.md | out=index/sglang/cards/pr-26646-core-make-overlap-schedule-war-barrier-c.md
+PR #27705 | Fuse the DSA (V3.2, GLM-5.x) indexer Q/K paths into single kernels | pack=data/cards-workdir/sglang/packs/pr-27705.pack.md | out=index/sglang/cards/pr-27705-fuse-the-dsa-v3-2-glm-5-x-indexer-q-k-pa.md

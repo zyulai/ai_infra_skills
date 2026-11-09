@@ -1,0 +1,17 @@
+PR #21637 | [Feature] DCP: A2A + FlashInfer-MNNVL comm backends and q-replicate (Helix) | pack=data/cards-workdir/sglang/packs/pr-21637.pack.md | out=index/sglang/cards/pr-21637-feature-dcp-a2a-flashinfer-mnnvl-comm-ba.md
+PR #22394 | [NVIDIA] Support flashinfer a2a with flashinfer_trtllm_routed moe | pack=data/cards-workdir/sglang/packs/pr-22394.pack.md | out=index/sglang/cards/pr-22394-nvidia-support-flashinfer-a2a-with-flash.md
+PR #24955 | Support Nemotron DP attention and MTP | pack=data/cards-workdir/sglang/packs/pr-24955.pack.md | out=index/sglang/cards/pr-24955-support-nemotron-dp-attention-and-mtp.md
+PR #36631 | [Sampling] Support sampling masks with overlap scheduling | pack=data/cards-workdir/sglang/packs/pr-36631.pack.md | out=index/sglang/cards/pr-36631-sampling-support-sampling-masks-with-ove.md
+PR #17946 | [MUSA][8/N] Port CUDA kernels that are compatible with MUSA | pack=data/cards-workdir/sglang/packs/pr-17946.pack.md | out=index/sglang/cards/pr-17946-musa-8-n-port-cuda-kernels-that-are-comp.md
+PR #21601 | [Feature] Add FP4 KV Cache Design and support SM120 GPUs | pack=data/cards-workdir/sglang/packs/pr-21601.pack.md | out=index/sglang/cards/pr-21601-feature-add-fp4-kv-cache-design-and-supp.md
+PR #21734 | perf: optimize PCG inductor path for FP8 models | pack=data/cards-workdir/sglang/packs/pr-21734.pack.md | out=index/sglang/cards/pr-21734-perf-optimize-pcg-inductor-path-for-fp8.md
+PR #25669 | [EPD][Perf] Async image preprocessing and cross-request ViT batching for encode_server | pack=data/cards-workdir/sglang/packs/pr-25669.pack.md | out=index/sglang/cards/pr-25669-epd-perf-async-image-preprocessing-and-c.md
+PR #26204 | Optimize Qwen3 Next FP8 MoE on H200 | pack=data/cards-workdir/sglang/packs/pr-26204.pack.md | out=index/sglang/cards/pr-26204-optimize-qwen3-next-fp8-moe-on-h200.md
+PR #26206 | [GDN] Optimize prefill QKV split dispatch | pack=data/cards-workdir/sglang/packs/pr-26206.pack.md | out=index/sglang/cards/pr-26206-gdn-optimize-prefill-qkv-split-dispatch.md
+PR #41187 | [Feat] hicache: Support MLA DCP with HiCache L3(file/mooncake) | pack=data/cards-workdir/sglang/packs/pr-41187.pack.md | out=index/sglang/cards/pr-41187-feat-hicache-support-mla-dcp-with-hicach.md
+PR #3550 | feat: support flashinfer mla attention for deepseek v3 | pack=data/cards-workdir/sglang/packs/pr-3550.pack.md | out=index/sglang/cards/pr-3550-feat-support-flashinfer-mla-attention-fo.md
+PR #6226 | enable auto-round quantization model | pack=data/cards-workdir/sglang/packs/pr-6226.pack.md | out=index/sglang/cards/pr-6226-enable-auto-round-quantization-model.md
+PR #17026 | feat: Priority-based scheduling optimization (including default priority, preemption toggle, priority-based metrics, etc.) | pack=data/cards-workdir/sglang/packs/pr-17026.pack.md | out=index/sglang/cards/pr-17026-feat-priority-based-scheduling-optimizat.md
+PR #28173 | [AMD] Make breakable CUDA graph run on ROCm/HIP | pack=data/cards-workdir/sglang/packs/pr-28173.pack.md | out=index/sglang/cards/pr-28173-amd-make-breakable-cuda-graph-run-on-roc.md
+PR #29910 | [Dep] Upgrade flashinfer to 0.6.14 | pack=data/cards-workdir/sglang/packs/pr-29910.pack.md | out=index/sglang/cards/pr-29910-dep-upgrade-flashinfer-to-0-6-14.md
+PR #2150 | Eagle speculative decoding part 4: Add EAGLE2 worker | pack=data/cards-workdir/sglang/packs/pr-2150.pack.md | out=index/sglang/cards/pr-2150-eagle-speculative-decoding-part-4-add-ea.md

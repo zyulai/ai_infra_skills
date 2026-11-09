@@ -1,0 +1,17 @@
+PR #56226 | [ROCm][Perf] Route softmax MoE top-k, including fused shared-expert sigmoid, through AITER topk_gating | pack=data/cards-workdir/vllm/packs/pr-56226.pack.md | out=index/vllm/cards/pr-56226-rocm-perf-route-softmax-moe-top-k-includ.md
+PR #59478 | [ROCm][Perf] Use AITER FlyDSL INT4 QuickReduce when INT4 QuickReduce is selected | pack=data/cards-workdir/vllm/packs/pr-59478.pack.md | out=index/vllm/cards/pr-59478-rocm-perf-use-aiter-flydsl-int4-quickred.md
+PR #61855 | [ROCm][Perf] Triton port of the fused GDN MTP decode kernel | pack=data/cards-workdir/vllm/packs/pr-61855.pack.md | out=index/vllm/cards/pr-61855-rocm-perf-triton-port-of-the-fused-gdn-m.md
+PR #21917 | [Core] Optimize scheduler request removal for single completions | pack=data/cards-workdir/vllm/packs/pr-21917.pack.md | out=index/vllm/cards/pr-21917-core-optimize-scheduler-request-removal.md
+PR #34328 | [KV Connector] Support using FlexKV as KV Cache Offloading option. | pack=data/cards-workdir/vllm/packs/pr-34328.pack.md | out=index/vllm/cards/pr-34328-kv-connector-support-using-flexkv-as-kv.md
+PR #12978 | [Kernel]Add streamK for block-quantized CUTLASS kernels | pack=data/cards-workdir/vllm/packs/pr-12978.pack.md | out=index/vllm/cards/pr-12978-kernel-add-streamk-for-block-quantized-c.md
+PR #40172 | [Perf] [Hybrid] Fused Triton kernel for GPU-side Mamba state postprocessing | pack=data/cards-workdir/vllm/packs/pr-40172.pack.md | out=index/vllm/cards/pr-40172-perf-hybrid-fused-triton-kernel-for-gpu.md
+PR #21078 | [Kernel] Flashinfer MLA (trtllm-gen) decode kernel integration | pack=data/cards-workdir/vllm/packs/pr-21078.pack.md | out=index/vllm/cards/pr-21078-kernel-flashinfer-mla-trtllm-gen-decode.md
+PR #24757 | [Perf] Use NVIDIA hardware-accelerated instruction for float to fp8_e4m3 quantization | pack=data/cards-workdir/vllm/packs/pr-24757.pack.md | out=index/vllm/cards/pr-24757-perf-use-nvidia-hardware-accelerated-ins.md
+PR #1032 | Implement AWQ quantization support for LLaMA | pack=data/cards-workdir/vllm/packs/pr-1032.pack.md | out=index/vllm/cards/pr-1032-implement-awq-quantization-support-for-l.md
+PR #56090 | [Frontend][EPD] Use JSON arrays for multimodal metadata | pack=data/cards-workdir/vllm/packs/pr-56090.pack.md | out=index/vllm/cards/pr-56090-frontend-epd-use-json-arrays-for-multimo.md
+PR #20413 | [Optimization] Speed up function `_convert_tokens_to_string_with_added_encoders` by 13.7x | pack=data/cards-workdir/vllm/packs/pr-20413.pack.md | out=index/vllm/cards/pr-20413-optimization-speed-up-function-convert-t.md
+PR #56935 | [Model][DSv4.1] FlashMLA mega attention and the NVFP4 compressed KV cache | pack=data/cards-workdir/vllm/packs/pr-56935.pack.md | out=index/vllm/cards/pr-56935-model-dsv4-1-flashmla-mega-attention-and.md
+PR #26132 | [DeepSeek] Improve performance of DS MLA cache kernel | pack=data/cards-workdir/vllm/packs/pr-26132.pack.md | out=index/vllm/cards/pr-26132-deepseek-improve-performance-of-ds-mla-c.md
+PR #38445 | [PERF]MiniMax-M2 gate kernel | pack=data/cards-workdir/vllm/packs/pr-38445.pack.md | out=index/vllm/cards/pr-38445-perf-minimax-m2-gate-kernel.md
+PR #41713 | Eliminate redundant MoE buffer copies in AITER fused experts (without dependency on AITER changes) | pack=data/cards-workdir/vllm/packs/pr-41713.pack.md | out=index/vllm/cards/pr-41713-eliminate-redundant-moe-buffer-copies-in.md
+PR #62763 | [Perf][MoE] Add H200 FP8 fused MoE config for Beam-1.0 TP8 | pack=data/cards-workdir/vllm/packs/pr-62763.pack.md | out=index/vllm/cards/pr-62763-perf-moe-add-h200-fp8-fused-moe-config-f.md

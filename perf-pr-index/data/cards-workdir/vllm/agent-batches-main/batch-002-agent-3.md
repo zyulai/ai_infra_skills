@@ -1,0 +1,17 @@
+PR #37469 | [perf][cpu] Accelerate BF16 GELU with LUT impl on Arm CPUs | pack=data/cards-workdir/vllm/packs/pr-37469.pack.md | out=index/vllm/cards/pr-37469-perf-cpu-accelerate-bf16-gelu-with-lut-i.md
+PR #45022 | [Bugfix][Model] Voxtral realtime: fix boot OOM and engine crash at max_model_len | pack=data/cards-workdir/vllm/packs/pr-45022.pack.md | out=index/vllm/cards/pr-45022-bugfix-model-voxtral-realtime-fix-boot-o.md
+PR #62392 | [Perf][AuxOutput] Do not rescan referenced keys in the routed-experts store | pack=data/cards-workdir/vllm/packs/pr-62392.pack.md | out=index/vllm/cards/pr-62392-perf-auxoutput-do-not-rescan-referenced.md
+PR #48637 | [CPU][Perf] INT8 Fused MoE Kernel for Arm CPUs | pack=data/cards-workdir/vllm/packs/pr-48637.pack.md | out=index/vllm/cards/pr-48637-cpu-perf-int8-fused-moe-kernel-for-arm-c.md
+PR #21787 | [Refactor] Remove Duplicate `per_block_cast_to_fp8`, Remove Dependencies of DeepGEMM | pack=data/cards-workdir/vllm/packs/pr-21787.pack.md | out=index/vllm/cards/pr-21787-refactor-remove-duplicate-per-block-cast.md
+PR #41751 | [ROCm] mori: add InterNodeV1LL inter-node kernel selection via VLLM_MORI_INTERNODE_KERNEL | pack=data/cards-workdir/vllm/packs/pr-41751.pack.md | out=index/vllm/cards/pr-41751-rocm-mori-add-internodev1ll-inter-node-k.md
+PR #59511 | [Perf][DFlash] Capture context combine and anchor in the draft CUDA graph | pack=data/cards-workdir/vllm/packs/pr-59511.pack.md | out=index/vllm/cards/pr-59511-perf-dflash-capture-context-combine-and.md
+PR #32806 | [torch.compile] Compile `CustomOp.forward_native` for `SiluAndMul` and `QuantFP8` to avoid raw torch ops inside opaque custom ops | pack=data/cards-workdir/vllm/packs/pr-32806.pack.md | out=index/vllm/cards/pr-32806-torch-compile-compile-customop-forward-n.md
+PR #5396 | [Kernel] Vectorized FP8 quantize kernel | pack=data/cards-workdir/vllm/packs/pr-5396.pack.md | out=index/vllm/cards/pr-5396-kernel-vectorized-fp8-quantize-kernel.md
+PR #55190 | [Perf] Fuse CohereASR relative attention score accumulation | pack=data/cards-workdir/vllm/packs/pr-55190.pack.md | out=index/vllm/cards/pr-55190-perf-fuse-cohereasr-relative-attention-s.md
+PR #33568 | [Perf] Disable clean_logits in deepgemm fp8_mqa_logits kernel | pack=data/cards-workdir/vllm/packs/pr-33568.pack.md | out=index/vllm/cards/pr-33568-perf-disable-clean-logits-in-deepgemm-fp.md
+PR #40871 | [New Model][ROCm] Add AMD support for DeepSeek V4 | pack=data/cards-workdir/vllm/packs/pr-40871.pack.md | out=index/vllm/cards/pr-40871-new-model-rocm-add-amd-support-for-deeps.md
+PR #49436 | [Perf][Hybrid] 3D-grid tiling of the state-copy Triton kernels | pack=data/cards-workdir/vllm/packs/pr-49436.pack.md | out=index/vllm/cards/pr-49436-perf-hybrid-3d-grid-tiling-of-the-state.md
+PR #27244 | [CPU]Improve cpu fused moe perf | pack=data/cards-workdir/vllm/packs/pr-27244.pack.md | out=index/vllm/cards/pr-27244-cpu-improve-cpu-fused-moe-perf.md
+PR #46205 | [KV Offload] Support packed HMA KV cache layout | pack=data/cards-workdir/vllm/packs/pr-46205.pack.md | out=index/vllm/cards/pr-46205-kv-offload-support-packed-hma-kv-cache-l.md
+PR #6830 | [Speculative Decoding] EAGLE Implementation with Top-1 proposer | pack=data/cards-workdir/vllm/packs/pr-6830.pack.md | out=index/vllm/cards/pr-6830-speculative-decoding-eagle-implementatio.md
+PR #28284 | [Feature] Support recording expert indices for rollout router replay | pack=data/cards-workdir/vllm/packs/pr-28284.pack.md | out=index/vllm/cards/pr-28284-feature-support-recording-expert-indices.md

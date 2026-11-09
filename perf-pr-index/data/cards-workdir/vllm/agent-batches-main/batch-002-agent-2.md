@@ -1,0 +1,17 @@
+PR #59732 | [ROCm][Perf] Fuse main QK-norm/RoPE/gate and KV-cache write into the AMD QSA prepare launch | pack=data/cards-workdir/vllm/packs/pr-59732.pack.md | out=index/vllm/cards/pr-59732-rocm-perf-fuse-main-qk-norm-rope-gate-an.md
+PR #28449 | [Feat][Perf] Enable deepep-low-latency with round-robin expert placement. | pack=data/cards-workdir/vllm/packs/pr-28449.pack.md | out=index/vllm/cards/pr-28449-feat-perf-enable-deepep-low-latency-with.md
+PR #7137 | [Core] Use flashinfer sampling kernel when available | pack=data/cards-workdir/vllm/packs/pr-7137.pack.md | out=index/vllm/cards/pr-7137-core-use-flashinfer-sampling-kernel-when.md
+PR #22895 | [Kernel] Added flashinfer fp8 per-tensor gemms | pack=data/cards-workdir/vllm/packs/pr-22895.pack.md | out=index/vllm/cards/pr-22895-kernel-added-flashinfer-fp8-per-tensor-g.md
+PR #29757 | Add Mistral Large 3 and Ministral 3 | pack=data/cards-workdir/vllm/packs/pr-29757.pack.md | out=index/vllm/cards/pr-29757-add-mistral-large-3-and-ministral-3.md
+PR #31837 | [Perf] Fuse stride preparation for NVFP4 cutlass_moe | pack=data/cards-workdir/vllm/packs/pr-31837.pack.md | out=index/vllm/cards/pr-31837-perf-fuse-stride-preparation-for-nvfp4-c.md
+PR #38990 | [Bugfix][MoE] Fix 6-8% decode regression: prefer multi-stream shared expert overlap | pack=data/cards-workdir/vllm/packs/pr-38990.pack.md | out=index/vllm/cards/pr-38990-bugfix-moe-fix-6-8-decode-regression-pre.md
+PR #52372 | [Bugfix][Mooncake] Reference GPU blocks for in-flight store jobs and key the store ledger by store_job_id | pack=data/cards-workdir/vllm/packs/pr-52372.pack.md | out=index/vllm/cards/pr-52372-bugfix-mooncake-reference-gpu-blocks-for.md
+PR #42832 | [ROCm][GPT-OSS] Fuse RoPE + static Q FP8 quant on fused RoPE+KV path | pack=data/cards-workdir/vllm/packs/pr-42832.pack.md | out=index/vllm/cards/pr-42832-rocm-gpt-oss-fuse-rope-static-q-fp8-quan.md
+PR #2497 | Integrate Marlin Kernels for Int4 GPTQ inference | pack=data/cards-workdir/vllm/packs/pr-2497.pack.md | out=index/vllm/cards/pr-2497-integrate-marlin-kernels-for-int4-gptq-i.md
+PR #34846 | [Perf] Improve default triton fused moe configs | pack=data/cards-workdir/vllm/packs/pr-34846.pack.md | out=index/vllm/cards/pr-34846-perf-improve-default-triton-fused-moe-co.md
+PR #59938 | [XPU] use multimodal_rotary_embedding xpu kernel for mrope | pack=data/cards-workdir/vllm/packs/pr-59938.pack.md | out=index/vllm/cards/pr-59938-xpu-use-multimodal-rotary-embedding-xpu.md
+PR #62366 | [Model][Perf] Fuse Beam's TP all-reduce with its sandwich norms and MoE finalize | pack=data/cards-workdir/vllm/packs/pr-62366.pack.md | out=index/vllm/cards/pr-62366-model-perf-fuse-beam-s-tp-all-reduce-wit.md
+PR #20268 | Enable ZP Support for Machete | pack=data/cards-workdir/vllm/packs/pr-20268.pack.md | out=index/vllm/cards/pr-20268-enable-zp-support-for-machete.md
+PR #17934 | Fix CUDA permute/unpermute for use with DeepGemm Moe | pack=data/cards-workdir/vllm/packs/pr-17934.pack.md | out=index/vllm/cards/pr-17934-fix-cuda-permute-unpermute-for-use-with.md
+PR #21088 | [v1] Add Whisper model support (encoder-decoder) | pack=data/cards-workdir/vllm/packs/pr-21088.pack.md | out=index/vllm/cards/pr-21088-v1-add-whisper-model-support-encoder-dec.md
+PR #29193 | [perf][cpu] Accelerate paged attention GEMMs (QK, PV) on Arm CPUs with NEON | pack=data/cards-workdir/vllm/packs/pr-29193.pack.md | out=index/vllm/cards/pr-29193-perf-cpu-accelerate-paged-attention-gemm.md

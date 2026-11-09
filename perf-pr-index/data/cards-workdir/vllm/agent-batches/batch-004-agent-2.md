@@ -1,0 +1,17 @@
+PR #18218 | [Kernel] Triton implementation of causal-conv1d for Mamba-based models | pack=data/cards-workdir/vllm/packs/pr-18218.pack.md | out=index/vllm/cards/pr-18218-kernel-triton-implementation-of-causal-c.md
+PR #24111 | [Kernels] Enable Torch Symmetric Memory All-Reduce By Default | pack=data/cards-workdir/vllm/packs/pr-24111.pack.md | out=index/vllm/cards/pr-24111-kernels-enable-torch-symmetric-memory-al.md
+PR #33771 | [Revert] Fix performance regression for GLM-4.7-GPTQ decode and MTP acceptance rate | pack=data/cards-workdir/vllm/packs/pr-33771.pack.md | out=index/vllm/cards/pr-33771-revert-fix-performance-regression-for-gl.md
+PR #61448 | [ROCm][Model] Add fusions for Muse Glimmer for AMD backend | pack=data/cards-workdir/vllm/packs/pr-61448.pack.md | out=index/vllm/cards/pr-61448-rocm-model-add-fusions-for-muse-glimmer.md
+PR #63742 | [Perf][Mamba] Use the shared checkpoint exporter for Mamba2 and drop ssd_checkpoint | pack=data/cards-workdir/vllm/packs/pr-63742.pack.md | out=index/vllm/cards/pr-63742-perf-mamba-use-the-shared-checkpoint-exp.md
+PR #64692 | [Model Loader] Refill weight-derived tensors in place on every post-load rerun | pack=data/cards-workdir/vllm/packs/pr-64692.pack.md | out=index/vllm/cards/pr-64692-model-loader-refill-weight-derived-tenso.md
+PR #28687 | [Performance] Reduce DeepGEMM N dim restriction from 128 to 64 multiplier  | pack=data/cards-workdir/vllm/packs/pr-28687.pack.md | out=index/vllm/cards/pr-28687-performance-reduce-deepgemm-n-dim-restri.md
+PR #32655 | Add unpermute-aware fused MoE LoRA path | pack=data/cards-workdir/vllm/packs/pr-32655.pack.md | out=index/vllm/cards/pr-32655-add-unpermute-aware-fused-moe-lora-path.md
+PR #38451 | [Perf] Fix DBO overlap: capture DeepEP event before yield | pack=data/cards-workdir/vllm/packs/pr-38451.pack.md | out=index/vllm/cards/pr-38451-perf-fix-dbo-overlap-capture-deepep-even.md
+PR #63076 | [ROCm][Perf] Triton sigmoid+bias top-k when MoE grouping eliminates nothing | pack=data/cards-workdir/vllm/packs/pr-63076.pack.md | out=index/vllm/cards/pr-63076-rocm-perf-triton-sigmoid-bias-top-k-when.md
+PR #42311 | [Model] [Perf] Use flatten for Qwen3.5's GDN output projection | pack=data/cards-workdir/vllm/packs/pr-42311.pack.md | out=index/vllm/cards/pr-42311-model-perf-use-flatten-for-qwen3-5-s-gdn.md
+PR #53147 | [Kernel][Gemma4] Prune Triton sliding-window tiles for multimodal prefixes | pack=data/cards-workdir/vllm/packs/pr-53147.pack.md | out=index/vllm/cards/pr-53147-kernel-gemma4-prune-triton-sliding-windo.md
+PR #34110 | [MODEL] Adding Support for Qwen3.5 Models | pack=data/cards-workdir/vllm/packs/pr-34110.pack.md | out=index/vllm/cards/pr-34110-model-adding-support-for-qwen3-5-models.md
+PR #34130 | [Perf] fused_moe: add int4_w4a16 benchmark support and tuning config | pack=data/cards-workdir/vllm/packs/pr-34130.pack.md | out=index/vllm/cards/pr-34130-perf-fused-moe-add-int4-w4a16-benchmark.md
+PR #34299 | [torch.compile] Enable AR+rms fusion by default available for `-O2` | pack=data/cards-workdir/vllm/packs/pr-34299.pack.md | out=index/vllm/cards/pr-34299-torch-compile-enable-ar-rms-fusion-by-de.md
+PR #48666 | [Kernel] Gemma-4 FA4 FP8 Kernel | pack=data/cards-workdir/vllm/packs/pr-48666.pack.md | out=index/vllm/cards/pr-48666-kernel-gemma-4-fa4-fp8-kernel.md
+PR #62712 | [ROCm][Perf][MiniMax-M3] MonoKernel decode for M3 MXFP4 on MI355X | pack=data/cards-workdir/vllm/packs/pr-62712.pack.md | out=index/vllm/cards/pr-62712-rocm-perf-minimax-m3-monokernel-decode-f.md

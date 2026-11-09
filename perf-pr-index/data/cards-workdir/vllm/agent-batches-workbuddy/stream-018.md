@@ -1,0 +1,12 @@
+PR #50572 | [kernel] Integrate FlashInfer BF16 CuTeDSL Low Latency GEMM | pack=data/cards-workdir/vllm/packs/pr-50572.pack.md | out=index/vllm/cards/pr-50572-kernel-integrate-flashinfer-bf16-cutedsl.md
+PR #60096 | [Model][MoE] Load MegaMoE experts directly into the DeepGEMM layout | pack=data/cards-workdir/vllm/packs/pr-60096.pack.md | out=index/vllm/cards/pr-60096-model-moe-load-megamoe-experts-directly.md
+PR #64472 | [Bugfix][Core] Keep KV cache zeroing for mixed-precision UniformTypeKVCacheSpecs groups | pack=data/cards-workdir/vllm/packs/pr-64472.pack.md | out=index/vllm/cards/pr-64472-bugfix-core-keep-kv-cache-zeroing-for-mi.md
+PR #22357 | [NVIDIA] Add SM100 Flashinfer Cutlass MoE fp8 backend | pack=data/cards-workdir/vllm/packs/pr-22357.pack.md | out=index/vllm/cards/pr-22357-nvidia-add-sm100-flashinfer-cutlass-moe.md
+PR #24390 | Optimize triton unified attention performance for sliding window attention | pack=data/cards-workdir/vllm/packs/pr-24390.pack.md | out=index/vllm/cards/pr-24390-optimize-triton-unified-attention-perfor.md
+PR #38938 | Bug/test eagle dp v0 | pack=data/cards-workdir/vllm/packs/pr-38938.pack.md | out=index/vllm/cards/pr-38938-bug-test-eagle-dp-v0.md
+PR #54689 | [Bugfix][NIXL] Don't evict a remote engine a transfer is still reading from | pack=data/cards-workdir/vllm/packs/pr-54689.pack.md | out=index/vllm/cards/pr-54689-bugfix-nixl-don-t-evict-a-remote-engine.md
+PR #13305 | [Kernel][ROCM] Upstream prefix prefill speed up for vLLM V1 | pack=data/cards-workdir/vllm/packs/pr-13305.pack.md | out=index/vllm/cards/pr-13305-kernel-rocm-upstream-prefix-prefill-spee.md
+PR #23998 | [V1] v1 engine + full CUDA graph support for PLaMo2 | pack=data/cards-workdir/vllm/packs/pr-23998.pack.md | out=index/vllm/cards/pr-23998-v1-v1-engine-full-cuda-graph-support-for.md
+PR #46076 | [Attention][DSA] support dcp for FLASHINFER_MLA_SPARSE | pack=data/cards-workdir/vllm/packs/pr-46076.pack.md | out=index/vllm/cards/pr-46076-attention-dsa-support-dcp-for-flashinfer.md
+PR #55053 | [Bugfix][KV Connector][ROCm] Fix MoRI-IO KV block-offset for speculative decoding (MTP) | pack=data/cards-workdir/vllm/packs/pr-55053.pack.md | out=index/vllm/cards/pr-55053-bugfix-kv-connector-rocm-fix-mori-io-kv.md
+PR #57015 | [ROCm][Perf] W4A16: widen skinny GEMM LDS activation loads to b128 | pack=data/cards-workdir/vllm/packs/pr-57015.pack.md | out=index/vllm/cards/pr-57015-rocm-perf-w4a16-widen-skinny-gemm-lds-ac.md

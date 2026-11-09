@@ -1,0 +1,19 @@
+{
+  "repo": "sglang",
+  "category": "Frontend / Serving",
+  "count": 2,
+  "prs": [
+    {
+      "number": 15672,
+      "title": "[model-gateway] Optimize router selection with lock-free snapshots",
+      "pack": "data/cards-workdir/sglang/packs/pr-15672.pack.md",
+      "card_out": "index/sglang/cards/pr-15672-<slug>.md"
+    },
+    {
+      "number": 16042,
+      "title": "[model-gateway] Optimize HTTP Router Fan-out: Replace Serial Execution with Concurrent Streams",
+      "pack": "data/cards-workdir/sglang/packs/pr-16042.pack.md",
+      "card_out": "index/sglang/cards/pr-16042-<slug>.md"
+    }
+  ]
+}

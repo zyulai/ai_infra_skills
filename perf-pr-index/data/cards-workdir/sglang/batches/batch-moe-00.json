@@ -1,0 +1,247 @@
+{
+  "repo": "sglang",
+  "category": "MoE",
+  "count": 40,
+  "prs": [
+    {
+      "number": 4053,
+      "title": "ROCm: update aiter and its usage to fused moe (bloat16, fp8, fp8 block-quant)",
+      "pack": "data/cards-workdir/sglang/packs/pr-4053.pack.md",
+      "card_out": "index/sglang/cards/pr-4053-<slug>.md"
+    },
+    {
+      "number": 4068,
+      "title": "Support overlapping two batches",
+      "pack": "data/cards-workdir/sglang/packs/pr-4068.pack.md",
+      "card_out": "index/sglang/cards/pr-4068-<slug>.md"
+    },
+    {
+      "number": 4232,
+      "title": "[Feature] Integrate DeepEP into SGLang",
+      "pack": "data/cards-workdir/sglang/packs/pr-4232.pack.md",
+      "card_out": "index/sglang/cards/pr-4232-<slug>.md"
+    },
+    {
+      "number": 5435,
+      "title": "Integrating PD disaggregation with DP attention and DeepEP",
+      "pack": "data/cards-workdir/sglang/packs/pr-5435.pack.md",
+      "card_out": "index/sglang/cards/pr-5435-<slug>.md"
+    },
+    {
+      "number": 5694,
+      "title": "[2/2] Add python wrapper for CUTLASS FP8 Blockscale MoE Kernel. ",
+      "pack": "data/cards-workdir/sglang/packs/pr-5694.pack.md",
+      "card_out": "index/sglang/cards/pr-5694-<slug>.md"
+    },
+    {
+      "number": 7278,
+      "title": "Add CUTLASS FP8 Blockscale MoE kernel for Hopper architecture",
+      "pack": "data/cards-workdir/sglang/packs/pr-7278.pack.md",
+      "card_out": "index/sglang/cards/pr-7278-<slug>.md"
+    },
+    {
+      "number": 7884,
+      "title": "[kernel] opt moe align block kernel by block/warp scan algorithm",
+      "pack": "data/cards-workdir/sglang/packs/pr-7884.pack.md",
+      "card_out": "index/sglang/cards/pr-7884-<slug>.md"
+    },
+    {
+      "number": 8036,
+      "title": "[NVIDIA] Add Flashinfer MoE blockscale fp8 backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-8036.pack.md",
+      "card_out": "index/sglang/cards/pr-8036-<slug>.md"
+    },
+    {
+      "number": 9660,
+      "title": "Single Batch Overlap for MoE Models",
+      "pack": "data/cards-workdir/sglang/packs/pr-9660.pack.md",
+      "card_out": "index/sglang/cards/pr-9660-<slug>.md"
+    },
+    {
+      "number": 9973,
+      "title": "Optimize Qwen3-moe model by using flashinfer fused allreduce ",
+      "pack": "data/cards-workdir/sglang/packs/pr-9973.pack.md",
+      "card_out": "index/sglang/cards/pr-9973-<slug>.md"
+    },
+    {
+      "number": 10303,
+      "title": "[LongCat] Optimize zero_experts_compute_triton by changing mask",
+      "pack": "data/cards-workdir/sglang/packs/pr-10303.pack.md",
+      "card_out": "index/sglang/cards/pr-10303-<slug>.md"
+    },
+    {
+      "number": 10567,
+      "title": "Opt fused triton moe: add tma for down proj kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-10567.pack.md",
+      "card_out": "index/sglang/cards/pr-10567-<slug>.md"
+    },
+    {
+      "number": 11816,
+      "title": "use flashinfer_trtllm moe runner backend to gain around 10% perf on b200 fp8 dpsk",
+      "pack": "data/cards-workdir/sglang/packs/pr-11816.pack.md",
+      "card_out": "index/sglang/cards/pr-11816-<slug>.md"
+    },
+    {
+      "number": 12162,
+      "title": "[Feature] Enable return routed experts",
+      "pack": "data/cards-workdir/sglang/packs/pr-12162.pack.md",
+      "card_out": "index/sglang/cards/pr-12162-<slug>.md"
+    },
+    {
+      "number": 13049,
+      "title": "Support moe topk sigmoid kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-13049.pack.md",
+      "card_out": "index/sglang/cards/pr-13049-<slug>.md"
+    },
+    {
+      "number": 13731,
+      "title": "[sgl-kernel][Feat][B200][1/N]Support MXFP8 Grouped GEMM in Blackwell",
+      "pack": "data/cards-workdir/sglang/packs/pr-13731.pack.md",
+      "card_out": "index/sglang/cards/pr-13731-<slug>.md"
+    },
+    {
+      "number": 14105,
+      "title": "[LoRA][III] Add LoRA support for MoE layers and enable TP",
+      "pack": "data/cards-workdir/sglang/packs/pr-14105.pack.md",
+      "card_out": "index/sglang/cards/pr-14105-<slug>.md"
+    },
+    {
+      "number": 14133,
+      "title": "Opt moe align block size kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-14133.pack.md",
+      "card_out": "index/sglang/cards/pr-14133-<slug>.md"
+    },
+    {
+      "number": 14162,
+      "title": "DeepSeek-R1-0528-w4a8: DeepEP Low Latency Dispatch Adopts FP8 Communication",
+      "pack": "data/cards-workdir/sglang/packs/pr-14162.pack.md",
+      "card_out": "index/sglang/cards/pr-14162-<slug>.md"
+    },
+    {
+      "number": 14422,
+      "title": "[VLM] Support VLM ViT Piecewise CUDA Graph",
+      "pack": "data/cards-workdir/sglang/packs/pr-14422.pack.md",
+      "card_out": "index/sglang/cards/pr-14422-<slug>.md"
+    },
+    {
+      "number": 14640,
+      "title": "[sgl-kernel][Feat][B200][2/N] Support MXFP8 Grouped GEMM in Blackwell",
+      "pack": "data/cards-workdir/sglang/packs/pr-14640.pack.md",
+      "card_out": "index/sglang/cards/pr-14640-<slug>.md"
+    },
+    {
+      "number": 15526,
+      "title": "Optimize Bailing-MoE with FlashInfer Fused All-Reduce",
+      "pack": "data/cards-workdir/sglang/packs/pr-15526.pack.md",
+      "card_out": "index/sglang/cards/pr-15526-<slug>.md"
+    },
+    {
+      "number": 15904,
+      "title": "[NPU] NZ for non-quantized MOE, Qwen3 MOE double memory consumption fix",
+      "pack": "data/cards-workdir/sglang/packs/pr-15904.pack.md",
+      "card_out": "index/sglang/cards/pr-15904-<slug>.md"
+    },
+    {
+      "number": 18195,
+      "title": "Add MoE fused config for Qwen3-Coder-Next-FP8 on H100 TP=2",
+      "pack": "data/cards-workdir/sglang/packs/pr-18195.pack.md",
+      "card_out": "index/sglang/cards/pr-18195-<slug>.md"
+    },
+    {
+      "number": 18612,
+      "title": "[Perf][Kernel] Fuse SiLU+Mul into NVFP4 Expert Quantization for CUTLASS MoE",
+      "pack": "data/cards-workdir/sglang/packs/pr-18612.pack.md",
+      "card_out": "index/sglang/cards/pr-18612-<slug>.md"
+    },
+    {
+      "number": 18851,
+      "title": "[Perf] Tune MiniMax M2 fused moe kernel on H100 GPU",
+      "pack": "data/cards-workdir/sglang/packs/pr-18851.pack.md",
+      "card_out": "index/sglang/cards/pr-18851-<slug>.md"
+    },
+    {
+      "number": 18858,
+      "title": "[Perf] ~9.5x faster Blackwell MXFP4 MoE weight loading",
+      "pack": "data/cards-workdir/sglang/packs/pr-18858.pack.md",
+      "card_out": "index/sglang/cards/pr-18858-<slug>.md"
+    },
+    {
+      "number": 19003,
+      "title": "[VLM] Introduce FlashInfer CUDNN Prefill as ViT Backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-19003.pack.md",
+      "card_out": "index/sglang/cards/pr-19003-<slug>.md"
+    },
+    {
+      "number": 20394,
+      "title": "[NVIDIA] Enable fp8 flashinfer_trtllm_routed MoE for MiniMax-M2.5",
+      "pack": "data/cards-workdir/sglang/packs/pr-20394.pack.md",
+      "card_out": "index/sglang/cards/pr-20394-<slug>.md"
+    },
+    {
+      "number": 21637,
+      "title": "[Feature] DCP: A2A + FlashInfer-MNNVL comm backends and q-replicate (Helix)",
+      "pack": "data/cards-workdir/sglang/packs/pr-21637.pack.md",
+      "card_out": "index/sglang/cards/pr-21637-<slug>.md"
+    },
+    {
+      "number": 22316,
+      "title": "[Reland] DeepSeek-R1-0528-w4a8: DeepEP Low Latency Dispatch Adopts FP8 Communication",
+      "pack": "data/cards-workdir/sglang/packs/pr-22316.pack.md",
+      "card_out": "index/sglang/cards/pr-22316-<slug>.md"
+    },
+    {
+      "number": 22394,
+      "title": "[NVIDIA] Support flashinfer a2a with flashinfer_trtllm_routed moe",
+      "pack": "data/cards-workdir/sglang/packs/pr-22394.pack.md",
+      "card_out": "index/sglang/cards/pr-22394-<slug>.md"
+    },
+    {
+      "number": 22627,
+      "title": "[Bugfix] Fix flashinfer_cutlass MoE crash when intermediate_size_per_partition is not 16-aligned",
+      "pack": "data/cards-workdir/sglang/packs/pr-22627.pack.md",
+      "card_out": "index/sglang/cards/pr-22627-<slug>.md"
+    },
+    {
+      "number": 23611,
+      "title": "[AMD] Optimize MiniMax-M2.5 - use aiter biased_grouped_topk for sigmoid scoring in MoE routing",
+      "pack": "data/cards-workdir/sglang/packs/pr-23611.pack.md",
+      "card_out": "index/sglang/cards/pr-23611-<slug>.md"
+    },
+    {
+      "number": 23707,
+      "title": "[MoE] Deprecate act_and_mul_triton; fold filter_expert into JIT silu/gelu_and_mul",
+      "pack": "data/cards-workdir/sglang/packs/pr-23707.pack.md",
+      "card_out": "index/sglang/cards/pr-23707-<slug>.md"
+    },
+    {
+      "number": 23882,
+      "title": "Deepseek V4",
+      "pack": "data/cards-workdir/sglang/packs/pr-23882.pack.md",
+      "card_out": "index/sglang/cards/pr-23882-<slug>.md"
+    },
+    {
+      "number": 24007,
+      "title": "(1/n - prefill optimize)feat(lora): enable csgmv backend with virtual experts for MoE LoRA",
+      "pack": "data/cards-workdir/sglang/packs/pr-24007.pack.md",
+      "card_out": "index/sglang/cards/pr-24007-<slug>.md"
+    },
+    {
+      "number": 24262,
+      "title": "(3/n - prefill optimize)[LoRA][MoE] Optimize virtual experts: remove CPU-GPU sync & multi-block CUDA JIT histogram",
+      "pack": "data/cards-workdir/sglang/packs/pr-24262.pack.md",
+      "card_out": "index/sglang/cards/pr-24262-<slug>.md"
+    },
+    {
+      "number": 24515,
+      "title": "LPLB: linear-programming load balancer for MoE expert parallelism",
+      "pack": "data/cards-workdir/sglang/packs/pr-24515.pack.md",
+      "card_out": "index/sglang/cards/pr-24515-<slug>.md"
+    },
+    {
+      "number": 24696,
+      "title": "[Gemma4] Optimize Gemm4 with fused Q/K/V RMSNorm + per-expert FP8 ckpt loader",
+      "pack": "data/cards-workdir/sglang/packs/pr-24696.pack.md",
+      "card_out": "index/sglang/cards/pr-24696-<slug>.md"
+    }
+  ]
+}

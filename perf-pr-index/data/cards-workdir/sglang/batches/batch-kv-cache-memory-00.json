@@ -1,0 +1,85 @@
+{
+  "repo": "sglang",
+  "category": "KV Cache / Memory",
+  "count": 13,
+  "prs": [
+    {
+      "number": 12078,
+      "title": "[Ascend] qwen optimization",
+      "pack": "data/cards-workdir/sglang/packs/pr-12078.pack.md",
+      "card_out": "index/sglang/cards/pr-12078-<slug>.md"
+    },
+    {
+      "number": 14123,
+      "title": "[VLM] Boost Memory Pool based CUDA IPC",
+      "pack": "data/cards-workdir/sglang/packs/pr-14123.pack.md",
+      "card_out": "index/sglang/cards/pr-14123-<slug>.md"
+    },
+    {
+      "number": 14194,
+      "title": "[feature] implement dcp for deepseek_v2",
+      "pack": "data/cards-workdir/sglang/packs/pr-14194.pack.md",
+      "card_out": "index/sglang/cards/pr-14194-<slug>.md"
+    },
+    {
+      "number": 14758,
+      "title": "[Perf] Optimize radix tree for cache-aware load balancin",
+      "pack": "data/cards-workdir/sglang/packs/pr-14758.pack.md",
+      "card_out": "index/sglang/cards/pr-14758-<slug>.md"
+    },
+    {
+      "number": 17344,
+      "title": "[model-gateway] Optimize WASM cache lookups using SHA-256",
+      "pack": "data/cards-workdir/sglang/packs/pr-17344.pack.md",
+      "card_out": "index/sglang/cards/pr-17344-<slug>.md"
+    },
+    {
+      "number": 21418,
+      "title": "[Perf] Optimize CUDA IPC for multimodal transfer by caching IPC pool handles",
+      "pack": "data/cards-workdir/sglang/packs/pr-21418.pack.md",
+      "card_out": "index/sglang/cards/pr-21418-<slug>.md"
+    },
+    {
+      "number": 21971,
+      "title": "perf: skip KV cache in FA backend for embedding mode",
+      "pack": "data/cards-workdir/sglang/packs/pr-21971.pack.md",
+      "card_out": "index/sglang/cards/pr-21971-<slug>.md"
+    },
+    {
+      "number": 23675,
+      "title": "perf: add --prefill-only-disable-kv-cache to skip KV pool allocation",
+      "pack": "data/cards-workdir/sglang/packs/pr-23675.pack.md",
+      "card_out": "index/sglang/cards/pr-23675-<slug>.md"
+    },
+    {
+      "number": 27010,
+      "title": "[HiCache] Fix PP inconsistency with HiCache L3 (#22607)",
+      "pack": "data/cards-workdir/sglang/packs/pr-27010.pack.md",
+      "card_out": "index/sglang/cards/pr-27010-<slug>.md"
+    },
+    {
+      "number": 27770,
+      "title": "[P/D disagg] Decode-side radix cache for SWA hybrid models (unified radix tree)",
+      "pack": "data/cards-workdir/sglang/packs/pr-27770.pack.md",
+      "card_out": "index/sglang/cards/pr-27770-<slug>.md"
+    },
+    {
+      "number": 34012,
+      "title": "Add Agentic-Aware Tail-Optimized LRU eviction to the unified radix cache",
+      "pack": "data/cards-workdir/sglang/packs/pr-34012.pack.md",
+      "card_out": "index/sglang/cards/pr-34012-<slug>.md"
+    },
+    {
+      "number": 43978,
+      "title": "[Perf] hicache: Parallel THP-backed host pool allocation (opt-in)",
+      "pack": "data/cards-workdir/sglang/packs/pr-43978.pack.md",
+      "card_out": "index/sglang/cards/pr-43978-<slug>.md"
+    },
+    {
+      "number": 45399,
+      "title": "[Perf] glm-5.3: Encode GLM-5.3 Python chat template prompts segment by segment",
+      "pack": "data/cards-workdir/sglang/packs/pr-45399.pack.md",
+      "card_out": "index/sglang/cards/pr-45399-<slug>.md"
+    }
+  ]
+}

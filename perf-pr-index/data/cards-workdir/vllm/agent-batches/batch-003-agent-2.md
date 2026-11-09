@@ -1,0 +1,17 @@
+PR #20396 | [Kernel] SM90 CUTLASS FP8 GEMM: add support for swap AB + kernel tuning | pack=data/cards-workdir/vllm/packs/pr-20396.pack.md | out=index/vllm/cards/pr-20396-kernel-sm90-cutlass-fp8-gemm-add-support.md
+PR #22763 | [Feature] Full Cuda Graph Support for Cutlass MLA and 6% E2E Throughput Improvement | pack=data/cards-workdir/vllm/packs/pr-22763.pack.md | out=index/vllm/cards/pr-22763-feature-full-cuda-graph-support-for-cutl.md
+PR #49636 | [Model][MoE] DeepSeek-V4: add opt-in FlashInfer moe_ep expert backend | pack=data/cards-workdir/vllm/packs/pr-49636.pack.md | out=index/vllm/cards/pr-49636-model-moe-deepseek-v4-add-opt-in-flashin.md
+PR #51538 | [Bugfix] Make DSV4 sparse MLA work end-to-end for plain decode, MTP, and DSpark | pack=data/cards-workdir/vllm/packs/pr-51538.pack.md | out=index/vllm/cards/pr-51538-bugfix-make-dsv4-sparse-mla-work-end-to.md
+PR #64138 | [Perf][DSA] Read BF16 logits directly in persistent top-k | pack=data/cards-workdir/vllm/packs/pr-64138.pack.md | out=index/vllm/cards/pr-64138-perf-dsa-read-bf16-logits-directly-in-pe.md
+PR #53283 | [ROCm][Perf] Use wvSplitK for single-output GEMMs | pack=data/cards-workdir/vllm/packs/pr-53283.pack.md | out=index/vllm/cards/pr-53283-rocm-perf-use-wvsplitk-for-single-output.md
+PR #37948 | [Perf] triton bilinear_pos_embed kernel for ViT | pack=data/cards-workdir/vllm/packs/pr-37948.pack.md | out=index/vllm/cards/pr-37948-perf-triton-bilinear-pos-embed-kernel-fo.md
+PR #57773 | [ROCm][Perf] Enable DPA+ETP prefill compute/comm dual-batch-overlap for DeepSeek-V4 | pack=data/cards-workdir/vllm/packs/pr-57773.pack.md | out=index/vllm/cards/pr-57773-rocm-perf-enable-dpa-etp-prefill-compute.md
+PR #61868 | [Perf][DSv4.1] DeepSeek-V4.1-Flash specialized decode on GB300 | pack=data/cards-workdir/vllm/packs/pr-61868.pack.md | out=index/vllm/cards/pr-61868-perf-dsv4-1-deepseek-v4-1-flash-speciali.md
+PR #53396 | [Kimi K3][Kernel] Support DS conv-state layout in fused KDA decode kernel | pack=data/cards-workdir/vllm/packs/pr-53396.pack.md | out=index/vllm/cards/pr-53396-kimi-k3-kernel-support-ds-conv-state-lay.md
+PR #48498 | [Performance] Add Triton kernel for Gemma3n sparse GELU | pack=data/cards-workdir/vllm/packs/pr-48498.pack.md | out=index/vllm/cards/pr-48498-performance-add-triton-kernel-for-gemma3.md
+PR #12348 | [ROCm] Faster Custom Paged Attention kernels | pack=data/cards-workdir/vllm/packs/pr-12348.pack.md | out=index/vllm/cards/pr-12348-rocm-faster-custom-paged-attention-kerne.md
+PR #52084 | [Perf][DSV4] Optimize sparse top-k metadata kernels for higher prefill throughput | pack=data/cards-workdir/vllm/packs/pr-52084.pack.md | out=index/vllm/cards/pr-52084-perf-dsv4-optimize-sparse-top-k-metadata.md
+PR #50578 | [ROCm][MLA] Use asm decode for non-divisor small head counts | pack=data/cards-workdir/vllm/packs/pr-50578.pack.md | out=index/vllm/cards/pr-50578-rocm-mla-use-asm-decode-for-non-divisor.md
+PR #53614 | [Kimi K3] Support internal prefix checkpoints with partial prefix caching and spec-decoding | pack=data/cards-workdir/vllm/packs/pr-53614.pack.md | out=index/vllm/cards/pr-53614-kimi-k3-support-internal-prefix-checkpoi.md
+PR #56301 | [ROCm][Perf] W4A16: pad gfx11 weight and activation strides | pack=data/cards-workdir/vllm/packs/pr-56301.pack.md | out=index/vllm/cards/pr-56301-rocm-perf-w4a16-pad-gfx11-weight-and-act.md
+PR #59735 | [Perf] Keep non-speculative GDN decode on the standard path | pack=data/cards-workdir/vllm/packs/pr-59735.pack.md | out=index/vllm/cards/pr-59735-perf-keep-non-speculative-gdn-decode-on.md

@@ -1,0 +1,12 @@
+PR #60834 | [ROCm][Perf] Apply opt-in paged MXFP4 sparse indexer dense path for DeepSeek-V4 | pack=data/cards-workdir/vllm/packs/pr-60834.pack.md | out=index/vllm/cards/pr-60834-rocm-perf-apply-opt-in-paged-mxfp4-spars.md
+PR #60103 | [Perf][HiSparse] Fuse per-layer slot invalidation and shorten the all-resident resolver path | pack=data/cards-workdir/vllm/packs/pr-60103.pack.md | out=index/vllm/cards/pr-60103-perf-hisparse-fuse-per-layer-slot-invali.md
+PR #53694 | [Model Runner V2][Spec Decode] Skip DP sync before EAGLE/MTP draft prefill | pack=data/cards-workdir/vllm/packs/pr-53694.pack.md | out=index/vllm/cards/pr-53694-model-runner-v2-spec-decode-skip-dp-sync.md
+PR #52458 | [Kimi-K3][Perf] Update FlashKDA for automatic K2 V-split | pack=data/cards-workdir/vllm/packs/pr-52458.pack.md | out=index/vllm/cards/pr-52458-kimi-k3-perf-update-flashkda-for-automat.md
+PR #41160 | [Kernel] Pack output and LSE in DCP A2A | pack=data/cards-workdir/vllm/packs/pr-41160.pack.md | out=index/vllm/cards/pr-41160-kernel-pack-output-and-lse-in-dcp-a2a.md
+PR #56503 | [ROCm][DSV4.1][Perf] Use AITER mHC for the delayed pre block | pack=data/cards-workdir/vllm/packs/pr-56503.pack.md | out=index/vllm/cards/pr-56503-rocm-dsv4-1-perf-use-aiter-mhc-for-the-d.md
+PR #32951 | [Async][Spec Decoding] Zero-bubble async scheduling + spec decoding | pack=data/cards-workdir/vllm/packs/pr-32951.pack.md | out=index/vllm/cards/pr-32951-async-spec-decoding-zero-bubble-async-sc.md
+PR #51210 | [ModelRunner V2] Minor indexing optimizations | pack=data/cards-workdir/vllm/packs/pr-51210.pack.md | out=index/vllm/cards/pr-51210-modelrunner-v2-minor-indexing-optimizati.md
+PR #44639 | [CPU][Perf]Added tanh AOR for faster gelu activations. | pack=data/cards-workdir/vllm/packs/pr-44639.pack.md | out=index/vllm/cards/pr-44639-cpu-perf-added-tanh-aor-for-faster-gelu.md
+PR #50911 | [Spec Decode] Enable fused non-causal TokenSpeed MLA for DSpark | pack=data/cards-workdir/vllm/packs/pr-50911.pack.md | out=index/vllm/cards/pr-50911-spec-decode-enable-fused-non-causal-toke.md
+PR #4002 | [Kernel] Fused MoE Config for Mixtral 8x22 | pack=data/cards-workdir/vllm/packs/pr-4002.pack.md | out=index/vllm/cards/pr-4002-kernel-fused-moe-config-for-mixtral-8x22.md
+PR #12094 | [V1][Perf] Reduce scheduling overhead in model runner after cuda sync | pack=data/cards-workdir/vllm/packs/pr-12094.pack.md | out=index/vllm/cards/pr-12094-v1-perf-reduce-scheduling-overhead-in-mo.md

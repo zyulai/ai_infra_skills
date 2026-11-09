@@ -1,0 +1,5 @@
+PR #12376 | Replace [silu_and_mul_]scaled_fp4_group_quant by Flashinfer equivalent | pack=data/cards-workdir/sglang/packs/pr-12376.pack.md | out=index/sglang/cards/pr-12376-replace-silu-and-mul-scaled-fp4-group-qu.md
+PR #36546 | MiniMax-M3: run the sparse prefill main attention through AITER Gluon paged attention | pack=data/cards-workdir/sglang/packs/pr-36546.pack.md | out=index/sglang/cards/pr-36546-minimax-m3-run-the-sparse-prefill-main-a.md
+PR #40640 | [Kimi K3] Fix CUDA graph stream explosion | pack=data/cards-workdir/sglang/packs/pr-40640.pack.md | out=index/sglang/cards/pr-40640-kimi-k3-fix-cuda-graph-stream-explosion.md
+PR #45977 | [Perf] diffusion: Turn on breakable CUDA graphs by default for LTX-2/LTX-2.3 two-stage serving | pack=data/cards-workdir/sglang/packs/pr-45977.pack.md | out=index/sglang/cards/pr-45977-perf-diffusion-turn-on-breakable-cuda-gr.md
+PR #22424 | [AMD] Use aiter CK layernorm2d for LayerNorm to reduce NSA indexer kernel launches | pack=data/cards-workdir/sglang/packs/pr-22424.pack.md | out=index/sglang/cards/pr-22424-amd-use-aiter-ck-layernorm2d-for-layerno.md

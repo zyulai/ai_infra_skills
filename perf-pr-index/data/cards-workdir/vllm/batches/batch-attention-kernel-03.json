@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "Attention / Kernel",
+  "count": 40,
+  "prs": [
+    {
+      "number": 46346,
+      "title": "[GDN] Improve kkt kernel of CuteDSL prefill backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-46346.pack.md",
+      "card_out": "index/vllm/cards/pr-46346-<slug>.md"
+    },
+    {
+      "number": 46392,
+      "title": "[Perf] Enable + tune FlashInfer fused allreduce at world_size=16 on SM 10.3 (GB300)",
+      "pack": "data/cards-workdir/vllm/packs/pr-46392.pack.md",
+      "card_out": "index/vllm/cards/pr-46392-<slug>.md"
+    },
+    {
+      "number": 46546,
+      "title": "[ROCm][ [Perf] sparse attention optimization on minimax-m3 ",
+      "pack": "data/cards-workdir/vllm/packs/pr-46546.pack.md",
+      "card_out": "index/vllm/cards/pr-46546-<slug>.md"
+    },
+    {
+      "number": 47327,
+      "title": "[1/N] Add dense MHA path for sparse MLA short sequences",
+      "pack": "data/cards-workdir/vllm/packs/pr-47327.pack.md",
+      "card_out": "index/vllm/cards/pr-47327-<slug>.md"
+    },
+    {
+      "number": 47361,
+      "title": "Delete PagedAttention",
+      "pack": "data/cards-workdir/vllm/packs/pr-47361.pack.md",
+      "card_out": "index/vllm/cards/pr-47361-<slug>.md"
+    },
+    {
+      "number": 48247,
+      "title": "[Perf][ROCm] Add AITER custom AG/RS (DP only)",
+      "pack": "data/cards-workdir/vllm/packs/pr-48247.pack.md",
+      "card_out": "index/vllm/cards/pr-48247-<slug>.md"
+    },
+    {
+      "number": 48249,
+      "title": "[Perf][ROCm] Enable AITER QuickReduce + RMSNorm fusion",
+      "pack": "data/cards-workdir/vllm/packs/pr-48249.pack.md",
+      "card_out": "index/vllm/cards/pr-48249-<slug>.md"
+    },
+    {
+      "number": 48498,
+      "title": "[Performance] Add Triton kernel for Gemma3n sparse GELU",
+      "pack": "data/cards-workdir/vllm/packs/pr-48498.pack.md",
+      "card_out": "index/vllm/cards/pr-48498-<slug>.md"
+    },
+    {
+      "number": 48519,
+      "title": "[ROCm][Perf] Optimize sparse attention prefill kernel for DeepSeek-V4",
+      "pack": "data/cards-workdir/vllm/packs/pr-48519.pack.md",
+      "card_out": "index/vllm/cards/pr-48519-<slug>.md"
+    },
+    {
+      "number": 48770,
+      "title": "[2/N][Attention] Enable masked MHA for sparse MLA prefills",
+      "pack": "data/cards-workdir/vllm/packs/pr-48770.pack.md",
+      "card_out": "index/vllm/cards/pr-48770-<slug>.md"
+    },
+    {
+      "number": 48789,
+      "title": "[Profiler] Add minimal Triton Proton profiling backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-48789.pack.md",
+      "card_out": "index/vllm/cards/pr-48789-<slug>.md"
+    },
+    {
+      "number": 49043,
+      "title": "[Bugfix]Reject invalid FlashInfer MNNVL workspaces",
+      "pack": "data/cards-workdir/vllm/packs/pr-49043.pack.md",
+      "card_out": "index/vllm/cards/pr-49043-<slug>.md"
+    },
+    {
+      "number": 49209,
+      "title": "[Hardware][XPU] Register matmul and linear batch-invariant kernels for XPU",
+      "pack": "data/cards-workdir/vllm/packs/pr-49209.pack.md",
+      "card_out": "index/vllm/cards/pr-49209-<slug>.md"
+    },
+    {
+      "number": 49263,
+      "title": "[Perf] [Feat] [ROCm] Add densemha support to ROCm AITER Sparse MLA",
+      "pack": "data/cards-workdir/vllm/packs/pr-49263.pack.md",
+      "card_out": "index/vllm/cards/pr-49263-<slug>.md"
+    },
+    {
+      "number": 49394,
+      "title": "[XPU] Enable QK Norm + RoPE fusion pass on XPU",
+      "pack": "data/cards-workdir/vllm/packs/pr-49394.pack.md",
+      "card_out": "index/vllm/cards/pr-49394-<slug>.md"
+    },
+    {
+      "number": 49792,
+      "title": "[Kernel][SM100] Add a CuTeDSL fused query kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-49792.pack.md",
+      "card_out": "index/vllm/cards/pr-49792-<slug>.md"
+    },
+    {
+      "number": 50157,
+      "title": "[Kernel] Add support for Flashinfer Mamba SSU algorithm selection",
+      "pack": "data/cards-workdir/vllm/packs/pr-50157.pack.md",
+      "card_out": "index/vllm/cards/pr-50157-<slug>.md"
+    },
+    {
+      "number": 50178,
+      "title": "[9/N][warmup][DSv4] Migrate MHC TileLang kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-50178.pack.md",
+      "card_out": "index/vllm/cards/pr-50178-<slug>.md"
+    },
+    {
+      "number": 50268,
+      "title": " [Hardware][AMD] Enable fused bf16→fp32 router GEMM on ROCm",
+      "pack": "data/cards-workdir/vllm/packs/pr-50268.pack.md",
+      "card_out": "index/vllm/cards/pr-50268-<slug>.md"
+    },
+    {
+      "number": 50298,
+      "title": "[DSv4 Perf] Remove redundant full kernel for dsv4, 1.88x kernel performance improvement",
+      "pack": "data/cards-workdir/vllm/packs/pr-50298.pack.md",
+      "card_out": "index/vllm/cards/pr-50298-<slug>.md"
+    },
+    {
+      "number": 50400,
+      "title": "[Kernel][Kimi] fused vision q/k roper kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-50400.pack.md",
+      "card_out": "index/vllm/cards/pr-50400-<slug>.md"
+    },
+    {
+      "number": 50572,
+      "title": "[kernel] Integrate FlashInfer BF16 CuTeDSL Low Latency GEMM",
+      "pack": "data/cards-workdir/vllm/packs/pr-50572.pack.md",
+      "card_out": "index/vllm/cards/pr-50572-<slug>.md"
+    },
+    {
+      "number": 50578,
+      "title": "[ROCm][MLA] Use asm decode for non-divisor small head counts",
+      "pack": "data/cards-workdir/vllm/packs/pr-50578.pack.md",
+      "card_out": "index/vllm/cards/pr-50578-<slug>.md"
+    },
+    {
+      "number": 50654,
+      "title": "[ROCm][Perf] Kimi-K3 Fused kernel for KDA decode",
+      "pack": "data/cards-workdir/vllm/packs/pr-50654.pack.md",
+      "card_out": "index/vllm/cards/pr-50654-<slug>.md"
+    },
+    {
+      "number": 50932,
+      "title": "buffer size insuffient Dspark sd for FlashInfer MNNVL allreduce",
+      "pack": "data/cards-workdir/vllm/packs/pr-50932.pack.md",
+      "card_out": "index/vllm/cards/pr-50932-<slug>.md"
+    },
+    {
+      "number": 51367,
+      "title": "[Kernel] Use Murmur3 RNG for Gumbel sampling",
+      "pack": "data/cards-workdir/vllm/packs/pr-51367.pack.md",
+      "card_out": "index/vllm/cards/pr-51367-<slug>.md"
+    },
+    {
+      "number": 51507,
+      "title": "[Perf] Launch the top-k/top-p Triton sampler kernel with 8 warps",
+      "pack": "data/cards-workdir/vllm/packs/pr-51507.pack.md",
+      "card_out": "index/vllm/cards/pr-51507-<slug>.md"
+    },
+    {
+      "number": 51739,
+      "title": "[Kernel] Optimize long-context MLA cache gathers",
+      "pack": "data/cards-workdir/vllm/packs/pr-51739.pack.md",
+      "card_out": "index/vllm/cards/pr-51739-<slug>.md"
+    },
+    {
+      "number": 51967,
+      "title": "[Perf][DSV4] Optimize global top-k index kernel with compile-time constants",
+      "pack": "data/cards-workdir/vllm/packs/pr-51967.pack.md",
+      "card_out": "index/vllm/cards/pr-51967-<slug>.md"
+    },
+    {
+      "number": 52084,
+      "title": "[Perf][DSV4] Optimize sparse top-k metadata kernels for higher prefill throughput",
+      "pack": "data/cards-workdir/vllm/packs/pr-52084.pack.md",
+      "card_out": "index/vllm/cards/pr-52084-<slug>.md"
+    },
+    {
+      "number": 52188,
+      "title": "[Spec decode] Support Kimi-K3 DCP with DSpark",
+      "pack": "data/cards-workdir/vllm/packs/pr-52188.pack.md",
+      "card_out": "index/vllm/cards/pr-52188-<slug>.md"
+    },
+    {
+      "number": 52212,
+      "title": "[ROCm][DSV4][Perf] Optimize Triton sparse-MLA decode on gfx950",
+      "pack": "data/cards-workdir/vllm/packs/pr-52212.pack.md",
+      "card_out": "index/vllm/cards/pr-52212-<slug>.md"
+    },
+    {
+      "number": 52277,
+      "title": "[Perf][Frontend] Vectorize Cohere binary embedding bit-packing",
+      "pack": "data/cards-workdir/vllm/packs/pr-52277.pack.md",
+      "card_out": "index/vllm/cards/pr-52277-<slug>.md"
+    },
+    {
+      "number": 52506,
+      "title": "[Mamba] Add FlashInfer ReplaySSM backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-52506.pack.md",
+      "card_out": "index/vllm/cards/pr-52506-<slug>.md"
+    },
+    {
+      "number": 52606,
+      "title": "[ROCm][Perf] Kimi-K3 Fused kernels for KDA prefill",
+      "pack": "data/cards-workdir/vllm/packs/pr-52606.pack.md",
+      "card_out": "index/vllm/cards/pr-52606-<slug>.md"
+    },
+    {
+      "number": 52619,
+      "title": "[ROCm][Perf] Enable medium-skinny dispatch in RDNAHybridW4A16LinearKernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-52619.pack.md",
+      "card_out": "index/vllm/cards/pr-52619-<slug>.md"
+    },
+    {
+      "number": 52737,
+      "title": "[ROCm][Perf] Fuse DeepSeek-V4 mHC post/pre and RMSNorm with AITER",
+      "pack": "data/cards-workdir/vllm/packs/pr-52737.pack.md",
+      "card_out": "index/vllm/cards/pr-52737-<slug>.md"
+    },
+    {
+      "number": 52763,
+      "title": "[ROCM][CI] Attention test speedup",
+      "pack": "data/cards-workdir/vllm/packs/pr-52763.pack.md",
+      "card_out": "index/vllm/cards/pr-52763-<slug>.md"
+    },
+    {
+      "number": 52970,
+      "title": "[ROCm][aiter] officially supporting aiter Triton kernels+dsv4 on RDNA3",
+      "pack": "data/cards-workdir/vllm/packs/pr-52970.pack.md",
+      "card_out": "index/vllm/cards/pr-52970-<slug>.md"
+    },
+    {
+      "number": 53147,
+      "title": "[Kernel][Gemma4] Prune Triton sliding-window tiles for multimodal prefixes",
+      "pack": "data/cards-workdir/vllm/packs/pr-53147.pack.md",
+      "card_out": "index/vllm/cards/pr-53147-<slug>.md"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+PR #44865 | [Feat] ComfyUI: Add online INT8 quantization for BF16 Qwen-Image-2.1 single files | pack=data/cards-workdir/sglang/packs/pr-44865.pack.md | out=index/sglang/cards/pr-44865-feat-comfyui-add-online-int8-quantizatio.md
+PR #46723 | [Perf] [AMD] diffusion: Replace the gfx1250 bf16 scale-shift torch fallback with a bit-exact Triton kernel | pack=data/cards-workdir/sglang/packs/pr-46723.pack.md | out=index/sglang/cards/pr-46723-perf-amd-diffusion-replace-the-gfx1250-b.md
+PR #25418 | integrate flash_mla_sparse_fwd | pack=data/cards-workdir/sglang/packs/pr-25418.pack.md | out=index/sglang/cards/pr-25418-integrate-flash-mla-sparse-fwd.md
+PR #31382 | [Qwen3.5][MTP] Support FlashInfer CuTe DSL for online NVFP4 draft MoE | pack=data/cards-workdir/sglang/packs/pr-31382.pack.md | out=index/sglang/cards/pr-31382-qwen3-5-mtp-support-flashinfer-cute-dsl.md
+PR #40374 | [Diffusion] Fuse lossless SenseNova RoPE for 5% faster H200 inference | pack=data/cards-workdir/sglang/packs/pr-40374.pack.md | out=index/sglang/cards/pr-40374-diffusion-fuse-lossless-sensenova-rope-f.md
+PR #24696 | [Gemma4] Optimize Gemm4 with fused Q/K/V RMSNorm + per-expert FP8 ckpt loader | pack=data/cards-workdir/sglang/packs/pr-24696.pack.md | out=index/sglang/cards/pr-24696-gemma4-optimize-gemm4-with-fused-q-k-v-r.md
+PR #27896 | [Perf] Skip per-call mat_a/scales_a padding in cutlass FP8 blockwise GEMM | pack=data/cards-workdir/sglang/packs/pr-27896.pack.md | out=index/sglang/cards/pr-27896-perf-skip-per-call-mat-a-scales-a-paddin.md
+PR #4680 | Support FA3 as Attention backend by using `--attention-backend fa3` | pack=data/cards-workdir/sglang/packs/pr-4680.pack.md | out=index/sglang/cards/pr-4680-support-fa3-as-attention-backend-by-usin.md
+PR #6890 | Use deepgemm instead of triton for fused_qkv_a_proj_with_mqa | pack=data/cards-workdir/sglang/packs/pr-6890.pack.md | out=index/sglang/cards/pr-6890-use-deepgemm-instead-of-triton-for-fused.md
+PR #10567 | Opt fused triton moe: add tma for down proj kernel | pack=data/cards-workdir/sglang/packs/pr-10567.pack.md | out=index/sglang/cards/pr-10567-opt-fused-triton-moe-add-tma-for-down-pr.md
+PR #16097 | [model-gateway] Optimize INSERT with leaf-only timestamp updates | pack=data/cards-workdir/sglang/packs/pr-16097.pack.md | out=index/sglang/cards/pr-16097-model-gateway-optimize-insert-with-leaf.md
+PR #17228 | [NPU] make torch_native lora backend a little bit faster | pack=data/cards-workdir/sglang/packs/pr-17228.pack.md | out=index/sglang/cards/pr-17228-npu-make-torch-native-lora-backend-a-lit.md
+PR #19422 | [AMD] Use fused GEMM with FP8 cast for FP8 prefill | pack=data/cards-workdir/sglang/packs/pr-19422.pack.md | out=index/sglang/cards/pr-19422-amd-use-fused-gemm-with-fp8-cast-for-fp8.md
+PR #25510 | [diffusion] tighten selected perf baselines | pack=data/cards-workdir/sglang/packs/pr-25510.pack.md | out=index/sglang/cards/pr-25510-diffusion-tighten-selected-perf-baseline.md
+PR #30700 | [NVIDIA] Add flashinfer MNNVL backend for allreduce only | pack=data/cards-workdir/sglang/packs/pr-30700.pack.md | out=index/sglang/cards/pr-30700-nvidia-add-flashinfer-mnnvl-backend-for.md
+PR #36228 | [CP V1 Deprecation 3/5] Remove generic prefill CP v1 runtime | pack=data/cards-workdir/sglang/packs/pr-36228.pack.md | out=index/sglang/cards/pr-36228-cp-v1-deprecation-3-5-remove-generic-pre.md
+PR #37938 | [Perf] Vectorize alloc_extend_naive to remove the per-request Python loop | pack=data/cards-workdir/sglang/packs/pr-37938.pack.md | out=index/sglang/cards/pr-37938-perf-vectorize-alloc-extend-naive-to-rem.md

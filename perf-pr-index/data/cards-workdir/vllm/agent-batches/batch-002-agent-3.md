@@ -1,0 +1,17 @@
+PR #55072 | [Perf][Distributed] Add low-SM multimem reduce-scatter for SM100/SM103 | pack=data/cards-workdir/vllm/packs/pr-55072.pack.md | out=index/vllm/cards/pr-55072-perf-distributed-add-low-sm-multimem-red.md
+PR #34580 | Flashinfer cuDNN backend for Qwen3 VL ViT attention | pack=data/cards-workdir/vllm/packs/pr-34580.pack.md | out=index/vllm/cards/pr-34580-flashinfer-cudnn-backend-for-qwen3-vl-vi.md
+PR #24526 | Add the support for the qwen3 next model (a hybrid attention model). | pack=data/cards-workdir/vllm/packs/pr-24526.pack.md | out=index/vllm/cards/pr-24526-add-the-support-for-the-qwen3-next-model.md
+PR #30885 | [Kernel][Performance] Enable smaller Scaling Factor tiling for NVFP4 small-batch decoding | pack=data/cards-workdir/vllm/packs/pr-30885.pack.md | out=index/vllm/cards/pr-30885-kernel-performance-enable-smaller-scalin.md
+PR #34709 | [ROCm] Enable wvSplitK skinny GEMM kernel for RDNA4/gfx1x decode | pack=data/cards-workdir/vllm/packs/pr-34709.pack.md | out=index/vllm/cards/pr-34709-rocm-enable-wvsplitk-skinny-gemm-kernel.md
+PR #37225 | [Perf] Optimize top-k search in apply_top_k_top_p_triton sampler | pack=data/cards-workdir/vllm/packs/pr-37225.pack.md | out=index/vllm/cards/pr-37225-perf-optimize-top-k-search-in-apply-top.md
+PR #47808 | [Spec Decode] DSpark confidence-scheduled verification | pack=data/cards-workdir/vllm/packs/pr-47808.pack.md | out=index/vllm/cards/pr-47808-spec-decode-dspark-confidence-scheduled.md
+PR #58737 | [Perf] Fuse the mamba align block-table gather into one Triton kernel, 7 kernels -> 1, 6x speedup on all shapes for this kernel | pack=data/cards-workdir/vllm/packs/pr-58737.pack.md | out=index/vllm/cards/pr-58737-perf-fuse-the-mamba-align-block-table-ga.md
+PR #65791 | [Perf] Vectorize silu_and_mul_per_block_quant for large inputs | pack=data/cards-workdir/vllm/packs/pr-65791.pack.md | out=index/vllm/cards/pr-65791-perf-vectorize-silu-and-mul-per-block-qu.md
+PR #61837 | [ROCm][Model] Step-5-Preview support on ROCm | pack=data/cards-workdir/vllm/packs/pr-61837.pack.md | out=index/vllm/cards/pr-61837-rocm-model-step-5-preview-support-on-roc.md
+PR #41394 | [Kernel][ROCm] Native W4A16 kernel for AMD RDNA3 (gfx1100) — fp16 + bf16 | pack=data/cards-workdir/vllm/packs/pr-41394.pack.md | out=index/vllm/cards/pr-41394-kernel-rocm-native-w4a16-kernel-for-amd.md
+PR #20736 | GLM-4.5 Model Support | pack=data/cards-workdir/vllm/packs/pr-20736.pack.md | out=index/vllm/cards/pr-20736-glm-4-5-model-support.md
+PR #23745 | [Feat][EPLB] A novel static EPLB placement strategy for MoE models. | pack=data/cards-workdir/vllm/packs/pr-23745.pack.md | out=index/vllm/cards/pr-23745-feat-eplb-a-novel-static-eplb-placement.md
+PR #62029 | [Attention] Use trtllm-gen for the FlashInfer DCP prefill context pass | pack=data/cards-workdir/vllm/packs/pr-62029.pack.md | out=index/vllm/cards/pr-62029-attention-use-trtllm-gen-for-the-flashin.md
+PR #52228 | [Model Runner V2][Spec Decode] Adaptive Verification without a confidence head | pack=data/cards-workdir/vllm/packs/pr-52228.pack.md | out=index/vllm/cards/pr-52228-model-runner-v2-spec-decode-adaptive-ver.md
+PR #32887 | [Spec Decode] Unified Parallel Drafting | pack=data/cards-workdir/vllm/packs/pr-32887.pack.md | out=index/vllm/cards/pr-32887-spec-decode-unified-parallel-drafting.md
+PR #39058 | [Kernel] Implement CUDA kernel for ReLUSquaredActivation (relu^2) | pack=data/cards-workdir/vllm/packs/pr-39058.pack.md | out=index/vllm/cards/pr-39058-kernel-implement-cuda-kernel-for-relusqu.md

@@ -1,0 +1,17 @@
+PR #3730 | Feature DeepSeek V3/R1 INT8 Quantization (block-wise) | pack=data/cards-workdir/sglang/packs/pr-3730.pack.md | out=index/sglang/cards/pr-3730-feature-deepseek-v3-r1-int8-quantization.md
+PR #22587 | [EPD] Optimize the Mooncake backend | pack=data/cards-workdir/sglang/packs/pr-22587.pack.md | out=index/sglang/cards/pr-22587-epd-optimize-the-mooncake-backend.md
+PR #23707 | [MoE] Deprecate act_and_mul_triton; fold filter_expert into JIT silu/gelu_and_mul | pack=data/cards-workdir/sglang/packs/pr-23707.pack.md | out=index/sglang/cards/pr-23707-moe-deprecate-act-and-mul-triton-fold-fi.md
+PR #24271 | [KDA] Optimize prefill kernels with diagonal and recompute fuse | pack=data/cards-workdir/sglang/packs/pr-24271.pack.md | out=index/sglang/cards/pr-24271-kda-optimize-prefill-kernels-with-diagon.md
+PR #31554 | [Docs] Fill GLM-5.2 H200 FP8 speed cells (low-latency, balanced); fix MTP notation | pack=data/cards-workdir/sglang/packs/pr-31554.pack.md | out=index/sglang/cards/pr-31554-docs-fill-glm-5-2-h200-fp8-speed-cells-l.md
+PR #33599 | [AMD] Fuse Kimi-K3 attn-residual aggregation | pack=data/cards-workdir/sglang/packs/pr-33599.pack.md | out=index/sglang/cards/pr-33599-amd-fuse-kimi-k3-attn-residual-aggregati.md
+PR #48437 | [Perf] [AMD] dsa: Split-K HIP sparse MLA for decode/verify | pack=data/cards-workdir/sglang/packs/pr-48437.pack.md | out=index/sglang/cards/pr-48437-perf-amd-dsa-split-k-hip-sparse-mla-for.md
+PR #38044 | [diffusion] fuse LingBot MoE group-limited top-k index selection | pack=data/cards-workdir/sglang/packs/pr-38044.pack.md | out=index/sglang/cards/pr-38044-diffusion-fuse-lingbot-moe-group-limited.md
+PR #36592 | [Diffusion][Kernel] Fuse Wan FFN GELU epilogue | pack=data/cards-workdir/sglang/packs/pr-36592.pack.md | out=index/sglang/cards/pr-36592-diffusion-kernel-fuse-wan-ffn-gelu-epilo.md
+PR #43839 | [Perf] [AMD] qwen3_5: Quantize the BF16 GDN projections to MXFP4 online | pack=data/cards-workdir/sglang/packs/pr-43839.pack.md | out=index/sglang/cards/pr-43839-perf-amd-qwen3-5-quantize-the-bf16-gdn-p.md
+PR #44200 | [Feat] watermark: Add DSPARK speculative decoding support | pack=data/cards-workdir/sglang/packs/pr-44200.pack.md | out=index/sglang/cards/pr-44200-feat-watermark-add-dspark-speculative-de.md
+PR #15242 | [sgl-kernel] Update flashmla to include fp8 sparse_mla optimizations | pack=data/cards-workdir/sglang/packs/pr-15242.pack.md | out=index/sglang/cards/pr-15242-sgl-kernel-update-flashmla-to-include-fp.md
+PR #38584 | [Diffusion] Optimize Qwen-Image-Edit attention on Hopper | pack=data/cards-workdir/sglang/packs/pr-38584.pack.md | out=index/sglang/cards/pr-38584-diffusion-optimize-qwen-image-edit-atten.md
+PR #35770 | [AMD] Optimize Kimi-K3 Triton MLA prefill on gfx950 | pack=data/cards-workdir/sglang/packs/pr-35770.pack.md | out=index/sglang/cards/pr-35770-amd-optimize-kimi-k3-triton-mla-prefill.md
+PR #17467 | [model-gateway] Optimize consistent hashing hot path to eliminate allocations | pack=data/cards-workdir/sglang/packs/pr-17467.pack.md | out=index/sglang/cards/pr-17467-model-gateway-optimize-consistent-hashin.md
+PR #37213 | [XPU] Qwen3.8-flash-next enablement | pack=data/cards-workdir/sglang/packs/pr-37213.pack.md | out=index/sglang/cards/pr-37213-xpu-qwen3-8-flash-next-enablement.md
+PR #21986 | [AMD] Simplify fused allreduce + RMSNorm and remove hidden_dim allowlist | pack=data/cards-workdir/sglang/packs/pr-21986.pack.md | out=index/sglang/cards/pr-21986-amd-simplify-fused-allreduce-rmsnorm-and.md

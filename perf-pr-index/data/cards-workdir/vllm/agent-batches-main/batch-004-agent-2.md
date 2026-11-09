@@ -1,0 +1,17 @@
+PR #65778 | [Bugfix][Multimodal] Fix FlashInfer ViT attention for GLM-4.1V, GLM-OCR and GLM-5.3-Flash | pack=data/cards-workdir/vllm/packs/pr-65778.pack.md | out=index/vllm/cards/pr-65778-bugfix-multimodal-fix-flashinfer-vit-att.md
+PR #21126 | [Perf] Use FlashInfer RoPE for RotaryEmbedding.forward_cuda when available | pack=data/cards-workdir/vllm/packs/pr-21126.pack.md | out=index/vllm/cards/pr-21126-perf-use-flashinfer-rope-for-rotaryembed.md
+PR #23809 | [fix]: add Arm 4bit fused moe support | pack=data/cards-workdir/vllm/packs/pr-23809.pack.md | out=index/vllm/cards/pr-23809-fix-add-arm-4bit-fused-moe-support.md
+PR #25398 | [Perf]  Add H100 fused MoE config | pack=data/cards-workdir/vllm/packs/pr-25398.pack.md | out=index/vllm/cards/pr-25398-perf-add-h100-fused-moe-config.md
+PR #35963 | [Feature] ViT Full CUDA Graph | pack=data/cards-workdir/vllm/packs/pr-35963.pack.md | out=index/vllm/cards/pr-35963-feature-vit-full-cuda-graph.md
+PR #61343 | [Perf] per_token_group_quant_8bit: multiply by reciprocal instead of dividing per element | pack=data/cards-workdir/vllm/packs/pr-61343.pack.md | out=index/vllm/cards/pr-61343-perf-per-token-group-quant-8bit-multiply.md
+PR #55285 | [Perf] Use SDPA for BLIP-2 Q-Former attention | pack=data/cards-workdir/vllm/packs/pr-55285.pack.md | out=index/vllm/cards/pr-55285-perf-use-sdpa-for-blip-2-q-former-attent.md
+PR #62101 | [Perf][Model] Cohere2MoE: attention/MoE dual stream, single TP all-reduce per layer, fused add + RMSNorm | pack=data/cards-workdir/vllm/packs/pr-62101.pack.md | out=index/vllm/cards/pr-62101-perf-model-cohere2moe-attention-moe-dual.md
+PR #55808 | [ROCm][Perf] Remove AITER paged-MQA outputs guard for DeepSeek-V4 | pack=data/cards-workdir/vllm/packs/pr-55808.pack.md | out=index/vllm/cards/pr-55808-rocm-perf-remove-aiter-paged-mqa-outputs.md
+PR #30200 | [Frontend] Introduce Renderer for processing chat messages (using `ModelConfig`) | pack=data/cards-workdir/vllm/packs/pr-30200.pack.md | out=index/vllm/cards/pr-30200-frontend-introduce-renderer-for-processi.md
+PR #32996 | Feature/silu block quant fusion v1 | pack=data/cards-workdir/vllm/packs/pr-32996.pack.md | out=index/vllm/cards/pr-32996-feature-silu-block-quant-fusion-v1.md
+PR #47361 | Delete PagedAttention | pack=data/cards-workdir/vllm/packs/pr-47361.pack.md | out=index/vllm/cards/pr-47361-delete-pagedattention.md
+PR #11698 | [Kernel][Triton][AMD] Use block size heuristic for avg 2.8x speedup for int8 models | pack=data/cards-workdir/vllm/packs/pr-11698.pack.md | out=index/vllm/cards/pr-11698-kernel-triton-amd-use-block-size-heurist.md
+PR #62240 | [Perf][DSA] Rank the prefill indexer logits with DeepSelect in BF16 | pack=data/cards-workdir/vllm/packs/pr-62240.pack.md | out=index/vllm/cards/pr-62240-perf-dsa-rank-the-prefill-indexer-logits.md
+PR #64467 | [Perf][MoE] Use 32-row tiles in prepare_megamoe_inputs from 1024 tokens | pack=data/cards-workdir/vllm/packs/pr-64467.pack.md | out=index/vllm/cards/pr-64467-perf-moe-use-32-row-tiles-in-prepare-meg.md
+PR #19566 | [Perf] Further tunings for SM100 FP8 CUTLASS kernel | pack=data/cards-workdir/vllm/packs/pr-19566.pack.md | out=index/vllm/cards/pr-19566-perf-further-tunings-for-sm100-fp8-cutla.md
+PR #55061 | [Performance][DSv4] Size dequant gather launch grid by rows | pack=data/cards-workdir/vllm/packs/pr-55061.pack.md | out=index/vllm/cards/pr-55061-performance-dsv4-size-dequant-gather-lau.md

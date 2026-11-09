@@ -1,0 +1,247 @@
+{
+  "repo": "sglang",
+  "category": "Speculative Decoding",
+  "count": 40,
+  "prs": [
+    {
+      "number": 27689,
+      "title": "[Perf] FlashInfer MLA: remove blocking D2H in spec-decode plan",
+      "pack": "data/cards-workdir/sglang/packs/pr-27689.pack.md",
+      "card_out": "index/sglang/cards/pr-27689-<slug>.md"
+    },
+    {
+      "number": 27896,
+      "title": "[Perf] Skip per-call mat_a/scales_a padding in cutlass FP8 blockwise GEMM",
+      "pack": "data/cards-workdir/sglang/packs/pr-27896.pack.md",
+      "card_out": "index/sglang/cards/pr-27896-<slug>.md"
+    },
+    {
+      "number": 27906,
+      "title": "[Model] Support Qwen3.6 ModelOpt mixed NVFP4",
+      "pack": "data/cards-workdir/sglang/packs/pr-27906.pack.md",
+      "card_out": "index/sglang/cards/pr-27906-<slug>.md"
+    },
+    {
+      "number": 28354,
+      "title": "[FlashInfer v0.6.16] Support FlashInfer CuTe DSL NVFP4 MoE quantization",
+      "pack": "data/cards-workdir/sglang/packs/pr-28354.pack.md",
+      "card_out": "index/sglang/cards/pr-28354-<slug>.md"
+    },
+    {
+      "number": 28609,
+      "title": "Facade DSA index-cache: MTP topk-reuse state + index-K storage",
+      "pack": "data/cards-workdir/sglang/packs/pr-28609.pack.md",
+      "card_out": "index/sglang/cards/pr-28609-<slug>.md"
+    },
+    {
+      "number": 28782,
+      "title": "[Spec] Support FlashInfer CUDA graph for EAGLE draft-extend",
+      "pack": "data/cards-workdir/sglang/packs/pr-28782.pack.md",
+      "card_out": "index/sglang/cards/pr-28782-<slug>.md"
+    },
+    {
+      "number": 29105,
+      "title": " [NPU] perf: precompute mamba conv-state track indices once per batch",
+      "pack": "data/cards-workdir/sglang/packs/pr-29105.pack.md",
+      "card_out": "index/sglang/cards/pr-29105-<slug>.md"
+    },
+    {
+      "number": 29202,
+      "title": "[AMD] Enable draft-extend CUDA graph and reduce bubble for MTP",
+      "pack": "data/cards-workdir/sglang/packs/pr-29202.pack.md",
+      "card_out": "index/sglang/cards/pr-29202-<slug>.md"
+    },
+    {
+      "number": 29420,
+      "title": "[AMD][DSV4] Remove per-batch D2H syncs in MTP to avoid bubbles between 2 batches",
+      "pack": "data/cards-workdir/sglang/packs/pr-29420.pack.md",
+      "card_out": "index/sglang/cards/pr-29420-<slug>.md"
+    },
+    {
+      "number": 29432,
+      "title": "Fix bookkeeping fields not encapsulated with real allocations in normal alloc, PD pre-alloc, DFlash and EAGLE",
+      "pack": "data/cards-workdir/sglang/packs/pr-29432.pack.md",
+      "card_out": "index/sglang/cards/pr-29432-<slug>.md"
+    },
+    {
+      "number": 29654,
+      "title": "[spec] Fix index_share_for_mtp_iteration being a no-op in EAGLE MTP draft",
+      "pack": "data/cards-workdir/sglang/packs/pr-29654.pack.md",
+      "card_out": "index/sglang/cards/pr-29654-<slug>.md"
+    },
+    {
+      "number": 30113,
+      "title": "[KDA] Add FlashInfer SM100 KDA decode + MTP (target_verify) backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-30113.pack.md",
+      "card_out": "index/sglang/cards/pr-30113-<slug>.md"
+    },
+    {
+      "number": 30238,
+      "title": "[AMD] Support two batch overlap with MTP on DeepSeekV4",
+      "pack": "data/cards-workdir/sglang/packs/pr-30238.pack.md",
+      "card_out": "index/sglang/cards/pr-30238-<slug>.md"
+    },
+    {
+      "number": 30261,
+      "title": "[Spec] Add DSpark: confidence-scheduled speculative decoding",
+      "pack": "data/cards-workdir/sglang/packs/pr-30261.pack.md",
+      "card_out": "index/sglang/cards/pr-30261-<slug>.md"
+    },
+    {
+      "number": 30265,
+      "title": "[AMD] Fix GLM-5.2 MTP Quark excludes",
+      "pack": "data/cards-workdir/sglang/packs/pr-30265.pack.md",
+      "card_out": "index/sglang/cards/pr-30265-<slug>.md"
+    },
+    {
+      "number": 30393,
+      "title": "[HiCache] Support packed and sidecar draft caches for MTP/EAGLE/DSpark",
+      "pack": "data/cards-workdir/sglang/packs/pr-30393.pack.md",
+      "card_out": "index/sglang/cards/pr-30393-<slug>.md"
+    },
+    {
+      "number": 30437,
+      "title": "[Mamba] Support speculative decoding with extra_buffer_lazy",
+      "pack": "data/cards-workdir/sglang/packs/pr-30437.pack.md",
+      "card_out": "index/sglang/cards/pr-30437-<slug>.md"
+    },
+    {
+      "number": 30775,
+      "title": "Pipeline parallelism x speculative decoding (EAGLE/MTP) compatibility",
+      "pack": "data/cards-workdir/sglang/packs/pr-30775.pack.md",
+      "card_out": "index/sglang/cards/pr-30775-<slug>.md"
+    },
+    {
+      "number": 31041,
+      "title": "[Spec] Add LFM2 and LFM2-MoE DSpark speculative decoding support",
+      "pack": "data/cards-workdir/sglang/packs/pr-31041.pack.md",
+      "card_out": "index/sglang/cards/pr-31041-<slug>.md"
+    },
+    {
+      "number": 31382,
+      "title": "[Qwen3.5][MTP] Support FlashInfer CuTe DSL for online NVFP4 draft MoE",
+      "pack": "data/cards-workdir/sglang/packs/pr-31382.pack.md",
+      "card_out": "index/sglang/cards/pr-31382-<slug>.md"
+    },
+    {
+      "number": 31554,
+      "title": "[Docs] Fill GLM-5.2 H200 FP8 speed cells (low-latency, balanced); fix MTP notation",
+      "pack": "data/cards-workdir/sglang/packs/pr-31554.pack.md",
+      "card_out": "index/sglang/cards/pr-31554-<slug>.md"
+    },
+    {
+      "number": 32196,
+      "title": "[PD] Keep EAGLE DP graph and token metadata consistent",
+      "pack": "data/cards-workdir/sglang/packs/pr-32196.pack.md",
+      "card_out": "index/sglang/cards/pr-32196-<slug>.md"
+    },
+    {
+      "number": 32207,
+      "title": "【NPU】Support EAGLE when PP enabled in prefill nodes",
+      "pack": "data/cards-workdir/sglang/packs/pr-32207.pack.md",
+      "card_out": "index/sglang/cards/pr-32207-<slug>.md"
+    },
+    {
+      "number": 32219,
+      "title": "[MTP] Cut spec-v2 host-seam overhead in hybrid-linear MTP decode",
+      "pack": "data/cards-workdir/sglang/packs/pr-32219.pack.md",
+      "card_out": "index/sglang/cards/pr-32219-<slug>.md"
+    },
+    {
+      "number": 32616,
+      "title": "[JIT] Restore the previous division behavior in per-token group quantization",
+      "pack": "data/cards-workdir/sglang/packs/pr-32616.pack.md",
+      "card_out": "index/sglang/cards/pr-32616-<slug>.md"
+    },
+    {
+      "number": 32818,
+      "title": "[Fix] Route asymmetric-KV models to fa4 on SM100 and pin MiMoV2 FP8 MoE to flashinfer_trtllm",
+      "pack": "data/cards-workdir/sglang/packs/pr-32818.pack.md",
+      "card_out": "index/sglang/cards/pr-32818-<slug>.md"
+    },
+    {
+      "number": 33115,
+      "title": "[ModelOpt FP4] Support online MoE weight quantization",
+      "pack": "data/cards-workdir/sglang/packs/pr-33115.pack.md",
+      "card_out": "index/sglang/cards/pr-33115-<slug>.md"
+    },
+    {
+      "number": 33395,
+      "title": "[Feat] speculative: Seed rejection-sampling draft proposals for deterministic inference",
+      "pack": "data/cards-workdir/sglang/packs/pr-33395.pack.md",
+      "card_out": "index/sglang/cards/pr-33395-<slug>.md"
+    },
+    {
+      "number": 33561,
+      "title": "[Model] Support Ling-3.0-flash (BailingMoeV3) ",
+      "pack": "data/cards-workdir/sglang/packs/pr-33561.pack.md",
+      "card_out": "index/sglang/cards/pr-33561-<slug>.md"
+    },
+    {
+      "number": 33722,
+      "title": "[KDA] Fused-accept state advance for FlashInfer KDA MTP verify",
+      "pack": "data/cards-workdir/sglang/packs/pr-33722.pack.md",
+      "card_out": "index/sglang/cards/pr-33722-<slug>.md"
+    },
+    {
+      "number": 33723,
+      "title": "[3/N] elastic-ep: Recapture decode CUDA graphs after scale-up",
+      "pack": "data/cards-workdir/sglang/packs/pr-33723.pack.md",
+      "card_out": "index/sglang/cards/pr-33723-<slug>.md"
+    },
+    {
+      "number": 33829,
+      "title": "[Model] Complete dots.note.omni support with native encoders, video preprocessing, and MTP decoding",
+      "pack": "data/cards-workdir/sglang/packs/pr-33829.pack.md",
+      "card_out": "index/sglang/cards/pr-33829-<slug>.md"
+    },
+    {
+      "number": 34337,
+      "title": "[Spec][LoRA] Support multi-adapter LoRA with EAGLE/NEXTN/DFLASH/DSPARK speculative decoding",
+      "pack": "data/cards-workdir/sglang/packs/pr-34337.pack.md",
+      "card_out": "index/sglang/cards/pr-34337-<slug>.md"
+    },
+    {
+      "number": 34923,
+      "title": "Apply latest DeepEP branch",
+      "pack": "data/cards-workdir/sglang/packs/pr-34923.pack.md",
+      "card_out": "index/sglang/cards/pr-34923-<slug>.md"
+    },
+    {
+      "number": 34973,
+      "title": "[AMD] DSv4: fuse the qk-norm-rope pair on the MTP target-verify path",
+      "pack": "data/cards-workdir/sglang/packs/pr-34973.pack.md",
+      "card_out": "index/sglang/cards/pr-34973-<slug>.md"
+    },
+    {
+      "number": 35629,
+      "title": "[NPU] Adapt DFlash2 speculative decoding to Ascend NPUs",
+      "pack": "data/cards-workdir/sglang/packs/pr-35629.pack.md",
+      "card_out": "index/sglang/cards/pr-35629-<slug>.md"
+    },
+    {
+      "number": 35719,
+      "title": "[AMD] Fix Qwen3.5 MTP dropping fused shared-expert weights",
+      "pack": "data/cards-workdir/sglang/packs/pr-35719.pack.md",
+      "card_out": "index/sglang/cards/pr-35719-<slug>.md"
+    },
+    {
+      "number": 36568,
+      "title": "perf: skip redundant scheduler metadata gather for DP1",
+      "pack": "data/cards-workdir/sglang/packs/pr-36568.pack.md",
+      "card_out": "index/sglang/cards/pr-36568-<slug>.md"
+    },
+    {
+      "number": 36865,
+      "title": "[Kernel] Add KDA NVFP4 GEMM for Qwen3.x on SM120",
+      "pack": "data/cards-workdir/sglang/packs/pr-36865.pack.md",
+      "card_out": "index/sglang/cards/pr-36865-<slug>.md"
+    },
+    {
+      "number": 37213,
+      "title": "[XPU] Qwen3.8-flash-next enablement",
+      "pack": "data/cards-workdir/sglang/packs/pr-37213.pack.md",
+      "card_out": "index/sglang/cards/pr-37213-<slug>.md"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+PR #47631 | [Perf] Minimax M3 - Support cross-layer allreduce-norm fusion | pack=data/cards-workdir/vllm/packs/pr-47631.pack.md | out=index/vllm/cards/pr-47631-perf-minimax-m3-support-cross-layer-allr.md
+PR #8248 | [Kernel] [Triton] Memory optimization for awq_gemm and awq_dequantize, 2x throughput | pack=data/cards-workdir/vllm/packs/pr-8248.pack.md | out=index/vllm/cards/pr-8248-kernel-triton-memory-optimization-for-aw.md
+PR #65201 | [Bugfix][HiSparse] Avoid the MNNVL FlashInfer all-reduce with HiSparse | pack=data/cards-workdir/vllm/packs/pr-65201.pack.md | out=index/vllm/cards/pr-65201-bugfix-hisparse-avoid-the-mnnvl-flashinf.md
+PR #62377 | [PCP] Allow decode-only full CUDA graphs for DSv3.2/GLM-5.2/5.3 sparse MLA with DCP=1 | pack=data/cards-workdir/vllm/packs/pr-62377.pack.md | out=index/vllm/cards/pr-62377-pcp-allow-decode-only-full-cuda-graphs-f.md
+PR #56683 | [Perf] Parallelize mHC pre-norm JIT warmup | pack=data/cards-workdir/vllm/packs/pr-56683.pack.md | out=index/vllm/cards/pr-56683-perf-parallelize-mhc-pre-norm-jit-warmup.md
+PR #4353 | [Kernel] Use flashinfer for decoding | pack=data/cards-workdir/vllm/packs/pr-4353.pack.md | out=index/vllm/cards/pr-4353-kernel-use-flashinfer-for-decoding.md
+PR #29723 | [V1][Spec Decode] Optimize Medusa proposer to avoid GPU-CPU sync | pack=data/cards-workdir/vllm/packs/pr-29723.pack.md | out=index/vllm/cards/pr-29723-v1-spec-decode-optimize-medusa-proposer.md
+PR #46963 | [Attention] Support NVFP4 KV cache on SM8x and SM12x with FlashInfer | pack=data/cards-workdir/vllm/packs/pr-46963.pack.md | out=index/vllm/cards/pr-46963-attention-support-nvfp4-kv-cache-on-sm8x.md
+PR #52789 | [Perf] Support internal prefill checkpoints for Mamba prefix caching, 9%~25% TTFT improvement | pack=data/cards-workdir/vllm/packs/pr-52789.pack.md | out=index/vllm/cards/pr-52789-perf-support-internal-prefill-checkpoint.md
+PR #61773 | [Perf][MoE] Skip the TRTLLM fp8-block activation-scale transpose copy | pack=data/cards-workdir/vllm/packs/pr-61773.pack.md | out=index/vllm/cards/pr-61773-perf-moe-skip-the-trtllm-fp8-block-activ.md
+PR #36164 | perf: add __slots__ to KVCacheBlock  | pack=data/cards-workdir/vllm/packs/pr-36164.pack.md | out=index/vllm/cards/pr-36164-perf-add-slots-to-kvcacheblock.md
+PR #20235 | [TPU] kv cache update kernel supports dynamic grid | pack=data/cards-workdir/vllm/packs/pr-20235.pack.md | out=index/vllm/cards/pr-20235-tpu-kv-cache-update-kernel-supports-dyna.md
+PR #26107 | [NVIDIA] Add support for cudnn fp4 gemm via flashinfer | pack=data/cards-workdir/vllm/packs/pr-26107.pack.md | out=index/vllm/cards/pr-26107-nvidia-add-support-for-cudnn-fp4-gemm-vi.md
+PR #24701 | [Kernel] [CPU] refactor `cpu_attn.py:_run_sdpa_forward` for better memory access | pack=data/cards-workdir/vllm/packs/pr-24701.pack.md | out=index/vllm/cards/pr-24701-kernel-cpu-refactor-cpu-attn-py-run-sdpa.md
+PR #6036 | [Kernel] Support Microsoft Runtime Kernel Lib for our Low Precision Computation - BitBLAS | pack=data/cards-workdir/vllm/packs/pr-6036.pack.md | out=index/vllm/cards/pr-6036-kernel-support-microsoft-runtime-kernel.md
+PR #32104 | Add tensor IPC transfer mechanism for multimodal data | pack=data/cards-workdir/vllm/packs/pr-32104.pack.md | out=index/vllm/cards/pr-32104-add-tensor-ipc-transfer-mechanism-for-mu.md
+PR #40337 | [Perf] Integrate flash-maxsim Triton kernels for late-interaction scoring | pack=data/cards-workdir/vllm/packs/pr-40337.pack.md | out=index/vllm/cards/pr-40337-perf-integrate-flash-maxsim-triton-kerne.md

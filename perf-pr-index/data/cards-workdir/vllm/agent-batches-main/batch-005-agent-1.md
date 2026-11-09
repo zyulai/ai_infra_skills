@@ -1,0 +1,17 @@
+PR #45635 | [AuxOutput] Add block-keyed storage for routed-expert outputs | pack=data/cards-workdir/vllm/packs/pr-45635.pack.md | out=index/vllm/cards/pr-45635-auxoutput-add-block-keyed-storage-for-ro.md
+PR #47972 | Support DeepSeek-V4 AMD Quark NVFP4 with emulation kernel  | pack=data/cards-workdir/vllm/packs/pr-47972.pack.md | out=index/vllm/cards/pr-47972-support-deepseek-v4-amd-quark-nvfp4-with.md
+PR #51360 | [Frontend] Add reusable TP1 initialized-engine snapshots | pack=data/cards-workdir/vllm/packs/pr-51360.pack.md | out=index/vllm/cards/pr-51360-frontend-add-reusable-tp1-initialized-en.md
+PR #52921 | [Bugfix] Align CPU offload pool size across PP/spec-decode workers | pack=data/cards-workdir/vllm/packs/pr-52921.pack.md | out=index/vllm/cards/pr-52921-bugfix-align-cpu-offload-pool-size-acros.md
+PR #53175 | [Kernel] Resubmit PR 48666 - Gemma4 FP8 KV FA4 head dim 512 backend selection | pack=data/cards-workdir/vllm/packs/pr-53175.pack.md | out=index/vllm/cards/pr-53175-kernel-resubmit-pr-48666-gemma4-fp8-kv-f.md
+PR #20401 | Add tree attention backend for v1 (part 1) | pack=data/cards-workdir/vllm/packs/pr-20401.pack.md | out=index/vllm/cards/pr-20401-add-tree-attention-backend-for-v1-part-1.md
+PR #44124 | feat: support to OpenMOSS-Team | pack=data/cards-workdir/vllm/packs/pr-44124.pack.md | out=index/vllm/cards/pr-44124-feat-support-to-openmoss-team.md
+PR #43091 | [Model Runner V2][Spec Decode] Support spec decode with draft model | pack=data/cards-workdir/vllm/packs/pr-43091.pack.md | out=index/vllm/cards/pr-43091-model-runner-v2-spec-decode-support-spec.md
+PR #44890 | [Frontend][Core] Add release_kv_cache_memory() API | pack=data/cards-workdir/vllm/packs/pr-44890.pack.md | out=index/vllm/cards/pr-44890-frontend-core-add-release-kv-cache-memor.md
+PR #50272 | [Bugfix] Fix speculative decoding for short_conv (LFM2) models | pack=data/cards-workdir/vllm/packs/pr-50272.pack.md | out=index/vllm/cards/pr-50272-bugfix-fix-speculative-decoding-for-shor.md
+PR #51052 | [KVConnector][MoRIIO] Transfer hybrid mamba/KDA recurrent state in READ mode | pack=data/cards-workdir/vllm/packs/pr-51052.pack.md | out=index/vllm/cards/pr-51052-kvconnector-moriio-transfer-hybrid-mamba.md
+PR #51808 | [Online quantization] Support activation quant key override for online MXFP4 linear/MOE quant methods | pack=data/cards-workdir/vllm/packs/pr-51808.pack.md | out=index/vllm/cards/pr-51808-online-quantization-support-activation-q.md
+PR #53911 | [Kernel] Fuse DeepEP-v2 decode globalize+align into one launch | pack=data/cards-workdir/vllm/packs/pr-53911.pack.md | out=index/vllm/cards/pr-53911-kernel-fuse-deepep-v2-decode-globalize-a.md
+PR #55422 | [Docker] Compile Python bytecode at image build time | pack=data/cards-workdir/vllm/packs/pr-55422.pack.md | out=index/vllm/cards/pr-55422-docker-compile-python-bytecode-at-image.md
+PR #58761 | [ROCm][CI] Make ROCm 10.0 the default image; keep ROCm 7.2 as -rocm72 | pack=data/cards-workdir/vllm/packs/pr-58761.pack.md | out=index/vllm/cards/pr-58761-rocm-ci-make-rocm-10-0-the-default-image.md
+PR #28309 | [KVConnector] Add KV events to KV Connectors | pack=data/cards-workdir/vllm/packs/pr-28309.pack.md | out=index/vllm/cards/pr-28309-kvconnector-add-kv-events-to-kv-connecto.md
+PR #38174 | [Feature] Universal speculative decoding for heterogeneous vocabularies (TLI) | pack=data/cards-workdir/vllm/packs/pr-38174.pack.md | out=index/vllm/cards/pr-38174-feature-universal-speculative-decoding-f.md

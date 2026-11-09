@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-11-08T15:31:03+00:00",
+  "repos": {
+    "vllm": {
+      "repo_full": "vllm-project/vllm",
+      "fetch_window_utc": [
+        "2026-11-08T09:35:42+00:00",
+        "2026-11-08T10:03:45+00:00"
+      ],
+      "raw_prs": 7889,
+      "classified_prs": 7889,
+      "major_prs": 642,
+      "evidence_cards": 642,
+      "head_sha": "83630ab85eb27e456d99008cc0a27e025e73c0b4",
+      "head_date": "2026-11-08T15:03:06Z",
+      "head_message": "[Bugfix] Offload model runner construction buffers on sleep (#59994)"
+    },
+    "sglang": {
+      "repo_full": "sgl-project/sglang",
+      "fetch_window_utc": [
+        "2026-11-08T10:04:47+00:00",
+        "2026-11-08T10:18:01+00:00"
+      ],
+      "raw_prs": 6297,
+      "classified_prs": 6297,
+      "major_prs": 602,
+      "evidence_cards": 602,
+      "head_sha": "4003bf1077debcca3fccfa6e0d7b56ed584aa727",
+      "head_date": "2026-11-08T13:35:37Z",
+      "head_message": "[Feat] request_logger: Summarize media inputs per modality in request logs (#48800)"
+    }
+  }
+}

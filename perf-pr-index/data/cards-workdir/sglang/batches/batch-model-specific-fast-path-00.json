@@ -1,0 +1,247 @@
+{
+  "repo": "sglang",
+  "category": "Model-specific Fast Path",
+  "count": 40,
+  "prs": [
+    {
+      "number": 4918,
+      "title": "Add DeepSeek V3/R1 shared experts fusion",
+      "pack": "data/cards-workdir/sglang/packs/pr-4918.pack.md",
+      "card_out": "index/sglang/cards/pr-4918-<slug>.md"
+    },
+    {
+      "number": 7724,
+      "title": "[Multimodal][Perf] Use `pybase64` instead of `base64`",
+      "pack": "data/cards-workdir/sglang/packs/pr-7724.pack.md",
+      "card_out": "index/sglang/cards/pr-7724-<slug>.md"
+    },
+    {
+      "number": 10586,
+      "title": "[Performance] Qwen3-Next: speed up update_mamba_state_after_mtp_verify by 10x; e2e up to 3.54% faster",
+      "pack": "data/cards-workdir/sglang/packs/pr-10586.pack.md",
+      "card_out": "index/sglang/cards/pr-10586-<slug>.md"
+    },
+    {
+      "number": 11482,
+      "title": "[smol] [perf] Inverse perm improvement",
+      "pack": "data/cards-workdir/sglang/packs/pr-11482.pack.md",
+      "card_out": "index/sglang/cards/pr-11482-<slug>.md"
+    },
+    {
+      "number": 11536,
+      "title": "Speed up by reducing _forward_extend_unified's gpu->cpu sync bubble by ~2x faster",
+      "pack": "data/cards-workdir/sglang/packs/pr-11536.pack.md",
+      "card_out": "index/sglang/cards/pr-11536-<slug>.md"
+    },
+    {
+      "number": 12240,
+      "title": "[VLM] Optimize qwen_vl preprocess_video",
+      "pack": "data/cards-workdir/sglang/packs/pr-12240.pack.md",
+      "card_out": "index/sglang/cards/pr-12240-<slug>.md"
+    },
+    {
+      "number": 13487,
+      "title": "[Performance] Replace preprocess_video logic from GLM  multimodal processor with transformer impl for speed up (up to 27% faster) and addressing OOM (up to 50x improvements)",
+      "pack": "data/cards-workdir/sglang/packs/pr-13487.pack.md",
+      "card_out": "index/sglang/cards/pr-13487-<slug>.md"
+    },
+    {
+      "number": 13681,
+      "title": "[perf] Add two stream norm for `Olmo3` speedup 5%",
+      "pack": "data/cards-workdir/sglang/packs/pr-13681.pack.md",
+      "card_out": "index/sglang/cards/pr-13681-<slug>.md"
+    },
+    {
+      "number": 13736,
+      "title": "[VLM] Replace torch.repeat_interleave with faster np.repeat for Qwen-VL series",
+      "pack": "data/cards-workdir/sglang/packs/pr-13736.pack.md",
+      "card_out": "index/sglang/cards/pr-13736-<slug>.md"
+    },
+    {
+      "number": 14213,
+      "title": "Add Mistral Large 3 support.",
+      "pack": "data/cards-workdir/sglang/packs/pr-14213.pack.md",
+      "card_out": "index/sglang/cards/pr-14213-<slug>.md"
+    },
+    {
+      "number": 14292,
+      "title": "[VLM] Introduce Cache for positional embedding ids for Qwen-VL family",
+      "pack": "data/cards-workdir/sglang/packs/pr-14292.pack.md",
+      "card_out": "index/sglang/cards/pr-14292-<slug>.md"
+    },
+    {
+      "number": 15205,
+      "title": "[VLM] Support cos sin cache for Qwen3-VL & GLM-4.1V",
+      "pack": "data/cards-workdir/sglang/packs/pr-15205.pack.md",
+      "card_out": "index/sglang/cards/pr-15205-<slug>.md"
+    },
+    {
+      "number": 17094,
+      "title": "Optimize GDN decode for Qwen3 Next",
+      "pack": "data/cards-workdir/sglang/packs/pr-17094.pack.md",
+      "card_out": "index/sglang/cards/pr-17094-<slug>.md"
+    },
+    {
+      "number": 18124,
+      "title": "[Perf] Use safetensors `load_file` in multithread loader",
+      "pack": "data/cards-workdir/sglang/packs/pr-18124.pack.md",
+      "card_out": "index/sglang/cards/pr-18124-<slug>.md"
+    },
+    {
+      "number": 18185,
+      "title": "[Omni] Optimize AudioEncoder for Qwen3_Omni_Thinker",
+      "pack": "data/cards-workdir/sglang/packs/pr-18185.pack.md",
+      "card_out": "index/sglang/cards/pr-18185-<slug>.md"
+    },
+    {
+      "number": 19749,
+      "title": "[Feature] Optimizations for JPEG input on NVIDIA GPU",
+      "pack": "data/cards-workdir/sglang/packs/pr-19749.pack.md",
+      "card_out": "index/sglang/cards/pr-19749-<slug>.md"
+    },
+    {
+      "number": 20386,
+      "title": "perf(qwen3_5): replace einops rearrange with torch.flatten in GatedDe…",
+      "pack": "data/cards-workdir/sglang/packs/pr-20386.pack.md",
+      "card_out": "index/sglang/cards/pr-20386-<slug>.md"
+    },
+    {
+      "number": 23827,
+      "title": "[NPU] Support shared expert dual stream optimization",
+      "pack": "data/cards-workdir/sglang/packs/pr-23827.pack.md",
+      "card_out": "index/sglang/cards/pr-23827-<slug>.md"
+    },
+    {
+      "number": 24256,
+      "title": "[core/loader] Add presharded load format",
+      "pack": "data/cards-workdir/sglang/packs/pr-24256.pack.md",
+      "card_out": "index/sglang/cards/pr-24256-<slug>.md"
+    },
+    {
+      "number": 24692,
+      "title": "feat: SM120 (Blackwell Desktop) support for DeepSeek-V4 inference",
+      "pack": "data/cards-workdir/sglang/packs/pr-24692.pack.md",
+      "card_out": "index/sglang/cards/pr-24692-<slug>.md"
+    },
+    {
+      "number": 24880,
+      "title": "[PD & HiSparse] Add DeepSeek V4 support for HiSparse direct Prefill-to-Decode DRAM",
+      "pack": "data/cards-workdir/sglang/packs/pr-24880.pack.md",
+      "card_out": "index/sglang/cards/pr-24880-<slug>.md"
+    },
+    {
+      "number": 25367,
+      "title": "Fix EPLB redundant experts with shared expert fusion and Waterfill",
+      "pack": "data/cards-workdir/sglang/packs/pr-25367.pack.md",
+      "card_out": "index/sglang/cards/pr-25367-<slug>.md"
+    },
+    {
+      "number": 25455,
+      "title": "[NPU] MiMo-V2-Flash Adaptation",
+      "pack": "data/cards-workdir/sglang/packs/pr-25455.pack.md",
+      "card_out": "index/sglang/cards/pr-25455-<slug>.md"
+    },
+    {
+      "number": 27063,
+      "title": "[AMD] Optimize gpt-oss-120B performance",
+      "pack": "data/cards-workdir/sglang/packs/pr-27063.pack.md",
+      "card_out": "index/sglang/cards/pr-27063-<slug>.md"
+    },
+    {
+      "number": 27277,
+      "title": "Deepseek v4: support mixed dtype compression states",
+      "pack": "data/cards-workdir/sglang/packs/pr-27277.pack.md",
+      "card_out": "index/sglang/cards/pr-27277-<slug>.md"
+    },
+    {
+      "number": 27431,
+      "title": "[diffusion] Run LTX-2 VAE decode in channels_last_3d (faster decode, lower peak memory)",
+      "pack": "data/cards-workdir/sglang/packs/pr-27431.pack.md",
+      "card_out": "index/sglang/cards/pr-27431-<slug>.md"
+    },
+    {
+      "number": 29742,
+      "title": "[diffusion] Fix Z-Image accuracy",
+      "pack": "data/cards-workdir/sglang/packs/pr-29742.pack.md",
+      "card_out": "index/sglang/cards/pr-29742-<slug>.md"
+    },
+    {
+      "number": 32340,
+      "title": "[AMD][DSV4]perf: shared experts fusion top6",
+      "pack": "data/cards-workdir/sglang/packs/pr-32340.pack.md",
+      "card_out": "index/sglang/cards/pr-32340-<slug>.md"
+    },
+    {
+      "number": 32541,
+      "title": "[Kimi] Support kimi-k3",
+      "pack": "data/cards-workdir/sglang/packs/pr-32541.pack.md",
+      "card_out": "index/sglang/cards/pr-32541-<slug>.md"
+    },
+    {
+      "number": 33484,
+      "title": "perf(hisparse): fuse the DSv4 value and scale swap-in copy on ROCm",
+      "pack": "data/cards-workdir/sglang/packs/pr-33484.pack.md",
+      "card_out": "index/sglang/cards/pr-33484-<slug>.md"
+    },
+    {
+      "number": 33569,
+      "title": "[NPU] [Diffusion] Support MiniMax H3 on Ascend NPU's",
+      "pack": "data/cards-workdir/sglang/packs/pr-33569.pack.md",
+      "card_out": "index/sglang/cards/pr-33569-<slug>.md"
+    },
+    {
+      "number": 33599,
+      "title": "[AMD] Fuse Kimi-K3 attn-residual aggregation",
+      "pack": "data/cards-workdir/sglang/packs/pr-33599.pack.md",
+      "card_out": "index/sglang/cards/pr-33599-<slug>.md"
+    },
+    {
+      "number": 33824,
+      "title": "[Simulator] Add high-fidelity CPU-based inference simulator",
+      "pack": "data/cards-workdir/sglang/packs/pr-33824.pack.md",
+      "card_out": "index/sglang/cards/pr-33824-<slug>.md"
+    },
+    {
+      "number": 33922,
+      "title": "Fix Qwen3.5 GDN multi-item scoring",
+      "pack": "data/cards-workdir/sglang/packs/pr-33922.pack.md",
+      "card_out": "index/sglang/cards/pr-33922-<slug>.md"
+    },
+    {
+      "number": 34484,
+      "title": "[ROCm] Fix QuickReduce fp16 saturation corrupting bf16 all-reduces (106M non-finite -> 0, +0.3%)",
+      "pack": "data/cards-workdir/sglang/packs/pr-34484.pack.md",
+      "card_out": "index/sglang/cards/pr-34484-<slug>.md"
+    },
+    {
+      "number": 34617,
+      "title": "[Diffusion][HunyuanVideo] Fuse eager QKV packing and high-quality QKNorm",
+      "pack": "data/cards-workdir/sglang/packs/pr-34617.pack.md",
+      "card_out": "index/sglang/cards/pr-34617-<slug>.md"
+    },
+    {
+      "number": 35314,
+      "title": "Support deepseek v4 and kimi k3 on ssd",
+      "pack": "data/cards-workdir/sglang/packs/pr-35314.pack.md",
+      "card_out": "index/sglang/cards/pr-35314-<slug>.md"
+    },
+    {
+      "number": 35882,
+      "title": "[diffusion] optimization: transfer mapped layers through a courier thread",
+      "pack": "data/cards-workdir/sglang/packs/pr-35882.pack.md",
+      "card_out": "index/sglang/cards/pr-35882-<slug>.md"
+    },
+    {
+      "number": 36094,
+      "title": "[AMD][DSV4] perf: retune decode split-K heuristic for MI355X",
+      "pack": "data/cards-workdir/sglang/packs/pr-36094.pack.md",
+      "card_out": "index/sglang/cards/pr-36094-<slug>.md"
+    },
+    {
+      "number": 36322,
+      "title": "[diffusion] perf: fuse tanh-GELU into the LongCat-Image DiT FFN up-proj",
+      "pack": "data/cards-workdir/sglang/packs/pr-36322.pack.md",
+      "card_out": "index/sglang/cards/pr-36322-<slug>.md"
+    }
+  ]
+}

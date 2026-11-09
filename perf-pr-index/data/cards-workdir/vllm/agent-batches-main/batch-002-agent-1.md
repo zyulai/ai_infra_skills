@@ -1,0 +1,17 @@
+PR #63101 | [Perf][MXFP4] Optimize activation quant for mxfp4. 3x kernel speedup, 5% throughput improvement | pack=data/cards-workdir/vllm/packs/pr-63101.pack.md | out=index/vllm/cards/pr-63101-perf-mxfp4-optimize-activation-quant-for.md
+PR #57101 | [Perf] Optimize Molmo2 pooling preparation | pack=data/cards-workdir/vllm/packs/pr-57101.pack.md | out=index/vllm/cards/pr-57101-perf-optimize-molmo2-pooling-preparation.md
+PR #24511 | [Multi Modal][Performance] Fused Q,K's apply_rope into one | pack=data/cards-workdir/vllm/packs/pr-24511.pack.md | out=index/vllm/cards/pr-24511-multi-modal-performance-fused-q-k-s-appl.md
+PR #44313 | [ROCm][Perf] Add Fused Shared Expert (FSE) support for GLM-4.5/6/7 | pack=data/cards-workdir/vllm/packs/pr-44313.pack.md | out=index/vllm/cards/pr-44313-rocm-perf-add-fused-shared-expert-fse-su.md
+PR #64580 | [Kernel][DSA] Restore FP32 indexer MQA logits for non-DeepSeek models and add `indexer_logits_dtype` | pack=data/cards-workdir/vllm/packs/pr-64580.pack.md | out=index/vllm/cards/pr-64580-kernel-dsa-restore-fp32-indexer-mqa-logi.md
+PR #29710 | [perf] Use direct copy (broadcast) instead of cat for k_nope/k_pe in MLA prefill | pack=data/cards-workdir/vllm/packs/pr-29710.pack.md | out=index/vllm/cards/pr-29710-perf-use-direct-copy-broadcast-instead-o.md
+PR #28124 | [Perf][DeepSeek] Add sigmoid+bias fusion to fused_grouped_topk from TRTLLM | pack=data/cards-workdir/vllm/packs/pr-28124.pack.md | out=index/vllm/cards/pr-28124-perf-deepseek-add-sigmoid-bias-fusion-to.md
+PR #29 | Memcpy kernel for flash attention | pack=data/cards-workdir/vllm/packs/pr-29.pack.md | out=index/vllm/cards/pr-29-memcpy-kernel-for-flash-attention.md
+PR #21146 | [Core] Freeze gc during cuda graph capture to speed up init | pack=data/cards-workdir/vllm/packs/pr-21146.pack.md | out=index/vllm/cards/pr-21146-core-freeze-gc-during-cuda-graph-capture.md
+PR #25444 | [Perf] Change default CUDAGraphMode from PIECEWISE to FULL_AND_PIECEWISE | pack=data/cards-workdir/vllm/packs/pr-25444.pack.md | out=index/vllm/cards/pr-25444-perf-change-default-cudagraphmode-from-p.md
+PR #55511 | [Kernel] Add fused MoE tuned config for E=256,N=512 on NVIDIA A100 80GB PCIe | pack=data/cards-workdir/vllm/packs/pr-55511.pack.md | out=index/vllm/cards/pr-55511-kernel-add-fused-moe-tuned-config-for-e.md
+PR #59802 | [ROCm][DSv4.1][Perf] Overlap the mHC gate projection with attention and FFN | pack=data/cards-workdir/vllm/packs/pr-59802.pack.md | out=index/vllm/cards/pr-59802-rocm-dsv4-1-perf-overlap-the-mhc-gate-pr.md
+PR #61903 | [Perf][Kernel] Add a CuteDSL BF16x3 router GEMM for fp32 router weights on Hopper | pack=data/cards-workdir/vllm/packs/pr-61903.pack.md | out=index/vllm/cards/pr-61903-perf-kernel-add-a-cutedsl-bf16x3-router.md
+PR #34974 | [Kernel] Optimize sample_recovered_tokens_kernel | pack=data/cards-workdir/vllm/packs/pr-34974.pack.md | out=index/vllm/cards/pr-34974-kernel-optimize-sample-recovered-tokens.md
+PR #40711 | [Aiter][ROCm] gdn_linear_attn kernel fusion | pack=data/cards-workdir/vllm/packs/pr-40711.pack.md | out=index/vllm/cards/pr-40711-aiter-rocm-gdn-linear-attn-kernel-fusion.md
+PR #56492 | [Core] Extensible KV cache | pack=data/cards-workdir/vllm/packs/pr-56492.pack.md | out=index/vllm/cards/pr-56492-core-extensible-kv-cache.md
+PR #61641 | [Perf][Kernel] Convert two FP8 values per cvt in the FP8 quant kernels | pack=data/cards-workdir/vllm/packs/pr-61641.pack.md | out=index/vllm/cards/pr-61641-perf-kernel-convert-two-fp8-values-per-c.md

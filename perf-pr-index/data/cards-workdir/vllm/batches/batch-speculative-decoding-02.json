@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "Speculative Decoding",
+  "count": 40,
+  "prs": [
+    {
+      "number": 50272,
+      "title": "[Bugfix] Fix speculative decoding for short_conv (LFM2) models",
+      "pack": "data/cards-workdir/vllm/packs/pr-50272.pack.md",
+      "card_out": "index/vllm/cards/pr-50272-<slug>.md"
+    },
+    {
+      "number": 50387,
+      "title": "[CPU] Bump up CPU kernels to latest version",
+      "pack": "data/cards-workdir/vllm/packs/pr-50387.pack.md",
+      "card_out": "index/vllm/cards/pr-50387-<slug>.md"
+    },
+    {
+      "number": 50514,
+      "title": "[Core][MRV2] Support eagle3 spec decode with pipeline parallel",
+      "pack": "data/cards-workdir/vllm/packs/pr-50514.pack.md",
+      "card_out": "index/vllm/cards/pr-50514-<slug>.md"
+    },
+    {
+      "number": 50904,
+      "title": "[GLM Perf] DSv32/glm use skip topk for MTP case, 2.0x kernel performance improvement",
+      "pack": "data/cards-workdir/vllm/packs/pr-50904.pack.md",
+      "card_out": "index/vllm/cards/pr-50904-<slug>.md"
+    },
+    {
+      "number": 50911,
+      "title": "[Spec Decode] Enable fused non-causal TokenSpeed MLA for DSpark",
+      "pack": "data/cards-workdir/vllm/packs/pr-50911.pack.md",
+      "card_out": "index/vllm/cards/pr-50911-<slug>.md"
+    },
+    {
+      "number": 51045,
+      "title": "[Model][Frontend] Add Ling 3.0 Flash BF16, MTP, and parser support",
+      "pack": "data/cards-workdir/vllm/packs/pr-51045.pack.md",
+      "card_out": "index/vllm/cards/pr-51045-<slug>.md"
+    },
+    {
+      "number": 51052,
+      "title": "[KVConnector][MoRIIO] Transfer hybrid mamba/KDA recurrent state in READ mode",
+      "pack": "data/cards-workdir/vllm/packs/pr-51052.pack.md",
+      "card_out": "index/vllm/cards/pr-51052-<slug>.md"
+    },
+    {
+      "number": 51309,
+      "title": "[ROCm][Perf] Skip redundant sparse index remap on non-indexer layers",
+      "pack": "data/cards-workdir/vllm/packs/pr-51309.pack.md",
+      "card_out": "index/vllm/cards/pr-51309-<slug>.md"
+    },
+    {
+      "number": 51350,
+      "title": "[Frontend][RL] Add a weight checker dev endpoint",
+      "pack": "data/cards-workdir/vllm/packs/pr-51350.pack.md",
+      "card_out": "index/vllm/cards/pr-51350-<slug>.md"
+    },
+    {
+      "number": 51538,
+      "title": "[Bugfix] Make DSV4 sparse MLA work end-to-end for plain decode, MTP, and DSpark",
+      "pack": "data/cards-workdir/vllm/packs/pr-51538.pack.md",
+      "card_out": "index/vllm/cards/pr-51538-<slug>.md"
+    },
+    {
+      "number": 51655,
+      "title": "Add Muse Glimmer model support",
+      "pack": "data/cards-workdir/vllm/packs/pr-51655.pack.md",
+      "card_out": "index/vllm/cards/pr-51655-<slug>.md"
+    },
+    {
+      "number": 51674,
+      "title": "[Kernel][Perf] Add fused CUDA post-conv MTP decode kernel for Qwen3.5 GDN",
+      "pack": "data/cards-workdir/vllm/packs/pr-51674.pack.md",
+      "card_out": "index/vllm/cards/pr-51674-<slug>.md"
+    },
+    {
+      "number": 51705,
+      "title": "[ROCm][MLA][DCP] Support causal multi-token verification",
+      "pack": "data/cards-workdir/vllm/packs/pr-51705.pack.md",
+      "card_out": "index/vllm/cards/pr-51705-<slug>.md"
+    },
+    {
+      "number": 51855,
+      "title": "[K3] support recoverssm for K3",
+      "pack": "data/cards-workdir/vllm/packs/pr-51855.pack.md",
+      "card_out": "index/vllm/cards/pr-51855-<slug>.md"
+    },
+    {
+      "number": 52228,
+      "title": "[Model Runner V2][Spec Decode] Adaptive Verification without a confidence head",
+      "pack": "data/cards-workdir/vllm/packs/pr-52228.pack.md",
+      "card_out": "index/vllm/cards/pr-52228-<slug>.md"
+    },
+    {
+      "number": 52263,
+      "title": "[ROCm][Quantization] Support AMD Quark per-block FP8 for fused MoE layers",
+      "pack": "data/cards-workdir/vllm/packs/pr-52263.pack.md",
+      "card_out": "index/vllm/cards/pr-52263-<slug>.md"
+    },
+    {
+      "number": 52771,
+      "title": "[Bugfix] OffloadingConnector: stop zeroing offload hits under MTP/EAGLE spec decode",
+      "pack": "data/cards-workdir/vllm/packs/pr-52771.pack.md",
+      "card_out": "index/vllm/cards/pr-52771-<slug>.md"
+    },
+    {
+      "number": 52816,
+      "title": "[Spec Decode] DFlash2: local convolution + candidate selector",
+      "pack": "data/cards-workdir/vllm/packs/pr-52816.pack.md",
+      "card_out": "index/vllm/cards/pr-52816-<slug>.md"
+    },
+    {
+      "number": 52861,
+      "title": "[Model][NVIDIA] Route DSA models to the CUDA non-compiled path",
+      "pack": "data/cards-workdir/vllm/packs/pr-52861.pack.md",
+      "card_out": "index/vllm/cards/pr-52861-<slug>.md"
+    },
+    {
+      "number": 52921,
+      "title": "[Bugfix] Align CPU offload pool size across PP/spec-decode workers",
+      "pack": "data/cards-workdir/vllm/packs/pr-52921.pack.md",
+      "card_out": "index/vllm/cards/pr-52921-<slug>.md"
+    },
+    {
+      "number": 52928,
+      "title": "[Mamba] Add FlashInfer ReplaySSM support for MTP",
+      "pack": "data/cards-workdir/vllm/packs/pr-52928.pack.md",
+      "card_out": "index/vllm/cards/pr-52928-<slug>.md"
+    },
+    {
+      "number": 53166,
+      "title": "[Perf][ROCm][Attention] Fuse Kimi-K3 MLA chunked-context gather on AITER",
+      "pack": "data/cards-workdir/vllm/packs/pr-53166.pack.md",
+      "card_out": "index/vllm/cards/pr-53166-<slug>.md"
+    },
+    {
+      "number": 53614,
+      "title": "[Kimi K3] Support internal prefix checkpoints with partial prefix caching and spec-decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-53614.pack.md",
+      "card_out": "index/vllm/cards/pr-53614-<slug>.md"
+    },
+    {
+      "number": 53694,
+      "title": "[Model Runner V2][Spec Decode] Skip DP sync before EAGLE/MTP draft prefill",
+      "pack": "data/cards-workdir/vllm/packs/pr-53694.pack.md",
+      "card_out": "index/vllm/cards/pr-53694-<slug>.md"
+    },
+    {
+      "number": 53987,
+      "title": "[Spec Decode][ROCm] Add FLy: entropy-gated deferred verification for draft-model speculative decoding",
+      "pack": "data/cards-workdir/vllm/packs/pr-53987.pack.md",
+      "card_out": "index/vllm/cards/pr-53987-<slug>.md"
+    },
+    {
+      "number": 54163,
+      "title": "[Bugfix][Spec Decode] DFlash/DSpark no longer drop the last prefix-cache block (mamba align context recompute)",
+      "pack": "data/cards-workdir/vllm/packs/pr-54163.pack.md",
+      "card_out": "index/vllm/cards/pr-54163-<slug>.md"
+    },
+    {
+      "number": 54625,
+      "title": "[Core] Add cache-aware admission ordering",
+      "pack": "data/cards-workdir/vllm/packs/pr-54625.pack.md",
+      "card_out": "index/vllm/cards/pr-54625-<slug>.md"
+    },
+    {
+      "number": 54627,
+      "title": "[Core] Apply prefill_schedule_interval outside data parallelism",
+      "pack": "data/cards-workdir/vllm/packs/pr-54627.pack.md",
+      "card_out": "index/vllm/cards/pr-54627-<slug>.md"
+    },
+    {
+      "number": 54674,
+      "title": "[Perf][DSpark] Stack DeepSeek V4 context WKV projections",
+      "pack": "data/cards-workdir/vllm/packs/pr-54674.pack.md",
+      "card_out": "index/vllm/cards/pr-54674-<slug>.md"
+    },
+    {
+      "number": 54687,
+      "title": "[Kernel] Reuse Qwen4Exp HC combine-norm for MTP input",
+      "pack": "data/cards-workdir/vllm/packs/pr-54687.pack.md",
+      "card_out": "index/vllm/cards/pr-54687-<slug>.md"
+    },
+    {
+      "number": 54951,
+      "title": "[Perf][GLM-5.3-Flash] Shard long-context indexer prefill rows across TP",
+      "pack": "data/cards-workdir/vllm/packs/pr-54951.pack.md",
+      "card_out": "index/vllm/cards/pr-54951-<slug>.md"
+    },
+    {
+      "number": 55053,
+      "title": "[Bugfix][KV Connector][ROCm] Fix MoRI-IO KV block-offset for speculative decoding (MTP)",
+      "pack": "data/cards-workdir/vllm/packs/pr-55053.pack.md",
+      "card_out": "index/vllm/cards/pr-55053-<slug>.md"
+    },
+    {
+      "number": 55688,
+      "title": "[Mamba] Unify FI ReplaySSM STP/MTP/Prefix Caching Lifecycle",
+      "pack": "data/cards-workdir/vllm/packs/pr-55688.pack.md",
+      "card_out": "index/vllm/cards/pr-55688-<slug>.md"
+    },
+    {
+      "number": 55838,
+      "title": "[Perf][Attention][MiniMax-M3] Select CUTLASS MSA by EAGLE3 decode shape",
+      "pack": "data/cards-workdir/vllm/packs/pr-55838.pack.md",
+      "card_out": "index/vllm/cards/pr-55838-<slug>.md"
+    },
+    {
+      "number": 55960,
+      "title": "[Perf] Add fused DFlash2 grouped convolution",
+      "pack": "data/cards-workdir/vllm/packs/pr-55960.pack.md",
+      "card_out": "index/vllm/cards/pr-55960-<slug>.md"
+    },
+    {
+      "number": 56273,
+      "title": "[Quantization] Support packed NVFP4 Qwen4Exp PLE embeddings",
+      "pack": "data/cards-workdir/vllm/packs/pr-56273.pack.md",
+      "card_out": "index/vllm/cards/pr-56273-<slug>.md"
+    },
+    {
+      "number": 56323,
+      "title": "[6/N][warmup][DSv4] Migrate sampling, and DFlash JIT kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-56323.pack.md",
+      "card_out": "index/vllm/cards/pr-56323-<slug>.md"
+    },
+    {
+      "number": 56441,
+      "title": "[Perf][DSpark] Add KV-only context insertion across V4.1 cache formats",
+      "pack": "data/cards-workdir/vllm/packs/pr-56441.pack.md",
+      "card_out": "index/vllm/cards/pr-56441-<slug>.md"
+    },
+    {
+      "number": 56562,
+      "title": "[Perf] Fuse DSV4.1 input metadata preparation with Triton",
+      "pack": "data/cards-workdir/vllm/packs/pr-56562.pack.md",
+      "card_out": "index/vllm/cards/pr-56562-<slug>.md"
+    },
+    {
+      "number": 56633,
+      "title": "[Perf][DSv4.1] Fold the mHC post block into the delayed pre projection",
+      "pack": "data/cards-workdir/vllm/packs/pr-56633.pack.md",
+      "card_out": "index/vllm/cards/pr-56633-<slug>.md"
+    }
+  ]
+}

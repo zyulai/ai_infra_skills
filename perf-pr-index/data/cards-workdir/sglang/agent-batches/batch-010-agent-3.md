@@ -1,0 +1,17 @@
+PR #23958 | support asymmetric pd-mtp via mock spec hidden | pack=data/cards-workdir/sglang/packs/pr-23958.pack.md | out=index/sglang/cards/pr-23958-support-asymmetric-pd-mtp-via-mock-spec.md
+PR #42017 | [AMD][V4.1][*/N] OPUS sparse prefill on gfx950 through layout conversion | pack=data/cards-workdir/sglang/packs/pr-42017.pack.md | out=index/sglang/cards/pr-42017-amd-v4-1-n-opus-sparse-prefill-on-gfx950.md
+PR #43171 | [Perf] gdn: Select FlashInfer prefill for page-major pools | pack=data/cards-workdir/sglang/packs/pr-43171.pack.md | out=index/sglang/cards/pr-43171-perf-gdn-select-flashinfer-prefill-for-p.md
+PR #7058 | Minor speedup topk postprocessing | pack=data/cards-workdir/sglang/packs/pr-7058.pack.md | out=index/sglang/cards/pr-7058-minor-speedup-topk-postprocessing.md
+PR #34257 | [JIT Kernel] Migrate per-token FP8 quantization from AOT to JIT | pack=data/cards-workdir/sglang/packs/pr-34257.pack.md | out=index/sglang/cards/pr-34257-jit-kernel-migrate-per-token-fp8-quantiz.md
+PR #1845 | [Performance, Triton Kernel Args] _decode_grouped_softmax_reducev_fwd… | pack=data/cards-workdir/sglang/packs/pr-1845.pack.md | out=index/sglang/cards/pr-1845-performance-triton-kernel-args-decode-gr.md
+PR #1980 | [Performance, Triton] Optimize over mask compute to tl.load in fused_moe_kernel | pack=data/cards-workdir/sglang/packs/pr-1980.pack.md | out=index/sglang/cards/pr-1980-performance-triton-optimize-over-mask-co.md
+PR #29792 | Fix Mamba track-boundary bookkeeping under overlap scheduling | pack=data/cards-workdir/sglang/packs/pr-29792.pack.md | out=index/sglang/cards/pr-29792-fix-mamba-track-boundary-bookkeeping-und.md
+PR #30393 | [HiCache] Support packed and sidecar draft caches for MTP/EAGLE/DSpark | pack=data/cards-workdir/sglang/packs/pr-30393.pack.md | out=index/sglang/cards/pr-30393-hicache-support-packed-and-sidecar-draft.md
+PR #45219 | [Perf] mlp: Fuse dense SwiGLU with block-FP8 quantization on decode | pack=data/cards-workdir/sglang/packs/pr-45219.pack.md | out=index/sglang/cards/pr-45219-perf-mlp-fuse-dense-swiglu-with-block-fp.md
+PR #27563 | hisparse: support NIXL DRAM KV destinations for HiSparse | pack=data/cards-workdir/sglang/packs/pr-27563.pack.md | out=index/sglang/cards/pr-27563-hisparse-support-nixl-dram-kv-destinatio.md
+PR #26312 | [mtp] add rejection sampling for speculative decoding | pack=data/cards-workdir/sglang/packs/pr-26312.pack.md | out=index/sglang/cards/pr-26312-mtp-add-rejection-sampling-for-speculati.md
+PR #32219 | [MTP] Cut spec-v2 host-seam overhead in hybrid-linear MTP decode | pack=data/cards-workdir/sglang/packs/pr-32219.pack.md | out=index/sglang/cards/pr-32219-mtp-cut-spec-v2-host-seam-overhead-in-hy.md
+PR #14792 | [Qwen3-next] support mamba radix cache for overlap scheduler | pack=data/cards-workdir/sglang/packs/pr-14792.pack.md | out=index/sglang/cards/pr-14792-qwen3-next-support-mamba-radix-cache-for.md
+PR #22128 | Allow piecewise CUDA graph with speculative decoding | pack=data/cards-workdir/sglang/packs/pr-22128.pack.md | out=index/sglang/cards/pr-22128-allow-piecewise-cuda-graph-with-speculat.md
+PR #32017 | [Model Loading] Overlap checkpoint staging with CUDA graph capture during startup | pack=data/cards-workdir/sglang/packs/pr-32017.pack.md | out=index/sglang/cards/pr-32017-model-loading-overlap-checkpoint-staging.md
+PR #12162 | [Feature] Enable return routed experts | pack=data/cards-workdir/sglang/packs/pr-12162.pack.md | out=index/sglang/cards/pr-12162-feature-enable-return-routed-experts.md

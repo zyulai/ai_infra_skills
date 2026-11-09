@@ -1,0 +1,229 @@
+{
+  "repo": "sglang",
+  "category": "Attention / Kernel",
+  "count": 37,
+  "prs": [
+    {
+      "number": 37938,
+      "title": "[Perf] Vectorize alloc_extend_naive to remove the per-request Python loop",
+      "pack": "data/cards-workdir/sglang/packs/pr-37938.pack.md",
+      "card_out": "index/sglang/cards/pr-37938-<slug>.md"
+    },
+    {
+      "number": 38584,
+      "title": "[Diffusion] Optimize Qwen-Image-Edit attention on Hopper",
+      "pack": "data/cards-workdir/sglang/packs/pr-38584.pack.md",
+      "card_out": "index/sglang/cards/pr-38584-<slug>.md"
+    },
+    {
+      "number": 39130,
+      "title": "Add triton autotune on the Mamba2 SSD kernels",
+      "pack": "data/cards-workdir/sglang/packs/pr-39130.pack.md",
+      "card_out": "index/sglang/cards/pr-39130-<slug>.md"
+    },
+    {
+      "number": 39680,
+      "title": "[Kernel] Coalesce the KDA CuTe DSL decode state transpose: ~3x faster, bit-identical",
+      "pack": "data/cards-workdir/sglang/packs/pr-39680.pack.md",
+      "card_out": "index/sglang/cards/pr-39680-<slug>.md"
+    },
+    {
+      "number": 39769,
+      "title": "Skip fully-masked KV tiles in sliding-window extend attention",
+      "pack": "data/cards-workdir/sglang/packs/pr-39769.pack.md",
+      "card_out": "index/sglang/cards/pr-39769-<slug>.md"
+    },
+    {
+      "number": 40374,
+      "title": "[Diffusion] Fuse lossless SenseNova RoPE for 5% faster H200 inference",
+      "pack": "data/cards-workdir/sglang/packs/pr-40374.pack.md",
+      "card_out": "index/sglang/cards/pr-40374-<slug>.md"
+    },
+    {
+      "number": 40438,
+      "title": "[NPU] Skip fused gmm1+swiglu for swiglu_limit (SiLU-with-clamp) checkpoints",
+      "pack": "data/cards-workdir/sglang/packs/pr-40438.pack.md",
+      "card_out": "index/sglang/cards/pr-40438-<slug>.md"
+    },
+    {
+      "number": 40709,
+      "title": "[Deps] Bump FlashInfer to 0.7.0.post1",
+      "pack": "data/cards-workdir/sglang/packs/pr-40709.pack.md",
+      "card_out": "index/sglang/cards/pr-40709-<slug>.md"
+    },
+    {
+      "number": 40996,
+      "title": "[AMD] Add tuned dsv4 shape",
+      "pack": "data/cards-workdir/sglang/packs/pr-40996.pack.md",
+      "card_out": "index/sglang/cards/pr-40996-<slug>.md"
+    },
+    {
+      "number": 41187,
+      "title": "[Feat] hicache: Support MLA DCP with HiCache L3(file/mooncake)",
+      "pack": "data/cards-workdir/sglang/packs/pr-41187.pack.md",
+      "card_out": "index/sglang/cards/pr-41187-<slug>.md"
+    },
+    {
+      "number": 41309,
+      "title": "[diffusion] Run an all-valid attention mask on the backend's unmasked kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-41309.pack.md",
+      "card_out": "index/sglang/cards/pr-41309-<slug>.md"
+    },
+    {
+      "number": 41344,
+      "title": "[VLM] Introduce FA4 into ViT for SM100/SM103",
+      "pack": "data/cards-workdir/sglang/packs/pr-41344.pack.md",
+      "card_out": "index/sglang/cards/pr-41344-<slug>.md"
+    },
+    {
+      "number": 41400,
+      "title": "feat(kda): integrate FlashInfer prefill checkpoints",
+      "pack": "data/cards-workdir/sglang/packs/pr-41400.pack.md",
+      "card_out": "index/sglang/cards/pr-41400-<slug>.md"
+    },
+    {
+      "number": 41488,
+      "title": "[AMD] Add opt-in MiniMax-M3 TP4 indexer context partitioning",
+      "pack": "data/cards-workdir/sglang/packs/pr-41488.pack.md",
+      "card_out": "index/sglang/cards/pr-41488-<slug>.md"
+    },
+    {
+      "number": 41533,
+      "title": "[ROCm] Use the fused MLA absorb + RoPE + KV-write kernel for decode-sized forward modes only",
+      "pack": "data/cards-workdir/sglang/packs/pr-41533.pack.md",
+      "card_out": "index/sglang/cards/pr-41533-<slug>.md"
+    },
+    {
+      "number": 41710,
+      "title": "[diffusion] kernels: stop specializing on per-request sequence lengths",
+      "pack": "data/cards-workdir/sglang/packs/pr-41710.pack.md",
+      "card_out": "index/sglang/cards/pr-41710-<slug>.md"
+    },
+    {
+      "number": 41830,
+      "title": "[diffusion] kernels: take the Wan VAE decoder's remaining first-decode work off the request path",
+      "pack": "data/cards-workdir/sglang/packs/pr-41830.pack.md",
+      "card_out": "index/sglang/cards/pr-41830-<slug>.md"
+    },
+    {
+      "number": 41880,
+      "title": "[Perf] [AMD] Qwen3.8: AITER FlyDSL hc_mix for Qwen3.8 hyper-connections on gfx950",
+      "pack": "data/cards-workdir/sglang/packs/pr-41880.pack.md",
+      "card_out": "index/sglang/cards/pr-41880-<slug>.md"
+    },
+    {
+      "number": 41947,
+      "title": "[AMD][V4.1][*/N] Route low-ratio indexer and candidate-block top-k through top-k v2",
+      "pack": "data/cards-workdir/sglang/packs/pr-41947.pack.md",
+      "card_out": "index/sglang/cards/pr-41947-<slug>.md"
+    },
+    {
+      "number": 43345,
+      "title": "[Perf] [XPU] server_args: Enable fused QK-norm + RoPE by default",
+      "pack": "data/cards-workdir/sglang/packs/pr-43345.pack.md",
+      "card_out": "index/sglang/cards/pr-43345-<slug>.md"
+    },
+    {
+      "number": 43494,
+      "title": "[Deps] Bump FlashInfer to 0.7.1",
+      "pack": "data/cards-workdir/sglang/packs/pr-43494.pack.md",
+      "card_out": "index/sglang/cards/pr-43494-<slug>.md"
+    },
+    {
+      "number": 44591,
+      "title": "[Chore] deps: Bump FlashInfer to 0.7.2",
+      "pack": "data/cards-workdir/sglang/packs/pr-44591.pack.md",
+      "card_out": "index/sglang/cards/pr-44591-<slug>.md"
+    },
+    {
+      "number": 44601,
+      "title": "[Perf] [AMD] monokernels: Let a plugin skip per-step attention metadata",
+      "pack": "data/cards-workdir/sglang/packs/pr-44601.pack.md",
+      "card_out": "index/sglang/cards/pr-44601-<slug>.md"
+    },
+    {
+      "number": 45098,
+      "title": "[Perf] [AMD] deterministic: Faster extend attention launch on gfx950",
+      "pack": "data/cards-workdir/sglang/packs/pr-45098.pack.md",
+      "card_out": "index/sglang/cards/pr-45098-<slug>.md"
+    },
+    {
+      "number": 45202,
+      "title": "[Perf] [AMD] Kimi-K3: prepare the attention interface for mono fusion",
+      "pack": "data/cards-workdir/sglang/packs/pr-45202.pack.md",
+      "card_out": "index/sglang/cards/pr-45202-<slug>.md"
+    },
+    {
+      "number": 45254,
+      "title": "[Feat] kernels: Beam model support",
+      "pack": "data/cards-workdir/sglang/packs/pr-45254.pack.md",
+      "card_out": "index/sglang/cards/pr-45254-<slug>.md"
+    },
+    {
+      "number": 45713,
+      "title": "[Perf] [AMD] kda: Use a HIP fused decode kernel by default for KDA (Kimi-K3) on gfx950",
+      "pack": "data/cards-workdir/sglang/packs/pr-45713.pack.md",
+      "card_out": "index/sglang/cards/pr-45713-<slug>.md"
+    },
+    {
+      "number": 45739,
+      "title": "[Perf] [AMD] Qwen3-Next: fused QK Gemma RMSNorm + partial RoPE on gfx950",
+      "pack": "data/cards-workdir/sglang/packs/pr-45739.pack.md",
+      "card_out": "index/sglang/cards/pr-45739-<slug>.md"
+    },
+    {
+      "number": 45978,
+      "title": "[Perf] diffusion: Keep every component resident in auto mode when memory allows",
+      "pack": "data/cards-workdir/sglang/packs/pr-45978.pack.md",
+      "card_out": "index/sglang/cards/pr-45978-<slug>.md"
+    },
+    {
+      "number": 46107,
+      "title": "[Perf] diffusion: Route dense attention with a sub-tile side to FA4 on Blackwell",
+      "pack": "data/cards-workdir/sglang/packs/pr-46107.pack.md",
+      "card_out": "index/sglang/cards/pr-46107-<slug>.md"
+    },
+    {
+      "number": 46146,
+      "title": "[Perf] diffusion: Prefer FA4 over cuDNN SDPA for long self-attention on B300",
+      "pack": "data/cards-workdir/sglang/packs/pr-46146.pack.md",
+      "card_out": "index/sglang/cards/pr-46146-<slug>.md"
+    },
+    {
+      "number": 46149,
+      "title": "[Perf] diffusion: Speed up Wan's spatial-parallel VAE decode",
+      "pack": "data/cards-workdir/sglang/packs/pr-46149.pack.md",
+      "card_out": "index/sglang/cards/pr-46149-<slug>.md"
+    },
+    {
+      "number": 46159,
+      "title": "[Perf] batch-invariant: Fused residual add + RMSNorm kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-46159.pack.md",
+      "card_out": "index/sglang/cards/pr-46159-<slug>.md"
+    },
+    {
+      "number": 46723,
+      "title": "[Perf] [AMD] diffusion: Replace the gfx1250 bf16 scale-shift torch fallback with a bit-exact Triton kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-46723.pack.md",
+      "card_out": "index/sglang/cards/pr-46723-<slug>.md"
+    },
+    {
+      "number": 47062,
+      "title": "[Perf] [AMD] attention: Use the AITER FAv3 varlen kernel on gfx942 as well",
+      "pack": "data/cards-workdir/sglang/packs/pr-47062.pack.md",
+      "card_out": "index/sglang/cards/pr-47062-<slug>.md"
+    },
+    {
+      "number": 47586,
+      "title": "[Perf] diffusion: keep GQA and MOSS-Image attention on cuDNN SDPA on Blackwell",
+      "pack": "data/cards-workdir/sglang/packs/pr-47586.pack.md",
+      "card_out": "index/sglang/cards/pr-47586-<slug>.md"
+    },
+    {
+      "number": 48784,
+      "title": "[Perf] eplb: Vectorize the static per-rank dispatch map",
+      "pack": "data/cards-workdir/sglang/packs/pr-48784.pack.md",
+      "card_out": "index/sglang/cards/pr-48784-<slug>.md"
+    }
+  ]
+}

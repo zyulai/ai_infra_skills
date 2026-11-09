@@ -1,0 +1,17 @@
+PR #39547 | [Perf] Fuse Zero Initializer for FP8 DeepGemm Block Quant Kernel | pack=data/cards-workdir/vllm/packs/pr-39547.pack.md | out=index/vllm/cards/pr-39547-perf-fuse-zero-initializer-for-fp8-deepg.md
+PR #61422 | [Perf] Share Triton JIT warmup compilation pool across registered kernels | pack=data/cards-workdir/vllm/packs/pr-61422.pack.md | out=index/vllm/cards/pr-61422-perf-share-triton-jit-warmup-compilation.md
+PR #63669 | [ROCm][Perf] Make MXFP4 the default indexer K cache dtype for DeepSeek-V4 | pack=data/cards-workdir/vllm/packs/pr-63669.pack.md | out=index/vllm/cards/pr-63669-rocm-perf-make-mxfp4-the-default-indexer.md
+PR #44667 | [NVFP4][Emulation] Fuse NVFP4 weight dequantization with compute in triton kernel for w13/w2 MOE MLP linears | pack=data/cards-workdir/vllm/packs/pr-44667.pack.md | out=index/vllm/cards/pr-44667-nvfp4-emulation-fuse-nvfp4-weight-dequan.md
+PR #14454 | [ROCm][Kernel] MoE weights padding | pack=data/cards-workdir/vllm/packs/pr-14454.pack.md | out=index/vllm/cards/pr-14454-rocm-kernel-moe-weights-padding.md
+PR #50569 | feat: allow shared expert overlapping for FlashInfer one-sided all-to-all | pack=data/cards-workdir/vllm/packs/pr-50569.pack.md | out=index/vllm/cards/pr-50569-feat-allow-shared-expert-overlapping-for.md
+PR #65087 | [ROCm][Perf][MiniMax-M3.1] Four-wave decode top-k for the NVFP4 indexer | pack=data/cards-workdir/vllm/packs/pr-65087.pack.md | out=index/vllm/cards/pr-65087-rocm-perf-minimax-m3-1-four-wave-decode.md
+PR #49394 | [XPU] Enable QK Norm + RoPE fusion pass on XPU | pack=data/cards-workdir/vllm/packs/pr-49394.pack.md | out=index/vllm/cards/pr-49394-xpu-enable-qk-norm-rope-fusion-pass-on-x.md
+PR #20071 | [Perf] SM100 FP8 GEMM Optimizations after cutlass_profiler | pack=data/cards-workdir/vllm/packs/pr-20071.pack.md | out=index/vllm/cards/pr-20071-perf-sm100-fp8-gemm-optimizations-after.md
+PR #31832 | [Perf][Kernel] Fused SiLU+Mul+Quant kernel for NVFP4 cutlass_moe | pack=data/cards-workdir/vllm/packs/pr-31832.pack.md | out=index/vllm/cards/pr-31832-perf-kernel-fused-silu-mul-quant-kernel.md
+PR #40710 | [Aiter][ROCm] RMSNormGated+GroupedQuantFP8 fusion | pack=data/cards-workdir/vllm/packs/pr-40710.pack.md | out=index/vllm/cards/pr-40710-aiter-rocm-rmsnormgated-groupedquantfp8.md
+PR #59221 | [ROCm][Perf][GLM-5.3-Flash] Enable AITER fused shared experts on gfx950 | pack=data/cards-workdir/vllm/packs/pr-59221.pack.md | out=index/vllm/cards/pr-59221-rocm-perf-glm-5-3-flash-enable-aiter-fus.md
+PR #23274 | [Kernel] Add fused grouped_topk kernel for MoE | pack=data/cards-workdir/vllm/packs/pr-23274.pack.md | out=index/vllm/cards/pr-23274-kernel-add-fused-grouped-topk-kernel-for.md
+PR #59923 | [Perf][DSv4.1] Exchange packed FP8 Engram rows across DP and feed wkv MXFP8 | pack=data/cards-workdir/vllm/packs/pr-59923.pack.md | out=index/vllm/cards/pr-59923-perf-dsv4-1-exchange-packed-fp8-engram-r.md
+PR #57172 | [XPU] Dispatch nn.LayerNorm to fused SYCL kernel via CustomOp | pack=data/cards-workdir/vllm/packs/pr-57172.pack.md | out=index/vllm/cards/pr-57172-xpu-dispatch-nn-layernorm-to-fused-sycl.md
+PR #27532 | [Attention] Use sparse prefill kernel for fp8 kv-cache in DeepSeek-v3.2 | pack=data/cards-workdir/vllm/packs/pr-27532.pack.md | out=index/vllm/cards/pr-27532-attention-use-sparse-prefill-kernel-for.md
+PR #40082 | Integrate flashinfer b12x MoE and FP4 GEMM kernels for SM120/121 | pack=data/cards-workdir/vllm/packs/pr-40082.pack.md | out=index/vllm/cards/pr-40082-integrate-flashinfer-b12x-moe-and-fp4-ge.md

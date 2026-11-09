@@ -1,0 +1,12 @@
+PR #54053 | [feature] Watermarked generation and detection (Gumbel-max algorithm) | pack=data/cards-workdir/vllm/packs/pr-54053.pack.md | out=index/vllm/cards/pr-54053-feature-watermarked-generation-and-detec.md
+PR #22373 | Optimize logger init performance by using module-level constants | pack=data/cards-workdir/vllm/packs/pr-22373.pack.md | out=index/vllm/cards/pr-22373-optimize-logger-init-performance-by-usin.md
+PR #63275 | [Spec Decode] Support trace replay with speculative decoding | pack=data/cards-workdir/vllm/packs/pr-63275.pack.md | out=index/vllm/cards/pr-63275-spec-decode-support-trace-replay-with-sp.md
+PR #59779 | [Bugfix][Watermarking] Keep draft prompt lengths valid under CUDA graphs | pack=data/cards-workdir/vllm/packs/pr-59779.pack.md | out=index/vllm/cards/pr-59779-bugfix-watermarking-keep-draft-prompt-le.md
+PR #4947 | [Model] MLPSpeculator speculative decoding support | pack=data/cards-workdir/vllm/packs/pr-4947.pack.md | out=index/vllm/cards/pr-4947-model-mlpspeculator-speculative-decoding.md
+PR #32792 | [CPU Backend] [Perf] Accelerate tensor-parallel inference across NUMA domains on Arm | pack=data/cards-workdir/vllm/packs/pr-32792.pack.md | out=index/vllm/cards/pr-32792-cpu-backend-perf-accelerate-tensor-paral.md
+PR #44297 | [Bugfix][Structured Output][Spec Decode] Constrain bitmask and trim grammar advance at the reasoning boundary | pack=data/cards-workdir/vllm/packs/pr-44297.pack.md | out=index/vllm/cards/pr-44297-bugfix-structured-output-spec-decode-con.md
+PR #62843 | [Perf][GLM-5.3] Enable GLM low-latency BF16 GEMM on SM107 | pack=data/cards-workdir/vllm/packs/pr-62843.pack.md | out=index/vllm/cards/pr-62843-perf-glm-5-3-enable-glm-low-latency-bf16.md
+PR #46051 | [Rust Frontend][Perf] Use dedicated runtime for HTTP/request-processing/ZMQ | pack=data/cards-workdir/vllm/packs/pr-46051.pack.md | out=index/vllm/cards/pr-46051-rust-frontend-perf-use-dedicated-runtime.md
+PR #8651 | [Core] Default to using per_token quantization for fp8 when cutlass is supported. | pack=data/cards-workdir/vllm/packs/pr-8651.pack.md | out=index/vllm/cards/pr-8651-core-default-to-using-per-token-quantiza.md
+PR #25196 | [Spec Decode] Enable FlashInfer Spec Decoding | pack=data/cards-workdir/vllm/packs/pr-25196.pack.md | out=index/vllm/cards/pr-25196-spec-decode-enable-flashinfer-spec-decod.md
+PR #55960 | [Perf] Add fused DFlash2 grouped convolution | pack=data/cards-workdir/vllm/packs/pr-55960.pack.md | out=index/vllm/cards/pr-55960-perf-add-fused-dflash2-grouped-convoluti.md

@@ -1,0 +1,17 @@
+PR #40860 | [Feat] DeepSeek V4 Rebased  | pack=data/cards-workdir/vllm/packs/pr-40860.pack.md | out=index/vllm/cards/pr-40860-feat-deepseek-v4-rebased.md
+PR #61895 | [ROCm][Perf] Any-shape low-latency MoE router GEMM on MI355 | pack=data/cards-workdir/vllm/packs/pr-61895.pack.md | out=index/vllm/cards/pr-61895-rocm-perf-any-shape-low-latency-moe-rout.md
+PR #14152 | [Kernel] [V1] Improved performance for V1 Triton (ROCm) backend  | pack=data/cards-workdir/vllm/packs/pr-14152.pack.md | out=index/vllm/cards/pr-14152-kernel-v1-improved-performance-for-v1-tr.md
+PR #60895 | [Perf][GLM-5.3-Flash] DeepGEMM FP8 MegaMoE with fused shared experts | pack=data/cards-workdir/vllm/packs/pr-60895.pack.md | out=index/vllm/cards/pr-60895-perf-glm-5-3-flash-deepgemm-fp8-megamoe.md
+PR #51425 | [Perf] Narrow DeepSeek V3.2 eager CUDA graph region | pack=data/cards-workdir/vllm/packs/pr-51425.pack.md | out=index/vllm/cards/pr-51425-perf-narrow-deepseek-v3-2-eager-cuda-gra.md
+PR #47268 | Fixes non-coalesced HBM access in marlin_int4_fp8_preprocess_kernel_awq | pack=data/cards-workdir/vllm/packs/pr-47268.pack.md | out=index/vllm/cards/pr-47268-fixes-non-coalesced-hbm-access-in-marlin.md
+PR #14702 | [V1][Feature] Enable Speculative Decoding with Structured Outputs | pack=data/cards-workdir/vllm/packs/pr-14702.pack.md | out=index/vllm/cards/pr-14702-v1-feature-enable-speculative-decoding-w.md
+PR #38047 | [Models][GDN] Remove GPU/CPU syncs in `GDNAttentionMetadata.build` during speculative decoding | pack=data/cards-workdir/vllm/packs/pr-38047.pack.md | out=index/vllm/cards/pr-38047-models-gdn-remove-gpu-cpu-syncs-in-gdnat.md
+PR #39822 | [Hybrid] Warmup Mamba2 SSD kernel | pack=data/cards-workdir/vllm/packs/pr-39822.pack.md | out=index/vllm/cards/pr-39822-hybrid-warmup-mamba2-ssd-kernel.md
+PR #18437 | [KERNEL] Sampler. CUDA kernel for applying repetition penalty | pack=data/cards-workdir/vllm/packs/pr-18437.pack.md | out=index/vllm/cards/pr-18437-kernel-sampler-cuda-kernel-for-applying.md
+PR #3922 | [Kernel] Marlin Expansion: Support AutoGPTQ Models with Marlin | pack=data/cards-workdir/vllm/packs/pr-3922.pack.md | out=index/vllm/cards/pr-3922-kernel-marlin-expansion-support-autogptq.md
+PR #6695 | PP comm optimization: replace send with partial send + allgather | pack=data/cards-workdir/vllm/packs/pr-6695.pack.md | out=index/vllm/cards/pr-6695-pp-comm-optimization-replace-send-with-p.md
+PR #24539 | [Spec Decode] Efficient padded speculation | pack=data/cards-workdir/vllm/packs/pr-24539.pack.md | out=index/vllm/cards/pr-24539-spec-decode-efficient-padded-speculation.md
+PR #34597 | [Kernel] Add FP8 KV cache support to Triton MLA decode attention | pack=data/cards-workdir/vllm/packs/pr-34597.pack.md | out=index/vllm/cards/pr-34597-kernel-add-fp8-kv-cache-support-to-trito.md
+PR #61557 | [Bugfix][Spec Decode] Preserve grammar-invalid drafts for rejection sampling | pack=data/cards-workdir/vllm/packs/pr-61557.pack.md | out=index/vllm/cards/pr-61557-bugfix-spec-decode-preserve-grammar-inva.md
+PR #63891 | [ROCm][Perf][DSv4.1] Run DSpark's fused Markov sampling on gfx950 with --monokernel | pack=data/cards-workdir/vllm/packs/pr-63891.pack.md | out=index/vllm/cards/pr-63891-rocm-perf-dsv4-1-run-dspark-s-fused-mark.md
+PR #58655 | [ROCm][DSv4.1][Perf] Run the delayed mHC seams through aiter's fused Triton kernel | pack=data/cards-workdir/vllm/packs/pr-58655.pack.md | out=index/vllm/cards/pr-58655-rocm-dsv4-1-perf-run-the-delayed-mhc-sea.md

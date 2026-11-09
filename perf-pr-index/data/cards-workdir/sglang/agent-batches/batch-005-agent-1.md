@@ -1,0 +1,17 @@
+PR #10090 | Standalone speculative decoding | pack=data/cards-workdir/sglang/packs/pr-10090.pack.md | out=index/sglang/cards/pr-10090-standalone-speculative-decoding.md
+PR #12316 | use faster covnersion from float8_e4m3fn to bfloat16 | pack=data/cards-workdir/sglang/packs/pr-12316.pack.md | out=index/sglang/cards/pr-12316-use-faster-covnersion-from-float8-e4m3fn.md
+PR #27139 | [FEAT] Support fast engine recovery through weight cache | pack=data/cards-workdir/sglang/packs/pr-27139.pack.md | out=index/sglang/cards/pr-27139-feat-support-fast-engine-recovery-throug.md
+PR #32340 | [AMD][DSV4]perf: shared experts fusion top6 | pack=data/cards-workdir/sglang/packs/pr-32340.pack.md | out=index/sglang/cards/pr-32340-amd-dsv4-perf-shared-experts-fusion-top6.md
+PR #35698 | [diffusion] Fuse LTX-2.5 decoder 3D RoPE | pack=data/cards-workdir/sglang/packs/pr-35698.pack.md | out=index/sglang/cards/pr-35698-diffusion-fuse-ltx-2-5-decoder-3d-rope.md
+PR #38943 | [Feat] dcp: Support breakable prefill CUDA graphs under decode context parallelism | pack=data/cards-workdir/sglang/packs/pr-38943.pack.md | out=index/sglang/cards/pr-38943-feat-dcp-support-breakable-prefill-cuda.md
+PR #40438 | [NPU] Skip fused gmm1+swiglu for swiglu_limit (SiLU-with-clamp) checkpoints | pack=data/cards-workdir/sglang/packs/pr-40438.pack.md | out=index/sglang/cards/pr-40438-npu-skip-fused-gmm1-swiglu-for-swiglu-li.md
+PR #37889 | [AMD] Enable GLM DSA prefill top-k to the v2 kernel | pack=data/cards-workdir/sglang/packs/pr-37889.pack.md | out=index/sglang/cards/pr-37889-amd-enable-glm-dsa-prefill-top-k-to-the.md
+PR #7278 | Add CUTLASS FP8 Blockscale MoE kernel for Hopper architecture | pack=data/cards-workdir/sglang/packs/pr-7278.pack.md | out=index/sglang/cards/pr-7278-add-cutlass-fp8-blockscale-moe-kernel-fo.md
+PR #23402 | Reenable MNNVL backend for FlashInfer allreduce fusion | pack=data/cards-workdir/sglang/packs/pr-23402.pack.md | out=index/sglang/cards/pr-23402-reenable-mnnvl-backend-for-flashinfer-al.md
+PR #28527 | [Diffusion][CPU] Adding AMX optimizations for CPU platform | pack=data/cards-workdir/sglang/packs/pr-28527.pack.md | out=index/sglang/cards/pr-28527-diffusion-cpu-adding-amx-optimizations-f.md
+PR #28782 | [Spec] Support FlashInfer CUDA graph for EAGLE draft-extend | pack=data/cards-workdir/sglang/packs/pr-28782.pack.md | out=index/sglang/cards/pr-28782-spec-support-flashinfer-cuda-graph-for-e.md
+PR #42753 | [Refactor] Translate each KV loc once per iteration | pack=data/cards-workdir/sglang/packs/pr-42753.pack.md | out=index/sglang/cards/pr-42753-refactor-translate-each-kv-loc-once-per.md
+PR #48399 | [Refactor] env: Dispatch on the GPU architecture instead of env vars that restate it | pack=data/cards-workdir/sglang/packs/pr-48399.pack.md | out=index/sglang/cards/pr-48399-refactor-env-dispatch-on-the-gpu-archite.md
+PR #34837 | [AMD] Add concat_and_cast_mha_k_pad_kernel to support 12-head and enable K3 aiter prefill kernel | pack=data/cards-workdir/sglang/packs/pr-34837.pack.md | out=index/sglang/cards/pr-34837-amd-add-concat-and-cast-mha-k-pad-kernel.md
+PR #42957 | [DSA] Support TileLang FP8 KV cache on CUDA | pack=data/cards-workdir/sglang/packs/pr-42957.pack.md | out=index/sglang/cards/pr-42957-dsa-support-tilelang-fp8-kv-cache-on-cud.md
+PR #42654 | [Perf] moe: Enable deferred finalize for NVFP4 on the routed TRT-LLM runner | pack=data/cards-workdir/sglang/packs/pr-42654.pack.md | out=index/sglang/cards/pr-42654-perf-moe-enable-deferred-finalize-for-nv.md

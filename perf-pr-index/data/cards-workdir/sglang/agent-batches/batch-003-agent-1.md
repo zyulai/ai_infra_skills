@@ -1,0 +1,17 @@
+PR #6606 | Support EAGLE draft extend CUDA graph  | pack=data/cards-workdir/sglang/packs/pr-6606.pack.md | out=index/sglang/cards/pr-6606-support-eagle-draft-extend-cuda-graph.md
+PR #15631 | [jit-kernel] Add CuTe DSL GDN Decode Kernel | pack=data/cards-workdir/sglang/packs/pr-15631.pack.md | out=index/sglang/cards/pr-15631-jit-kernel-add-cute-dsl-gdn-decode-kerne.md
+PR #14123 | [VLM] Boost Memory Pool based CUDA IPC | pack=data/cards-workdir/sglang/packs/pr-14123.pack.md | out=index/sglang/cards/pr-14123-vlm-boost-memory-pool-based-cuda-ipc.md
+PR #25748 | loader: yield filtered MTP weights lazily to avoid OOM hang on multi-layer EAGLE | pack=data/cards-workdir/sglang/packs/pr-25748.pack.md | out=index/sglang/cards/pr-25748-loader-yield-filtered-mtp-weights-lazily.md
+PR #27010 | [HiCache] Fix PP inconsistency with HiCache L3 (#22607) | pack=data/cards-workdir/sglang/packs/pr-27010.pack.md | out=index/sglang/cards/pr-27010-hicache-fix-pp-inconsistency-with-hicach.md
+PR #16397 | Optimize layernorm_gated for Qwen3-Next | pack=data/cards-workdir/sglang/packs/pr-16397.pack.md | out=index/sglang/cards/pr-16397-optimize-layernorm-gated-for-qwen3-next.md
+PR #15347 | Use dsv3 optimized routing `fused_topk_deepseek` instead of `moe_fused_gate` | pack=data/cards-workdir/sglang/packs/pr-15347.pack.md | out=index/sglang/cards/pr-15347-use-dsv3-optimized-routing-fused-topk-de.md
+PR #30541 | [MoE Backend] Add HPC-Ops FP8 MoE runner backend | pack=data/cards-workdir/sglang/packs/pr-30541.pack.md | out=index/sglang/cards/pr-30541-moe-backend-add-hpc-ops-fp8-moe-runner-b.md
+PR #44838 | [Perf] deepseek_v4: fold the MegaAttention query layout into wq_b for block-FP8-as-MXFP8 checkpoints | pack=data/cards-workdir/sglang/packs/pr-44838.pack.md | out=index/sglang/cards/pr-44838-perf-deepseek-v4-fold-the-megaattention.md
+PR #14292 | [VLM] Introduce Cache for positional embedding ids for Qwen-VL family | pack=data/cards-workdir/sglang/packs/pr-14292.pack.md | out=index/sglang/cards/pr-14292-vlm-introduce-cache-for-positional-embed.md
+PR #24663 | Feat: Support newer EAGLE-3 drafters | pack=data/cards-workdir/sglang/packs/pr-24663.pack.md | out=index/sglang/cards/pr-24663-feat-support-newer-eagle-3-drafters.md
+PR #26355 | API Perf: Replace pydantic per-element validation with C loop validation | pack=data/cards-workdir/sglang/packs/pr-26355.pack.md | out=index/sglang/cards/pr-26355-api-perf-replace-pydantic-per-element-va.md
+PR #48733 | [Perf] [NVIDIA] dsv41: Index-Q RoPE + fp4 pack runs one thread per fp4 block for prefill-sized calls | pack=data/cards-workdir/sglang/packs/pr-48733.pack.md | out=index/sglang/cards/pr-48733-perf-nvidia-dsv41-index-q-rope-fp4-pack.md
+PR #22672 | reland [Diffusion] Add FLUX.1-dev ModelOpt NVFP4 support | pack=data/cards-workdir/sglang/packs/pr-22672.pack.md | out=index/sglang/cards/pr-22672-reland-diffusion-add-flux-1-dev-modelopt.md
+PR #12995 | [Diffusion] kernel: timestep embedding kernel implementation | pack=data/cards-workdir/sglang/packs/pr-12995.pack.md | out=index/sglang/cards/pr-12995-diffusion-kernel-timestep-embedding-kern.md
+PR #6109 | [Feat] Support FlashMLA backend with MTP and FP8 KV cache | pack=data/cards-workdir/sglang/packs/pr-6109.pack.md | out=index/sglang/cards/pr-6109-feat-support-flashmla-backend-with-mtp-a.md
+PR #7884 | [kernel] opt moe align block kernel by block/warp scan algorithm | pack=data/cards-workdir/sglang/packs/pr-7884.pack.md | out=index/sglang/cards/pr-7884-kernel-opt-moe-align-block-kernel-by-blo.md

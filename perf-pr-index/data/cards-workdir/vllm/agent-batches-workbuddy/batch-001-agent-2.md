@@ -1,0 +1,17 @@
+PR #63956 | [Perf][DSA] Token-sharded sparse-MLA prefill under TP; remove indexer row sharding | pack=data/cards-workdir/vllm/packs/pr-63956.pack.md | out=index/vllm/cards/pr-63956-perf-dsa-token-sharded-sparse-mla-prefil.md
+PR #17211 | [V1][Spec Decode] Apply torch.compile & cudagraph to EAGLE | pack=data/cards-workdir/vllm/packs/pr-17211.pack.md | out=index/vllm/cards/pr-17211-v1-spec-decode-apply-torch-compile-cudag.md
+PR #29887 | [ROCm][Perf] Enable shuffle kv cache layout and assembly paged attention kernel for `AiterFlashAttentionBackend` | pack=data/cards-workdir/vllm/packs/pr-29887.pack.md | out=index/vllm/cards/pr-29887-rocm-perf-enable-shuffle-kv-cache-layout.md
+PR #37205 | [Kernel] Add gpt-oss Router GEMM kernel | pack=data/cards-workdir/vllm/packs/pr-37205.pack.md | out=index/vllm/cards/pr-37205-kernel-add-gpt-oss-router-gemm-kernel.md
+PR #56045 | [CPU][Perf] refactor paged attention for Arm CPUs | pack=data/cards-workdir/vllm/packs/pr-56045.pack.md | out=index/vllm/cards/pr-56045-cpu-perf-refactor-paged-attention-for-ar.md
+PR #65831 | [Perf][Core] Reduce per-block CPU cost of KV block allocation and caching | pack=data/cards-workdir/vllm/packs/pr-65831.pack.md | out=index/vllm/cards/pr-65831-perf-core-reduce-per-block-cpu-cost-of-k.md
+PR #34917 | [Attention][Perf][Kernel] Replace torch.cat with vectorized CUDA kernel MLA query concat - DeepSeek-V3.2 | pack=data/cards-workdir/vllm/packs/pr-34917.pack.md | out=index/vllm/cards/pr-34917-attention-perf-kernel-replace-torch-cat.md
+PR #40167 | [vLLM IR] Add IR op testing and benchmarking infrastructure | pack=data/cards-workdir/vllm/packs/pr-40167.pack.md | out=index/vllm/cards/pr-40167-vllm-ir-add-ir-op-testing-and-benchmarki.md
+PR #15777 | [Sampler] Adapt to FlashInfer 0.2.3 sampler API | pack=data/cards-workdir/vllm/packs/pr-15777.pack.md | out=index/vllm/cards/pr-15777-sampler-adapt-to-flashinfer-0-2-3-sample.md
+PR #50400 | [Kernel][Kimi] fused vision q/k roper kernel | pack=data/cards-workdir/vllm/packs/pr-50400.pack.md | out=index/vllm/cards/pr-50400-kernel-kimi-fused-vision-q-k-roper-kerne.md
+PR #60161 | [KV Connector][NIXL] Register HiSparse host pool under single TP Rank | pack=data/cards-workdir/vllm/packs/pr-60161.pack.md | out=index/vllm/cards/pr-60161-kv-connector-nixl-register-hisparse-host.md
+PR #58194 | [Perf][Kernel] Vectorized flat abs-max for dynamic per-tensor FP8 quantization | pack=data/cards-workdir/vllm/packs/pr-58194.pack.md | out=index/vllm/cards/pr-58194-perf-kernel-vectorized-flat-abs-max-for.md
+PR #65059 | [Bugfix][Kernel] Only set PDL launch attr for MoE top-k gating on SM90+ | pack=data/cards-workdir/vllm/packs/pr-65059.pack.md | out=index/vllm/cards/pr-65059-bugfix-kernel-only-set-pdl-launch-attr-f.md
+PR #60339 | [Spec Decode][MRV2] Suffix decoding speculator for Model Runner V2 | pack=data/cards-workdir/vllm/packs/pr-60339.pack.md | out=index/vllm/cards/pr-60339-spec-decode-mrv2-suffix-decoding-specula.md
+PR #63027 | [ROCm][Perf][DSv4.1] Mono: tuned K1/K2 for the TP2 compress-ratio-2 layers on MI355X | pack=data/cards-workdir/vllm/packs/pr-63027.pack.md | out=index/vllm/cards/pr-63027-rocm-perf-dsv4-1-mono-tuned-k1-k2-for-th.md
+PR #28694 | [Performance][DeepGEMM] Estimate expected_m | pack=data/cards-workdir/vllm/packs/pr-28694.pack.md | out=index/vllm/cards/pr-28694-performance-deepgemm-estimate-expected-m.md
+PR #48417 | [Performance] Use CuTe-DSL for FlashInfer MXFP4 quantization | pack=data/cards-workdir/vllm/packs/pr-48417.pack.md | out=index/vllm/cards/pr-48417-performance-use-cute-dsl-for-flashinfer.md

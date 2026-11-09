@@ -1,0 +1,12 @@
+PR #57387 | [Model] Use upstream GLM-5.3 and Qwen4-Exp configs and processor | pack=data/cards-workdir/vllm/packs/pr-57387.pack.md | out=index/vllm/cards/pr-57387-model-use-upstream-glm-5-3-and-qwen4-exp.md
+PR #19825 | [Core] Add Flashinfer TRTLLM Backend for Flashinfer decode path (SM100).  | pack=data/cards-workdir/vllm/packs/pr-19825.pack.md | out=index/vllm/cards/pr-19825-core-add-flashinfer-trtllm-backend-for-f.md
+PR #32662 | feat(cpu): add CPU support for draft model speculative decoding | pack=data/cards-workdir/vllm/packs/pr-32662.pack.md | out=index/vllm/cards/pr-32662-feat-cpu-add-cpu-support-for-draft-model.md
+PR #40289 | [ROCm][ViT] Detect Triton-AMD kernels at their new aiter location | pack=data/cards-workdir/vllm/packs/pr-40289.pack.md | out=index/vllm/cards/pr-40289-rocm-vit-detect-triton-amd-kernels-at-th.md
+PR #49263 | [Perf] [Feat] [ROCm] Add densemha support to ROCm AITER Sparse MLA | pack=data/cards-workdir/vllm/packs/pr-49263.pack.md | out=index/vllm/cards/pr-49263-perf-feat-rocm-add-densemha-support-to-r.md
+PR #56638 | [ROCm][DSv4.1][Perf] Replace the Torch prefill combine with the shared combine_topk_swa_indices kernel | pack=data/cards-workdir/vllm/packs/pr-56638.pack.md | out=index/vllm/cards/pr-56638-rocm-dsv4-1-perf-replace-the-torch-prefi.md
+PR #62592 | [Feature][HiSparse] Add a platform backend for device operations | pack=data/cards-workdir/vllm/packs/pr-62592.pack.md | out=index/vllm/cards/pr-62592-feature-hisparse-add-a-platform-backend.md
+PR #22095 | [NVIDIA] Support Flashinfer TRT-LLM Prefill Attention Kernel | pack=data/cards-workdir/vllm/packs/pr-22095.pack.md | out=index/vllm/cards/pr-22095-nvidia-support-flashinfer-trt-llm-prefil.md
+PR #38928 | [Bugfix][Perf] Indexer upcast WK to BF16 for fusion | pack=data/cards-workdir/vllm/packs/pr-38928.pack.md | out=index/vllm/cards/pr-38928-bugfix-perf-indexer-upcast-wk-to-bf16-fo.md
+PR #56997 | [Quantization] Prefer Humming before Marlin backends on SM90 | pack=data/cards-workdir/vllm/packs/pr-56997.pack.md | out=index/vllm/cards/pr-56997-quantization-prefer-humming-before-marli.md
+PR #59069 | [ROCm][Kimi-K3] Fuse AttnRes output with per-token FP8 input quantization | pack=data/cards-workdir/vllm/packs/pr-59069.pack.md | out=index/vllm/cards/pr-59069-rocm-kimi-k3-fuse-attnres-output-with-pe.md
+PR #16072 | [Core] Support full cuda graph in v1 | pack=data/cards-workdir/vllm/packs/pr-16072.pack.md | out=index/vllm/cards/pr-16072-core-support-full-cuda-graph-in-v1.md

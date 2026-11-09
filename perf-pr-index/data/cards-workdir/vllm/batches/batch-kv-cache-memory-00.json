@@ -1,0 +1,229 @@
+{
+  "repo": "vllm",
+  "category": "KV Cache / Memory",
+  "count": 37,
+  "prs": [
+    {
+      "number": 6455,
+      "title": "[Distributed][Model] Rank-based Component Creation for Pipeline Parallelism Memory Optimization",
+      "pack": "data/cards-workdir/vllm/packs/pr-6455.pack.md",
+      "card_out": "index/vllm/cards/pr-6455-<slug>.md"
+    },
+    {
+      "number": 21088,
+      "title": "[v1] Add Whisper model support (encoder-decoder)",
+      "pack": "data/cards-workdir/vllm/packs/pr-21088.pack.md",
+      "card_out": "index/vllm/cards/pr-21088-<slug>.md"
+    },
+    {
+      "number": 22373,
+      "title": "Optimize logger init performance by using module-level constants",
+      "pack": "data/cards-workdir/vllm/packs/pr-22373.pack.md",
+      "card_out": "index/vllm/cards/pr-22373-<slug>.md"
+    },
+    {
+      "number": 23673,
+      "title": "[Core] Use sha256 bytes instead of BlockHash to reduce GC overhead",
+      "pack": "data/cards-workdir/vllm/packs/pr-23673.pack.md",
+      "card_out": "index/vllm/cards/pr-23673-<slug>.md"
+    },
+    {
+      "number": 24498,
+      "title": "OffloadingConnector: Add cpu_bytes_to_use configuration",
+      "pack": "data/cards-workdir/vllm/packs/pr-24498.pack.md",
+      "card_out": "index/vllm/cards/pr-24498-<slug>.md"
+    },
+    {
+      "number": 28309,
+      "title": "[KVConnector] Add KV events to KV Connectors",
+      "pack": "data/cards-workdir/vllm/packs/pr-28309.pack.md",
+      "card_out": "index/vllm/cards/pr-28309-<slug>.md"
+    },
+    {
+      "number": 29163,
+      "title": "[Core] Add xxHash as a high-performance hash option for accelerating prefix caching",
+      "pack": "data/cards-workdir/vllm/packs/pr-29163.pack.md",
+      "card_out": "index/vllm/cards/pr-29163-<slug>.md"
+    },
+    {
+      "number": 29304,
+      "title": "[ROCm][PD] add moriio kv connector.",
+      "pack": "data/cards-workdir/vllm/packs/pr-29304.pack.md",
+      "card_out": "index/vllm/cards/pr-29304-<slug>.md"
+    },
+    {
+      "number": 30800,
+      "title": "[PERF] Add interleaved memory allocation to NUMA module",
+      "pack": "data/cards-workdir/vllm/packs/pr-30800.pack.md",
+      "card_out": "index/vllm/cards/pr-30800-<slug>.md"
+    },
+    {
+      "number": 32553,
+      "title": "[P/D] Prefill compute optimizations with bi-directional KV cache transfers between P and D nodes",
+      "pack": "data/cards-workdir/vllm/packs/pr-32553.pack.md",
+      "card_out": "index/vllm/cards/pr-32553-<slug>.md"
+    },
+    {
+      "number": 34328,
+      "title": "[KV Connector] Support using FlexKV as KV Cache Offloading option.",
+      "pack": "data/cards-workdir/vllm/packs/pr-34328.pack.md",
+      "card_out": "index/vllm/cards/pr-34328-<slug>.md"
+    },
+    {
+      "number": 35669,
+      "title": "Feature/offloading manager stats",
+      "pack": "data/cards-workdir/vllm/packs/pr-35669.pack.md",
+      "card_out": "index/vllm/cards/pr-35669-<slug>.md"
+    },
+    {
+      "number": 36164,
+      "title": "perf: add __slots__ to KVCacheBlock ",
+      "pack": "data/cards-workdir/vllm/packs/pr-36164.pack.md",
+      "card_out": "index/vllm/cards/pr-36164-<slug>.md"
+    },
+    {
+      "number": 38460,
+      "title": "[Perf] Batch KV cache swap copies via cuMemcpyBatchAsync",
+      "pack": "data/cards-workdir/vllm/packs/pr-38460.pack.md",
+      "card_out": "index/vllm/cards/pr-38460-<slug>.md"
+    },
+    {
+      "number": 42296,
+      "title": "[Feat][KVConnector] Support DSV4 in SimpleCPUOffloadBackend",
+      "pack": "data/cards-workdir/vllm/packs/pr-42296.pack.md",
+      "card_out": "index/vllm/cards/pr-42296-<slug>.md"
+    },
+    {
+      "number": 43018,
+      "title": "[ROCm] Cpu offload for ROCm 7.13+ to align the hipMemcpyBatchAsync params and perf in 7.14x",
+      "pack": "data/cards-workdir/vllm/packs/pr-43018.pack.md",
+      "card_out": "index/vllm/cards/pr-43018-<slug>.md"
+    },
+    {
+      "number": 44594,
+      "title": "[Core] Add kvcache watermark to reduce preemptions",
+      "pack": "data/cards-workdir/vllm/packs/pr-44594.pack.md",
+      "card_out": "index/vllm/cards/pr-44594-<slug>.md"
+    },
+    {
+      "number": 46205,
+      "title": "[KV Offload] Support packed HMA KV cache layout",
+      "pack": "data/cards-workdir/vllm/packs/pr-46205.pack.md",
+      "card_out": "index/vllm/cards/pr-46205-<slug>.md"
+    },
+    {
+      "number": 50045,
+      "title": "[KV Offloading] Back-pressure detection and remediation",
+      "pack": "data/cards-workdir/vllm/packs/pr-50045.pack.md",
+      "card_out": "index/vllm/cards/pr-50045-<slug>.md"
+    },
+    {
+      "number": 51100,
+      "title": "[Bugfix] Fix Mamba all-mode CPU offload boundary alignment",
+      "pack": "data/cards-workdir/vllm/packs/pr-51100.pack.md",
+      "card_out": "index/vllm/cards/pr-51100-<slug>.md"
+    },
+    {
+      "number": 51718,
+      "title": "[6/N][KV-Cache Layout Refactor] Standardize KV cache layout",
+      "pack": "data/cards-workdir/vllm/packs/pr-51718.pack.md",
+      "card_out": "index/vllm/cards/pr-51718-<slug>.md"
+    },
+    {
+      "number": 52789,
+      "title": "[Perf] Support internal prefill checkpoints for Mamba prefix caching, 9%~25% TTFT improvement",
+      "pack": "data/cards-workdir/vllm/packs/pr-52789.pack.md",
+      "card_out": "index/vllm/cards/pr-52789-<slug>.md"
+    },
+    {
+      "number": 53196,
+      "title": "[Kimi K3][Perf] Export FlashKDA checkpoints in one packed call",
+      "pack": "data/cards-workdir/vllm/packs/pr-53196.pack.md",
+      "card_out": "index/vllm/cards/pr-53196-<slug>.md"
+    },
+    {
+      "number": 53558,
+      "title": "[Core][Feat] Pluggable KVCacheConfigBuilder for platform/model-specific KV cache planning",
+      "pack": "data/cards-workdir/vllm/packs/pr-53558.pack.md",
+      "card_out": "index/vllm/cards/pr-53558-<slug>.md"
+    },
+    {
+      "number": 56318,
+      "title": "[Metrics] Expose cached prompt tokens by cache tier",
+      "pack": "data/cards-workdir/vllm/packs/pr-56318.pack.md",
+      "card_out": "index/vllm/cards/pr-56318-<slug>.md"
+    },
+    {
+      "number": 56492,
+      "title": "[Core] Extensible KV cache",
+      "pack": "data/cards-workdir/vllm/packs/pr-56492.pack.md",
+      "card_out": "index/vllm/cards/pr-56492-<slug>.md"
+    },
+    {
+      "number": 56867,
+      "title": "[Metrics][KV Offload] Add vllm:kv_offload_config_info - generic info metrics for offloading the offloading connector",
+      "pack": "data/cards-workdir/vllm/packs/pr-56867.pack.md",
+      "card_out": "index/vllm/cards/pr-56867-<slug>.md"
+    },
+    {
+      "number": 57528,
+      "title": "[Perf][Frontend] Offload streaming derender detokenization",
+      "pack": "data/cards-workdir/vllm/packs/pr-57528.pack.md",
+      "card_out": "index/vllm/cards/pr-57528-<slug>.md"
+    },
+    {
+      "number": 57705,
+      "title": "[Bugfix][KVConnector] Fix MoRI-IO WRITE-mode requests stranded in WAITING_FOR_REMOTE_KVS",
+      "pack": "data/cards-workdir/vllm/packs/pr-57705.pack.md",
+      "card_out": "index/vllm/cards/pr-57705-<slug>.md"
+    },
+    {
+      "number": 59039,
+      "title": "[ROCm][Perf][DSv4.1] Enable decoder SWA bounded replay",
+      "pack": "data/cards-workdir/vllm/packs/pr-59039.pack.md",
+      "card_out": "index/vllm/cards/pr-59039-<slug>.md"
+    },
+    {
+      "number": 59774,
+      "title": "[ROCm] Octave KV (`ROCM_OCTAVE`): native 3-bit KV cache backend for AMD GPUs",
+      "pack": "data/cards-workdir/vllm/packs/pr-59774.pack.md",
+      "card_out": "index/vllm/cards/pr-59774-<slug>.md"
+    },
+    {
+      "number": 60084,
+      "title": "[ROCm][Perf] Restore 32-bit buffer addressing for TRITON_ATTN KV cache views",
+      "pack": "data/cards-workdir/vllm/packs/pr-60084.pack.md",
+      "card_out": "index/vllm/cards/pr-60084-<slug>.md"
+    },
+    {
+      "number": 63742,
+      "title": "[Perf][Mamba] Use the shared checkpoint exporter for Mamba2 and drop ssd_checkpoint",
+      "pack": "data/cards-workdir/vllm/packs/pr-63742.pack.md",
+      "card_out": "index/vllm/cards/pr-63742-<slug>.md"
+    },
+    {
+      "number": 63842,
+      "title": "[Perf][Frontend] Compute prompt block hashes in the Rust frontend",
+      "pack": "data/cards-workdir/vllm/packs/pr-63842.pack.md",
+      "card_out": "index/vllm/cards/pr-63842-<slug>.md"
+    },
+    {
+      "number": 64094,
+      "title": "[ROCm][DSv4.1][Perf]  Enable prefix-cache SWA replay on gfx950",
+      "pack": "data/cards-workdir/vllm/packs/pr-64094.pack.md",
+      "card_out": "index/vllm/cards/pr-64094-<slug>.md"
+    },
+    {
+      "number": 64472,
+      "title": "[Bugfix][Core] Keep KV cache zeroing for mixed-precision UniformTypeKVCacheSpecs groups",
+      "pack": "data/cards-workdir/vllm/packs/pr-64472.pack.md",
+      "card_out": "index/vllm/cards/pr-64472-<slug>.md"
+    },
+    {
+      "number": 64479,
+      "title": "[XPU][Perf] Reuse GDN metadata across KV cache groups on XPU",
+      "pack": "data/cards-workdir/vllm/packs/pr-64479.pack.md",
+      "card_out": "index/vllm/cards/pr-64479-<slug>.md"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+PR #41710 | [diffusion] kernels: stop specializing on per-request sequence lengths | pack=data/cards-workdir/sglang/packs/pr-41710.pack.md | out=index/sglang/cards/pr-41710-diffusion-kernels-stop-specializing-on-p.md
+PR #46404 | [Fix] dspark: Draw the simulated-acceptance bonus at the simulated row | pack=data/cards-workdir/sglang/packs/pr-46404.pack.md | out=index/sglang/cards/pr-46404-fix-dspark-draw-the-simulated-acceptance.md
+PR #30265 | [AMD] Fix GLM-5.2 MTP Quark excludes | pack=data/cards-workdir/sglang/packs/pr-30265.pack.md | out=index/sglang/cards/pr-30265-amd-fix-glm-5-2-mtp-quark-excludes.md
+PR #42175 | [Performance] Optimize Qwen3.8-Flash-Next BF16 decode on Blackwell | pack=data/cards-workdir/sglang/packs/pr-42175.pack.md | out=index/sglang/cards/pr-42175-performance-optimize-qwen3-8-flash-next.md
+PR #35573 | [ROCm][diffusion] Enable fused qk norm and rope on ROCm | pack=data/cards-workdir/sglang/packs/pr-35573.pack.md | out=index/sglang/cards/pr-35573-rocm-diffusion-enable-fused-qk-norm-and.md
+PR #44114 | [Perf] [NVIDIA] qsa: Keep sparse decode scratch in FP8 for FP8 KV pools | pack=data/cards-workdir/sglang/packs/pr-44114.pack.md | out=index/sglang/cards/pr-44114-perf-nvidia-qsa-keep-sparse-decode-scrat.md
+PR #36549 | MiniMax-M3: allocate the lightning-indexer K cache in fp8 on gfx95 | pack=data/cards-workdir/sglang/packs/pr-36549.pack.md | out=index/sglang/cards/pr-36549-minimax-m3-allocate-the-lightning-indexe.md
+PR #35735 | [kernel] Split the custom all-reduce communicator into push/pull planes | pack=data/cards-workdir/sglang/packs/pr-35735.pack.md | out=index/sglang/cards/pr-35735-kernel-split-the-custom-all-reduce-commu.md
+PR #20394 | [NVIDIA] Enable fp8 flashinfer_trtllm_routed MoE for MiniMax-M2.5 | pack=data/cards-workdir/sglang/packs/pr-20394.pack.md | out=index/sglang/cards/pr-20394-nvidia-enable-fp8-flashinfer-trtllm-rout.md
+PR #10303 | [LongCat] Optimize zero_experts_compute_triton by changing mask | pack=data/cards-workdir/sglang/packs/pr-10303.pack.md | out=index/sglang/cards/pr-10303-longcat-optimize-zero-experts-compute-tr.md
+PR #10543 | [sgl-kernel] Optimize concat_mla_k kernel | pack=data/cards-workdir/sglang/packs/pr-10543.pack.md | out=index/sglang/cards/pr-10543-sgl-kernel-optimize-concat-mla-k-kernel.md
+PR #12078 | [Ascend] qwen optimization | pack=data/cards-workdir/sglang/packs/pr-12078.pack.md | out=index/sglang/cards/pr-12078-ascend-qwen-optimization.md
+PR #14213 | Add Mistral Large 3 support. | pack=data/cards-workdir/sglang/packs/pr-14213.pack.md | out=index/sglang/cards/pr-14213-add-mistral-large-3-support.md
+PR #14423 | [NPU] perf update with kvcache nz & w4a8 quant | pack=data/cards-workdir/sglang/packs/pr-14423.pack.md | out=index/sglang/cards/pr-14423-npu-perf-update-with-kvcache-nz-w4a8-qua.md
+PR #30107 | [diffusion] perf: add unified SP shard helpers and zero-copy tail-pad attention | pack=data/cards-workdir/sglang/packs/pr-30107.pack.md | out=index/sglang/cards/pr-30107-diffusion-perf-add-unified-sp-shard-help.md
+PR #34277 | [DSV4] Emit TMA-aligned UE8M0 scales for FP8 einsum | pack=data/cards-workdir/sglang/packs/pr-34277.pack.md | out=index/sglang/cards/pr-34277-dsv4-emit-tma-aligned-ue8m0-scales-for-f.md
+PR #35499 | [AMD] Improve K3 dspark draft attn kernel perf | pack=data/cards-workdir/sglang/packs/pr-35499.pack.md | out=index/sglang/cards/pr-35499-amd-improve-k3-dspark-draft-attn-kernel.md

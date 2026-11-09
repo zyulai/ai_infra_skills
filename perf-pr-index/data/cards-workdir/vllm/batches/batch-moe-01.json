@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "MoE",
+  "count": 40,
+  "prs": [
+    {
+      "number": 30647,
+      "title": "[Perf] Eliminate padding and slicing op for GPT-OSS with Flashinfer MXFP4 MXFP8 MoE",
+      "pack": "data/cards-workdir/vllm/packs/pr-30647.pack.md",
+      "card_out": "index/vllm/cards/pr-30647-<slug>.md"
+    },
+    {
+      "number": 31407,
+      "title": "Add Fused MoE Triton kernels for GLM-4.5-Air, GLM-4.5v, GLM-4.6v on 2x RTX Pro 6000",
+      "pack": "data/cards-workdir/vllm/packs/pr-31407.pack.md",
+      "card_out": "index/vllm/cards/pr-31407-<slug>.md"
+    },
+    {
+      "number": 31837,
+      "title": "[Perf] Fuse stride preparation for NVFP4 cutlass_moe",
+      "pack": "data/cards-workdir/vllm/packs/pr-31837.pack.md",
+      "card_out": "index/vllm/cards/pr-31837-<slug>.md"
+    },
+    {
+      "number": 32092,
+      "title": "[cpu][bench] Add Fused MoE Micro Benchmark for CPU Backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-32092.pack.md",
+      "card_out": "index/vllm/cards/pr-32092-<slug>.md"
+    },
+    {
+      "number": 32414,
+      "title": "[MoE Refactor] Oracle Select FP8+NVFP4 Kernels In Priority",
+      "pack": "data/cards-workdir/vllm/packs/pr-32414.pack.md",
+      "card_out": "index/vllm/cards/pr-32414-<slug>.md"
+    },
+    {
+      "number": 32564,
+      "title": "[MoE Refactor] Create MK for TRTLLM Kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-32564.pack.md",
+      "card_out": "index/vllm/cards/pr-32564-<slug>.md"
+    },
+    {
+      "number": 32655,
+      "title": "Add unpermute-aware fused MoE LoRA path",
+      "pack": "data/cards-workdir/vllm/packs/pr-32655.pack.md",
+      "card_out": "index/vllm/cards/pr-32655-<slug>.md"
+    },
+    {
+      "number": 32770,
+      "title": "[lora/moe] Improve fused MoE‑LoRA kernel indexing and memory access",
+      "pack": "data/cards-workdir/vllm/packs/pr-32770.pack.md",
+      "card_out": "index/vllm/cards/pr-32770-<slug>.md"
+    },
+    {
+      "number": 32806,
+      "title": "[torch.compile] Compile `CustomOp.forward_native` for `SiluAndMul` and `QuantFP8` to avoid raw torch ops inside opaque custom ops",
+      "pack": "data/cards-workdir/vllm/packs/pr-32806.pack.md",
+      "card_out": "index/vllm/cards/pr-32806-<slug>.md"
+    },
+    {
+      "number": 32952,
+      "title": "[Refactor] Rename `gptq_marlin` to `marlin` to match MoE",
+      "pack": "data/cards-workdir/vllm/packs/pr-32952.pack.md",
+      "card_out": "index/vllm/cards/pr-32952-<slug>.md"
+    },
+    {
+      "number": 33173,
+      "title": "[Quantization][ROCm] Fix MoE weight loading to be robust (Qwen3_MoE/Qwen3_next as example models)",
+      "pack": "data/cards-workdir/vllm/packs/pr-33173.pack.md",
+      "card_out": "index/vllm/cards/pr-33173-<slug>.md"
+    },
+    {
+      "number": 33506,
+      "title": "[Kernel] Support Flashinfer trtllm fused MoE non gated FP8 & NVFP4",
+      "pack": "data/cards-workdir/vllm/packs/pr-33506.pack.md",
+      "card_out": "index/vllm/cards/pr-33506-<slug>.md"
+    },
+    {
+      "number": 34206,
+      "title": "[Kernel] Optimize grouped topk kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-34206.pack.md",
+      "card_out": "index/vllm/cards/pr-34206-<slug>.md"
+    },
+    {
+      "number": 34664,
+      "title": "[Kernel] Add MXFP8 to Marlin GEMM/MoE and refactor Mxfp8LinearOp",
+      "pack": "data/cards-workdir/vllm/packs/pr-34664.pack.md",
+      "card_out": "index/vllm/cards/pr-34664-<slug>.md"
+    },
+    {
+      "number": 34692,
+      "title": "[ROCm] Enable DeepEP ROCm as all2allbackend for AMD GPUs. ",
+      "pack": "data/cards-workdir/vllm/packs/pr-34692.pack.md",
+      "card_out": "index/vllm/cards/pr-34692-<slug>.md"
+    },
+    {
+      "number": 34846,
+      "title": "[Perf] Improve default triton fused moe configs",
+      "pack": "data/cards-workdir/vllm/packs/pr-34846.pack.md",
+      "card_out": "index/vllm/cards/pr-34846-<slug>.md"
+    },
+    {
+      "number": 34933,
+      "title": "[FIX] fused moe with lora shared expert dual stream (1.07x otps)",
+      "pack": "data/cards-workdir/vllm/packs/pr-34933.pack.md",
+      "card_out": "index/vllm/cards/pr-34933-<slug>.md"
+    },
+    {
+      "number": 36022,
+      "title": "[Kernel] Add FlashInfer MoE A2A Kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-36022.pack.md",
+      "card_out": "index/vllm/cards/pr-36022-<slug>.md"
+    },
+    {
+      "number": 36412,
+      "title": "Fix/resupport nongated fused moe triton",
+      "pack": "data/cards-workdir/vllm/packs/pr-36412.pack.md",
+      "card_out": "index/vllm/cards/pr-36412-<slug>.md"
+    },
+    {
+      "number": 37338,
+      "title": "[Perf] [Bugfix] Fix Triton autotuning in inference for Qwen3.5",
+      "pack": "data/cards-workdir/vllm/packs/pr-37338.pack.md",
+      "card_out": "index/vllm/cards/pr-37338-<slug>.md"
+    },
+    {
+      "number": 37340,
+      "title": "[Perf] Add tuned triton moe config for Qwen3.5 H200, 9.9% E2E throughput improvement",
+      "pack": "data/cards-workdir/vllm/packs/pr-37340.pack.md",
+      "card_out": "index/vllm/cards/pr-37340-<slug>.md"
+    },
+    {
+      "number": 37695,
+      "title": "[Perf] Use torch compile to fuse pack topk in trtllm moe",
+      "pack": "data/cards-workdir/vllm/packs/pr-37695.pack.md",
+      "card_out": "index/vllm/cards/pr-37695-<slug>.md"
+    },
+    {
+      "number": 38086,
+      "title": "[ROCm] Enable VLLM triton FP8 moe for gfx1201, tuned for Qwen3-30B-A3B-FP8 tp=2 and Qwen/Qwen3.5-35B-A3B-FP8 tp=2",
+      "pack": "data/cards-workdir/vllm/packs/pr-38086.pack.md",
+      "card_out": "index/vllm/cards/pr-38086-<slug>.md"
+    },
+    {
+      "number": 38451,
+      "title": "[Perf] Fix DBO overlap: capture DeepEP event before yield",
+      "pack": "data/cards-workdir/vllm/packs/pr-38451.pack.md",
+      "card_out": "index/vllm/cards/pr-38451-<slug>.md"
+    },
+    {
+      "number": 38990,
+      "title": "[Bugfix][MoE] Fix 6-8% decode regression: prefer multi-stream shared expert overlap",
+      "pack": "data/cards-workdir/vllm/packs/pr-38990.pack.md",
+      "card_out": "index/vllm/cards/pr-38990-<slug>.md"
+    },
+    {
+      "number": 39315,
+      "title": "[Bugfix] FlashInfer MXINT4 MoE crashes, missing do_finalize",
+      "pack": "data/cards-workdir/vllm/packs/pr-39315.pack.md",
+      "card_out": "index/vllm/cards/pr-39315-<slug>.md"
+    },
+    {
+      "number": 39510,
+      "title": "[Kernel] Support TRTLLM GEN NVFP4 MoE for non-512-aligned hidden dims via weight padding",
+      "pack": "data/cards-workdir/vllm/packs/pr-39510.pack.md",
+      "card_out": "index/vllm/cards/pr-39510-<slug>.md"
+    },
+    {
+      "number": 40082,
+      "title": "Integrate flashinfer b12x MoE and FP4 GEMM kernels for SM120/121",
+      "pack": "data/cards-workdir/vllm/packs/pr-40082.pack.md",
+      "card_out": "index/vllm/cards/pr-40082-<slug>.md"
+    },
+    {
+      "number": 40960,
+      "title": "[DSV4] Add BF16 and MXFP8 A2A support for flashinfer a2a one sided",
+      "pack": "data/cards-workdir/vllm/packs/pr-40960.pack.md",
+      "card_out": "index/vllm/cards/pr-40960-<slug>.md"
+    },
+    {
+      "number": 41083,
+      "title": "[Quantization] add humming mxfp4 moe backend",
+      "pack": "data/cards-workdir/vllm/packs/pr-41083.pack.md",
+      "card_out": "index/vllm/cards/pr-41083-<slug>.md"
+    },
+    {
+      "number": 41160,
+      "title": "[Kernel] Pack output and LSE in DCP A2A",
+      "pack": "data/cards-workdir/vllm/packs/pr-41160.pack.md",
+      "card_out": "index/vllm/cards/pr-41160-<slug>.md"
+    },
+    {
+      "number": 41713,
+      "title": "Eliminate redundant MoE buffer copies in AITER fused experts (without dependency on AITER changes)",
+      "pack": "data/cards-workdir/vllm/packs/pr-41713.pack.md",
+      "card_out": "index/vllm/cards/pr-41713-<slug>.md"
+    },
+    {
+      "number": 42290,
+      "title": "[LoRA] Add one shot triton kernel For MoE LoRA",
+      "pack": "data/cards-workdir/vllm/packs/pr-42290.pack.md",
+      "card_out": "index/vllm/cards/pr-42290-<slug>.md"
+    },
+    {
+      "number": 44075,
+      "title": "[ROCm][Perf] Fused MoE W4A16 HIP kernel for AMD RDNA3 (gfx1100)",
+      "pack": "data/cards-workdir/vllm/packs/pr-44075.pack.md",
+      "card_out": "index/vllm/cards/pr-44075-<slug>.md"
+    },
+    {
+      "number": 44120,
+      "title": "[MoE Refactor] Migrate MoeWNA16Method quantization method over to using the new MK oracle scheme.",
+      "pack": "data/cards-workdir/vllm/packs/pr-44120.pack.md",
+      "card_out": "index/vllm/cards/pr-44120-<slug>.md"
+    },
+    {
+      "number": 44667,
+      "title": "[NVFP4][Emulation] Fuse NVFP4 weight dequantization with compute in triton kernel for w13/w2 MOE MLP linears",
+      "pack": "data/cards-workdir/vllm/packs/pr-44667.pack.md",
+      "card_out": "index/vllm/cards/pr-44667-<slug>.md"
+    },
+    {
+      "number": 45589,
+      "title": "[Bugfix] Fix MoE model load OOM in FlashInfer_TRTLLM  backend with sleep mode",
+      "pack": "data/cards-workdir/vllm/packs/pr-45589.pack.md",
+      "card_out": "index/vllm/cards/pr-45589-<slug>.md"
+    },
+    {
+      "number": 45703,
+      "title": "[Kernel] Extend Marlin thread-tile padding to MoE (WNA16 + FP8/MXFP8)",
+      "pack": "data/cards-workdir/vllm/packs/pr-45703.pack.md",
+      "card_out": "index/vllm/cards/pr-45703-<slug>.md"
+    },
+    {
+      "number": 46340,
+      "title": "[Kernel] TD operand loads for batched MoE GEMM (moe_mmk) on XPU",
+      "pack": "data/cards-workdir/vllm/packs/pr-46340.pack.md",
+      "card_out": "index/vllm/cards/pr-46340-<slug>.md"
+    },
+    {
+      "number": 46353,
+      "title": "[CPU][Perf] Accelerate unquantized MoE for AArch64",
+      "pack": "data/cards-workdir/vllm/packs/pr-46353.pack.md",
+      "card_out": "index/vllm/cards/pr-46353-<slug>.md"
+    }
+  ]
+}

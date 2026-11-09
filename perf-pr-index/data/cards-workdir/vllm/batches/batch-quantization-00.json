@@ -1,0 +1,247 @@
+{
+  "repo": "vllm",
+  "category": "Quantization",
+  "count": 40,
+  "prs": [
+    {
+      "number": 1032,
+      "title": "Implement AWQ quantization support for LLaMA",
+      "pack": "data/cards-workdir/vllm/packs/pr-1032.pack.md",
+      "card_out": "index/vllm/cards/pr-1032-<slug>.md"
+    },
+    {
+      "number": 2497,
+      "title": "Integrate Marlin Kernels for Int4 GPTQ inference",
+      "pack": "data/cards-workdir/vllm/packs/pr-2497.pack.md",
+      "card_out": "index/vllm/cards/pr-2497-<slug>.md"
+    },
+    {
+      "number": 3922,
+      "title": "[Kernel] Marlin Expansion: Support AutoGPTQ Models with Marlin",
+      "pack": "data/cards-workdir/vllm/packs/pr-3922.pack.md",
+      "card_out": "index/vllm/cards/pr-3922-<slug>.md"
+    },
+    {
+      "number": 4442,
+      "title": "[CORE] Quantized lm-head Framework",
+      "pack": "data/cards-workdir/vllm/packs/pr-4442.pack.md",
+      "card_out": "index/vllm/cards/pr-4442-<slug>.md"
+    },
+    {
+      "number": 4776,
+      "title": "[Feature][Kernel] Support bitsandbytes quantization and QLoRA",
+      "pack": "data/cards-workdir/vllm/packs/pr-4776.pack.md",
+      "card_out": "index/vllm/cards/pr-4776-<slug>.md"
+    },
+    {
+      "number": 5183,
+      "title": "[Kernel] Switch fp8 layers to use the CUTLASS kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-5183.pack.md",
+      "card_out": "index/vllm/cards/pr-5183-<slug>.md"
+    },
+    {
+      "number": 5218,
+      "title": "Support W4A8 quantization for vllm",
+      "pack": "data/cards-workdir/vllm/packs/pr-5218.pack.md",
+      "card_out": "index/vllm/cards/pr-5218-<slug>.md"
+    },
+    {
+      "number": 5396,
+      "title": "[Kernel] Vectorized FP8 quantize kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-5396.pack.md",
+      "card_out": "index/vllm/cards/pr-5396-<slug>.md"
+    },
+    {
+      "number": 5975,
+      "title": "[Kernel] Expand FP8 support to Ampere GPUs using FP8 Marlin",
+      "pack": "data/cards-workdir/vllm/packs/pr-5975.pack.md",
+      "card_out": "index/vllm/cards/pr-5975-<slug>.md"
+    },
+    {
+      "number": 6612,
+      "title": "[Kernel][Core] Add AWQ support to the Marlin kernel ",
+      "pack": "data/cards-workdir/vllm/packs/pr-6612.pack.md",
+      "card_out": "index/vllm/cards/pr-6612-<slug>.md"
+    },
+    {
+      "number": 6677,
+      "title": "[Kernel] Tuned FP8 Kernels for Ada Lovelace",
+      "pack": "data/cards-workdir/vllm/packs/pr-6677.pack.md",
+      "card_out": "index/vllm/cards/pr-6677-<slug>.md"
+    },
+    {
+      "number": 6996,
+      "title": "[Kernel] Tuned int8 Cutlass Kernels for SM75 (T4)",
+      "pack": "data/cards-workdir/vllm/packs/pr-6996.pack.md",
+      "card_out": "index/vllm/cards/pr-6996-<slug>.md"
+    },
+    {
+      "number": 7798,
+      "title": "[Core][Kernels] Use FlashInfer backend for FP8 KV Cache when available.",
+      "pack": "data/cards-workdir/vllm/packs/pr-7798.pack.md",
+      "card_out": "index/vllm/cards/pr-7798-<slug>.md"
+    },
+    {
+      "number": 8248,
+      "title": "[Kernel] [Triton] Memory optimization for awq_gemm and awq_dequantize, 2x throughput",
+      "pack": "data/cards-workdir/vllm/packs/pr-8248.pack.md",
+      "card_out": "index/vllm/cards/pr-8248-<slug>.md"
+    },
+    {
+      "number": 8434,
+      "title": "[Feature][kernel] tensor parallelism with bitsandbytes quantization",
+      "pack": "data/cards-workdir/vllm/packs/pr-8434.pack.md",
+      "card_out": "index/vllm/cards/pr-8434-<slug>.md"
+    },
+    {
+      "number": 8651,
+      "title": "[Core] Default to using per_token quantization for fp8 when cutlass is supported.",
+      "pack": "data/cards-workdir/vllm/packs/pr-8651.pack.md",
+      "card_out": "index/vllm/cards/pr-8651-<slug>.md"
+    },
+    {
+      "number": 11698,
+      "title": "[Kernel][Triton][AMD] Use block size heuristic for avg 2.8x speedup for int8 models",
+      "pack": "data/cards-workdir/vllm/packs/pr-11698.pack.md",
+      "card_out": "index/vllm/cards/pr-11698-<slug>.md"
+    },
+    {
+      "number": 12978,
+      "title": "[Kernel]Add streamK for block-quantized CUTLASS kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-12978.pack.md",
+      "card_out": "index/vllm/cards/pr-12978-<slug>.md"
+    },
+    {
+      "number": 13167,
+      "title": "[Model] Deepseek GGUF support ",
+      "pack": "data/cards-workdir/vllm/packs/pr-13167.pack.md",
+      "card_out": "index/vllm/cards/pr-13167-<slug>.md"
+    },
+    {
+      "number": 14138,
+      "title": "[Kernel] optimize performance of gptq marlin kernel when n is small",
+      "pack": "data/cards-workdir/vllm/packs/pr-14138.pack.md",
+      "card_out": "index/vllm/cards/pr-14138-<slug>.md"
+    },
+    {
+      "number": 16366,
+      "title": "[Kernel] Support W8A8 channel-wise weights and per-token activations in triton fused_moe_kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-16366.pack.md",
+      "card_out": "index/vllm/cards/pr-16366-<slug>.md"
+    },
+    {
+      "number": 18778,
+      "title": "[Perf] Tunings for SM100 FP8 CUTLASS kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-18778.pack.md",
+      "card_out": "index/vllm/cards/pr-18778-<slug>.md"
+    },
+    {
+      "number": 18844,
+      "title": "[Perf] Tune `scaled_fp8_quant` by increasing vectorization",
+      "pack": "data/cards-workdir/vllm/packs/pr-18844.pack.md",
+      "card_out": "index/vllm/cards/pr-18844-<slug>.md"
+    },
+    {
+      "number": 19233,
+      "title": "[Perf] Vectorize static / dynamic INT8 quant kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-19233.pack.md",
+      "card_out": "index/vllm/cards/pr-19233-<slug>.md"
+    },
+    {
+      "number": 19566,
+      "title": "[Perf] Further tunings for SM100 FP8 CUTLASS kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-19566.pack.md",
+      "card_out": "index/vllm/cards/pr-19566-<slug>.md"
+    },
+    {
+      "number": 19830,
+      "title": "[Perf][fp8] Use CustomOp abstraction for fp8 quant for better perf",
+      "pack": "data/cards-workdir/vllm/packs/pr-19830.pack.md",
+      "card_out": "index/vllm/cards/pr-19830-<slug>.md"
+    },
+    {
+      "number": 20071,
+      "title": "[Perf] SM100 FP8 GEMM Optimizations after cutlass_profiler",
+      "pack": "data/cards-workdir/vllm/packs/pr-20071.pack.md",
+      "card_out": "index/vllm/cards/pr-20071-<slug>.md"
+    },
+    {
+      "number": 20268,
+      "title": "Enable ZP Support for Machete",
+      "pack": "data/cards-workdir/vllm/packs/pr-20268.pack.md",
+      "card_out": "index/vllm/cards/pr-20268-<slug>.md"
+    },
+    {
+      "number": 20331,
+      "title": "[Perf] Optimize Vectorization Utils for Int 8 Quantization Kernels",
+      "pack": "data/cards-workdir/vllm/packs/pr-20331.pack.md",
+      "card_out": "index/vllm/cards/pr-20331-<slug>.md"
+    },
+    {
+      "number": 20396,
+      "title": "[Kernel] SM90 CUTLASS FP8 GEMM: add support for swap AB + kernel tuning",
+      "pack": "data/cards-workdir/vllm/packs/pr-20396.pack.md",
+      "card_out": "index/vllm/cards/pr-20396-<slug>.md"
+    },
+    {
+      "number": 20841,
+      "title": "[Perf] Use Triton instead of Torch for DeepGEMM Per Token Group Quant",
+      "pack": "data/cards-workdir/vllm/packs/pr-20841.pack.md",
+      "card_out": "index/vllm/cards/pr-20841-<slug>.md"
+    },
+    {
+      "number": 21069,
+      "title": "Add FlashInfer allreduce RMSNorm Quant fusion",
+      "pack": "data/cards-workdir/vllm/packs/pr-21069.pack.md",
+      "card_out": "index/vllm/cards/pr-21069-<slug>.md"
+    },
+    {
+      "number": 21083,
+      "title": "[Perf] Cuda Kernel for Per Token Group Quant",
+      "pack": "data/cards-workdir/vllm/packs/pr-21083.pack.md",
+      "card_out": "index/vllm/cards/pr-21083-<slug>.md"
+    },
+    {
+      "number": 21476,
+      "title": "[Perf] Cuda Kernel for Int8 Per Token Group Quant, 15x faster compared with triton",
+      "pack": "data/cards-workdir/vllm/packs/pr-21476.pack.md",
+      "card_out": "index/vllm/cards/pr-21476-<slug>.md"
+    },
+    {
+      "number": 21716,
+      "title": "[NVIDIA] Support Flashinfer TRTLLM FP8-q/kv/out Attention Kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-21716.pack.md",
+      "card_out": "index/vllm/cards/pr-21716-<slug>.md"
+    },
+    {
+      "number": 21787,
+      "title": "[Refactor] Remove Duplicate `per_block_cast_to_fp8`, Remove Dependencies of DeepGEMM",
+      "pack": "data/cards-workdir/vllm/packs/pr-21787.pack.md",
+      "card_out": "index/vllm/cards/pr-21787-<slug>.md"
+    },
+    {
+      "number": 21961,
+      "title": "[Feature] Non-contiguous Support for FP8 Quantization",
+      "pack": "data/cards-workdir/vllm/packs/pr-21961.pack.md",
+      "card_out": "index/vllm/cards/pr-21961-<slug>.md"
+    },
+    {
+      "number": 22428,
+      "title": "[Kernel] [Quantization] Add MXFP4 and bias support for marlin kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-22428.pack.md",
+      "card_out": "index/vllm/cards/pr-22428-<slug>.md"
+    },
+    {
+      "number": 22703,
+      "title": "[NVIDIA] Support Flashinfer TRTLLM FP8-q/kv NVFP4-out Attention Kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-22703.pack.md",
+      "card_out": "index/vllm/cards/pr-22703-<slug>.md"
+    },
+    {
+      "number": 22895,
+      "title": "[Kernel] Added flashinfer fp8 per-tensor gemms",
+      "pack": "data/cards-workdir/vllm/packs/pr-22895.pack.md",
+      "card_out": "index/vllm/cards/pr-22895-<slug>.md"
+    }
+  ]
+}

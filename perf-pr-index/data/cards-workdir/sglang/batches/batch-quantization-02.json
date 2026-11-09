@@ -1,0 +1,73 @@
+{
+  "repo": "sglang",
+  "category": "Quantization",
+  "count": 11,
+  "prs": [
+    {
+      "number": 43786,
+      "title": "[Perf] DeepSeek-V4: Fuse inverse RoPE into wo_a FP8 quantization",
+      "pack": "data/cards-workdir/sglang/packs/pr-43786.pack.md",
+      "card_out": "index/sglang/cards/pr-43786-<slug>.md"
+    },
+    {
+      "number": 44114,
+      "title": "[Perf] [NVIDIA] qsa: Keep sparse decode scratch in FP8 for FP8 KV pools",
+      "pack": "data/cards-workdir/sglang/packs/pr-44114.pack.md",
+      "card_out": "index/sglang/cards/pr-44114-<slug>.md"
+    },
+    {
+      "number": 44838,
+      "title": "[Perf] deepseek_v4: fold the MegaAttention query layout into wq_b for block-FP8-as-MXFP8 checkpoints",
+      "pack": "data/cards-workdir/sglang/packs/pr-44838.pack.md",
+      "card_out": "index/sglang/cards/pr-44838-<slug>.md"
+    },
+    {
+      "number": 44865,
+      "title": "[Feat] ComfyUI: Add online INT8 quantization for BF16 Qwen-Image-2.1 single files",
+      "pack": "data/cards-workdir/sglang/packs/pr-44865.pack.md",
+      "card_out": "index/sglang/cards/pr-44865-<slug>.md"
+    },
+    {
+      "number": 45219,
+      "title": "[Perf] mlp: Fuse dense SwiGLU with block-FP8 quantization on decode",
+      "pack": "data/cards-workdir/sglang/packs/pr-45219.pack.md",
+      "card_out": "index/sglang/cards/pr-45219-<slug>.md"
+    },
+    {
+      "number": 45304,
+      "title": "[Fix] [AMD] diffusion: Enable `--quantization fp8` on gfx1250 (torch.compile lowering + per-channel weight scales)",
+      "pack": "data/cards-workdir/sglang/packs/pr-45304.pack.md",
+      "card_out": "index/sglang/cards/pr-45304-<slug>.md"
+    },
+    {
+      "number": 45630,
+      "title": "[Perf] dsv41: Use tuned MXFP8 tactics at decode sizes",
+      "pack": "data/cards-workdir/sglang/packs/pr-45630.pack.md",
+      "card_out": "index/sglang/cards/pr-45630-<slug>.md"
+    },
+    {
+      "number": 46690,
+      "title": "[Feat] [AMD] minimax: gfx950 sparse attention, NVFP4 KV and DSpark verify kernels",
+      "pack": "data/cards-workdir/sglang/packs/pr-46690.pack.md",
+      "card_out": "index/sglang/cards/pr-46690-<slug>.md"
+    },
+    {
+      "number": 47503,
+      "title": "[Perf] rmsnorm: One SM100-tuned JIT template for plain, fused residual-add and fp8 per-tensor quant",
+      "pack": "data/cards-workdir/sglang/packs/pr-47503.pack.md",
+      "card_out": "index/sglang/cards/pr-47503-<slug>.md"
+    },
+    {
+      "number": 47695,
+      "title": "[Feat] [AMD] quark: Quark int4 W4A16 on ROCm, and gfx1151 kernels for Strix Halo decode and prefill",
+      "pack": "data/cards-workdir/sglang/packs/pr-47695.pack.md",
+      "card_out": "index/sglang/cards/pr-47695-<slug>.md"
+    },
+    {
+      "number": 48733,
+      "title": "[Perf] [NVIDIA] dsv41: Index-Q RoPE + fp4 pack runs one thread per fp4 block for prefill-sized calls",
+      "pack": "data/cards-workdir/sglang/packs/pr-48733.pack.md",
+      "card_out": "index/sglang/cards/pr-48733-<slug>.md"
+    }
+  ]
+}

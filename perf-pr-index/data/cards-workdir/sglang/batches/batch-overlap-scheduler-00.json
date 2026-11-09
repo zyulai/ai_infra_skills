@@ -1,0 +1,133 @@
+{
+  "repo": "sglang",
+  "category": "Overlap / Scheduler",
+  "count": 21,
+  "prs": [
+    {
+      "number": 1738,
+      "title": "Faster overlap mode scheduler",
+      "pack": "data/cards-workdir/sglang/packs/pr-1738.pack.md",
+      "card_out": "index/sglang/cards/pr-1738-<slug>.md"
+    },
+    {
+      "number": 5113,
+      "title": "Support MHA with chunked prefix cache for DeepSeek chunked prefill",
+      "pack": "data/cards-workdir/sglang/packs/pr-5113.pack.md",
+      "card_out": "index/sglang/cards/pr-5113-<slug>.md"
+    },
+    {
+      "number": 8133,
+      "title": "[Performance][PD Disaggregation] optimize TokenToKVPoolAllocator by sorting free pages",
+      "pack": "data/cards-workdir/sglang/packs/pr-8133.pack.md",
+      "card_out": "index/sglang/cards/pr-8133-<slug>.md"
+    },
+    {
+      "number": 8144,
+      "title": "[Feature] improve TBO: two chunk overlap",
+      "pack": "data/cards-workdir/sglang/packs/pr-8144.pack.md",
+      "card_out": "index/sglang/cards/pr-8144-<slug>.md"
+    },
+    {
+      "number": 14792,
+      "title": "[Qwen3-next] support mamba radix cache for overlap scheduler",
+      "pack": "data/cards-workdir/sglang/packs/pr-14792.pack.md",
+      "card_out": "index/sglang/cards/pr-14792-<slug>.md"
+    },
+    {
+      "number": 14795,
+      "title": "[Feature] Multi lora optimization - resolve scheduler blocking issue and save Non-Lora inference performance",
+      "pack": "data/cards-workdir/sglang/packs/pr-14795.pack.md",
+      "card_out": "index/sglang/cards/pr-14795-<slug>.md"
+    },
+    {
+      "number": 17026,
+      "title": "feat: Priority-based scheduling optimization (including default priority, preemption toggle, priority-based metrics, etc.)",
+      "pack": "data/cards-workdir/sglang/packs/pr-17026.pack.md",
+      "card_out": "index/sglang/cards/pr-17026-<slug>.md"
+    },
+    {
+      "number": 21104,
+      "title": "perf: precompute FA3 scheduler_metadata to eliminate per-layer prepare_varlen_num_blocks",
+      "pack": "data/cards-workdir/sglang/packs/pr-21104.pack.md",
+      "card_out": "index/sglang/cards/pr-21104-<slug>.md"
+    },
+    {
+      "number": 21932,
+      "title": "[HiSparse] Optimize the scheduling of decode backup.",
+      "pack": "data/cards-workdir/sglang/packs/pr-21932.pack.md",
+      "card_out": "index/sglang/cards/pr-21932-<slug>.md"
+    },
+    {
+      "number": 22587,
+      "title": "[EPD] Optimize the Mooncake backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-22587.pack.md",
+      "card_out": "index/sglang/cards/pr-22587-<slug>.md"
+    },
+    {
+      "number": 23860,
+      "title": "[perf] cherry-pick #22911: support return_routed_experts with overlap scheduling",
+      "pack": "data/cards-workdir/sglang/packs/pr-23860.pack.md",
+      "card_out": "index/sglang/cards/pr-23860-<slug>.md"
+    },
+    {
+      "number": 25669,
+      "title": "[EPD][Perf] Async image preprocessing and cross-request ViT batching for encode_server",
+      "pack": "data/cards-workdir/sglang/packs/pr-25669.pack.md",
+      "card_out": "index/sglang/cards/pr-25669-<slug>.md"
+    },
+    {
+      "number": 26646,
+      "title": "[core] Make overlap-schedule WAR barrier CUDA-only",
+      "pack": "data/cards-workdir/sglang/packs/pr-26646.pack.md",
+      "card_out": "index/sglang/cards/pr-26646-<slug>.md"
+    },
+    {
+      "number": 27563,
+      "title": "hisparse: support NIXL DRAM KV destinations for HiSparse",
+      "pack": "data/cards-workdir/sglang/packs/pr-27563.pack.md",
+      "card_out": "index/sglang/cards/pr-27563-<slug>.md"
+    },
+    {
+      "number": 27868,
+      "title": "fix(qwen3.5): keep CUDA dual-stream overlap (regressed by #25885)",
+      "pack": "data/cards-workdir/sglang/packs/pr-27868.pack.md",
+      "card_out": "index/sglang/cards/pr-27868-<slug>.md"
+    },
+    {
+      "number": 28441,
+      "title": "[EPD] Optimize multimodal global cache with paged embedding pool",
+      "pack": "data/cards-workdir/sglang/packs/pr-28441.pack.md",
+      "card_out": "index/sglang/cards/pr-28441-<slug>.md"
+    },
+    {
+      "number": 29792,
+      "title": "Fix Mamba track-boundary bookkeeping under overlap scheduling",
+      "pack": "data/cards-workdir/sglang/packs/pr-29792.pack.md",
+      "card_out": "index/sglang/cards/pr-29792-<slug>.md"
+    },
+    {
+      "number": 33480,
+      "title": "[AMD] Support prefill context parallel two batch overlap for DeepSeek V4",
+      "pack": "data/cards-workdir/sglang/packs/pr-33480.pack.md",
+      "card_out": "index/sglang/cards/pr-33480-<slug>.md"
+    },
+    {
+      "number": 34338,
+      "title": "[perf] Collapse the DP attention scheduler sync to a single D2H copy",
+      "pack": "data/cards-workdir/sglang/packs/pr-34338.pack.md",
+      "card_out": "index/sglang/cards/pr-34338-<slug>.md"
+    },
+    {
+      "number": 36631,
+      "title": "[Sampling] Support sampling masks with overlap scheduling",
+      "pack": "data/cards-workdir/sglang/packs/pr-36631.pack.md",
+      "card_out": "index/sglang/cards/pr-36631-<slug>.md"
+    },
+    {
+      "number": 42122,
+      "title": "[XPU] Use the shared fused decode-metadata kernel in the intel_xpu ba…",
+      "pack": "data/cards-workdir/sglang/packs/pr-42122.pack.md",
+      "card_out": "index/sglang/cards/pr-42122-<slug>.md"
+    }
+  ]
+}

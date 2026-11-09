@@ -1,0 +1,114 @@
+[
+ {
+  "number": 43363,
+  "title": "[Perf] moe: Extend FlashInfer CUTLASS MoE autotune coverage to prefill chunks",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-43363.pack.md",
+  "out": "index/sglang/cards/pr-43363-perf-moe-extend-flashinfer-cutlass-moe-a.md"
+ },
+ {
+  "number": 13731,
+  "title": "[sgl-kernel][Feat][B200][1/N]Support MXFP8 Grouped GEMM in Blackwell",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-13731.pack.md",
+  "out": "index/sglang/cards/pr-13731-sgl-kernel-feat-b200-1-n-support-mxfp8-g.md"
+ },
+ {
+  "number": 12240,
+  "title": "[VLM] Optimize qwen_vl preprocess_video",
+  "category": "Model-specific Fast Path",
+  "pack": "data/cards-workdir/sglang/packs/pr-12240.pack.md",
+  "out": "index/sglang/cards/pr-12240-vlm-optimize-qwen-vl-preprocess-video.md"
+ },
+ {
+  "number": 41533,
+  "title": "[ROCm] Use the fused MLA absorb + RoPE + KV-write kernel for decode-sized forward modes only",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-41533.pack.md",
+  "out": "index/sglang/cards/pr-41533-rocm-use-the-fused-mla-absorb-rope-kv-wr.md"
+ },
+ {
+  "number": 9873,
+  "title": "[Feature] Speculative decoding support lookahead",
+  "category": "Speculative Decoding",
+  "pack": "data/cards-workdir/sglang/packs/pr-9873.pack.md",
+  "out": "index/sglang/cards/pr-9873-feature-speculative-decoding-support-loo.md"
+ },
+ {
+  "number": 34580,
+  "title": "[AMD] Optimize KIMI-K3 with Triton MLA decode kernel by tuning the stage-1 geometry for gfx950",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-34580.pack.md",
+  "out": "index/sglang/cards/pr-34580-amd-optimize-kimi-k3-with-triton-mla-dec.md"
+ },
+ {
+  "number": 30261,
+  "title": "[Spec] Add DSpark: confidence-scheduled speculative decoding",
+  "category": "Speculative Decoding",
+  "pack": "data/cards-workdir/sglang/packs/pr-30261.pack.md",
+  "out": "index/sglang/cards/pr-30261-spec-add-dspark-confidence-scheduled-spe.md"
+ },
+ {
+  "number": 30971,
+  "title": "[minimax-m3] fp8 attention GEMMs on SM100 (fp8_e4m3 KV + trtllm_mha)",
+  "category": "Quantization",
+  "pack": "data/cards-workdir/sglang/packs/pr-30971.pack.md",
+  "out": "index/sglang/cards/pr-30971-minimax-m3-fp8-attention-gemms-on-sm100.md"
+ },
+ {
+  "number": 13055,
+  "title": "[VLM] Support Piecewise CUDA Graph for Qwen2.5-VL ",
+  "category": "CUDA Graph / Compiler",
+  "pack": "data/cards-workdir/sglang/packs/pr-13055.pack.md",
+  "out": "index/sglang/cards/pr-13055-vlm-support-piecewise-cuda-graph-for-qwe.md"
+ },
+ {
+  "number": 46159,
+  "title": "[Perf] batch-invariant: Fused residual add + RMSNorm kernel",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-46159.pack.md",
+  "out": "index/sglang/cards/pr-46159-perf-batch-invariant-fused-residual-add.md"
+ },
+ {
+  "number": 10321,
+  "title": "[1/2][sgl-kernel] Support moe_sum_reduce cuda kernel",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-10321.pack.md",
+  "out": "index/sglang/cards/pr-10321-1-2-sgl-kernel-support-moe-sum-reduce-cu.md"
+ },
+ {
+  "number": 47964,
+  "title": "[Feat] [AMD] custom-all-reduce: Run the JIT custom all-reduce v2 on ROCm",
+  "category": "CUDA Graph / Compiler",
+  "pack": "data/cards-workdir/sglang/packs/pr-47964.pack.md",
+  "out": "index/sglang/cards/pr-47964-feat-amd-custom-all-reduce-run-the-jit-c.md"
+ },
+ {
+  "number": 32779,
+  "title": "[SM120&90] Add CUDA fused Triton sparse-MLA prefill backend for DSA",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-32779.pack.md",
+  "out": "index/sglang/cards/pr-32779-sm120-90-add-cuda-fused-triton-sparse-ml.md"
+ },
+ {
+  "number": 28265,
+  "title": "[AMD] refactor sparse MLA decode kernel for Deepseek V4 triton backend",
+  "category": "Attention / Kernel",
+  "pack": "data/cards-workdir/sglang/packs/pr-28265.pack.md",
+  "out": "index/sglang/cards/pr-28265-amd-refactor-sparse-mla-decode-kernel-fo.md"
+ },
+ {
+  "number": 28185,
+  "title": "[GDN][KDA][mem_cache] int8 checkpoint pool for the linear-attn prefix cache",
+  "category": "Quantization",
+  "pack": "data/cards-workdir/sglang/packs/pr-28185.pack.md",
+  "out": "index/sglang/cards/pr-28185-gdn-kda-mem-cache-int8-checkpoint-pool-f.md"
+ },
+ {
+  "number": 44268,
+  "title": "[Fix] moe: Fix --enable-fused-moe-sum-all-reduce outside CUDA and with LoRA hooks",
+  "category": "MoE",
+  "pack": "data/cards-workdir/sglang/packs/pr-44268.pack.md",
+  "out": "index/sglang/cards/pr-44268-fix-moe-fix-enable-fused-moe-sum-all-red.md"
+ }
+]

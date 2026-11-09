@@ -1,0 +1,12 @@
+PR #29008 | [ROCm][Quantization] GPT_OSS in amd-quark format model loading and emulations  | pack=data/cards-workdir/vllm/packs/pr-29008.pack.md | out=index/vllm/cards/pr-29008-rocm-quantization-gpt-oss-in-amd-quark-f.md
+PR #32414 | [MoE Refactor] Oracle Select FP8+NVFP4 Kernels In Priority | pack=data/cards-workdir/vllm/packs/pr-32414.pack.md | out=index/vllm/cards/pr-32414-moe-refactor-oracle-select-fp8-nvfp4-ker.md
+PR #33825 | [vLLM IR] 1/N Implement IR skeleton and rms_norm op | pack=data/cards-workdir/vllm/packs/pr-33825.pack.md | out=index/vllm/cards/pr-33825-vllm-ir-1-n-implement-ir-skeleton-and-rm.md
+PR #37376 |  fused qknorm+rope kernel optimization for SM9.0 | pack=data/cards-workdir/vllm/packs/pr-37376.pack.md | out=index/vllm/cards/pr-37376-fused-qknorm-rope-kernel-optimization-fo.md
+PR #50045 | [KV Offloading] Back-pressure detection and remediation | pack=data/cards-workdir/vllm/packs/pr-50045.pack.md | out=index/vllm/cards/pr-50045-kv-offloading-back-pressure-detection-an.md
+PR #54109 | [MoE][DeepEPV2] Add PaddedStandard activation format | pack=data/cards-workdir/vllm/packs/pr-54109.pack.md | out=index/vllm/cards/pr-54109-moe-deepepv2-add-paddedstandard-activati.md
+PR #55700 | [Feat][Frontend] Add Watchdog for Engine and Worker Monitoring | pack=data/cards-workdir/vllm/packs/pr-55700.pack.md | out=index/vllm/cards/pr-55700-feat-frontend-add-watchdog-for-engine-an.md
+PR #55934 | [ROCm] triton+triton_kernels 3.8 mxfp4 MoE support (gpt-oss + DeepSeek-V4) | pack=data/cards-workdir/vllm/packs/pr-55934.pack.md | out=index/vllm/cards/pr-55934-rocm-triton-triton-kernels-3-8-mxfp4-moe.md
+PR #56867 | [Metrics][KV Offload] Add vllm:kv_offload_config_info - generic info metrics for offloading the offloading connector | pack=data/cards-workdir/vllm/packs/pr-56867.pack.md | out=index/vllm/cards/pr-56867-metrics-kv-offload-add-vllm-kv-offload-c.md
+PR #60102 | [ROCm][DSv4.1][Perf] Route gfx942 sparse MLA prefill to AITER pa_prefill_sparse | pack=data/cards-workdir/vllm/packs/pr-60102.pack.md | out=index/vllm/cards/pr-60102-rocm-dsv4-1-perf-route-gfx942-sparse-mla.md
+PR #51100 | [Bugfix] Fix Mamba all-mode CPU offload boundary alignment | pack=data/cards-workdir/vllm/packs/pr-51100.pack.md | out=index/vllm/cards/pr-51100-bugfix-fix-mamba-all-mode-cpu-offload-bo.md
+PR #53011 | [Bugfix] Avoid eager torch.compile in Kimi K2.5 vision helper | pack=data/cards-workdir/vllm/packs/pr-53011.pack.md | out=index/vllm/cards/pr-53011-bugfix-avoid-eager-torch-compile-in-kimi.md

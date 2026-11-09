@@ -1,0 +1,31 @@
+{
+  "repo": "sglang",
+  "category": "Speculative Decoding",
+  "count": 4,
+  "prs": [
+    {
+      "number": 47201,
+      "title": "[Perf] [NVIDIA] speculative-decoding: Bind generic provider strategies",
+      "pack": "data/cards-workdir/sglang/packs/pr-47201.pack.md",
+      "card_out": "index/sglang/cards/pr-47201-<slug>.md"
+    },
+    {
+      "number": 47354,
+      "title": "[Perf] [NVIDIA] glm5: Route small-M BF16 GEMMs to FlashInfer warp split-K with PDL on SM107",
+      "pack": "data/cards-workdir/sglang/packs/pr-47354.pack.md",
+      "card_out": "index/sglang/cards/pr-47354-<slug>.md"
+    },
+    {
+      "number": 47935,
+      "title": "[Perf] dsv41: Keep MXFP4 Engram tables packed and decode E2M1 in the gather",
+      "pack": "data/cards-workdir/sglang/packs/pr-47935.pack.md",
+      "card_out": "index/sglang/cards/pr-47935-<slug>.md"
+    },
+    {
+      "number": 48437,
+      "title": "[Perf] [AMD] dsa: Split-K HIP sparse MLA for decode/verify",
+      "pack": "data/cards-workdir/sglang/packs/pr-48437.pack.md",
+      "card_out": "index/sglang/cards/pr-48437-<slug>.md"
+    }
+  ]
+}
