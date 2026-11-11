@@ -28,6 +28,12 @@
       "card_out": "index/vllm/cards/pr-57632-<slug>.md"
     },
     {
+      "number": 58094,
+      "title": "[Bugfix][Spec Decode] Propagate rope hf_overrides to MTP draft",
+      "pack": "data/cards-workdir/vllm/packs/pr-58094.pack.md",
+      "card_out": "index/vllm/cards/pr-58094-<slug>.md"
+    },
+    {
       "number": 58454,
       "title": "[Bugfix][GLM-5.3-Flash] kpool corruption with speculative decoding",
       "pack": "data/cards-workdir/vllm/packs/pr-58454.pack.md",
@@ -148,6 +154,12 @@
       "card_out": "index/vllm/cards/pr-61355-<slug>.md"
     },
     {
+      "number": 61498,
+      "title": "[ROCm][Perf][Kimi-K3] Mono decode layer for Kimi-K3 on MI355X w/ vanilla decode",
+      "pack": "data/cards-workdir/vllm/packs/pr-61498.pack.md",
+      "card_out": "index/vllm/cards/pr-61498-<slug>.md"
+    },
+    {
       "number": 61640,
       "title": "[Perf][MRV2] Skip empty draft-token resets on request admission",
       "pack": "data/cards-workdir/vllm/packs/pr-61640.pack.md",
@@ -220,28 +232,16 @@
       "card_out": "index/vllm/cards/pr-62240-<slug>.md"
     },
     {
+      "number": 62769,
+      "title": "[Bugfix][Spec Decode] Synchronize adaptive DSpark decisions across TP ranks",
+      "pack": "data/cards-workdir/vllm/packs/pr-62769.pack.md",
+      "card_out": "index/vllm/cards/pr-62769-<slug>.md"
+    },
+    {
       "number": 62784,
       "title": "[Spec Decode][MRV2] Skip drafting in steps where no request can use the drafts",
       "pack": "data/cards-workdir/vllm/packs/pr-62784.pack.md",
       "card_out": "index/vllm/cards/pr-62784-<slug>.md"
-    },
-    {
-      "number": 62843,
-      "title": "[Perf][GLM-5.3] Enable GLM low-latency BF16 GEMM on SM107",
-      "pack": "data/cards-workdir/vllm/packs/pr-62843.pack.md",
-      "card_out": "index/vllm/cards/pr-62843-<slug>.md"
-    },
-    {
-      "number": 62956,
-      "title": "[Perf][glm5next] Add SM121 TP=2 skinny-GEMM plans for GLM-5.3-Flash",
-      "pack": "data/cards-workdir/vllm/packs/pr-62956.pack.md",
-      "card_out": "index/vllm/cards/pr-62956-<slug>.md"
-    },
-    {
-      "number": 63027,
-      "title": "[ROCm][Perf][DSv4.1] Mono: tuned K1/K2 for the TP2 compress-ratio-2 layers on MI355X",
-      "pack": "data/cards-workdir/vllm/packs/pr-63027.pack.md",
-      "card_out": "index/vllm/cards/pr-63027-<slug>.md"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "Model-specific Fast Path",
-  "count": 19,
+  "count": 21,
   "prs": [
     {
       "number": 36507,
@@ -116,6 +116,18 @@
       "title": "[Refactor] env: Dispatch on the GPU architecture instead of env vars that restate it",
       "pack": "data/cards-workdir/sglang/packs/pr-48399.pack.md",
       "card_out": "index/sglang/cards/pr-48399-<slug>.md"
+    },
+    {
+      "number": 48731,
+      "title": "[Perf] [NVIDIA] dsv41: Gather 16 local Engram rows per program on SM103 and SM107",
+      "pack": "data/cards-workdir/sglang/packs/pr-48731.pack.md",
+      "card_out": "index/sglang/cards/pr-48731-<slug>.md"
+    },
+    {
+      "number": 49024,
+      "title": "[Perf] [AMD] wan2.2: Gate FlyDSL norm and scale-shift fusion on high quality",
+      "pack": "data/cards-workdir/sglang/packs/pr-49024.pack.md",
+      "card_out": "index/sglang/cards/pr-49024-<slug>.md"
     }
   ]
 }

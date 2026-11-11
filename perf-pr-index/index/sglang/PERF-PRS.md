@@ -1,30 +1,56 @@
 # SGLANG 性能优化 PR 全量索引
 
 - 仓库: https://github.com/sgl-project/sglang
-- 收录总数: **6059** (重点 🔥 **645** / 一般 5414)
-- 生成时间: 2026-11-08T07:30:31+00:00
+- 收录总数: **6217** (重点 🔥 **672** / 一般 5545)
+- 生成时间: 2026-11-11T17:43:30+00:00
 
 ## 目录
 
-- [Speculative Decoding(投机解码) (881)](#speculative-decoding投机解码-881)
-- [MoE(混合专家) (672)](#moe混合专家-672)
-- [Quantization(量化) (665)](#quantization量化-665)
-- [CUDA Graph / Compiler(CUDA Graph 与编译) (476)](#cuda-graph--compilercuda-graph-与编译-476)
-- [Overlap / Scheduler(重叠与调度) (208)](#overlap--scheduler重叠与调度-208)
-- [Attention / Kernel(注意力与算子) (1635)](#attention--kernel注意力与算子-1635)
-- [KV Cache / Memory(KV Cache 与显存) (116)](#kv-cache--memorykv-cache-与显存-116)
-- [Parallelism / Communication(并行与通信) (46)](#parallelism--communication并行与通信-46)
+- [Speculative Decoding(投机解码) (907)](#speculative-decoding投机解码-907)
+- [MoE(混合专家) (693)](#moe混合专家-693)
+- [Quantization(量化) (685)](#quantization量化-685)
+- [CUDA Graph / Compiler(CUDA Graph 与编译) (484)](#cuda-graph--compilercuda-graph-与编译-484)
+- [Overlap / Scheduler(重叠与调度) (210)](#overlap--scheduler重叠与调度-210)
+- [Attention / Kernel(注意力与算子) (1675)](#attention--kernel注意力与算子-1675)
+- [KV Cache / Memory(KV Cache 与显存) (122)](#kv-cache--memorykv-cache-与显存-122)
+- [Parallelism / Communication(并行与通信) (50)](#parallelism--communication并行与通信-50)
 - [Sampler / Detokenization(采样与反分词) (53)](#sampler--detokenization采样与反分词-53)
 - [Frontend / Serving(前端与服务) (18)](#frontend--serving前端与服务-18)
-- [Model-specific Fast Path(模型专属快路径) (338)](#model-specific-fast-path模型专属快路径-338)
-- [CI / Test-Perf(CI 与测试性能) (365)](#ci--test-perfci-与测试性能-365)
-- [Other(其他) (586)](#other其他-586)
+- [Model-specific Fast Path(模型专属快路径) (347)](#model-specific-fast-path模型专属快路径-347)
+- [CI / Test-Perf(CI 与测试性能) (376)](#ci--test-perfci-与测试性能-376)
+- [Other(其他) (597)](#other其他-597)
 
-## Speculative Decoding(投机解码) (881)
+## Speculative Decoding(投机解码) (907)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [#47513](https://github.com/sgl-project/sglang/pull/47513) | [Perf] attention: Support attention sinks in the split-KV EAGLE verify kernel (gpt-oss) | misha-chertushkin | 2026-11-11 | 一般 |  |  |
+| [#44588](https://github.com/sgl-project/sglang/pull/44588) | [Feat] spec: Online acceptance estimator for DSpark confidence-scheduled verification | Qiaolin-Yu | 2026-11-11 | 🔥 重点 | 8% faster | [卡片](cards/pr-44588-feat-spec-online-acceptance-estimator-fo.md) |
+| [#44458](https://github.com/sgl-project/sglang/pull/44458) | [Perf] [AMD] attention: Use aiter's Triton MLA decode in the aiter backend on gfx1250 | jiaryang | 2026-11-11 | 一般 |  |  |
+| [#44396](https://github.com/sgl-project/sglang/pull/44396) | [Perf] kda-replayssm: Reuse the verify-fused commit step indices | mmangkad | 2026-11-11 | 一般 |  |  |
+| [#44115](https://github.com/sgl-project/sglang/pull/44115) | [Perf] [NVIDIA] flashinfer: Pass uniform_q_len to the target-verify plan for EAGLE specul… | brandonfzhang | 2026-11-11 | 一般 |  |  |
+| [#49647](https://github.com/sgl-project/sglang/pull/49647) | [Fix] test: pin speculative_dspark_lm_head_dtype in the resolvable-field whitelist | zcnrex | 2026-11-10 | 一般 |  |  |
+| [#49595](https://github.com/sgl-project/sglang/pull/49595) | [Perf] dspark: opt-in MXFP8 draft lm_head on SM10x via --speculative-dspark-lm-head-dtype | zcnrex | 2026-11-10 | 一般 |  |  |
+| [#48613](https://github.com/sgl-project/sglang/pull/48613) | [Perf] kda: Run the fused CuTe DSpARK verify kernel on a BF16 SSM state | elvischenv | 2026-11-10 | 🔥 重点 | 11% faster | [卡片](cards/pr-48613-perf-kda-run-the-fused-cute-dspark-verif.md) |
+| [#48444](https://github.com/sgl-project/sglang/pull/48444) | [Perf] [NVIDIA] gdn: deferred-fold ReplaySSM target verify on FlashInfer u-cache kernels | ameynaik-hub | 2026-11-10 | 一般 |  |  |
+| [#47685](https://github.com/sgl-project/sglang/pull/47685) | [Perf] [NVIDIA] dflash: Top up decode KV pages for the whole batch on allocation steps | weireweire | 2026-11-10 | 🔥 重点 | throughput gain (+4.1% | [卡片](cards/pr-47685-perf-nvidia-dflash-top-up-decode-kv-page.md) |
+| [#46213](https://github.com/sgl-project/sglang/pull/46213) | [Perf] flashinfer-megamoe: Add an optional decode workspace | Jiminator | 2026-11-10 | 🔥 重点 | 1.37x faster | [卡片](cards/pr-46213-perf-flashinfer-megamoe-add-an-optional.md) |
+| [#44615](https://github.com/sgl-project/sglang/pull/44615) | [Perf] NIXL: KV packing for TP-heterogeneous transfer (Muse Spark Open) | wookjeHan | 2026-11-10 | 一般 |  |  |
+| [#43032](https://github.com/sgl-project/sglang/pull/43032) | [Feat] Qwen3.8-Flash-Next: Avoid padded PLE prefill activations | shiyang814-cpu | 2026-11-10 | 一般 |  |  |
+| [#42855](https://github.com/sgl-project/sglang/pull/42855) | [Perf] [NVIDIA] dspark: Opt-in fused int8 Markov walk kernel for bs <= 64 on Hopper | tie-pilot-qxw | 2026-11-10 | 🔥 重点 | 6.5x faster | [卡片](cards/pr-42855-perf-nvidia-dspark-opt-in-fused-int8-mar.md) |
+| [#49135](https://github.com/sgl-project/sglang/pull/49135) | [Perf] kda: shorten the MTP verify phase-1 critical path (-11% at N=32, -12% at N=64 on V… | zcnrex | 2026-11-09 | 一般 |  |  |
+| [#47627](https://github.com/sgl-project/sglang/pull/47627) | [Perf] [NVIDIA] dspark: Stage DSv4.1 long-context target verify metadata beside the draft | weireweire | 2026-11-09 | 一般 |  |  |
+| [#47581](https://github.com/sgl-project/sglang/pull/47581) | [Perf] [NPU] dspark: Integrate argmax and verify scheduler kernels | AndyLi429 | 2026-11-09 | 🔥 重点 | TPOT improves by 6.06% | [卡片](cards/pr-47581-perf-npu-dspark-integrate-argmax-and-ver.md) |
+| [#46214](https://github.com/sgl-project/sglang/pull/46214) | [Fix] flashinfer: Apply the sliding window in ragged prefill for hybrid-SWA models | Jiminator | 2026-11-09 | 一般 |  |  |
+| [#46168](https://github.com/sgl-project/sglang/pull/46168) | [Perf] mooncake: Cut the host time of direct linker layer-wise loads | alphabetc1 | 2026-11-09 | 🔥 重点 | throughput gains are **7.34% | [卡片](cards/pr-46168-perf-mooncake-cut-the-host-time-of-direc.md) |
+| [#46062](https://github.com/sgl-project/sglang/pull/46062) | [Perf] [NVIDIA] deepseek-v4.1: Keep one zeroed MegaAttention packed-query buffer instead … | akhilg-nv | 2026-11-09 | 一般 |  |  |
+| [#45106](https://github.com/sgl-project/sglang/pull/45106) | [Perf] mooncake: Group and parallelize direct linker layer-wise loads | alphabetc1 | 2026-11-09 | 一般 |  |  |
+| [#40962](https://github.com/sgl-project/sglang/pull/40962) | [Fix] speculative: build target graphs outside draft contexts | YaoleWu | 2026-11-09 | 一般 |  |  |
+| [#46693](https://github.com/sgl-project/sglang/pull/46693) | [Feat] [AMD] minimax: Support MiniMax-M3.1-Flash on MI350X / MI355X (gfx950) | kevin-mii | 2026-11-08 | 一般 |  |  |
+| [#45891](https://github.com/sgl-project/sglang/pull/45891) | [Perf] dsa: Run the packed prefill top-k on CUDA | akhilg-nv | 2026-11-08 | 一般 |  |  |
+| [#48833](https://github.com/sgl-project/sglang/pull/48833) | [Perf] dspark: Build the compact verify window and stage its padded layout in one launch … | Qiaolin-Yu | 2026-11-07 | 一般 |  |  |
 | [#48832](https://github.com/sgl-project/sglang/pull/48832) | [Perf] dsv4: Run compact target verify's ratio 1 and 2 compressors through the fused kern… | Qiaolin-Yu | 2026-11-07 | 一般 |  |  |
+| [#48044](https://github.com/sgl-project/sglang/pull/48044) | [Perf] [AMD] qwen3-next: Fuse the full-attention Q/K GemmaRMSNorm and partial RoPE into o… | zengleixin-amd | 2026-11-07 | 一般 |  |  |
 | [#48831](https://github.com/sgl-project/sglang/pull/48831) | [Perf] dspark: Prepare the DSpark draft attention metadata through the glue graph under e… | Qiaolin-Yu | 2026-11-06 | 一般 |  |  |
 | [#48732](https://github.com/sgl-project/sglang/pull/48732) | [Fix] gemm: Keep Kimi-K3's tiny GEMM shapes on SIMT at every batch size | Fridge003 | 2026-11-06 | 一般 |  |  |
 | [#48547](https://github.com/sgl-project/sglang/pull/48547) | [Feat] model: Support ERNIE 5.5 Flash | chang-wenbin | 2026-11-06 | 一般 |  |  |
@@ -906,11 +932,32 @@
 | [#250](https://github.com/sgl-project/sglang/pull/250) | openai chat speculative execution | ChuyueSun | 2024-05-19 | 一般 |  |  |
 | [#48](https://github.com/sgl-project/sglang/pull/48) | support speculative execution for openai API | parasol-aser | 2024-01-25 | 一般 |  |  |
 
-## MoE(混合专家) (672)
+## MoE(混合专家) (693)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [#49661](https://github.com/sgl-project/sglang/pull/49661) | [Refactor] mxfp4: Dequantize MXFP4 MoE weights with a JIT kernel instead of triton_kernels | Fridge003 | 2026-11-11 | 一般 |  |  |
+| [#49660](https://github.com/sgl-project/sglang/pull/49660) | [Refactor] moe: Remove the triton_kernel MoE runner backend | Fridge003 | 2026-11-11 | 一般 |  |  |
+| [#49656](https://github.com/sgl-project/sglang/pull/49656) | [Fix] kernels: Synchronize AOT MoE prefix before expert lookup | jybsuper | 2026-11-11 | 一般 |  |  |
+| [#49538](https://github.com/sgl-project/sglang/pull/49538) | [Refactor] moe: Remove the SM120 top-22 small-M router path | DarkSharpness | 2026-11-11 | 一般 |  |  |
+| [#49337](https://github.com/sgl-project/sglang/pull/49337) | [Fix] moe: Validate the scale grid and use logical K for even_Ks in the GPTQ/AWQ Triton M… | tiny-star3 | 2026-11-11 | 一般 |  |  |
+| [#49277](https://github.com/sgl-project/sglang/pull/49277) | [Fix] [NPU] MoE: Optimize Ascend MoE AllGather | chenxu214 | 2026-11-11 | 一般 |  |  |
+| [#48397](https://github.com/sgl-project/sglang/pull/48397) | [Fix] [AMD] moe: Stop dropping FP32 partials in GLM Gluon TP8 32K MoE | ChengYao-amd | 2026-11-11 | 一般 |  |  |
+| [#48994](https://github.com/sgl-project/sglang/pull/48994) | [Refactor] moe: Rename --moe-a2a-backend flashinfer to flashinfer_nvlink_one_sided | leejnau | 2026-11-10 | 一般 |  |  |
+| [#48605](https://github.com/sgl-project/sglang/pull/48605) | [Perf] moe/paged-experts: decide block-wide and skip empty page-ins | Woody-Hu | 2026-11-10 | 一般 |  |  |
+| [#48556](https://github.com/sgl-project/sglang/pull/48556) | [Fix] moe: Fix illegal memory access in the W4A16/W8A16 Triton MoE kernel (unmasked K tai… | qhmiao | 2026-11-10 | 一般 |  |  |
+| [#45599](https://github.com/sgl-project/sglang/pull/45599) | [Perf] [AMD] batch-invariant: Segmented split-K bf16 matmul for gfx950 | aarnetalman | 2026-11-10 | 一般 |  |  |
+| [#48871](https://github.com/sgl-project/sglang/pull/48871) | [Fix] modelopt_fp4: Skip swizzled NVFP4 MoE blockscales on Marlin paths | nvpohanh | 2026-11-09 | 一般 |  |  |
+| [#47956](https://github.com/sgl-project/sglang/pull/47956) | [Feat] xpu: Consolidate simple XPU enablements | airMeng | 2026-11-09 | 一般 |  |  |
+| [#49091](https://github.com/sgl-project/sglang/pull/49091) | [Perf] [NVIDIA] moe: Generalize the MXFP4 decode MoE kernel to covered shapes and DeepSee… | DarkSharpness | 2026-11-08 | 🔥 重点 | 5 % faster | [卡片](cards/pr-49091-perf-nvidia-moe-generalize-the-mxfp4-dec.md) |
+| [#43739](https://github.com/sgl-project/sglang/pull/43739) | [Feat] [Ascend] quantization: :sparkles: Support online W4A8 MoE | TallMessiWu | 2026-11-08 | 一般 |  |  |
+| [#49017](https://github.com/sgl-project/sglang/pull/49017) | [Fix] moe: Match the Triton renormalize sum order in the warp MoE router | Fridge003 | 2026-11-07 | 一般 |  |  |
+| [#48946](https://github.com/sgl-project/sglang/pull/48946) | [Refactor] moe: Remove the bailing_moe_topk and JIT moe_topk_sigmoid routers | DarkSharpness | 2026-11-07 | 一般 |  |  |
+| [#48638](https://github.com/sgl-project/sglang/pull/48638) | [Perf] [NVIDIA] moe: Add an opt-in persistent MXFP4 decode MoE kernel for Kimi-K3.1 | DarkSharpness | 2026-11-07 | 🔥 重点 | 24 % faster | [卡片](cards/pr-48638-perf-nvidia-moe-add-an-opt-in-persistent.md) |
 | [#48584](https://github.com/sgl-project/sglang/pull/48584) | [Perf] kimi-k3.1: TP-shard the decode MoE front and latent-up tail | nvpohanh | 2026-11-07 | 一般 |  |  |
+| [#48470](https://github.com/sgl-project/sglang/pull/48470) | [Perf] diffusion: Tune LingBot MoE TMA for B300 SXM6 AC | BBuf | 2026-11-07 | 一般 |  |  |
+| [#47893](https://github.com/sgl-project/sglang/pull/47893) | [Perf] [NVIDIA] glm5_next: Run the fused KDA decode kernel at 8 and 16 heads per rank | ischencheng | 2026-11-07 | 一般 |  |  |
+| [#47247](https://github.com/sgl-project/sglang/pull/47247) | [Perf] deepseek-v4.1: Use reduce-scatter for CP MoE output | BJWang-ant | 2026-11-07 | 一般 |  |  |
 | [#48586](https://github.com/sgl-project/sglang/pull/48586) | [Perf] kimi-k3: Fuse the decode MoE routing for 1-256 rows into one kernel | nvpohanh | 2026-11-06 | 一般 |  |  |
 | [#48468](https://github.com/sgl-project/sglang/pull/48468) | [Chore] [NVIDIA] deps: Bump FlashInfer to 0.7.3 and migrate the NVLink one-sided all-to-a… | leejnau | 2026-11-06 | 🔥 重点 |  | [卡片](cards/pr-48468-chore-nvidia-deps-bump-flashinfer-to-0-7.md) |
 | [#48174](https://github.com/sgl-project/sglang/pull/48174) | [Perf] [NVIDIA] moe: Re-land the JIT moe_finalize_fuse_shared with the shared row read af… | DarkSharpness | 2026-11-06 | 🔥 重点 |  | [卡片](cards/pr-48174-perf-nvidia-moe-re-land-the-jit-moe-fina.md) |
@@ -1583,11 +1630,31 @@
 | [#2191](https://github.com/sgl-project/sglang/pull/2191) | [3rdparty, document] Updated Documentation that for triton fused_moe kernel tuning for AM… | kkHuang-amd | 2024-11-27 | 一般 |  |  |
 | [#2167](https://github.com/sgl-project/sglang/pull/2167) | [Fused moe] add tuning fused configs for qwen2 57b and mixtral 8x7b | BBuf | 2024-11-25 | 一般 |  |  |
 
-## Quantization(量化) (665)
+## Quantization(量化) (685)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [#49531](https://github.com/sgl-project/sglang/pull/49531) | [Fix] GLM-4.7-Flash: Load compressed-tensors W4A16 checkpoints | koladefaj | 2026-11-11 | 一般 |  |  |
+| [#46965](https://github.com/sgl-project/sglang/pull/46965) | [Feat] [NVIDIA] flash-attn: FA4 SM90 FP8 e4m3 KV cache for head_dim 256 and 512 (Gemma-4) | cognaiger9 | 2026-11-11 | 🔥 重点 | up to 61 % | [卡片](cards/pr-46965-feat-nvidia-flash-attn-fa4-sm90-fp8-e4m3.md) |
+| [#41794](https://github.com/sgl-project/sglang/pull/41794) | [Perf] [AMD] kimi-k3: Run the fused KDA decode with a BF16 state and Quark weights | yuychang | 2026-11-11 | 🔥 重点 |  | [卡片](cards/pr-41794-perf-amd-kimi-k3-run-the-fused-kda-decod.md) |
+| [#49659](https://github.com/sgl-project/sglang/pull/49659) | [Refactor] quantization: Quantize MXFP8 weights with a JIT kernel instead of triton_kerne… | Fridge003 | 2026-11-10 | 一般 |  |  |
+| [#45263](https://github.com/sgl-project/sglang/pull/45263) | [Perf] [NVIDIA] fp8: Add Triton block-fp8 GEMM configs for RTX PRO 5000 | moria97 | 2026-11-10 | 一般 |  |  |
+| [#45262](https://github.com/sgl-project/sglang/pull/45262) | [Perf] [NVIDIA] fp8: Use FlashInfer b12x for block-fp8-as-MXFP8 linears on SM12x | moria97 | 2026-11-10 | 一般 |  |  |
+| [#44566](https://github.com/sgl-project/sglang/pull/44566) | [Perf] [AMD] Qwen3-Next: consume the fused AR+norm+quant output | rbrugaro-amd | 2026-11-10 | 一般 |  |  |
+| [#42119](https://github.com/sgl-project/sglang/pull/42119) | [Feat] [AMD] quantization: enable GPTQ and AutoRound INT4 checkpoints | clintg6 | 2026-11-10 | 一般 |  |  |
+| [#48942](https://github.com/sgl-project/sglang/pull/48942) | [Refactor] jit: Unify FP32 activation functions in sgl_kernel/activation.cuh | DarkSharpness | 2026-11-09 | 一般 |  |  |
+| [#48656](https://github.com/sgl-project/sglang/pull/48656) | [Fix] comfyui: Load FastH3, H3 FP8, Qwen-Image 2.1 Turbo and community INT8 single files | niehen6174 | 2026-11-09 | 一般 |  |  |
+| [#48536](https://github.com/sgl-project/sglang/pull/48536) | [Perf] [AMD] quantization: Fuse SiLU-and-mul with the dynamic per-tensor fp8 quant of den… | siliangchen-amd | 2026-11-09 | 一般 |  |  |
+| [#48405](https://github.com/sgl-project/sglang/pull/48405) | [Perf] [AMD] kvcache: Fuse fp8 quantization into the vectorized_5d KV-cache write | siliangchen-amd | 2026-11-09 | 🔥 重点 |  | [卡片](cards/pr-48405-perf-amd-kvcache-fuse-fp8-quantization-i.md) |
+| [#48165](https://github.com/sgl-project/sglang/pull/48165) | [Perf] quantization: Speed up Hopper group32 FP8 quantization with FP32 scales | Frank-whw | 2026-11-09 | 🔥 重点 |  | [卡片](cards/pr-48165-perf-quantization-speed-up-hopper-group3.md) |
+| [#48434](https://github.com/sgl-project/sglang/pull/48434) | [Fix] [AMD] aiter: Quantize q with its own scale in the fp8 prefills over a gathered cache | siliangchen-amd | 2026-11-08 | 一般 |  |  |
+| [#48043](https://github.com/sgl-project/sglang/pull/48043) | [Perf] [AMD] qwen3: Fuse the 1x128 FP8 input quant into RMSNorm and SiLU-and-mul for bloc… | zengleixin-amd | 2026-11-08 | 一般 |  |  |
+| [#46694](https://github.com/sgl-project/sglang/pull/46694) | [Perf] [AMD] minimax: decode indexer CP for DSpark verify on the NVFP4 index cache | kevin-mii | 2026-11-08 | 一般 |  |  |
+| [#48563](https://github.com/sgl-project/sglang/pull/48563) | [Perf] [NVIDIA] gemma4: fuse the TP all-reduce with the layer epilogue and FP8 quant on N… | cognaiger9 | 2026-11-07 | 🔥 重点 | 22 % in every cell; throughput | [卡片](cards/pr-48563-perf-nvidia-gemma4-fuse-the-tp-all-reduc.md) |
+| [#48531](https://github.com/sgl-project/sglang/pull/48531) | [Perf] [NVIDIA] fp8: Let the Hopper block GEMV take K=6144 for MiniMax M3.1 | ischencheng | 2026-11-07 | 一般 |  |  |
+| [#48128](https://github.com/sgl-project/sglang/pull/48128) | [Fix] quantization: Load Muse-Glimmer-NVFP4's MXFP8 lm_head, and run its MXFP8 dense laye… | Smallfu666 | 2026-11-07 | 一般 |  |  |
 | [#47695](https://github.com/sgl-project/sglang/pull/47695) | [Feat] [AMD] quark: Quark int4 W4A16 on ROCm, and gfx1151 kernels for Strix Halo decode a… | hubertlu-tw | 2026-11-07 | 🔥 重点 | 1.06x faster | [卡片](cards/pr-47695-feat-amd-quark-quark-int4-w4a16-on-rocm.md) |
+| [#44486](https://github.com/sgl-project/sglang/pull/44486) | [Perf] quantization: Add the bias in the cuBLASLt epilogue for per-tensor FP8 linears | gkswns0531 | 2026-11-07 | 🔥 重点 | up to 7% | [卡片](cards/pr-44486-perf-quantization-add-the-bias-in-the-cu.md) |
 | [#48971](https://github.com/sgl-project/sglang/pull/48971) | [Perf] dsv4: route wo_b and Engram KV MXFP8 GEMMs to cuDNN on CC 10.7 above 8K rows | zcnrex | 2026-11-06 | 一般 |  |  |
 | [#48941](https://github.com/sgl-project/sglang/pull/48941) | [Perf] layernorm: rmsnorm_mxfp8 on 2 warps for 1280-wide rows; hc_combine_norm loads its … | zcnrex | 2026-11-06 | 一般 |  |  |
 | [#48733](https://github.com/sgl-project/sglang/pull/48733) | [Perf] [NVIDIA] dsv41: Index-Q RoPE + fp4 pack runs one thread per fp4 block for prefill-… | dmtri35 | 2026-11-06 | 🔥 重点 | 23% faster | [卡片](cards/pr-48733-perf-nvidia-dsv41-index-q-rope-fp4-pack.md) |
@@ -2253,10 +2320,18 @@
 | [#286](https://github.com/sgl-project/sglang/pull/286) | enable marlin kernels | qeternity | 2024-03-13 | 一般 |  |  |
 | [#141](https://github.com/sgl-project/sglang/pull/141) | Add gptq quantization model support | Arcmoon-Hu | 2024-02-06 | 一般 |  |  |
 
-## CUDA Graph / Compiler(CUDA Graph 与编译) (476)
+## CUDA Graph / Compiler(CUDA Graph 与编译) (484)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [#49420](https://github.com/sgl-project/sglang/pull/49420) | [Fix] [NVIDIA] jit: Build sm_107a on CC 10.7, keeping sm_100f only for modules that use C… | trevor-m | 2026-11-10 | 一般 |  |  |
+| [#49263](https://github.com/sgl-project/sglang/pull/49263) | [Fix] cuda-graph: Pause automatic GC during CUDA graph capture | fengshaoyi-amd | 2026-11-10 | 一般 |  |  |
+| [#48860](https://github.com/sgl-project/sglang/pull/48860) | [Fix] cuda_graph: Retain capture inputs for full graph replay | Spectrum-o | 2026-11-10 | 一般 |  |  |
+| [#48615](https://github.com/sgl-project/sglang/pull/48615) | [Fix] diffusion: Keep explicit cuDNN attention inside LTX breakable CUDA graphs | BBuf | 2026-11-10 | 🔥 重点 | E2E gain did not reach the predeclared 1.5% | [卡片](cards/pr-48615-fix-diffusion-keep-explicit-cudnn-attent.md) |
+| [#46663](https://github.com/sgl-project/sglang/pull/46663) | [Fix] gemma4: Fix Bolt E4B and Gemma4 prefill CUDA graphs | rystewart-nvidia | 2026-11-09 | 一般 |  |  |
+| [#46577](https://github.com/sgl-project/sglang/pull/46577) | [Fix] inkling: Skip KV stores for CUDA-graph padding tokens in the fused attn prologue | TheDuyIT | 2026-11-09 | 一般 |  |  |
+| [#43675](https://github.com/sgl-project/sglang/pull/43675) | [Fix] Kimi-K3: Fix derived weight buffers across CUDA graph reloads | wolfcomos | 2026-11-09 | 一般 |  |  |
+| [#48442](https://github.com/sgl-project/sglang/pull/48442) | [Perf] diffusion: Accelerate exact SANA-Video RoPE on SM103 | BBuf | 2026-11-08 | 🔥 重点 | performance gain must exceed max(1.5% | [卡片](cards/pr-48442-perf-diffusion-accelerate-exact-sana-vid.md) |
 | [#48712](https://github.com/sgl-project/sglang/pull/48712) | [Feat] cuda-graph: Kimi-K3.1 breakable prefill graphs with PP x prefill CP | Fridge003 | 2026-11-07 | 一般 |  |  |
 | [#47964](https://github.com/sgl-project/sglang/pull/47964) | [Feat] [AMD] custom-all-reduce: Run the JIT custom all-reduce v2 on ROCm | wenkaidu | 2026-11-06 | 🔥 重点 | 37% faster | [卡片](cards/pr-47964-feat-amd-custom-all-reduce-run-the-jit-c.md) |
 | [#45149](https://github.com/sgl-project/sglang/pull/45149) | [Feat] [MLU] platform: Add initial support for Cambricon MLUs | chenxb002 | 2026-11-06 | 一般 |  |  |
@@ -2734,10 +2809,12 @@
 | [#675](https://github.com/sgl-project/sglang/pull/675) | Fix cuda graph with flashinfer | merrymercy | 2024-07-20 | 一般 |  |  |
 | [#612](https://github.com/sgl-project/sglang/pull/612) | Enable cuda graph by default | merrymercy | 2024-07-13 | 一般 |  |  |
 
-## Overlap / Scheduler(重叠与调度) (208)
+## Overlap / Scheduler(重叠与调度) (210)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [#40141](https://github.com/sgl-project/sglang/pull/40141) | [Feat] [NPU] startup-weight-load: Support overlap mode on NPU | wl55721 | 2026-11-11 | 🔥 重点 | speedup, and guards against overlap being more than 2x | [卡片](cards/pr-40141-feat-npu-startup-weight-load-support-ove.md) |
+| [#48852](https://github.com/sgl-project/sglang/pull/48852) | [Perf] mem_cache: Defer reuse of freed unified pages instead of waiting on every free | ch-wan | 2026-11-08 | 一般 |  |  |
 | [#48809](https://github.com/sgl-project/sglang/pull/48809) | [Fix] overlap: Skip deferred-relay flush when future_map is None | nvpohanh | 2026-11-06 | 一般 |  |  |
 | [#48737](https://github.com/sgl-project/sglang/pull/48737) | [Chore] ci: Cut deprecation warnings and TBO debug logs from CI output | hnyls2002 | 2026-11-05 | 一般 |  |  |
 | [#48037](https://github.com/sgl-project/sglang/pull/48037) | [Perf] disaggregation: Cache host-staged decode admission accounting across a transfer pa… | metamergebot | 2026-11-05 | 一般 |  |  |
@@ -2947,12 +3024,52 @@
 | [#1710](https://github.com/sgl-project/sglang/pull/1710) | Fix `is_all_ready` for overlap copy | merrymercy | 2024-10-19 | 一般 |  |  |
 | [#1687](https://github.com/sgl-project/sglang/pull/1687) | Launch a thread to overlap CPU and GPU | merrymercy | 2024-10-16 | 一般 |  |  |
 
-## Attention / Kernel(注意力与算子) (1635)
+## Attention / Kernel(注意力与算子) (1675)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [#49662](https://github.com/sgl-project/sglang/pull/49662) | [Chore] sgl-kernel: Stop bundling triton_kernels in the sglang-kernel wheel | Fridge003 | 2026-11-11 | 一般 |  |  |
+| [#49567](https://github.com/sgl-project/sglang/pull/49567) | [Perf] [AMD] aiter: write the breakable-graph attention output in place | akao-amd | 2026-11-11 | 一般 |  |  |
+| [#49504](https://github.com/sgl-project/sglang/pull/49504) | [Perf] diffusion/anima: Reuse timestep modulation across serial CFG branches | BBuf | 2026-11-11 | 一般 |  |  |
+| [#49478](https://github.com/sgl-project/sglang/pull/49478) | [Perf] kimi-k3.1: Per-M decode GEMM tactics and side-stream attention GEMMs | nvpohanh | 2026-11-11 | 一般 | 0.22% faster |  |
+| [#49448](https://github.com/sgl-project/sglang/pull/49448) | [Perf] diffusion: Apply the Qwen3 text encoder's RoPE with one FlashInfer kernel | Smallfu666 | 2026-11-11 | 一般 |  |  |
+| [#49444](https://github.com/sgl-project/sglang/pull/49444) | [Perf] diffusion: Size FLUX.2 checkpoints for the all-resident auto tier | Smallfu666 | 2026-11-11 | 一般 |  |  |
+| [#49365](https://github.com/sgl-project/sglang/pull/49365) | [Refactor] custom-ar-v2: Single-word push epoch and consume-style pull semaphores | DarkSharpness | 2026-11-11 | 一般 |  |  |
+| [#49219](https://github.com/sgl-project/sglang/pull/49219) | [Perf] diffusion: Run SANA-Video 2.0 anchor attention on BF16 inputs at quality=high | cr-gao | 2026-11-11 | 一般 |  |  |
+| [#48891](https://github.com/sgl-project/sglang/pull/48891) | [Perf] [SM100] attention: optimize sparse MLA prefill for small heads | yz-wqf | 2026-11-11 | 一般 |  |  |
+| [#49616](https://github.com/sgl-project/sglang/pull/49616) | [Fix] dsa: Give each FlashMLA decode graph its own schedule for native-head kernels | yhyang201 | 2026-11-10 | 一般 |  |  |
+| [#49422](https://github.com/sgl-project/sglang/pull/49422) | [Feat] dsa: Run prims_ts on SM107 with the FlashInfer Prims-TS overlay from main | kpham-sgl | 2026-11-10 | 一般 |  |  |
+| [#49411](https://github.com/sgl-project/sglang/pull/49411) | [Feat] kernels: Kimi-K3.1 kernel changes split out of #48414 | Fridge003 | 2026-11-10 | 一般 |  |  |
+| [#49321](https://github.com/sgl-project/sglang/pull/49321) | [Perf] [NVIDIA] dsv41: Fork the decode attention mHC mix at the MegaAttention core | weireweire | 2026-11-10 | 一般 |  |  |
+| [#49139](https://github.com/sgl-project/sglang/pull/49139) | [Perf] [NVIDIA] unquant: Re-land low-M BF16 autotune via FlashInfer CuTe DSL mm_bf16 | zcnrex | 2026-11-10 | 一般 |  |  |
+| [#48616](https://github.com/sgl-project/sglang/pull/48616) | [Fix] gemm: Order the CuTe DSL kernels' TMEM release after the epilogue's tcgen05.ld | bastianhagedorn | 2026-11-10 | 一般 |  |  |
+| [#45264](https://github.com/sgl-project/sglang/pull/45264) | [Perf] [NVIDIA] mhc: Use BLOCK_K=32 for the hc_mix kernel on SM120 | moria97 | 2026-11-10 | 🔥 重点 |  | [卡片](cards/pr-45264-perf-nvidia-mhc-use-block-k-32-for-the-h.md) |
+| [#49390](https://github.com/sgl-project/sglang/pull/49390) | [Refactor] kimi-k3.1: Run FlashMLA from the sgl-flash-mla wheel and drop sgl-kernel's Fla… | Fridge003 | 2026-11-09 | 一般 |  |  |
+| [#49171](https://github.com/sgl-project/sglang/pull/49171) | [Fix] rope/env: Remove the leftover Dual Chunk Attention RoPE, make env alias warnings vi… | BBuf | 2026-11-09 | 一般 |  |  |
+| [#49088](https://github.com/sgl-project/sglang/pull/49088) | [Perf] [NVIDIA] minimax-sparse: Run the decode indexer CP on Hopper at TP8 with attention… | ischencheng | 2026-11-09 | 一般 |  |  |
+| [#48984](https://github.com/sgl-project/sglang/pull/48984) | [Perf] mhc: one-pass DeepGEMM prenorm GEMM; revert the sm107 decode MegaMoE SM reserve | zcnrex | 2026-11-09 | 一般 |  |  |
+| [#48786](https://github.com/sgl-project/sglang/pull/48786) | [Feat] HiCache: add tma copy kernel for unified layout | Shunkangz | 2026-11-09 | 🔥 重点 | 2.84× faster | [卡片](cards/pr-48786-feat-hicache-add-tma-copy-kernel-for-uni.md) |
+| [#48585](https://github.com/sgl-project/sglang/pull/48585) | [Perf] gdn: reduce MIS output and QK preparation overhead | mani1106 | 2026-11-09 | 一般 |  |  |
+| [#48583](https://github.com/sgl-project/sglang/pull/48583) | [Feat] [Intel] xpu_kernel: update sglang-kernel-xpu to 0.6.0 | yuchengliu1 | 2026-11-09 | 一般 |  |  |
+| [#48406](https://github.com/sgl-project/sglang/pull/48406) | [Perf] [AMD] qwen3: Let the fused QK-norm + RoPE + KV write serve the vectorized_5d layout | siliangchen-amd | 2026-11-09 | 🔥 重点 |  | [卡片](cards/pr-48406-perf-amd-qwen3-let-the-fused-qk-norm-rop.md) |
+| [#48383](https://github.com/sgl-project/sglang/pull/48383) | [Perf] diffusion: reuse bit-exact RoPE in HiDream-O1-Image | BBuf | 2026-11-09 | 一般 |  |  |
+| [#46003](https://github.com/sgl-project/sglang/pull/46003) | [Perf] dsv-v4.1: Score only candidate positions in indexer consumers | BJWang-ant | 2026-11-09 | 一般 |  |  |
+| [#45727](https://github.com/sgl-project/sglang/pull/45727) | [Feat] hisparse: Support shared KV sources in HiSparse MLA swap kernels | bingps | 2026-11-09 | 一般 |  |  |
+| [#31447](https://github.com/sgl-project/sglang/pull/31447) | [Fix] Confidential-Computing: enable Flashinfer all-reduce fusion | elvischenv | 2026-11-09 | 一般 |  |  |
+| [#49118](https://github.com/sgl-project/sglang/pull/49118) | Revert "[Perf] [NVIDIA] unquant: Autotune low-M BF16 GEMMs via FlashInfer mm_bf16 (#43703… | hnyls2002 | 2026-11-08 | 一般 |  |  |
+| [#49096](https://github.com/sgl-project/sglang/pull/49096) | [Fix] megamoe: Accept FlashInfer 0.7.3 knob cache and enum config fields in startup autot… | hnyls2002 | 2026-11-08 | 一般 |  |  |
+| [#48895](https://github.com/sgl-project/sglang/pull/48895) | [Perf] [NVIDIA] dsa/dcp: Fused DCP8 indexer top-k for decode | DarkSharpness | 2026-11-08 | 一般 |  |  |
+| [#48394](https://github.com/sgl-project/sglang/pull/48394) | [Perf] diffusion: Fuse Anima gated residuals during BCG capture | BBuf | 2026-11-08 | 一般 |  |  |
+| [#48370](https://github.com/sgl-project/sglang/pull/48370) | [Perf] gemma3: Fuse q_norm and k_norm into gemma_rmsnorm for rank above 2 | ilyas-mallah | 2026-11-08 | 一般 |  |  |
+| [#47696](https://github.com/sgl-project/sglang/pull/47696) | [Perf] diffusion: Run a single packed FA3 sequence through the batch kernel | niehen6174 | 2026-11-08 | 一般 |  |  |
+| [#46929](https://github.com/sgl-project/sglang/pull/46929) | [Fix] mnnvl: Match FlashInfer's arch-specific CuTe DSL AR profiles | leejnau | 2026-11-08 | 🔥 重点 | 12% faster | [卡片](cards/pr-46929-fix-mnnvl-match-flashinfer-s-arch-specif.md) |
+| [#46483](https://github.com/sgl-project/sglang/pull/46483) | [Perf] [NPU] attention: Avoid CPU sequence length synchronization for Kimi K3 | wutaosang | 2026-11-08 | 一般 |  |  |
+| [#45807](https://github.com/sgl-project/sglang/pull/45807) | [Perf] [NVIDIA] deepseek-v4.1: Fuse BF16 prefill indexer score epilogue | BJWang-ant | 2026-11-08 | 一般 |  |  |
 | [#48711](https://github.com/sgl-project/sglang/pull/48711) | [Perf] kimi-k3.1: Fuse MegaMoE padding masks, DSA indexer Q prep and CP row copies | Fridge003 | 2026-11-07 | 一般 |  |  |
 | [#47930](https://github.com/sgl-project/sglang/pull/47930) | [Feat] [NVIDIA] megakernel: Support prefill and extend steps | wenscarl | 2026-11-07 | 一般 |  |  |
+| [#45497](https://github.com/sgl-project/sglang/pull/45497) | [Perf] attention: avoid concatenating MLA queries for zigzag CP | wjinxu | 2026-11-07 | 一般 |  |  |
+| [#43703](https://github.com/sgl-project/sglang/pull/43703) | [Perf] [NVIDIA] unquant: Autotune low-M BF16 GEMMs via FlashInfer mm_bf16 | zcnrex | 2026-11-07 | 一般 |  |  |
+| [#38749](https://github.com/sgl-project/sglang/pull/38749) | [Feat] kernels: Add out-of-tree dispatch for gated RMSNorm | vvinniev34 | 2026-11-07 | 一般 |  |  |
 | [#48853](https://github.com/sgl-project/sglang/pull/48853) | [Chore] flash-attn: Remove the kernels-hub FA3 loader and the kernels dependency | Fridge003 | 2026-11-06 | 一般 |  |  |
 | [#48829](https://github.com/sgl-project/sglang/pull/48829) | [Chore] deps: Drop flash-attn-4 from default dependencies | Fridge003 | 2026-11-06 | 一般 |  |  |
 | [#48827](https://github.com/sgl-project/sglang/pull/48827) | [Refactor] utils: Keep sglang.srt and sglang.kernels off sglang.utils | hnyls2002 | 2026-11-06 | 一般 |  |  |
@@ -4587,10 +4704,16 @@
 | [#156](https://github.com/sgl-project/sglang/pull/156) | [Submodule] Change FlashInfer to import | comaniac | 2024-02-07 | 一般 |  |  |
 | [#1](https://github.com/sgl-project/sglang/pull/1) | Add flashinfer && Oultines | hnyls2002 | 2024-01-08 | 一般 |  |  |
 
-## KV Cache / Memory(KV Cache 与显存) (116)
+## KV Cache / Memory(KV Cache 与显存) (122)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [#45737](https://github.com/sgl-project/sglang/pull/45737) | [Feat] kv-events: Report caller multimodal routing labels as block spans | maheshrbapatu | 2026-11-11 | 一般 |  |  |
+| [#48281](https://github.com/sgl-project/sglang/pull/48281) | [Perf] diffusion/helios: Keep timestep conditioning compact | BBuf | 2026-11-09 | 一般 |  |  |
+| [#46552](https://github.com/sgl-project/sglang/pull/46552) | [Perf] multimodal_cache: reuse precomputed combined_hash in MultiModalStaticCache.get | deep1blue | 2026-11-09 | 一般 |  |  |
+| [#48688](https://github.com/sgl-project/sglang/pull/48688) | [Perf] longcat-image: Reuse timestep conditioning for serial CFG | BBuf | 2026-11-08 | 一般 |  |  |
+| [#48218](https://github.com/sgl-project/sglang/pull/48218) | [Perf] diffusion: Enable image-prefix sequence parallelism for ERNIE-Image | BBuf | 2026-11-08 | 一般 |  |  |
+| [#48122](https://github.com/sgl-project/sglang/pull/48122) | [Perf] diffusion: Cache MiniMax-H3 reference and keyframe rows per image | niehen6174 | 2026-11-08 | 一般 |  |  |
 | [#48761](https://github.com/sgl-project/sglang/pull/48761) | [Perf] mhc: halve the DeepGEMM prenorm slices when the grid overflows one wave | zcnrex | 2026-11-06 | 一般 |  |  |
 | [#48622](https://github.com/sgl-project/sglang/pull/48622) | [Perf] deepseek_v4: call the current DeepGEMM paged MQA API for DSv4.1 decode | zcnrex | 2026-11-05 | 一般 |  |  |
 | [#48246](https://github.com/sgl-project/sglang/pull/48246) | [Perf] deep_select: use the 3-CTA tier for non-paged bf16 top-512 too | zcnrex | 2026-11-04 | 一般 |  |  |
@@ -4708,10 +4831,14 @@
 | [#420](https://github.com/sgl-project/sglang/pull/420) | Optimize the memory usage of logits processor | merrymercy | 2024-05-11 | 一般 |  |  |
 | [#364](https://github.com/sgl-project/sglang/pull/364) | Optimize radix tree matching | ispobock | 2024-04-17 | 一般 |  |  |
 
-## Parallelism / Communication(并行与通信) (46)
+## Parallelism / Communication(并行与通信) (50)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [#49524](https://github.com/sgl-project/sglang/pull/49524) | [Perf] distributed: Keep the multimem logits all-gather on a multi-node NVLink clique | weireweire | 2026-11-11 | 一般 |  |  |
+| [#49205](https://github.com/sgl-project/sglang/pull/49205) | [Feat] [AMD] custom-all-reduce: Add a DPX hierarchical 2shot_push to carv2 on MI450 (gfx1… | hubertlu-tw | 2026-11-09 | 🔥 重点 | 31% faster | [卡片](cards/pr-49205-feat-amd-custom-all-reduce-add-a-dpx-hie.md) |
+| [#49003](https://github.com/sgl-project/sglang/pull/49003) | [Feat] [AMD] custom-all-reduce: Run carv2 across gfx1250 UALink nodes | hubertlu-tw | 2026-11-09 | 🔥 重点 | 71% faster | [卡片](cards/pr-49003-feat-amd-custom-all-reduce-run-carv2-acr.md) |
+| [#49001](https://github.com/sgl-project/sglang/pull/49001) | [Feat] [AMD] custom-all-reduce: Run carv2 on MI450 with FABRIC handles and a gfx1250 table | wenkaidu | 2026-11-07 | 🔥 重点 | 4% of the best of 32/64/96 in every mode (96 is 4% faster | [卡片](cards/pr-49001-feat-amd-custom-all-reduce-run-carv2-on.md) |
 | [#46325](https://github.com/sgl-project/sglang/pull/46325) | [Perf] [AMD] deterministic: Use a fixed-order two-stage all-reduce for large inputs | aarnetalman | 2026-11-02 | 🔥 重点 | 63% at TP8 (8k-token inputs), and deterministic throughput | [卡片](cards/pr-46325-perf-amd-deterministic-use-a-fixed-order.md) |
 | [#46197](https://github.com/sgl-project/sglang/pull/46197) | [Perf] [NVIDIA] custom-all-reduce: Enable 2shot_push in SM107 TP4/TP8/TP16 heuristic | wookjeHan | 2026-10-28 | 一般 |  |  |
 | [#46237](https://github.com/sgl-project/sglang/pull/46237) | [Perf] diffusion: Split LTX tiled VAE decode across the decode-parallel ranks | mickqian | 2026-10-24 | 一般 |  |  |
@@ -4840,10 +4967,19 @@
 | [#9133](https://github.com/sgl-project/sglang/pull/9133) | [router] optimize Rust compilation and development workflow | slin1237 | 2025-08-13 | 一般 |  |  |
 | [#8923](https://github.com/sgl-project/sglang/pull/8923) | [router] dedicated prefill HTTP client and request-path optimizations | slin1237 | 2025-08-08 | 一般 |  |  |
 
-## Model-specific Fast Path(模型专属快路径) (338)
+## Model-specific Fast Path(模型专属快路径) (347)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [#49848](https://github.com/sgl-project/sglang/pull/49848) | [Fix] lora: [sglang-miles] Keep kv_b_proj adapters off the MHA cached-prefix paths | Rockdu | 2026-11-11 | 一般 |  |  |
+| [#49024](https://github.com/sgl-project/sglang/pull/49024) | [Perf] [AMD] wan2.2: Gate FlyDSL norm and scale-shift fusion on high quality | yz-wqf | 2026-11-10 | 🔥 重点 | 1.028× speedup | [卡片](cards/pr-49024-perf-amd-wan2-2-gate-flydsl-norm-and-sca.md) |
+| [#48928](https://github.com/sgl-project/sglang/pull/48928) | [Perf] DeepSeek-V4.1-Flash: Use segmented fastokens for prompt encoding | leonardHONG | 2026-11-10 | 一般 |  |  |
+| [#48731](https://github.com/sgl-project/sglang/pull/48731) | [Perf] [NVIDIA] dsv41: Gather 16 local Engram rows per program on SM103 and SM107 | dmtri35 | 2026-11-10 | 🔥 重点 | 6.6x faster | [卡片](cards/pr-48731-perf-nvidia-dsv41-gather-16-local-engram.md) |
+| [#47371](https://github.com/sgl-project/sglang/pull/47371) | [Feat] [AMD] muse-spark: Add the ROCm day0 implementation | zijiecode | 2026-11-10 | 一般 |  |  |
+| [#49262](https://github.com/sgl-project/sglang/pull/49262) | [Perf] [NVIDIA] dsv41: Write the MegaMoE input from the fused decode mHC post | weireweire | 2026-11-09 | 一般 |  |  |
+| [#47658](https://github.com/sgl-project/sglang/pull/47658) | [Perf] SM120: honour SGLANG_OPT_DEEPGEMM_HC_PRENORM for the DeepSeek-V4.1 compensated mhc… | xulunfan | 2026-11-09 | 一般 |  |  |
+| [#47090](https://github.com/sgl-project/sglang/pull/47090) | [Perf] qwen-image21: Pack BF16 gate/up projections on SM120 | BBuf | 2026-11-08 | 一般 |  |  |
+| [#48740](https://github.com/sgl-project/sglang/pull/48740) | [Perf] kimi-k3.1: Faster DCP decode reduce (push-combine, V pre-projection, direct exchan… | kpham-sgl | 2026-11-07 | 一般 |  |  |
 | [#48868](https://github.com/sgl-project/sglang/pull/48868) | [Feat] kimi-k3.1: Sync the prefill-CP review fixes from the port PRs | Fridge003 | 2026-11-06 | 一般 |  |  |
 | [#48399](https://github.com/sgl-project/sglang/pull/48399) | [Refactor] env: Dispatch on the GPU architecture instead of env vars that restate it | BBuf | 2026-11-06 | 🔥 重点 | 2.7% output throughput | [卡片](cards/pr-48399-refactor-env-dispatch-on-the-gpu-archite.md) |
 | [#48075](https://github.com/sgl-project/sglang/pull/48075) | [Perf] Hunyuan3D: Reduce redundant QEM quadric accumulation | charliechenye | 2026-11-05 | 一般 |  |  |
@@ -5183,10 +5319,21 @@
 | [#2225](https://github.com/sgl-project/sglang/pull/2225) | [benchmark] Add fused_moe_triton benchmark and tuning tools | BBuf | 2024-11-29 | 一般 |  |  |
 | [#137](https://github.com/sgl-project/sglang/pull/137) | Support Faster JSON decoding for llava | hnyls2002 | 2024-02-03 | 一般 |  |  |
 
-## CI / Test-Perf(CI 与测试性能) (365)
+## CI / Test-Perf(CI 与测试性能) (376)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [#49750](https://github.com/sgl-project/sglang/pull/49750) | [CI] [NPU] docker: Bump SGLANG_KERNEL_NPU_TAG to 2026.11.0.post3 | huangxiaojun15 | 2026-11-11 | 一般 |  |  |
+| [#49568](https://github.com/sgl-project/sglang/pull/49568) | [Doc] skills: One implementation per kernel contract, plus JIT kernel style rules | DarkSharpness | 2026-11-11 | 一般 |  |  |
+| [#49534](https://github.com/sgl-project/sglang/pull/49534) | [CI] [AMD] nightly-benchmark: Run InferenceX's AgentX Qwen3.5 MXFP4 MTP curve on MI35x | michaelzhang-ai | 2026-11-11 | 一般 |  |  |
+| [#49577](https://github.com/sgl-project/sglang/pull/49577) | [CI] ci: Raise jit-kernel Run test timeout to 90 minutes | Ethereal49 | 2026-11-10 | 一般 |  |  |
+| [#49346](https://github.com/sgl-project/sglang/pull/49346) | [Test] gemma4: Cover the multimem.ld_reduce rounding in the AR fusion residual check | DarkSharpness | 2026-11-10 | 一般 |  |  |
+| [#49318](https://github.com/sgl-project/sglang/pull/49318) | [Test] npu/glm5.3: Add 2P2D 32P PD-separation perf case | pllimax | 2026-11-09 | 一般 |  |  |
+| [#49160](https://github.com/sgl-project/sglang/pull/49160) | [Test] gemma4: Stop the AR fusion test from deadlocking on a tolerance miss | hnyls2002 | 2026-11-09 | 一般 |  |  |
+| [#49097](https://github.com/sgl-project/sglang/pull/49097) | [Test] kv-canary: Serve the EAGLE canary fixture in bf16 to avoid an fp16 overflow | hnyls2002 | 2026-11-08 | 一般 |  |  |
+| [#48952](https://github.com/sgl-project/sglang/pull/48952) | [CI] ep: Port the FlashInfer dispatcher test to flashinfer.moe_ep and run it in CI | leejnau | 2026-11-08 | 一般 |  |  |
+| [#48978](https://github.com/sgl-project/sglang/pull/48978) | [CI] [AMD] jit: Use the platform full warp mask in the DSA indexer RoPE helpers | michaelzhang-ai | 2026-11-07 | 一般 |  |  |
+| [#48966](https://github.com/sgl-project/sglang/pull/48966) | [CI] [AMD] hc_mix: Skip the FlyDSL hc_mix dispatch tests when AITER lacks the kernel | michaelzhang-ai | 2026-11-07 | 一般 |  |  |
 | [#48756](https://github.com/sgl-project/sglang/pull/48756) | [CI] spec: Shrink the radix workload in the EAGLE retract stress tests | hnyls2002 | 2026-11-06 | 一般 |  |  |
 | [#48290](https://github.com/sgl-project/sglang/pull/48290) | [Test] [NPU] kimi_k3: run the decode perf case via the aisbench prefix mode | EdwardXuy | 2026-11-06 | 一般 |  |  |
 | [#46662](https://github.com/sgl-project/sglang/pull/46662) | [Doc] [AMD] GLM-5.3: Enable MTP on MI355X and add the agentic recipe with the AMD monoker… | jhinpan | 2026-11-06 | 一般 | faster than 5-1-6 and 1-1-2 on MI355X |  |
@@ -5553,11 +5700,22 @@
 | [#2295](https://github.com/sgl-project/sglang/pull/2295) | minor: support flashinfer nightly | zhyncs | 2024-12-01 | 一般 |  |  |
 | [#2038](https://github.com/sgl-project/sglang/pull/2038) | fix: align enable_overlap_scheduler naming between code and docs | w1ndseeker | 2024-11-15 | 一般 |  |  |
 
-## Other(其他) (586)
+## Other(其他) (597)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [#49688](https://github.com/sgl-project/sglang/pull/49688) | [Fix] muse_spark: [sglang-miles] Refresh derived weight caches after a weight sync | guapisolo | 2026-11-11 | 一般 |  |  |
+| [#49370](https://github.com/sgl-project/sglang/pull/49370) | [Refactor] custom-ar-v2: Move the DPX pair stages into their own header | DarkSharpness | 2026-11-11 | 一般 |  |  |
+| [#48200](https://github.com/sgl-project/sglang/pull/48200) | [Doc] diffusion: Document IMAGEIO_FFMPEG_EXE for faster MP4 encoding | syang-genai | 2026-11-11 | 一般 |  |  |
+| [#49436](https://github.com/sgl-project/sglang/pull/49436) | [Fix] dspark: Write deferred draft KV only for carried requests | hnyls2002 | 2026-11-10 | 一般 |  |  |
+| [#49374](https://github.com/sgl-project/sglang/pull/49374) | [Perf] R3: [sglang-miles] Keep routed-expert caches only on the output rank (cherry-pick … | guapisolo | 2026-11-10 | 一般 |  |  |
+| [#49311](https://github.com/sgl-project/sglang/pull/49311) | [Fix] mem_cache: Signal a double free of unified pages when invariant checks are on | ch-wan | 2026-11-10 | 一般 |  |  |
+| [#49364](https://github.com/sgl-project/sglang/pull/49364) | [Chore] docker: Drop the DeepGEMM and FlashMLA build steps from the K3.1 image | Fridge003 | 2026-11-09 | 一般 |  |  |
+| [#48364](https://github.com/sgl-project/sglang/pull/48364) | [Feat] [CPU] model: Support Intern-S2-Mobius models on CPU | nzr-niu | 2026-11-09 | 一般 |  |  |
+| [#37472](https://github.com/sgl-project/sglang/pull/37472) | [Fix] dspark: Keep verify bookkeeping in range for rows without candidates | klshuster | 2026-11-09 | 一般 |  |  |
+| [#48006](https://github.com/sgl-project/sglang/pull/48006) | [Refactor] mem_cache: Name each unified window sub-pool by its own window length | ch-wan | 2026-11-08 | 一般 |  |  |
 | [#48955](https://github.com/sgl-project/sglang/pull/48955) | [Fix] [AMD] imports: [sglang-miles] Skip import-time device probes when no GPU is visible | michaelzhang-ai | 2026-11-07 | 一般 |  |  |
+| [#47129](https://github.com/sgl-project/sglang/pull/47129) | [Perf] [NVIDIA] muse-spark: Bound B200 projection dispatch and allocator compilation | Zhuofeng-Li | 2026-11-07 | 一般 |  |  |
 | [#48781](https://github.com/sgl-project/sglang/pull/48781) | [Refactor] utils: Split `common.py` into topic modules and owner packages | hnyls2002 | 2026-11-06 | 一般 |  |  |
 | [#48496](https://github.com/sgl-project/sglang/pull/48496) | [Perf] mem_cache: Order recycled unified-page writers after the forward instead of the cu… | metamergebot | 2026-11-06 | 一般 |  |  |
 | [#47724](https://github.com/sgl-project/sglang/pull/47724) | [Perf] diffusion: qknorm_complex_rope keeps two Q/K rows in flight per half-warp | niehen6174 | 2026-11-06 | 一般 |  |  |
@@ -6146,6 +6304,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-07T12:17:51+00:00
-- **vllm** @c9e4cb2b793b (upstream HEAD 2026-11-07) — commit: https://github.com/vllm-project/vllm/commit/c9e4cb2b793b5fa6672071675ef5aa49f7926f7f | API 抓取窗口: 2026-11-07T02:54:22+00:00 ~ 2026-11-07T03:15:12+00:00 | raw 6849 → 重点档 936 → 证据卡 936
-- **sglang** @8920463c90c8 (upstream HEAD 2026-11-07) — commit: https://github.com/sgl-project/sglang/commit/8920463c90c81127d9413f093240aeba17983f3a | API 抓取窗口: 2026-11-07T02:50:25+00:00 ~ 2026-11-07T03:28:51+00:00 | raw 6059 → 重点档 645 → 证据卡 645
+- 快照记录时间: 2026-11-11T17:43:11+00:00
+- **vllm** @adff2e86fb12 (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/adff2e86fb12b1e964426e56600728fce6d401e4 | API 抓取窗口: 2026-11-07T02:54:22+00:00 ~ 2026-11-11T15:30:25+00:00 | raw 6971 → 重点档 961 → 证据卡 961
+- **sglang** @983455aeed42 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/983455aeed423cf5b46931218e0a3f60b6745124 | API 抓取窗口: 2026-11-07T02:50:25+00:00 ~ 2026-11-11T15:47:59+00:00 | raw 6217 → 重点档 672 → 证据卡 672

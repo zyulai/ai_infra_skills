@@ -149,7 +149,15 @@ def main() -> None:
         with tmp.open("w", encoding="utf-8", newline="\n") as f:
             for r in recs:
                 f.write(_dumps(r) + "\n")
-        tmp.replace(out_path)
+        for attempt in range(5):  # Windows: AV/indexer may briefly lock the target
+            try:
+                tmp.replace(out_path)
+                break
+            except PermissionError:
+                if attempt == 4:
+                    raise
+                print(f"    ! target locked, retrying save ({attempt + 2}/5)", flush=True)
+                time.sleep(2 * (attempt + 1))
         n_label = sum(1 for r in recs if "label" in r["sources"])
         n_title = sum(1 for r in recs if "title" in r["sources"])
         print(f"[{repo_key}] total {len(recs)} RFC issues "

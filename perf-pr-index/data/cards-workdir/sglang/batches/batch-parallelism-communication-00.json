@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "Parallelism / Communication",
-  "count": 9,
+  "count": 12,
   "prs": [
     {
       "number": 11381,
@@ -56,6 +56,24 @@
       "title": "[Perf] [AMD] deterministic: Use a fixed-order two-stage all-reduce for large inputs",
       "pack": "data/cards-workdir/sglang/packs/pr-46325.pack.md",
       "card_out": "index/sglang/cards/pr-46325-<slug>.md"
+    },
+    {
+      "number": 49001,
+      "title": "[Feat] [AMD] custom-all-reduce: Run carv2 on MI450 with FABRIC handles and a gfx1250 table",
+      "pack": "data/cards-workdir/sglang/packs/pr-49001.pack.md",
+      "card_out": "index/sglang/cards/pr-49001-<slug>.md"
+    },
+    {
+      "number": 49003,
+      "title": "[Feat] [AMD] custom-all-reduce: Run carv2 across gfx1250 UALink nodes",
+      "pack": "data/cards-workdir/sglang/packs/pr-49003.pack.md",
+      "card_out": "index/sglang/cards/pr-49003-<slug>.md"
+    },
+    {
+      "number": 49205,
+      "title": "[Feat] [AMD] custom-all-reduce: Add a DPX hierarchical 2shot_push to carv2 on MI450 (gfx1250)",
+      "pack": "data/cards-workdir/sglang/packs/pr-49205.pack.md",
+      "card_out": "index/sglang/cards/pr-49205-<slug>.md"
     }
   ]
 }

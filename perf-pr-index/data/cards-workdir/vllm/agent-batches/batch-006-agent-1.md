@@ -1,0 +1,9 @@
+PR #59981 | [Perf] V2 runner decode optimizations for NVIDIA Confidential Computing | pack=data/cards-workdir/vllm/packs/pr-59981.pack.md | out=index/vllm/cards/pr-59981-perf-v2-runner-decode-optimizations-for.md
+PR #65028 | [Perf][Rust Frontend] Serialize SSE chunks before building the event | pack=data/cards-workdir/vllm/packs/pr-65028.pack.md | out=index/vllm/cards/pr-65028-perf-rust-frontend-serialize-sse-chunks.md
+PR #64715 | [ROCm][UMBP] Support UMBP standalone mode for DeepSeek-V4.1-Flash | pack=data/cards-workdir/vllm/packs/pr-64715.pack.md | out=index/vllm/cards/pr-64715-rocm-umbp-support-umbp-standalone-mode-f.md
+PR #63847 | [ROCm][Kernel] Support persistent_topk on ROCm | pack=data/cards-workdir/vllm/packs/pr-63847.pack.md | out=index/vllm/cards/pr-63847-rocm-kernel-support-persistent-topk-on-r.md
+PR #65972 | [Perf][MoE] Skip DP padding rows in TRT-LLM monolithic MoE with vLLM's top-k | pack=data/cards-workdir/vllm/packs/pr-65972.pack.md | out=index/vllm/cards/pr-65972-perf-moe-skip-dp-padding-rows-in-trt-llm.md
+PR #65227 | [Perf][Multimodal] Encoder CUDA graphs: one replay per batch, finer grid up to one max budget | pack=data/cards-workdir/vllm/packs/pr-65227.pack.md | out=index/vllm/cards/pr-65227-perf-multimodal-encoder-cuda-graphs-one.md
+PR #63096 | [ROCm][Spec Decode] Enable fused multi-step draft decode for ROCM_AITER_UNIFIED_ATTN | pack=data/cards-workdir/vllm/packs/pr-63096.pack.md | out=index/vllm/cards/pr-63096-rocm-spec-decode-enable-fused-multi-step.md
+PR #66552 | [Perf][DSv4.1] Engram: 128-row lookup tiles; split GPU tables across engines | pack=data/cards-workdir/vllm/packs/pr-66552.pack.md | out=index/vllm/cards/pr-66552-perf-dsv4-1-engram-128-row-lookup-tiles.md
+PR #65975 | [Perf][Quantization] Use fast SiLU intrinsics in Humming MoE activations | pack=data/cards-workdir/vllm/packs/pr-65975.pack.md | out=index/vllm/cards/pr-65975-perf-quantization-use-fast-silu-intrinsi.md

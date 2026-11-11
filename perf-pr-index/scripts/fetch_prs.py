@@ -307,9 +307,17 @@ def append_records(path: Path, records: dict[int, dict]) -> int:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
     # merge tmp into the canonical file (existing + new), deduped, sorted
     merged = {**existing, **new}
-    with path.open("w", encoding="utf-8") as f:
-        for num in sorted(merged):
-            f.write(json.dumps(merged[num], ensure_ascii=False) + "\n")
+    for attempt in range(5):  # Windows: AV/indexer may briefly lock the file
+        try:
+            with path.open("w", encoding="utf-8") as f:
+                for num in sorted(merged):
+                    f.write(json.dumps(merged[num], ensure_ascii=False) + "\n")
+            break
+        except PermissionError:
+            if attempt == 4:
+                raise
+            print(f"    ! target locked, retrying save ({attempt + 2}/5)", flush=True)
+            time.sleep(2 * (attempt + 1))
     tmp.unlink(missing_ok=True)
     return len(new)
 

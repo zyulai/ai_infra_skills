@@ -22,6 +22,12 @@
       "card_out": "index/vllm/cards/pr-46642-<slug>.md"
     },
     {
+      "number": 46871,
+      "title": "[XPU] All-to-all Expert-Parallellism backend for batched MoE",
+      "pack": "data/cards-workdir/vllm/packs/pr-46871.pack.md",
+      "card_out": "index/vllm/cards/pr-46871-<slug>.md"
+    },
+    {
       "number": 47124,
       "title": "[Quantization][Autoround][XPU] Add W4A16(moe) / MXFP4(linear/moe) Support",
       "pack": "data/cards-workdir/vllm/packs/pr-47124.pack.md",
@@ -50,6 +56,12 @@
       "title": "feat: allow shared expert overlapping for FlashInfer one-sided all-to-all",
       "pack": "data/cards-workdir/vllm/packs/pr-50569.pack.md",
       "card_out": "index/vllm/cards/pr-50569-<slug>.md"
+    },
+    {
+      "number": 51006,
+      "title": "[MoE] Make fused MoE routers pluggable",
+      "pack": "data/cards-workdir/vllm/packs/pr-51006.pack.md",
+      "card_out": "index/vllm/cards/pr-51006-<slug>.md"
     },
     {
       "number": 51274,
@@ -230,18 +242,6 @@
       "title": "[Perf][MoE] Skip the TRTLLM fp8-block activation-scale transpose copy",
       "pack": "data/cards-workdir/vllm/packs/pr-61773.pack.md",
       "card_out": "index/vllm/cards/pr-61773-<slug>.md"
-    },
-    {
-      "number": 61895,
-      "title": "[ROCm][Perf] Any-shape low-latency MoE router GEMM on MI355",
-      "pack": "data/cards-workdir/vllm/packs/pr-61895.pack.md",
-      "card_out": "index/vllm/cards/pr-61895-<slug>.md"
-    },
-    {
-      "number": 62054,
-      "title": "[MoE] Use the sorted fused-MoE path for host-resident expert weights",
-      "pack": "data/cards-workdir/vllm/packs/pr-62054.pack.md",
-      "card_out": "index/vllm/cards/pr-62054-<slug>.md"
     }
   ]
 }

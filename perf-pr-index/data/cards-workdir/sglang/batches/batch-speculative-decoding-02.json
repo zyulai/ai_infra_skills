@@ -124,6 +124,12 @@
       "card_out": "index/sglang/cards/pr-42614-<slug>.md"
     },
     {
+      "number": 42855,
+      "title": "[Perf] [NVIDIA] dspark: Opt-in fused int8 Markov walk kernel for bs <= 64 on Hopper",
+      "pack": "data/cards-workdir/sglang/packs/pr-42855.pack.md",
+      "card_out": "index/sglang/cards/pr-42855-<slug>.md"
+    },
+    {
       "number": 42901,
       "title": "[Perf] deepseek-v4.1: Skip wasted layer 20 work on earlier prompt tokens under decoder bounded replay",
       "pack": "data/cards-workdir/sglang/packs/pr-42901.pack.md",
@@ -190,6 +196,12 @@
       "card_out": "index/sglang/cards/pr-44489-<slug>.md"
     },
     {
+      "number": 44588,
+      "title": "[Feat] spec: Online acceptance estimator for DSpark confidence-scheduled verification",
+      "pack": "data/cards-workdir/sglang/packs/pr-44588.pack.md",
+      "card_out": "index/sglang/cards/pr-44588-<slug>.md"
+    },
+    {
       "number": 44632,
       "title": "[Perf] DeepSeek-V4.1: Raise the SM100 swap-AB decode cap to 40 rows",
       "pack": "data/cards-workdir/sglang/packs/pr-44632.pack.md",
@@ -214,34 +226,22 @@
       "card_out": "index/sglang/cards/pr-46024-<slug>.md"
     },
     {
+      "number": 46168,
+      "title": "[Perf] mooncake: Cut the host time of direct linker layer-wise loads",
+      "pack": "data/cards-workdir/sglang/packs/pr-46168.pack.md",
+      "card_out": "index/sglang/cards/pr-46168-<slug>.md"
+    },
+    {
       "number": 46184,
       "title": "[Perf] mamba: write the deduplicated conv verify window as one tile",
       "pack": "data/cards-workdir/sglang/packs/pr-46184.pack.md",
       "card_out": "index/sglang/cards/pr-46184-<slug>.md"
     },
     {
-      "number": 46263,
-      "title": "[Perf] [NVIDIA] deepseek-v4.1: Default aggregated servers to MegaAttention only when each rank holds 64 query heads",
-      "pack": "data/cards-workdir/sglang/packs/pr-46263.pack.md",
-      "card_out": "index/sglang/cards/pr-46263-<slug>.md"
-    },
-    {
-      "number": 46404,
-      "title": "[Fix] dspark: Draw the simulated-acceptance bonus at the simulated row",
-      "pack": "data/cards-workdir/sglang/packs/pr-46404.pack.md",
-      "card_out": "index/sglang/cards/pr-46404-<slug>.md"
-    },
-    {
-      "number": 46724,
-      "title": "[Perf] [NVIDIA] muse-spark-open: Fuse MoE finalize with the 2shot_push all-reduce",
-      "pack": "data/cards-workdir/sglang/packs/pr-46724.pack.md",
-      "card_out": "index/sglang/cards/pr-46724-<slug>.md"
-    },
-    {
-      "number": 47180,
-      "title": "[Perf] [AMD] dsa: Replicate the DCP query projection on the owned route",
-      "pack": "data/cards-workdir/sglang/packs/pr-47180.pack.md",
-      "card_out": "index/sglang/cards/pr-47180-<slug>.md"
+      "number": 46213,
+      "title": "[Perf] flashinfer-megamoe: Add an optional decode workspace",
+      "pack": "data/cards-workdir/sglang/packs/pr-46213.pack.md",
+      "card_out": "index/sglang/cards/pr-46213-<slug>.md"
     }
   ]
 }

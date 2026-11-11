@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "KV Cache / Memory",
-  "count": 37,
+  "count": 38,
   "prs": [
     {
       "number": 6455,
@@ -176,6 +176,12 @@
       "title": "[Bugfix][KVConnector] Fix MoRI-IO WRITE-mode requests stranded in WAITING_FOR_REMOTE_KVS",
       "pack": "data/cards-workdir/vllm/packs/pr-57705.pack.md",
       "card_out": "index/vllm/cards/pr-57705-<slug>.md"
+    },
+    {
+      "number": 57810,
+      "title": "[Core][KVConnector] Keep the offloaded KV tier across pause/sleep",
+      "pack": "data/cards-workdir/vllm/packs/pr-57810.pack.md",
+      "card_out": "index/vllm/cards/pr-57810-<slug>.md"
     },
     {
       "number": 59039,

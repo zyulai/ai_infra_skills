@@ -1,8 +1,32 @@
 {
   "repo": "sglang",
   "category": "Speculative Decoding",
-  "count": 4,
+  "count": 11,
   "prs": [
+    {
+      "number": 46263,
+      "title": "[Perf] [NVIDIA] deepseek-v4.1: Default aggregated servers to MegaAttention only when each rank holds 64 query heads",
+      "pack": "data/cards-workdir/sglang/packs/pr-46263.pack.md",
+      "card_out": "index/sglang/cards/pr-46263-<slug>.md"
+    },
+    {
+      "number": 46404,
+      "title": "[Fix] dspark: Draw the simulated-acceptance bonus at the simulated row",
+      "pack": "data/cards-workdir/sglang/packs/pr-46404.pack.md",
+      "card_out": "index/sglang/cards/pr-46404-<slug>.md"
+    },
+    {
+      "number": 46724,
+      "title": "[Perf] [NVIDIA] muse-spark-open: Fuse MoE finalize with the 2shot_push all-reduce",
+      "pack": "data/cards-workdir/sglang/packs/pr-46724.pack.md",
+      "card_out": "index/sglang/cards/pr-46724-<slug>.md"
+    },
+    {
+      "number": 47180,
+      "title": "[Perf] [AMD] dsa: Replicate the DCP query projection on the owned route",
+      "pack": "data/cards-workdir/sglang/packs/pr-47180.pack.md",
+      "card_out": "index/sglang/cards/pr-47180-<slug>.md"
+    },
     {
       "number": 47201,
       "title": "[Perf] [NVIDIA] speculative-decoding: Bind generic provider strategies",
@@ -16,6 +40,18 @@
       "card_out": "index/sglang/cards/pr-47354-<slug>.md"
     },
     {
+      "number": 47581,
+      "title": "[Perf] [NPU] dspark: Integrate argmax and verify scheduler kernels",
+      "pack": "data/cards-workdir/sglang/packs/pr-47581.pack.md",
+      "card_out": "index/sglang/cards/pr-47581-<slug>.md"
+    },
+    {
+      "number": 47685,
+      "title": "[Perf] [NVIDIA] dflash: Top up decode KV pages for the whole batch on allocation steps",
+      "pack": "data/cards-workdir/sglang/packs/pr-47685.pack.md",
+      "card_out": "index/sglang/cards/pr-47685-<slug>.md"
+    },
+    {
       "number": 47935,
       "title": "[Perf] dsv41: Keep MXFP4 Engram tables packed and decode E2M1 in the gather",
       "pack": "data/cards-workdir/sglang/packs/pr-47935.pack.md",
@@ -26,6 +62,12 @@
       "title": "[Perf] [AMD] dsa: Split-K HIP sparse MLA for decode/verify",
       "pack": "data/cards-workdir/sglang/packs/pr-48437.pack.md",
       "card_out": "index/sglang/cards/pr-48437-<slug>.md"
+    },
+    {
+      "number": 48613,
+      "title": "[Perf] kda: Run the fused CuTe DSpARK verify kernel on a BF16 SSM state",
+      "pack": "data/cards-workdir/sglang/packs/pr-48613.pack.md",
+      "card_out": "index/sglang/cards/pr-48613-<slug>.md"
     }
   ]
 }

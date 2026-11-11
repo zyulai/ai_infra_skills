@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "CUDA Graph / Compiler",
-  "count": 3,
+  "count": 5,
   "prs": [
     {
       "number": 44394,
@@ -20,6 +20,18 @@
       "title": "[Feat] [AMD] custom-all-reduce: Run the JIT custom all-reduce v2 on ROCm",
       "pack": "data/cards-workdir/sglang/packs/pr-47964.pack.md",
       "card_out": "index/sglang/cards/pr-47964-<slug>.md"
+    },
+    {
+      "number": 48442,
+      "title": "[Perf] diffusion: Accelerate exact SANA-Video RoPE on SM103",
+      "pack": "data/cards-workdir/sglang/packs/pr-48442.pack.md",
+      "card_out": "index/sglang/cards/pr-48442-<slug>.md"
+    },
+    {
+      "number": 48615,
+      "title": "[Fix] diffusion: Keep explicit cuDNN attention inside LTX breakable CUDA graphs",
+      "pack": "data/cards-workdir/sglang/packs/pr-48615.pack.md",
+      "card_out": "index/sglang/cards/pr-48615-<slug>.md"
     }
   ]
 }

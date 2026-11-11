@@ -1,0 +1,9 @@
+PR #48786 | [Feat] HiCache: add tma copy kernel for unified layout | pack=data/cards-workdir/sglang/packs/pr-48786.pack.md | out=index/sglang/cards/pr-48786-feat-hicache-add-tma-copy-kernel-for-uni.md
+PR #46213 | [Perf] flashinfer-megamoe: Add an optional decode workspace | pack=data/cards-workdir/sglang/packs/pr-46213.pack.md | out=index/sglang/cards/pr-46213-perf-flashinfer-megamoe-add-an-optional.md
+PR #40141 | [Feat] [NPU] startup-weight-load: Support overlap mode on NPU | pack=data/cards-workdir/sglang/packs/pr-40141.pack.md | out=index/sglang/cards/pr-40141-feat-npu-startup-weight-load-support-ove.md
+PR #48165 | [Perf] quantization: Speed up Hopper group32 FP8 quantization with FP32 scales | pack=data/cards-workdir/sglang/packs/pr-48165.pack.md | out=index/sglang/cards/pr-48165-perf-quantization-speed-up-hopper-group3.md
+PR #41794 | [Perf] [AMD] kimi-k3: Run the fused KDA decode with a BF16 state and Quark weights | pack=data/cards-workdir/sglang/packs/pr-41794.pack.md | out=index/sglang/cards/pr-41794-perf-amd-kimi-k3-run-the-fused-kda-decod.md
+PR #48405 | [Perf] [AMD] kvcache: Fuse fp8 quantization into the vectorized_5d KV-cache write | pack=data/cards-workdir/sglang/packs/pr-48405.pack.md | out=index/sglang/cards/pr-48405-perf-amd-kvcache-fuse-fp8-quantization-i.md
+PR #45264 | [Perf] [NVIDIA] mhc: Use BLOCK_K=32 for the hc_mix kernel on SM120 | pack=data/cards-workdir/sglang/packs/pr-45264.pack.md | out=index/sglang/cards/pr-45264-perf-nvidia-mhc-use-block-k-32-for-the-h.md
+PR #48406 | [Perf] [AMD] qwen3: Let the fused QK-norm + RoPE + KV write serve the vectorized_5d layout | pack=data/cards-workdir/sglang/packs/pr-48406.pack.md | out=index/sglang/cards/pr-48406-perf-amd-qwen3-let-the-fused-qk-norm-rop.md
+PR #49024 | [Perf] [AMD] wan2.2: Gate FlyDSL norm and scale-shift fusion on high quality | pack=data/cards-workdir/sglang/packs/pr-49024.pack.md | out=index/sglang/cards/pr-49024-perf-amd-wan2-2-gate-flydsl-norm-and-sca.md

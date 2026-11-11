@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "CUDA Graph / Compiler",
-  "count": 7,
+  "count": 8,
   "prs": [
     {
       "number": 61422,
@@ -38,6 +38,12 @@
       "title": "[ROCm][HY4] Use breakable graphs without torch.compile",
       "pack": "data/cards-workdir/vllm/packs/pr-64763.pack.md",
       "card_out": "index/vllm/cards/pr-64763-<slug>.md"
+    },
+    {
+      "number": 65227,
+      "title": "[Perf][Multimodal] Encoder CUDA graphs: one replay per batch, finer grid up to one max budget",
+      "pack": "data/cards-workdir/vllm/packs/pr-65227.pack.md",
+      "card_out": "index/vllm/cards/pr-65227-<slug>.md"
     },
     {
       "number": 65761,

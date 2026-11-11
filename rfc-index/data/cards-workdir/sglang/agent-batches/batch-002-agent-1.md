@@ -1,0 +1,1 @@
+RFC #49536 | [RFC] Kimi K3 decode: FlashInfer reuse and integration scope | pack=C:/Users/Norma/Desktop/ai_infra/rfc-index/data/cards-workdir/sglang/packs/rfc-49536.pack.md | out=C:/Users/Norma/Desktop/ai_infra/rfc-index/index/sglang/rfc-cards/rfc-49536-rfc-kimi-k3-decode-flashinfer-reuse-and.md

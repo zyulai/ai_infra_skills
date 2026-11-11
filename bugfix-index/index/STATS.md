@@ -1,49 +1,49 @@
 # Bug Fix 索引统计总览
 
-- 生成时间: 2026-11-08T15:31:28+00:00
+- 生成时间: 2026-11-11T17:44:12+00:00
 
 ## 总量
 
 | 仓库 | 收录总数 | 🔥 重点 | 正确性 | 崩溃 | 挂死 | 资源 | 回归 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| vllm | 7889 | 642 | 282 | 178 | 91 | 70 | 95 |
-| sglang | 6297 | 602 | 300 | 192 | 90 | 75 | 122 |
+| vllm | 7974 | 649 | 285 | 179 | 91 | 71 | 95 |
+| sglang | 6409 | 608 | 301 | 197 | 91 | 75 | 122 |
 
 ## vllm:分类分布
 
 | 分类 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| Speculative Decoding(投机解码) | 282 | 45 |
-| MoE(混合专家) | 423 | 49 |
-| Quantization(量化) | 552 | 47 |
-| CUDA Graph / Compiler(CUDA Graph 与编译) | 281 | 27 |
+| Speculative Decoding(投机解码) | 284 | 46 |
+| MoE(混合专家) | 434 | 49 |
+| Quantization(量化) | 558 | 47 |
+| CUDA Graph / Compiler(CUDA Graph 与编译) | 286 | 27 |
 | Overlap / Scheduler(重叠与调度) | 131 | 16 |
-| Attention / Kernel(注意力与算子) | 809 | 91 |
-| KV Cache / Memory(KV Cache 与显存) | 298 | 27 |
-| Parallelism / Communication(并行与通信) | 112 | 8 |
+| Attention / Kernel(注意力与算子) | 820 | 92 |
+| KV Cache / Memory(KV Cache 与显存) | 303 | 28 |
+| Parallelism / Communication(并行与通信) | 113 | 8 |
 | Sampler / Detokenization(采样与反分词) | 108 | 15 |
-| Frontend / Serving(前端与服务) | 474 | 29 |
-| Model-specific Fast Path(模型专属快路径) | 701 | 78 |
+| Frontend / Serving(前端与服务) | 488 | 29 |
+| Model-specific Fast Path(模型专属快路径) | 707 | 78 |
 | CI / Test-Perf(CI 与测试性能) | 26 | 0 |
-| Other(其他) | 3692 | 210 |
+| Other(其他) | 3716 | 214 |
 
 ## vllm:bug 类型分布
 
 | 类型 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| correctness(正确性) | 282 | 282 |
-| crash(崩溃) | 178 | 85 |
+| correctness(正确性) | 285 | 285 |
+| crash(崩溃) | 179 | 85 |
 | hang(挂死) | 91 | 33 |
-| resource(资源泄漏/OOM) | 70 | 28 |
+| resource(资源泄漏/OOM) | 71 | 29 |
 | regression(回归) | 95 | 94 |
-| startup(启动/加载) | 101 | 2 |
-| general(一般) | 7072 | 118 |
+| startup(启动/加载) | 102 | 2 |
+| general(一般) | 7151 | 121 |
 
 ## vllm:年度分布(按合并时间)
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 4619 | 448 |
+| 2026 | 4704 | 455 |
 | 2025 | 2316 | 152 |
 | 2024 | 793 | 38 |
 | 2023 | 161 | 4 |
@@ -79,15 +79,15 @@
 | --- | --- |
 | [njhill](https://github.com/njhill) | 212 |
 | [mgoin](https://github.com/mgoin) | 179 |
+| [AndreasKaratzas](https://github.com/AndreasKaratzas) | 173 |
 | [yewentao256](https://github.com/yewentao256) | 171 |
 | [DarkLight1337](https://github.com/DarkLight1337) | 170 |
 | [WoosukKwon](https://github.com/WoosukKwon) | 162 |
-| [AndreasKaratzas](https://github.com/AndreasKaratzas) | 162 |
-| [hmellor](https://github.com/hmellor) | 152 |
+| [hmellor](https://github.com/hmellor) | 154 |
 | [Isotr0py](https://github.com/Isotr0py) | 152 |
-| [LucasWilkinson](https://github.com/LucasWilkinson) | 120 |
+| [LucasWilkinson](https://github.com/LucasWilkinson) | 121 |
 | [youkaichao](https://github.com/youkaichao) | 98 |
-| [jeejeelee](https://github.com/jeejeelee) | 94 |
+| [jeejeelee](https://github.com/jeejeelee) | 96 |
 | [NickLucche](https://github.com/NickLucche) | 75 |
 | [ywang96](https://github.com/ywang96) | 72 |
 | [chaunceyjiang](https://github.com/chaunceyjiang) | 70 |
@@ -97,37 +97,37 @@
 
 | 分类 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| Speculative Decoding(投机解码) | 287 | 53 |
-| MoE(混合专家) | 370 | 47 |
-| Quantization(量化) | 367 | 48 |
-| CUDA Graph / Compiler(CUDA Graph 与编译) | 196 | 24 |
-| Overlap / Scheduler(重叠与调度) | 205 | 32 |
-| Attention / Kernel(注意力与算子) | 627 | 78 |
-| KV Cache / Memory(KV Cache 与显存) | 262 | 25 |
-| Parallelism / Communication(并行与通信) | 76 | 10 |
-| Sampler / Detokenization(采样与反分词) | 63 | 8 |
-| Frontend / Serving(前端与服务) | 364 | 26 |
-| Model-specific Fast Path(模型专属快路径) | 535 | 48 |
+| Speculative Decoding(投机解码) | 289 | 53 |
+| MoE(混合专家) | 381 | 48 |
+| Quantization(量化) | 370 | 48 |
+| CUDA Graph / Compiler(CUDA Graph 与编译) | 201 | 24 |
+| Overlap / Scheduler(重叠与调度) | 215 | 32 |
+| Attention / Kernel(注意力与算子) | 638 | 78 |
+| KV Cache / Memory(KV Cache 与显存) | 270 | 25 |
+| Parallelism / Communication(并行与通信) | 77 | 10 |
+| Sampler / Detokenization(采样与反分词) | 64 | 9 |
+| Frontend / Serving(前端与服务) | 372 | 27 |
+| Model-specific Fast Path(模型专属快路径) | 541 | 48 |
 | CI / Test-Perf(CI 与测试性能) | 124 | 0 |
-| Other(其他) | 2821 | 203 |
+| Other(其他) | 2867 | 206 |
 
 ## sglang:bug 类型分布
 
 | 类型 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| correctness(正确性) | 300 | 299 |
-| crash(崩溃) | 192 | 85 |
-| hang(挂死) | 90 | 30 |
+| correctness(正确性) | 301 | 300 |
+| crash(崩溃) | 197 | 87 |
+| hang(挂死) | 91 | 30 |
 | resource(资源泄漏/OOM) | 75 | 17 |
 | regression(回归) | 122 | 120 |
-| startup(启动/加载) | 86 | 1 |
-| general(一般) | 5432 | 50 |
+| startup(启动/加载) | 87 | 1 |
+| general(一般) | 5536 | 53 |
 
 ## sglang:年度分布(按合并时间)
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 3862 | 384 |
+| 2026 | 3974 | 390 |
 | 2025 | 2003 | 192 |
 | 2024 | 432 | 26 |
 
@@ -160,24 +160,24 @@
 
 | 作者 | 修复 PR 数 |
 | --- | --- |
-| [hnyls2002](https://github.com/hnyls2002) | 352 |
+| [hnyls2002](https://github.com/hnyls2002) | 364 |
 | [merrymercy](https://github.com/merrymercy) | 312 |
-| [mickqian](https://github.com/mickqian) | 208 |
+| [mickqian](https://github.com/mickqian) | 210 |
 | [fzyzcjy](https://github.com/fzyzcjy) | 200 |
 | [zhyncs](https://github.com/zhyncs) | 177 |
-| [ch-wan](https://github.com/ch-wan) | 157 |
-| [Fridge003](https://github.com/Fridge003) | 131 |
+| [ch-wan](https://github.com/ch-wan) | 161 |
+| [Fridge003](https://github.com/Fridge003) | 132 |
+| [alphabetc1](https://github.com/alphabetc1) | 116 |
+| [BBuf](https://github.com/BBuf) | 115 |
 | [mmangkad](https://github.com/mmangkad) | 114 |
-| [alphabetc1](https://github.com/alphabetc1) | 114 |
-| [BBuf](https://github.com/BBuf) | 113 |
 | [ispobock](https://github.com/ispobock) | 109 |
-| [Kangyan-Zhou](https://github.com/Kangyan-Zhou) | 106 |
+| [Kangyan-Zhou](https://github.com/Kangyan-Zhou) | 109 |
+| [ShangmingCai](https://github.com/ShangmingCai) | 92 |
 | [alisonshao](https://github.com/alisonshao) | 92 |
 | [JustinTong0323](https://github.com/JustinTong0323) | 89 |
-| [ShangmingCai](https://github.com/ShangmingCai) | 89 |
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-08T15:31:03+00:00
-- **vllm** @83630ab85eb2 (upstream HEAD 2026-11-08) — commit: https://github.com/vllm-project/vllm/commit/83630ab85eb27e456d99008cc0a27e025e73c0b4 | API 抓取窗口: 2026-11-08T09:35:42+00:00 ~ 2026-11-08T10:03:45+00:00 | raw 7889 → 重点档 642 → 修复卡 642
-- **sglang** @4003bf1077de (upstream HEAD 2026-11-08) — commit: https://github.com/sgl-project/sglang/commit/4003bf1077debcca3fccfa6e0d7b56ed584aa727 | API 抓取窗口: 2026-11-08T10:04:47+00:00 ~ 2026-11-08T10:18:01+00:00 | raw 6297 → 重点档 602 → 修复卡 602
+- 快照记录时间: 2026-11-11T17:43:45+00:00
+- **vllm** @adff2e86fb12 (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/adff2e86fb12b1e964426e56600728fce6d401e4 | API 抓取窗口: 2026-11-08T09:35:42+00:00 ~ 2026-11-11T16:27:33+00:00 | raw 7974 → 重点档 649 → 修复卡 649
+- **sglang** @983455aeed42 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/983455aeed423cf5b46931218e0a3f60b6745124 | API 抓取窗口: 2026-11-08T10:04:47+00:00 ~ 2026-11-11T17:14:20+00:00 | raw 6409 → 重点档 608 → 修复卡 608

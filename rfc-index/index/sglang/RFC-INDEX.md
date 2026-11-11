@@ -1,8 +1,8 @@
 # SGLANG RFC 索引(label:rfc ∪ 标题含 RFC,全量)
 
 - 仓库: https://github.com/sgl-project/sglang
-- 收录总数: **202** (重点 🔥 **42** / 一般 160) | 开放 68 / 已关闭 134
-- 生成时间: 2026-11-08T02:05:32+00:00
+- 收录总数: **204** (重点 🔥 **43** / 一般 161) | 开放 68 / 已关闭 136
+- 生成时间: 2026-11-11T17:43:45+00:00
 
 ## 目录
 
@@ -12,14 +12,14 @@
 - [Disaggregated Serving(分离式部署) (12)](#disaggregated-serving分离式部署-12)
 - [CUDA Graph / Compiler(CUDA Graph 与编译) (4)](#cuda-graph--compilercuda-graph-与编译-4)
 - [Overlap / Scheduler(重叠与调度) (11)](#overlap--scheduler重叠与调度-11)
-- [Attention / Kernel(注意力与算子) (13)](#attention--kernel注意力与算子-13)
+- [Attention / Kernel(注意力与算子) (14)](#attention--kernel注意力与算子-14)
 - [KV Cache / Memory(KV Cache 与显存) (22)](#kv-cache--memorykv-cache-与显存-22)
 - [Frontend / Serving / API(前端与服务 API) (13)](#frontend--serving--api前端与服务-api-13)
 - [Architecture / Engine(架构与引擎) (15)](#architecture--engine架构与引擎-15)
 - [Hardware / Backend(硬件与后端) (8)](#hardware--backend硬件与后端-8)
 - [Feature / Ecosystem(功能与生态) (18)](#feature--ecosystem功能与生态-18)
 - [CI / Infra / Process(CI 与基础流程) (4)](#ci--infra--processci-与基础流程-4)
-- [Other(其他) (55)](#other其他-55)
+- [Other(其他) (56)](#other其他-56)
 
 ## Speculative Decoding(投机解码) (9)
 
@@ -59,7 +59,7 @@
 | [#28618](https://github.com/sgl-project/sglang/issues/28618) | [RFC] Add SM89/L20 support for DeepSeek-V4-Flash-FP8 | xesdiny | 2026-06-18 | ⚪ 已关闭 | 一般 |  |  |
 | [#32112](https://github.com/sgl-project/sglang/issues/32112) | Deprecate legacy (non-Marlin) GPTQ kernel and Dual Chunk Flash Attention backend | b8zhong | 2026-07-22 | ⚪ 已关闭 | 🔥 重点 |  | [卡片](rfc-cards/rfc-32112-deprecate-legacy-non-marlin-gptq-kernel.md) |
 | [#36511](https://github.com/sgl-project/sglang/issues/36511) | [Feature/RFC] Optional fp8 (quantized) input embedding to free VRAM for large-vocab model… | angelbaba01L | 2026-08-26 | ⚪ 已关闭 | 一般 |  |  |
-| [#38004](https://github.com/sgl-project/sglang/issues/38004) | [RFC] Quantization module layout: Config, Scheme, backend kernels | mmangkad | 2026-09-04 | 🟢 开放 | 🔥 重点 |  | [卡片](rfc-cards/rfc-38004-rfc-quantization-module-layout-config-sc.md) |
+| [#38004](https://github.com/sgl-project/sglang/issues/38004) | [RFC] Quantization module layout: Config, Scheme, backend kernels | mmangkad | 2026-09-04 | ⚪ 已关闭 | 🔥 重点 |  | [卡片](rfc-cards/rfc-38004-rfc-quantization-module-layout-config-sc.md) |
 | [#41853](https://github.com/sgl-project/sglang/issues/41853) | [RFC] Gluon MegaMoE: EP8 MXFP4 and EP16 FP8 Support | Sulfur6 | 2026-09-30 | 🟢 开放 | 一般 |  |  |
 | [#41866](https://github.com/sgl-project/sglang/issues/41866) | [RFC][NPU] INT8 (C8) KV cache for DSA models (GLM-5.2) on Ascend A2/A3 (910B/910C) | qidaye | 2026-09-30 | 🟢 开放 | 一般 |  |  |
 
@@ -105,7 +105,7 @@
 | [#47289](https://github.com/sgl-project/sglang/issues/47289) | [RFC] Add per-step TBO admission policy and fallback diagnostics | algebra-MCX | 2026-10-29 | ⚪ 已关闭 | 一般 |  |  |
 | [#48519](https://github.com/sgl-project/sglang/issues/48519) | [RFC] scheduler: UniBoost, a starvation-bounded schedule policy (#48076-#48079) | phphlio1 | 2026-11-05 | 🟢 开放 | 一般 |  |  |
 
-## Attention / Kernel(注意力与算子) (13)
+## Attention / Kernel(注意力与算子) (14)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -122,6 +122,7 @@
 | [#40522](https://github.com/sgl-project/sglang/issues/40522) | [RFC] Decouple the SWA sidecar page size from the full-attention page size (DSv4, Hybrid … | mitu626 | 2026-09-21 | 🟢 开放 | 一般 |  |  |
 | [#43949](https://github.com/sgl-project/sglang/issues/43949) | [RFC] Monokernel framework for SGLang | kevin-mii | 2026-10-13 | 🟢 开放 | 一般 |  |  |
 | [#44786](https://github.com/sgl-project/sglang/issues/44786) | [RFC / Feature] SPICY-KV: 28.6x–50x Pre-RoPE Algebraic Multigrid KV Compression for Radix… | Yuge-Y | 2026-10-16 | 🟢 开放 | 一般 |  |  |
+| [#49536](https://github.com/sgl-project/sglang/issues/49536) | [RFC] Kimi K3 decode: FlashInfer reuse and integration scope | YaoleWu | 2026-11-10 | 🟢 开放 | 🔥 重点 |  | [卡片](rfc-cards/rfc-49536-rfc-kimi-k3-decode-flashinfer-reuse-and.md) |
 
 ## KV Cache / Memory(KV Cache 与显存) (22)
 
@@ -233,7 +234,7 @@
 | [#32321](https://github.com/sgl-project/sglang/issues/32321) | [RFC] Apple Silicon serving redesign: Torch-owned SRT path with an exported whole-model M… | noob-se7en | 2026-07-24 | 🟢 开放 | 一般 |  |  |
 | [#46764](https://github.com/sgl-project/sglang/issues/46764) | [RFC][Feature] SM90 Implementation Plan for the Q4 Agentic Cache Scheduling Roadmap | luoroger37 | 2026-10-27 | ⚪ 已关闭 | 一般 |  |  |
 
-## Other(其他) (55)
+## Other(其他) (56)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -273,7 +274,7 @@
 | [#35648](https://github.com/sgl-project/sglang/issues/35648) | [Feature] [RFC] Same-GPU model replicas with managed CUDA MPS and a shared KV pool | adityavaid | 2026-08-20 | ⚪ 已关闭 | 一般 |  |  |
 | [#35789](https://github.com/sgl-project/sglang/issues/35789) | RFC: Re-layer Draft SWA into Committed Sidecar KV and Verify Scratch | zhangxiaolei123456 | 2026-08-21 | ⚪ 已关闭 | 一般 |  |  |
 | [#36208](https://github.com/sgl-project/sglang/issues/36208) | [RFC] Per-Token-Range KV-Cache Retention Priority | limarkdcunha | 2026-08-24 | ⚪ 已关闭 | 一般 |  |  |
-| [#36224](https://github.com/sgl-project/sglang/issues/36224) | [RFC] First-Class, Versioned KV Hint Envelope for SGLang | ishandhanani | 2026-08-24 | 🟢 开放 | 一般 |  |  |
+| [#36224](https://github.com/sgl-project/sglang/issues/36224) | [RFC] First-Class, Versioned KV Hint Envelope for SGLang | ishandhanani | 2026-08-24 | ⚪ 已关闭 | 一般 |  |  |
 | [#37405](https://github.com/sgl-project/sglang/issues/37405) | [RFC] Incremental test cleanup, CI taxonomy, and shared diffusion dispatch | BBuf | 2026-09-01 | ⚪ 已关闭 | 一般 |  |  |
 | [#38357](https://github.com/sgl-project/sglang/issues/38357) | [RFC / Feature]: Zero-Copy In-Place KV-Cache Compactor via In-Situ Cycle Permutations (1.… | aemre-cetin | 2026-09-07 | ⚪ 已关闭 | 一般 |  |  |
 | [#39963](https://github.com/sgl-project/sglang/issues/39963) | [RFC] Asymmetric P/D deployment for DeepSeek-V4.1 Flash | gz944367214 | 2026-09-17 | 🟢 开放 | 一般 |  |  |
@@ -292,9 +293,10 @@
 | [#47763](https://github.com/sgl-project/sglang/issues/47763) | [RFC] Agent harness x SGLang: keep multi-turn agent prefixes cacheable | alphabetc1 | 2026-11-01 | 🟢 开放 | 一般 |  |  |
 | [#48300](https://github.com/sgl-project/sglang/issues/48300) | [Feature][RFC] Preserve measured cache-write usage across PD handoff | YaoleWu | 2026-11-04 | 🟢 开放 | 一般 |  |  |
 | [#48344](https://github.com/sgl-project/sglang/issues/48344) | [RFC] mem_cache: Cross-branch KV page splicing and cursor fork/rewind for hybrid models (… | shatianming5 | 2026-11-04 | ⚪ 已关闭 | 一般 |  |  |
+| [#49257](https://github.com/sgl-project/sglang/issues/49257) | [Feature][RFC] STANDALONE PD: homogeneous TP=2 handoff and rank-consistent seed rejection | andrewzyxing | 2026-11-09 | 🟢 开放 | 一般 |  |  |
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-07T13:53:26+00:00
-- **vllm** @1ecc9cc4ce66 (upstream HEAD 2026-11-07) — commit: https://github.com/vllm-project/vllm/commit/1ecc9cc4ce6626352df39e4364579ec376c10761 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-07T12:33:17+00:00 | RFC 917 → 重点档 222 → 摘要卡 222
-- **sglang** @ba5906471c62 (upstream HEAD 2026-11-07) — commit: https://github.com/sgl-project/sglang/commit/ba5906471c62e82c0594a617b4d07d9b2c0fd2b3 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-07T12:33:17+00:00 | RFC 202 → 重点档 42 → 摘要卡 42
+- 快照记录时间: 2026-11-11T17:43:40+00:00
+- **vllm** @adff2e86fb12 (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/adff2e86fb12b1e964426e56600728fce6d401e4 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-11T15:48:44+00:00 | RFC 937 → 重点档 224 → 摘要卡 224
+- **sglang** @983455aeed42 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/983455aeed423cf5b46931218e0a3f60b6745124 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-11T15:48:44+00:00 | RFC 204 → 重点档 43 → 摘要卡 43

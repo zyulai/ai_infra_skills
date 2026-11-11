@@ -1,40 +1,40 @@
 # RFC 索引统计总览
 
-- 生成时间: 2026-11-08T02:05:32+00:00
+- 生成时间: 2026-11-11T17:43:45+00:00
 
 ## 总量
 
 | 仓库 | RFC 总数 | 🔥 重点 | 开放 | 已关闭 | 有收益声明 |
 | --- | --- | --- | --- | --- | --- |
-| vllm | 917 | 222 | 371 | 546 | 24 |
-| sglang | 202 | 42 | 68 | 134 | 2 |
+| vllm | 937 | 224 | 386 | 551 | 24 |
+| sglang | 204 | 43 | 68 | 136 | 2 |
 
 ## vllm:分类分布
 
 | 分类 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| Speculative Decoding(投机解码) | 53 | 48 |
-| MoE(混合专家) | 38 | 12 |
-| Quantization(量化) | 43 | 11 |
+| Speculative Decoding(投机解码) | 55 | 49 |
+| MoE(混合专家) | 40 | 13 |
+| Quantization(量化) | 44 | 11 |
 | Disaggregated Serving(分离式部署) | 53 | 25 |
 | CUDA Graph / Compiler(CUDA Graph 与编译) | 33 | 14 |
 | Overlap / Scheduler(重叠与调度) | 28 | 4 |
 | Attention / Kernel(注意力与算子) | 56 | 26 |
-| KV Cache / Memory(KV Cache 与显存) | 80 | 9 |
-| Parallelism / Communication(并行与通信) | 19 | 2 |
+| KV Cache / Memory(KV Cache 与显存) | 83 | 9 |
+| Parallelism / Communication(并行与通信) | 20 | 2 |
 | Sampler / Detokenization(采样与反分词) | 14 | 0 |
 | Frontend / Serving / API(前端与服务 API) | 49 | 3 |
-| Architecture / Engine(架构与引擎) | 51 | 9 |
-| Hardware / Backend(硬件与后端) | 27 | 5 |
-| Feature / Ecosystem(功能与生态) | 81 | 14 |
+| Architecture / Engine(架构与引擎) | 52 | 9 |
+| Hardware / Backend(硬件与后端) | 29 | 5 |
+| Feature / Ecosystem(功能与生态) | 82 | 14 |
 | CI / Infra / Process(CI 与基础流程) | 25 | 8 |
-| Other(其他) | 267 | 32 |
+| Other(其他) | 274 | 32 |
 
 ## vllm:年度分布(按创建时间)
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 569 | 123 |
+| 2026 | 589 | 125 |
 | 2025 | 252 | 64 |
 | 2024 | 94 | 34 |
 | 2023 | 2 | 1 |
@@ -71,12 +71,12 @@
 | [aoshen02](https://github.com/aoshen02) | 27 |
 | [ProExpertProg](https://github.com/ProExpertProg) | 17 |
 | [youkaichao](https://github.com/youkaichao) | 11 |
+| [algebra-MCX](https://github.com/algebra-MCX) | 10 |
 | [WoosukKwon](https://github.com/WoosukKwon) | 9 |
 | [simon-mo](https://github.com/simon-mo) | 9 |
 | [robertgshaw2-redhat](https://github.com/robertgshaw2-redhat) | 9 |
 | [LucasWilkinson](https://github.com/LucasWilkinson) | 9 |
 | [zou3519](https://github.com/zou3519) | 9 |
-| [algebra-MCX](https://github.com/algebra-MCX) | 9 |
 | [tjtanaa](https://github.com/tjtanaa) | 8 |
 | [pisceskkk](https://github.com/pisceskkk) | 7 |
 | [afeldman-nm](https://github.com/afeldman-nm) | 6 |
@@ -94,20 +94,20 @@
 | Disaggregated Serving(分离式部署) | 12 | 10 |
 | CUDA Graph / Compiler(CUDA Graph 与编译) | 4 | 4 |
 | Overlap / Scheduler(重叠与调度) | 11 | 0 |
-| Attention / Kernel(注意力与算子) | 13 | 7 |
+| Attention / Kernel(注意力与算子) | 14 | 8 |
 | KV Cache / Memory(KV Cache 与显存) | 22 | 3 |
 | Frontend / Serving / API(前端与服务 API) | 13 | 0 |
 | Architecture / Engine(架构与引擎) | 15 | 2 |
 | Hardware / Backend(硬件与后端) | 8 | 1 |
 | Feature / Ecosystem(功能与生态) | 18 | 0 |
 | CI / Infra / Process(CI 与基础流程) | 4 | 0 |
-| Other(其他) | 55 | 6 |
+| Other(其他) | 56 | 6 |
 
 ## sglang:年度分布(按创建时间)
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 171 | 30 |
+| 2026 | 173 | 31 |
 | 2025 | 31 | 12 |
 
 ## sglang:热度 Top 20 (reactions×2 + comments)
@@ -128,7 +128,7 @@
 | 26 | [#19421](https://github.com/sgl-project/sglang/issues/19421) | [diffusion][RFC]Realtime Diffusion Design | ⚪ 已关闭 |
 | 25 | [#9853](https://github.com/sgl-project/sglang/issues/9853) | RFC: Command-Line Interface Architecture for SGLang | ⚪ 已关闭 |
 | 23 | [#22558](https://github.com/sgl-project/sglang/issues/22558) | [RFC] Native gRPC Server for SGLang in Rust | ⚪ 已关闭 |
-| 22 | [#32321](https://github.com/sgl-project/sglang/issues/32321) | [RFC] Apple Silicon serving redesign: Torch-owned SRT path … | 🟢 开放 |
+| 23 | [#32321](https://github.com/sgl-project/sglang/issues/32321) | [RFC] Apple Silicon serving redesign: Torch-owned SRT path … | 🟢 开放 |
 | 21 | [#5471](https://github.com/sgl-project/sglang/issues/5471) | [RFC][Feature][Model] Add templated fallback HF `transforme… | ⚪ 已关闭 |
 | 21 | [#11334](https://github.com/sgl-project/sglang/issues/11334) | [RFC] Directory Structure Does Not Align with Non-PyTorch I… | ⚪ 已关闭 |
 | 21 | [#30928](https://github.com/sgl-project/sglang/issues/30928) | [RFC] Position-Independent KV Cache Reuse for Agentic/RAG W… | ⚪ 已关闭 |
@@ -157,6 +157,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-07T13:53:26+00:00
-- **vllm** @1ecc9cc4ce66 (upstream HEAD 2026-11-07) — commit: https://github.com/vllm-project/vllm/commit/1ecc9cc4ce6626352df39e4364579ec376c10761 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-07T12:33:17+00:00 | RFC 917 → 重点档 222 → 摘要卡 222
-- **sglang** @ba5906471c62 (upstream HEAD 2026-11-07) — commit: https://github.com/sgl-project/sglang/commit/ba5906471c62e82c0594a617b4d07d9b2c0fd2b3 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-07T12:33:17+00:00 | RFC 202 → 重点档 42 → 摘要卡 42
+- 快照记录时间: 2026-11-11T17:43:40+00:00
+- **vllm** @adff2e86fb12 (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/adff2e86fb12b1e964426e56600728fce6d401e4 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-11T15:48:44+00:00 | RFC 937 → 重点档 224 → 摘要卡 224
+- **sglang** @983455aeed42 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/983455aeed423cf5b46931218e0a3f60b6745124 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-11T15:48:44+00:00 | RFC 204 → 重点档 43 → 摘要卡 43

@@ -1,0 +1,13 @@
+{
+  "repo": "sglang",
+  "category": "Attention / Kernel",
+  "count": 1,
+  "prs": [
+    {
+      "number": 48786,
+      "title": "[Feat] HiCache: add tma copy kernel for unified layout",
+      "pack": "data/cards-workdir/sglang/packs/pr-48786.pack.md",
+      "card_out": "index/sglang/cards/pr-48786-<slug>.md"
+    }
+  ]
+}

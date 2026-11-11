@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "MoE",
-  "count": 9,
+  "count": 11,
   "prs": [
     {
       "number": 45828,
@@ -56,6 +56,18 @@
       "title": "[Chore] [NVIDIA] deps: Bump FlashInfer to 0.7.3 and migrate the NVLink one-sided all-to-all to flashinfer.moe_ep",
       "pack": "data/cards-workdir/sglang/packs/pr-48468.pack.md",
       "card_out": "index/sglang/cards/pr-48468-<slug>.md"
+    },
+    {
+      "number": 48638,
+      "title": "[Perf] [NVIDIA] moe: Add an opt-in persistent MXFP4 decode MoE kernel for Kimi-K3.1",
+      "pack": "data/cards-workdir/sglang/packs/pr-48638.pack.md",
+      "card_out": "index/sglang/cards/pr-48638-<slug>.md"
+    },
+    {
+      "number": 49091,
+      "title": "[Perf] [NVIDIA] moe: Generalize the MXFP4 decode MoE kernel to covered shapes and DeepSeek-V4",
+      "pack": "data/cards-workdir/sglang/packs/pr-49091.pack.md",
+      "card_out": "index/sglang/cards/pr-49091-<slug>.md"
     }
   ]
 }

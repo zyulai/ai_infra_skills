@@ -232,16 +232,16 @@
       "card_out": "index/sglang/cards/pr-41790-<slug>.md"
     },
     {
+      "number": 41794,
+      "title": "[Perf] [AMD] kimi-k3: Run the fused KDA decode with a BF16 state and Quark weights",
+      "pack": "data/cards-workdir/sglang/packs/pr-41794.pack.md",
+      "card_out": "index/sglang/cards/pr-41794-<slug>.md"
+    },
+    {
       "number": 43062,
       "title": "[Diffusion] Add ModelOpt FP8 checkpoint quantization for Pi0.5",
       "pack": "data/cards-workdir/sglang/packs/pr-43062.pack.md",
       "card_out": "index/sglang/cards/pr-43062-<slug>.md"
-    },
-    {
-      "number": 43390,
-      "title": "[Perf] [NVIDIA] fp8_fa_sm120: Use the block-scaled MMA encoding",
-      "pack": "data/cards-workdir/sglang/packs/pr-43390.pack.md",
-      "card_out": "index/sglang/cards/pr-43390-<slug>.md"
     }
   ]
 }

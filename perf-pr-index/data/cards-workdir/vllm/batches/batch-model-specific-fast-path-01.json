@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "Model-specific Fast Path",
-  "count": 27,
+  "count": 31,
   "prs": [
     {
       "number": 55331,
@@ -94,6 +94,12 @@
       "card_out": "index/vllm/cards/pr-59327-<slug>.md"
     },
     {
+      "number": 59981,
+      "title": "[Perf] V2 runner decode optimizations for NVIDIA Confidential Computing",
+      "pack": "data/cards-workdir/vllm/packs/pr-59981.pack.md",
+      "card_out": "index/vllm/cards/pr-59981-<slug>.md"
+    },
+    {
       "number": 60103,
       "title": "[Perf][HiSparse] Fuse per-layer slot invalidation and shorten the all-resident resolver path",
       "pack": "data/cards-workdir/vllm/packs/pr-60103.pack.md",
@@ -154,6 +160,12 @@
       "card_out": "index/vllm/cards/pr-62698-<slug>.md"
     },
     {
+      "number": 63893,
+      "title": "[ROCm][Perf][DSv4.1] Mono: tuned K1 at TP4",
+      "pack": "data/cards-workdir/vllm/packs/pr-63893.pack.md",
+      "card_out": "index/vllm/cards/pr-63893-<slug>.md"
+    },
+    {
       "number": 64357,
       "title": "[Model Loader] Run the model-level post-load hook once at the end of every load and reload",
       "pack": "data/cards-workdir/vllm/packs/pr-64357.pack.md",
@@ -164,6 +176,18 @@
       "title": "[Bugfix][MRV2][Spec Decode] Keep P/D prompt tails on FULL graphs with adaptive verification",
       "pack": "data/cards-workdir/vllm/packs/pr-65041.pack.md",
       "card_out": "index/vllm/cards/pr-65041-<slug>.md"
+    },
+    {
+      "number": 66552,
+      "title": "[Perf][DSv4.1] Engram: 128-row lookup tiles; split GPU tables across engines",
+      "pack": "data/cards-workdir/vllm/packs/pr-66552.pack.md",
+      "card_out": "index/vllm/cards/pr-66552-<slug>.md"
+    },
+    {
+      "number": 66652,
+      "title": "[Perf][DSv4.1] CuTe DSL mHC boundary for decode batches up to 336 tokens",
+      "pack": "data/cards-workdir/vllm/packs/pr-66652.pack.md",
+      "card_out": "index/vllm/cards/pr-66652-<slug>.md"
     }
   ]
 }

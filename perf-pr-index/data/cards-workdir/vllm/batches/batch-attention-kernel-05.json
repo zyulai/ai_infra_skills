@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "Attention / Kernel",
-  "count": 28,
+  "count": 32,
   "prs": [
     {
       "number": 58737,
@@ -20,6 +20,12 @@
       "title": "[Kernel] Bump FlashKDA to keep the recurrent state in fp32",
       "pack": "data/cards-workdir/vllm/packs/pr-58846.pack.md",
       "card_out": "index/vllm/cards/pr-58846-<slug>.md"
+    },
+    {
+      "number": 59025,
+      "title": "[Kernel] Register the cudnn backend for FlashInfer BF16 mm",
+      "pack": "data/cards-workdir/vllm/packs/pr-59025.pack.md",
+      "card_out": "index/vllm/cards/pr-59025-<slug>.md"
     },
     {
       "number": 59533,
@@ -124,6 +130,12 @@
       "card_out": "index/vllm/cards/pr-62633-<slug>.md"
     },
     {
+      "number": 63847,
+      "title": "[ROCm][Kernel] Support persistent_topk on ROCm",
+      "pack": "data/cards-workdir/vllm/packs/pr-63847.pack.md",
+      "card_out": "index/vllm/cards/pr-63847-<slug>.md"
+    },
+    {
       "number": 63864,
       "title": "[Perf] Tune the Triton packed GDN decode tile on SM90",
       "pack": "data/cards-workdir/vllm/packs/pr-63864.pack.md",
@@ -170,6 +182,18 @@
       "title": "[Bugfix][Multimodal] Fix FlashInfer ViT attention for GLM-4.1V, GLM-OCR and GLM-5.3-Flash",
       "pack": "data/cards-workdir/vllm/packs/pr-65778.pack.md",
       "card_out": "index/vllm/cards/pr-65778-<slug>.md"
+    },
+    {
+      "number": 66037,
+      "title": "[Core][Kimi K3.1] KV cache and attention changes to serve Kimi K3.1 at TP8 (Kimi K3.1 split 3/5)",
+      "pack": "data/cards-workdir/vllm/packs/pr-66037.pack.md",
+      "card_out": "index/vllm/cards/pr-66037-<slug>.md"
+    },
+    {
+      "number": 66986,
+      "title": "[Bugfix][Muse Spark] Avoid the FlashInfer Cake PDL race in gated_residual_rmsnorm",
+      "pack": "data/cards-workdir/vllm/packs/pr-66986.pack.md",
+      "card_out": "index/vllm/cards/pr-66986-<slug>.md"
     }
   ]
 }

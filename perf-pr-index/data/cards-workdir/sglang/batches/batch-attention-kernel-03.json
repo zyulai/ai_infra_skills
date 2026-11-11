@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "Attention / Kernel",
-  "count": 37,
+  "count": 40,
   "prs": [
     {
       "number": 37938,
@@ -160,6 +160,12 @@
       "card_out": "index/sglang/cards/pr-45254-<slug>.md"
     },
     {
+      "number": 45264,
+      "title": "[Perf] [NVIDIA] mhc: Use BLOCK_K=32 for the hc_mix kernel on SM120",
+      "pack": "data/cards-workdir/sglang/packs/pr-45264.pack.md",
+      "card_out": "index/sglang/cards/pr-45264-<slug>.md"
+    },
+    {
       "number": 45713,
       "title": "[Perf] [AMD] kda: Use a HIP fused decode kernel by default for KDA (Kimi-K3) on gfx950",
       "pack": "data/cards-workdir/sglang/packs/pr-45713.pack.md",
@@ -208,6 +214,12 @@
       "card_out": "index/sglang/cards/pr-46723-<slug>.md"
     },
     {
+      "number": 46929,
+      "title": "[Fix] mnnvl: Match FlashInfer's arch-specific CuTe DSL AR profiles",
+      "pack": "data/cards-workdir/sglang/packs/pr-46929.pack.md",
+      "card_out": "index/sglang/cards/pr-46929-<slug>.md"
+    },
+    {
       "number": 47062,
       "title": "[Perf] [AMD] attention: Use the AITER FAv3 varlen kernel on gfx942 as well",
       "pack": "data/cards-workdir/sglang/packs/pr-47062.pack.md",
@@ -218,6 +230,12 @@
       "title": "[Perf] diffusion: keep GQA and MOSS-Image attention on cuDNN SDPA on Blackwell",
       "pack": "data/cards-workdir/sglang/packs/pr-47586.pack.md",
       "card_out": "index/sglang/cards/pr-47586-<slug>.md"
+    },
+    {
+      "number": 48406,
+      "title": "[Perf] [AMD] qwen3: Let the fused QK-norm + RoPE + KV write serve the vectorized_5d layout",
+      "pack": "data/cards-workdir/sglang/packs/pr-48406.pack.md",
+      "card_out": "index/sglang/cards/pr-48406-<slug>.md"
     },
     {
       "number": 48784,

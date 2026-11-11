@@ -1,0 +1,7 @@
+PR #58094 | [Bugfix][Spec Decode] Propagate rope hf_overrides to MTP draft | pack=data/cards-workdir/vllm/packs/pr-58094.pack.md | out=index/vllm/cards/pr-58094-bugfix-spec-decode-propagate-rope-hf-ove.md
+PR #62769 | [Bugfix][Spec Decode] Synchronize adaptive DSpark decisions across TP ranks | pack=data/cards-workdir/vllm/packs/pr-62769.pack.md | out=index/vllm/cards/pr-62769-bugfix-spec-decode-synchronize-adaptive.md
+PR #66037 | [Core][Kimi K3.1] KV cache and attention changes to serve Kimi K3.1 at TP8 (Kimi K3.1 split 3/5) | pack=data/cards-workdir/vllm/packs/pr-66037.pack.md | out=index/vllm/cards/pr-66037-core-kimi-k3-1-kv-cache-and-attention-ch.md
+PR #65177 | [Bugfix][Quantization] Index INT8 MoE per-channel weight scales independently of act quant - #58570 | pack=data/cards-workdir/vllm/packs/pr-65177.pack.md | out=index/vllm/cards/pr-65177-bugfix-quantization-index-int8-moe-per-c.md
+PR #57810 | [Core][KVConnector] Keep the offloaded KV tier across pause/sleep | pack=data/cards-workdir/vllm/packs/pr-57810.pack.md | out=index/vllm/cards/pr-57810-core-kvconnector-keep-the-offloaded-kv-t.md
+PR #51006 | [MoE] Make fused MoE routers pluggable | pack=data/cards-workdir/vllm/packs/pr-51006.pack.md | out=index/vllm/cards/pr-51006-moe-make-fused-moe-routers-pluggable.md
+PR #59025 | [Kernel] Register the cudnn backend for FlashInfer BF16 mm | pack=data/cards-workdir/vllm/packs/pr-59025.pack.md | out=index/vllm/cards/pr-59025-kernel-register-the-cudnn-backend-for-fl.md

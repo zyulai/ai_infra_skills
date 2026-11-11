@@ -1,8 +1,14 @@
 {
   "repo": "sglang",
   "category": "Quantization",
-  "count": 11,
+  "count": 17,
   "prs": [
+    {
+      "number": 43390,
+      "title": "[Perf] [NVIDIA] fp8_fa_sm120: Use the block-scaled MMA encoding",
+      "pack": "data/cards-workdir/sglang/packs/pr-43390.pack.md",
+      "card_out": "index/sglang/cards/pr-43390-<slug>.md"
+    },
     {
       "number": 43786,
       "title": "[Perf] DeepSeek-V4: Fuse inverse RoPE into wo_a FP8 quantization",
@@ -14,6 +20,12 @@
       "title": "[Perf] [NVIDIA] qsa: Keep sparse decode scratch in FP8 for FP8 KV pools",
       "pack": "data/cards-workdir/sglang/packs/pr-44114.pack.md",
       "card_out": "index/sglang/cards/pr-44114-<slug>.md"
+    },
+    {
+      "number": 44486,
+      "title": "[Perf] quantization: Add the bias in the cuBLASLt epilogue for per-tensor FP8 linears",
+      "pack": "data/cards-workdir/sglang/packs/pr-44486.pack.md",
+      "card_out": "index/sglang/cards/pr-44486-<slug>.md"
     },
     {
       "number": 44838,
@@ -52,6 +64,12 @@
       "card_out": "index/sglang/cards/pr-46690-<slug>.md"
     },
     {
+      "number": 46965,
+      "title": "[Feat] [NVIDIA] flash-attn: FA4 SM90 FP8 e4m3 KV cache for head_dim 256 and 512 (Gemma-4)",
+      "pack": "data/cards-workdir/sglang/packs/pr-46965.pack.md",
+      "card_out": "index/sglang/cards/pr-46965-<slug>.md"
+    },
+    {
       "number": 47503,
       "title": "[Perf] rmsnorm: One SM100-tuned JIT template for plain, fused residual-add and fp8 per-tensor quant",
       "pack": "data/cards-workdir/sglang/packs/pr-47503.pack.md",
@@ -62,6 +80,24 @@
       "title": "[Feat] [AMD] quark: Quark int4 W4A16 on ROCm, and gfx1151 kernels for Strix Halo decode and prefill",
       "pack": "data/cards-workdir/sglang/packs/pr-47695.pack.md",
       "card_out": "index/sglang/cards/pr-47695-<slug>.md"
+    },
+    {
+      "number": 48165,
+      "title": "[Perf] quantization: Speed up Hopper group32 FP8 quantization with FP32 scales",
+      "pack": "data/cards-workdir/sglang/packs/pr-48165.pack.md",
+      "card_out": "index/sglang/cards/pr-48165-<slug>.md"
+    },
+    {
+      "number": 48405,
+      "title": "[Perf] [AMD] kvcache: Fuse fp8 quantization into the vectorized_5d KV-cache write",
+      "pack": "data/cards-workdir/sglang/packs/pr-48405.pack.md",
+      "card_out": "index/sglang/cards/pr-48405-<slug>.md"
+    },
+    {
+      "number": 48563,
+      "title": "[Perf] [NVIDIA] gemma4: fuse the TP all-reduce with the layer epilogue and FP8 quant on NVLink multicast",
+      "pack": "data/cards-workdir/sglang/packs/pr-48563.pack.md",
+      "card_out": "index/sglang/cards/pr-48563-<slug>.md"
     },
     {
       "number": 48733,

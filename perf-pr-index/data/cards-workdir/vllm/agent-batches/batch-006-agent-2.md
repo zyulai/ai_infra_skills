@@ -1,0 +1,9 @@
+PR #61498 | [ROCm][Perf][Kimi-K3] Mono decode layer for Kimi-K3 on MI355X w/ vanilla decode | pack=data/cards-workdir/vllm/packs/pr-61498.pack.md | out=index/vllm/cards/pr-61498-rocm-perf-kimi-k3-mono-decode-layer-for.md
+PR #65987 | [Bugfix] Make fused MoE expert weights contiguous before GPU copy in Llama-4 | pack=data/cards-workdir/vllm/packs/pr-65987.pack.md | out=index/vllm/cards/pr-65987-bugfix-make-fused-moe-expert-weights-con.md
+PR #66986 | [Bugfix][Muse Spark] Avoid the FlashInfer Cake PDL race in gated_residual_rmsnorm | pack=data/cards-workdir/vllm/packs/pr-66986.pack.md | out=index/vllm/cards/pr-66986-bugfix-muse-spark-avoid-the-flashinfer-c.md
+PR #64994 | [Perf][DCP] Up-project the MLA decode output before the A2A merge | pack=data/cards-workdir/vllm/packs/pr-64994.pack.md | out=index/vllm/cards/pr-64994-perf-dcp-up-project-the-mla-decode-outpu.md
+PR #63540 | [Perf][DSv4] Process 4 heads per program in fused_inv_rope_fp8_quant | pack=data/cards-workdir/vllm/packs/pr-63540.pack.md | out=index/vllm/cards/pr-63540-perf-dsv4-process-4-heads-per-program-in.md
+PR #66512 | [Perf][Qwen4Exp] Faster QSA kernel for large fp8 batches on Blackwell | pack=data/cards-workdir/vllm/packs/pr-66512.pack.md | out=index/vllm/cards/pr-66512-perf-qwen4exp-faster-qsa-kernel-for-larg.md
+PR #63893 | [ROCm][Perf][DSv4.1] Mono: tuned K1 at TP4 | pack=data/cards-workdir/vllm/packs/pr-63893.pack.md | out=index/vllm/cards/pr-63893-rocm-perf-dsv4-1-mono-tuned-k1-at-tp4.md
+PR #66652 | [Perf][DSv4.1] CuTe DSL mHC boundary for decode batches up to 336 tokens | pack=data/cards-workdir/vllm/packs/pr-66652.pack.md | out=index/vllm/cards/pr-66652-perf-dsv4-1-cute-dsl-mhc-boundary-for-de.md
+PR #46871 | [XPU] All-to-all Expert-Parallellism backend for batched MoE | pack=data/cards-workdir/vllm/packs/pr-46871.pack.md | out=index/vllm/cards/pr-46871-xpu-all-to-all-expert-parallellism-backe.md

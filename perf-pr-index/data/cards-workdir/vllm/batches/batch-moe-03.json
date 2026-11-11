@@ -1,8 +1,20 @@
 {
   "repo": "vllm",
   "category": "MoE",
-  "count": 6,
+  "count": 11,
   "prs": [
+    {
+      "number": 61895,
+      "title": "[ROCm][Perf] Any-shape low-latency MoE router GEMM on MI355",
+      "pack": "data/cards-workdir/vllm/packs/pr-61895.pack.md",
+      "card_out": "index/vllm/cards/pr-61895-<slug>.md"
+    },
+    {
+      "number": 62054,
+      "title": "[MoE] Use the sorted fused-MoE path for host-resident expert weights",
+      "pack": "data/cards-workdir/vllm/packs/pr-62054.pack.md",
+      "card_out": "index/vllm/cards/pr-62054-<slug>.md"
+    },
     {
       "number": 62366,
       "title": "[Model][Perf] Fuse Beam's TP all-reduce with its sandwich norms and MoE finalize",
@@ -34,10 +46,28 @@
       "card_out": "index/vllm/cards/pr-64378-<slug>.md"
     },
     {
+      "number": 65177,
+      "title": "[Bugfix][Quantization] Index INT8 MoE per-channel weight scales independently of act quant - #58570",
+      "pack": "data/cards-workdir/vllm/packs/pr-65177.pack.md",
+      "card_out": "index/vllm/cards/pr-65177-<slug>.md"
+    },
+    {
       "number": 65498,
       "title": "[Perf][MoE] Skip the combine staging copy in flashinfer_nvlink_one_sided",
       "pack": "data/cards-workdir/vllm/packs/pr-65498.pack.md",
       "card_out": "index/vllm/cards/pr-65498-<slug>.md"
+    },
+    {
+      "number": 65975,
+      "title": "[Perf][Quantization] Use fast SiLU intrinsics in Humming MoE activations",
+      "pack": "data/cards-workdir/vllm/packs/pr-65975.pack.md",
+      "card_out": "index/vllm/cards/pr-65975-<slug>.md"
+    },
+    {
+      "number": 65987,
+      "title": "[Bugfix] Make fused MoE expert weights contiguous before GPU copy in Llama-4",
+      "pack": "data/cards-workdir/vllm/packs/pr-65987.pack.md",
+      "card_out": "index/vllm/cards/pr-65987-<slug>.md"
     }
   ]
 }

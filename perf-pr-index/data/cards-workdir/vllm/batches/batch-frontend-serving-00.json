@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "Frontend / Serving",
-  "count": 10,
+  "count": 11,
   "prs": [
     {
       "number": 7957,
@@ -62,6 +62,12 @@
       "title": "[Frontend][RL] Track HTTP weight operation outcomes and concurrency",
       "pack": "data/cards-workdir/vllm/packs/pr-55781.pack.md",
       "card_out": "index/vllm/cards/pr-55781-<slug>.md"
+    },
+    {
+      "number": 65028,
+      "title": "[Perf][Rust Frontend] Serialize SSE chunks before building the event",
+      "pack": "data/cards-workdir/vllm/packs/pr-65028.pack.md",
+      "card_out": "index/vllm/cards/pr-65028-<slug>.md"
     }
   ]
 }

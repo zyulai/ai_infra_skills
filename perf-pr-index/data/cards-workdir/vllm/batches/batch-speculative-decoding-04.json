@@ -1,8 +1,32 @@
 {
   "repo": "vllm",
   "category": "Speculative Decoding",
-  "count": 22,
+  "count": 31,
   "prs": [
+    {
+      "number": 62843,
+      "title": "[Perf][GLM-5.3] Enable GLM low-latency BF16 GEMM on SM107",
+      "pack": "data/cards-workdir/vllm/packs/pr-62843.pack.md",
+      "card_out": "index/vllm/cards/pr-62843-<slug>.md"
+    },
+    {
+      "number": 62956,
+      "title": "[Perf][glm5next] Add SM121 TP=2 skinny-GEMM plans for GLM-5.3-Flash",
+      "pack": "data/cards-workdir/vllm/packs/pr-62956.pack.md",
+      "card_out": "index/vllm/cards/pr-62956-<slug>.md"
+    },
+    {
+      "number": 63027,
+      "title": "[ROCm][Perf][DSv4.1] Mono: tuned K1/K2 for the TP2 compress-ratio-2 layers on MI355X",
+      "pack": "data/cards-workdir/vllm/packs/pr-63027.pack.md",
+      "card_out": "index/vllm/cards/pr-63027-<slug>.md"
+    },
+    {
+      "number": 63096,
+      "title": "[ROCm][Spec Decode] Enable fused multi-step draft decode for ROCM_AITER_UNIFIED_ATTN",
+      "pack": "data/cards-workdir/vllm/packs/pr-63096.pack.md",
+      "card_out": "index/vllm/cards/pr-63096-<slug>.md"
+    },
     {
       "number": 63219,
       "title": "[Bugfix][Spec Decode] Per-request draft retention for structured output under PP",
@@ -14,6 +38,12 @@
       "title": "[Spec Decode] Support trace replay with speculative decoding",
       "pack": "data/cards-workdir/vllm/packs/pr-63275.pack.md",
       "card_out": "index/vllm/cards/pr-63275-<slug>.md"
+    },
+    {
+      "number": 63540,
+      "title": "[Perf][DSv4] Process 4 heads per program in fused_inv_rope_fp8_quant",
+      "pack": "data/cards-workdir/vllm/packs/pr-63540.pack.md",
+      "card_out": "index/vllm/cards/pr-63540-<slug>.md"
     },
     {
       "number": 63638,
@@ -94,6 +124,12 @@
       "card_out": "index/vllm/cards/pr-64692-<slug>.md"
     },
     {
+      "number": 64715,
+      "title": "[ROCm][UMBP] Support UMBP standalone mode for DeepSeek-V4.1-Flash",
+      "pack": "data/cards-workdir/vllm/packs/pr-64715.pack.md",
+      "card_out": "index/vllm/cards/pr-64715-<slug>.md"
+    },
+    {
       "number": 64829,
       "title": "[CPU][Perf] Speed up GDN speculative-decode recurrent update",
       "pack": "data/cards-workdir/vllm/packs/pr-64829.pack.md",
@@ -104,6 +140,12 @@
       "title": "[Perf][MiniMax-M3] (NVIDIA-only) Fused norm+quant MXFP8",
       "pack": "data/cards-workdir/vllm/packs/pr-64852.pack.md",
       "card_out": "index/vllm/cards/pr-64852-<slug>.md"
+    },
+    {
+      "number": 64994,
+      "title": "[Perf][DCP] Up-project the MLA decode output before the A2A merge",
+      "pack": "data/cards-workdir/vllm/packs/pr-64994.pack.md",
+      "card_out": "index/vllm/cards/pr-64994-<slug>.md"
     },
     {
       "number": 65030,
@@ -134,6 +176,18 @@
       "title": "[Kernel][Perf] Fused GDN MTP: Support DSpark K=8 and use idle SMs at small batch sizes",
       "pack": "data/cards-workdir/vllm/packs/pr-65874.pack.md",
       "card_out": "index/vllm/cards/pr-65874-<slug>.md"
+    },
+    {
+      "number": 65972,
+      "title": "[Perf][MoE] Skip DP padding rows in TRT-LLM monolithic MoE with vLLM's top-k",
+      "pack": "data/cards-workdir/vllm/packs/pr-65972.pack.md",
+      "card_out": "index/vllm/cards/pr-65972-<slug>.md"
+    },
+    {
+      "number": 66512,
+      "title": "[Perf][Qwen4Exp] Faster QSA kernel for large fp8 batches on Blackwell",
+      "pack": "data/cards-workdir/vllm/packs/pr-66512.pack.md",
+      "card_out": "index/vllm/cards/pr-66512-<slug>.md"
     }
   ]
 }

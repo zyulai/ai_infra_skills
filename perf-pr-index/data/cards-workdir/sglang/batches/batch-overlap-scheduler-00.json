@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "Overlap / Scheduler",
-  "count": 21,
+  "count": 22,
   "prs": [
     {
       "number": 1738,
@@ -122,6 +122,12 @@
       "title": "[Sampling] Support sampling masks with overlap scheduling",
       "pack": "data/cards-workdir/sglang/packs/pr-36631.pack.md",
       "card_out": "index/sglang/cards/pr-36631-<slug>.md"
+    },
+    {
+      "number": 40141,
+      "title": "[Feat] [NPU] startup-weight-load: Support overlap mode on NPU",
+      "pack": "data/cards-workdir/sglang/packs/pr-40141.pack.md",
+      "card_out": "index/sglang/cards/pr-40141-<slug>.md"
     },
     {
       "number": 42122,
