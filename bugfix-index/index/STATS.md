@@ -1,13 +1,13 @@
 # Bug Fix 索引统计总览
 
-- 生成时间: 2026-11-11T17:44:12+00:00
+- 生成时间: 2026-11-11T19:04:46+00:00
 
 ## 总量
 
 | 仓库 | 收录总数 | 🔥 重点 | 正确性 | 崩溃 | 挂死 | 资源 | 回归 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| vllm | 7974 | 649 | 285 | 179 | 91 | 71 | 95 |
-| sglang | 6409 | 608 | 301 | 197 | 91 | 75 | 122 |
+| vllm | 7975 | 649 | 285 | 179 | 91 | 71 | 95 |
+| sglang | 6411 | 608 | 301 | 197 | 91 | 75 | 122 |
 
 ## vllm:分类分布
 
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | Speculative Decoding(投机解码) | 284 | 46 |
 | MoE(混合专家) | 434 | 49 |
-| Quantization(量化) | 558 | 47 |
+| Quantization(量化) | 559 | 47 |
 | CUDA Graph / Compiler(CUDA Graph 与编译) | 286 | 27 |
 | Overlap / Scheduler(重叠与调度) | 131 | 16 |
 | Attention / Kernel(注意力与算子) | 820 | 92 |
@@ -37,13 +37,13 @@
 | resource(资源泄漏/OOM) | 71 | 29 |
 | regression(回归) | 95 | 94 |
 | startup(启动/加载) | 102 | 2 |
-| general(一般) | 7151 | 121 |
+| general(一般) | 7152 | 121 |
 
 ## vllm:年度分布(按合并时间)
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 4704 | 455 |
+| 2026 | 4705 | 455 |
 | 2025 | 2316 | 152 |
 | 2024 | 793 | 38 |
 | 2023 | 161 | 4 |
@@ -102,11 +102,11 @@
 | Quantization(量化) | 370 | 48 |
 | CUDA Graph / Compiler(CUDA Graph 与编译) | 201 | 24 |
 | Overlap / Scheduler(重叠与调度) | 215 | 32 |
-| Attention / Kernel(注意力与算子) | 638 | 78 |
+| Attention / Kernel(注意力与算子) | 639 | 78 |
 | KV Cache / Memory(KV Cache 与显存) | 270 | 25 |
 | Parallelism / Communication(并行与通信) | 77 | 10 |
 | Sampler / Detokenization(采样与反分词) | 64 | 9 |
-| Frontend / Serving(前端与服务) | 372 | 27 |
+| Frontend / Serving(前端与服务) | 373 | 27 |
 | Model-specific Fast Path(模型专属快路径) | 541 | 48 |
 | CI / Test-Perf(CI 与测试性能) | 124 | 0 |
 | Other(其他) | 2867 | 206 |
@@ -121,13 +121,13 @@
 | resource(资源泄漏/OOM) | 75 | 17 |
 | regression(回归) | 122 | 120 |
 | startup(启动/加载) | 87 | 1 |
-| general(一般) | 5536 | 53 |
+| general(一般) | 5538 | 53 |
 
 ## sglang:年度分布(按合并时间)
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 3974 | 390 |
+| 2026 | 3976 | 390 |
 | 2025 | 2003 | 192 |
 | 2024 | 432 | 26 |
 
@@ -178,6 +178,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-11T17:43:45+00:00
-- **vllm** @adff2e86fb12 (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/adff2e86fb12b1e964426e56600728fce6d401e4 | API 抓取窗口: 2026-11-08T09:35:42+00:00 ~ 2026-11-11T16:27:33+00:00 | raw 7974 → 重点档 649 → 修复卡 649
-- **sglang** @983455aeed42 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/983455aeed423cf5b46931218e0a3f60b6745124 | API 抓取窗口: 2026-11-08T10:04:47+00:00 ~ 2026-11-11T17:14:20+00:00 | raw 6409 → 重点档 608 → 修复卡 608
+- 快照记录时间: 2026-11-11T19:04:21+00:00
+- **vllm** @b32a87094afc (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/b32a87094afc8e9ec349107db8526bebd552069d | API 抓取窗口: 2026-11-08T09:35:42+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 7975 → 重点档 649 → 修复卡 649
+- **sglang** @56e38dfe0fdb (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/56e38dfe0fdb964af402ba22693bb11898ce88d8 | API 抓取窗口: 2026-11-08T10:04:47+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 6411 → 重点档 608 → 修复卡 608

@@ -1,14 +1,14 @@
 # SGLANG 性能优化 PR 全量索引
 
 - 仓库: https://github.com/sgl-project/sglang
-- 收录总数: **6217** (重点 🔥 **672** / 一般 5545)
-- 生成时间: 2026-11-11T17:43:30+00:00
+- 收录总数: **6219** (重点 🔥 **672** / 一般 5547)
+- 生成时间: 2026-11-11T19:04:11+00:00
 
 ## 目录
 
-- [Speculative Decoding(投机解码) (907)](#speculative-decoding投机解码-907)
+- [Speculative Decoding(投机解码) (908)](#speculative-decoding投机解码-908)
 - [MoE(混合专家) (693)](#moe混合专家-693)
-- [Quantization(量化) (685)](#quantization量化-685)
+- [Quantization(量化) (686)](#quantization量化-686)
 - [CUDA Graph / Compiler(CUDA Graph 与编译) (484)](#cuda-graph--compilercuda-graph-与编译-484)
 - [Overlap / Scheduler(重叠与调度) (210)](#overlap--scheduler重叠与调度-210)
 - [Attention / Kernel(注意力与算子) (1675)](#attention--kernel注意力与算子-1675)
@@ -20,10 +20,11 @@
 - [CI / Test-Perf(CI 与测试性能) (376)](#ci--test-perfci-与测试性能-376)
 - [Other(其他) (597)](#other其他-597)
 
-## Speculative Decoding(投机解码) (907)
+## Speculative Decoding(投机解码) (908)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [#49497](https://github.com/sgl-project/sglang/pull/49497) | [Perf] flashinfer-autotune: Tune MoE with varied warm-up tokens | nvpohanh | 2026-11-11 | 一般 |  |  |
 | [#47513](https://github.com/sgl-project/sglang/pull/47513) | [Perf] attention: Support attention sinks in the split-KV EAGLE verify kernel (gpt-oss) | misha-chertushkin | 2026-11-11 | 一般 |  |  |
 | [#44588](https://github.com/sgl-project/sglang/pull/44588) | [Feat] spec: Online acceptance estimator for DSpark confidence-scheduled verification | Qiaolin-Yu | 2026-11-11 | 🔥 重点 | 8% faster | [卡片](cards/pr-44588-feat-spec-online-acceptance-estimator-fo.md) |
 | [#44458](https://github.com/sgl-project/sglang/pull/44458) | [Perf] [AMD] attention: Use aiter's Triton MLA decode in the aiter backend on gfx1250 | jiaryang | 2026-11-11 | 一般 |  |  |
@@ -1630,11 +1631,12 @@
 | [#2191](https://github.com/sgl-project/sglang/pull/2191) | [3rdparty, document] Updated Documentation that for triton fused_moe kernel tuning for AM… | kkHuang-amd | 2024-11-27 | 一般 |  |  |
 | [#2167](https://github.com/sgl-project/sglang/pull/2167) | [Fused moe] add tuning fused configs for qwen2 57b and mixtral 8x7b | BBuf | 2024-11-25 | 一般 |  |  |
 
-## Quantization(量化) (685)
+## Quantization(量化) (686)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
 | [#49531](https://github.com/sgl-project/sglang/pull/49531) | [Fix] GLM-4.7-Flash: Load compressed-tensors W4A16 checkpoints | koladefaj | 2026-11-11 | 一般 |  |  |
+| [#47469](https://github.com/sgl-project/sglang/pull/47469) | [Perf] [NVIDIA] attention: Add opt-in LiteTopK prefill indexer top-k for DSA (FP8) and De… | DarkSharpness | 2026-11-11 | 一般 |  |  |
 | [#46965](https://github.com/sgl-project/sglang/pull/46965) | [Feat] [NVIDIA] flash-attn: FA4 SM90 FP8 e4m3 KV cache for head_dim 256 and 512 (Gemma-4) | cognaiger9 | 2026-11-11 | 🔥 重点 | up to 61 % | [卡片](cards/pr-46965-feat-nvidia-flash-attn-fa4-sm90-fp8-e4m3.md) |
 | [#41794](https://github.com/sgl-project/sglang/pull/41794) | [Perf] [AMD] kimi-k3: Run the fused KDA decode with a BF16 state and Quark weights | yuychang | 2026-11-11 | 🔥 重点 |  | [卡片](cards/pr-41794-perf-amd-kimi-k3-run-the-fused-kda-decod.md) |
 | [#49659](https://github.com/sgl-project/sglang/pull/49659) | [Refactor] quantization: Quantize MXFP8 weights with a JIT kernel instead of triton_kerne… | Fridge003 | 2026-11-10 | 一般 |  |  |
@@ -6304,6 +6306,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-11T17:43:11+00:00
-- **vllm** @adff2e86fb12 (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/adff2e86fb12b1e964426e56600728fce6d401e4 | API 抓取窗口: 2026-11-07T02:54:22+00:00 ~ 2026-11-11T15:30:25+00:00 | raw 6971 → 重点档 961 → 证据卡 961
-- **sglang** @983455aeed42 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/983455aeed423cf5b46931218e0a3f60b6745124 | API 抓取窗口: 2026-11-07T02:50:25+00:00 ~ 2026-11-11T15:47:59+00:00 | raw 6217 → 重点档 672 → 证据卡 672
+- 快照记录时间: 2026-11-11T19:03:52+00:00
+- **vllm** @b32a87094afc (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/b32a87094afc8e9ec349107db8526bebd552069d | API 抓取窗口: 2026-11-07T02:54:22+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 6972 → 重点档 961 → 证据卡 961
+- **sglang** @56e38dfe0fdb (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/56e38dfe0fdb964af402ba22693bb11898ce88d8 | API 抓取窗口: 2026-11-07T02:50:25+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 6219 → 重点档 672 → 证据卡 672

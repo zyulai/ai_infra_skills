@@ -1,8 +1,8 @@
 # VLLM 性能优化 PR 全量索引
 
 - 仓库: https://github.com/vllm-project/vllm
-- 收录总数: **6971** (重点 🔥 **961** / 一般 6010)
-- 生成时间: 2026-11-11T17:43:16+00:00
+- 收录总数: **6972** (重点 🔥 **961** / 一般 6011)
+- 生成时间: 2026-11-11T19:03:56+00:00
 
 ## 目录
 
@@ -11,7 +11,7 @@
 - [Quantization(量化) (984)](#quantization量化-984)
 - [CUDA Graph / Compiler(CUDA Graph 与编译) (318)](#cuda-graph--compilercuda-graph-与编译-318)
 - [Overlap / Scheduler(重叠与调度) (335)](#overlap--scheduler重叠与调度-335)
-- [Attention / Kernel(注意力与算子) (1347)](#attention--kernel注意力与算子-1347)
+- [Attention / Kernel(注意力与算子) (1348)](#attention--kernel注意力与算子-1348)
 - [KV Cache / Memory(KV Cache 与显存) (411)](#kv-cache--memorykv-cache-与显存-411)
 - [Parallelism / Communication(并行与通信) (29)](#parallelism--communication并行与通信-29)
 - [Sampler / Detokenization(采样与反分词) (59)](#sampler--detokenization采样与反分词-59)
@@ -3320,11 +3320,12 @@
 | [#4280](https://github.com/vllm-project/vllm/pull/4280) | [Core] Scheduling optimization 2 | rkooo567 | 2024-04-23 | 一般 |  |  |
 | [#4270](https://github.com/vllm-project/vllm/pull/4270) | [Core] Scheduler perf fix | rkooo567 | 2024-04-22 | 一般 |  |  |
 
-## Attention / Kernel(注意力与算子) (1347)
+## Attention / Kernel(注意力与算子) (1348)
 
 | PR | 标题 | 作者 | 合并日期 | 档位 | 加速声明 | 证据卡 |
 | --- | --- | --- | --- | --- | --- | --- |
 | [#66986](https://github.com/vllm-project/vllm/pull/66986) | [Bugfix][Muse Spark] Avoid the FlashInfer Cake PDL race in gated_residual_rmsnorm | jeejeelee | 2026-11-11 | 🔥 重点 | 13% faster | [卡片](cards/pr-66986-bugfix-muse-spark-avoid-the-flashinfer-c.md) |
+| [#63878](https://github.com/vllm-project/vllm/pull/63878) | [ROCm][Perf][DSA] Honor skip_kv_gather in the ROCm sparse-indexer prefill loop | MohitAMD | 2026-11-11 | 一般 |  |  |
 | [#63796](https://github.com/vllm-project/vllm/pull/63796) | [Spec Decode][DCP] DSpark: run sliding-window MLA drafts under DCP | NickLucche | 2026-11-11 | 一般 |  |  |
 | [#61501](https://github.com/vllm-project/vllm/pull/61501) | [Perf][Mamba] Opt-in FlashInfer SSD prefill scan; per-step ReplaySSM seed | jhaotingc | 2026-11-11 | 一般 |  |  |
 | [#66854](https://github.com/vllm-project/vllm/pull/66854) | [ROCm][CI] Add  `vllm/v1/attention/backend.py` to the :`amd: (MI355 DPX) MLA Kernels` tes… | rasmith | 2026-11-10 | 一般 |  |  |
@@ -7058,6 +7059,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-11T17:43:11+00:00
-- **vllm** @adff2e86fb12 (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/adff2e86fb12b1e964426e56600728fce6d401e4 | API 抓取窗口: 2026-11-07T02:54:22+00:00 ~ 2026-11-11T15:30:25+00:00 | raw 6971 → 重点档 961 → 证据卡 961
-- **sglang** @983455aeed42 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/983455aeed423cf5b46931218e0a3f60b6745124 | API 抓取窗口: 2026-11-07T02:50:25+00:00 ~ 2026-11-11T15:47:59+00:00 | raw 6217 → 重点档 672 → 证据卡 672
+- 快照记录时间: 2026-11-11T19:03:52+00:00
+- **vllm** @b32a87094afc (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/b32a87094afc8e9ec349107db8526bebd552069d | API 抓取窗口: 2026-11-07T02:54:22+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 6972 → 重点档 961 → 证据卡 961
+- **sglang** @56e38dfe0fdb (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/56e38dfe0fdb964af402ba22693bb11898ce88d8 | API 抓取窗口: 2026-11-07T02:50:25+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 6219 → 重点档 672 → 证据卡 672

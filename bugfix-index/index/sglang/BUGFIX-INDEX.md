@@ -1,8 +1,8 @@
 # SGLANG Bug Fix 全量索引(已合并修复 PR)
 
 - 仓库: https://github.com/sgl-project/sglang
-- 收录总数: **6409** (重点 🔥 **608** / 一般 5801)
-- 生成时间: 2026-11-11T17:44:02+00:00
+- 收录总数: **6411** (重点 🔥 **608** / 一般 5803)
+- 生成时间: 2026-11-11T19:04:37+00:00
 
 ## 目录
 
@@ -11,11 +11,11 @@
 - [Quantization(量化) (370)](#quantization量化-370)
 - [CUDA Graph / Compiler(CUDA Graph 与编译) (201)](#cuda-graph--compilercuda-graph-与编译-201)
 - [Overlap / Scheduler(重叠与调度) (215)](#overlap--scheduler重叠与调度-215)
-- [Attention / Kernel(注意力与算子) (638)](#attention--kernel注意力与算子-638)
+- [Attention / Kernel(注意力与算子) (639)](#attention--kernel注意力与算子-639)
 - [KV Cache / Memory(KV Cache 与显存) (270)](#kv-cache--memorykv-cache-与显存-270)
 - [Parallelism / Communication(并行与通信) (77)](#parallelism--communication并行与通信-77)
 - [Sampler / Detokenization(采样与反分词) (64)](#sampler--detokenization采样与反分词-64)
-- [Frontend / Serving(前端与服务) (372)](#frontend--serving前端与服务-372)
+- [Frontend / Serving(前端与服务) (373)](#frontend--serving前端与服务-373)
 - [Model-specific Fast Path(模型专属快路径) (541)](#model-specific-fast-path模型专属快路径-541)
 - [CI / Test-Perf(CI 与测试性能) (124)](#ci--test-perfci-与测试性能-124)
 - [Other(其他) (2867)](#other其他-2867)
@@ -1501,10 +1501,11 @@
 | [1112](https://github.com/sgl-project/sglang/pull/1112) | [Fix] Window attention compatible with RadixAttention and chunked prefill | Ying1123 | 2024-08-15 | general(一般) | 一般 |  |
 | [984](https://github.com/sgl-project/sglang/pull/984) | Fix chunked prefill | hnyls2002 | 2024-08-08 | general(一般) | 一般 |  |
 
-## Attention / Kernel(注意力与算子) (638)
+## Attention / Kernel(注意力与算子) (639)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [49476](https://github.com/sgl-project/sglang/pull/49476) | [Fix] dsv4/topk_v2: Move the cluster kernels' top-k buffer to dynamic shared memory | akhilg-nv | 2026-11-11 | general(一般) | 一般 |  |
 | [49428](https://github.com/sgl-project/sglang/pull/49428) | [Fix] [AMD] monokernels: Pin sgl-amd-mono at 7113024f for DSpark on current SGLang | kkHuang-amd | 2026-11-11 | general(一般) | 一般 |  |
 | [48616](https://github.com/sgl-project/sglang/pull/48616) | [Fix] gemm: Order the CuTe DSL kernels' TMEM release after the epilogue's tcgen05.ld | bastianhagedorn | 2026-11-10 | general(一般) | 一般 |  |
 | [41293](https://github.com/sgl-project/sglang/pull/41293) | [Fix] gemma4: Honor OOT attention defaults | zyt329 | 2026-11-10 | general(一般) | 一般 |  |
@@ -2570,12 +2571,13 @@
 | [734](https://github.com/sgl-project/sglang/pull/734) | fix /generate without sampling_params | toslunar | 2024-07-26 | general(一般) | 一般 |  |
 | [586](https://github.com/sgl-project/sglang/pull/586) | * fix(detokenizer_manager.py): fix truncated decoded output | Titan-p | 2024-07-06 | general(一般) | 一般 |  |
 
-## Frontend / Serving(前端与服务) (372)
+## Frontend / Serving(前端与服务) (373)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
 | [49758](https://github.com/sgl-project/sglang/pull/49758) | [Fix] tokenizer_manager: Reject logprob_start_len below -1 with a 400 | hnyls2002 | 2026-11-11 | general(一般) | 一般 |  |
 | [49622](https://github.com/sgl-project/sglang/pull/49622) | [Fix] sgl-router: pass a streaming prefill's in-band 4xx through to the client | Kangyan-Zhou | 2026-11-11 | general(一般) | 一般 |  |
+| [49475](https://github.com/sgl-project/sglang/pull/49475) | [Fix] openai: Reject assistant tool calls without a function name (HTTP 500 -> 400) | nvpohanh | 2026-11-11 | general(一般) | 一般 |  |
 | [44236](https://github.com/sgl-project/sglang/pull/44236) | [Fix] metrics: Populate pending_prealloc_token_usage | SovietPower | 2026-11-11 | general(一般) | 一般 |  |
 | [49606](https://github.com/sgl-project/sglang/pull/49606) | [Fix] sgl-router: Render and tokenize off the async workers | Kangyan-Zhou | 2026-11-10 | general(一般) | 一般 |  |
 | [49573](https://github.com/sgl-project/sglang/pull/49573) | [Fix] bench: Check the chat template on the tokenizer the benchmark loads | leejnau | 2026-11-10 | general(一般) | 一般 |  |
@@ -6496,6 +6498,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-11T17:43:45+00:00
-- **vllm** @adff2e86fb12 (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/adff2e86fb12b1e964426e56600728fce6d401e4 | API 抓取窗口: 2026-11-08T09:35:42+00:00 ~ 2026-11-11T16:27:33+00:00 | raw 7974 → 重点档 649 → 修复卡 649
-- **sglang** @983455aeed42 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/983455aeed423cf5b46931218e0a3f60b6745124 | API 抓取窗口: 2026-11-08T10:04:47+00:00 ~ 2026-11-11T17:14:20+00:00 | raw 6409 → 重点档 608 → 修复卡 608
+- 快照记录时间: 2026-11-11T19:04:21+00:00
+- **vllm** @b32a87094afc (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/b32a87094afc8e9ec349107db8526bebd552069d | API 抓取窗口: 2026-11-08T09:35:42+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 7975 → 重点档 649 → 修复卡 649
+- **sglang** @56e38dfe0fdb (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/56e38dfe0fdb964af402ba22693bb11898ce88d8 | API 抓取窗口: 2026-11-08T10:04:47+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 6411 → 重点档 608 → 修复卡 608

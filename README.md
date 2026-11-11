@@ -30,9 +30,9 @@ git submodule update --init --recursive
 
 | 知识库 | 收录范围 | vLLM | SGLang | 重点档卡片 | 上游基线 |
 | --- | --- | --- | --- | --- | --- |
-| perf-pr-index | 已合并性能优化 PR(label:performance ∪ 标题关键词) | 6971 | 6217 | 1633 证据卡 | vllm `adff2e86fb12` / sglang `983455aeed42` |
-| rfc-index | RFC 提案(label:rfc ∪ 标题含 RFC) | 937 | 204 | 267 摘要卡 | vllm `adff2e86fb12` / sglang `983455aeed42` |
-| bugfix-index | 已合并 bug 修复 PR(label:bug ∪ 标题含 fix/bug) | 7974 | 6409 | 1257 修复卡 | vllm `adff2e86fb12` / sglang `983455aeed42` |
+| perf-pr-index | 已合并性能优化 PR(label:performance ∪ 标题关键词) | 6972 | 6219 | 1633 证据卡 | vllm `b32a87094afc` / sglang `56e38dfe0fdb` |
+| rfc-index | RFC 提案(label:rfc ∪ 标题含 RFC) | 937 | 204 | 267 摘要卡 | vllm `b32a87094afc` / sglang `95999790a4a2` |
+| bugfix-index | 已合并 bug 修复 PR(label:bug ∪ 标题含 fix/bug) | 7975 | 6411 | 1257 修复卡 | vllm `b32a87094afc` / sglang `56e38dfe0fdb` |
 
 - **perf-pr-index**:按 13 类组件分类、重点/一般分级;每张证据卡含动机、优化点、关键改动(diff 摘录)、性能声明(数字照抄 + 测试条件)、验证与回归风险。
 - **rfc-index**:15 类主题、开放/已关闭状态;每张摘要卡含提案动机、方案、优化点与收益、现状落地。

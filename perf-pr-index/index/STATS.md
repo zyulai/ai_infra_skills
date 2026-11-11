@@ -1,13 +1,13 @@
 # Perf PR 索引统计总览
 
-- 生成时间: 2026-11-11T17:43:40+00:00
+- 生成时间: 2026-11-11T19:04:20+00:00
 
 ## 总量
 
 | 仓库 | 收录总数 | 🔥 重点 | 一般 | 有加速声明 |
 | --- | --- | --- | --- | --- |
-| vllm | 6971 | 961 | 6010 | 553 |
-| sglang | 6217 | 672 | 5545 | 545 |
+| vllm | 6972 | 961 | 6011 | 553 |
+| sglang | 6219 | 672 | 5547 | 545 |
 
 ## vllm:分类分布
 
@@ -18,7 +18,7 @@
 | Quantization(量化) | 984 | 159 |
 | CUDA Graph / Compiler(CUDA Graph 与编译) | 318 | 48 |
 | Overlap / Scheduler(重叠与调度) | 335 | 25 |
-| Attention / Kernel(注意力与算子) | 1347 | 232 |
+| Attention / Kernel(注意力与算子) | 1348 | 232 |
 | KV Cache / Memory(KV Cache 与显存) | 411 | 38 |
 | Parallelism / Communication(并行与通信) | 29 | 7 |
 | Sampler / Detokenization(采样与反分词) | 59 | 6 |
@@ -31,7 +31,7 @@
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 4562 | 700 |
+| 2026 | 4563 | 700 |
 | 2025 | 1933 | 213 |
 | 2024 | 430 | 45 |
 | 2023 | 46 | 3 |
@@ -88,9 +88,9 @@
 
 | 分类 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| Speculative Decoding(投机解码) | 907 | 131 |
+| Speculative Decoding(投机解码) | 908 | 131 |
 | MoE(混合专家) | 693 | 91 |
-| Quantization(量化) | 685 | 97 |
+| Quantization(量化) | 686 | 97 |
 | CUDA Graph / Compiler(CUDA Graph 与编译) | 484 | 45 |
 | Overlap / Scheduler(重叠与调度) | 210 | 22 |
 | Attention / Kernel(注意力与算子) | 1675 | 161 |
@@ -106,7 +106,7 @@
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 4431 | 540 |
+| 2026 | 4433 | 540 |
 | 2025 | 1618 | 124 |
 | 2024 | 168 | 8 |
 
@@ -124,7 +124,7 @@
 | [fzyzcjy](https://github.com/fzyzcjy) | 109 |
 | [mmangkad](https://github.com/mmangkad) | 108 |
 | [b8zhong](https://github.com/b8zhong) | 101 |
-| [DarkSharpness](https://github.com/DarkSharpness) | 98 |
+| [DarkSharpness](https://github.com/DarkSharpness) | 99 |
 | [yuan-luo](https://github.com/yuan-luo) | 97 |
 | [Qiaolin-Yu](https://github.com/Qiaolin-Yu) | 92 |
 | [ispobock](https://github.com/ispobock) | 89 |
@@ -160,6 +160,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-11T17:43:11+00:00
-- **vllm** @adff2e86fb12 (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/adff2e86fb12b1e964426e56600728fce6d401e4 | API 抓取窗口: 2026-11-07T02:54:22+00:00 ~ 2026-11-11T15:30:25+00:00 | raw 6971 → 重点档 961 → 证据卡 961
-- **sglang** @983455aeed42 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/983455aeed423cf5b46931218e0a3f60b6745124 | API 抓取窗口: 2026-11-07T02:50:25+00:00 ~ 2026-11-11T15:47:59+00:00 | raw 6217 → 重点档 672 → 证据卡 672
+- 快照记录时间: 2026-11-11T19:03:52+00:00
+- **vllm** @b32a87094afc (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/b32a87094afc8e9ec349107db8526bebd552069d | API 抓取窗口: 2026-11-07T02:54:22+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 6972 → 重点档 961 → 证据卡 961
+- **sglang** @56e38dfe0fdb (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/56e38dfe0fdb964af402ba22693bb11898ce88d8 | API 抓取窗口: 2026-11-07T02:50:25+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 6219 → 重点档 672 → 证据卡 672

@@ -1,14 +1,14 @@
 # VLLM Bug Fix 全量索引(已合并修复 PR)
 
 - 仓库: https://github.com/vllm-project/vllm
-- 收录总数: **7974** (重点 🔥 **649** / 一般 7325)
-- 生成时间: 2026-11-11T17:43:50+00:00
+- 收录总数: **7975** (重点 🔥 **649** / 一般 7326)
+- 生成时间: 2026-11-11T19:04:24+00:00
 
 ## 目录
 
 - [Speculative Decoding(投机解码) (284)](#speculative-decoding投机解码-284)
 - [MoE(混合专家) (434)](#moe混合专家-434)
-- [Quantization(量化) (558)](#quantization量化-558)
+- [Quantization(量化) (559)](#quantization量化-559)
 - [CUDA Graph / Compiler(CUDA Graph 与编译) (286)](#cuda-graph--compilercuda-graph-与编译-286)
 - [Overlap / Scheduler(重叠与调度) (131)](#overlap--scheduler重叠与调度-131)
 - [Attention / Kernel(注意力与算子) (820)](#attention--kernel注意力与算子-820)
@@ -748,11 +748,12 @@
 | [3597](https://github.com/vllm-project/vllm/pull/3597) | [BugFix] 1D query fix for MoE models | njhill | 2024-03-24 | general(一般) | 一般 |  |
 | [3045](https://github.com/vllm-project/vllm/pull/3045) | [Minor] Fix type annotation in fused moe | WoosukKwon | 2024-02-27 | general(一般) | 一般 |  |
 
-## Quantization(量化) (558)
+## Quantization(量化) (559)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
 | [66876](https://github.com/vllm-project/vllm/pull/66876) | [ROCm][Bugfix] Allow lut_b_moe online quantization on ROCm | AndreasKaratzas | 2026-11-11 | general(一般) | 一般 |  |
+| [64329](https://github.com/vllm-project/vllm/pull/64329) | [Bugfix] Apply the layer q_scale only to FP8 queries in FlashInfer | vadiklyutiy | 2026-11-11 | general(一般) | 一般 |  |
 | [66875](https://github.com/vllm-project/vllm/pull/66875) | [ROCm][Bugfix] Key the FSE MXFP8 scale-layout test check on the selected backend | AndreasKaratzas | 2026-11-10 | general(一般) | 一般 |  |
 | [66399](https://github.com/vllm-project/vllm/pull/66399) | [ROCm][Bugfix] Remove step-path GPU syncs in EPLB skip-rearrange, AITER GDN prefill metad… | AndreasKaratzas | 2026-11-10 | general(一般) | 一般 |  |
 | [66548](https://github.com/vllm-project/vllm/pull/66548) | [ROCm][CI] Fix stale W4A16 intermediate_pad expectation in AITER MXFP4 padding test | stefankoncarevic | 2026-11-09 | general(一般) | 一般 |  |
@@ -8061,6 +8062,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-11T17:43:45+00:00
-- **vllm** @adff2e86fb12 (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/adff2e86fb12b1e964426e56600728fce6d401e4 | API 抓取窗口: 2026-11-08T09:35:42+00:00 ~ 2026-11-11T16:27:33+00:00 | raw 7974 → 重点档 649 → 修复卡 649
-- **sglang** @983455aeed42 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/983455aeed423cf5b46931218e0a3f60b6745124 | API 抓取窗口: 2026-11-08T10:04:47+00:00 ~ 2026-11-11T17:14:20+00:00 | raw 6409 → 重点档 608 → 修复卡 608
+- 快照记录时间: 2026-11-11T19:04:21+00:00
+- **vllm** @b32a87094afc (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/b32a87094afc8e9ec349107db8526bebd552069d | API 抓取窗口: 2026-11-08T09:35:42+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 7975 → 重点档 649 → 修复卡 649
+- **sglang** @56e38dfe0fdb (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/56e38dfe0fdb964af402ba22693bb11898ce88d8 | API 抓取窗口: 2026-11-08T10:04:47+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 6411 → 重点档 608 → 修复卡 608

@@ -2,7 +2,7 @@
 
 - 仓库: https://github.com/vllm-project/vllm
 - 收录总数: **937** (重点 🔥 **224** / 一般 713) | 开放 386 / 已关闭 551
-- 生成时间: 2026-11-11T17:43:44+00:00
+- 生成时间: 2026-11-11T19:05:11+00:00
 
 ## 目录
 
@@ -1042,6 +1042,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-11T17:43:40+00:00
-- **vllm** @adff2e86fb12 (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/adff2e86fb12b1e964426e56600728fce6d401e4 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-11T15:48:44+00:00 | RFC 937 → 重点档 224 → 摘要卡 224
-- **sglang** @983455aeed42 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/983455aeed423cf5b46931218e0a3f60b6745124 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-11T15:48:44+00:00 | RFC 204 → 重点档 43 → 摘要卡 43
+- 快照记录时间: 2026-11-11T19:05:08+00:00
+- **vllm** @b32a87094afc (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/b32a87094afc8e9ec349107db8526bebd552069d | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-11T15:48:44+00:00 | RFC 937 → 重点档 224 → 摘要卡 224
+- **sglang** @95999790a4a2 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/95999790a4a201caf8a142c95711fe5af329a39b | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-11T15:48:44+00:00 | RFC 204 → 重点档 43 → 摘要卡 43

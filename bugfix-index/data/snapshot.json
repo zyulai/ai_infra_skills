@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-11T17:43:45+00:00",
+  "generated_at": "2026-11-11T19:04:21+00:00",
   "repos": {
     "vllm": {
       "repo_full": "vllm-project/vllm",
       "fetch_window_utc": [
         "2026-11-08T09:35:42+00:00",
-        "2026-11-11T16:27:33+00:00"
+        "2026-11-11T19:02:03+00:00"
       ],
-      "raw_prs": 7974,
-      "classified_prs": 7974,
+      "raw_prs": 7975,
+      "classified_prs": 7975,
       "major_prs": 649,
       "evidence_cards": 649,
-      "head_sha": "adff2e86fb12b1e964426e56600728fce6d401e4",
-      "head_date": "2026-11-11T17:31:24Z",
-      "head_message": "[CI][ROCm] Pin the AMD monokernel steps to explicit test files (#67038)"
+      "head_sha": "b32a87094afc8e9ec349107db8526bebd552069d",
+      "head_date": "2026-11-11T19:02:57Z",
+      "head_message": "[Bugfix][Offload] Apply --cpu-offload-gb to models served by the Transformers modeling backend (#664"
     },
     "sglang": {
       "repo_full": "sgl-project/sglang",
       "fetch_window_utc": [
         "2026-11-08T10:04:47+00:00",
-        "2026-11-11T17:14:20+00:00"
+        "2026-11-11T19:02:03+00:00"
       ],
-      "raw_prs": 6409,
-      "classified_prs": 6409,
+      "raw_prs": 6411,
+      "classified_prs": 6411,
       "major_prs": 608,
       "evidence_cards": 608,
-      "head_sha": "983455aeed423cf5b46931218e0a3f60b6745124",
-      "head_date": "2026-11-11T17:10:13Z",
-      "head_message": "[Fix] test: Seed the retracted queue through move() in test_prealloc_token_usage (#49868)"
+      "head_sha": "56e38dfe0fdb964af402ba22693bb11898ce88d8",
+      "head_date": "2026-11-11T18:33:42Z",
+      "head_message": "[Fix] dsv4/topk_v2: Move the cluster kernels' top-k buffer to dynamic shared memory (#49476)"
     }
   }
 }
