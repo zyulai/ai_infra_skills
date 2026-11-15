@@ -230,8 +230,10 @@ def _month_slices(start_iso: str, end_iso: str):
         cur = nxt
 
 
-def build_search_queries(repo_full: str) -> list[str]:
+def build_search_queries(repo_full: str, since: str | None = None) -> list[str]:
     base = f"repo:{repo_full} is:pr is:merged"
+    if since:
+        base += f" merged:>={since}"
     queries = [f"{base} label:performance"]
     queries += [f'{base} "{kw}" in:title' for kw in TITLE_KEYWORDS]
     queries += [f"{base} label:{lab}" for lab in EXTRA_LABELS.get(repo_key(repo_full), [])]
@@ -322,12 +324,12 @@ def append_records(path: Path, records: dict[int, dict]) -> int:
     return len(new)
 
 
-def run_search(repo_full: str, gh: GitHub) -> dict[int, dict]:
+def run_search(repo_full: str, gh: GitHub, since: str | None = None) -> dict[int, dict]:
     key = repo_key(repo_full)
     out_path = RAW_DIR / f"{key}-prs.jsonl"
     records = load_existing(out_path)
     print(f"[{key}] {len(records)} PRs already in {out_path.name}, resuming", flush=True)
-    queries = build_search_queries(repo_full)
+    queries = build_search_queries(repo_full, since)
     print(f"[{key}] {len(queries)} search queries", flush=True)
     seen_this_run = 0
     for i, q in enumerate(queries, 1):
@@ -387,6 +389,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--repo", choices=["vllm", "sglang", "both"], default="both")
     ap.add_argument("--enrich", type=Path, help="jsonl to enrich with /pulls data")
+    ap.add_argument("--since", help="only search PRs merged on/after this ISO date (fast incremental)")
     args = ap.parse_args()
 
     token = os.environ.get("GITHUB_TOKEN", "").strip()
@@ -401,7 +404,7 @@ def main() -> None:
         else:
             repos = list(REPOS.values()) if args.repo == "both" else [REPOS[args.repo]]
             for repo_full in repos:
-                run_search(repo_full, gh)
+                run_search(repo_full, gh, args.since)
     finally:
         dt = time.time() - t0
         print(

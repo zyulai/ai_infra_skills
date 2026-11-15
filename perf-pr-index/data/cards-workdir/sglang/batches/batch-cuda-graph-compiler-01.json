@@ -1,8 +1,14 @@
 {
   "repo": "sglang",
   "category": "CUDA Graph / Compiler",
-  "count": 5,
+  "count": 6,
   "prs": [
+    {
+      "number": 43736,
+      "title": "[DeepSeek-V4.1] Run decoder SWA bounded replay inside the breakable prefill CUDA graph",
+      "pack": "data/cards-workdir/sglang/packs/pr-43736.pack.md",
+      "card_out": "index/sglang/cards/pr-43736-<slug>.md"
+    },
     {
       "number": 44394,
       "title": "[Feat] [CPU] cpu-graph: Add prefill torch compile graph and dynamic graph support",

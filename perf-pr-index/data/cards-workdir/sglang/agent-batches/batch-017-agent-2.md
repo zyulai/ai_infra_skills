@@ -1,0 +1,9 @@
+PR #48947 | [Perf] layernorm_sp: Add --layernorm-sp-min-tokens to run small extend passes replicated | pack=data/cards-workdir/sglang/packs/pr-48947.pack.md | out=index/sglang/cards/pr-48947-perf-layernorm-sp-add-layernorm-sp-min-t.md
+PR #49905 | [Perf] gdn: Fuse MIS mapped gates into QKV preparation | pack=data/cards-workdir/sglang/packs/pr-49905.pack.md | out=index/sglang/cards/pr-49905-perf-gdn-fuse-mis-mapped-gates-into-qkv.md
+PR #49078 | [Perf] [ROCM] diffusion: Ring attention on aiter, and reuse the ring's K/V buffers | pack=data/cards-workdir/sglang/packs/pr-49078.pack.md | out=index/sglang/cards/pr-49078-perf-rocm-diffusion-ring-attention-on-ai.md
+PR #49476 | [Fix] dsv4/topk_v2: Move the cluster kernels' top-k buffer to dynamic shared memory | pack=data/cards-workdir/sglang/packs/pr-49476.pack.md | out=index/sglang/cards/pr-49476-fix-dsv4-topk-v2-move-the-cluster-kernel.md
+PR #49771 | [Chore] deps: Bump FlashInfer to 0.7.4 | pack=data/cards-workdir/sglang/packs/pr-49771.pack.md | out=index/sglang/cards/pr-49771-chore-deps-bump-flashinfer-to-0-7-4.md
+PR #48996 | [Perf] [AMD] dsa: Default the DSA KV cache to fp8_e4m3 on gfx950 | pack=data/cards-workdir/sglang/packs/pr-48996.pack.md | out=index/sglang/cards/pr-48996-perf-amd-dsa-default-the-dsa-kv-cache-to.md
+PR #49391 | [Perf] [NVIDIA] diffusion/joy: Reuse FP32 residual gate for large image updates on SM103 | pack=data/cards-workdir/sglang/packs/pr-49391.pack.md | out=index/sglang/cards/pr-49391-perf-nvidia-diffusion-joy-reuse-fp32-res.md
+PR #41501 | [Feat] diffusion/sana-video2: Support breakable CUDA graphs | pack=data/cards-workdir/sglang/packs/pr-41501.pack.md | out=index/sglang/cards/pr-41501-feat-diffusion-sana-video2-support-break.md
+PR #49456 | [Perf] diffusion/ming: Fuse lossless RMSNorm scale and residual epilogues | pack=data/cards-workdir/sglang/packs/pr-49456.pack.md | out=index/sglang/cards/pr-49456-perf-diffusion-ming-fuse-lossless-rmsnor.md

@@ -220,6 +220,12 @@
       "card_out": "index/sglang/cards/pr-46929-<slug>.md"
     },
     {
+      "number": 47013,
+      "title": "[Fix] kvcache: Skip the reserved padding slot in the zero-RoPE MLA KV writer",
+      "pack": "data/cards-workdir/sglang/packs/pr-47013.pack.md",
+      "card_out": "index/sglang/cards/pr-47013-<slug>.md"
+    },
+    {
       "number": 47062,
       "title": "[Perf] [AMD] attention: Use the AITER FAv3 varlen kernel on gfx942 as well",
       "pack": "data/cards-workdir/sglang/packs/pr-47062.pack.md",
@@ -232,16 +238,10 @@
       "card_out": "index/sglang/cards/pr-47586-<slug>.md"
     },
     {
-      "number": 48406,
-      "title": "[Perf] [AMD] qwen3: Let the fused QK-norm + RoPE + KV write serve the vectorized_5d layout",
-      "pack": "data/cards-workdir/sglang/packs/pr-48406.pack.md",
-      "card_out": "index/sglang/cards/pr-48406-<slug>.md"
-    },
-    {
-      "number": 48784,
-      "title": "[Perf] eplb: Vectorize the static per-rank dispatch map",
-      "pack": "data/cards-workdir/sglang/packs/pr-48784.pack.md",
-      "card_out": "index/sglang/cards/pr-48784-<slug>.md"
+      "number": 47842,
+      "title": "[Fix] diffusion: Enable Cosmos 3 Edge and Nano fused QK-norm/RoPE on SM 121 (GB10)",
+      "pack": "data/cards-workdir/sglang/packs/pr-47842.pack.md",
+      "card_out": "index/sglang/cards/pr-47842-<slug>.md"
     }
   ]
 }

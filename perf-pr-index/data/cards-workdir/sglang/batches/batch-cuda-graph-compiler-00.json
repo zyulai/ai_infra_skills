@@ -232,16 +232,16 @@
       "card_out": "index/sglang/cards/pr-41223-<slug>.md"
     },
     {
+      "number": 41501,
+      "title": "[Feat] diffusion/sana-video2: Support breakable CUDA graphs",
+      "pack": "data/cards-workdir/sglang/packs/pr-41501.pack.md",
+      "card_out": "index/sglang/cards/pr-41501-<slug>.md"
+    },
+    {
       "number": 43563,
       "title": "[Fix] Account for captured inputs in DeepGEMM masked workspace budget",
       "pack": "data/cards-workdir/sglang/packs/pr-43563.pack.md",
       "card_out": "index/sglang/cards/pr-43563-<slug>.md"
-    },
-    {
-      "number": 43736,
-      "title": "[DeepSeek-V4.1] Run decoder SWA bounded replay inside the breakable prefill CUDA graph",
-      "pack": "data/cards-workdir/sglang/packs/pr-43736.pack.md",
-      "card_out": "index/sglang/cards/pr-43736-<slug>.md"
     }
   ]
 }

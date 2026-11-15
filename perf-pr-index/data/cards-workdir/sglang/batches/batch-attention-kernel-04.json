@@ -1,13 +1,67 @@
 {
   "repo": "sglang",
   "category": "Attention / Kernel",
-  "count": 1,
+  "count": 10,
   "prs": [
+    {
+      "number": 48406,
+      "title": "[Perf] [AMD] qwen3: Let the fused QK-norm + RoPE + KV write serve the vectorized_5d layout",
+      "pack": "data/cards-workdir/sglang/packs/pr-48406.pack.md",
+      "card_out": "index/sglang/cards/pr-48406-<slug>.md"
+    },
+    {
+      "number": 48602,
+      "title": "[Perf] dsa: Add an opt-in FlashInfer Prims-TS sparse MLA backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-48602.pack.md",
+      "card_out": "index/sglang/cards/pr-48602-<slug>.md"
+    },
+    {
+      "number": 48784,
+      "title": "[Perf] eplb: Vectorize the static per-rank dispatch map",
+      "pack": "data/cards-workdir/sglang/packs/pr-48784.pack.md",
+      "card_out": "index/sglang/cards/pr-48784-<slug>.md"
+    },
     {
       "number": 48786,
       "title": "[Feat] HiCache: add tma copy kernel for unified layout",
       "pack": "data/cards-workdir/sglang/packs/pr-48786.pack.md",
       "card_out": "index/sglang/cards/pr-48786-<slug>.md"
+    },
+    {
+      "number": 48947,
+      "title": "[Perf] layernorm_sp: Add --layernorm-sp-min-tokens to run small extend passes replicated",
+      "pack": "data/cards-workdir/sglang/packs/pr-48947.pack.md",
+      "card_out": "index/sglang/cards/pr-48947-<slug>.md"
+    },
+    {
+      "number": 49078,
+      "title": "[Perf] [ROCM] diffusion: Ring attention on aiter, and reuse the ring's K/V buffers",
+      "pack": "data/cards-workdir/sglang/packs/pr-49078.pack.md",
+      "card_out": "index/sglang/cards/pr-49078-<slug>.md"
+    },
+    {
+      "number": 49456,
+      "title": "[Perf] diffusion/ming: Fuse lossless RMSNorm scale and residual epilogues",
+      "pack": "data/cards-workdir/sglang/packs/pr-49456.pack.md",
+      "card_out": "index/sglang/cards/pr-49456-<slug>.md"
+    },
+    {
+      "number": 49476,
+      "title": "[Fix] dsv4/topk_v2: Move the cluster kernels' top-k buffer to dynamic shared memory",
+      "pack": "data/cards-workdir/sglang/packs/pr-49476.pack.md",
+      "card_out": "index/sglang/cards/pr-49476-<slug>.md"
+    },
+    {
+      "number": 49771,
+      "title": "[Chore] deps: Bump FlashInfer to 0.7.4",
+      "pack": "data/cards-workdir/sglang/packs/pr-49771.pack.md",
+      "card_out": "index/sglang/cards/pr-49771-<slug>.md"
+    },
+    {
+      "number": 49905,
+      "title": "[Perf] gdn: Fuse MIS mapped gates into QKV preparation",
+      "pack": "data/cards-workdir/sglang/packs/pr-49905.pack.md",
+      "card_out": "index/sglang/cards/pr-49905-<slug>.md"
     }
   ]
 }

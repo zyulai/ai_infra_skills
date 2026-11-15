@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "Parallelism / Communication",
-  "count": 7,
+  "count": 8,
   "prs": [
     {
       "number": 5091,
@@ -44,6 +44,12 @@
       "title": "[Perf] Minimax M3 - Support cross-layer allreduce-norm fusion",
       "pack": "data/cards-workdir/vllm/packs/pr-47631.pack.md",
       "card_out": "index/vllm/cards/pr-47631-<slug>.md"
+    },
+    {
+      "number": 66375,
+      "title": "[Perf][Bugfix][RL] Fix sparse NCCL update OOM and improve performance",
+      "pack": "data/cards-workdir/vllm/packs/pr-66375.pack.md",
+      "card_out": "index/vllm/cards/pr-66375-<slug>.md"
     }
   ]
 }

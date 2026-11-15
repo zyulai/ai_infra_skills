@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "Overlap / Scheduler",
-  "count": 22,
+  "count": 23,
   "prs": [
     {
       "number": 1738,
@@ -134,6 +134,12 @@
       "title": "[XPU] Use the shared fused decode-metadata kernel in the intel_xpu ba…",
       "pack": "data/cards-workdir/sglang/packs/pr-42122.pack.md",
       "card_out": "index/sglang/cards/pr-42122-<slug>.md"
+    },
+    {
+      "number": 50018,
+      "title": "[Perf] model_overrides: Default GLM-5.3-Flash to an agentic Mamba pool split",
+      "pack": "data/cards-workdir/sglang/packs/pr-50018.pack.md",
+      "card_out": "index/sglang/cards/pr-50018-<slug>.md"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "KV Cache / Memory",
-  "count": 38,
+  "count": 40,
   "prs": [
     {
       "number": 6455,
@@ -184,6 +184,12 @@
       "card_out": "index/vllm/cards/pr-57810-<slug>.md"
     },
     {
+      "number": 58619,
+      "title": "[Bugfix][KV Offload] Enable partial-tail offload for hybrid models under DCP",
+      "pack": "data/cards-workdir/vllm/packs/pr-58619.pack.md",
+      "card_out": "index/vllm/cards/pr-58619-<slug>.md"
+    },
+    {
       "number": 59039,
       "title": "[ROCm][Perf][DSv4.1] Enable decoder SWA bounded replay",
       "pack": "data/cards-workdir/vllm/packs/pr-59039.pack.md",
@@ -200,6 +206,18 @@
       "title": "[ROCm][Perf] Restore 32-bit buffer addressing for TRITON_ATTN KV cache views",
       "pack": "data/cards-workdir/vllm/packs/pr-60084.pack.md",
       "card_out": "index/vllm/cards/pr-60084-<slug>.md"
+    },
+    {
+      "number": 61243,
+      "title": "[HiSparse] GLM-5.3-Flash support",
+      "pack": "data/cards-workdir/vllm/packs/pr-61243.pack.md",
+      "card_out": "index/vllm/cards/pr-61243-<slug>.md"
+    },
+    {
+      "number": 61452,
+      "title": "[Core][KV Cache] Move KV cache allocation policy out of KVCacheSpecs (RFC #42449 part 2)",
+      "pack": "data/cards-workdir/vllm/packs/pr-61452.pack.md",
+      "card_out": "index/vllm/cards/pr-61452-<slug>.md"
     },
     {
       "number": 63742,
@@ -224,12 +242,6 @@
       "title": "[Bugfix][Core] Keep KV cache zeroing for mixed-precision UniformTypeKVCacheSpecs groups",
       "pack": "data/cards-workdir/vllm/packs/pr-64472.pack.md",
       "card_out": "index/vllm/cards/pr-64472-<slug>.md"
-    },
-    {
-      "number": 64479,
-      "title": "[XPU][Perf] Reuse GDN metadata across KV cache groups on XPU",
-      "pack": "data/cards-workdir/vllm/packs/pr-64479.pack.md",
-      "card_out": "index/vllm/cards/pr-64479-<slug>.md"
     }
   ]
 }

@@ -1,13 +1,13 @@
 # SGLANG RFC 索引(label:rfc ∪ 标题含 RFC,全量)
 
 - 仓库: https://github.com/sgl-project/sglang
-- 收录总数: **204** (重点 🔥 **43** / 一般 161) | 开放 68 / 已关闭 136
-- 生成时间: 2026-11-11T19:05:12+00:00
+- 收录总数: **206** (重点 🔥 **43** / 一般 163) | 开放 70 / 已关闭 136
+- 生成时间: 2026-11-15T15:23:18+00:00
 
 ## 目录
 
 - [Speculative Decoding(投机解码) (9)](#speculative-decoding投机解码-9)
-- [MoE(混合专家) (6)](#moe混合专家-6)
+- [MoE(混合专家) (7)](#moe混合专家-7)
 - [Quantization(量化) (12)](#quantization量化-12)
 - [Disaggregated Serving(分离式部署) (12)](#disaggregated-serving分离式部署-12)
 - [CUDA Graph / Compiler(CUDA Graph 与编译) (4)](#cuda-graph--compilercuda-graph-与编译-4)
@@ -19,7 +19,7 @@
 - [Hardware / Backend(硬件与后端) (8)](#hardware--backend硬件与后端-8)
 - [Feature / Ecosystem(功能与生态) (18)](#feature--ecosystem功能与生态-18)
 - [CI / Infra / Process(CI 与基础流程) (4)](#ci--infra--processci-与基础流程-4)
-- [Other(其他) (56)](#other其他-56)
+- [Other(其他) (57)](#other其他-57)
 
 ## Speculative Decoding(投机解码) (9)
 
@@ -35,7 +35,7 @@
 | [#46520](https://github.com/sgl-project/sglang/issues/46520) | [RFC] [XPU] paged-experts: Intel XPU support with Lookahead Expert Scheduling (LES) and a… | wyc55069407 | 2026-10-26 | 🟢 开放 | 一般 |  |  |
 | [#47797](https://github.com/sgl-project/sglang/issues/47797) | [RFC] Define per-request speculative decoding opt-out execution semantics | anencore94 | 2026-11-01 | 🟢 开放 | 🔥 重点 |  | [卡片](rfc-cards/rfc-47797-rfc-define-per-request-speculative-decod.md) |
 
-## MoE(混合专家) (6)
+## MoE(混合专家) (7)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -45,6 +45,7 @@
 | [#39192](https://github.com/sgl-project/sglang/issues/39192) | [RFC] Contention-aware batching for dynamic EPLB expert migration | DOCCA0 | 2026-09-12 | 🟢 开放 | 一般 |  |  |
 | [#43820](https://github.com/sgl-project/sglang/issues/43820) | [RFC] Prefill sequence parallelism with replicated MoE for small-TP long-prompt prefill (… | AliceChenyy | 2026-10-12 | 🟢 开放 | 一般 |  |  |
 | [#44697](https://github.com/sgl-project/sglang/issues/44697) | [RFC] MoE routing simulator for prefill imbalance profiling: balanced reference and GPU-f… | Phoenix3334 | 2026-10-16 | 🟢 开放 | 一般 |  |  |
+| [#50336](https://github.com/sgl-project/sglang/issues/50336) | [RFC] Optimizing Large-Scale MoE Inference with Multi-GPU Partial Expert Offload | 1145284121 | 2026-11-13 | 🟢 开放 | 一般 |  |  |
 
 ## Quantization(量化) (12)
 
@@ -234,7 +235,7 @@
 | [#32321](https://github.com/sgl-project/sglang/issues/32321) | [RFC] Apple Silicon serving redesign: Torch-owned SRT path with an exported whole-model M… | noob-se7en | 2026-07-24 | 🟢 开放 | 一般 |  |  |
 | [#46764](https://github.com/sgl-project/sglang/issues/46764) | [RFC][Feature] SM90 Implementation Plan for the Q4 Agentic Cache Scheduling Roadmap | luoroger37 | 2026-10-27 | ⚪ 已关闭 | 一般 |  |  |
 
-## Other(其他) (56)
+## Other(其他) (57)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -294,9 +295,10 @@
 | [#48300](https://github.com/sgl-project/sglang/issues/48300) | [Feature][RFC] Preserve measured cache-write usage across PD handoff | YaoleWu | 2026-11-04 | 🟢 开放 | 一般 |  |  |
 | [#48344](https://github.com/sgl-project/sglang/issues/48344) | [RFC] mem_cache: Cross-branch KV page splicing and cursor fork/rewind for hybrid models (… | shatianming5 | 2026-11-04 | ⚪ 已关闭 | 一般 |  |  |
 | [#49257](https://github.com/sgl-project/sglang/issues/49257) | [Feature][RFC] STANDALONE PD: homogeneous TP=2 handoff and rank-consistent seed rejection | andrewzyxing | 2026-11-09 | 🟢 开放 | 一般 |  |  |
+| [#50547](https://github.com/sgl-project/sglang/issues/50547) | [RFC] pd: Let decode compute the prompt tail and sample the first token, for any model | sumant-TT | 2026-11-14 | 🟢 开放 | 一般 |  |  |
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-11T19:05:08+00:00
-- **vllm** @b32a87094afc (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/b32a87094afc8e9ec349107db8526bebd552069d | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-11T15:48:44+00:00 | RFC 937 → 重点档 224 → 摘要卡 224
-- **sglang** @95999790a4a2 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/95999790a4a201caf8a142c95711fe5af329a39b | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-11T15:48:44+00:00 | RFC 204 → 重点档 43 → 摘要卡 43
+- 快照记录时间: 2026-11-15T14:42:46+00:00
+- **vllm** @9fbe012bd78b (upstream HEAD 2026-11-15) — commit: https://github.com/vllm-project/vllm/commit/9fbe012bd78bc46471013541e04bb9f0cfc84b80 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-15T14:30:29+00:00 | RFC 949 → 重点档 226 → 摘要卡 224
+- **sglang** @e4c3f001d6bc (upstream HEAD 2026-11-15) — commit: https://github.com/sgl-project/sglang/commit/e4c3f001d6bc8cb43e778b6b27d562af550db8c9 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-15T14:30:29+00:00 | RFC 206 → 重点档 43 → 摘要卡 43

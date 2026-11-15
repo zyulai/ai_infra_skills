@@ -15,6 +15,7 @@ Usage:
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import time
@@ -111,6 +112,11 @@ def slim(item: dict) -> dict:
 
 
 def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--since", help="only fetch issues created on/after this ISO date (fast incremental)")
+    args = ap.parse_args()
+    since = args.since
+
     token = os.environ.get("GITHUB_TOKEN", "").strip()
     if not token:
         raise SystemExit("set GITHUB_TOKEN env var (export GITHUB_TOKEN=...)")
@@ -122,6 +128,8 @@ def main() -> None:
 
         for qname, qtail in QUERIES:
             query = f"repo:{full} is:issue {qtail}"
+            if since:
+                query += f" created:>={since}"
             print(f"[{repo_key}] query[{qname}]: {query}", flush=True)
             got = 0
             total = None

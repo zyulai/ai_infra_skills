@@ -14,6 +14,7 @@ Token via GITHUB_TOKEN env var only — never written to disk.
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import time
@@ -202,9 +203,10 @@ def fetch_window_items(repo_full: str, qtail: str, win: tuple[date, date],
 
 
 def fetch_query(repo_key: str, repo_full: str, qname: str, qtail: str,
-                token: str, merged: dict[int, dict], out_path: Path) -> None:
+                token: str, merged: dict[int, dict], out_path: Path,
+                start: date) -> None:
     print(f"  query[{qname}]: {qtail}", flush=True)
-    for q_start, q_end in quarter_windows(START, date(2026, 12, 31)):
+    for q_start, q_end in quarter_windows(start, date(2026, 12, 31)):
         win = (q_start, q_end)
         n_before = len(merged)
         total, items = fetch_window_items(repo_full, qtail, win, token)
@@ -222,6 +224,11 @@ def fetch_query(repo_key: str, repo_full: str, qname: str, qtail: str,
 
 
 def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--since", help="only search PRs merged on/after this ISO date (fast incremental)")
+    args = ap.parse_args()
+    start = date.fromisoformat(args.since) if args.since else START
+
     token = os.environ.get("GITHUB_TOKEN", "").strip()
     if not token:
         raise SystemExit("set GITHUB_TOKEN env var (export GITHUB_TOKEN=...)")
@@ -229,9 +236,9 @@ def main() -> None:
     for repo_key, full in REPOS.items():
         out_path = RAW / f"{repo_key}-bugfix-prs.jsonl"
         merged = load_existing(out_path)
-        print(f"[{repo_key}] resuming with {len(merged)} records", flush=True)
+        print(f"[{repo_key}] resuming with {len(merged)} records (since={start})", flush=True)
         for qname, qtail in QUERIES:
-            fetch_query(repo_key, full, qname, qtail, token, merged, out_path)
+            fetch_query(repo_key, full, qname, qtail, token, merged, out_path, start)
         save(repo_key, merged, out_path)
         recs = sorted(merged.values(), key=lambda r: r["number"])
         n = {s: sum(1 for r in recs if s in r["sources"]) for s, _ in QUERIES}

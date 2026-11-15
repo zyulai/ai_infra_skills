@@ -1,13 +1,13 @@
 # RFC 索引统计总览
 
-- 生成时间: 2026-11-11T19:05:12+00:00
+- 生成时间: 2026-11-15T15:23:18+00:00
 
 ## 总量
 
 | 仓库 | RFC 总数 | 🔥 重点 | 开放 | 已关闭 | 有收益声明 |
 | --- | --- | --- | --- | --- | --- |
-| vllm | 937 | 224 | 386 | 551 | 24 |
-| sglang | 204 | 43 | 68 | 136 | 2 |
+| vllm | 949 | 226 | 397 | 552 | 24 |
+| sglang | 206 | 43 | 70 | 136 | 2 |
 
 ## vllm:分类分布
 
@@ -15,26 +15,26 @@
 | --- | --- | --- |
 | Speculative Decoding(投机解码) | 55 | 49 |
 | MoE(混合专家) | 40 | 13 |
-| Quantization(量化) | 44 | 11 |
-| Disaggregated Serving(分离式部署) | 53 | 25 |
+| Quantization(量化) | 47 | 12 |
+| Disaggregated Serving(分离式部署) | 55 | 26 |
 | CUDA Graph / Compiler(CUDA Graph 与编译) | 33 | 14 |
 | Overlap / Scheduler(重叠与调度) | 28 | 4 |
-| Attention / Kernel(注意力与算子) | 56 | 26 |
+| Attention / Kernel(注意力与算子) | 57 | 26 |
 | KV Cache / Memory(KV Cache 与显存) | 83 | 9 |
 | Parallelism / Communication(并行与通信) | 20 | 2 |
 | Sampler / Detokenization(采样与反分词) | 14 | 0 |
 | Frontend / Serving / API(前端与服务 API) | 49 | 3 |
-| Architecture / Engine(架构与引擎) | 52 | 9 |
-| Hardware / Backend(硬件与后端) | 29 | 5 |
+| Architecture / Engine(架构与引擎) | 53 | 9 |
+| Hardware / Backend(硬件与后端) | 31 | 5 |
 | Feature / Ecosystem(功能与生态) | 82 | 14 |
 | CI / Infra / Process(CI 与基础流程) | 25 | 8 |
-| Other(其他) | 274 | 32 |
+| Other(其他) | 277 | 32 |
 
 ## vllm:年度分布(按创建时间)
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 589 | 125 |
+| 2026 | 601 | 127 |
 | 2025 | 252 | 64 |
 | 2024 | 94 | 34 |
 | 2023 | 2 | 1 |
@@ -89,7 +89,7 @@
 | 分类 | 总数 | 🔥 重点 |
 | --- | --- | --- |
 | Speculative Decoding(投机解码) | 9 | 6 |
-| MoE(混合专家) | 6 | 1 |
+| MoE(混合专家) | 7 | 1 |
 | Quantization(量化) | 12 | 2 |
 | Disaggregated Serving(分离式部署) | 12 | 10 |
 | CUDA Graph / Compiler(CUDA Graph 与编译) | 4 | 4 |
@@ -101,13 +101,13 @@
 | Hardware / Backend(硬件与后端) | 8 | 1 |
 | Feature / Ecosystem(功能与生态) | 18 | 0 |
 | CI / Infra / Process(CI 与基础流程) | 4 | 0 |
-| Other(其他) | 56 | 6 |
+| Other(其他) | 57 | 6 |
 
 ## sglang:年度分布(按创建时间)
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 173 | 31 |
+| 2026 | 175 | 31 |
 | 2025 | 31 | 12 |
 
 ## sglang:热度 Top 20 (reactions×2 + comments)
@@ -157,6 +157,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-11T19:05:08+00:00
-- **vllm** @b32a87094afc (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/b32a87094afc8e9ec349107db8526bebd552069d | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-11T15:48:44+00:00 | RFC 937 → 重点档 224 → 摘要卡 224
-- **sglang** @95999790a4a2 (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/95999790a4a201caf8a142c95711fe5af329a39b | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-11T15:48:44+00:00 | RFC 204 → 重点档 43 → 摘要卡 43
+- 快照记录时间: 2026-11-15T14:42:46+00:00
+- **vllm** @9fbe012bd78b (upstream HEAD 2026-11-15) — commit: https://github.com/vllm-project/vllm/commit/9fbe012bd78bc46471013541e04bb9f0cfc84b80 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-15T14:30:29+00:00 | RFC 949 → 重点档 226 → 摘要卡 224
+- **sglang** @e4c3f001d6bc (upstream HEAD 2026-11-15) — commit: https://github.com/sgl-project/sglang/commit/e4c3f001d6bc8cb43e778b6b27d562af550db8c9 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-15T14:30:29+00:00 | RFC 206 → 重点档 43 → 摘要卡 43

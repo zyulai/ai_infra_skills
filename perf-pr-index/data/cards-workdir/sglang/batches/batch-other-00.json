@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "Other",
-  "count": 34,
+  "count": 35,
   "prs": [
     {
       "number": 11712,
@@ -206,6 +206,12 @@
       "title": "[Perf] diffusion/registry: Reduce model discovery work at startup",
       "pack": "data/cards-workdir/sglang/packs/pr-46043.pack.md",
       "card_out": "index/sglang/cards/pr-46043-<slug>.md"
+    },
+    {
+      "number": 49391,
+      "title": "[Perf] [NVIDIA] diffusion/joy: Reuse FP32 residual gate for large image updates on SM103",
+      "pack": "data/cards-workdir/sglang/packs/pr-49391.pack.md",
+      "card_out": "index/sglang/cards/pr-49391-<slug>.md"
     }
   ]
 }

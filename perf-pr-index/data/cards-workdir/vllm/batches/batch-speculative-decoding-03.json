@@ -4,6 +4,18 @@
   "count": 40,
   "prs": [
     {
+      "number": 56562,
+      "title": "[Perf] Fuse DSV4.1 input metadata preparation with Triton",
+      "pack": "data/cards-workdir/vllm/packs/pr-56562.pack.md",
+      "card_out": "index/vllm/cards/pr-56562-<slug>.md"
+    },
+    {
+      "number": 56633,
+      "title": "[Perf][DSv4.1] Fold the mHC post block into the delayed pre projection",
+      "pack": "data/cards-workdir/vllm/packs/pr-56633.pack.md",
+      "card_out": "index/vllm/cards/pr-56633-<slug>.md"
+    },
+    {
       "number": 56807,
       "title": "[watermarking] add context deduplication support to speculative decoding",
       "pack": "data/cards-workdir/vllm/packs/pr-56807.pack.md",
@@ -154,6 +166,12 @@
       "card_out": "index/vllm/cards/pr-61355-<slug>.md"
     },
     {
+      "number": 61395,
+      "title": "[EPLB] Support heterogeneous DeepSeek V4/V4.1 DSpark draft experts",
+      "pack": "data/cards-workdir/vllm/packs/pr-61395.pack.md",
+      "card_out": "index/vllm/cards/pr-61395-<slug>.md"
+    },
+    {
       "number": 61498,
       "title": "[ROCm][Perf][Kimi-K3] Mono decode layer for Kimi-K3 on MI355X w/ vanilla decode",
       "pack": "data/cards-workdir/vllm/packs/pr-61498.pack.md",
@@ -224,24 +242,6 @@
       "title": "[Bugfix][Spec Decode] Align speculator hidden norm in GLM-4.5/4.6 MoE and GLM-OCR MTP with GLM5Next to recycle post-final-hidden.",
       "pack": "data/cards-workdir/vllm/packs/pr-62234.pack.md",
       "card_out": "index/vllm/cards/pr-62234-<slug>.md"
-    },
-    {
-      "number": 62240,
-      "title": "[Perf][DSA] Rank the prefill indexer logits with DeepSelect in BF16",
-      "pack": "data/cards-workdir/vllm/packs/pr-62240.pack.md",
-      "card_out": "index/vllm/cards/pr-62240-<slug>.md"
-    },
-    {
-      "number": 62769,
-      "title": "[Bugfix][Spec Decode] Synchronize adaptive DSpark decisions across TP ranks",
-      "pack": "data/cards-workdir/vllm/packs/pr-62769.pack.md",
-      "card_out": "index/vllm/cards/pr-62769-<slug>.md"
-    },
-    {
-      "number": 62784,
-      "title": "[Spec Decode][MRV2] Skip drafting in steps where no request can use the drafts",
-      "pack": "data/cards-workdir/vllm/packs/pr-62784.pack.md",
-      "card_out": "index/vllm/cards/pr-62784-<slug>.md"
     }
   ]
 }

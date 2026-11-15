@@ -1,8 +1,20 @@
 {
   "repo": "sglang",
   "category": "Speculative Decoding",
-  "count": 11,
+  "count": 16,
   "prs": [
+    {
+      "number": 46186,
+      "title": "[Perf] spec: radix top-k for speculative verify target probabilities",
+      "pack": "data/cards-workdir/sglang/packs/pr-46186.pack.md",
+      "card_out": "index/sglang/cards/pr-46186-<slug>.md"
+    },
+    {
+      "number": 46213,
+      "title": "[Perf] flashinfer-megamoe: Add an optional decode workspace",
+      "pack": "data/cards-workdir/sglang/packs/pr-46213.pack.md",
+      "card_out": "index/sglang/cards/pr-46213-<slug>.md"
+    },
     {
       "number": 46263,
       "title": "[Perf] [NVIDIA] deepseek-v4.1: Default aggregated servers to MegaAttention only when each rank holds 64 query heads",
@@ -20,6 +32,12 @@
       "title": "[Perf] [NVIDIA] muse-spark-open: Fuse MoE finalize with the 2shot_push all-reduce",
       "pack": "data/cards-workdir/sglang/packs/pr-46724.pack.md",
       "card_out": "index/sglang/cards/pr-46724-<slug>.md"
+    },
+    {
+      "number": 46781,
+      "title": "[Perf] spec: Avoid blocking H2D for MRoPE delta in spec decode",
+      "pack": "data/cards-workdir/sglang/packs/pr-46781.pack.md",
+      "card_out": "index/sglang/cards/pr-46781-<slug>.md"
     },
     {
       "number": 47180,
@@ -68,6 +86,18 @@
       "title": "[Perf] kda: Run the fused CuTe DSpARK verify kernel on a BF16 SSM state",
       "pack": "data/cards-workdir/sglang/packs/pr-48613.pack.md",
       "card_out": "index/sglang/cards/pr-48613-<slug>.md"
+    },
+    {
+      "number": 48949,
+      "title": "[Perf] reject_sampling: Vocabulary-tiled final-token pass at small batch",
+      "pack": "data/cards-workdir/sglang/packs/pr-48949.pack.md",
+      "card_out": "index/sglang/cards/pr-48949-<slug>.md"
+    },
+    {
+      "number": 48996,
+      "title": "[Perf] [AMD] dsa: Default the DSA KV cache to fp8_e4m3 on gfx950",
+      "pack": "data/cards-workdir/sglang/packs/pr-48996.pack.md",
+      "card_out": "index/sglang/cards/pr-48996-<slug>.md"
     }
   ]
 }

@@ -1,29 +1,33 @@
 # VLLM Bug Fix 全量索引(已合并修复 PR)
 
 - 仓库: https://github.com/vllm-project/vllm
-- 收录总数: **7975** (重点 🔥 **649** / 一般 7326)
-- 生成时间: 2026-11-11T19:04:24+00:00
+- 收录总数: **8066** (重点 🔥 **655** / 一般 7411)
+- 生成时间: 2026-11-15T15:23:19+00:00
 
 ## 目录
 
-- [Speculative Decoding(投机解码) (284)](#speculative-decoding投机解码-284)
-- [MoE(混合专家) (434)](#moe混合专家-434)
-- [Quantization(量化) (559)](#quantization量化-559)
-- [CUDA Graph / Compiler(CUDA Graph 与编译) (286)](#cuda-graph--compilercuda-graph-与编译-286)
+- [Speculative Decoding(投机解码) (288)](#speculative-decoding投机解码-288)
+- [MoE(混合专家) (441)](#moe混合专家-441)
+- [Quantization(量化) (561)](#quantization量化-561)
+- [CUDA Graph / Compiler(CUDA Graph 与编译) (296)](#cuda-graph--compilercuda-graph-与编译-296)
 - [Overlap / Scheduler(重叠与调度) (131)](#overlap--scheduler重叠与调度-131)
-- [Attention / Kernel(注意力与算子) (820)](#attention--kernel注意力与算子-820)
-- [KV Cache / Memory(KV Cache 与显存) (303)](#kv-cache--memorykv-cache-与显存-303)
-- [Parallelism / Communication(并行与通信) (113)](#parallelism--communication并行与通信-113)
+- [Attention / Kernel(注意力与算子) (827)](#attention--kernel注意力与算子-827)
+- [KV Cache / Memory(KV Cache 与显存) (316)](#kv-cache--memorykv-cache-与显存-316)
+- [Parallelism / Communication(并行与通信) (114)](#parallelism--communication并行与通信-114)
 - [Sampler / Detokenization(采样与反分词) (108)](#sampler--detokenization采样与反分词-108)
-- [Frontend / Serving(前端与服务) (488)](#frontend--serving前端与服务-488)
-- [Model-specific Fast Path(模型专属快路径) (707)](#model-specific-fast-path模型专属快路径-707)
+- [Frontend / Serving(前端与服务) (497)](#frontend--serving前端与服务-497)
+- [Model-specific Fast Path(模型专属快路径) (712)](#model-specific-fast-path模型专属快路径-712)
 - [CI / Test-Perf(CI 与测试性能) (26)](#ci--test-perfci-与测试性能-26)
-- [Other(其他) (3716)](#other其他-3716)
+- [Other(其他) (3749)](#other其他-3749)
 
-## Speculative Decoding(投机解码) (284)
+## Speculative Decoding(投机解码) (288)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [67519](https://github.com/vllm-project/vllm/pull/67519) | [Bugfix] Fix EAGLE-3 on Transformers backend VLMs | hmellor | 2026-11-14 | general(一般) | 一般 |  |
+| [67061](https://github.com/vllm-project/vllm/pull/67061) | [Bugfix][Spec Decode] Allow min_p and logit_bias with speculative decoding | anhtra3889 | 2026-11-13 | general(一般) | 一般 |  |
+| [64777](https://github.com/vllm-project/vllm/pull/64777) | [Bugfix][Spec Decode] Use the target's kernel block sizes for EAGLE draft attention | Ankur-singh | 2026-11-13 | general(一般) | 一般 |  |
+| [66063](https://github.com/vllm-project/vllm/pull/66063) | [Spec Decode][PP] Run draft models as a single pipeline stage | xsxszab | 2026-11-12 | general(一般) | 一般 |  |
 | [65704](https://github.com/vllm-project/vllm/pull/65704) | [Bugfix][GLM-5.3] Build the MTP eh_proj low-latency GEMM plan | csahithi | 2026-11-10 | general(一般) | 一般 |  |
 | [58094](https://github.com/vllm-project/vllm/pull/58094) | [Bugfix][Spec Decode] Propagate rope hf_overrides to MTP draft | gokay-ai | 2026-11-09 | general(一般) | 🔥 重点 | [卡片](fix-cards/pr-58094-bugfix-spec-decode-propagate-rope-hf-ove.md) |
 | [66217](https://github.com/vllm-project/vllm/pull/66217) | [ROCm][CI] Set speculative_config in test_rocm_triton_attn_dsv4.py to fix (MI355 DPX) Att… | rasmith | 2026-11-07 | general(一般) | 一般 |  |
@@ -309,10 +313,17 @@
 | [4551](https://github.com/vllm-project/vllm/pull/4551) | [Bug fix][Core] fixup ngram not setup correctly | leiwen83 | 2024-05-07 | general(一般) | 一般 |  |
 | [4165](https://github.com/vllm-project/vllm/pull/4165) | [BugFix] fix num_lookahead_slots missing in async executor | leiwen83 | 2024-04-30 | general(一般) | 一般 |  |
 
-## MoE(混合专家) (434)
+## MoE(混合专家) (441)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [67599](https://github.com/vllm-project/vllm/pull/67599) | [Bugfix][AuxOutput] Size the routed-experts row cache from one source | aoshen02 | 2026-11-14 | general(一般) | 一般 |  |
+| [67394](https://github.com/vllm-project/vllm/pull/67394) | [ROCm][CI] Fix Sharded RDT bake test replay under persisted ROCm MoE padding | PerryZhang01 | 2026-11-13 | general(一般) | 一般 |  |
+| [67369](https://github.com/vllm-project/vllm/pull/67369) | [CI][Bugfix] Pin the GLM5-next shared-expert fusion test to the stock decode | LucasWilkinson | 2026-11-13 | general(一般) | 一般 |  |
+| [64086](https://github.com/vllm-project/vllm/pull/64086) | [Bugfix][MoE] Preserve invalid expert IDs in NIXL round-robin mapping | algebra-MCX | 2026-11-13 | general(一般) | 一般 |  |
+| [67225](https://github.com/vllm-project/vllm/pull/67225) | [Bugfix][MoE] Skip DeepGEMM localizer cleanup on SM90 | chaunceyjiang | 2026-11-12 | general(一般) | 一般 |  |
+| [66274](https://github.com/vllm-project/vllm/pull/66274) | [Bugfix] Broadcast scalar block scales in Triton fused MoE | janbernloehr | 2026-11-12 | general(一般) | 一般 |  |
+| [61872](https://github.com/vllm-project/vllm/pull/61872) | [Bugfix][ROCm] Restore MoE weight padding dropped by #46009 | umarkovi-amd | 2026-11-12 | general(一般) | 一般 |  |
 | [58986](https://github.com/vllm-project/vllm/pull/58986) | [Perf] Tune GLM-5.3-Flash block-FP8 MoE for H20 | mengziheng | 2026-11-11 | general(一般) | 一般 |  |
 | [49539](https://github.com/vllm-project/vllm/pull/49539) | [Bugfix][Quantization] Keep unquantized routed experts unquantized under AutoGPTQ | pjdurden | 2026-11-11 | general(一般) | 一般 |  |
 | [66207](https://github.com/vllm-project/vllm/pull/66207) | [CI] Fix B200 nightly gsm8k evals: ReplaySSM and DeepEP LL | csahithi | 2026-11-10 | general(一般) | 一般 |  |
@@ -748,10 +759,12 @@
 | [3597](https://github.com/vllm-project/vllm/pull/3597) | [BugFix] 1D query fix for MoE models | njhill | 2024-03-24 | general(一般) | 一般 |  |
 | [3045](https://github.com/vllm-project/vllm/pull/3045) | [Minor] Fix type annotation in fused moe | WoosukKwon | 2024-02-27 | general(一般) | 一般 |  |
 
-## Quantization(量化) (559)
+## Quantization(量化) (561)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [65951](https://github.com/vllm-project/vllm/pull/65951) | [Bugfix][Quantization] Handle dict-valued Quark `algo_config` in `maybe_update_config` | afriedri | 2026-11-13 | general(一般) | 一般 |  |
+| [64056](https://github.com/vllm-project/vllm/pull/64056) | [Quantization][OOT] Fix OnlineQuantizationConfig overriding the registered OOT online qua… | menogrey | 2026-11-12 | general(一般) | 一般 |  |
 | [66876](https://github.com/vllm-project/vllm/pull/66876) | [ROCm][Bugfix] Allow lut_b_moe online quantization on ROCm | AndreasKaratzas | 2026-11-11 | general(一般) | 一般 |  |
 | [64329](https://github.com/vllm-project/vllm/pull/64329) | [Bugfix] Apply the layer q_scale only to FP8 queries in FlashInfer | vadiklyutiy | 2026-11-11 | general(一般) | 一般 |  |
 | [66875](https://github.com/vllm-project/vllm/pull/66875) | [ROCm][Bugfix] Key the FSE MXFP8 scale-layout test check on the selected backend | AndreasKaratzas | 2026-11-10 | general(一般) | 一般 |  |
@@ -1312,11 +1325,21 @@
 | [1356](https://github.com/vllm-project/vllm/pull/1356) | Minor fix on AWQ kernel launch | WoosukKwon | 2023-10-16 | general(一般) | 一般 |  |
 | [1295](https://github.com/vllm-project/vllm/pull/1295) | Fix overflow in awq kernel | chu-tianxiang | 2023-10-11 | general(一般) | 一般 |  |
 
-## CUDA Graph / Compiler(CUDA Graph 与编译) (286)
+## CUDA Graph / Compiler(CUDA Graph 与编译) (296)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [67311](https://github.com/vllm-project/vllm/pull/67311) | [CI] Fix the precompiled wheel variant and wait in python_only_compile.sh | wzhao18 | 2026-11-13 | general(一般) | 一般 |  |
+| [67286](https://github.com/vllm-project/vllm/pull/67286) | [Bugfix] Avoid duplicate values in `compile_ranges_endpoints` for compilation config | Isotr0py | 2026-11-13 | general(一般) | 一般 |  |
+| [67181](https://github.com/vllm-project/vllm/pull/67181) | [Bugfix][Kernel] Bump DeepGEMM for the MegaMoE combine-readiness fix under CUDA graph rep… | gau-nernst | 2026-11-13 | general(一般) | 一般 |  |
+| [61669](https://github.com/vllm-project/vllm/pull/61669) | [Bugfix][Model] DiffusionGemma: stop sampler recompiles during serving | pranavabbott | 2026-11-13 | general(一般) | 一般 |  |
+| [67201](https://github.com/vllm-project/vllm/pull/67201) | [Bugfix] Reset the global CUDA graph pool on engine shutdown | chaunceyjiang | 2026-11-12 | general(一般) | 一般 |  |
+| [67081](https://github.com/vllm-project/vllm/pull/67081) | [Bugfix] Remove compiled models' bytecode hooks at in-process shutdown | njhill | 2026-11-12 | general(一般) | 一般 |  |
+| [66523](https://github.com/vllm-project/vllm/pull/66523) | [Bugfix] Extensible KV cache: release warmup's blocks before CUDA graph capture | hnt2601 | 2026-11-12 | general(一般) | 一般 |  |
+| [65535](https://github.com/vllm-project/vllm/pull/65535) | [Bugfix][Multimodal] Skip the encoder CUDA graph for precomputed embeddings | Baiiiiiiiiii | 2026-11-12 | general(一般) | 一般 |  |
+| [62964](https://github.com/vllm-project/vllm/pull/62964) | [Bugfix][Spec Decode] Keep FlashInfer CUDA graphs for drafters with their own head count | seyfal | 2026-11-12 | general(一般) | 一般 |  |
 | [66833](https://github.com/vllm-project/vllm/pull/66833) | [Transformers backend] Fix M-RoPE models under CUDA graphs | hmellor | 2026-11-11 | general(一般) | 一般 |  |
+| [66465](https://github.com/vllm-project/vllm/pull/66465) | [MRV2][PP] Support different CUDA graph padding across pipeline stages | xsxszab | 2026-11-11 | general(一般) | 一般 |  |
 | [66654](https://github.com/vllm-project/vllm/pull/66654) | [Bugfix][DSv4.1] Avoid runtime JIT of two prefill sparse-attention kernels | Juntian777 | 2026-11-10 | general(一般) | 一般 |  |
 | [66289](https://github.com/vllm-project/vllm/pull/66289) | [Bugfix][Qwen3.5] Replace FlashInfer GemmaRMSNorm JIT with Triton for arch<sm80 | yassienashrafwasfy | 2026-11-09 | general(一般) | 一般 |  |
 | [65351](https://github.com/vllm-project/vllm/pull/65351) | [Multimodal][Bugfix] Fix Step3-VL encoder output aliasing and guard shared CUDA graph cap… | shen-shanshan | 2026-11-08 | general(一般) | 一般 |  |
@@ -1739,13 +1762,20 @@
 | [1534](https://github.com/vllm-project/vllm/pull/1534) | Fix hanging in the scheduler caused by long prompts | chenxu2048 | 2023-11-21 | hang(挂死) | 🔥 重点 | [卡片](fix-cards/pr-1534-fix-hanging-in-the-scheduler-caused-by-l.md) |
 | [652](https://github.com/vllm-project/vllm/pull/652) | Fix log message in scheduler | LiuXiaoxuanPKU | 2023-08-02 | general(一般) | 一般 |  |
 
-## Attention / Kernel(注意力与算子) (820)
+## Attention / Kernel(注意力与算子) (827)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [67579](https://github.com/vllm-project/vllm/pull/67579) | [CI][Bugfix] Fix fake backend in drafter kernel block size test | PerryZhang01 | 2026-11-14 | general(一般) | 一般 |  |
+| [64515](https://github.com/vllm-project/vllm/pull/64515) | [Bugfix][XPU] Use int64 token index in the DeepSeek-V4 qnorm/RoPE kernel | afierka-intel | 2026-11-14 | general(一般) | 一般 |  |
+| [67485](https://github.com/vllm-project/vllm/pull/67485) | [Bugfix] Fix startup OOM in KV cache sizing warmup by releasing kernel warmup's KV blocks | vadiklyutiy | 2026-11-13 | resource(资源泄漏/OOM) | 🔥 重点 | [卡片](fix-cards/pr-67485-bugfix-fix-startup-oom-in-kv-cache-sizin.md) |
+| [67002](https://github.com/vllm-project/vllm/pull/67002) | [Bugfix] Fix M-RoPE position preparation with PCP | pisceskkk | 2026-11-13 | general(一般) | 一般 |  |
+| [66495](https://github.com/vllm-project/vllm/pull/66495) | [Bugfix][XPU] Remove CUDA-only dependencies from Unlimited-OCR-2 DASH attention | faaany | 2026-11-12 | general(一般) | 一般 |  |
+| [66197](https://github.com/vllm-project/vllm/pull/66197) | [Bugfix] Exclude FlashInfer autotune peak from KV cache sizing | janbernloehr | 2026-11-12 | general(一般) | 一般 |  |
 | [66986](https://github.com/vllm-project/vllm/pull/66986) | [Bugfix][Muse Spark] Avoid the FlashInfer Cake PDL race in gated_residual_rmsnorm | jeejeelee | 2026-11-11 | general(一般) | 一般 |  |
 | [66819](https://github.com/vllm-project/vllm/pull/66819) | [Bugfix][Model] Let DomynEdge mix sliding and full attention layers | jiaqiang-dot-liu | 2026-11-11 | general(一般) | 一般 |  |
 | [66624](https://github.com/vllm-project/vllm/pull/66624) | [Bugfix][Pooling] Use the SigLIP chat template over the Gemma one for SigLIP2 | Alex-Wengg | 2026-11-11 | general(一般) | 一般 |  |
+| [64165](https://github.com/vllm-project/vllm/pull/64165) | [Bugfix] Fix FlashInfer plan buffer race causing illegal memory access with PP | vadiklyutiy | 2026-11-11 | crash(崩溃) | 🔥 重点 | [卡片](fix-cards/pr-64165-bugfix-fix-flashinfer-plan-buffer-race-c.md) |
 | [64087](https://github.com/vllm-project/vllm/pull/64087) | [Bugfix][Kernel] Fix reshape & cache dropping KV heads past 512 chunks | giuseppegrossi | 2026-11-11 | general(一般) | 一般 |  |
 | [46558](https://github.com/vllm-project/vllm/pull/46558) | [Bugfix][Attention] Enable FlashInfer mm-prefix attention | lesj0610 | 2026-11-11 | general(一般) | 🔥 重点 | [卡片](fix-cards/pr-46558-bugfix-attention-enable-flashinfer-mm-pr.md) |
 | [66710](https://github.com/vllm-project/vllm/pull/66710) | [ROCm][CI] Fix aiter sparse MLA KV-connector test after parameter rename | LucasWilkinson | 2026-11-10 | general(一般) | 一般 |  |
@@ -2564,10 +2594,23 @@
 | [495](https://github.com/vllm-project/vllm/pull/495) | Fix paged attention testing. | shanshanpt | 2023-07-25 | general(一般) | 一般 |  |
 | [68](https://github.com/vllm-project/vllm/pull/68) | Fix a bug in attention kernel | WoosukKwon | 2023-05-04 | general(一般) | 一般 |  |
 
-## KV Cache / Memory(KV Cache 与显存) (303)
+## KV Cache / Memory(KV Cache 与显存) (316)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [67607](https://github.com/vllm-project/vllm/pull/67607) | [KV Offload][Bugfix] Hold P2P e2e test ports until the tiers bind them | AndreasKaratzas | 2026-11-15 | general(一般) | 一般 |  |
+| [63524](https://github.com/vllm-project/vllm/pull/63524) | [Bugfix][KV Offload] Report only written blocks from fs tier store jobs | AdvayMonga | 2026-11-15 | general(一般) | 一般 |  |
+| [67420](https://github.com/vllm-project/vllm/pull/67420) | [CI][Bugfix] Migrate UMBP lazy offload tests to the ManagerConfig KV cache API | PerryZhang01 | 2026-11-13 | general(一般) | 一般 |  |
+| [67333](https://github.com/vllm-project/vllm/pull/67333) | [Bugfix][KV Connector] Stop forwarding shutdown() to LMCache until it no longer aborts | njhill | 2026-11-13 | general(一般) | 一般 |  |
+| [67296](https://github.com/vllm-project/vllm/pull/67296) | [Bugfix] Keep extensible KV cache headroom for measured allocator fragmentation | njhill | 2026-11-13 | general(一般) | 一般 |  |
+| [62800](https://github.com/vllm-project/vllm/pull/62800) | [Bugfix] Fix KV cache pages for hybrid models with draft layers | seyfal | 2026-11-13 | general(一般) | 一般 |  |
+| [67152](https://github.com/vllm-project/vllm/pull/67152) | [Bugfix][KV Offload] Clear partial-tail pending state on a required group miss | waizuichougou | 2026-11-12 | general(一般) | 一般 |  |
+| [67098](https://github.com/vllm-project/vllm/pull/67098) | [Bugfix][KV Offload] Evict a running request’s ARC chunks tail first | JonSnow1807 | 2026-11-12 | general(一般) | 一般 |  |
+| [67080](https://github.com/vllm-project/vllm/pull/67080) | [Bugfix][KV Connector] Skip Mooncake saves after failed existence checks | hj-mistral | 2026-11-12 | general(一般) | 一般 |  |
+| [58619](https://github.com/vllm-project/vllm/pull/58619) | [Bugfix][KV Offload] Enable partial-tail offload for hybrid models under DCP | nvyutwu | 2026-11-12 | general(一般) | 🔥 重点 | [卡片](fix-cards/pr-58619-bugfix-kv-offload-enable-partial-tail-of.md) |
+| [66731](https://github.com/vllm-project/vllm/pull/66731) | [Bugfix] Size extensible KV cache reserve on the full token budget | njhill | 2026-11-11 | general(一般) | 一般 |  |
+| [66419](https://github.com/vllm-project/vllm/pull/66419) | [Bugfix][Offload] Apply --cpu-offload-gb to models served by the Transformers modeling ba… | technovelist | 2026-11-11 | general(一般) | 一般 |  |
+| [64324](https://github.com/vllm-project/vllm/pull/64324) | [Bugfix] Forward shutdown() in LMCacheConnectorV1 so EngineCore is not force-killed | vadiklyutiy | 2026-11-11 | general(一般) | 一般 |  |
 | [66544](https://github.com/vllm-project/vllm/pull/66544) | [Bugfix][KV Offload] Preserve confirmed junction after lookup retry | Alex-ai-future | 2026-11-10 | general(一般) | 一般 |  |
 | [66370](https://github.com/vllm-project/vllm/pull/66370) | [Bugfix][Core] Re-prepare model state after extensible KV cache extension (Kimi-K3 AMD sp… | AndreasKaratzas | 2026-11-10 | general(一般) | 一般 |  |
 | [65640](https://github.com/vllm-project/vllm/pull/65640) | [Bugfix][KV Offload] Refresh streaming request keys after preemption | waizuichougou | 2026-11-08 | general(一般) | 一般 |  |
@@ -2872,10 +2915,11 @@
 | [3158](https://github.com/vllm-project/vllm/pull/3158) | [FIX] Fix styles in automatic prefix caching & add a automatic prefix caching benchmark | zhuohan123 | 2024-03-03 | general(一般) | 一般 |  |
 | [2688](https://github.com/vllm-project/vllm/pull/2688) | Fixes assertion failure in prefix caching: the lora index mapping should respect `prefix_… | sighingnow | 2024-01-31 | crash(崩溃) | 🔥 重点 | [卡片](fix-cards/pr-2688-fixes-assertion-failure-in-prefix-cachin.md) |
 
-## Parallelism / Communication(并行与通信) (113)
+## Parallelism / Communication(并行与通信) (114)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [66375](https://github.com/vllm-project/vllm/pull/66375) | [Perf][Bugfix][RL] Fix sparse NCCL update OOM and improve performance | ShuoleiWang | 2026-11-14 | resource(资源泄漏/OOM) | 🔥 重点 | [卡片](fix-cards/pr-66375-perf-bugfix-rl-fix-sparse-nccl-update-oo.md) |
 | [66461](https://github.com/vllm-project/vllm/pull/66461) | [Bugfix][Qwen4Exp] Exclude the HC padding shard from the loaded-shard check | gau-nernst | 2026-11-09 | general(一般) | 一般 |  |
 | [65806](https://github.com/vllm-project/vllm/pull/65806) | [Bugfix][MiniMax-M3] Initialize the shard record in the indexer QKV layer | gau-nernst | 2026-11-05 | general(一般) | 一般 |  |
 | [63752](https://github.com/vllm-project/vllm/pull/63752) | [Bugfix][Model Loader] Reject stacked weights that received only some shards | Josephasafg | 2026-11-04 | general(一般) | 一般 |  |
@@ -3103,10 +3147,19 @@
 | [913](https://github.com/vllm-project/vllm/pull/913) | fix: bug fix when penalties are negative | pfldy2850 | 2023-08-31 | general(一般) | 一般 |  |
 | [788](https://github.com/vllm-project/vllm/pull/788) | Fix typo in sampling_params.py | wangcx18 | 2023-08-18 | general(一般) | 一般 |  |
 
-## Frontend / Serving(前端与服务) (488)
+## Frontend / Serving(前端与服务) (497)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [67282](https://github.com/vllm-project/vllm/pull/67282) | [Bugfix][Rust Frontend] SIGTERM only the managed engine's launcher so in-flight requests … | liangjuf | 2026-11-14 | general(一般) | 一般 |  |
+| [63580](https://github.com/vllm-project/vllm/pull/63580) | [Bugfix][Rust Frontend] Return 400 instead of 500 when tool parsing is disabled | vito-lin-dev | 2026-11-14 | general(一般) | 一般 |  |
+| [67256](https://github.com/vllm-project/vllm/pull/67256) | [Bugfix][Rust Frontend] Resolve auxiliary frames of add requests in the mock engine | BugenZhao | 2026-11-13 | general(一般) | 一般 |  |
+| [67096](https://github.com/vllm-project/vllm/pull/67096) | [Bugfix] Let SIGTERM during engine startup stop the API server | abdulrahman-cohere | 2026-11-13 | startup(启动/加载) | 一般 |  |
+| [66891](https://github.com/vllm-project/vllm/pull/66891) | [Bugfix][Frontend] Render tool-result media in the Inkling renderer | yousef-cohere | 2026-11-12 | general(一般) | 一般 |  |
+| [66777](https://github.com/vllm-project/vllm/pull/66777) | [Bugfix][Frontend] Report the matching request type's error from SageMaker /invocations | LantaoJin | 2026-11-12 | general(一般) | 一般 |  |
+| [66773](https://github.com/vllm-project/vllm/pull/66773) | [Bugfix][Rust Frontend] Exit on permanent engine failure | reidliu41 | 2026-11-12 | general(一般) | 一般 |  |
+| [65932](https://github.com/vllm-project/vllm/pull/65932) | [Bugfix][Frontend] Pool HF fast tokenizers in BaseRenderer so concurrent truncation stays… | haishuok0525 | 2026-11-12 | general(一般) | 一般 |  |
+| [57796](https://github.com/vllm-project/vllm/pull/57796) | [Frontend][Multimodal] Accept features together with content_parts in /generate | aoshen02 | 2026-11-12 | general(一般) | 🔥 重点 | [卡片](fix-cards/pr-57796-frontend-multimodal-accept-features-toge.md) |
 | [66848](https://github.com/vllm-project/vllm/pull/66848) | [Bugfix][Tokenizers] Raise ValueError on unknown message role in deepseek_v41_encoding | rudy-07 | 2026-11-11 | general(一般) | 一般 |  |
 | [66489](https://github.com/vllm-project/vllm/pull/66489) | [Bugfix][Frontend] Reject empty messages in ChatCompletionRequest | Yunt1 | 2026-11-11 | general(一般) | 一般 |  |
 | [65976](https://github.com/vllm-project/vllm/pull/65976) | [Bugfix][Frontend] Reject Anthropic max_tokens=0 prewarm with an actionable error | albertoperdomo2 | 2026-11-11 | general(一般) | 一般 |  |
@@ -3596,10 +3649,15 @@
 | [34](https://github.com/vllm-project/vllm/pull/34) | Fix timeout error in the FastAPI frontend | zhuohan123 | 2023-05-19 | general(一般) | 一般 |  |
 | [28](https://github.com/vllm-project/vllm/pull/28) | Fix potential bugs in FastAPI frontend and add comments | zhuohan123 | 2023-04-06 | general(一般) | 一般 |  |
 
-## Model-specific Fast Path(模型专属快路径) (707)
+## Model-specific Fast Path(模型专属快路径) (712)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [66401](https://github.com/vllm-project/vllm/pull/66401) | [Bugfix][MRV2] Allow non 8-bytes aligned `--max-num-batched-tokens` for DeepSeek-v4 | wtdcode | 2026-11-14 | general(一般) | 一般 |  |
+| [43638](https://github.com/vllm-project/vllm/pull/43638) | [BugFix] Fix Mistral3 multimodal offline example | FED4 | 2026-11-14 | general(一般) | 一般 |  |
+| [67516](https://github.com/vllm-project/vllm/pull/67516) | [Bugfix][HiSparse] Fix GLM-5.3-Flash startup: derive resident/hot specs without grouping … | MatthewBonanni | 2026-11-13 | startup(启动/加载) | 一般 |  |
+| [66784](https://github.com/vllm-project/vllm/pull/66784) | [Bugfix][Model Loader] Handle merged-linear padding for Qwen4Exp and Kimi KDA | Ronald1995 | 2026-11-13 | general(一般) | 一般 |  |
+| [66348](https://github.com/vllm-project/vllm/pull/66348) | [Bugfix] granite_20b_fc: render conversations that carry a system message | pra2107tham | 2026-11-12 | general(一般) | 一般 |  |
 | [66007](https://github.com/vllm-project/vllm/pull/66007) | [Bugfix][Model] Fix GraniteMoeHybrid pipeline-parallel startup | xsxszab | 2026-11-11 | startup(启动/加载) | 一般 |  |
 | [65936](https://github.com/vllm-project/vllm/pull/65936) | [Bugfix][Tool Parser] Olmo3: stream plain text that starts with "<" | cipheraxat | 2026-11-11 | general(一般) | 一般 |  |
 | [64403](https://github.com/vllm-project/vllm/pull/64403) | [Bugfix][ROCm] Avoid unused index caches in MiniMax-M3 sharing layers | lunarwhite | 2026-11-10 | general(一般) | 一般 |  |
@@ -4339,13 +4397,46 @@
 | [1378](https://github.com/vllm-project/vllm/pull/1378) | Fix PyTorch index URL in workflow | WoosukKwon | 2023-10-16 | general(一般) | 一般 |  |
 | [1377](https://github.com/vllm-project/vllm/pull/1377) | Fix PyTorch version to 2.0.1 in workflow | WoosukKwon | 2023-10-16 | general(一般) | 一般 |  |
 
-## Other(其他) (3716)
+## Other(其他) (3749)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [67691](https://github.com/vllm-project/vllm/pull/67691) | [Bugfix][Muse Spark] Load the model classes lazily so importing the package doesn't initi… | njhill | 2026-11-15 | general(一般) | 一般 |  |
+| [67611](https://github.com/vllm-project/vllm/pull/67611) | [Bugfix][Audio] Treat zero decode limits as disabled | Woolgathererer | 2026-11-15 | general(一般) | 一般 |  |
+| [67574](https://github.com/vllm-project/vllm/pull/67574) | [CI] Fix NIXL EP import test | itayalroy | 2026-11-15 | general(一般) | 一般 |  |
+| [67545](https://github.com/vllm-project/vllm/pull/67545) | [Bugfix][Core] Keep dummy-run requests within max_model_len | simon-veitner-redhat | 2026-11-14 | general(一般) | 一般 |  |
+| [67474](https://github.com/vllm-project/vllm/pull/67474) | [Bugfix][Multimodal] Size the MOSS-Audio profiling dummy to its audio budget | subhashpolisetti | 2026-11-14 | general(一般) | 一般 |  |
+| [67321](https://github.com/vllm-project/vllm/pull/67321) | [Bugfix][Test] Avoid capfd in test_pp_rejects_split_kv_sharing | aarushjain29 | 2026-11-14 | general(一般) | 一般 |  |
+| [67105](https://github.com/vllm-project/vllm/pull/67105) | [Bugfix][Audio] Fall back to soundfile when torchcodec fails to decode | ekagra-ranjan | 2026-11-14 | general(一般) | 一般 |  |
+| [65453](https://github.com/vllm-project/vllm/pull/65453) | [Bugfix][Multimodal] Repeat-last default padding for `cu_seqlens` in multimodal CG | cjackal | 2026-11-14 | general(一般) | 🔥 重点 | [卡片](fix-cards/pr-65453-bugfix-multimodal-repeat-last-default-pa.md) |
+| [67549](https://github.com/vllm-project/vllm/pull/67549) | [CI/Build] Fix docstring Markdown style in test_quark.py | MadhavJivrajani | 2026-11-13 | general(一般) | 一般 |  |
+| [67479](https://github.com/vllm-project/vllm/pull/67479) | [Bugfix][Multimodal] Preserve values from non-native-endian NumPy embeddings | Afloat16 | 2026-11-13 | general(一般) | 一般 |  |
+| [67476](https://github.com/vllm-project/vllm/pull/67476) | [CI][Bugfix] Read sliding_window from ManagerConfig.params in voxtral realtime test | khluu | 2026-11-13 | general(一般) | 一般 |  |
+| [67331](https://github.com/vllm-project/vllm/pull/67331) | [Bugfix] Shut down the executor when EngineCore fails to start | njhill | 2026-11-13 | startup(启动/加载) | 一般 |  |
+| [67295](https://github.com/vllm-project/vllm/pull/67295) | [Misc] Fix override and context manager type annotations | hmellor | 2026-11-13 | general(一般) | 一般 |  |
+| [67288](https://github.com/vllm-project/vllm/pull/67288) | [Bugfix][Benchmark] Fix prefix_repetition crash and custom_audio --output-len in bench th… | adtygan | 2026-11-13 | crash(崩溃) | 一般 |  |
+| [66473](https://github.com/vllm-project/vllm/pull/66473) | [Bugfix][Multimodal] Domain-separate content digests and caller uuids in mm hashes | shadowmodder | 2026-11-13 | general(一般) | 一般 |  |
+| [65965](https://github.com/vllm-project/vllm/pull/65965) | [Bugfix] Apply `WeightsMapper` stacked rules last, and fix the `--mm-encoder-only` shared… | hmellor | 2026-11-13 | general(一般) | 一般 |  |
+| [64923](https://github.com/vllm-project/vllm/pull/64923) | [Bugfix][V2 runner] Keep idle-DP dummy requests within max_model_len | 0z5a | 2026-11-13 | general(一般) | 一般 |  |
+| [62785](https://github.com/vllm-project/vllm/pull/62785) | [Bugfix][Pooling] Honor the CrossEncoder activation saved by Sentence Transformers v6 | cycancode | 2026-11-13 | general(一般) | 一般 |  |
+| [55719](https://github.com/vllm-project/vllm/pull/55719) | [Bugfix] Allow query parameters in benchmark endpoint URLs | cenab | 2026-11-13 | general(一般) | 一般 |  |
+| [55233](https://github.com/vllm-project/vllm/pull/55233) | [Bugfix] Reject prompt embeddings for BERT/RoBERTa models | iharshlalakiya | 2026-11-13 | general(一般) | 一般 |  |
+| [67279](https://github.com/vllm-project/vllm/pull/67279) | [Bugfix] Clear cuBLAS workspaces at in-process shutdown to free the graph pool | njhill | 2026-11-12 | general(一般) | 一般 |  |
+| [67212](https://github.com/vllm-project/vllm/pull/67212) | [Bugfix] build with param.dtype when one is not specified | francesco-bertolotti | 2026-11-12 | general(一般) | 一般 |  |
+| [67150](https://github.com/vllm-project/vllm/pull/67150) | [Bugfix][P/D] Proxies: return text/event-stream for streaming requests | GuoxiangZu | 2026-11-12 | general(一般) | 一般 |  |
+| [67107](https://github.com/vllm-project/vllm/pull/67107) | [ROCm][Bugfix] Route biased softmax/sigmoid top-k to AITER topk_gating | rjrock | 2026-11-12 | general(一般) | 一般 |  |
+| [67068](https://github.com/vllm-project/vllm/pull/67068) | [Bugfix][Elastic EP] Recreate stat loggers before starting new engines | josh-schell-amd | 2026-11-12 | general(一般) | 一般 |  |
+| [67008](https://github.com/vllm-project/vllm/pull/67008) | [Bugfix] Honor X-Vllm-Priority in scale-out generate. | nien-hui | 2026-11-12 | general(一般) | 一般 |  |
+| [66638](https://github.com/vllm-project/vllm/pull/66638) | [Bugfix][Multimodal] Cache multi-page Unlimited-OCR-2 requests in the processor cache | subhashpolisetti | 2026-11-12 | general(一般) | 一般 |  |
+| [66608](https://github.com/vllm-project/vllm/pull/66608) | [Bugfix][Multimodal] Pass only the video count to get_num_frames_with_most_features | subhashpolisetti | 2026-11-12 | general(一般) | 一般 |  |
+| [66561](https://github.com/vllm-project/vllm/pull/66561) | [Bugfix] Use max_split_size_mb:21 so freed 1-10 MiB tensors are reused | viktorkou | 2026-11-12 | general(一般) | 一般 |  |
+| [64530](https://github.com/vllm-project/vllm/pull/64530) | [Bugfix][Model Runner V2] Embed randomized dummy input ids for inputs_embeds models | suiyoubi | 2026-11-12 | general(一般) | 一般 |  |
+| [64485](https://github.com/vllm-project/vllm/pull/64485) | [Bugfix][EPLB] Start the async rearrangement interval after the last layer commits | abmfy | 2026-11-12 | general(一般) | 一般 |  |
 | [66758](https://github.com/vllm-project/vllm/pull/66758) | [XPU] fix test_dots_ocr.py::test_dots_ocr_vision_without_host_sync | yma11 | 2026-11-11 | general(一般) | 一般 |  |
 | [65755](https://github.com/vllm-project/vllm/pull/65755) | [Bugfix][Step5] Fix FP32 residual truncation at pipeline boundaries | xsxszab | 2026-11-11 | general(一般) | 一般 |  |
+| [63636](https://github.com/vllm-project/vllm/pull/63636) | [Bugfix][Transformers] Infer mm encoder dynamic_arg_dims from forward signature | nikhilkulkarni1755 | 2026-11-11 | general(一般) | 一般 |  |
 | [62769](https://github.com/vllm-project/vllm/pull/62769) | [Bugfix][Spec Decode] Synchronize adaptive DSpark decisions across TP ranks | okorzh-amd | 2026-11-11 | general(一般) | 🔥 重点 | [卡片](fix-cards/pr-62769-bugfix-spec-decode-synchronize-adaptive.md) |
+| [60035](https://github.com/vllm-project/vllm/pull/60035) | [Bugfix][Pooling] Make MEAN pooling batch invariant when the flag asks for it | Mazukiri | 2026-11-11 | general(一般) | 一般 |  |
 | [55229](https://github.com/vllm-project/vllm/pull/55229) | [Bugfix][DP] Prevent mismatched collectives on duplicate resume | bvolpato | 2026-11-11 | correctness(正确性) | 🔥 重点 | [卡片](fix-cards/pr-55229-bugfix-dp-prevent-mismatched-collectives.md) |
 | [66744](https://github.com/vllm-project/vllm/pull/66744) | [Bugfix][Tests] Fix iteration-details recomputation test setup | wjinxu | 2026-11-10 | general(一般) | 一般 |  |
 | [66390](https://github.com/vllm-project/vllm/pull/66390) | [Bugfix][Model] Avoid host synchronization in dots.ocr vision encoder | nulllt2 | 2026-11-10 | general(一般) | 一般 |  |
@@ -8062,6 +8153,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-11T19:04:21+00:00
-- **vllm** @b32a87094afc (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/b32a87094afc8e9ec349107db8526bebd552069d | API 抓取窗口: 2026-11-08T09:35:42+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 7975 → 重点档 649 → 修复卡 649
-- **sglang** @56e38dfe0fdb (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/56e38dfe0fdb964af402ba22693bb11898ce88d8 | API 抓取窗口: 2026-11-08T10:04:47+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 6411 → 重点档 608 → 修复卡 608
+- 快照记录时间: 2026-11-15T14:42:50+00:00
+- **vllm** @9fbe012bd78b (upstream HEAD 2026-11-15) — commit: https://github.com/vllm-project/vllm/commit/9fbe012bd78bc46471013541e04bb9f0cfc84b80 | API 抓取窗口: 2026-11-08T09:35:42+00:00 ~ 2026-11-15T14:34:22+00:00 | raw 8066 → 重点档 655 → 修复卡 649
+- **sglang** @e4c3f001d6bc (upstream HEAD 2026-11-15) — commit: https://github.com/sgl-project/sglang/commit/e4c3f001d6bc8cb43e778b6b27d562af550db8c9 | API 抓取窗口: 2026-11-08T10:04:47+00:00 ~ 2026-11-15T14:37:49+00:00 | raw 6506 → 重点档 610 → 修复卡 608

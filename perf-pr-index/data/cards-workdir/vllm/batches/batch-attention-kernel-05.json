@@ -1,8 +1,14 @@
 {
   "repo": "vllm",
   "category": "Attention / Kernel",
-  "count": 32,
+  "count": 40,
   "prs": [
+    {
+      "number": 58655,
+      "title": "[ROCm][DSv4.1][Perf] Run the delayed mHC seams through aiter's fused Triton kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-58655.pack.md",
+      "card_out": "index/vllm/cards/pr-58655-<slug>.md"
+    },
     {
       "number": 58737,
       "title": "[Perf] Fuse the mamba align block-table gather into one Triton kernel, 7 kernels -> 1, 6x speedup on all shapes for this kernel",
@@ -130,6 +136,12 @@
       "card_out": "index/vllm/cards/pr-62633-<slug>.md"
     },
     {
+      "number": 63724,
+      "title": "[ROCm][Perf][Muse Spark] Enable the bf16x3 router GEMM on gfx942",
+      "pack": "data/cards-workdir/vllm/packs/pr-63724.pack.md",
+      "card_out": "index/vllm/cards/pr-63724-<slug>.md"
+    },
+    {
       "number": 63847,
       "title": "[ROCm][Kernel] Support persistent_topk on ROCm",
       "pack": "data/cards-workdir/vllm/packs/pr-63847.pack.md",
@@ -152,6 +164,12 @@
       "title": "[Perf][DSA] Token-sharded sparse-MLA prefill under TP; remove indexer row sharding",
       "pack": "data/cards-workdir/vllm/packs/pr-63956.pack.md",
       "card_out": "index/vllm/cards/pr-63956-<slug>.md"
+    },
+    {
+      "number": 64087,
+      "title": "[Bugfix][Kernel] Fix reshape & cache dropping KV heads past 512 chunks",
+      "pack": "data/cards-workdir/vllm/packs/pr-64087.pack.md",
+      "card_out": "index/vllm/cards/pr-64087-<slug>.md"
     },
     {
       "number": 64481,
@@ -178,10 +196,28 @@
       "card_out": "index/vllm/cards/pr-65214-<slug>.md"
     },
     {
+      "number": 65521,
+      "title": "[Perf][mHC] use FlashInfer mega mHC for MHCFusedPostPreOp (GLM-5.3-Fl…",
+      "pack": "data/cards-workdir/vllm/packs/pr-65521.pack.md",
+      "card_out": "index/vllm/cards/pr-65521-<slug>.md"
+    },
+    {
+      "number": 65685,
+      "title": "[Model] Kimi K3.1 Pro (split 5/6: ROCm DCP, P/D, indexer top-k)",
+      "pack": "data/cards-workdir/vllm/packs/pr-65685.pack.md",
+      "card_out": "index/vllm/cards/pr-65685-<slug>.md"
+    },
+    {
       "number": 65778,
       "title": "[Bugfix][Multimodal] Fix FlashInfer ViT attention for GLM-4.1V, GLM-OCR and GLM-5.3-Flash",
       "pack": "data/cards-workdir/vllm/packs/pr-65778.pack.md",
       "card_out": "index/vllm/cards/pr-65778-<slug>.md"
+    },
+    {
+      "number": 66018,
+      "title": "[Attention][MiniMax-M3] Add FlashInfer MSA backend for SM90 and SM120/SM121",
+      "pack": "data/cards-workdir/vllm/packs/pr-66018.pack.md",
+      "card_out": "index/vllm/cards/pr-66018-<slug>.md"
     },
     {
       "number": 66037,
@@ -190,10 +226,22 @@
       "card_out": "index/vllm/cards/pr-66037-<slug>.md"
     },
     {
+      "number": 66855,
+      "title": "[CPU][Perf] Split oversized final attention spans",
+      "pack": "data/cards-workdir/vllm/packs/pr-66855.pack.md",
+      "card_out": "index/vllm/cards/pr-66855-<slug>.md"
+    },
+    {
       "number": 66986,
       "title": "[Bugfix][Muse Spark] Avoid the FlashInfer Cake PDL race in gated_residual_rmsnorm",
       "pack": "data/cards-workdir/vllm/packs/pr-66986.pack.md",
       "card_out": "index/vllm/cards/pr-66986-<slug>.md"
+    },
+    {
+      "number": 67041,
+      "title": "[HiSparse] Revert the FlashInfer all-reduce backend override (#65201, #65522)",
+      "pack": "data/cards-workdir/vllm/packs/pr-67041.pack.md",
+      "card_out": "index/vllm/cards/pr-67041-<slug>.md"
     }
   ]
 }

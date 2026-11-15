@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "CUDA Graph / Compiler",
-  "count": 8,
+  "count": 9,
   "prs": [
     {
       "number": 61422,
@@ -38,6 +38,12 @@
       "title": "[ROCm][HY4] Use breakable graphs without torch.compile",
       "pack": "data/cards-workdir/vllm/packs/pr-64763.pack.md",
       "card_out": "index/vllm/cards/pr-64763-<slug>.md"
+    },
+    {
+      "number": 64827,
+      "title": "[DeepSeek-V4] Warm the DeepGEMM kernels DeepSeek-V4/V4.1 JIT-compile at runtime",
+      "pack": "data/cards-workdir/vllm/packs/pr-64827.pack.md",
+      "card_out": "index/vllm/cards/pr-64827-<slug>.md"
     },
     {
       "number": 65227,

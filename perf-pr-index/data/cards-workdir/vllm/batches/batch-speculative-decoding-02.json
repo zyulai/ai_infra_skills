@@ -184,6 +184,12 @@
       "card_out": "index/vllm/cards/pr-54687-<slug>.md"
     },
     {
+      "number": 54820,
+      "title": "[ROCm] Avoid DSpark placeholder shared vocab allocations",
+      "pack": "data/cards-workdir/vllm/packs/pr-54820.pack.md",
+      "card_out": "index/vllm/cards/pr-54820-<slug>.md"
+    },
+    {
       "number": 54951,
       "title": "[Perf][GLM-5.3-Flash] Shard long-context indexer prefill rows across TP",
       "pack": "data/cards-workdir/vllm/packs/pr-54951.pack.md",
@@ -232,16 +238,10 @@
       "card_out": "index/vllm/cards/pr-56441-<slug>.md"
     },
     {
-      "number": 56562,
-      "title": "[Perf] Fuse DSV4.1 input metadata preparation with Triton",
-      "pack": "data/cards-workdir/vllm/packs/pr-56562.pack.md",
-      "card_out": "index/vllm/cards/pr-56562-<slug>.md"
-    },
-    {
-      "number": 56633,
-      "title": "[Perf][DSv4.1] Fold the mHC post block into the delayed pre projection",
-      "pack": "data/cards-workdir/vllm/packs/pr-56633.pack.md",
-      "card_out": "index/vllm/cards/pr-56633-<slug>.md"
+      "number": 56451,
+      "title": "[ROCm][Spec Decode] Enable adaptive DSpark verification for MiniMax M3",
+      "pack": "data/cards-workdir/vllm/packs/pr-56451.pack.md",
+      "card_out": "index/vllm/cards/pr-56451-<slug>.md"
     }
   ]
 }

@@ -22,6 +22,12 @@
       "card_out": "index/vllm/cards/pr-46546-<slug>.md"
     },
     {
+      "number": 46558,
+      "title": "[Bugfix][Attention] Enable FlashInfer mm-prefix attention",
+      "pack": "data/cards-workdir/vllm/packs/pr-46558.pack.md",
+      "card_out": "index/vllm/cards/pr-46558-<slug>.md"
+    },
+    {
       "number": 47327,
       "title": "[1/N] Add dense MHA path for sparse MLA short sequences",
       "pack": "data/cards-workdir/vllm/packs/pr-47327.pack.md",
@@ -236,12 +242,6 @@
       "title": "[ROCm][aiter] officially supporting aiter Triton kernels+dsv4 on RDNA3",
       "pack": "data/cards-workdir/vllm/packs/pr-52970.pack.md",
       "card_out": "index/vllm/cards/pr-52970-<slug>.md"
-    },
-    {
-      "number": 53147,
-      "title": "[Kernel][Gemma4] Prune Triton sliding-window tiles for multimodal prefixes",
-      "pack": "data/cards-workdir/vllm/packs/pr-53147.pack.md",
-      "card_out": "index/vllm/cards/pr-53147-<slug>.md"
     }
   ]
 }

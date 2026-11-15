@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "Quantization",
-  "count": 39,
+  "count": 40,
   "prs": [
     {
       "number": 54809,
@@ -106,6 +106,12 @@
       "card_out": "index/vllm/cards/pr-59070-<slug>.md"
     },
     {
+      "number": 59384,
+      "title": "[Kernel] Fuse native BF16 ReLU2 with NVFP4 quantization",
+      "pack": "data/cards-workdir/vllm/packs/pr-59384.pack.md",
+      "card_out": "index/vllm/cards/pr-59384-<slug>.md"
+    },
+    {
       "number": 59478,
       "title": "[ROCm][Perf] Use AITER FlyDSL INT4 QuickReduce when INT4 QuickReduce is selected",
       "pack": "data/cards-workdir/vllm/packs/pr-59478.pack.md",
@@ -202,10 +208,22 @@
       "card_out": "index/vllm/cards/pr-63915-<slug>.md"
     },
     {
+      "number": 64331,
+      "title": "[ROCm][RDNA][Perf] Bump triton_kernels to ROCm 3.8.x with the RDNA MXFP4 configs",
+      "pack": "data/cards-workdir/vllm/packs/pr-64331.pack.md",
+      "card_out": "index/vllm/cards/pr-64331-<slug>.md"
+    },
+    {
       "number": 64509,
       "title": "[Perf][Qwen3.5] (NVIDIA-only) Fused norm+quant and gate+quant",
       "pack": "data/cards-workdir/vllm/packs/pr-64509.pack.md",
       "card_out": "index/vllm/cards/pr-64509-<slug>.md"
+    },
+    {
+      "number": 64767,
+      "title": "[Quantization] Load ModelOpt NVFP4 W4A16 token embeddings in mixed-precision checkpoints",
+      "pack": "data/cards-workdir/vllm/packs/pr-64767.pack.md",
+      "card_out": "index/vllm/cards/pr-64767-<slug>.md"
     },
     {
       "number": 64815,
@@ -224,18 +242,6 @@
       "title": "[Kernel] Marlin: remove 8-bit (INT8/FP8) activation support, rely on Humming",
       "pack": "data/cards-workdir/vllm/packs/pr-65542.pack.md",
       "card_out": "index/vllm/cards/pr-65542-<slug>.md"
-    },
-    {
-      "number": 65791,
-      "title": "[Perf] Vectorize silu_and_mul_per_block_quant for large inputs",
-      "pack": "data/cards-workdir/vllm/packs/pr-65791.pack.md",
-      "card_out": "index/vllm/cards/pr-65791-<slug>.md"
-    },
-    {
-      "number": 65831,
-      "title": "[Perf][Core] Reduce per-block CPU cost of KV block allocation and caching",
-      "pack": "data/cards-workdir/vllm/packs/pr-65831.pack.md",
-      "card_out": "index/vllm/cards/pr-65831-<slug>.md"
     }
   ]
 }

@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-11T19:03:52+00:00",
+  "generated_at": "2026-11-15T14:42:17+00:00",
   "repos": {
     "vllm": {
       "repo_full": "vllm-project/vllm",
       "fetch_window_utc": [
         "2026-11-07T02:54:22+00:00",
-        "2026-11-11T19:02:03+00:00"
+        "2026-11-15T14:26:32+00:00"
       ],
-      "raw_prs": 6972,
-      "classified_prs": 6972,
-      "major_prs": 961,
+      "raw_prs": 7108,
+      "classified_prs": 7108,
+      "major_prs": 999,
       "evidence_cards": 961,
-      "head_sha": "b32a87094afc8e9ec349107db8526bebd552069d",
-      "head_date": "2026-11-11T19:02:57Z",
-      "head_message": "[Bugfix][Offload] Apply --cpu-offload-gb to models served by the Transformers modeling backend (#664"
+      "head_sha": "9fbe012bd78bc46471013541e04bb9f0cfc84b80",
+      "head_date": "2026-11-15T20:56:28+08:00",
+      "head_message": "[ROCm][DSv4.1][Perf] Run the fused mHC seams as AITER's single-launch HIP Mega-MHC (#65992)"
     },
     "sglang": {
       "repo_full": "sgl-project/sglang",
       "fetch_window_utc": [
         "2026-11-07T02:50:25+00:00",
-        "2026-11-11T19:02:03+00:00"
+        "2026-11-15T14:30:26+00:00"
       ],
-      "raw_prs": 6219,
-      "classified_prs": 6219,
-      "major_prs": 672,
+      "raw_prs": 6342,
+      "classified_prs": 6342,
+      "major_prs": 691,
       "evidence_cards": 672,
-      "head_sha": "56e38dfe0fdb964af402ba22693bb11898ce88d8",
-      "head_date": "2026-11-11T18:33:42Z",
-      "head_message": "[Fix] dsv4/topk_v2: Move the cluster kernels' top-k buffer to dynamic shared memory (#49476)"
+      "head_sha": "e4c3f001d6bc8cb43e778b6b27d562af550db8c9",
+      "head_date": "2026-11-15T21:45:41+08:00",
+      "head_message": "[Feat] qwen4-exp: Support GR and PLE sequence parallelism (#43048)"
     }
   }
 }

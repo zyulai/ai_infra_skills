@@ -238,10 +238,10 @@
       "card_out": "index/sglang/cards/pr-46184-<slug>.md"
     },
     {
-      "number": 46213,
-      "title": "[Perf] flashinfer-megamoe: Add an optional decode workspace",
-      "pack": "data/cards-workdir/sglang/packs/pr-46213.pack.md",
-      "card_out": "index/sglang/cards/pr-46213-<slug>.md"
+      "number": 46185,
+      "title": "[Feat] gdn: run DFLASH and DSPARK verify on the ReplaySSM spec ring",
+      "pack": "data/cards-workdir/sglang/packs/pr-46185.pack.md",
+      "card_out": "index/sglang/cards/pr-46185-<slug>.md"
     }
   ]
 }

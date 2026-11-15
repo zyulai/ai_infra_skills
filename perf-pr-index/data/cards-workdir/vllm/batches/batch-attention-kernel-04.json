@@ -4,6 +4,12 @@
   "count": 40,
   "prs": [
     {
+      "number": 53147,
+      "title": "[Kernel][Gemma4] Prune Triton sliding-window tiles for multimodal prefixes",
+      "pack": "data/cards-workdir/vllm/packs/pr-53147.pack.md",
+      "card_out": "index/vllm/cards/pr-53147-<slug>.md"
+    },
+    {
       "number": 53396,
       "title": "[Kimi K3][Kernel] Support DS conv-state layout in fused KDA decode kernel",
       "pack": "data/cards-workdir/vllm/packs/pr-53396.pack.md",
@@ -236,12 +242,6 @@
       "title": "[ROCm][Perf][GLM-5.3-Flash] BF16 splitk kernel for sparse MLA decode",
       "pack": "data/cards-workdir/vllm/packs/pr-58584.pack.md",
       "card_out": "index/vllm/cards/pr-58584-<slug>.md"
-    },
-    {
-      "number": 58655,
-      "title": "[ROCm][DSv4.1][Perf] Run the delayed mHC seams through aiter's fused Triton kernel",
-      "pack": "data/cards-workdir/vllm/packs/pr-58655.pack.md",
-      "card_out": "index/vllm/cards/pr-58655-<slug>.md"
     }
   ]
 }

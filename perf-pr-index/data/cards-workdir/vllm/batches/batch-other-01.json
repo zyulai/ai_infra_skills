@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "Other",
-  "count": 2,
+  "count": 3,
   "prs": [
     {
       "number": 61879,
@@ -14,6 +14,12 @@
       "title": "[Bugfix][Core] Defer async KV loads on HiSparse decoders until in-flight steps finish",
       "pack": "data/cards-workdir/vllm/packs/pr-63827.pack.md",
       "card_out": "index/vllm/cards/pr-63827-<slug>.md"
+    },
+    {
+      "number": 64822,
+      "title": "[Perf][Model] Muse vision encoders: no GPU<->CPU syncs, build Glimmer's vision prep once per call",
+      "pack": "data/cards-workdir/vllm/packs/pr-64822.pack.md",
+      "card_out": "index/vllm/cards/pr-64822-<slug>.md"
     }
   ]
 }

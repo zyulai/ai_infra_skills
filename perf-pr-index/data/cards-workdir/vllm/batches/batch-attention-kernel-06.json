@@ -1,0 +1,13 @@
+{
+  "repo": "vllm",
+  "category": "Attention / Kernel",
+  "count": 1,
+  "prs": [
+    {
+      "number": 67235,
+      "title": "[Kernel][GLM-5.3-Flash] Fused in-place q/k RMSNorm + RoPE and residual add inside RMSNorm",
+      "pack": "data/cards-workdir/vllm/packs/pr-67235.pack.md",
+      "card_out": "index/vllm/cards/pr-67235-<slug>.md"
+    }
+  ]
+}

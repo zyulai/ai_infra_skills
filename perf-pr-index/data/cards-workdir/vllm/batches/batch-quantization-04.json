@@ -1,0 +1,31 @@
+{
+  "repo": "vllm",
+  "category": "Quantization",
+  "count": 4,
+  "prs": [
+    {
+      "number": 65791,
+      "title": "[Perf] Vectorize silu_and_mul_per_block_quant for large inputs",
+      "pack": "data/cards-workdir/vllm/packs/pr-65791.pack.md",
+      "card_out": "index/vllm/cards/pr-65791-<slug>.md"
+    },
+    {
+      "number": 65831,
+      "title": "[Perf][Core] Reduce per-block CPU cost of KV block allocation and caching",
+      "pack": "data/cards-workdir/vllm/packs/pr-65831.pack.md",
+      "card_out": "index/vllm/cards/pr-65831-<slug>.md"
+    },
+    {
+      "number": 66803,
+      "title": "[Quantization] Skip kernel dispatch for online requantization sources",
+      "pack": "data/cards-workdir/vllm/packs/pr-66803.pack.md",
+      "card_out": "index/vllm/cards/pr-66803-<slug>.md"
+    },
+    {
+      "number": 67377,
+      "title": "[Perf][ROCm][DSv4.1] DeepSeek-V4.1-Flash: dense MXFP8 GEMMs and wo_a on AITER's tuned FlyDSL kernels, and a faster MXFP8 activation quant (MI355X)",
+      "pack": "data/cards-workdir/vllm/packs/pr-67377.pack.md",
+      "card_out": "index/vllm/cards/pr-67377-<slug>.md"
+    }
+  ]
+}

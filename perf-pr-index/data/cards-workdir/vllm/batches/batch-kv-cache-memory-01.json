@@ -1,0 +1,13 @@
+{
+  "repo": "vllm",
+  "category": "KV Cache / Memory",
+  "count": 1,
+  "prs": [
+    {
+      "number": 64479,
+      "title": "[XPU][Perf] Reuse GDN metadata across KV cache groups on XPU",
+      "pack": "data/cards-workdir/vllm/packs/pr-64479.pack.md",
+      "card_out": "index/vllm/cards/pr-64479-<slug>.md"
+    }
+  ]
+}

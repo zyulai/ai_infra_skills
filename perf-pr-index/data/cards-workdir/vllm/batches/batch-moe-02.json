@@ -88,6 +88,12 @@
       "card_out": "index/vllm/cards/pr-52301-<slug>.md"
     },
     {
+      "number": 52652,
+      "title": "[Perf][Kernel][Quantization] Tensor-descriptor path for int4 fused_moe_kernel_gptq_awq (XPU default, sm100 opt-in)",
+      "pack": "data/cards-workdir/vllm/packs/pr-52652.pack.md",
+      "card_out": "index/vllm/cards/pr-52652-<slug>.md"
+    },
+    {
       "number": 52798,
       "title": "[Quant] Use canonical N-first weight format for CT WNA16 MoE",
       "pack": "data/cards-workdir/vllm/packs/pr-52798.pack.md",
@@ -236,12 +242,6 @@
       "title": "[MoE] Shape-based padding for FlashInfer TRT-LLM MXFP8 experts (gated and non-gated)",
       "pack": "data/cards-workdir/vllm/packs/pr-61293.pack.md",
       "card_out": "index/vllm/cards/pr-61293-<slug>.md"
-    },
-    {
-      "number": 61773,
-      "title": "[Perf][MoE] Skip the TRTLLM fp8-block activation-scale transpose copy",
-      "pack": "data/cards-workdir/vllm/packs/pr-61773.pack.md",
-      "card_out": "index/vllm/cards/pr-61773-<slug>.md"
     }
   ]
 }

@@ -1,8 +1,14 @@
 {
   "repo": "vllm",
   "category": "MoE",
-  "count": 11,
+  "count": 19,
   "prs": [
+    {
+      "number": 61773,
+      "title": "[Perf][MoE] Skip the TRTLLM fp8-block activation-scale transpose copy",
+      "pack": "data/cards-workdir/vllm/packs/pr-61773.pack.md",
+      "card_out": "index/vllm/cards/pr-61773-<slug>.md"
+    },
     {
       "number": 61895,
       "title": "[ROCm][Perf] Any-shape low-latency MoE router GEMM on MI355",
@@ -22,6 +28,12 @@
       "card_out": "index/vllm/cards/pr-62366-<slug>.md"
     },
     {
+      "number": 62603,
+      "title": "[Perf][MoE] Enable SM90 block-FP8 MegaMoE via FlashInfer MoE-EP",
+      "pack": "data/cards-workdir/vllm/packs/pr-62603.pack.md",
+      "card_out": "index/vllm/cards/pr-62603-<slug>.md"
+    },
+    {
       "number": 62763,
       "title": "[Perf][MoE] Add H200 FP8 fused MoE config for Beam-1.0 TP8",
       "pack": "data/cards-workdir/vllm/packs/pr-62763.pack.md",
@@ -32,6 +44,36 @@
       "title": "[ROCm][Perf] Triton sigmoid+bias top-k when MoE grouping eliminates nothing",
       "pack": "data/cards-workdir/vllm/packs/pr-63076.pack.md",
       "card_out": "index/vllm/cards/pr-63076-<slug>.md"
+    },
+    {
+      "number": 63627,
+      "title": "[Perf] Tuned batch-invariant fused MoE configs on Blackwell",
+      "pack": "data/cards-workdir/vllm/packs/pr-63627.pack.md",
+      "card_out": "index/vllm/cards/pr-63627-<slug>.md"
+    },
+    {
+      "number": 63721,
+      "title": "[ROCm][Perf][MoE] Fuse SiLU-and-mul with per-token FP8 quant in TritonExperts and skip remote EP routes",
+      "pack": "data/cards-workdir/vllm/packs/pr-63721.pack.md",
+      "card_out": "index/vllm/cards/pr-63721-<slug>.md"
+    },
+    {
+      "number": 63727,
+      "title": "[ROCm][Perf][Muse Spark] Add gfx942 FP8 W8A8 fused-MoE configs for E=32,N=4096",
+      "pack": "data/cards-workdir/vllm/packs/pr-63727.pack.md",
+      "card_out": "index/vllm/cards/pr-63727-<slug>.md"
+    },
+    {
+      "number": 64055,
+      "title": "[ROCm][RDNA][Perf][MoE] Use w2 scatter + topk sum for the tk 3.8 OAI MoE combine on RDNA",
+      "pack": "data/cards-workdir/vllm/packs/pr-64055.pack.md",
+      "card_out": "index/vllm/cards/pr-64055-<slug>.md"
+    },
+    {
+      "number": 64061,
+      "title": "[Kernel][Perf] Run DeepGEMM Mega MoE on SM90 with MXFP4 experts",
+      "pack": "data/cards-workdir/vllm/packs/pr-64061.pack.md",
+      "card_out": "index/vllm/cards/pr-64061-<slug>.md"
     },
     {
       "number": 64352,
@@ -68,6 +110,12 @@
       "title": "[Bugfix] Make fused MoE expert weights contiguous before GPU copy in Llama-4",
       "pack": "data/cards-workdir/vllm/packs/pr-65987.pack.md",
       "card_out": "index/vllm/cards/pr-65987-<slug>.md"
+    },
+    {
+      "number": 66799,
+      "title": "[Perf][MoE] Mask DP padding rows in grouped top-k routing by default",
+      "pack": "data/cards-workdir/vllm/packs/pr-66799.pack.md",
+      "card_out": "index/vllm/cards/pr-66799-<slug>.md"
     }
   ]
 }

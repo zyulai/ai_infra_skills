@@ -1,0 +1,13 @@
+{
+  "repo": "vllm",
+  "category": "Speculative Decoding",
+  "count": 1,
+  "prs": [
+    {
+      "number": 66512,
+      "title": "[Perf][Qwen4Exp] Faster QSA kernel for large fp8 batches on Blackwell",
+      "pack": "data/cards-workdir/vllm/packs/pr-66512.pack.md",
+      "card_out": "index/vllm/cards/pr-66512-<slug>.md"
+    }
+  ]
+}

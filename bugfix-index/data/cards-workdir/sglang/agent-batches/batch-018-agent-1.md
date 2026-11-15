@@ -1,0 +1,1 @@
+PR #50234 | [Fix] weights: Reject mismatched manifests before distributed broadcasts | pack=C:/Users/Norma/Desktop/ai_infra/bugfix-index/data/cards-workdir/sglang/packs/pr-50234.pack.md | out=C:/Users/Norma/Desktop/ai_infra/bugfix-index/index/sglang/fix-cards/pr-50234-fix-weights-reject-mismatched-manifests.md

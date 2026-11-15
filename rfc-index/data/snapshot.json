@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-11T19:05:08+00:00",
+  "generated_at": "2026-11-15T14:42:46+00:00",
   "repos": {
     "vllm": {
       "repo_full": "vllm-project/vllm",
       "fetch_window_utc": [
         "2026-11-07T12:33:17+00:00",
-        "2026-11-11T15:48:44+00:00"
+        "2026-11-15T14:30:29+00:00"
       ],
-      "raw_rfc_issues": 937,
-      "classified_rfc_issues": 937,
-      "major_rfc_issues": 224,
+      "raw_rfc_issues": 949,
+      "classified_rfc_issues": 949,
+      "major_rfc_issues": 226,
       "summary_cards": 224,
-      "head_sha": "b32a87094afc8e9ec349107db8526bebd552069d",
-      "head_date": "2026-11-11T19:02:57Z",
-      "head_message": "[Bugfix][Offload] Apply --cpu-offload-gb to models served by the Transformers modeling backend (#664"
+      "head_sha": "9fbe012bd78bc46471013541e04bb9f0cfc84b80",
+      "head_date": "2026-11-15T20:56:28+08:00",
+      "head_message": "[ROCm][DSv4.1][Perf] Run the fused mHC seams as AITER's single-launch HIP Mega-MHC (#65992)"
     },
     "sglang": {
       "repo_full": "sgl-project/sglang",
       "fetch_window_utc": [
         "2026-11-07T12:33:17+00:00",
-        "2026-11-11T15:48:44+00:00"
+        "2026-11-15T14:30:29+00:00"
       ],
-      "raw_rfc_issues": 204,
-      "classified_rfc_issues": 204,
+      "raw_rfc_issues": 206,
+      "classified_rfc_issues": 206,
       "major_rfc_issues": 43,
       "summary_cards": 43,
-      "head_sha": "95999790a4a201caf8a142c95711fe5af329a39b",
-      "head_date": "2026-11-11T19:04:51Z",
-      "head_message": "[CI] arm64: Publish Arm CPU Docker images (#48410)"
+      "head_sha": "e4c3f001d6bc8cb43e778b6b27d562af550db8c9",
+      "head_date": "2026-11-15T21:45:41+08:00",
+      "head_message": "[Feat] qwen4-exp: Support GR and PLE sequence parallelism (#43048)"
     }
   }
 }

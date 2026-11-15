@@ -1,37 +1,37 @@
 # Perf PR 索引统计总览
 
-- 生成时间: 2026-11-11T19:04:20+00:00
+- 生成时间: 2026-11-15T15:23:17+00:00
 
 ## 总量
 
 | 仓库 | 收录总数 | 🔥 重点 | 一般 | 有加速声明 |
 | --- | --- | --- | --- | --- |
-| vllm | 6972 | 961 | 6011 | 553 |
-| sglang | 6219 | 672 | 5547 | 545 |
+| vllm | 7108 | 999 | 6109 | 576 |
+| sglang | 6342 | 691 | 5651 | 562 |
 
 ## vllm:分类分布
 
 | 分类 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| Speculative Decoding(投机解码) | 933 | 191 |
-| MoE(混合专家) | 705 | 131 |
-| Quantization(量化) | 984 | 159 |
-| CUDA Graph / Compiler(CUDA Graph 与编译) | 318 | 48 |
-| Overlap / Scheduler(重叠与调度) | 335 | 25 |
-| Attention / Kernel(注意力与算子) | 1348 | 232 |
-| KV Cache / Memory(KV Cache 与显存) | 411 | 38 |
-| Parallelism / Communication(并行与通信) | 29 | 7 |
+| Speculative Decoding(投机解码) | 969 | 201 |
+| MoE(混合专家) | 722 | 139 |
+| Quantization(量化) | 999 | 164 |
+| CUDA Graph / Compiler(CUDA Graph 与编译) | 323 | 49 |
+| Overlap / Scheduler(重叠与调度) | 338 | 25 |
+| Attention / Kernel(注意力与算子) | 1370 | 241 |
+| KV Cache / Memory(KV Cache 与显存) | 420 | 41 |
+| Parallelism / Communication(并行与通信) | 30 | 8 |
 | Sampler / Detokenization(采样与反分词) | 59 | 6 |
-| Frontend / Serving(前端与服务) | 73 | 11 |
-| Model-specific Fast Path(模型专属快路径) | 332 | 71 |
-| CI / Test-Perf(CI 与测试性能) | 588 | 0 |
-| Other(其他) | 857 | 42 |
+| Frontend / Serving(前端与服务) | 74 | 11 |
+| Model-specific Fast Path(模型专属快路径) | 338 | 71 |
+| CI / Test-Perf(CI 与测试性能) | 601 | 0 |
+| Other(其他) | 865 | 43 |
 
 ## vllm:年度分布
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 4563 | 700 |
+| 2026 | 4699 | 738 |
 | 2025 | 1933 | 213 |
 | 2024 | 430 | 45 |
 | 2023 | 46 | 3 |
@@ -40,20 +40,20 @@
 
 | 作者 | PR 数 |
 | --- | --- |
-| [mgoin](https://github.com/mgoin) | 251 |
-| [yewentao256](https://github.com/yewentao256) | 198 |
+| [mgoin](https://github.com/mgoin) | 253 |
+| [yewentao256](https://github.com/yewentao256) | 201 |
 | [WoosukKwon](https://github.com/WoosukKwon) | 187 |
-| [NickLucche](https://github.com/NickLucche) | 135 |
-| [njhill](https://github.com/njhill) | 123 |
-| [AndreasKaratzas](https://github.com/AndreasKaratzas) | 109 |
+| [NickLucche](https://github.com/NickLucche) | 137 |
+| [njhill](https://github.com/njhill) | 128 |
+| [AndreasKaratzas](https://github.com/AndreasKaratzas) | 110 |
 | [jeejeelee](https://github.com/jeejeelee) | 105 |
-| [LucasWilkinson](https://github.com/LucasWilkinson) | 102 |
+| [LucasWilkinson](https://github.com/LucasWilkinson) | 105 |
 | [DarkLight1337](https://github.com/DarkLight1337) | 100 |
-| [MatthewBonanni](https://github.com/MatthewBonanni) | 84 |
-| [hmellor](https://github.com/hmellor) | 82 |
+| [MatthewBonanni](https://github.com/MatthewBonanni) | 88 |
+| [hmellor](https://github.com/hmellor) | 87 |
 | [tlrmchlsmth](https://github.com/tlrmchlsmth) | 70 |
-| [Isotr0py](https://github.com/Isotr0py) | 64 |
-| [ZJY0516](https://github.com/ZJY0516) | 56 |
+| [Isotr0py](https://github.com/Isotr0py) | 65 |
+| [ZJY0516](https://github.com/ZJY0516) | 57 |
 | [zyongye](https://github.com/zyongye) | 55 |
 
 ## vllm:加速声明 Top (数字最大前 20)
@@ -88,25 +88,25 @@
 
 | 分类 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| Speculative Decoding(投机解码) | 908 | 131 |
-| MoE(混合专家) | 693 | 91 |
-| Quantization(量化) | 686 | 97 |
-| CUDA Graph / Compiler(CUDA Graph 与编译) | 484 | 45 |
-| Overlap / Scheduler(重叠与调度) | 210 | 22 |
-| Attention / Kernel(注意力与算子) | 1675 | 161 |
-| KV Cache / Memory(KV Cache 与显存) | 122 | 13 |
+| Speculative Decoding(投机解码) | 931 | 136 |
+| MoE(混合专家) | 702 | 91 |
+| Quantization(量化) | 692 | 98 |
+| CUDA Graph / Compiler(CUDA Graph 与编译) | 487 | 46 |
+| Overlap / Scheduler(重叠与调度) | 212 | 23 |
+| Attention / Kernel(注意力与算子) | 1708 | 170 |
+| KV Cache / Memory(KV Cache 与显存) | 128 | 13 |
 | Parallelism / Communication(并行与通信) | 50 | 12 |
-| Sampler / Detokenization(采样与反分词) | 53 | 5 |
+| Sampler / Detokenization(采样与反分词) | 56 | 5 |
 | Frontend / Serving(前端与服务) | 18 | 0 |
-| Model-specific Fast Path(模型专属快路径) | 347 | 61 |
-| CI / Test-Perf(CI 与测试性能) | 376 | 0 |
-| Other(其他) | 597 | 34 |
+| Model-specific Fast Path(模型专属快路径) | 364 | 62 |
+| CI / Test-Perf(CI 与测试性能) | 382 | 0 |
+| Other(其他) | 612 | 35 |
 
 ## sglang:年度分布
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 4433 | 540 |
+| 2026 | 4556 | 559 |
 | 2025 | 1618 | 124 |
 | 2024 | 168 | 8 |
 
@@ -114,21 +114,21 @@
 
 | 作者 | PR 数 |
 | --- | --- |
-| [BBuf](https://github.com/BBuf) | 429 |
+| [BBuf](https://github.com/BBuf) | 436 |
 | [hnyls2002](https://github.com/hnyls2002) | 299 |
 | [zhyncs](https://github.com/zhyncs) | 243 |
-| [mickqian](https://github.com/mickqian) | 232 |
+| [mickqian](https://github.com/mickqian) | 241 |
 | [merrymercy](https://github.com/merrymercy) | 201 |
-| [Fridge003](https://github.com/Fridge003) | 174 |
-| [ch-wan](https://github.com/ch-wan) | 172 |
+| [ch-wan](https://github.com/ch-wan) | 183 |
+| [Fridge003](https://github.com/Fridge003) | 178 |
 | [fzyzcjy](https://github.com/fzyzcjy) | 109 |
 | [mmangkad](https://github.com/mmangkad) | 108 |
+| [DarkSharpness](https://github.com/DarkSharpness) | 101 |
 | [b8zhong](https://github.com/b8zhong) | 101 |
-| [DarkSharpness](https://github.com/DarkSharpness) | 99 |
 | [yuan-luo](https://github.com/yuan-luo) | 97 |
 | [Qiaolin-Yu](https://github.com/Qiaolin-Yu) | 92 |
 | [ispobock](https://github.com/ispobock) | 89 |
-| [kpham-sgl](https://github.com/kpham-sgl) | 82 |
+| [kpham-sgl](https://github.com/kpham-sgl) | 85 |
 
 ## sglang:加速声明 Top (数字最大前 20)
 
@@ -140,6 +140,7 @@
 | 143.4% | [#43363](https://github.com/sgl-project/sglang/pull/43363) | [Perf] moe: Extend FlashInfer CUTLASS MoE autotune coverage… | 143.4% higher |
 | 100% | [#41533](https://github.com/sgl-project/sglang/pull/41533) | [ROCm] Use the fused MLA absorb + RoPE + KV-write kernel fo… | 100% means this PR is better: throughput |
 | 98% | [#41830](https://github.com/sgl-project/sglang/pull/41830) | [diffusion] kernels: take the Wan VAE decoder's remaining f… | up to 98% |
+| 97.4% | [#47013](https://github.com/sgl-project/sglang/pull/47013) | [Fix] kvcache: Skip the reserved padding slot in the zero-R… | 97.4% without it (`test_glm53_flash_h200_high_throughput |
 | 97% | [#44322](https://github.com/sgl-project/sglang/pull/44322) | [Feat] [AMD] dsa: Enable DCP on the triton sparse-MLA backe… | 97%): throughput |
 | 96.8% | [#14133](https://github.com/sgl-project/sglang/pull/14133) | Opt moe align block size kernel | Up to 96.8% |
 | 95.7% | [#37778](https://github.com/sgl-project/sglang/pull/37778) | [AMD][DSV4] Enable hicache on deepseek-v4 fp8 unified attn | 95.7%   Throughput |
@@ -153,13 +154,12 @@
 | 75.8% | [#12240](https://github.com/sgl-project/sglang/pull/12240) | [VLM] Optimize qwen_vl preprocess_video | 75.8%)  e2e speedup |
 | 75% | [#10321](https://github.com/sgl-project/sglang/pull/10321) | [1/2][sgl-kernel] Support moe_sum_reduce cuda kernel | 75% throughput |
 | 75% | [#14640](https://github.com/sgl-project/sglang/pull/14640) | [sgl-kernel][Feat][B200][2/N] Support MXFP8 Grouped GEMM in… | E2E memory bandwidth utilization increased from 75% |
-| 75% | [#18124](https://github.com/sgl-project/sglang/pull/18124) | [Perf] Use safetensors `load_file` in multithread loader | speedup that reduced the overall wait time by 75% |
 
 > 注: 声明数字由正则从 PR 正文提取, 未经核实; 请点击 PR 查看测试条件 (模型/硬件/workload)。
 
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-11T19:03:52+00:00
-- **vllm** @b32a87094afc (upstream HEAD 2026-11-11) — commit: https://github.com/vllm-project/vllm/commit/b32a87094afc8e9ec349107db8526bebd552069d | API 抓取窗口: 2026-11-07T02:54:22+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 6972 → 重点档 961 → 证据卡 961
-- **sglang** @56e38dfe0fdb (upstream HEAD 2026-11-11) — commit: https://github.com/sgl-project/sglang/commit/56e38dfe0fdb964af402ba22693bb11898ce88d8 | API 抓取窗口: 2026-11-07T02:50:25+00:00 ~ 2026-11-11T19:02:03+00:00 | raw 6219 → 重点档 672 → 证据卡 672
+- 快照记录时间: 2026-11-15T14:42:17+00:00
+- **vllm** @9fbe012bd78b (upstream HEAD 2026-11-15) — commit: https://github.com/vllm-project/vllm/commit/9fbe012bd78bc46471013541e04bb9f0cfc84b80 | API 抓取窗口: 2026-11-07T02:54:22+00:00 ~ 2026-11-15T14:26:32+00:00 | raw 7108 → 重点档 999 → 证据卡 961
+- **sglang** @e4c3f001d6bc (upstream HEAD 2026-11-15) — commit: https://github.com/sgl-project/sglang/commit/e4c3f001d6bc8cb43e778b6b27d562af550db8c9 | API 抓取窗口: 2026-11-07T02:50:25+00:00 ~ 2026-11-15T14:30:26+00:00 | raw 6342 → 重点档 691 → 证据卡 672

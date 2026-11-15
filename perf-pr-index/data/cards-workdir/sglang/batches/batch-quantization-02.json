@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "Quantization",
-  "count": 17,
+  "count": 18,
   "prs": [
     {
       "number": 43390,
@@ -32,6 +32,12 @@
       "title": "[Perf] deepseek_v4: fold the MegaAttention query layout into wq_b for block-FP8-as-MXFP8 checkpoints",
       "pack": "data/cards-workdir/sglang/packs/pr-44838.pack.md",
       "card_out": "index/sglang/cards/pr-44838-<slug>.md"
+    },
+    {
+      "number": 44861,
+      "title": "[Fix] [NVIDIA] modelopt: Keep SM12x FP8 batch-invariant in deterministic mode",
+      "pack": "data/cards-workdir/sglang/packs/pr-44861.pack.md",
+      "card_out": "index/sglang/cards/pr-44861-<slug>.md"
     },
     {
       "number": 44865,
