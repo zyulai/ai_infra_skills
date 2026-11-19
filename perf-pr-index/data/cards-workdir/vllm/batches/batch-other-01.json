@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "Other",
-  "count": 3,
+  "count": 4,
   "prs": [
     {
       "number": 61879,
@@ -20,6 +20,12 @@
       "title": "[Perf][Model] Muse vision encoders: no GPU<->CPU syncs, build Glimmer's vision prep once per call",
       "pack": "data/cards-workdir/vllm/packs/pr-64822.pack.md",
       "card_out": "index/vllm/cards/pr-64822-<slug>.md"
+    },
+    {
+      "number": 67490,
+      "title": "[Perf][Hy4] Enable sink-aware ShardQ prefill",
+      "pack": "data/cards-workdir/vllm/packs/pr-67490.pack.md",
+      "card_out": "index/vllm/cards/pr-67490-<slug>.md"
     }
   ]
 }

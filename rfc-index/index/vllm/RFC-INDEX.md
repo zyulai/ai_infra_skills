@@ -1,27 +1,27 @@
 # VLLM RFC 索引(label:rfc ∪ 标题含 RFC,全量)
 
 - 仓库: https://github.com/vllm-project/vllm
-- 收录总数: **949** (重点 🔥 **226** / 一般 723) | 开放 397 / 已关闭 552
-- 生成时间: 2026-11-15T15:23:17+00:00
+- 收录总数: **967** (重点 🔥 **228** / 一般 739) | 开放 413 / 已关闭 554
+- 生成时间: 2026-11-19T16:27:33+00:00
 
 ## 目录
 
 - [Speculative Decoding(投机解码) (55)](#speculative-decoding投机解码-55)
-- [MoE(混合专家) (40)](#moe混合专家-40)
-- [Quantization(量化) (47)](#quantization量化-47)
-- [Disaggregated Serving(分离式部署) (55)](#disaggregated-serving分离式部署-55)
+- [MoE(混合专家) (41)](#moe混合专家-41)
+- [Quantization(量化) (48)](#quantization量化-48)
+- [Disaggregated Serving(分离式部署) (56)](#disaggregated-serving分离式部署-56)
 - [CUDA Graph / Compiler(CUDA Graph 与编译) (33)](#cuda-graph--compilercuda-graph-与编译-33)
 - [Overlap / Scheduler(重叠与调度) (28)](#overlap--scheduler重叠与调度-28)
-- [Attention / Kernel(注意力与算子) (57)](#attention--kernel注意力与算子-57)
-- [KV Cache / Memory(KV Cache 与显存) (83)](#kv-cache--memorykv-cache-与显存-83)
+- [Attention / Kernel(注意力与算子) (58)](#attention--kernel注意力与算子-58)
+- [KV Cache / Memory(KV Cache 与显存) (89)](#kv-cache--memorykv-cache-与显存-89)
 - [Parallelism / Communication(并行与通信) (20)](#parallelism--communication并行与通信-20)
 - [Sampler / Detokenization(采样与反分词) (14)](#sampler--detokenization采样与反分词-14)
-- [Frontend / Serving / API(前端与服务 API) (49)](#frontend--serving--api前端与服务-api-49)
-- [Architecture / Engine(架构与引擎) (53)](#architecture--engine架构与引擎-53)
+- [Frontend / Serving / API(前端与服务 API) (50)](#frontend--serving--api前端与服务-api-50)
+- [Architecture / Engine(架构与引擎) (54)](#architecture--engine架构与引擎-54)
 - [Hardware / Backend(硬件与后端) (31)](#hardware--backend硬件与后端-31)
-- [Feature / Ecosystem(功能与生态) (82)](#feature--ecosystem功能与生态-82)
+- [Feature / Ecosystem(功能与生态) (83)](#feature--ecosystem功能与生态-83)
 - [CI / Infra / Process(CI 与基础流程) (25)](#ci--infra--processci-与基础流程-25)
-- [Other(其他) (277)](#other其他-277)
+- [Other(其他) (282)](#other其他-282)
 
 ## Speculative Decoding(投机解码) (55)
 
@@ -83,7 +83,7 @@
 | [#66467](https://github.com/vllm-project/vllm/issues/66467) | [RFC]: Faster Engram / PLE `disk_offload`: io_uring + O_DIRECT row reader and read/comput… | SeokMinKo | 2026-11-09 | 🟢 开放 | 一般 |  |  |
 | [#66753](https://github.com/vllm-project/vllm/issues/66753) | [RFC]: Tree speculative decoding in vLLM | chenaoxuan | 2026-11-10 | 🟢 开放 | 🔥 重点 |  | [卡片](rfc-cards/rfc-66753-rfc-tree-speculative-decoding-in-vllm.md) |
 
-## MoE(混合专家) (40)
+## MoE(混合专家) (41)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -127,8 +127,9 @@
 | [#66163](https://github.com/vllm-project/vllm/issues/66163) | [RFC][ROCm]: Batch-invariant kernels for Kimi-K3.1 on MI355X (KDA, DSA/indexer, MXFP4 MoE… | indianspeedster | 2026-11-06 | 🟢 开放 | 🔥 重点 |  | [卡片](rfc-cards/rfc-66163-rfc-rocm-batch-invariant-kernels-for-kim.md) |
 | [#66418](https://github.com/vllm-project/vllm/issues/66418) | [RFC]: DBO support for the DeepEP v2 backend in Model Runner V2 | algebra-MCX | 2026-11-08 | 🟢 开放 | 🔥 重点 |  | [卡片](rfc-cards/rfc-66418-rfc-dbo-support-for-the-deepep-v2-backen.md) |
 | [#66949](https://github.com/vllm-project/vllm/issues/66949) | [RFC]: DWDP: Distributed Weight Data Parallelism for MoE Prefill | qianlihuang | 2026-11-11 | 🟢 开放 | 一般 |  |  |
+| [#67934](https://github.com/vllm-project/vllm/issues/67934) | [RFC]: Expose EPLB expert topology and per-expert token load metrics | itaijj | 2026-11-16 | 🟢 开放 | 一般 |  |  |
 
-## Quantization(量化) (47)
+## Quantization(量化) (48)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -179,8 +180,9 @@
 | [#67103](https://github.com/vllm-project/vllm/issues/67103) | [RFC]: int8-key / int4-value per-token-head KV cache dtype (between int8 and int4) | jramirez-uab | 2026-11-11 | 🟢 开放 | 一般 |  |  |
 | [#67176](https://github.com/vllm-project/vllm/issues/67176) | [RFC]: UltraQuant: the scale constant c = 0.156 is MSE-optimal before the UE8M0 snap, not… | thomaszhang2661 | 2026-11-12 | 🟢 开放 | 一般 |  |  |
 | [#67330](https://github.com/vllm-project/vllm/issues/67330) | [RFC]: Kernel-owned LoRA fusion for quantized linear layers, starting with gfx1151 W4A16 | amd-adichatt | 2026-11-12 | 🟢 开放 | 🔥 重点 |  | [卡片](rfc-cards/rfc-67330-rfc-kernel-owned-lora-fusion-for-quantiz.md) |
+| [#67865](https://github.com/vllm-project/vllm/issues/67865) | [RFC]: Opt-in online quantization of the target model LM head | sywang24 | 2026-11-16 | 🟢 开放 | 一般 |  |  |
 
-## Disaggregated Serving(分离式部署) (55)
+## Disaggregated Serving(分离式部署) (56)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -239,6 +241,7 @@
 | [#66231](https://github.com/vllm-project/vllm/issues/66231) | [RFC]: P/D disaggregation for continuous RL rollouts (S1): order-free, seconds-long weigh… | BeichenHuang | 2026-11-07 | 🟢 开放 | 🔥 重点 |  | [卡片](rfc-cards/rfc-66231-rfc-p-d-disaggregation-for-continuous-rl.md) |
 | [#67207](https://github.com/vllm-project/vllm/issues/67207) | [RFC]: add chunked push for NixlPushConnector | CDalezyb | 2026-11-12 | 🟢 开放 | 一般 |  |  |
 | [#67357](https://github.com/vllm-project/vllm/issues/67357) | [RFC]: Decoder Append-Prefill for Multi-Turn Workloads in P/D Disaggregated Serving | Ydr-pku | 2026-11-13 | 🟢 开放 | 🔥 重点 |  | [卡片](rfc-cards/rfc-67357-rfc-decoder-append-prefill-for-multi-tur.md) |
+| [#67922](https://github.com/vllm-project/vllm/issues/67922) | [RFC]: PLE Connector for Disaggregated Embedding Serving | RulinJuice | 2026-11-16 | 🟢 开放 | 🔥 重点 |  | [卡片](rfc-cards/rfc-67922-rfc-ple-connector-for-disaggregated-embe.md) |
 
 ## CUDA Graph / Compiler(CUDA Graph 与编译) (33)
 
@@ -311,7 +314,7 @@
 | [#62532](https://github.com/vllm-project/vllm/issues/62532) | [RFC]: [V1 Scheduler][KV Offload] Eliminate 1.0–1.8s Re-Queueing Stall for Completed Asyn… | cheng-hsiang-chiu | 2026-10-19 | 🟢 开放 | 一般 |  |  |
 | [#65543](https://github.com/vllm-project/vllm/issues/65543) | [RFC]: Scheduler-owned persistent state, initially for cache-aware streaming RNN-T ASR | pdtgct | 2026-11-04 | 🟢 开放 | 一般 |  |  |
 
-## Attention / Kernel(注意力与算子) (57)
+## Attention / Kernel(注意力与算子) (58)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -372,8 +375,9 @@
 | [#65384](https://github.com/vllm-project/vllm/issues/65384) | [RFC]: Decouple Physical PCP Topology from Per-Forward Attention Layout and Draft Executi… | pisceskkk | 2026-11-03 | 🟢 开放 | 一般 |  |  |
 | [#65782](https://github.com/vllm-project/vllm/issues/65782) | [RFC]: SM90 DeepGEMM MegaMoE for DeepSeek V4 | new-TonyWang | 2026-11-05 | 🟢 开放 | 一般 |  |  |
 | [#67334](https://github.com/vllm-project/vllm/issues/67334) | [RFC]: Bidirectional attention spans, set per request | jjbuck | 2026-11-12 | 🟢 开放 | 一般 |  |  |
+| [#67874](https://github.com/vllm-project/vllm/issues/67874) | [RFC][HiSparse] On-Demand KV Gather and Layerwise Two-Slot Reuse for Sparse-MLA (DSA) Pre… | ZD-euler | 2026-11-16 | 🟢 开放 | 🔥 重点 |  | [卡片](rfc-cards/rfc-67874-rfc-hisparse-on-demand-kv-gather-and-lay.md) |
 
-## KV Cache / Memory(KV Cache 与显存) (83)
+## KV Cache / Memory(KV Cache 与显存) (89)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -460,6 +464,12 @@
 | [#66570](https://github.com/vllm-project/vllm/issues/66570) | [RFC]: Async CPU tier setup for OffloadingConnector | Etelis | 2026-11-09 | 🟢 开放 | 一般 |  |  |
 | [#66782](https://github.com/vllm-project/vllm/issues/66782) | [RFC]: [KV Offload] Request-level KV promotions: decide at promotion time, pin until load | orozery | 2026-11-10 | 🟢 开放 | 一般 |  |  |
 | [#66844](https://github.com/vllm-project/vllm/issues/66844) | [RFC]: Exact-end Mamba states and whole-state eviction for hybrid prefix caching | ischencheng | 2026-11-10 | 🟢 开放 | 一般 |  |  |
+| [#67909](https://github.com/vllm-project/vllm/issues/67909) | [RFC]: CPU offloading cache lifecycle metrics | Etelis | 2026-11-16 | 🟢 开放 | 一般 |  |  |
+| [#68075](https://github.com/vllm-project/vllm/issues/68075) | [RFC]: Keep agent KV in the CPU offload tier across tool calls, using client hints | philippesic | 2026-11-17 | ⚪ 已关闭 | 一般 |  |  |
+| [#68079](https://github.com/vllm-project/vllm/issues/68079) | [RFC]: Keep agent KV in the CPU offload tier across tool calls, using client hints | philippesic | 2026-11-17 | 🟢 开放 | 一般 |  |  |
+| [#68536](https://github.com/vllm-project/vllm/issues/68536) | [RFC]: Add Time-to-Live (TTL) / Idle Eviction for GPU Prefix Cache | mrghofrani | 2026-11-18 | 🟢 开放 | 一般 |  |  |
+| [#68549](https://github.com/vllm-project/vllm/issues/68549) | [RFC]: Reuse-Prioritized LRU for Sparse KV Offloading | wangbiao0814 | 2026-11-19 | 🟢 开放 | 一般 |  |  |
+| [#68678](https://github.com/vllm-project/vllm/issues/68678) | [RFC]: [KV Offload] Batched, serializable connector-manager interface | orozery | 2026-11-19 | 🟢 开放 | 一般 |  |  |
 
 ## Parallelism / Communication(并行与通信) (20)
 
@@ -505,7 +515,7 @@
 | [#54333](https://github.com/vllm-project/vllm/issues/54333) | [RFC]: Reduced sampling for tensor-parallel decoding | hzx55906 | 2026-08-29 | 🟢 开放 | 一般 |  |  |
 | [#58959](https://github.com/vllm-project/vllm/issues/58959) | [RFC]: Return logprobs aligned with sampling-mask token IDs for score centering | aoshen02 | 2026-09-28 | ⚪ 已关闭 | 一般 |  |  |
 
-## Frontend / Serving / API(前端与服务 API) (49)
+## Frontend / Serving / API(前端与服务 API) (50)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -558,8 +568,9 @@
 | [#61423](https://github.com/vllm-project/vllm/issues/61423) | [RFC]: Re-evaluate per-iteration metrics as a foundation for orchestrator observability | markmc | 2026-10-13 | 🟢 开放 | 一般 |  |  |
 | [#65797](https://github.com/vllm-project/vllm/issues/65797) | [RFC]: Token-id parity with the Python frontend as a tested contract for the Rust frontend | waynehacking8 | 2026-11-05 | 🟢 开放 | 一般 |  |  |
 | [#66858](https://github.com/vllm-project/vllm/issues/66858) | [RFC]: One rule for tools + response_format under tool_choice="auto" (Python and Rust fro… | ravismash | 2026-11-10 | 🟢 开放 | 一般 |  |  |
+| [#67892](https://github.com/vllm-project/vllm/issues/67892) | [RFC] Declarative metrics hooks, metric levels, and a runtime level control plane | djh95 | 2026-11-16 | 🟢 开放 | 一般 |  |  |
 
-## Architecture / Engine(架构与引擎) (53)
+## Architecture / Engine(架构与引擎) (54)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -616,6 +627,7 @@
 | [#66134](https://github.com/vllm-project/vllm/issues/66134) | [RFC]: Text sessions on /v1/realtime with streaming-input prefill | AshutoshRautela | 2026-11-06 | 🟢 开放 | 一般 |  |  |
 | [#67019](https://github.com/vllm-project/vllm/issues/67019) | [RFC]: Async EPLB: one owner for all state, worker runs self-contained jobs | latioswang | 2026-11-11 | 🟢 开放 | 一般 |  |  |
 | [#67261](https://github.com/vllm-project/vllm/issues/67261) | [RFC]: Clarify AMD target and architecture semantics across vLLM | gwokhou | 2026-11-12 | 🟢 开放 | 一般 |  |  |
+| [#68341](https://github.com/vllm-project/vllm/issues/68341) | [RFC]: Optional weight staging and trainer-managed pause for weight transfer engines | hao-aaron | 2026-11-18 | 🟢 开放 | 一般 |  |  |
 
 ## Hardware / Backend(硬件与后端) (31)
 
@@ -653,7 +665,7 @@
 | [#67217](https://github.com/vllm-project/vllm/issues/67217) | [RFC] Reuse vLLM vocab-parallel TopK for DFlash2 on Ascend | drslark | 2026-11-12 | ⚪ 已关闭 | 一般 |  |  |
 | [#67696](https://github.com/vllm-project/vllm/issues/67696) | [RFC]: CPU Backend support for VLLM_BATCH_INVARIANT=1 | mosafariuk | 2026-11-14 | 🟢 开放 | 一般 |  |  |
 
-## Feature / Ecosystem(功能与生态) (82)
+## Feature / Ecosystem(功能与生态) (83)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -739,6 +751,7 @@
 | [#63004](https://github.com/vllm-project/vllm/issues/63004) | [RFC]: add eage4 spec decode | HF-001 | 2026-10-22 | 🟢 开放 | 一般 |  |  |
 | [#65223](https://github.com/vllm-project/vllm/issues/65223) | [RFC]: TokenGate integration into vLLM | luis-gasparschroeder | 2026-11-02 | 🟢 开放 | 一般 |  |  |
 | [#66290](https://github.com/vllm-project/vllm/issues/66290) | [RFC]: Pipeline-parallel equivalence tests for every model that declares `SupportsPP` | xsxszab | 2026-11-07 | 🟢 开放 | 一般 |  |  |
+| [#68616](https://github.com/vllm-project/vllm/issues/68616) | [RFC]: Upstream migration plan for prime-rl vLLM integrations | Ronald1995 | 2026-11-19 | 🟢 开放 | 一般 |  |  |
 
 ## CI / Infra / Process(CI 与基础流程) (25)
 
@@ -770,7 +783,7 @@
 | [#59750](https://github.com/vllm-project/vllm/issues/59750) | [RFC]: Handle empty responses in synthetic acceptance benchmarks | whx-sjtu | 2026-10-02 | 🟢 开放 | 一般 |  |  |
 | [#61698](https://github.com/vllm-project/vllm/issues/61698) | [RFC]: Bring-Your-Own-GPU (BYOG) reproducible evals and benchmarks for PRs | LucasWilkinson | 2026-10-14 | 🟢 开放 | 🔥 重点 |  | [卡片](rfc-cards/rfc-61698-rfc-bring-your-own-gpu-byog-reproducible.md) |
 
-## Other(其他) (277)
+## Other(其他) (282)
 
 | RFC | 标题 | 作者 | 创建 | 状态 | 档位 | 收益声明 | 摘要卡 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1051,9 +1064,14 @@
 | [#67197](https://github.com/vllm-project/vllm/issues/67197) | [RFC]: Resource bound for the `/tokenize` endpoint | blakeouy | 2026-11-12 | 🟢 开放 | 一般 |  |  |
 | [#67275](https://github.com/vllm-project/vllm/issues/67275) | [RFC][Performance] Generic batch-size-aware matmul configs for untuned batch-invariant sh… | imthomp | 2026-11-12 | 🟢 开放 | 一般 |  |  |
 | [#67769](https://github.com/vllm-project/vllm/issues/67769) | [RFC]: MLP-only pruning of unconsumed rows in the final dense Llama layer | JasperChan929 | 2026-11-15 | 🟢 开放 | 一般 |  |  |
+| [#68016](https://github.com/vllm-project/vllm/issues/68016) | [RFC]: Numerical testing for specialized decode — plan, status, and PR sequence | divakar-amd | 2026-11-16 | 🟢 开放 | 一般 |  |  |
+| [#68034](https://github.com/vllm-project/vllm/issues/68034) | [RFC]: Shared boundary helpers for sequence-parallel residual streams | qianlihuang | 2026-11-16 | ⚪ 已关闭 | 一般 |  |  |
+| [#68360](https://github.com/vllm-project/vllm/issues/68360) | [RFC]: Near-Native Deterministic Serving on Hopper via Native Dispatch, Length-Keyed Spli… | C-C-Hao | 2026-11-18 | 🟢 开放 | 一般 |  |  |
+| [#68546](https://github.com/vllm-project/vllm/issues/68546) | [RFC]: Adaptive admission for RL rollout batches under KV pressure | LinzeShi | 2026-11-19 | 🟢 开放 | 一般 |  |  |
+| [#68711](https://github.com/vllm-project/vllm/issues/68711) | [RFC]: A top-level --lm-head-config for the draft and verify lm_head, with per-arch defau… | stecasta | 2026-11-19 | 🟢 开放 | 一般 |  |  |
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-15T14:42:46+00:00
-- **vllm** @9fbe012bd78b (upstream HEAD 2026-11-15) — commit: https://github.com/vllm-project/vllm/commit/9fbe012bd78bc46471013541e04bb9f0cfc84b80 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-15T14:30:29+00:00 | RFC 949 → 重点档 226 → 摘要卡 224
-- **sglang** @e4c3f001d6bc (upstream HEAD 2026-11-15) — commit: https://github.com/sgl-project/sglang/commit/e4c3f001d6bc8cb43e778b6b27d562af550db8c9 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-15T14:30:29+00:00 | RFC 206 → 重点档 43 → 摘要卡 43
+- 快照记录时间: 2026-11-19T15:41:54+00:00
+- **vllm** @8283763f5856 (upstream HEAD 2026-11-19) — commit: https://github.com/vllm-project/vllm/commit/8283763f58569d9e90e998b005d02463de33449c | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-19T15:31:14+00:00 | RFC 967 → 重点档 228 → 摘要卡 226
+- **sglang** @5e32149fd6b5 (upstream HEAD 2026-11-19) — commit: https://github.com/sgl-project/sglang/commit/5e32149fd6b58a30a4a72bbaa779aafc1bb6119a | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-19T15:31:14+00:00 | RFC 210 → 重点档 43 → 摘要卡 43

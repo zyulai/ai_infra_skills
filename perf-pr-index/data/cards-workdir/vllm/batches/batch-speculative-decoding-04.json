@@ -40,6 +40,12 @@
       "card_out": "index/vllm/cards/pr-63027-<slug>.md"
     },
     {
+      "number": 63085,
+      "title": "[ROCm][Perf] Muse Spark Open Shard residual stream across TP",
+      "pack": "data/cards-workdir/vllm/packs/pr-63085.pack.md",
+      "card_out": "index/vllm/cards/pr-63085-<slug>.md"
+    },
+    {
       "number": 63096,
       "title": "[ROCm][Spec Decode] Enable fused multi-step draft decode for ROCM_AITER_UNIFIED_ATTN",
       "pack": "data/cards-workdir/vllm/packs/pr-63096.pack.md",
@@ -50,6 +56,12 @@
       "title": "[Bugfix][Spec Decode] Per-request draft retention for structured output under PP",
       "pack": "data/cards-workdir/vllm/packs/pr-63219.pack.md",
       "card_out": "index/vllm/cards/pr-63219-<slug>.md"
+    },
+    {
+      "number": 63254,
+      "title": "[ROCm][Perf] Muse Spark: finalize the token-sharded MoE reduction in one reduce-scatter",
+      "pack": "data/cards-workdir/vllm/packs/pr-63254.pack.md",
+      "card_out": "index/vllm/cards/pr-63254-<slug>.md"
     },
     {
       "number": 63275,
@@ -68,6 +80,12 @@
       "title": "[Perf][DSv4] Process 4 heads per program in fused_inv_rope_fp8_quant",
       "pack": "data/cards-workdir/vllm/packs/pr-63540.pack.md",
       "card_out": "index/vllm/cards/pr-63540-<slug>.md"
+    },
+    {
+      "number": 63544,
+      "title": "[Perf][GLM-5.3-Flash] KDA decode and prefill through FlashInfer",
+      "pack": "data/cards-workdir/vllm/packs/pr-63544.pack.md",
+      "card_out": "index/vllm/cards/pr-63544-<slug>.md"
     },
     {
       "number": 63638,
@@ -98,6 +116,12 @@
       "title": "[ROCm][Perf] Use AITER's all-gather for small TP all-gathers",
       "pack": "data/cards-workdir/vllm/packs/pr-63890.pack.md",
       "card_out": "index/vllm/cards/pr-63890-<slug>.md"
+    },
+    {
+      "number": 63910,
+      "title": "[ROCm][Perf][GLM-5.3-Flash] Drop int32/int64 copies in the kpool sparse indexer",
+      "pack": "data/cards-workdir/vllm/packs/pr-63910.pack.md",
+      "card_out": "index/vllm/cards/pr-63910-<slug>.md"
     },
     {
       "number": 63921,
@@ -218,30 +242,6 @@
       "title": "[Spec Decode] Support XPress + Acceptance Estimator",
       "pack": "data/cards-workdir/vllm/packs/pr-65175.pack.md",
       "card_out": "index/vllm/cards/pr-65175-<slug>.md"
-    },
-    {
-      "number": 65448,
-      "title": "[KV Connector][Spec Decode] Support lookahead block hashes in remaining KV connectors",
-      "pack": "data/cards-workdir/vllm/packs/pr-65448.pack.md",
-      "card_out": "index/vllm/cards/pr-65448-<slug>.md"
-    },
-    {
-      "number": 65874,
-      "title": "[Kernel][Perf] Fused GDN MTP: Support DSpark K=8 and use idle SMs at small batch sizes",
-      "pack": "data/cards-workdir/vllm/packs/pr-65874.pack.md",
-      "card_out": "index/vllm/cards/pr-65874-<slug>.md"
-    },
-    {
-      "number": 65972,
-      "title": "[Perf][MoE] Skip DP padding rows in TRT-LLM monolithic MoE with vLLM's top-k",
-      "pack": "data/cards-workdir/vllm/packs/pr-65972.pack.md",
-      "card_out": "index/vllm/cards/pr-65972-<slug>.md"
-    },
-    {
-      "number": 65992,
-      "title": "[ROCm][DSv4.1][Perf] Run the fused mHC seams as AITER's single-launch HIP Mega-MHC",
-      "pack": "data/cards-workdir/vllm/packs/pr-65992.pack.md",
-      "card_out": "index/vllm/cards/pr-65992-<slug>.md"
     }
   ]
 }

@@ -1,29 +1,33 @@
 # SGLANG Bug Fix 全量索引(已合并修复 PR)
 
 - 仓库: https://github.com/sgl-project/sglang
-- 收录总数: **6506** (重点 🔥 **610** / 一般 5896)
-- 生成时间: 2026-11-15T15:23:32+00:00
+- 收录总数: **6619** (重点 🔥 **617** / 一般 6002)
+- 生成时间: 2026-11-19T16:27:23+00:00
 
 ## 目录
 
-- [Speculative Decoding(投机解码) (290)](#speculative-decoding投机解码-290)
-- [MoE(混合专家) (391)](#moe混合专家-391)
-- [Quantization(量化) (374)](#quantization量化-374)
-- [CUDA Graph / Compiler(CUDA Graph 与编译) (204)](#cuda-graph--compilercuda-graph-与编译-204)
-- [Overlap / Scheduler(重叠与调度) (222)](#overlap--scheduler重叠与调度-222)
-- [Attention / Kernel(注意力与算子) (649)](#attention--kernel注意力与算子-649)
-- [KV Cache / Memory(KV Cache 与显存) (277)](#kv-cache--memorykv-cache-与显存-277)
-- [Parallelism / Communication(并行与通信) (79)](#parallelism--communication并行与通信-79)
-- [Sampler / Detokenization(采样与反分词) (67)](#sampler--detokenization采样与反分词-67)
-- [Frontend / Serving(前端与服务) (381)](#frontend--serving前端与服务-381)
-- [Model-specific Fast Path(模型专属快路径) (553)](#model-specific-fast-path模型专属快路径-553)
+- [Speculative Decoding(投机解码) (294)](#speculative-decoding投机解码-294)
+- [MoE(混合专家) (395)](#moe混合专家-395)
+- [Quantization(量化) (381)](#quantization量化-381)
+- [CUDA Graph / Compiler(CUDA Graph 与编译) (207)](#cuda-graph--compilercuda-graph-与编译-207)
+- [Overlap / Scheduler(重叠与调度) (229)](#overlap--scheduler重叠与调度-229)
+- [Attention / Kernel(注意力与算子) (667)](#attention--kernel注意力与算子-667)
+- [KV Cache / Memory(KV Cache 与显存) (280)](#kv-cache--memorykv-cache-与显存-280)
+- [Parallelism / Communication(并行与通信) (81)](#parallelism--communication并行与通信-81)
+- [Sampler / Detokenization(采样与反分词) (68)](#sampler--detokenization采样与反分词-68)
+- [Frontend / Serving(前端与服务) (388)](#frontend--serving前端与服务-388)
+- [Model-specific Fast Path(模型专属快路径) (564)](#model-specific-fast-path模型专属快路径-564)
 - [CI / Test-Perf(CI 与测试性能) (124)](#ci--test-perfci-与测试性能-124)
-- [Other(其他) (2895)](#other其他-2895)
+- [Other(其他) (2941)](#other其他-2941)
 
-## Speculative Decoding(投机解码) (290)
+## Speculative Decoding(投机解码) (294)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [49790](https://github.com/sgl-project/sglang/pull/49790) | [Fix] [NPU] qwen3_5_mtp: adapt mtp.fc quantization as ReplicatedLinear | chx96642264 | 2026-11-19 | general(一般) | 一般 |  |
+| [49348](https://github.com/sgl-project/sglang/pull/49348) | [Fix] model-loader: Support RunAI for PP Nemotron MTP drafts | sshleifer | 2026-11-18 | general(一般) | 一般 |  |
+| [47293](https://github.com/sgl-project/sglang/pull/47293) | [Fix] unified_cache: Restore Inkling MTP draft state in the direct external linker | alphabetc1 | 2026-11-17 | general(一般) | 一般 |  |
+| [49760](https://github.com/sgl-project/sglang/pull/49760) | [Fix] sampling: Parse the UOCR page-guard lookahead inside its error handling | hnyls2002 | 2026-11-16 | general(一般) | 一般 |  |
 | [47645](https://github.com/sgl-project/sglang/pull/47645) | [Fix] [AMD] aiter: Plan the DCP asm verify shard with the draft tokens under CUDA graph r… | yuychang | 2026-11-13 | general(一般) | 一般 |  |
 | [49647](https://github.com/sgl-project/sglang/pull/49647) | [Fix] test: pin speculative_dspark_lm_head_dtype in the resolvable-field whitelist | zcnrex | 2026-11-10 | general(一般) | 一般 |  |
 | [40962](https://github.com/sgl-project/sglang/pull/40962) | [Fix] speculative: build target graphs outside draft contexts | YaoleWu | 2026-11-09 | general(一般) | 一般 |  |
@@ -315,10 +319,14 @@
 | [2684](https://github.com/sgl-project/sglang/pull/2684) | Eagle speculative decoding part 2: Fix cuda graph + DP attention hanging | merrymercy | 2024-12-31 | hang(挂死) | 🔥 重点 | [卡片](fix-cards/pr-2684-eagle-speculative-decoding-part-2-fix-cu.md) |
 | [456](https://github.com/sgl-project/sglang/pull/456) | Fix openai speculative execution | Ying1123 | 2024-05-21 | general(一般) | 一般 |  |
 
-## MoE(混合专家) (391)
+## MoE(混合专家) (395)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [50008](https://github.com/sgl-project/sglang/pull/50008) | [Fix] moe: Pad NVFP4 trtllm hidden size to a multiple of 256 | leejnau | 2026-11-18 | general(一般) | 一般 |  |
+| [48254](https://github.com/sgl-project/sglang/pull/48254) | [Fix] routed-experts: return no tokens in the abort echo of a request whose routing is go… | esarafian | 2026-11-18 | crash(崩溃) | 一般 |  |
+| [50019](https://github.com/sgl-project/sglang/pull/50019) | [Fix] moe: Apply the model's swiglu_limit in the CuTe DSL MoE runner | nanjiangwill | 2026-11-16 | general(一般) | 一般 |  |
+| [40880](https://github.com/sgl-project/sglang/pull/40880) | [Fix] [NPU] quantization: Shard W4A8 MoE scale_bias by MoE TP rank | INBreezefall | 2026-11-16 | general(一般) | 一般 |  |
 | [46392](https://github.com/sgl-project/sglang/pull/46392) | [Fix] Kimi-K3: Reject flashinfer_mxfp4 SiTU experts on SM90/SM120 | MarinaMackay | 2026-11-15 | general(一般) | 一般 |  |
 | [50321](https://github.com/sgl-project/sglang/pull/50321) | [Fix] diffusion: Stop the multi-rank IPC all-to-all leak with one IPC handle per peer | niehen6174 | 2026-11-14 | resource(资源泄漏/OOM) | 一般 |  |
 | [49805](https://github.com/sgl-project/sglang/pull/49805) | [Fix] models: Forward router top_k to fused MoE experts | shub-garg | 2026-11-14 | general(一般) | 一般 |  |
@@ -711,10 +719,17 @@
 | [1252](https://github.com/sgl-project/sglang/pull/1252) | fix: resolve qwen2 moe weight loader | zhyncs | 2024-08-28 | general(一般) | 一般 |  |
 | [1207](https://github.com/sgl-project/sglang/pull/1207) | Relax the assert in moe throughput test to fix the flaky CI | merrymercy | 2024-08-25 | general(一般) | 一般 |  |
 
-## Quantization(量化) (374)
+## Quantization(量化) (381)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [51162](https://github.com/sgl-project/sglang/pull/51162) | [Fix] quantization: Keep the Marlin conversion for AWQ/GPTQ checkpoints on SM100 | Smallfu666 | 2026-11-19 | general(一般) | 一般 |  |
+| [50822](https://github.com/sgl-project/sglang/pull/50822) | [Fix] [AMD] w8a8_fp8: route GLM's per-token pre-quantized tuple to the aiter ptpc GEMM | akao-amd | 2026-11-18 | general(一般) | 一般 |  |
+| [50117](https://github.com/sgl-project/sglang/pull/50117) | [Fix] [NPU] diffusion: MiniMax-H3 crashes with mxfp8 quantization or ref2va configuration | Napkin-AI | 2026-11-17 | crash(崩溃) | 🔥 重点 | [卡片](fix-cards/pr-50117-fix-npu-diffusion-minimax-h3-crashes-wit.md) |
+| [48089](https://github.com/sgl-project/sglang/pull/48089) | [Fix] [AMD] modelopt: Support ModelOpt FP8 Nemotron models on gfx950 | XinyuJiangCMU | 2026-11-17 | general(一般) | 一般 |  |
+| [48794](https://github.com/sgl-project/sglang/pull/48794) | [Fix] quantization: Pad the Marlin N tile for compressed-tensors WNA16 | BESzbing | 2026-11-16 | general(一般) | 一般 |  |
+| [39741](https://github.com/sgl-project/sglang/pull/39741) | [Fix] quantization: Determine Qwen3.5 GDN dense vs. GPTQ init from checkpoint precision a… | Aravind0403 | 2026-11-16 | correctness(正确性) | 🔥 重点 | [卡片](fix-cards/pr-39741-fix-quantization-determine-qwen3-5-gdn-d.md) |
+| [50653](https://github.com/sgl-project/sglang/pull/50653) | [Fix] inkling2: Ignore the Hub ModelOpt quantization_config stub | zijiexia | 2026-11-15 | general(一般) | 一般 |  |
 | [45898](https://github.com/sgl-project/sglang/pull/45898) | [Fix] granitemoe: Declare packed_modules_mapping so per-projection quant targets match qk… | jlqibm | 2026-11-15 | general(一般) | 一般 |  |
 | [44861](https://github.com/sgl-project/sglang/pull/44861) | [Fix] [NVIDIA] modelopt: Keep SM12x FP8 batch-invariant in deterministic mode | yibol9768-alt | 2026-11-15 | general(一般) | 一般 |  |
 | [49931](https://github.com/sgl-project/sglang/pull/49931) | [Fix] [NVIDIA] unquant: restore eager low-M BF16 performance | jybsuper | 2026-11-12 | general(一般) | 一般 |  |
@@ -1090,10 +1105,13 @@
 | [714](https://github.com/sgl-project/sglang/pull/714) | fix: llama 3.1 405b fp8 | zhyncs | 2024-07-24 | general(一般) | 一般 |  |
 | [290](https://github.com/sgl-project/sglang/pull/290) | Fix marlin model loading compat with autogptq | Liurl21 | 2024-03-13 | general(一般) | 一般 |  |
 
-## CUDA Graph / Compiler(CUDA Graph 与编译) (204)
+## CUDA Graph / Compiler(CUDA Graph 与编译) (207)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [51034](https://github.com/sgl-project/sglang/pull/51034) | [Fix] jit: Add memory clobbers to the mbarrier wrappers | DarkSharpness | 2026-11-18 | general(一般) | 一般 |  |
+| [50981](https://github.com/sgl-project/sglang/pull/50981) | [Fix] gc: Keep the heap frozen after a CUDA graph capture | hnyls2002 | 2026-11-17 | general(一般) | 一般 |  |
+| [46877](https://github.com/sgl-project/sglang/pull/46877) | [Fix] [XPU] diffusion: Copy flash-attention inputs under torch.compile | murthy-l | 2026-11-16 | general(一般) | 一般 |  |
 | [50175](https://github.com/sgl-project/sglang/pull/50175) | [Fix] runtime_context: Read platform facts under torch.compile fullgraph | rayanht | 2026-11-14 | general(一般) | 一般 |  |
 | [47346](https://github.com/sgl-project/sglang/pull/47346) | [Fix] distributed: Keep deprecated parallel_state getters traceable under torch.compile | vvinniev34 | 2026-11-14 | general(一般) | 一般 |  |
 | [49866](https://github.com/sgl-project/sglang/pull/49866) | [Fix] sgl-kernel: Do not compile FA3 instantiation files twice | chatouis | 2026-11-13 | general(一般) | 一般 |  |
@@ -1299,10 +1317,17 @@
 | [675](https://github.com/sgl-project/sglang/pull/675) | Fix cuda graph with flashinfer | merrymercy | 2024-07-20 | general(一般) | 一般 |  |
 | [545](https://github.com/sgl-project/sglang/pull/545) | Minor fix in compiler & format | ZackZeng999 | 2024-06-30 | general(一般) | 一般 |  |
 
-## Overlap / Scheduler(重叠与调度) (222)
+## Overlap / Scheduler(重叠与调度) (229)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [50518](https://github.com/sgl-project/sglang/pull/50518) | [Fix] tokenizer_manager: Stop the schedulers only after every tokenizer worker drains | yhyang201 | 2026-11-19 | general(一般) | 一般 |  |
+| [51038](https://github.com/sgl-project/sglang/pull/51038) | [Fix] scheduler: Publish load on every idle batch result under DP attention | metamergebot | 2026-11-18 | general(一般) | 一般 |  |
+| [50717](https://github.com/sgl-project/sglang/pull/50717) | [Fix] scheduler: Wait for the launched forward before writing weights | yuxuandexter | 2026-11-17 | general(一般) | 一般 |  |
+| [46063](https://github.com/sgl-project/sglang/pull/46063) | [Fix] scheduler: Reserve encoder-replay rows in the shortest-prefill-first chunk reservat… | akhilg-nv | 2026-11-17 | general(一般) | 一般 |  |
+| [46022](https://github.com/sgl-project/sglang/pull/46022) | [Fix] scheduler: Dedupe shared prefixes in shortest-first order under SPF | akhilg-nv | 2026-11-17 | general(一般) | 一般 |  |
+| [50663](https://github.com/sgl-project/sglang/pull/50663) | [Fix] diffusion: Keep tqdm off its multiprocessing lock in scheduler workers | mickqian | 2026-11-16 | general(一般) | 一般 |  |
+| [50146](https://github.com/sgl-project/sglang/pull/50146) | [Fix] scheduler: Join the prefill delayer all-gather on DP ranks that defer prefill | yuxuandexter | 2026-11-16 | general(一般) | 一般 |  |
 | [49721](https://github.com/sgl-project/sglang/pull/49721) | [Fix] scheduler: Answer health probes that are waiting behind other requests | metamergebot | 2026-11-14 | general(一般) | 一般 |  |
 | [49649](https://github.com/sgl-project/sglang/pull/49649) | [Fix] scheduler: Observe finished storage prefetches before shortest-prefill-first ranks,… | metamergebot | 2026-11-14 | general(一般) | 一般 |  |
 | [49630](https://github.com/sgl-project/sglang/pull/49630) | [Fix] rust-server: Log the drain's scheduler kill at info and bound the reap | metamergebot | 2026-11-14 | general(一般) | 一般 |  |
@@ -1526,15 +1551,33 @@
 | [1112](https://github.com/sgl-project/sglang/pull/1112) | [Fix] Window attention compatible with RadixAttention and chunked prefill | Ying1123 | 2024-08-15 | general(一般) | 一般 |  |
 | [984](https://github.com/sgl-project/sglang/pull/984) | Fix chunked prefill | hnyls2002 | 2024-08-08 | general(一般) | 一般 |  |
 
-## Attention / Kernel(注意力与算子) (649)
+## Attention / Kernel(注意力与算子) (667)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [50775](https://github.com/sgl-project/sglang/pull/50775) | [Fix] attention: Fix KDA prefill overflow past 2**31 token offsets | haishuok0525 | 2026-11-19 | general(一般) | 一般 |  |
+| [51041](https://github.com/sgl-project/sglang/pull/51041) | [Fix] [AMD] dsv4: use T.And for the dual-cache phase-1 guard in the TileLang FlashMLA ker… | akao-amd | 2026-11-18 | general(一般) | 一般 |  |
+| [50821](https://github.com/sgl-project/sglang/pull/50821) | [Fix] [AMD] mla: pad non-power-of-two nope/rope widths in concat_and_cast_mha_k | akao-amd | 2026-11-18 | general(一般) | 一般 |  |
+| [50805](https://github.com/sgl-project/sglang/pull/50805) | [Refactor] kernels: Fix silent failures and prune dead code in the kernels package (3/4) | BBuf | 2026-11-18 | correctness(正确性) | 🔥 重点 | [卡片](fix-cards/pr-50805-refactor-kernels-fix-silent-failures-and.md) |
+| [50783](https://github.com/sgl-project/sglang/pull/50783) | [Fix] [NPU] dspark: Support enabling dspark&dp attention during prefill while also enabli… | vstone-w | 2026-11-18 | general(一般) | 一般 |  |
+| [50941](https://github.com/sgl-project/sglang/pull/50941) | [Fix] gemma4: Feed the AR fusion test's DeepGEMM UE8M0 weight scales on Blackwell | hnyls2002 | 2026-11-17 | general(一般) | 一般 |  |
+| [50870](https://github.com/sgl-project/sglang/pull/50870) | [Fix] [AMD] dsa: Use 64-bit token offsets in the Triton sparse MLA kernels | clintg6 | 2026-11-17 | general(一般) | 一般 |  |
+| [50839](https://github.com/sgl-project/sglang/pull/50839) | [Fix] kimi-k3: Handle idle attention-DP ranks and match the KDA checkpoint dtype | dmtri35 | 2026-11-17 | general(一般) | 一般 |  |
+| [50771](https://github.com/sgl-project/sglang/pull/50771) | [Fix] [NVIDIA] mega_moe: Stop DeepGEMM's MLOPart helper before every KV cache sizing | yz-wqf | 2026-11-17 | general(一般) | 一般 |  |
+| [50748](https://github.com/sgl-project/sglang/pull/50748) | [Fix] [AMD] monokernels: Keep a draft's forward when it does not meet the spec's hf_config | michaelzhang-ai | 2026-11-17 | general(一般) | 一般 |  |
+| [50725](https://github.com/sgl-project/sglang/pull/50725) | [Fix] [NPU] kda: Fix Ascend prefill crash due to missing kernel flag | hanwlax | 2026-11-17 | crash(崩溃) | 🔥 重点 | [卡片](fix-cards/pr-50725-fix-npu-kda-fix-ascend-prefill-crash-due.md) |
+| [50486](https://github.com/sgl-project/sglang/pull/50486) | [Fix] [MUSA] sgl-kernel: Restore the MUSA AOT wheel build | yeahdongcn | 2026-11-17 | general(一般) | 一般 |  |
+| [50470](https://github.com/sgl-project/sglang/pull/50470) | [Fix] multimodal: Match CUDA tensors by device type for cuda-only gpu_tensors_blake3 kern… | amote-i | 2026-11-17 | general(一般) | 一般 |  |
+| [49732](https://github.com/sgl-project/sglang/pull/49732) | [Fix] [AMD] mla: Bound absorb-BMM wave budget (follow-up to #46918) | dorado269 | 2026-11-17 | general(一般) | 一般 |  |
+| [50849](https://github.com/sgl-project/sglang/pull/50849) | [Fix] dcp: Plan DCP attention metadata for GLM-4.7-Flash prefix hits | kpham-sgl | 2026-11-16 | general(一般) | 一般 |  |
+| [50838](https://github.com/sgl-project/sglang/pull/50838) | [Fix] kimi-k3: Pass the EP-wide token count to MegaMoE under attention DP | dmtri35 | 2026-11-16 | general(一般) | 一般 |  |
 | [50530](https://github.com/sgl-project/sglang/pull/50530) | [Fix] diffusion: Request PDL in the HunyuanVideo QK RMSNorm site only on SM90+ | Smallfu666 | 2026-11-15 | general(一般) | 一般 |  |
 | [50441](https://github.com/sgl-project/sglang/pull/50441) | [Fix] diffusion: Build an offloaded text encoder's RoPE table on the GPU so offload gives… | Smallfu666 | 2026-11-15 | general(一般) | 一般 |  |
 | [50184](https://github.com/sgl-project/sglang/pull/50184) | [Fix] diffusion: Honor the channel_dim override in LTX-2 PerChannelRMSNorm | nankingjing | 2026-11-15 | general(一般) | 一般 |  |
+| [50147](https://github.com/sgl-project/sglang/pull/50147) | [Fix] dp-attention: Deliver an abort behind its request on every DP rank | yuxuandexter | 2026-11-15 | crash(崩溃) | 🔥 重点 | [卡片](fix-cards/pr-50147-fix-dp-attention-deliver-an-abort-behind.md) |
 | [49803](https://github.com/sgl-project/sglang/pull/49803) | [Fix] attention: Widen GDN chunk-state offsets to int64 before multiplying | haishuok0525 | 2026-11-15 | general(一般) | 一般 |  |
 | [47802](https://github.com/sgl-project/sglang/pull/47802) | [Fix] attention: Triton decode reads wrong KV head for GQA groups > 16 not divisible by 1… | EvanZhuang | 2026-11-15 | general(一般) | 一般 |  |
+| [33506](https://github.com/sgl-project/sglang/pull/33506) | [Fix] [AMD] dsa: Fix Triton cache flooding in aiter backend | amd-mvarjoka | 2026-11-15 | general(一般) | 一般 |  |
 | [47013](https://github.com/sgl-project/sglang/pull/47013) | [Fix] kvcache: Skip the reserved padding slot in the zero-RoPE MLA KV writer | JackChuang | 2026-11-14 | general(一般) | 一般 |  |
 | [50258](https://github.com/sgl-project/sglang/pull/50258) | [Fix] [NPU] test: Set TRITON_CACHE_DIR to /tmp/triton_cache | YZY00Raiser | 2026-11-13 | general(一般) | 一般 |  |
 | [50177](https://github.com/sgl-project/sglang/pull/50177) | [Fix] DeepSeek-V4: Skip decode attention TP setup when it is off | rayanht | 2026-11-13 | general(一般) | 一般 |  |
@@ -2180,10 +2223,13 @@
 | [430](https://github.com/sgl-project/sglang/pull/430) | Fix flashinfer | merrymercy | 2024-05-12 | general(一般) | 一般 |  |
 | [282](https://github.com/sgl-project/sglang/pull/282) | Fix flashinfer >= 0.0.3 compat | Qubitium | 2024-03-12 | general(一般) | 一般 |  |
 
-## KV Cache / Memory(KV Cache 与显存) (277)
+## KV Cache / Memory(KV Cache 与显存) (280)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [51081](https://github.com/sgl-project/sglang/pull/51081) | [Fix] hicache: Expect the KV dtype suffix in page-unified L3 object names | hnyls2002 | 2026-11-18 | general(一般) | 一般 |  |
+| [49930](https://github.com/sgl-project/sglang/pull/49930) | [CI] [AMD] diffusion: Fix two layerwise-offload unit tests on ROCm | michaelzhang-ai | 2026-11-18 | general(一般) | 一般 |  |
+| [49761](https://github.com/sgl-project/sglang/pull/49761) | [Fix] security: Redact the HiCache storage credentials from server info, dumps, logs and … | hnyls2002 | 2026-11-16 | general(一般) | 一般 |  |
 | [49328](https://github.com/sgl-project/sglang/pull/49328) | [Fix] hicache: Report L3 prefetch tokens already cached during the read | alphabetc1 | 2026-11-15 | general(一般) | 一般 |  |
 | [49641](https://github.com/sgl-project/sglang/pull/49641) | [Fix] radix-tree: Clamp SWA tombstone recovery to the protected prefix in the Rust tree c… | metamergebot | 2026-11-14 | general(一般) | 一般 |  |
 | [38362](https://github.com/sgl-project/sglang/pull/38362) | [Fix] hicache: Include logical KV dtype in storage keys | stmatengss | 2026-11-14 | general(一般) | 一般 |  |
@@ -2462,10 +2508,12 @@
 | [451](https://github.com/sgl-project/sglang/pull/451) | Fix the broken `--disable-radix-cache` | hnyls2002 | 2024-05-19 | general(一般) | 一般 |  |
 | [7](https://github.com/sgl-project/sglang/pull/7) | fix radix cache match | hnyls2002 | 2024-01-15 | general(一般) | 一般 |  |
 
-## Parallelism / Communication(并行与通信) (79)
+## Parallelism / Communication(并行与通信) (81)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [50851](https://github.com/sgl-project/sglang/pull/50851) | [Fix] rust-server: Report meta_info.dp_rank as null without data parallelism, as the Pyth… | metamergebot | 2026-11-18 | general(一般) | 一般 |  |
+| [50995](https://github.com/sgl-project/sglang/pull/50995) | [Fix] disaggregation: Set aux-exchange and deferred-ACK fields on the KV-shard CP-TP test… | Fridge003 | 2026-11-17 | hang(挂死) | 一般 |  |
 | [49669](https://github.com/sgl-project/sglang/pull/49669) | [Fix] disaggregation: Bound unsharded PD prefill prompts at bootstrap | ShangmingCai | 2026-11-12 | startup(启动/加载) | 一般 |  |
 | [47267](https://github.com/sgl-project/sglang/pull/47267) | [Fix] dflash: Gather candidate top-k over the target lm_head's own shard group | yhyang201 | 2026-11-12 | general(一般) | 一般 |  |
 | [49279](https://github.com/sgl-project/sglang/pull/49279) | [Fix] diffusion: Compute CFG normalization over the whole latent under sequence paralleli… | Smallfu666 | 2026-11-11 | general(一般) | 一般 |  |
@@ -2546,10 +2594,11 @@
 | [2020](https://github.com/sgl-project/sglang/pull/2020) | Fix grammar backend for tensor parallelism | merrymercy | 2024-11-13 | general(一般) | 一般 |  |
 | [1767](https://github.com/sgl-project/sglang/pull/1767) | [Fix] Fix abort in data parallelism | merrymercy | 2024-10-23 | crash(崩溃) | 🔥 重点 | [卡片](fix-cards/pr-1767-fix-fix-abort-in-data-parallelism.md) |
 
-## Sampler / Detokenization(采样与反分词) (67)
+## Sampler / Detokenization(采样与反分词) (68)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [47644](https://github.com/sgl-project/sglang/pull/47644) | [Fix] dflash: Stage the draft sampler only for batches its buffers hold | Jiminator | 2026-11-18 | general(一般) | 一般 |  |
 | [50182](https://github.com/sgl-project/sglang/pull/50182) | [Fix] diffusion: Answer 400 for invalid mesh sampling parameters | nankingjing | 2026-11-15 | general(一般) | 一般 |  |
 | [40893](https://github.com/sgl-project/sglang/pull/40893) | [Fix] spec: Support a reduced draft vocabulary in rejection sampling | ZhouYuxuanYX | 2026-11-15 | general(一般) | 一般 |  |
 | [49915](https://github.com/sgl-project/sglang/pull/49915) | [Fix] sampling: Reject expensive Python stop regexes | shub-garg | 2026-11-14 | general(一般) | 一般 |  |
@@ -2618,12 +2667,19 @@
 | [734](https://github.com/sgl-project/sglang/pull/734) | fix /generate without sampling_params | toslunar | 2024-07-26 | general(一般) | 一般 |  |
 | [586](https://github.com/sgl-project/sglang/pull/586) | * fix(detokenizer_manager.py): fix truncated decoded output | Titan-p | 2024-07-06 | general(一般) | 一般 |  |
 
-## Frontend / Serving(前端与服务) (381)
+## Frontend / Serving(前端与服务) (388)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [51270](https://github.com/sgl-project/sglang/pull/51270) | [Fix] grpc: Allow --tokenizer-worker-num > 1 with --grpc-port in Rust-server mode | ishandhanani | 2026-11-19 | general(一般) | 一般 |  |
+| [51123](https://github.com/sgl-project/sglang/pull/51123) | [Fix] encoder: Keep a result reached in the timeout tick and format the gRPC receive URL … | ShangmingCai | 2026-11-18 | general(一般) | 一般 |  |
+| [50854](https://github.com/sgl-project/sglang/pull/50854) | [Fix] rust-server: Time the latency metrics from an HTTP layer's request start | metamergebot | 2026-11-18 | general(一般) | 一般 |  |
+| [49514](https://github.com/sgl-project/sglang/pull/49514) | [Fix] openai: Render DSV4.1 message tools with recipe | JustinTong0323 | 2026-11-18 | general(一般) | 一般 |  |
+| [49838](https://github.com/sgl-project/sglang/pull/49838) | [Chore] diffusion: Fix stale comments and docstrings in serving, apps and CI scripts | AgainstEntropy | 2026-11-16 | general(一般) | 一般 |  |
+| [49823](https://github.com/sgl-project/sglang/pull/49823) | [Fix] http_server: Hold the HTTP port across the model load | haishuok0525 | 2026-11-16 | general(一般) | 一般 |  |
 | [50590](https://github.com/sgl-project/sglang/pull/50590) | [Fix] inkling: Render prompts through the tml-renderers OpenAI Chat entry point | JustinTong0323 | 2026-11-15 | general(一般) | 一般 |  |
 | [50435](https://github.com/sgl-project/sglang/pull/50435) | [Fix] sgl-router: Handle inline system messages on /v1/messages the way the engine does | huyhoang5-onexus | 2026-11-15 | general(一般) | 一般 |  |
+| [49759](https://github.com/sgl-project/sglang/pull/49759) | [Fix] tokenizer_manager: Validate token_indices_to_pool at request entry | hnyls2002 | 2026-11-15 | general(一般) | 一般 |  |
 | [47060](https://github.com/sgl-project/sglang/pull/47060) | [Fix] observability: Snapshot STANDALONE metrics before settlement | andrewzyxing | 2026-11-15 | general(一般) | 一般 |  |
 | [49895](https://github.com/sgl-project/sglang/pull/49895) | [Fix] entrypoints: Resolve auth levels of included routers and pin a level for every route | alphabetc1 | 2026-11-14 | general(一般) | 一般 |  |
 | [49640](https://github.com/sgl-project/sglang/pull/49640) | [Fix] rust-server: Answer a full tokenizer queue with 503 instead of blocking intake, tak… | metamergebot | 2026-11-13 | general(一般) | 一般 |  |
@@ -3004,10 +3060,21 @@
 | [153](https://github.com/sgl-project/sglang/pull/153) | Temporary fix OpenAI API for Pydantic v1/v2 | comaniac | 2024-02-06 | general(一般) | 一般 |  |
 | [71](https://github.com/sgl-project/sglang/pull/71) | Fix the error message and dependency of openai backend | merrymercy | 2024-01-21 | general(一般) | 一般 |  |
 
-## Model-specific Fast Path(模型专属快路径) (553)
+## Model-specific Fast Path(模型专属快路径) (564)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [50440](https://github.com/sgl-project/sglang/pull/50440) | [Fix] diffusion/qwen-image: Stream the DiT in auto mode when it does not fit the GPU | Smallfu666 | 2026-11-19 | general(一般) | 一般 |  |
+| [41334](https://github.com/sgl-project/sglang/pull/41334) | [Fix] disaggregation: Register the NextN draft DSA index cache for hybrid pools | zidanehuang001 | 2026-11-19 | general(一般) | 一般 |  |
+| [36426](https://github.com/sgl-project/sglang/pull/36426) | [Fix] [NPU] modelslim: Fix Qwen3.8-27B-W8A8 loading | zhujianwei-ops | 2026-11-19 | general(一般) | 一般 |  |
+| [51311](https://github.com/sgl-project/sglang/pull/51311) | [Fix] kimi-k3: Read load_format through the model namespace accessor | rainj-me | 2026-11-18 | general(一般) | 一般 |  |
+| [51207](https://github.com/sgl-project/sglang/pull/51207) | [Fix] tests: Use image_processor_backend in the Qwen token-space test | yhyang201 | 2026-11-18 | general(一般) | 一般 |  |
+| [50611](https://github.com/sgl-project/sglang/pull/50611) | [Fix] minimax_h3: Keep the projected AdaLN LoRA in the adapter dtype | Woody-Hu | 2026-11-18 | general(一般) | 一般 |  |
+| [45261](https://github.com/sgl-project/sglang/pull/45261) | [Fix] [NVIDIA] deepseek_v4: Start DeepSeek-V4.1 on SM12x with TP8/EP8 defaults | moria97 | 2026-11-18 | general(一般) | 一般 |  |
+| [50840](https://github.com/sgl-project/sglang/pull/50840) | [Fix] mamba: Allow extra_buffer_lazy on a PD prefill worker | dmtri35 | 2026-11-16 | general(一般) | 一般 |  |
+| [50589](https://github.com/sgl-project/sglang/pull/50589) | [Fix] diffusion/qwen-image-layered: Keep the input image's alpha channel | Smallfu666 | 2026-11-16 | general(一般) | 一般 |  |
+| [45868](https://github.com/sgl-project/sglang/pull/45868) | [Fix] multimodal: Return the selected processor from LlavaMultimodalProcessor | bowenwan6 | 2026-11-16 | general(一般) | 一般 |  |
+| [45803](https://github.com/sgl-project/sglang/pull/45803) | [Fix] parser: Fix reasoning/tool-call grammar handoff and GLM-4.5 argument parsing | JustinTong0323 | 2026-11-16 | general(一般) | 一般 |  |
 | [50358](https://github.com/sgl-project/sglang/pull/50358) | [Fix] diffusion/qwen-image-2.1: Size edit outputs and references as Diffusers does | Smallfu666 | 2026-11-15 | general(一般) | 一般 |  |
 | [49170](https://github.com/sgl-project/sglang/pull/49170) | [Fix] deepseek-v4.1: Keep active DP decode ranks out of idle tail replay | sghhhh | 2026-11-15 | general(一般) | 一般 |  |
 | [50007](https://github.com/sgl-project/sglang/pull/50007) | [Fix] qwen-vl: Bound GPU memory of image preprocessing (fixes #49796) | tanish-malekar | 2026-11-14 | general(一般) | 一般 |  |
@@ -3691,10 +3758,56 @@
 | [650](https://github.com/sgl-project/sglang/pull/650) | fix: resolve lint error | zhyncs | 2024-07-18 | general(一般) | 一般 |  |
 | [312](https://github.com/sgl-project/sglang/pull/312) | Update README.md by fixing spelling mistakes. | DeyangKong | 2024-03-22 | general(一般) | 一般 |  |
 
-## Other(其他) (2895)
+## Other(其他) (2941)
 
 | PR | 标题 | 作者 | 合并日期 | 类型 | 档位 | 修复卡 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [51517](https://github.com/sgl-project/sglang/pull/51517) | [Fix] cli: resync Cookbook command registry with main | YaoleWu | 2026-11-19 | general(一般) | 一般 |  |
+| [51458](https://github.com/sgl-project/sglang/pull/51458) | [Fix] dflash: Preserve captured custom_mask on idle DP ranks | xiaobao520123 | 2026-11-19 | general(一般) | 一般 |  |
+| [51417](https://github.com/sgl-project/sglang/pull/51417) | [Test] [NPU] multi-node: Fix the PD warmup race and raise the DSV4-Flash 128K prefill mem… | YZY00Raiser | 2026-11-19 | general(一般) | 一般 |  |
+| [51386](https://github.com/sgl-project/sglang/pull/51386) | [Fix] spec/dflash: Turn the DFLASH draft KV ring off by default | Fridge003 | 2026-11-19 | correctness(正确性) | 🔥 重点 | [卡片](fix-cards/pr-51386-fix-spec-dflash-turn-the-dflash-draft-kv.md) |
+| [51362](https://github.com/sgl-project/sglang/pull/51362) | [Fix] Diffusion: exit nonzero when generate produces no results | mickqian | 2026-11-19 | general(一般) | 一般 |  |
+| [50752](https://github.com/sgl-project/sglang/pull/50752) | [Fix] [NVIDIA] DSA: Fix BF16 TileLang shared memory overflow on SM120 | lingxling | 2026-11-19 | general(一般) | 一般 |  |
+| [44329](https://github.com/sgl-project/sglang/pull/44329) | [Fix] [NPU] diffusion: Clean up warnings | OrangeRedeng | 2026-11-19 | general(一般) | 一般 |  |
+| [36088](https://github.com/sgl-project/sglang/pull/36088) | [Fix] [AMD] distributed: Fix custom AR capture for DSA DP dual graphs | tanth47 | 2026-11-19 | general(一般) | 一般 |  |
+| [51215](https://github.com/sgl-project/sglang/pull/51215) | [Fix] utils: Keep the alignment helpers #48781 moved importable from utils.common | zijiexia | 2026-11-18 | general(一般) | 一般 |  |
+| [51134](https://github.com/sgl-project/sglang/pull/51134) | [Fix] disaggregation: Close the PP consensus store when a KV manager is torn down | ShangmingCai | 2026-11-18 | general(一般) | 一般 |  |
+| [51124](https://github.com/sgl-project/sglang/pull/51124) | [Fix] [Intel] cpu: Pin Outlines to compatible version | mingfeima | 2026-11-18 | general(一般) | 一般 |  |
+| [51114](https://github.com/sgl-project/sglang/pull/51114) | [Fix] encoder: Reject scalar hashes, accept an empty feature list, and keep media payload… | ShangmingCai | 2026-11-18 | general(一般) | 一般 |  |
+| [51111](https://github.com/sgl-project/sglang/pull/51111) | [Fix] disaggregation: Count a prefill rank once in the bootstrap server however often it … | ShangmingCai | 2026-11-18 | startup(启动/加载) | 一般 |  |
+| [51086](https://github.com/sgl-project/sglang/pull/51086) | [Fix] cpu: Pin outlines to the version the outlines grammar backend imports | hnyls2002 | 2026-11-18 | general(一般) | 一般 |  |
+| [51085](https://github.com/sgl-project/sglang/pull/51085) | [Fix] tests: Update the weekly CPU unit tests for recent model and linear changes | hnyls2002 | 2026-11-18 | hang(挂死) | 一般 |  |
+| [51083](https://github.com/sgl-project/sglang/pull/51083) | [Fix] lora: Expose the bias and deferred-finalize flags on LoRA-wrapped layers | hnyls2002 | 2026-11-18 | general(一般) | 一般 |  |
+| [51077](https://github.com/sgl-project/sglang/pull/51077) | [Fix] mooncake: Snapshot a room's transfer infos in the worker and blacklist the session … | ShangmingCai | 2026-11-18 | general(一般) | 一般 |  |
+| [50820](https://github.com/sgl-project/sglang/pull/50820) | [Fix] [AMD] dsv4: fix TileLang FlashMLA on gfx942 (pipeline crash + fnuz KV decode) | akao-amd | 2026-11-18 | crash(崩溃) | 一般 |  |
+| [47756](https://github.com/sgl-project/sglang/pull/47756) | [Fix] [AMD] diffusion: install amd-smi so FLUX.3 serves on ROCm on gfx1151 | vvvdwbvvv | 2026-11-18 | general(一般) | 一般 |  |
+| [47703](https://github.com/sgl-project/sglang/pull/47703) | [Fix] trtllm_mha: Pack a graph-built page table for eager reads | Jiminator | 2026-11-18 | general(一般) | 一般 |  |
+| [50983](https://github.com/sgl-project/sglang/pull/50983) | [Fix] gc: Warn on frozen garbage instead of reporting a leak | hnyls2002 | 2026-11-17 | correctness(正确性) | 🔥 重点 | [卡片](fix-cards/pr-50983-fix-gc-warn-on-frozen-garbage-instead-of.md) |
+| [50982](https://github.com/sgl-project/sglang/pull/50982) | [Fix] cuda-graph: Free the old decode graphs before a recapture | hnyls2002 | 2026-11-17 | general(一般) | 一般 |  |
+| [50980](https://github.com/sgl-project/sglang/pull/50980) | [Fix] gc: Collect before freezing the heap | hnyls2002 | 2026-11-17 | general(一般) | 一般 |  |
+| [50937](https://github.com/sgl-project/sglang/pull/50937) | [Fix] hisparse: Give the plain pool fake in the retraction test the allocator's state fie… | hnyls2002 | 2026-11-17 | general(一般) | 一般 |  |
+| [50744](https://github.com/sgl-project/sglang/pull/50744) | [Fix] [NPU] distributed: Avoid NVML queries in multimem initialization | heziiop | 2026-11-17 | general(一般) | 一般 |  |
+| [50712](https://github.com/sgl-project/sglang/pull/50712) | [Fix] disaggregation: Poll the decode transfer queue while retracted requests wait | yuxuandexter | 2026-11-17 | general(一般) | 一般 |  |
+| [50640](https://github.com/sgl-project/sglang/pull/50640) | [Fix] diffusion: Align Ideogram 4 request sizes to the 16-pixel patch grid | Smallfu666 | 2026-11-17 | general(一般) | 一般 |  |
+| [50638](https://github.com/sgl-project/sglang/pull/50638) | [Fix] diffusion: Align FLUX.3 request sizes to the 16-pixel latent grid | Smallfu666 | 2026-11-17 | general(一般) | 一般 |  |
+| [50059](https://github.com/sgl-project/sglang/pull/50059) | [Fix] mem_cache: Insert the prompt end in the same checkpoint as an SWA branch point | lishuoshuo-amd | 2026-11-17 | general(一般) | 一般 |  |
+| [49290](https://github.com/sgl-project/sglang/pull/49290) | [Fix] diffusion/security: Use safe_pickle_loads for DiffusionServer inbound requests (#49… | kemrec | 2026-11-17 | general(一般) | 一般 |  |
+| [48745](https://github.com/sgl-project/sglang/pull/48745) | [Fix] kda: Align unfused safe-gate diagonal normalization anchor | wirybeaver | 2026-11-17 | general(一般) | 一般 |  |
+| [48065](https://github.com/sgl-project/sglang/pull/48065) | [Fix] [AMD] dsv4: Fix the mHC weight orientation across layer boundaries | inkcherry | 2026-11-17 | general(一般) | 一般 |  |
+| [41928](https://github.com/sgl-project/sglang/pull/41928) | [Fix] [AMD] inkling: Initialize Inkling safely on ROCm | XinyuJiangCMU | 2026-11-17 | general(一般) | 一般 |  |
+| [34514](https://github.com/sgl-project/sglang/pull/34514) | [Fix] diffusion/sana: Honor --vae-tiling in the AutoencoderDC VAE | emmayang767 | 2026-11-17 | general(一般) | 一般 |  |
+| [50855](https://github.com/sgl-project/sglang/pull/50855) | [Fix] muse-glimmer: Fix vision embedding order | sid-rp | 2026-11-16 | general(一般) | 一般 |  |
+| [50645](https://github.com/sgl-project/sglang/pull/50645) | [Fix] tp-qknorm: Stride push phases by kNumGPU slots | DarkSharpness | 2026-11-16 | general(一般) | 一般 |  |
+| [50599](https://github.com/sgl-project/sglang/pull/50599) | [Fix] diffusion: Align Anima request sizes to the 16-pixel patch grid | Smallfu666 | 2026-11-16 | general(一般) | 一般 |  |
+| [50598](https://github.com/sgl-project/sglang/pull/50598) | [Fix] diffusion: Align MOSS-Image request sizes to the 16-pixel patch grid | Smallfu666 | 2026-11-16 | general(一般) | 一般 |  |
+| [50576](https://github.com/sgl-project/sglang/pull/50576) | [Fix] usage: Report reasoning_tokens as 0 when the model does not think | ispobock | 2026-11-16 | general(一般) | 一般 |  |
+| [50572](https://github.com/sgl-project/sglang/pull/50572) | [Fix] custom-ar-v2: Finalize symmetric workspaces in registration order | metamergebot | 2026-11-16 | general(一般) | 一般 |  |
+| [50555](https://github.com/sgl-project/sglang/pull/50555) | [Fix] rust-server: Refuse return_hidden_states above the server's mode | mileschintw | 2026-11-16 | general(一般) | 一般 |  |
+| [50529](https://github.com/sgl-project/sglang/pull/50529) | [Fix] diffusion/ltx2: Repeat prompt rows when one request asks for several videos | Smallfu666 | 2026-11-16 | general(一般) | 一般 |  |
+| [50520](https://github.com/sgl-project/sglang/pull/50520) | [Fix] disaggregation: Read attn_dp_size in the prefill_complete validator | weireweire | 2026-11-16 | general(一般) | 一般 |  |
+| [49671](https://github.com/sgl-project/sglang/pull/49671) | [Doc] diffusion: Fix cookbook commands, model IDs and catalog entries | AgainstEntropy | 2026-11-16 | general(一般) | 一般 |  |
+| [44736](https://github.com/sgl-project/sglang/pull/44736) | [Fix] [NPU] CI: Update NPU failure analyzer coverage | OrangeRedeng | 2026-11-16 | general(一般) | 一般 |  |
+| [44576](https://github.com/sgl-project/sglang/pull/44576) | [Fix] disaggregation: Release multimodal features when PD prefill finishes a request | knlb-tml | 2026-11-16 | general(一般) | 一般 |  |
 | [50586](https://github.com/sgl-project/sglang/pull/50586) | [Fix] auth: Key-check wrong methods by route and allowlist `/internal/peer` messages | hnyls2002 | 2026-11-15 | general(一般) | 一般 |  |
 | [50357](https://github.com/sgl-project/sglang/pull/50357) | [Fix] diffusion: Align Wan text-to-video request sizes to the 16-pixel patch grid | Smallfu666 | 2026-11-15 | general(一般) | 一般 |  |
 | [50234](https://github.com/sgl-project/sglang/pull/50234) | [Fix] weights: Reject mismatched manifests before distributed broadcasts | shub-garg | 2026-11-15 | correctness(正确性) | 🔥 重点 | [卡片](fix-cards/pr-50234-fix-weights-reject-mismatched-manifests.md) |
@@ -6593,6 +6706,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-15T14:42:50+00:00
-- **vllm** @9fbe012bd78b (upstream HEAD 2026-11-15) — commit: https://github.com/vllm-project/vllm/commit/9fbe012bd78bc46471013541e04bb9f0cfc84b80 | API 抓取窗口: 2026-11-08T09:35:42+00:00 ~ 2026-11-15T14:34:22+00:00 | raw 8066 → 重点档 655 → 修复卡 649
-- **sglang** @e4c3f001d6bc (upstream HEAD 2026-11-15) — commit: https://github.com/sgl-project/sglang/commit/e4c3f001d6bc8cb43e778b6b27d562af550db8c9 | API 抓取窗口: 2026-11-08T10:04:47+00:00 ~ 2026-11-15T14:37:49+00:00 | raw 6506 → 重点档 610 → 修复卡 608
+- 快照记录时间: 2026-11-19T15:41:28+00:00
+- **vllm** @8283763f5856 (upstream HEAD 2026-11-19) — commit: https://github.com/vllm-project/vllm/commit/8283763f58569d9e90e998b005d02463de33449c | API 抓取窗口: 2026-11-08T09:35:42+00:00 ~ 2026-11-19T15:37:18+00:00 | raw 8205 → 重点档 663 → 修复卡 655
+- **sglang** @5e32149fd6b5 (upstream HEAD 2026-11-19) — commit: https://github.com/sgl-project/sglang/commit/5e32149fd6b58a30a4a72bbaa779aafc1bb6119a | API 抓取窗口: 2026-11-08T10:04:47+00:00 ~ 2026-11-19T15:41:08+00:00 | raw 6619 → 重点档 617 → 修复卡 610

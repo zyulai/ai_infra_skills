@@ -4,6 +4,12 @@
   "count": 40,
   "prs": [
     {
+      "number": 46076,
+      "title": "[Attention][DSA] support dcp for FLASHINFER_MLA_SPARSE",
+      "pack": "data/cards-workdir/vllm/packs/pr-46076.pack.md",
+      "card_out": "index/vllm/cards/pr-46076-<slug>.md"
+    },
+    {
       "number": 46346,
       "title": "[GDN] Improve kkt kernel of CuteDSL prefill backend",
       "pack": "data/cards-workdir/vllm/packs/pr-46346.pack.md",
@@ -236,12 +242,6 @@
       "title": "[ROCM][CI] Attention test speedup",
       "pack": "data/cards-workdir/vllm/packs/pr-52763.pack.md",
       "card_out": "index/vllm/cards/pr-52763-<slug>.md"
-    },
-    {
-      "number": 52970,
-      "title": "[ROCm][aiter] officially supporting aiter Triton kernels+dsv4 on RDNA3",
-      "pack": "data/cards-workdir/vllm/packs/pr-52970.pack.md",
-      "card_out": "index/vllm/cards/pr-52970-<slug>.md"
     }
   ]
 }

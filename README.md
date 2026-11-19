@@ -30,9 +30,9 @@ git submodule update --init --recursive
 
 | 知识库 | 收录范围 | vLLM | SGLang | 重点档卡片 | 上游基线 |
 | --- | --- | --- | --- | --- | --- |
-| perf-pr-index | 已合并性能优化 PR(label:performance ∪ 标题关键词) | 7108 | 6342 | 1690 证据卡 | vllm `9fbe012bd78b` / sglang `e4c3f001d6bc` |
-| rfc-index | RFC 提案(label:rfc ∪ 标题含 RFC) | 949 | 206 | 269 摘要卡 | vllm `9fbe012bd78b` / sglang `e4c3f001d6bc` |
-| bugfix-index | 已合并 bug 修复 PR(label:bug ∪ 标题含 fix/bug) | 8066 | 6506 | 1265 修复卡 | vllm `9fbe012bd78b` / sglang `e4c3f001d6bc` |
+| perf-pr-index | 已合并性能优化 PR(label:performance ∪ 标题关键词) | 7292 | 6472 | 1757 证据卡 | vllm `8283763f5856` / sglang `5e32149fd6b5` |
+| rfc-index | RFC 提案(label:rfc ∪ 标题含 RFC) | 967 | 210 | 271 摘要卡 | vllm `8283763f5856` / sglang `5e32149fd6b5` |
+| bugfix-index | 已合并 bug 修复 PR(label:bug ∪ 标题含 fix/bug) | 8205 | 6619 | 1280 修复卡 | vllm `8283763f5856` / sglang `5e32149fd6b5` |
 
 - **perf-pr-index**:按 13 类组件分类、重点/一般分级;每张证据卡含动机、优化点、关键改动(diff 摘录)、性能声明(数字照抄 + 测试条件)、验证与回归风险。
 - **rfc-index**:15 类主题、开放/已关闭状态;每张摘要卡含提案动机、方案、优化点与收益、现状落地。
@@ -69,8 +69,8 @@ python scripts/query.py --card 14237 --repo vllm
 
 | submodule | 上游 | 基线 commit |
 | --- | --- | --- |
-| vllm | https://github.com/vllm-project/vllm | `9fbe012bd78b` (2026-11-15) |
-| sglang | https://github.com/sgl-project/sglang | `e4c3f001d6bc` (2026-11-15) |
+| vllm | https://github.com/vllm-project/vllm | `8283763f5856` (2026-11-19) |
+| sglang | https://github.com/sgl-project/sglang | `5e32149fd6b5` (2026-11-19) |
 | AI-Infra-Auto-Driven-SKILLS | https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS | `5df356636bf9` (2026-11-09) |
 
 > 知识库的数据基线(抓取时刻的上游 HEAD)记录在各自 `data/snapshot.json`,

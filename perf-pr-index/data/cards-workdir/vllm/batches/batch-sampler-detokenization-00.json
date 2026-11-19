@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "Sampler / Detokenization",
-  "count": 6,
+  "count": 7,
   "prs": [
     {
       "number": 28124,
@@ -38,6 +38,12 @@
       "title": "[Perf][DSA] Read BF16 logits directly in persistent top-k",
       "pack": "data/cards-workdir/vllm/packs/pr-64138.pack.md",
       "card_out": "index/vllm/cards/pr-64138-<slug>.md"
+    },
+    {
+      "number": 67153,
+      "title": "[Perf][Frontend] Seed the fast detokenizer with a prompt tail, not the full prompt",
+      "pack": "data/cards-workdir/vllm/packs/pr-67153.pack.md",
+      "card_out": "index/vllm/cards/pr-67153-<slug>.md"
     }
   ]
 }

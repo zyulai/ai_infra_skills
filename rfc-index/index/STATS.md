@@ -1,40 +1,40 @@
 # RFC 索引统计总览
 
-- 生成时间: 2026-11-15T15:23:18+00:00
+- 生成时间: 2026-11-19T16:27:34+00:00
 
 ## 总量
 
 | 仓库 | RFC 总数 | 🔥 重点 | 开放 | 已关闭 | 有收益声明 |
 | --- | --- | --- | --- | --- | --- |
-| vllm | 949 | 226 | 397 | 552 | 24 |
-| sglang | 206 | 43 | 70 | 136 | 2 |
+| vllm | 967 | 228 | 413 | 554 | 24 |
+| sglang | 210 | 43 | 74 | 136 | 2 |
 
 ## vllm:分类分布
 
 | 分类 | 总数 | 🔥 重点 |
 | --- | --- | --- |
 | Speculative Decoding(投机解码) | 55 | 49 |
-| MoE(混合专家) | 40 | 13 |
-| Quantization(量化) | 47 | 12 |
-| Disaggregated Serving(分离式部署) | 55 | 26 |
+| MoE(混合专家) | 41 | 13 |
+| Quantization(量化) | 48 | 12 |
+| Disaggregated Serving(分离式部署) | 56 | 27 |
 | CUDA Graph / Compiler(CUDA Graph 与编译) | 33 | 14 |
 | Overlap / Scheduler(重叠与调度) | 28 | 4 |
-| Attention / Kernel(注意力与算子) | 57 | 26 |
-| KV Cache / Memory(KV Cache 与显存) | 83 | 9 |
+| Attention / Kernel(注意力与算子) | 58 | 27 |
+| KV Cache / Memory(KV Cache 与显存) | 89 | 9 |
 | Parallelism / Communication(并行与通信) | 20 | 2 |
 | Sampler / Detokenization(采样与反分词) | 14 | 0 |
-| Frontend / Serving / API(前端与服务 API) | 49 | 3 |
-| Architecture / Engine(架构与引擎) | 53 | 9 |
+| Frontend / Serving / API(前端与服务 API) | 50 | 3 |
+| Architecture / Engine(架构与引擎) | 54 | 9 |
 | Hardware / Backend(硬件与后端) | 31 | 5 |
-| Feature / Ecosystem(功能与生态) | 82 | 14 |
+| Feature / Ecosystem(功能与生态) | 83 | 14 |
 | CI / Infra / Process(CI 与基础流程) | 25 | 8 |
-| Other(其他) | 277 | 32 |
+| Other(其他) | 282 | 32 |
 
 ## vllm:年度分布(按创建时间)
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 601 | 127 |
+| 2026 | 619 | 129 |
 | 2025 | 252 | 64 |
 | 2024 | 94 | 34 |
 | 2023 | 2 | 1 |
@@ -89,25 +89,25 @@
 | 分类 | 总数 | 🔥 重点 |
 | --- | --- | --- |
 | Speculative Decoding(投机解码) | 9 | 6 |
-| MoE(混合专家) | 7 | 1 |
+| MoE(混合专家) | 8 | 1 |
 | Quantization(量化) | 12 | 2 |
 | Disaggregated Serving(分离式部署) | 12 | 10 |
 | CUDA Graph / Compiler(CUDA Graph 与编译) | 4 | 4 |
 | Overlap / Scheduler(重叠与调度) | 11 | 0 |
 | Attention / Kernel(注意力与算子) | 14 | 8 |
-| KV Cache / Memory(KV Cache 与显存) | 22 | 3 |
+| KV Cache / Memory(KV Cache 与显存) | 23 | 3 |
 | Frontend / Serving / API(前端与服务 API) | 13 | 0 |
 | Architecture / Engine(架构与引擎) | 15 | 2 |
 | Hardware / Backend(硬件与后端) | 8 | 1 |
 | Feature / Ecosystem(功能与生态) | 18 | 0 |
 | CI / Infra / Process(CI 与基础流程) | 4 | 0 |
-| Other(其他) | 57 | 6 |
+| Other(其他) | 59 | 6 |
 
 ## sglang:年度分布(按创建时间)
 
 | 年份 | 总数 | 🔥 重点 |
 | --- | --- | --- |
-| 2026 | 175 | 31 |
+| 2026 | 179 | 31 |
 | 2025 | 31 | 12 |
 
 ## sglang:热度 Top 20 (reactions×2 + comments)
@@ -157,6 +157,6 @@
 
 ## 数据快照(下次更新的基线)
 
-- 快照记录时间: 2026-11-15T14:42:46+00:00
-- **vllm** @9fbe012bd78b (upstream HEAD 2026-11-15) — commit: https://github.com/vllm-project/vllm/commit/9fbe012bd78bc46471013541e04bb9f0cfc84b80 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-15T14:30:29+00:00 | RFC 949 → 重点档 226 → 摘要卡 224
-- **sglang** @e4c3f001d6bc (upstream HEAD 2026-11-15) — commit: https://github.com/sgl-project/sglang/commit/e4c3f001d6bc8cb43e778b6b27d562af550db8c9 | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-15T14:30:29+00:00 | RFC 206 → 重点档 43 → 摘要卡 43
+- 快照记录时间: 2026-11-19T15:41:54+00:00
+- **vllm** @8283763f5856 (upstream HEAD 2026-11-19) — commit: https://github.com/vllm-project/vllm/commit/8283763f58569d9e90e998b005d02463de33449c | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-19T15:31:14+00:00 | RFC 967 → 重点档 228 → 摘要卡 226
+- **sglang** @5e32149fd6b5 (upstream HEAD 2026-11-19) — commit: https://github.com/sgl-project/sglang/commit/5e32149fd6b58a30a4a72bbaa779aafc1bb6119a | API 抓取窗口: 2026-11-07T12:33:17+00:00 ~ 2026-11-19T15:31:14+00:00 | RFC 210 → 重点档 43 → 摘要卡 43

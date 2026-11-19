@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "KV Cache / Memory",
-  "count": 13,
+  "count": 14,
   "prs": [
     {
       "number": 12078,
@@ -80,6 +80,12 @@
       "title": "[Perf] glm-5.3: Encode GLM-5.3 Python chat template prompts segment by segment",
       "pack": "data/cards-workdir/sglang/packs/pr-45399.pack.md",
       "card_out": "index/sglang/cards/pr-45399-<slug>.md"
+    },
+    {
+      "number": 46499,
+      "title": "[Feat] UnifiedL3: support mooncake storage backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-46499.pack.md",
+      "card_out": "index/sglang/cards/pr-46499-<slug>.md"
     }
   ]
 }

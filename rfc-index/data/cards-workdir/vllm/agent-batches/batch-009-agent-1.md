@@ -1,0 +1,1 @@
+RFC #67922 | [RFC]: PLE Connector for Disaggregated Embedding Serving | pack=C:/Users/Norma/Desktop/ai_infra/rfc-index/data/cards-workdir/vllm/packs/rfc-67922.pack.md | out=C:/Users/Norma/Desktop/ai_infra/rfc-index/index/vllm/rfc-cards/rfc-67922-rfc-ple-connector-for-disaggregated-embe.md

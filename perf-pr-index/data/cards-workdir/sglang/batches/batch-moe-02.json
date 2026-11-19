@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "MoE",
-  "count": 11,
+  "count": 12,
   "prs": [
     {
       "number": 45828,
@@ -68,6 +68,12 @@
       "title": "[Perf] [NVIDIA] moe: Generalize the MXFP4 decode MoE kernel to covered shapes and DeepSeek-V4",
       "pack": "data/cards-workdir/sglang/packs/pr-49091.pack.md",
       "card_out": "index/sglang/cards/pr-49091-<slug>.md"
+    },
+    {
+      "number": 50842,
+      "title": "[Feat] kimi-k3: DWDP for KDA and shared-expert weights on PD prefill",
+      "pack": "data/cards-workdir/sglang/packs/pr-50842.pack.md",
+      "card_out": "index/sglang/cards/pr-50842-<slug>.md"
     }
   ]
 }

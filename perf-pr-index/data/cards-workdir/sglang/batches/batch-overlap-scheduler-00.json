@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "Overlap / Scheduler",
-  "count": 23,
+  "count": 24,
   "prs": [
     {
       "number": 1738,
@@ -140,6 +140,12 @@
       "title": "[Perf] model_overrides: Default GLM-5.3-Flash to an agentic Mamba pool split",
       "pack": "data/cards-workdir/sglang/packs/pr-50018.pack.md",
       "card_out": "index/sglang/cards/pr-50018-<slug>.md"
+    },
+    {
+      "number": 50895,
+      "title": "[Perf] disaggregation: Stream a PD decode request's first token with its first decode output",
+      "pack": "data/cards-workdir/sglang/packs/pr-50895.pack.md",
+      "card_out": "index/sglang/cards/pr-50895-<slug>.md"
     }
   ]
 }

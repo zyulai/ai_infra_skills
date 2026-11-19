@@ -1,8 +1,26 @@
 {
   "repo": "sglang",
   "category": "Speculative Decoding",
-  "count": 16,
+  "count": 24,
   "prs": [
+    {
+      "number": 46168,
+      "title": "[Perf] mooncake: Cut the host time of direct linker layer-wise loads",
+      "pack": "data/cards-workdir/sglang/packs/pr-46168.pack.md",
+      "card_out": "index/sglang/cards/pr-46168-<slug>.md"
+    },
+    {
+      "number": 46184,
+      "title": "[Perf] mamba: write the deduplicated conv verify window as one tile",
+      "pack": "data/cards-workdir/sglang/packs/pr-46184.pack.md",
+      "card_out": "index/sglang/cards/pr-46184-<slug>.md"
+    },
+    {
+      "number": 46185,
+      "title": "[Feat] gdn: run DFLASH and DSPARK verify on the ReplaySSM spec ring",
+      "pack": "data/cards-workdir/sglang/packs/pr-46185.pack.md",
+      "card_out": "index/sglang/cards/pr-46185-<slug>.md"
+    },
     {
       "number": 46186,
       "title": "[Perf] spec: radix top-k for speculative verify target probabilities",
@@ -76,6 +94,12 @@
       "card_out": "index/sglang/cards/pr-47935-<slug>.md"
     },
     {
+      "number": 48313,
+      "title": "[Perf] [NVIDIA] fused_moe: Add H20 down-projection (TMA) configs for GLM-5.3-Flash TP8/TP4",
+      "pack": "data/cards-workdir/sglang/packs/pr-48313.pack.md",
+      "card_out": "index/sglang/cards/pr-48313-<slug>.md"
+    },
+    {
       "number": 48437,
       "title": "[Perf] [AMD] dsa: Split-K HIP sparse MLA for decode/verify",
       "pack": "data/cards-workdir/sglang/packs/pr-48437.pack.md",
@@ -98,6 +122,30 @@
       "title": "[Perf] [AMD] dsa: Default the DSA KV cache to fp8_e4m3 on gfx950",
       "pack": "data/cards-workdir/sglang/packs/pr-48996.pack.md",
       "card_out": "index/sglang/cards/pr-48996-<slug>.md"
+    },
+    {
+      "number": 49884,
+      "title": "[Perf] [AMD] distributed: Run the fused AR + RMSNorm + per-group FP8 quant on gfx942",
+      "pack": "data/cards-workdir/sglang/packs/pr-49884.pack.md",
+      "card_out": "index/sglang/cards/pr-49884-<slug>.md"
+    },
+    {
+      "number": 50156,
+      "title": "[Perf] [NVIDIA] runtime: Blackwell/Rubin serving optimizations for hybrid GDN + QSA + MoE models",
+      "pack": "data/cards-workdir/sglang/packs/pr-50156.pack.md",
+      "card_out": "index/sglang/cards/pr-50156-<slug>.md"
+    },
+    {
+      "number": 50686,
+      "title": "[Perf] [AMD] gemm: K-start rotation and a flat partial sum for the BF16 row-major small-M GEMM",
+      "pack": "data/cards-workdir/sglang/packs/pr-50686.pack.md",
+      "card_out": "index/sglang/cards/pr-50686-<slug>.md"
+    },
+    {
+      "number": 50763,
+      "title": "[Perf] [NPU] dsv4: mirrorless seq_lens path for DFlash-family spec decode",
+      "pack": "data/cards-workdir/sglang/packs/pr-50763.pack.md",
+      "card_out": "index/sglang/cards/pr-50763-<slug>.md"
     }
   ]
 }

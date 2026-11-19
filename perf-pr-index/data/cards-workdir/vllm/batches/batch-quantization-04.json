@@ -1,8 +1,32 @@
 {
   "repo": "vllm",
   "category": "Quantization",
-  "count": 4,
+  "count": 11,
   "prs": [
+    {
+      "number": 64815,
+      "title": "[Perf][MXFP8] Keep DeepSeek-V4.1 fusions on the torch._scaled_mm kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-64815.pack.md",
+      "card_out": "index/vllm/cards/pr-64815-<slug>.md"
+    },
+    {
+      "number": 65230,
+      "title": "[Quantization] Remove QuTLASS and fp_quant, run QuIP NVFP4 on Humming",
+      "pack": "data/cards-workdir/vllm/packs/pr-65230.pack.md",
+      "card_out": "index/vllm/cards/pr-65230-<slug>.md"
+    },
+    {
+      "number": 65542,
+      "title": "[Kernel] Marlin: remove 8-bit (INT8/FP8) activation support, rely on Humming",
+      "pack": "data/cards-workdir/vllm/packs/pr-65542.pack.md",
+      "card_out": "index/vllm/cards/pr-65542-<slug>.md"
+    },
+    {
+      "number": 65711,
+      "title": "[ROCm][Perf] Use tuned AITER Triton `gemm_a8w8` for per-tensor FP8 decode GEMMs on gfx950",
+      "pack": "data/cards-workdir/vllm/packs/pr-65711.pack.md",
+      "card_out": "index/vllm/cards/pr-65711-<slug>.md"
+    },
     {
       "number": 65791,
       "title": "[Perf] Vectorize silu_and_mul_per_block_quant for large inputs",
@@ -22,10 +46,28 @@
       "card_out": "index/vllm/cards/pr-66803-<slug>.md"
     },
     {
+      "number": 67302,
+      "title": "[ROCm][Quantization] Serve ModelOpt INT8_PB_WO on ROCm with an 8-bit Triton WNA16 kernel",
+      "pack": "data/cards-workdir/vllm/packs/pr-67302.pack.md",
+      "card_out": "index/vllm/cards/pr-67302-<slug>.md"
+    },
+    {
+      "number": 67363,
+      "title": "[ROCm][Perf][DSv4.1] Build the MXFP4 indexer decode metadata in one launch",
+      "pack": "data/cards-workdir/vllm/packs/pr-67363.pack.md",
+      "card_out": "index/vllm/cards/pr-67363-<slug>.md"
+    },
+    {
       "number": 67377,
       "title": "[Perf][ROCm][DSv4.1] DeepSeek-V4.1-Flash: dense MXFP8 GEMMs and wo_a on AITER's tuned FlyDSL kernels, and a faster MXFP8 activation quant (MI355X)",
       "pack": "data/cards-workdir/vllm/packs/pr-67377.pack.md",
       "card_out": "index/vllm/cards/pr-67377-<slug>.md"
+    },
+    {
+      "number": 67393,
+      "title": "[Perf][Qwen3.5] Fuse dynamic per-token FP8 input quant into the Gemma add-RMSNorm",
+      "pack": "data/cards-workdir/vllm/packs/pr-67393.pack.md",
+      "card_out": "index/vllm/cards/pr-67393-<slug>.md"
     }
   ]
 }

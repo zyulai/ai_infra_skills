@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "Other",
-  "count": 35,
+  "count": 36,
   "prs": [
     {
       "number": 11712,
@@ -206,6 +206,12 @@
       "title": "[Perf] diffusion/registry: Reduce model discovery work at startup",
       "pack": "data/cards-workdir/sglang/packs/pr-46043.pack.md",
       "card_out": "index/sglang/cards/pr-46043-<slug>.md"
+    },
+    {
+      "number": 48745,
+      "title": "[Fix] kda: Align unfused safe-gate diagonal normalization anchor",
+      "pack": "data/cards-workdir/sglang/packs/pr-48745.pack.md",
+      "card_out": "index/sglang/cards/pr-48745-<slug>.md"
     },
     {
       "number": 49391,

@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "CUDA Graph / Compiler",
-  "count": 9,
+  "count": 10,
   "prs": [
     {
       "number": 61422,
@@ -26,6 +26,12 @@
       "title": "[Core][MRV2] Warm up the sampler after CUDA graph capture to stop memory growth under load",
       "pack": "data/cards-workdir/vllm/packs/pr-62560.pack.md",
       "card_out": "index/vllm/cards/pr-62560-<slug>.md"
+    },
+    {
+      "number": 63086,
+      "title": "[ROCm][Kimi-K3] Enable encoder graph capture for Kimi-K3 Vision Tower",
+      "pack": "data/cards-workdir/vllm/packs/pr-63086.pack.md",
+      "card_out": "index/vllm/cards/pr-63086-<slug>.md"
     },
     {
       "number": 64417,

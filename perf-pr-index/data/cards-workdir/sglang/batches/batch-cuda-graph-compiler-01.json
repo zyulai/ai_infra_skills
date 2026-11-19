@@ -1,8 +1,14 @@
 {
   "repo": "sglang",
   "category": "CUDA Graph / Compiler",
-  "count": 6,
+  "count": 8,
   "prs": [
+    {
+      "number": 43563,
+      "title": "[Fix] Account for captured inputs in DeepGEMM masked workspace budget",
+      "pack": "data/cards-workdir/sglang/packs/pr-43563.pack.md",
+      "card_out": "index/sglang/cards/pr-43563-<slug>.md"
+    },
     {
       "number": 43736,
       "title": "[DeepSeek-V4.1] Run decoder SWA bounded replay inside the breakable prefill CUDA graph",
@@ -20,6 +26,12 @@
       "title": "[Perf] diffusion: Turn on breakable CUDA graphs by default for LTX-2/LTX-2.3 two-stage serving",
       "pack": "data/cards-workdir/sglang/packs/pr-45977.pack.md",
       "card_out": "index/sglang/cards/pr-45977-<slug>.md"
+    },
+    {
+      "number": 47052,
+      "title": "[Perf] [AMD] qwen3: Fuse prefill QK-norm + RoPE on ROCm with the JIT qknorm_rope kernel",
+      "pack": "data/cards-workdir/sglang/packs/pr-47052.pack.md",
+      "card_out": "index/sglang/cards/pr-47052-<slug>.md"
     },
     {
       "number": 47964,

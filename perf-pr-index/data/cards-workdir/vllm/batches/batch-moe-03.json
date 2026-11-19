@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "MoE",
-  "count": 19,
+  "count": 24,
   "prs": [
     {
       "number": 61773,
@@ -88,6 +88,12 @@
       "card_out": "index/vllm/cards/pr-64378-<slug>.md"
     },
     {
+      "number": 64687,
+      "title": "[Models][XPU] Port eager Qwen3.5 models and fuse MoE decode",
+      "pack": "data/cards-workdir/vllm/packs/pr-64687.pack.md",
+      "card_out": "index/vllm/cards/pr-64687-<slug>.md"
+    },
+    {
       "number": 65177,
       "title": "[Bugfix][Quantization] Index INT8 MoE per-channel weight scales independently of act quant - #58570",
       "pack": "data/cards-workdir/vllm/packs/pr-65177.pack.md",
@@ -98,6 +104,12 @@
       "title": "[Perf][MoE] Skip the combine staging copy in flashinfer_nvlink_one_sided",
       "pack": "data/cards-workdir/vllm/packs/pr-65498.pack.md",
       "card_out": "index/vllm/cards/pr-65498-<slug>.md"
+    },
+    {
+      "number": 65931,
+      "title": "[Kernel][Perf] Add H100 BF16 batch-invariant matmul configs for gpt-oss",
+      "pack": "data/cards-workdir/vllm/packs/pr-65931.pack.md",
+      "card_out": "index/vllm/cards/pr-65931-<slug>.md"
     },
     {
       "number": 65975,
@@ -112,10 +124,28 @@
       "card_out": "index/vllm/cards/pr-65987-<slug>.md"
     },
     {
+      "number": 66711,
+      "title": "[Perf][MoE] Add NVIDIA L4 FP8 fused MoE config for Qwen3-30B-A3B",
+      "pack": "data/cards-workdir/vllm/packs/pr-66711.pack.md",
+      "card_out": "index/vllm/cards/pr-66711-<slug>.md"
+    },
+    {
       "number": 66799,
       "title": "[Perf][MoE] Mask DP padding rows in grouped top-k routing by default",
       "pack": "data/cards-workdir/vllm/packs/pr-66799.pack.md",
       "card_out": "index/vllm/cards/pr-66799-<slug>.md"
+    },
+    {
+      "number": 67906,
+      "title": "[ROCm][Perf][DSv4.1] Fuse the MXFP8 input quant of fused_wqa_wkv and the shared expert into their producers",
+      "pack": "data/cards-workdir/vllm/packs/pr-67906.pack.md",
+      "card_out": "index/vllm/cards/pr-67906-<slug>.md"
+    },
+    {
+      "number": 68162,
+      "title": "[Tests] Reuse single-rank parallel groups for faster GPU unit tests",
+      "pack": "data/cards-workdir/vllm/packs/pr-68162.pack.md",
+      "card_out": "index/vllm/cards/pr-68162-<slug>.md"
     }
   ]
 }

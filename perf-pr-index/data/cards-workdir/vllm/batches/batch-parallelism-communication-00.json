@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "Parallelism / Communication",
-  "count": 8,
+  "count": 9,
   "prs": [
     {
       "number": 5091,
@@ -50,6 +50,12 @@
       "title": "[Perf][Bugfix][RL] Fix sparse NCCL update OOM and improve performance",
       "pack": "data/cards-workdir/vllm/packs/pr-66375.pack.md",
       "card_out": "index/vllm/cards/pr-66375-<slug>.md"
+    },
+    {
+      "number": 67659,
+      "title": "[Perf][Hy4] Sequence parallelism for iHC",
+      "pack": "data/cards-workdir/vllm/packs/pr-67659.pack.md",
+      "card_out": "index/vllm/cards/pr-67659-<slug>.md"
     }
   ]
 }

@@ -1,8 +1,14 @@
 {
   "repo": "sglang",
   "category": "Quantization",
-  "count": 18,
+  "count": 20,
   "prs": [
+    {
+      "number": 43062,
+      "title": "[Diffusion] Add ModelOpt FP8 checkpoint quantization for Pi0.5",
+      "pack": "data/cards-workdir/sglang/packs/pr-43062.pack.md",
+      "card_out": "index/sglang/cards/pr-43062-<slug>.md"
+    },
     {
       "number": 43390,
       "title": "[Perf] [NVIDIA] fp8_fa_sm120: Use the block-scaled MMA encoding",
@@ -110,6 +116,12 @@
       "title": "[Perf] [NVIDIA] dsv41: Index-Q RoPE + fp4 pack runs one thread per fp4 block for prefill-sized calls",
       "pack": "data/cards-workdir/sglang/packs/pr-48733.pack.md",
       "card_out": "index/sglang/cards/pr-48733-<slug>.md"
+    },
+    {
+      "number": 49275,
+      "title": "[Perf] [NVIDIA] quantization: Add tuned channelwise FP8 GEMM tile configs for RTX PRO 5000",
+      "pack": "data/cards-workdir/sglang/packs/pr-49275.pack.md",
+      "card_out": "index/sglang/cards/pr-49275-<slug>.md"
     }
   ]
 }

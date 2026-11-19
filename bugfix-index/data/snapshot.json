@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-15T14:42:50+00:00",
+  "generated_at": "2026-11-19T15:41:28+00:00",
   "repos": {
     "vllm": {
       "repo_full": "vllm-project/vllm",
       "fetch_window_utc": [
         "2026-11-08T09:35:42+00:00",
-        "2026-11-15T14:34:22+00:00"
+        "2026-11-19T15:37:18+00:00"
       ],
-      "raw_prs": 8066,
-      "classified_prs": 8066,
-      "major_prs": 655,
-      "evidence_cards": 649,
-      "head_sha": "9fbe012bd78bc46471013541e04bb9f0cfc84b80",
-      "head_date": "2026-11-15T20:56:28+08:00",
-      "head_message": "[ROCm][DSv4.1][Perf] Run the fused mHC seams as AITER's single-launch HIP Mega-MHC (#65992)"
+      "raw_prs": 8205,
+      "classified_prs": 8205,
+      "major_prs": 663,
+      "evidence_cards": 655,
+      "head_sha": "8283763f58569d9e90e998b005d02463de33449c",
+      "head_date": "2026-11-19T09:02:59-06:00",
+      "head_message": "[ROCm][CI] Dump child process stacks before the Model Executor test timeout (#68652)"
     },
     "sglang": {
       "repo_full": "sgl-project/sglang",
       "fetch_window_utc": [
         "2026-11-08T10:04:47+00:00",
-        "2026-11-15T14:37:49+00:00"
+        "2026-11-19T15:41:08+00:00"
       ],
-      "raw_prs": 6506,
-      "classified_prs": 6506,
-      "major_prs": 610,
-      "evidence_cards": 608,
-      "head_sha": "e4c3f001d6bc8cb43e778b6b27d562af550db8c9",
-      "head_date": "2026-11-15T21:45:41+08:00",
-      "head_message": "[Feat] qwen4-exp: Support GR and PLE sequence parallelism (#43048)"
+      "raw_prs": 6619,
+      "classified_prs": 6619,
+      "major_prs": 617,
+      "evidence_cards": 610,
+      "head_sha": "5e32149fd6b58a30a4a72bbaa779aafc1bb6119a",
+      "head_date": "2026-11-19T17:47:11+03:00",
+      "head_message": "[Feat] [NPU] multimodal: Add JPEG decoding to the shared image loader (#45792)"
     }
   }
 }

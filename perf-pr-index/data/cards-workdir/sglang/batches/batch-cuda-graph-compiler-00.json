@@ -202,6 +202,12 @@
       "card_out": "index/sglang/cards/pr-32017-<slug>.md"
     },
     {
+      "number": 33506,
+      "title": "[Fix] [AMD] dsa: Fix Triton cache flooding in aiter backend",
+      "pack": "data/cards-workdir/sglang/packs/pr-33506.pack.md",
+      "card_out": "index/sglang/cards/pr-33506-<slug>.md"
+    },
+    {
       "number": 35724,
       "title": "[diffusion] Enable LongCat breakable CUDA graphs",
       "pack": "data/cards-workdir/sglang/packs/pr-35724.pack.md",
@@ -236,12 +242,6 @@
       "title": "[Feat] diffusion/sana-video2: Support breakable CUDA graphs",
       "pack": "data/cards-workdir/sglang/packs/pr-41501.pack.md",
       "card_out": "index/sglang/cards/pr-41501-<slug>.md"
-    },
-    {
-      "number": 43563,
-      "title": "[Fix] Account for captured inputs in DeepGEMM masked workspace budget",
-      "pack": "data/cards-workdir/sglang/packs/pr-43563.pack.md",
-      "card_out": "index/sglang/cards/pr-43563-<slug>.md"
     }
   ]
 }

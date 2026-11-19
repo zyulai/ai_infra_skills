@@ -238,10 +238,10 @@
       "card_out": "index/vllm/cards/pr-44700-<slug>.md"
     },
     {
-      "number": 46076,
-      "title": "[Attention][DSA] support dcp for FLASHINFER_MLA_SPARSE",
-      "pack": "data/cards-workdir/vllm/packs/pr-46076.pack.md",
-      "card_out": "index/vllm/cards/pr-46076-<slug>.md"
+      "number": 45559,
+      "title": "[ROCm][Kernel] Extend skinny gemm N=5 to N=8 cases on GFX12 (RDNA4) using  SWMMAC optimization",
+      "pack": "data/cards-workdir/vllm/packs/pr-45559.pack.md",
+      "card_out": "index/vllm/cards/pr-45559-<slug>.md"
     }
   ]
 }

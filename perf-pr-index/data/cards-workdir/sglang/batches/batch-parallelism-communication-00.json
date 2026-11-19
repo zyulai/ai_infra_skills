@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "Parallelism / Communication",
-  "count": 12,
+  "count": 15,
   "prs": [
     {
       "number": 11381,
@@ -74,6 +74,24 @@
       "title": "[Feat] [AMD] custom-all-reduce: Add a DPX hierarchical 2shot_push to carv2 on MI450 (gfx1250)",
       "pack": "data/cards-workdir/sglang/packs/pr-49205.pack.md",
       "card_out": "index/sglang/cards/pr-49205-<slug>.md"
+    },
+    {
+      "number": 49955,
+      "title": "[Feat] [AMD] custom-all-reduce: Add a ring all-reduce and an unrolled 2shot_push on gfx1250",
+      "pack": "data/cards-workdir/sglang/packs/pr-49955.pack.md",
+      "card_out": "index/sglang/cards/pr-49955-<slug>.md"
+    },
+    {
+      "number": 50656,
+      "title": "[Perf] [AMD] custom-all-reduce: Drop the gfx1250 2shot_push clamp and retune carv2",
+      "pack": "data/cards-workdir/sglang/packs/pr-50656.pack.md",
+      "card_out": "index/sglang/cards/pr-50656-<slug>.md"
+    },
+    {
+      "number": 50660,
+      "title": "[Perf] [AMD] custom-all-reduce: Add hier_ring_simple, a ring all-reduce over partition pairs on gfx1250",
+      "pack": "data/cards-workdir/sglang/packs/pr-50660.pack.md",
+      "card_out": "index/sglang/cards/pr-50660-<slug>.md"
     }
   ]
 }

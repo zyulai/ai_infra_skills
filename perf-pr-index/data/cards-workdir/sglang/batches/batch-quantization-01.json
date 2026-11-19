@@ -238,10 +238,10 @@
       "card_out": "index/sglang/cards/pr-41794-<slug>.md"
     },
     {
-      "number": 43062,
-      "title": "[Diffusion] Add ModelOpt FP8 checkpoint quantization for Pi0.5",
-      "pack": "data/cards-workdir/sglang/packs/pr-43062.pack.md",
-      "card_out": "index/sglang/cards/pr-43062-<slug>.md"
+      "number": 42224,
+      "title": "[Perf] [NPU] dsa: Add INT8 LightningIndexer to accelerate indexing on A2/A3",
+      "pack": "data/cards-workdir/sglang/packs/pr-42224.pack.md",
+      "card_out": "index/sglang/cards/pr-42224-<slug>.md"
     }
   ]
 }

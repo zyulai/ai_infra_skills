@@ -1,0 +1,1 @@
+RFC #67874 | [RFC][HiSparse] On-Demand KV Gather and Layerwise Two-Slot Reuse for Sparse-MLA (DSA) Prefill | pack=C:/Users/Norma/Desktop/ai_infra/rfc-index/data/cards-workdir/vllm/packs/rfc-67874.pack.md | out=C:/Users/Norma/Desktop/ai_infra/rfc-index/index/vllm/rfc-cards/rfc-67874-rfc-hisparse-on-demand-kv-gather-and-lay.md

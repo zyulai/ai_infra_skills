@@ -1,7 +1,7 @@
 {
   "repo": "sglang",
   "category": "Model-specific Fast Path",
-  "count": 22,
+  "count": 24,
   "prs": [
     {
       "number": 36507,
@@ -14,6 +14,12 @@
       "title": "MiniMax-M3: allow shared-experts fusion on ROCm gfx942 and newer",
       "pack": "data/cards-workdir/sglang/packs/pr-36576.pack.md",
       "card_out": "index/sglang/cards/pr-36576-<slug>.md"
+    },
+    {
+      "number": 38344,
+      "title": "[Feat] CP: Prefill context parallelism for Kimi K3",
+      "pack": "data/cards-workdir/sglang/packs/pr-38344.pack.md",
+      "card_out": "index/sglang/cards/pr-38344-<slug>.md"
     },
     {
       "number": 38461,
@@ -110,6 +116,12 @@
       "title": "[Perf] kda: Write convolution output directly into contiguous QKV planes",
       "pack": "data/cards-workdir/sglang/packs/pr-46738.pack.md",
       "card_out": "index/sglang/cards/pr-46738-<slug>.md"
+    },
+    {
+      "number": 46858,
+      "title": "[Feat] lfm3: Add text, vision, audio and Omni support",
+      "pack": "data/cards-workdir/sglang/packs/pr-46858.pack.md",
+      "card_out": "index/sglang/cards/pr-46858-<slug>.md"
     },
     {
       "number": 48399,

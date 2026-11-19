@@ -4,6 +4,12 @@
   "count": 40,
   "prs": [
     {
+      "number": 52970,
+      "title": "[ROCm][aiter] officially supporting aiter Triton kernels+dsv4 on RDNA3",
+      "pack": "data/cards-workdir/vllm/packs/pr-52970.pack.md",
+      "card_out": "index/vllm/cards/pr-52970-<slug>.md"
+    },
+    {
       "number": 53147,
       "title": "[Kernel][Gemma4] Prune Triton sliding-window tiles for multimodal prefixes",
       "pack": "data/cards-workdir/vllm/packs/pr-53147.pack.md",
@@ -236,12 +242,6 @@
       "title": "[ROCm][Perf][GLM-5.3-Flash] Remove redundant copy after ragged sparse MLA",
       "pack": "data/cards-workdir/vllm/packs/pr-58569.pack.md",
       "card_out": "index/vllm/cards/pr-58569-<slug>.md"
-    },
-    {
-      "number": 58584,
-      "title": "[ROCm][Perf][GLM-5.3-Flash] BF16 splitk kernel for sparse MLA decode",
-      "pack": "data/cards-workdir/vllm/packs/pr-58584.pack.md",
-      "card_out": "index/vllm/cards/pr-58584-<slug>.md"
     }
   ]
 }

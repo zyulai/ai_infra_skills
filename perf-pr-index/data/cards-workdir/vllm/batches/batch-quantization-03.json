@@ -118,6 +118,12 @@
       "card_out": "index/vllm/cards/pr-59478-<slug>.md"
     },
     {
+      "number": 59564,
+      "title": "[Perf] Use value-only reduction for FP8 group quantization",
+      "pack": "data/cards-workdir/vllm/packs/pr-59564.pack.md",
+      "card_out": "index/vllm/cards/pr-59564-<slug>.md"
+    },
+    {
       "number": 59612,
       "title": "[Fusion] Support 3D activation quantization fusion and enable it for Pixtral",
       "pack": "data/cards-workdir/vllm/packs/pr-59612.pack.md",
@@ -196,6 +202,12 @@
       "card_out": "index/vllm/cards/pr-63179-<slug>.md"
     },
     {
+      "number": 63272,
+      "title": "[ROCm][Quantization][Perf] Fuse the block Hadamard input rotation into AITER's MXFP4 activation quant",
+      "pack": "data/cards-workdir/vllm/packs/pr-63272.pack.md",
+      "card_out": "index/vllm/cards/pr-63272-<slug>.md"
+    },
+    {
       "number": 63669,
       "title": "[ROCm][Perf] Make MXFP4 the default indexer K cache dtype for DeepSeek-V4",
       "pack": "data/cards-workdir/vllm/packs/pr-63669.pack.md",
@@ -214,6 +226,12 @@
       "card_out": "index/vllm/cards/pr-64331-<slug>.md"
     },
     {
+      "number": 64373,
+      "title": "[Quantization][GLM-5.3] Let online quantization reach the BF16 attention projections",
+      "pack": "data/cards-workdir/vllm/packs/pr-64373.pack.md",
+      "card_out": "index/vllm/cards/pr-64373-<slug>.md"
+    },
+    {
       "number": 64509,
       "title": "[Perf][Qwen3.5] (NVIDIA-only) Fused norm+quant and gate+quant",
       "pack": "data/cards-workdir/vllm/packs/pr-64509.pack.md",
@@ -224,24 +242,6 @@
       "title": "[Quantization] Load ModelOpt NVFP4 W4A16 token embeddings in mixed-precision checkpoints",
       "pack": "data/cards-workdir/vllm/packs/pr-64767.pack.md",
       "card_out": "index/vllm/cards/pr-64767-<slug>.md"
-    },
-    {
-      "number": 64815,
-      "title": "[Perf][MXFP8] Keep DeepSeek-V4.1 fusions on the torch._scaled_mm kernel",
-      "pack": "data/cards-workdir/vllm/packs/pr-64815.pack.md",
-      "card_out": "index/vllm/cards/pr-64815-<slug>.md"
-    },
-    {
-      "number": 65230,
-      "title": "[Quantization] Remove QuTLASS and fp_quant, run QuIP NVFP4 on Humming",
-      "pack": "data/cards-workdir/vllm/packs/pr-65230.pack.md",
-      "card_out": "index/vllm/cards/pr-65230-<slug>.md"
-    },
-    {
-      "number": 65542,
-      "title": "[Kernel] Marlin: remove 8-bit (INT8/FP8) activation support, rely on Humming",
-      "pack": "data/cards-workdir/vllm/packs/pr-65542.pack.md",
-      "card_out": "index/vllm/cards/pr-65542-<slug>.md"
     }
   ]
 }

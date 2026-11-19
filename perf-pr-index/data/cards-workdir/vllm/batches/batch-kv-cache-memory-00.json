@@ -196,6 +196,12 @@
       "card_out": "index/vllm/cards/pr-59039-<slug>.md"
     },
     {
+      "number": 59209,
+      "title": "[Hisparse] Support HiSparse for QSA ",
+      "pack": "data/cards-workdir/vllm/packs/pr-59209.pack.md",
+      "card_out": "index/vllm/cards/pr-59209-<slug>.md"
+    },
+    {
       "number": 59774,
       "title": "[ROCm] Octave KV (`ROCM_OCTAVE`): native 3-bit KV cache backend for AMD GPUs",
       "pack": "data/cards-workdir/vllm/packs/pr-59774.pack.md",
@@ -220,6 +226,12 @@
       "card_out": "index/vllm/cards/pr-61452-<slug>.md"
     },
     {
+      "number": 63294,
+      "title": "[EC Connector] Add ECTieringConnector filesystem tiering for encoder cache",
+      "pack": "data/cards-workdir/vllm/packs/pr-63294.pack.md",
+      "card_out": "index/vllm/cards/pr-63294-<slug>.md"
+    },
+    {
       "number": 63742,
       "title": "[Perf][Mamba] Use the shared checkpoint exporter for Mamba2 and drop ssd_checkpoint",
       "pack": "data/cards-workdir/vllm/packs/pr-63742.pack.md",
@@ -230,18 +242,6 @@
       "title": "[Perf][Frontend] Compute prompt block hashes in the Rust frontend",
       "pack": "data/cards-workdir/vllm/packs/pr-63842.pack.md",
       "card_out": "index/vllm/cards/pr-63842-<slug>.md"
-    },
-    {
-      "number": 64094,
-      "title": "[ROCm][DSv4.1][Perf]  Enable prefix-cache SWA replay on gfx950",
-      "pack": "data/cards-workdir/vllm/packs/pr-64094.pack.md",
-      "card_out": "index/vllm/cards/pr-64094-<slug>.md"
-    },
-    {
-      "number": 64472,
-      "title": "[Bugfix][Core] Keep KV cache zeroing for mixed-precision UniformTypeKVCacheSpecs groups",
-      "pack": "data/cards-workdir/vllm/packs/pr-64472.pack.md",
-      "card_out": "index/vllm/cards/pr-64472-<slug>.md"
     }
   ]
 }

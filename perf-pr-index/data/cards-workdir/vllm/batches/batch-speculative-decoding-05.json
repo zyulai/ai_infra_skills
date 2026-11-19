@@ -1,13 +1,67 @@
 {
   "repo": "vllm",
   "category": "Speculative Decoding",
-  "count": 1,
+  "count": 10,
   "prs": [
+    {
+      "number": 65448,
+      "title": "[KV Connector][Spec Decode] Support lookahead block hashes in remaining KV connectors",
+      "pack": "data/cards-workdir/vllm/packs/pr-65448.pack.md",
+      "card_out": "index/vllm/cards/pr-65448-<slug>.md"
+    },
+    {
+      "number": 65706,
+      "title": "[Perf][GLM-5.3] Add FlashInfer warp split-K GEMMs to the SM107 low-latency table and fix q_b's M=1 fallback",
+      "pack": "data/cards-workdir/vllm/packs/pr-65706.pack.md",
+      "card_out": "index/vllm/cards/pr-65706-<slug>.md"
+    },
+    {
+      "number": 65874,
+      "title": "[Kernel][Perf] Fused GDN MTP: Support DSpark K=8 and use idle SMs at small batch sizes",
+      "pack": "data/cards-workdir/vllm/packs/pr-65874.pack.md",
+      "card_out": "index/vllm/cards/pr-65874-<slug>.md"
+    },
+    {
+      "number": 65972,
+      "title": "[Perf][MoE] Skip DP padding rows in TRT-LLM monolithic MoE with vLLM's top-k",
+      "pack": "data/cards-workdir/vllm/packs/pr-65972.pack.md",
+      "card_out": "index/vllm/cards/pr-65972-<slug>.md"
+    },
+    {
+      "number": 65992,
+      "title": "[ROCm][DSv4.1][Perf] Run the fused mHC seams as AITER's single-launch HIP Mega-MHC",
+      "pack": "data/cards-workdir/vllm/packs/pr-65992.pack.md",
+      "card_out": "index/vllm/cards/pr-65992-<slug>.md"
+    },
+    {
+      "number": 66324,
+      "title": "[Perf][MiniMax-M3.1] MiniMax-M3.1-Flash Specialized Decode: CuTe DSL Optimized GB300 (up to 1.45x)",
+      "pack": "data/cards-workdir/vllm/packs/pr-66324.pack.md",
+      "card_out": "index/vllm/cards/pr-66324-<slug>.md"
+    },
     {
       "number": 66512,
       "title": "[Perf][Qwen4Exp] Faster QSA kernel for large fp8 batches on Blackwell",
       "pack": "data/cards-workdir/vllm/packs/pr-66512.pack.md",
       "card_out": "index/vllm/cards/pr-66512-<slug>.md"
+    },
+    {
+      "number": 67006,
+      "title": "[Quantization] Online weight-only NVFP4 for dense linear layers",
+      "pack": "data/cards-workdir/vllm/packs/pr-67006.pack.md",
+      "card_out": "index/vllm/cards/pr-67006-<slug>.md"
+    },
+    {
+      "number": 67133,
+      "title": "[ROCm][Attention] AITER FA: dedicated split-KV kernels for decode and speculative-decode verify (GQA 8, head 64, FP8 KV)",
+      "pack": "data/cards-workdir/vllm/packs/pr-67133.pack.md",
+      "card_out": "index/vllm/cards/pr-67133-<slug>.md"
+    },
+    {
+      "number": 68129,
+      "title": "[Perf][Step5] Keep PrimTS SWA verify batches on the decode plan",
+      "pack": "data/cards-workdir/vllm/packs/pr-68129.pack.md",
+      "card_out": "index/vllm/cards/pr-68129-<slug>.md"
     }
   ]
 }

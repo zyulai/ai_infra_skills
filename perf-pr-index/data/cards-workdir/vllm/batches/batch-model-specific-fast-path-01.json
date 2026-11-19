@@ -1,7 +1,7 @@
 {
   "repo": "vllm",
   "category": "Model-specific Fast Path",
-  "count": 31,
+  "count": 34,
   "prs": [
     {
       "number": 55331,
@@ -148,6 +148,12 @@
       "card_out": "index/vllm/cards/pr-62392-<slug>.md"
     },
     {
+      "number": 62590,
+      "title": "[ROCm][Perf][Qwen4Exp] Tune sparse GQA prefill profile on gfx942 and gfx950",
+      "pack": "data/cards-workdir/vllm/packs/pr-62590.pack.md",
+      "card_out": "index/vllm/cards/pr-62590-<slug>.md"
+    },
+    {
       "number": 62592,
       "title": "[Feature][HiSparse] Add a platform backend for device operations",
       "pack": "data/cards-workdir/vllm/packs/pr-62592.pack.md",
@@ -158,6 +164,12 @@
       "title": "[Perf][MRV2] Parallelize staged writes across 1024-element chunks",
       "pack": "data/cards-workdir/vllm/packs/pr-62698.pack.md",
       "card_out": "index/vllm/cards/pr-62698-<slug>.md"
+    },
+    {
+      "number": 63114,
+      "title": "[Model] Serve Base Labs mammoth-1 / elephant-1 with their trained block-bidirectional mask",
+      "pack": "data/cards-workdir/vllm/packs/pr-63114.pack.md",
+      "card_out": "index/vllm/cards/pr-63114-<slug>.md"
     },
     {
       "number": 63893,
@@ -188,6 +200,12 @@
       "title": "[Perf][DSv4.1] CuTe DSL mHC boundary for decode batches up to 336 tokens",
       "pack": "data/cards-workdir/vllm/packs/pr-66652.pack.md",
       "card_out": "index/vllm/cards/pr-66652-<slug>.md"
+    },
+    {
+      "number": 68154,
+      "title": "[Perf][Qwen4Exp] Raster the fused HC up+gate mix tiles N-fastest",
+      "pack": "data/cards-workdir/vllm/packs/pr-68154.pack.md",
+      "card_out": "index/vllm/cards/pr-68154-<slug>.md"
     }
   ]
 }
